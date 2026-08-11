@@ -39,7 +39,13 @@ shares most recently:
 7. `07_buyback_alert.py` — takes every company that filed a buy-back on the most recent trading
    day in the history, and reports the prior buy-back date on record for that company and how
    many days elapsed since then (i.e. an ongoing daily programme vs. a resumption after a gap)
-   -> `output/buyback_alert.md` and `output/buyback_alert.csv`.
+   -> `output/buyback_alert.md` and `output/buyback_alert.csv`. Each company name links directly
+   to that day's SGX filing.
+8. `08_buyback_company_summary.py` — collapses the full history into one row per company (not
+   just today's filers), alphabetical, each linking to its most recent buy-back filing -> `output/
+   buyback_company_summary.md` and `.csv`. Use this to look up a specific company's last buy-back
+   date directly instead of scrolling `history/buyback_history.csv`, which is one flat
+   chronological log of every company's every filing.
 
 The announcements endpoint requires a short-lived token, obtained the same way SGX's own
 frontend does: fetch a public CMS field and ROT13-decode it client-side. The endpoint also sits
@@ -54,7 +60,7 @@ instead of resetting to the 14-day lookback window each time.
 
 A cloud routine runs the liquidity screener pipeline every Friday at 17:30 Asia/Singapore time
 (09:30 UTC), after the SGX market closes. A second daily routine runs the buy-back alert
-(scripts 6-7) every weekday morning. Both commit their updated `history/` and `output/` files
+(scripts 6-8) every weekday morning. Both commit their updated `history/` and `output/` files
 back to this repo.
 
 ## Requirements

@@ -64,12 +64,16 @@ def main():
     else:
         lines.append(f"## Companies that filed a share buy-back on {latest_date.isoformat()} ({len(alert)})")
         lines.append("")
-        lines.append("| Stock | Company | Prior buy-back date | Days since prior buy-back |")
+        lines.append("| Stock | Company (links to today's filing) | Prior buy-back date | Days since prior buy-back |")
         lines.append("|---|---|---|---|")
         for _, r in alert.iterrows():
             prior_str = r["prior_buyback_date"] if pd.notna(r["prior_buyback_date"]) else "no prior record"
             gap_str = f"{int(r['days_since_prior_buyback'])}" if pd.notna(r["days_since_prior_buyback"]) else "first seen"
-            lines.append(f"| {r['stock_code']} | {r['issuer_name']} | {prior_str} | {gap_str} |")
+            company_link = f"[{r['issuer_name']}]({r['url']})" if pd.notna(r["url"]) else r["issuer_name"]
+            lines.append(f"| {r['stock_code']} | {company_link} | {prior_str} | {gap_str} |")
+        lines.append("")
+        lines.append("See `buyback_company_summary.md` for every company's last buy-back date in one place, "
+                      "instead of scrolling the full chronological history log.")
 
     summary_text = "\n".join(lines)
     with open(OUT_MD_PATH, "w", encoding="utf-8") as f:
