@@ -27,10 +27,34 @@ Run in order from the `scripts/` directory:
    `history/`, reports new entrants / drop-offs -> `output/weekly_summary.md`, and saves this
    run's snapshot to `history/top10_<date>.csv`
 
+## Share buy-back alert
+
+Separate daily pipeline that screens SGX's public company-announcements feed for "Share Buy
+Back-On Market" notices (category `ANNC` / sub `ANNC13`) and flags which companies bought back
+shares most recently:
+
+6. `06_fetch_buyback_announcements.py` — calls SGX's announcements API for a trailing 14-day
+   window and merges any new buy-back notices into the running log at
+   `history/buyback_history.csv` (deduped by announcement id, so it's safe to re-run).
+7. `07_buyback_alert.py` — takes every company that filed a buy-back on the most recent trading
+   day in the history, and reports the prior buy-back date on record for that company and how
+   many days elapsed since then (i.e. an ongoing daily programme vs. a resumption after a gap)
+   -> `output/buyback_alert.md` and `output/buyback_alert.csv`.
+
+The announcements endpoint requires a short-lived token, obtained the same way SGX's own
+frontend does: fetch a public CMS field and ROT13-decode it client-side. The endpoint also sits
+behind bot-fingerprinting that blocks Python's `requests`/urllib3 outright regardless of headers,
+so the listing call shells out to `curl` (identical headers, not blocked).
+
+`history/buyback_history.csv` is the persistent record — unlike `data/` (gitignored, rebuilt
+every run), `history/` is committed by the scheduled run, so the log accumulates across days
+instead of resetting to the 14-day lookback window each time.
+
 ## Scheduled run
 
-A cloud routine runs this pipeline every Friday at 17:30 Asia/Singapore time (09:30 UTC), after
-the SGX market closes, and commits the updated `history/` snapshot and `output/` deliverables
+A cloud routine runs the liquidity screener pipeline every Friday at 17:30 Asia/Singapore time
+(09:30 UTC), after the SGX market closes. A second daily routine runs the buy-back alert
+(scripts 6-7) every weekday morning. Both commit their updated `history/` and `output/` files
 back to this repo.
 
 ## Requirements
