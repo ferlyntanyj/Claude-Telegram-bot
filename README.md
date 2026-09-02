@@ -70,18 +70,37 @@ instead of resetting to the 14-day lookback window each time.
 
 ## Scheduled run
 
-A local Windows Task Scheduler job ("SGX Liquidity Momentum Screener - Weekly") runs
-`scripts/run_weekly.ps1` every Monday at 08:00 Asia/Singapore time, before SGX opens. It chains
-scripts 1-5, commits/pushes `output/` and `history/` if anything changed, then sends the email.
-Only fires if the machine is on and the user is logged in at that time. Logs land in `logs/`
-(gitignored).
+**`.github/workflows/weekly_screener.yml` is the source of truth.** It runs on GitHub's own
+infrastructure every Monday at 00:00 UTC (08:00 Asia/Singapore, before SGX opens): checks out the
+repo, installs dependencies, runs scripts 1-5, commits/pushes `output/` and `history/` if
+anything changed, then sends the email and Telegram message using GitHub repo Secrets. It also
+has `workflow_dispatch` enabled, so it can be triggered manually from the repo's Actions tab
+(Actions -> Weekly Liquidity Momentum Screener -> Run workflow) instead of waiting for Monday.
+Logs are visible directly in that Actions run, unlike the cloud routine below.
 
-A cloud routine previously ran a Friday version of this but was found to silently report
-"succeeded" without actually fetching data or committing (likely a network egress restriction in
-that sandbox) — it's disabled. The local scheduled task is the source of truth.
+A local Windows Task Scheduler job ("SGX Liquidity Momentum Screener - Weekly") running
+`scripts/run_weekly.ps1` was the original mechanism and is kept as reference/fallback, but is
+disabled by default now that GitHub Actions handles it — re-enable it in Task Scheduler only if
+GitHub Actions is unavailable.
+
+A cloud routine (claude.ai) previously ran a Friday version of this but was found to silently
+report "succeeded" without actually fetching data or committing (likely a network egress
+restriction in that sandbox) — it's disabled and superseded by GitHub Actions.
 
 A separate routine runs the buy-back alert (scripts 6-8) — see that section above for its own
 schedule.
+
+### GitHub Actions secrets (one-time, done via github.com — never share these in chat)
+
+Go to the repo's **Settings -> Secrets and variables -> Actions -> New repository secret** and
+add each of the following (same values you already set locally as environment variables):
+
+- `SGX_SCREENER_GMAIL_APP_PASSWORD`
+- `SGX_SCREENER_TELEGRAM_BOT_TOKEN`
+- `SGX_SCREENER_TELEGRAM_CHAT_ID`
+
+GitHub encrypts these at rest and never exposes them in logs, even on a public repo. Once all
+three are added, trigger a manual run from the Actions tab to verify before waiting for Monday.
 
 ### Email setup (one-time, run yourself — never share this password in chat)
 
