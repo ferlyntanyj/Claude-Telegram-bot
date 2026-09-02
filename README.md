@@ -76,6 +76,43 @@ A delivery script runs after step 8:
 both step 7 and the Telegram script read, so the filter threshold and the message wording stay
 in sync.
 
+## Morning US market brief
+
+Standalone weekday pipeline, unrelated to SGX -- a concise "what happened overnight in the US
+market" digest delivered to Telegram at 08:30 Asia/Singapore (00:30 UTC), after the US cash
+session and after-hours have closed. Deterministic, no LLM.
+
+- `morning_brief.py` -- builds the brief in two halves:
+  1. **Scoreboard** -- index / vol / rates / commodity / FX / crypto / futures moves from Yahoo
+     Finance (`yfinance`), last close vs the prior close. Rate moves (`^TNX` etc.) are shown in
+     basis points. If the freshest index bar is more than a day old (US holiday or data lag) the
+     brief flags it instead of showing 0.00%.
+  2. **Headlines** -- pulled from Google News RSS search (`when:1d`) plus CNBC section feeds and
+     the Fed press-release feed. Each headline must be recent enough for the overnight window
+     (20h on weekdays, 72h on Monday to reach back over the weekend), come from an allow-listed
+     source (`SOURCE_WEIGHTS`), and carry a US-market-relevant term (`US_RELEVANCE_TERMS`).
+     Survivors are de-duplicated across sources, ranked by source trust + recency (listicles,
+     promo and opinion are buried by `DOWNRANK_PATTERNS`; `DENY_PATTERNS` drops previews, other
+     countries' central-bank items and auto-generated quote pages outright), classified into
+     four blocks by their own wording (`SECTION_KEYWORDS`), and capped at
+     `MAX_ITEMS_PER_SECTION` each: **Markets / Macro, Fed & data / Stocks & earnings /
+     Geopolitics**.
+  - An optional best-effort X pull via Nitter RSS (`X_ACCOUNTS`, `NITTER_INSTANCES`) is appended
+    when a live instance answers; most Nitter instances are dead or auth-walled, so the block is
+    usually just omitted. No paid X API.
+  - Writes `output/morning_brief.md` (human-readable, committed by the workflow as a daily
+    archive) and `output/morning_brief.json` (structured, for the sender).
+
+- `send_morning_brief_telegram.py` -- reads the JSON and sends the brief as Telegram HTML
+  (bold labels, italic moves, section emoji, headline links), auto-split if it would exceed
+  Telegram's 4096-char limit. `--dry-run` prints the message(s) instead of sending and needs no
+  credentials. Reuses the same `SGX_SCREENER_TELEGRAM_BOT_TOKEN` / `SGX_SCREENER_TELEGRAM_CHAT_ID`
+  as the other two pipelines.
+
+All tuning knobs (tickers, feeds, queries, source weights, keyword lists, window lengths) live
+in `morning_brief_config.py`. The headline filter is heuristic -- expect the odd marginal item;
+tighten `MIN_SOURCE_WEIGHT` or extend the pattern lists to taste.
+
 The announcements endpoint requires a short-lived token, obtained the same way SGX's own
 frontend does: fetch a public CMS field and ROT13-decode it client-side. The endpoint also sits
 behind bot-fingerprinting that blocks Python's `requests`/urllib3 outright regardless of headers,
@@ -111,6 +148,13 @@ runs scripts 6-8, commits/pushes `output/` and `history/` if anything changed (r
 it doesn't collide with the Monday weekly job), then sends the Telegram alert using the same repo
 Secrets. `workflow_dispatch` is enabled, so it can also be run on demand from the Actions tab
 (Actions -> Daily SGX Share Buy-Back Alert -> Run workflow).
+
+**`.github/workflows/morning_brief.yml`** is the source of truth for the morning US market brief.
+It runs every weekday (Mon-Fri) at 00:30 UTC (08:30 Asia/Singapore) — 30 minutes after the
+buy-back job so the two don't race on the push to `main`: checks out the repo, runs
+`morning_brief.py`, commits/pushes `output/morning_brief.md` if it changed (rebasing first),
+then sends the Telegram brief using the same repo Secrets. `workflow_dispatch` is enabled
+(Actions -> US Market Morning Brief -> Run workflow).
 
 ### GitHub Actions secrets (one-time, done via github.com — never share these in chat)
 

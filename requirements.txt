@@ -3,3 +3,4 @@ yfinance
 openpyxl
 pyarrow
 requests
+feedparser

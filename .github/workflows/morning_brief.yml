@@ -1,0 +1,60 @@
+name: US Market Morning Brief
+
+on:
+  schedule:
+    # 00:30 UTC Mon-Fri = 08:30 Asia/Singapore, after the US cash session and
+    # after-hours have closed. Runs 30 min after the daily buy-back job so the
+    # two don't race on the push to main.
+    - cron: "30 0 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: morning-brief
+  cancel-in-progress: false
+
+jobs:
+  morning-brief:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build the brief
+        working-directory: scripts
+        run: python morning_brief.py
+
+      - name: Commit and push the brief
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/morning_brief.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Morning brief: $(date -u +%Y-%m-%d)"
+            # Rebase on top of anything the buy-back / weekly jobs pushed since
+            # checkout, then push.
+            for attempt in 1 2 3; do
+              git pull --rebase --autostash origin main && git push && break
+              echo "push attempt $attempt failed, retrying..."
+              sleep 5
+            done
+          fi
+
+      - name: Send Telegram brief
+        working-directory: scripts
+        env:
+          SGX_SCREENER_TELEGRAM_BOT_TOKEN: ${{ secrets.SGX_SCREENER_TELEGRAM_BOT_TOKEN }}
+          SGX_SCREENER_TELEGRAM_CHAT_ID: ${{ secrets.SGX_SCREENER_TELEGRAM_CHAT_ID }}
+        run: python send_morning_brief_telegram.py
