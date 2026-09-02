@@ -3,6 +3,7 @@ Fetch daily OHLCV history (2024-01-01 to today) for every ticker in the
 SGX universe via yfinance, in batches. Saves one long-format parquet file:
 columns = [date, ticker, close, volume]
 """
+import os
 import time
 import pandas as pd
 import yfinance as yf
@@ -19,6 +20,7 @@ def chunked(seq, size):
 
 
 def main():
+    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     universe = pd.read_csv(UNIVERSE_PATH)
     tickers = universe["yahoo_ticker"].tolist()
 

@@ -3,6 +3,7 @@ Fetch the full list of SGX mainboard + Catalist listed stocks from SGX's
 public securities API and save as the screening universe.
 """
 import json
+import os
 import requests
 import pandas as pd
 
@@ -11,6 +12,7 @@ OUT_PATH = "../data/universe.csv"
 
 
 def main():
+    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     headers = {"User-Agent": "Mozilla/5.0"}
     resp = requests.get(SGX_API, headers=headers, timeout=30)
     resp.raise_for_status()
