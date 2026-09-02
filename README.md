@@ -59,6 +59,15 @@ shares most recently:
    date directly instead of scrolling `history/buyback_history.csv`, which is one flat
    chronological log of every company's every filing.
 
+A delivery script runs after step 8:
+
+- `send_buyback_telegram.py` — reads `output/buyback_alert.csv` and sends one Telegram message
+  (auto-split if it would exceed Telegram's 4096-char limit): the latest trading day with
+  filings, how stale that is relative to the run, then one line per company with the previous
+  buy-back date on record and the day-gap, each company name linking to that day's SGX filing.
+  Reuses the same `SGX_SCREENER_TELEGRAM_BOT_TOKEN` / `SGX_SCREENER_TELEGRAM_CHAT_ID` as the
+  weekly screener.
+
 The announcements endpoint requires a short-lived token, obtained the same way SGX's own
 frontend does: fetch a public CMS field and ROT13-decode it client-side. The endpoint also sits
 behind bot-fingerprinting that blocks Python's `requests`/urllib3 outright regardless of headers,
@@ -87,8 +96,13 @@ A cloud routine (claude.ai) previously ran a Friday version of this but was foun
 report "succeeded" without actually fetching data or committing (likely a network egress
 restriction in that sandbox) — it's disabled and superseded by GitHub Actions.
 
-A separate routine runs the buy-back alert (scripts 6-8) — see that section above for its own
-schedule.
+**`.github/workflows/daily_buyback_alert.yml`** is the source of truth for the buy-back alert.
+It runs on GitHub's infrastructure every weekday (Mon-Fri) at 00:00 UTC (08:00 Asia/Singapore,
+before SGX opens — SGX buy-back notices are filed the previous evening SGT): checks out the repo,
+runs scripts 6-8, commits/pushes `output/` and `history/` if anything changed (rebasing first so
+it doesn't collide with the Monday weekly job), then sends the Telegram alert using the same repo
+Secrets. `workflow_dispatch` is enabled, so it can also be run on demand from the Actions tab
+(Actions -> Daily SGX Share Buy-Back Alert -> Run workflow).
 
 ### GitHub Actions secrets (one-time, done via github.com — never share these in chat)
 

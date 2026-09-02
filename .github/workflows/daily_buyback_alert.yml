@@ -1,0 +1,62 @@
+name: Daily SGX Share Buy-Back Alert
+
+on:
+  schedule:
+    # 00:00 UTC Mon-Fri = 08:00 Asia/Singapore, before SGX opens at 09:00 SGT.
+    # SGX buy-back notices are filed the previous evening SGT, so the morning run catches them.
+    - cron: "0 0 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  # Don't let two runs (e.g. a manual dispatch on top of the scheduled one) push over each other.
+  group: daily-buyback-alert
+  cancel-in-progress: false
+
+jobs:
+  buyback-alert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run buy-back pipeline
+        working-directory: scripts
+        run: |
+          python 06_fetch_buyback_announcements.py
+          python 07_buyback_alert.py
+          python 08_buyback_company_summary.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/ history/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Daily buy-back alert run: $(date -u +%Y-%m-%d)"
+            # Rebase on top of anything the weekly workflow pushed since checkout, then push.
+            for attempt in 1 2 3; do
+              git pull --rebase --autostash origin main && git push && break
+              echo "push attempt $attempt failed, retrying..."
+              sleep 5
+            done
+          fi
+
+      - name: Send Telegram alert
+        working-directory: scripts
+        env:
+          SGX_SCREENER_TELEGRAM_BOT_TOKEN: ${{ secrets.SGX_SCREENER_TELEGRAM_BOT_TOKEN }}
+          SGX_SCREENER_TELEGRAM_CHAT_ID: ${{ secrets.SGX_SCREENER_TELEGRAM_CHAT_ID }}
+        run: python send_buyback_telegram.py
