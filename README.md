@@ -26,6 +26,10 @@ Run in order from the `scripts/` directory:
 5. `05_weekly_diff.py` — compares this run's top 10 against the most recent snapshot in
    `history/`, reports new entrants / drop-offs -> `output/weekly_summary.md`, and saves this
    run's snapshot to `history/top10_<date>.csv`
+6. `send_weekly_email.py` — emails `output/weekly_summary.md` (as the body) with
+   `output/SGX_Liquidity_Momentum_Screener.xlsx` attached, via Gmail SMTP. Requires the
+   `SGX_SCREENER_GMAIL_APP_PASSWORD` environment variable to be set locally (see below) —
+   never committed, never hardcoded.
 
 ## Share buy-back alert
 
@@ -58,10 +62,28 @@ instead of resetting to the 14-day lookback window each time.
 
 ## Scheduled run
 
-A cloud routine runs the liquidity screener pipeline every Friday at 17:30 Asia/Singapore time
-(09:30 UTC), after the SGX market closes. A second daily routine runs the buy-back alert
-(scripts 6-8) every weekday morning. Both commit their updated `history/` and `output/` files
-back to this repo.
+A local Windows Task Scheduler job ("SGX Liquidity Momentum Screener - Weekly") runs
+`scripts/run_weekly.ps1` every Monday at 08:00 Asia/Singapore time, before SGX opens. It chains
+scripts 1-5, commits/pushes `output/` and `history/` if anything changed, then sends the email.
+Only fires if the machine is on and the user is logged in at that time. Logs land in `logs/`
+(gitignored).
+
+A cloud routine previously ran a Friday version of this but was found to silently report
+"succeeded" without actually fetching data or committing (likely a network egress restriction in
+that sandbox) — it's disabled. The local scheduled task is the source of truth.
+
+A separate routine runs the buy-back alert (scripts 6-8) — see that section above for its own
+schedule.
+
+### Email setup (one-time, run yourself — never share this password in chat)
+
+1. Enable 2-Step Verification on the Google account, then generate an App Password at
+   Google Account -> Security -> App Passwords (app: "Mail").
+2. In PowerShell, run (replacing the placeholder with the real 16-character app password):
+   ```
+   setx SGX_SCREENER_GMAIL_APP_PASSWORD "xxxxxxxxxxxxxxxx"
+   ```
+3. Log out/in (or reboot) so the scheduled task picks up the new environment variable.
 
 ## Requirements
 
