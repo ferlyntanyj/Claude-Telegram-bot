@@ -26,10 +26,18 @@ Run in order from the `scripts/` directory:
 5. `05_weekly_diff.py` — compares this run's top 10 against the most recent snapshot in
    `history/`, reports new entrants / drop-offs -> `output/weekly_summary.md`, and saves this
    run's snapshot to `history/top10_<date>.csv`
-6. `send_weekly_email.py` — emails `output/weekly_summary.md` (as the body) with
-   `output/SGX_Liquidity_Momentum_Screener.xlsx` attached, via Gmail SMTP. Requires the
-   `SGX_SCREENER_GMAIL_APP_PASSWORD` environment variable to be set locally (see below) —
-   never committed, never hardcoded.
+Two delivery scripts run after step 5 (not part of the numbered sequence above, since they're
+not part of the buy-back pipeline's own numbering below either):
+
+- `send_weekly_email.py` — emails `output/weekly_summary.md` (as the body) with
+  `output/SGX_Liquidity_Momentum_Screener.xlsx` attached, via Gmail SMTP. Requires the
+  `SGX_SCREENER_GMAIL_APP_PASSWORD` environment variable to be set locally (see below) —
+  never committed, never hardcoded.
+- `send_telegram_message.py` — sends the same summary as a Telegram message, then the
+  workbook as a document attachment, via a Telegram bot. Requires
+  `SGX_SCREENER_TELEGRAM_BOT_TOKEN` and `SGX_SCREENER_TELEGRAM_CHAT_ID` environment
+  variables (see below). `get_telegram_chat_id.py` is a one-time helper to discover the
+  chat id.
 
 ## Share buy-back alert
 
@@ -84,6 +92,29 @@ schedule.
    setx SGX_SCREENER_GMAIL_APP_PASSWORD "xxxxxxxxxxxxxxxx"
    ```
 3. Log out/in (or reboot) so the scheduled task picks up the new environment variable.
+
+### Telegram setup (one-time, run yourself — never share the bot token in chat)
+
+1. In Telegram, message **@BotFather**, send `/newbot`, and follow the prompts to name it.
+   BotFather replies with a token that looks like `123456789:AAExampleTokenNotReal`.
+2. In PowerShell, set the token for both this session and future ones:
+   ```
+   $env:SGX_SCREENER_TELEGRAM_BOT_TOKEN = "<token>"
+   setx SGX_SCREENER_TELEGRAM_BOT_TOKEN "<token>"
+   ```
+3. In Telegram, send any message (e.g. "hi") to your new bot — bots can't message you until
+   you've messaged them first.
+4. Still in that same PowerShell window, run:
+   ```
+   cd scripts
+   python get_telegram_chat_id.py
+   ```
+   It prints your `chat_id`. Then set it the same way:
+   ```
+   $env:SGX_SCREENER_TELEGRAM_CHAT_ID = "<chat_id>"
+   setx SGX_SCREENER_TELEGRAM_CHAT_ID "<chat_id>"
+   ```
+5. Log out/in (or reboot) so the scheduled task picks up both persisted variables.
 
 ## Requirements
 
