@@ -52,7 +52,11 @@ shares most recently:
    day in the history, and reports the prior buy-back date on record for that company and how
    many days elapsed since then (i.e. an ongoing daily programme vs. a resumption after a gap)
    -> `output/buyback_alert.md` and `output/buyback_alert.csv`. Each company name links directly
-   to that day's SGX filing.
+   to that day's SGX filing. Companies whose prior buy-back was within
+   `EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS` days (default 5, set in `buyback_config.py`) are
+   filtered out as routine daily/near-daily programmes, so the alert surfaces only resumptions
+   after a longer gap plus companies with no prior buy-back on record; the `.md` still notes how
+   many were excluded. Set the constant to 0 to list every filer.
 8. `08_buyback_company_summary.py` — collapses the full history into one row per company (not
    just today's filers), alphabetical, each linking to its most recent buy-back filing -> `output/
    buyback_company_summary.md` and `.csv`. Use this to look up a specific company's last buy-back
@@ -61,12 +65,16 @@ shares most recently:
 
 A delivery script runs after step 8:
 
-- `send_buyback_telegram.py` — reads `output/buyback_alert.csv` and sends one Telegram message
-  (auto-split if it would exceed Telegram's 4096-char limit): the latest trading day with
-  filings, how stale that is relative to the run, then one line per company with the previous
-  buy-back date on record and the day-gap, each company name linking to that day's SGX filing.
-  Reuses the same `SGX_SCREENER_TELEGRAM_BOT_TOKEN` / `SGX_SCREENER_TELEGRAM_CHAT_ID` as the
-  weekly screener.
+- `send_buyback_telegram.py` — reads `output/buyback_alert.csv` (already filtered by step 7) and
+  sends one Telegram message (auto-split if it would exceed Telegram's 4096-char limit): the
+  latest trading day with filings, how stale that is relative to the run, then one line per
+  company with the previous buy-back date on record and the day-gap, each company name linking to
+  that day's SGX filing. Reuses the same `SGX_SCREENER_TELEGRAM_BOT_TOKEN` /
+  `SGX_SCREENER_TELEGRAM_CHAT_ID` as the weekly screener.
+
+`buyback_config.py` holds the shared tuning knob (`EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS`) that
+both step 7 and the Telegram script read, so the filter threshold and the message wording stay
+in sync.
 
 The announcements endpoint requires a short-lived token, obtained the same way SGX's own
 frontend does: fetch a public CMS field and ROT13-decode it client-side. The endpoint also sits

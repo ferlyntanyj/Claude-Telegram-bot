@@ -18,6 +18,8 @@ import sys
 import pandas as pd
 import requests
 
+from buyback_config import EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS
+
 TOKEN_ENV_VAR = "SGX_SCREENER_TELEGRAM_BOT_TOKEN"
 CHAT_ID_ENV_VAR = "SGX_SCREENER_TELEGRAM_CHAT_ID"
 
@@ -28,17 +30,31 @@ CHUNK_CHAR_BUDGET = 3800  # stay under Telegram's 4096-char per-message limit
 def build_messages(alert):
     """Return a list of Telegram-HTML message strings (split if too long for one)."""
     if alert.empty:
-        return ["<b>SGX Share Buy-Back Alert</b>\n\nNo share buy-back filings on record for the latest trading day."]
+        note = (
+            "No qualifying buy-back filings for the latest trading day "
+            "(routine daily programmes are filtered out)."
+            if EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS > 0
+            else "No share buy-back filings on record for the latest trading day."
+        )
+        return [f"<b>SGX Share Buy-Back Alert</b>\n\n{note}"]
 
     latest_date = alert["last_buyback_date"].iloc[0]
     days_since_run = int(alert["days_since_run_date"].iloc[0])
     staleness = "today" if days_since_run == 0 else f"{days_since_run} day(s) ago"
 
+    if EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS > 0:
+        scope = (
+            f"{len(alert)} company(ies) filed a buy-back that day whose previous buy-back was more "
+            f"than {EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS} day(s) earlier, or have none on record "
+            f"(routine daily programmes are filtered out)."
+        )
+    else:
+        scope = f"{len(alert)} company(ies) filed a share buy-back that day."
+
     header = (
         f"<b>SGX Share Buy-Back Alert</b>\n"
         f"Latest trading day with filings: <b>{latest_date}</b> ({staleness})\n"
-        f"{len(alert)} company(ies) filed a share buy-back that day. "
-        f"Each links to that day's SGX filing; the date shown is the previous buy-back on record."
+        f"{scope} Each links to that day's SGX filing; the date shown is the previous buy-back on record."
     )
 
     company_lines = []

@@ -6,9 +6,16 @@ Flags every company that filed a buy-back notice on the most recent trading day
 present in the history, and for each one reports the prior buy-back date on
 record (before that day) and how many days elapsed between the two -- i.e.
 whether this is a routine, ongoing daily programme or a resumption after a gap.
+
+Companies whose prior buy-back was within EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS
+days (see buyback_config.py) are filtered out as routine daily/near-daily
+programmes; the alert keeps only resumptions after a longer gap plus companies
+with no prior buy-back on record. Set the constant to 0 to disable the filter.
 """
 import datetime as dt
 import pandas as pd
+
+from buyback_config import EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS
 
 HISTORY_PATH = "../history/buyback_history.csv"
 OUT_MD_PATH = "../output/buyback_alert.md"
@@ -45,7 +52,22 @@ def main():
             "url": r["url"],
         })
 
-    alert = pd.DataFrame(rows).sort_values(
+    cols = ["stock_code", "issuer_name", "last_buyback_date", "days_since_run_date",
+            "prior_buyback_date", "days_since_prior_buyback", "url"]
+    all_filers = pd.DataFrame(rows, columns=cols)
+    total_filers = len(all_filers)
+
+    if EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS > 0 and total_filers:
+        keep = (
+            all_filers["days_since_prior_buyback"].isna()
+            | (all_filers["days_since_prior_buyback"] > EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS)
+        )
+        alert = all_filers[keep]
+    else:
+        alert = all_filers
+    excluded_count = total_filers - len(alert)
+
+    alert = alert.sort_values(
         by=["days_since_prior_buyback", "issuer_name"], ascending=[False, True], na_position="first"
     )
     alert.to_csv(OUT_CSV_PATH, index=False)
@@ -58,11 +80,30 @@ def main():
         f"({(today - latest_date).days} day(s) ago)",
         "",
     ]
+    if EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS > 0:
+        lines.append(
+            f"**Filter:** excluding {excluded_count} of {total_filers} filer(s) whose prior buy-back "
+            f"was within {EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS} day(s) (routine daily programmes). "
+            f"Set `EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS = 0` in `buyback_config.py` to show all."
+        )
+        lines.append("")
 
     if alert.empty:
-        lines.append("No share buy-back notices found on the latest trading day.")
+        lines.append(
+            f"No qualifying buy-back filings on {latest_date.isoformat()} "
+            f"(all {total_filers} filer(s) were routine daily programmes)."
+            if total_filers
+            else "No share buy-back notices found on the latest trading day."
+        )
     else:
-        lines.append(f"## Companies that filed a share buy-back on {latest_date.isoformat()} ({len(alert)})")
+        if EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS > 0:
+            heading = (
+                f"## Companies that resumed a share buy-back on {latest_date.isoformat()} after a gap "
+                f"of more than {EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS} day(s), or with none on record ({len(alert)})"
+            )
+        else:
+            heading = f"## Companies that filed a share buy-back on {latest_date.isoformat()} ({len(alert)})"
+        lines.append(heading)
         lines.append("")
         lines.append("| Stock | Company (links to today's filing) | Prior buy-back date | Days since prior buy-back |")
         lines.append("|---|---|---|---|")
