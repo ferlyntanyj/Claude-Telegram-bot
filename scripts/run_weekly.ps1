@@ -31,7 +31,6 @@ try {
     }
 
     Set-Location $ScriptsDir
-    python send_weekly_email.py
     python send_telegram_message.py
 }
 catch {

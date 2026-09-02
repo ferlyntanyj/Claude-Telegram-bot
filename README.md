@@ -26,18 +26,18 @@ Run in order from the `scripts/` directory:
 5. `05_weekly_diff.py` — compares this run's top 10 against the most recent snapshot in
    `history/`, reports new entrants / drop-offs -> `output/weekly_summary.md`, and saves this
    run's snapshot to `history/top10_<date>.csv`
-Two delivery scripts run after step 5 (not part of the numbered sequence above, since they're
-not part of the buy-back pipeline's own numbering below either):
+A delivery script runs after step 5 (not part of the numbered sequence above, since it's not
+part of the buy-back pipeline's own numbering below either):
 
-- `send_weekly_email.py` — emails `output/weekly_summary.md` (as the body) with
-  `output/SGX_Liquidity_Momentum_Screener.xlsx` attached, via Gmail SMTP. Requires the
-  `SGX_SCREENER_GMAIL_APP_PASSWORD` environment variable to be set locally (see below) —
-  never committed, never hardcoded.
-- `send_telegram_message.py` — sends the same summary as a Telegram message, then the
-  workbook as a document attachment, via a Telegram bot. Requires
-  `SGX_SCREENER_TELEGRAM_BOT_TOKEN` and `SGX_SCREENER_TELEGRAM_CHAT_ID` environment
-  variables (see below). `get_telegram_chat_id.py` is a one-time helper to discover the
-  chat id.
+- `send_telegram_message.py` — sends the summary as a Telegram message, then the workbook
+  as a document attachment, via a Telegram bot. Requires `SGX_SCREENER_TELEGRAM_BOT_TOKEN`
+  and `SGX_SCREENER_TELEGRAM_CHAT_ID` (see below). `get_telegram_chat_id.py` is a one-time
+  helper to discover the chat id.
+
+`send_weekly_email.py` also exists (Gmail SMTP) but is currently unused — not wired into the
+GitHub Actions workflow or the local runner, and no `SGX_SCREENER_GMAIL_APP_PASSWORD` secret is
+configured. Telegram is the only active delivery channel. Re-enable email by adding that secret
+and adding the step back to `.github/workflows/weekly_screener.yml` if wanted later.
 
 ## Share buy-back alert
 
@@ -73,8 +73,8 @@ instead of resetting to the 14-day lookback window each time.
 **`.github/workflows/weekly_screener.yml` is the source of truth.** It runs on GitHub's own
 infrastructure every Monday at 00:00 UTC (08:00 Asia/Singapore, before SGX opens): checks out the
 repo, installs dependencies, runs scripts 1-5, commits/pushes `output/` and `history/` if
-anything changed, then sends the email and Telegram message using GitHub repo Secrets. It also
-has `workflow_dispatch` enabled, so it can be triggered manually from the repo's Actions tab
+anything changed, then sends the Telegram message using GitHub repo Secrets. It also has
+`workflow_dispatch` enabled, so it can be triggered manually from the repo's Actions tab
 (Actions -> Weekly Liquidity Momentum Screener -> Run workflow) instead of waiting for Monday.
 Logs are visible directly in that Actions run, unlike the cloud routine below.
 
@@ -93,24 +93,13 @@ schedule.
 ### GitHub Actions secrets (one-time, done via github.com — never share these in chat)
 
 Go to the repo's **Settings -> Secrets and variables -> Actions -> New repository secret** and
-add each of the following (same values you already set locally as environment variables):
+add each of the following (same values already set locally as environment variables):
 
-- `SGX_SCREENER_GMAIL_APP_PASSWORD`
 - `SGX_SCREENER_TELEGRAM_BOT_TOKEN`
 - `SGX_SCREENER_TELEGRAM_CHAT_ID`
 
-GitHub encrypts these at rest and never exposes them in logs, even on a public repo. Once all
-three are added, trigger a manual run from the Actions tab to verify before waiting for Monday.
-
-### Email setup (one-time, run yourself — never share this password in chat)
-
-1. Enable 2-Step Verification on the Google account, then generate an App Password at
-   Google Account -> Security -> App Passwords (app: "Mail").
-2. In PowerShell, run (replacing the placeholder with the real 16-character app password):
-   ```
-   setx SGX_SCREENER_GMAIL_APP_PASSWORD "xxxxxxxxxxxxxxxx"
-   ```
-3. Log out/in (or reboot) so the scheduled task picks up the new environment variable.
+GitHub encrypts these at rest and never exposes them in logs, even on a public repo. Once both
+are added, trigger a manual run from the Actions tab to verify before waiting for Monday.
 
 ### Telegram setup (one-time, run yourself — never share the bot token in chat)
 

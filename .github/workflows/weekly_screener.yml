@@ -45,12 +45,6 @@ jobs:
             git push
           fi
 
-      - name: Send email
-        working-directory: scripts
-        env:
-          SGX_SCREENER_GMAIL_APP_PASSWORD: ${{ secrets.SGX_SCREENER_GMAIL_APP_PASSWORD }}
-        run: python send_weekly_email.py
-
       - name: Send Telegram message
         working-directory: scripts
         env:
