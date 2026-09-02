@@ -70,7 +70,9 @@ def build_messages(payload):
     if payload.get("market_asof_note"):
         title += f"\n<i>⚠️ {_esc(payload['market_asof_note'])}</i>"
 
-    parts = [title, "\n".join(_scoreboard_lines(payload))]
+    parts = [title]
+    if payload.get("market"):
+        parts.append("\n".join(_scoreboard_lines(payload)))
 
     for section in SECTION_ORDER:
         items = payload["sections"].get(section, [])
@@ -89,8 +91,9 @@ def build_messages(payload):
             lines.append(f'• <a href="{url}">{text}</a> — <i>{src}</i>' if url else f"• {text} — <i>{src}</i>")
         parts.append("\n".join(lines))
 
+    src_prefix = "Yahoo Finance, " if payload.get("market") else ""
     parts.append(
-        f"<i>Sources: Yahoo Finance, Google News + CNBC + Fed "
+        f"<i>Sources: {src_prefix}Google News + CNBC + Fed "
         f"({payload['news_total']} headlines, {payload['lookback_hours']}h window)</i>"
     )
 

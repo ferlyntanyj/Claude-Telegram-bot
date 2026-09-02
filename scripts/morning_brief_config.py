@@ -7,6 +7,11 @@ in sync, the same way buyback_config.py serves the buy-back alert.
 # ---------------------------------------------------------------------------
 # Market scoreboard
 # ---------------------------------------------------------------------------
+# Set False to drop the price scoreboard entirely -- the brief becomes
+# headlines-only and no Yahoo Finance call is made. Flip back to True to restore
+# it; MARKET_TICKERS below still defines what it would show.
+INCLUDE_SCOREBOARD = False
+
 # (group, label, yfinance symbol). Order here is the order shown in the brief.
 # "rates" symbols are quoted in percent already (^TNX = 10Y yield), so their
 # move is reported in basis points rather than percent.

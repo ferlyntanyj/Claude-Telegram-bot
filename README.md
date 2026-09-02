@@ -82,11 +82,12 @@ Standalone weekday pipeline, unrelated to SGX -- a concise "what happened overni
 market" digest delivered to Telegram at 08:30 Asia/Singapore (00:30 UTC), after the US cash
 session and after-hours have closed. Deterministic, no LLM.
 
-- `morning_brief.py` -- builds the brief in two halves:
-  1. **Scoreboard** -- index / vol / rates / commodity / FX / crypto / futures moves from Yahoo
-     Finance (`yfinance`), last close vs the prior close. Rate moves (`^TNX` etc.) are shown in
-     basis points. If the freshest index bar is more than a day old (US holiday or data lag) the
-     brief flags it instead of showing 0.00%.
+- `morning_brief.py` -- builds the brief:
+  1. **Scoreboard** *(optional, off by default -- set `INCLUDE_SCOREBOARD = True`)* -- index /
+     vol / rates / commodity / FX / crypto / futures moves from Yahoo Finance (`yfinance`), last
+     close vs the prior close. Rate moves (`^TNX` etc.) are shown in basis points. If the freshest
+     index bar is more than a day old (US holiday or data lag) the brief flags it instead of
+     showing 0.00%. When off, no Yahoo Finance call is made and the brief is headlines-only.
   2. **Headlines** -- pulled from Google News RSS search (`when:1d`) plus CNBC section feeds and
      the Fed press-release feed. Each headline must be recent enough for the overnight window
      (20h on weekdays, 72h on Monday to reach back over the weekend), come from an allow-listed
@@ -104,7 +105,8 @@ session and after-hours have closed. Deterministic, no LLM.
     archive) and `output/morning_brief.json` (structured, for the sender).
 
 - `send_morning_brief_telegram.py` -- reads the JSON and sends the brief as Telegram HTML
-  (bold labels, italic moves, section emoji, headline links), auto-split if it would exceed
+  (bold section headers, italic sources, section emoji, headline links; scoreboard block only
+  when `INCLUDE_SCOREBOARD` is on), auto-split if it would exceed
   Telegram's 4096-char limit. `--dry-run` prints the message(s) instead of sending and needs no
   credentials. Reuses the same `SGX_SCREENER_TELEGRAM_BOT_TOKEN` / `SGX_SCREENER_TELEGRAM_CHAT_ID`
   as the other two pipelines.

@@ -3,10 +3,11 @@ Build the weekday US-market morning brief -- a concise "what happened overnight"
 digest delivered to Telegram at 08:30 Asia/Singapore (00:30 UTC), after the US
 cash session and after-hours have closed.
 
-Deterministic, no LLM. Two halves:
+Deterministic, no LLM.
 
-  1. Scoreboard -- index / vol / rates / commodity / FX / crypto / futures moves
-     from Yahoo Finance (yfinance), last close vs the prior close.
+  1. Scoreboard (OPTIONAL, off by default) -- index / vol / rates / commodity /
+     FX / crypto / futures moves from Yahoo Finance (yfinance), last close vs the
+     prior close. Enable by setting INCLUDE_SCOREBOARD = True in the config.
   2. Headlines -- pulled from Google News RSS search (`when:1d`) plus a handful of
      publisher feeds (CNBC sections, the Fed), filtered to the overnight window,
      dropped unless they carry a US-market-relevant term, de-duplicated across
@@ -330,7 +331,7 @@ def build_payload():
     is_monday = now_sgt.weekday() == 0
     lookback = cfg.LOOKBACK_HOURS_MONDAY if is_monday else cfg.LOOKBACK_HOURS
 
-    market_rows, asof_note = fetch_market()
+    market_rows, asof_note = fetch_market() if cfg.INCLUDE_SCOREBOARD else ([], "")
     sections, news_total = fetch_news(lookback)
     x_items = fetch_x(lookback)
 
@@ -353,15 +354,16 @@ def render_markdown(p):
     if p["market_asof_note"]:
         lines += [f"_{p['market_asof_note']}_", ""]
 
-    lines.append("## Overnight scoreboard")
-    primary = [r for r in p["market"] if r["group"] in cfg.PRIMARY_GROUPS]
-    also = [r for r in p["market"] if r["group"] not in cfg.PRIMARY_GROUPS]
-    for r in primary:
-        lines.append(f"- {r['label']}: {r['value']}  ({r['move']})")
-    if also:
-        tail = " · ".join(f"{r['label']} {r['value']} ({r['move']})" for r in also)
-        lines.append(f"- _Also:_ {tail}")
-    lines.append("")
+    if p["market"]:
+        lines.append("## Overnight scoreboard")
+        primary = [r for r in p["market"] if r["group"] in cfg.PRIMARY_GROUPS]
+        also = [r for r in p["market"] if r["group"] not in cfg.PRIMARY_GROUPS]
+        for r in primary:
+            lines.append(f"- {r['label']}: {r['value']}  ({r['move']})")
+        if also:
+            tail = " · ".join(f"{r['label']} {r['value']} ({r['move']})" for r in also)
+            lines.append(f"- _Also:_ {tail}")
+        lines.append("")
 
     for section in cfg.SECTION_ORDER:
         items = p["sections"].get(section, [])
@@ -378,8 +380,9 @@ def render_markdown(p):
             lines.append(f"- {it['text']} — {it['source']}")
         lines.append("")
 
+    src_prefix = "Yahoo Finance (scoreboard), " if p["market"] else ""
     lines.append(
-        f"_Sources: Yahoo Finance (scoreboard), Google News + CNBC + Fed feeds "
+        f"_Sources: {src_prefix}Google News + CNBC + Fed feeds "
         f"({p['news_total']} headlines, {p['lookback_hours']}h window)._"
     )
     return "\n".join(lines) + "\n"
