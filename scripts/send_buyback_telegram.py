@@ -25,6 +25,7 @@ CHAT_ID_ENV_VAR = "SGX_SCREENER_TELEGRAM_CHAT_ID"
 
 ALERT_CSV_PATH = "../output/buyback_alert.csv"
 CHUNK_CHAR_BUDGET = 3800  # stay under Telegram's 4096-char per-message limit
+TITLE = "\U0001F514 <b>SGX Share Buy-Back Alert</b>"  # 🔔
 
 
 def build_messages(alert):
@@ -36,7 +37,7 @@ def build_messages(alert):
             if EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS > 0
             else "No share buy-back filings on record for the latest trading day."
         )
-        return [f"<b>SGX Share Buy-Back Alert</b>\n\n{note}"]
+        return [f"{TITLE}\n\n{note}"]
 
     d = pd.to_datetime(alert["last_buyback_date"].iloc[0])
     latest_date = f"{d.day} {d.strftime('%b %Y')}"  # e.g. "2 Sep 2026"
@@ -51,7 +52,7 @@ def build_messages(alert):
         scope = f"{len(alert)} company(ies) filed a share buy-back that day."
 
     header = (
-        f"<b>SGX Share Buy-Back Alert</b>\n"
+        f"{TITLE}\n"
         f"Latest trading day with filings: <b>{latest_date}</b>\n"
         f"{scope}"
     )
