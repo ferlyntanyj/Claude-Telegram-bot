@@ -4,3 +4,4 @@ data/
 logs/
 output/morning_brief.json
 output/evening_brief.json
+output/semis_brief.md

@@ -19,9 +19,22 @@ CHAT_ID_ENV_VAR = "SGX_SCREENER_TELEGRAM_CHAT_ID"
 SUMMARY_PATH = "../output/weekly_summary.md"
 WORKBOOK_PATH = "../output/SGX_Liquidity_Momentum_Screener.xlsx"
 
+_MONTHS = ("", "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+_ISO_DATE_RE = re.compile(r"\b(\d{4})-(\d{2})-(\d{2})\b")
+
+
+def _iso_to_display(m):
+    """2026-09-03 -> '3 Sep 2026' -- one date format across all Telegram messages."""
+    year, month, day = m.group(1), int(m.group(2)), int(m.group(3))
+    if 1 <= month <= 12:
+        return f"{day} {_MONTHS[month]} {year}"
+    return m.group(0)
+
 
 def markdown_to_telegram_html(md_text):
     """Telegram HTML parse_mode supports <b>/<i>/<a>/<code> but not headers or <ul>/<li>."""
+    md_text = _ISO_DATE_RE.sub(_iso_to_display, md_text)
     lines = md_text.splitlines()
     out = []
     for line in lines:

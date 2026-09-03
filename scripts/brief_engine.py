@@ -104,7 +104,7 @@ def fetch_market(cfg):
         latest = max(index_dates)
         today_utc = dt.datetime.now(UTC).date()
         if (today_utc - latest).days > 1:
-            asof_note = cfg.SCOREBOARD_STALE_NOTE.format(date=latest.isoformat())
+            asof_note = cfg.SCOREBOARD_STALE_NOTE.format(date=f"{latest.day} {latest:%b %Y}")
     return rows, asof_note
 
 
@@ -312,7 +312,8 @@ def build_payload(cfg):
 
     return {
         "brief_title": cfg.BRIEF_TITLE,
-        "generated_at_sgt": now_sgt.strftime("%a %d %b %Y, %H:%M SGT"),
+        # Date as "3 Sep 2026" (no leading zero) for a consistent Telegram format.
+        "generated_at_sgt": f"{now_sgt.day} {now_sgt:%b %Y}, {now_sgt:%H:%M} SGT",
         "lookback_hours": lookback,
         "market_asof_note": asof_note,
         "market": market_rows,

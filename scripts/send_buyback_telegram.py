@@ -66,7 +66,8 @@ def build_messages(alert):
 
         if pd.notna(r["prior_buyback_date"]):
             gap = int(r["days_since_prior_buyback"])
-            tail = f"prior buy-back {r['prior_buyback_date']} ({gap} day(s) earlier)"
+            pd_ = pd.to_datetime(r["prior_buyback_date"])
+            tail = f"prior buy-back {pd_.day} {pd_:%b %Y} ({gap} day(s) earlier)"
         else:
             tail = "no prior buy-back on record (first seen by this alert)"
 
