@@ -1,12 +1,33 @@
 """
-Tuning knobs for the weekday US-market morning brief (morning_brief.py + the
-Telegram sender). Kept in one place so the pipeline and the message wording stay
-in sync, the same way buyback_config.py serves the buy-back alert.
+Tuning knobs for the weekday US-market morning brief. Consumed by brief_engine
+(shared with the evening Asia brief) via the thin morning_brief.py / send_
+morning_brief_telegram.py wrappers. Kept in one place so the pipeline and the
+message wording stay in sync, the same way buyback_config.py serves the buy-back
+alert.
 """
+
+# ---------------------------------------------------------------------------
+# Identity / output
+# ---------------------------------------------------------------------------
+BRIEF_TITLE = "US Market Morning Brief"
+BRIEF_EMOJI = "🌅"
+OUT_MD_PATH = "../output/morning_brief.md"
+OUT_JSON_PATH = "../output/morning_brief.json"
+
+# Google News RSS locale: (hl, gl, ceid).
+GOOGLE_NEWS_LOCALE = ("en-US", "US", "US:en")
+
+# Trailing "Sources: ..." line -- markdown archive and Telegram message.
+SOURCES_FOOTER = "Google News + CNBC + Fed feeds"
+SOURCES_FOOTER_TG = "Google News + CNBC + Fed"
 
 # ---------------------------------------------------------------------------
 # Market scoreboard
 # ---------------------------------------------------------------------------
+SCOREBOARD_HEADER = "Overnight scoreboard"
+SCOREBOARD_EMOJI = "📊"
+SCOREBOARD_STALE_NOTE = "US markets last traded {date} (holiday or data lag)."
+
 # Set False to drop the price scoreboard entirely -- the brief becomes
 # headlines-only and no Yahoo Finance call is made. Flip back to True to restore
 # it; MARKET_TICKERS below still defines what it would show.
@@ -59,6 +80,13 @@ SECTION_TITLES = {
     "stocks": "Stocks & earnings",
     "geopolitics": "Geopolitics",
 }
+# Emoji prefix used in the Telegram message only (the markdown archive omits it).
+SECTION_EMOJI = {
+    "markets": "📈",
+    "macro": "🏦",
+    "stocks": "🏢",
+    "geopolitics": "🌍",
+}
 
 # Google News RSS search queries. `when:1d` filters server-side; we still
 # re-filter by LOOKBACK_HOURS. Each query is tagged with the section it feeds,
@@ -78,8 +106,8 @@ GOOGLE_NEWS_QUERIES = [
 # of these terms (case-insensitive substring). The list is deliberately broad;
 # the Google News queries and the CNBC feeds both surface general news that
 # isn't market-moving, and this is the gate that drops it.
-REQUIRE_US_RELEVANCE = True
-US_RELEVANCE_TERMS = [
+REQUIRE_RELEVANCE = True
+RELEVANCE_TERMS = [
     "u.s.", "us", "america", "american", "wall street", "wall st", "s&p 500", "s&p500",
     "s&p", "nasdaq", "dow", "russell 2000", "treasury", "treasuries", "federal reserve",
     "the fed", "fed", "powell", "fomc", "dollar", "trump", "white house", "congress",

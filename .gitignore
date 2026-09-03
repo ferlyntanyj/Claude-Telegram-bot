@@ -3,3 +3,4 @@ __pycache__/
 data/
 logs/
 output/morning_brief.json
+output/evening_brief.json

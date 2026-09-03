@@ -76,44 +76,50 @@ A delivery script runs after step 8:
 both step 7 and the Telegram script read, so the filter threshold and the message wording stay
 in sync.
 
-## Morning US market brief
+## News briefs (US morning + Asia evening)
 
-Standalone weekday pipeline, unrelated to SGX -- a concise "what happened overnight in the US
-market" digest delivered to Telegram at 08:30 Asia/Singapore (00:30 UTC), after the US cash
-session and after-hours have closed. Deterministic, no LLM.
+Two standalone weekday pipelines, unrelated to SGX, that deliver a concise "what happened"
+headline digest to the same Telegram chat. Deterministic, no LLM. Both run on one shared engine
+(`brief_engine.py`) and one shared Telegram sender (`brief_telegram.py`); each brief is just a
+config module plus a two-line wrapper, so ranking / de-duplication / windowing / rendering stay
+identical between them.
 
-- `morning_brief.py` -- builds the brief:
-  1. **Scoreboard** *(optional, off by default -- set `INCLUDE_SCOREBOARD = True`)* -- index /
-     vol / rates / commodity / FX / crypto / futures moves from Yahoo Finance (`yfinance`), last
-     close vs the prior close. Rate moves (`^TNX` etc.) are shown in basis points. If the freshest
-     index bar is more than a day old (US holiday or data lag) the brief flags it instead of
-     showing 0.00%. When off, no Yahoo Finance call is made and the brief is headlines-only.
-  2. **Headlines** -- pulled from Google News RSS search (`when:1d`) plus CNBC section feeds and
-     the Fed press-release feed. Each headline must be recent enough for the overnight window
-     (20h on weekdays, 72h on Monday to reach back over the weekend), come from an allow-listed
-     source (`SOURCE_WEIGHTS`), and carry a US-market-relevant term (`US_RELEVANCE_TERMS`).
-     Survivors are de-duplicated across sources, ranked by source trust + recency (listicles,
-     promo and opinion are buried by `DOWNRANK_PATTERNS`; `DENY_PATTERNS` drops previews, other
-     countries' central-bank items and auto-generated quote pages outright), classified into
-     four blocks by their own wording (`SECTION_KEYWORDS`), and capped at
-     `MAX_ITEMS_PER_SECTION` each: **Markets / Macro, Fed & data / Stocks & earnings /
-     Geopolitics**.
-  - An optional best-effort X pull via Nitter RSS (`X_ACCOUNTS`, `NITTER_INSTANCES`) is appended
-    when a live instance answers; most Nitter instances are dead or auth-walled, so the block is
-    usually just omitted. No paid X API.
-  - Writes `output/morning_brief.md` (human-readable, committed by the workflow as a daily
-    archive) and `output/morning_brief.json` (structured, for the sender).
+| Brief | Delivered | Scope | Sections | Config |
+|---|---|---|---|---|
+| **US morning** | 08:30 SGT (00:30 UTC) | US market, overnight | Markets / Macro, Fed & data / Stocks & earnings / Geopolitics | `morning_brief_config.py` |
+| **Asia evening** | 18:15 SGT (10:15 UTC) | ASEAN, Japan, Korea, Greater China | Macro & policy / Markets / Geopolitics | `evening_brief_config.py` |
 
-- `send_morning_brief_telegram.py` -- reads the JSON and sends the brief as Telegram HTML
-  (bold section headers, italic sources, section emoji, headline links; scoreboard block only
-  when `INCLUDE_SCOREBOARD` is on), auto-split if it would exceed
-  Telegram's 4096-char limit. `--dry-run` prints the message(s) instead of sending and needs no
-  credentials. Reuses the same `SGX_SCREENER_TELEGRAM_BOT_TOKEN` / `SGX_SCREENER_TELEGRAM_CHAT_ID`
-  as the other two pipelines.
+Wrappers: `morning_brief.py` / `send_morning_brief_telegram.py`, `evening_brief.py` /
+`send_evening_brief_telegram.py`. Run the builder then the sender from `scripts/`.
 
-All tuning knobs (tickers, feeds, queries, source weights, keyword lists, window lengths) live
-in `morning_brief_config.py`. The headline filter is heuristic -- expect the odd marginal item;
-tighten `MIN_SOURCE_WEIGHT` or extend the pattern lists to taste.
+**How the engine works (both briefs):**
+
+1. **Scoreboard** *(optional, off by default -- set `INCLUDE_SCOREBOARD = True`)* -- last close
+   vs prior close for `MARKET_TICKERS` from Yahoo Finance (`yfinance`); rate symbols in basis
+   points. A stale freshest bar (holiday / data lag) is flagged rather than shown as 0.00%. Off
+   = no Yahoo Finance call, headlines only.
+2. **Headlines** -- Google News RSS search (`when:1d`, `GOOGLE_NEWS_LOCALE`) plus `DIRECT_FEEDS`
+   publisher feeds. Each headline must be inside the window (`LOOKBACK_HOURS`, wider on Monday
+   via `LOOKBACK_HOURS_MONDAY`), come from an allow-listed source (`SOURCE_WEIGHTS`, unknown =
+   dropped), and carry a `RELEVANCE_TERMS` term. Survivors are de-duplicated across sources,
+   ranked by source trust + recency (`DOWNRANK_PATTERNS` buried, `DENY_PATTERNS` dropped
+   outright), classified into `SECTION_ORDER` blocks by their own wording (`SECTION_KEYWORDS`),
+   and capped at `MAX_ITEMS_PER_SECTION`. With `STRICT_DIRECT_FEEDS = True` (Asia brief), a
+   publisher-feed headline is kept only if its wording matches a section's keywords -- the
+   feed-level tag alone is not enough, which keeps broad feeds like Straits Times Asia from
+   dumping lifestyle copy into Geopolitics.
+3. **X** -- optional best-effort Nitter RSS pull (`X_ACCOUNTS`, `NITTER_INSTANCES`); most
+   instances are dead or auth-walled so the block is usually just omitted. No paid X API.
+
+Each build writes `output/<brief>.md` (human-readable, committed by the workflow as a daily
+archive) and `output/<brief>.json` (structured, for the sender, gitignored). The sender renders
+Telegram HTML (bold section headers, italic sources, section emoji, headline links; scoreboard
+only when enabled), auto-splits at Telegram's 4096-char limit, and reuses the same
+`SGX_SCREENER_TELEGRAM_BOT_TOKEN` / `SGX_SCREENER_TELEGRAM_CHAT_ID` as the other pipelines.
+`--dry-run` prints the message(s) instead of sending and needs no credentials.
+
+The headline filter is heuristic -- expect the odd marginal item; tighten `MIN_SOURCE_WEIGHT`,
+narrow `RELEVANCE_TERMS`, or extend the pattern lists in the relevant config to taste.
 
 The announcements endpoint requires a short-lived token, obtained the same way SGX's own
 frontend does: fetch a public CMS field and ROT13-decode it client-side. The endpoint also sits
@@ -157,6 +163,15 @@ buy-back job so the two don't race on the push to `main`: checks out the repo, r
 `morning_brief.py`, commits/pushes `output/morning_brief.md` if it changed (rebasing first),
 then sends the Telegram brief using the same repo Secrets. `workflow_dispatch` is enabled
 (Actions -> US Market Morning Brief -> Run workflow).
+
+**`.github/workflows/evening_brief.yml`** is the source of truth for the evening Asia market
+brief. Same shape, running every weekday at 10:15 UTC (18:15 Asia/Singapore, after the major
+Asian closes): runs `evening_brief.py`, commits/pushes `output/evening_brief.md` if it changed
+(rebasing first), then sends the Telegram brief. `workflow_dispatch` enabled
+(Actions -> Asia Market Evening Brief -> Run workflow).
+
+Scheduled workflows often skip their **first** slot after being added (and after a repo rename);
+they start firing reliably within a day, or trigger once manually via **Run workflow**.
 
 ### GitHub Actions secrets (one-time, done via github.com — never share these in chat)
 
