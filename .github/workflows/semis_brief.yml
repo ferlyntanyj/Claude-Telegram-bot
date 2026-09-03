@@ -1,0 +1,67 @@
+name: Global Semiconductor Brief
+
+on:
+  schedule:
+    # Twice daily, EVERY day (chip policy and Taiwan/Korea supply-chain news
+    # break on weekends too):
+    #   00:30 UTC = 08:30 Asia/Singapore -- covers the overnight US session
+    #   10:30 UTC = 18:30 Asia/Singapore -- covers the Asia session
+    # Overlaps the morning brief (00:30) and evening brief (10:15); the commit
+    # step's pull --rebase retry loop absorbs the push race, same as the other
+    # scheduled jobs.
+    # NOTE: GitHub often skips the *first* scheduled slot after a workflow is
+    # added or the repo is renamed; committing to this file re-arms the cron.
+    - cron: "30 0 * * *"
+    - cron: "30 10 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: semis-brief
+  cancel-in-progress: false
+
+jobs:
+  semis-brief:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build the brief
+        working-directory: scripts
+        run: python semis_brief.py
+
+      - name: Commit and push the brief
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/semis_brief.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Semis brief: $(date -u +%Y-%m-%d)"
+            # Rebase on top of anything the other scheduled jobs pushed since
+            # checkout, then push.
+            for attempt in 1 2 3; do
+              git pull --rebase --autostash origin main && git push && break
+              echo "push attempt $attempt failed, retrying..."
+              sleep 5
+            done
+          fi
+
+      - name: Send Telegram brief
+        working-directory: scripts
+        env:
+          SGX_SCREENER_TELEGRAM_BOT_TOKEN: ${{ secrets.SGX_SCREENER_TELEGRAM_BOT_TOKEN }}
+          SGX_SCREENER_TELEGRAM_CHAT_ID: ${{ secrets.SGX_SCREENER_TELEGRAM_CHAT_ID }}
+        run: python send_semis_brief_telegram.py

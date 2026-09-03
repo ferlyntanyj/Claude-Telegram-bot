@@ -76,21 +76,28 @@ A delivery script runs after step 8:
 both step 7 and the Telegram script read, so the filter threshold and the message wording stay
 in sync.
 
-## News briefs (US morning + Asia evening)
+## News briefs (US morning + Asia evening + global semis)
 
-Two standalone weekday pipelines, unrelated to SGX, that deliver a concise "what happened"
-headline digest to the same Telegram chat. Deterministic, no LLM. Both run on one shared engine
+Standalone news pipelines, unrelated to SGX, that deliver a concise "what happened" headline
+digest to the same Telegram chat. Deterministic, no LLM. All run on one shared engine
 (`brief_engine.py`) and one shared Telegram sender (`brief_telegram.py`); each brief is just a
 config module plus a two-line wrapper, so ranking / de-duplication / windowing / rendering stay
 identical between them.
 
 | Brief | Delivered | Scope | Sections | Config |
 |---|---|---|---|---|
-| **US morning** | 08:30 SGT (00:30 UTC) | US market, overnight | Markets / Macro, Fed & data / Stocks & earnings / Geopolitics | `morning_brief_config.py` |
-| **Asia evening** | 18:15 SGT (10:15 UTC) | ASEAN, Japan, Korea, Greater China | Macro & policy / Markets / Geopolitics | `evening_brief_config.py` |
+| **US morning** | 08:30 SGT (00:30 UTC), weekdays | US market, overnight | Markets / Macro, Fed & data / Stocks & earnings / Geopolitics | `morning_brief_config.py` |
+| **Asia evening** | 18:15 SGT (10:15 UTC), weekdays | ASEAN, Japan, Korea, Greater China | Macro & policy / Markets / Geopolitics | `evening_brief_config.py` |
+| **Global semis** | 08:30 & 18:30 SGT (00:30 & 10:30 UTC), **every day** | Global chip industry — foundries, memory, IDMs/fabless, equipment | Policy & geopolitics / Supply chain signals / News (M&A, capex, capacity, earnings) | `semis_brief_config.py` |
 
 Wrappers: `morning_brief.py` / `send_morning_brief_telegram.py`, `evening_brief.py` /
-`send_evening_brief_telegram.py`. Run the builder then the sender from `scripts/`.
+`send_evening_brief_telegram.py`, `semis_brief.py` / `send_semis_brief_telegram.py`. Run the
+builder then the sender from `scripts/`.
+
+The semis brief runs 7 days a week because chip export-control moves and Taiwan/Korea
+supply-chain news break on weekends. It has **no synthesised "takeaway" line** — that needs a
+model; the section digest is the deliverable. `DIRECT_FEEDS` leans on DIGITIMES + Tom's Hardware
++ EE Times for chip trade coverage on top of the Google News queries.
 
 **How the engine works (both briefs):**
 
@@ -169,6 +176,16 @@ brief. Same shape, running every weekday at 10:15 UTC (18:15 Asia/Singapore, aft
 Asian closes): runs `evening_brief.py`, commits/pushes `output/evening_brief.md` if it changed
 (rebasing first), then sends the Telegram brief. `workflow_dispatch` enabled
 (Actions -> Asia Market Evening Brief -> Run workflow).
+
+**`.github/workflows/semis_brief.yml`** is the source of truth for the global semiconductor
+brief. Same shape, but with **two** cron slots and running **every day**: 00:30 UTC (08:30
+Asia/Singapore, overnight US) and 10:30 UTC (18:30 Asia/Singapore, Asia session). Runs
+`semis_brief.py`, commits/pushes `output/semis_brief.md` if it changed (rebasing first — it
+overlaps the morning/evening briefs and the retry loop absorbs the push race), then sends the
+Telegram brief. `workflow_dispatch` enabled (Actions -> Global Semiconductor Brief -> Run
+workflow). Uses the same Telegram Secrets, no extra secret needed. (An earlier version ran as
+two Claude desktop scheduled tasks; those are disabled now that this workflow is the source of
+truth.)
 
 Scheduled workflows often skip their **first** slot after being added (and after a repo rename);
 they start firing reliably within a day, or trigger once manually via **Run workflow**.
