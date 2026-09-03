@@ -2,9 +2,11 @@ name: Daily SGX Share Buy-Back Alert
 
 on:
   schedule:
-    # 00:00 UTC Mon-Fri = 08:00 Asia/Singapore, before SGX opens at 09:00 SGT.
+    # 00:17 UTC Mon-Fri = 08:17 Asia/Singapore, before SGX opens at 09:00 SGT.
     # SGX buy-back notices are filed the previous evening SGT, so the morning run catches them.
-    - cron: "0 0 * * 1-5"
+    # Deliberately off the top of the hour: GitHub's scheduled-event queue is heavily
+    # oversubscribed at :00, so on-the-hour crons are routinely delayed 1h+ or dropped.
+    - cron: "17 0 * * 1-5"
   workflow_dispatch: {}
 
 permissions:
