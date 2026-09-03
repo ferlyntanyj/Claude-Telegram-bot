@@ -5,6 +5,8 @@ on:
     # 00:30 UTC Mon-Fri = 08:30 Asia/Singapore, after the US cash session and
     # after-hours have closed. Runs 30 min after the daily buy-back job so the
     # two don't race on the push to main.
+    # NOTE: GitHub often skips the *first* scheduled slot after a workflow is
+    # added or the repo is renamed; committing to this file re-arms the cron.
     - cron: "30 0 * * 1-5"
   workflow_dispatch: {}
 
