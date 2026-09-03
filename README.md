@@ -67,9 +67,9 @@ A delivery script runs after step 8:
 
 - `send_buyback_telegram.py` — reads `output/buyback_alert.csv` (already filtered by step 7) and
   sends one Telegram message (auto-split if it would exceed Telegram's 4096-char limit): the
-  latest trading day with filings, how stale that is relative to the run, then one line per
-  company with the previous buy-back date on record and the day-gap, each company name linking to
-  that day's SGX filing. Reuses the same `SGX_SCREENER_TELEGRAM_BOT_TOKEN` /
+  latest trading day with filings (formatted `2 Sep 2026`) and the filter scope line, then one
+  line per company with the previous buy-back date on record and the day-gap, each company name
+  linking to that day's SGX filing. Reuses the same `SGX_SCREENER_TELEGRAM_BOT_TOKEN` /
   `SGX_SCREENER_TELEGRAM_CHAT_ID` as the weekly screener.
 
 `buyback_config.py` holds the shared tuning knob (`EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS`) that

@@ -38,9 +38,8 @@ def build_messages(alert):
         )
         return [f"<b>SGX Share Buy-Back Alert</b>\n\n{note}"]
 
-    latest_date = alert["last_buyback_date"].iloc[0]
-    days_since_run = int(alert["days_since_run_date"].iloc[0])
-    staleness = "today" if days_since_run == 0 else f"{days_since_run} day(s) ago"
+    d = pd.to_datetime(alert["last_buyback_date"].iloc[0])
+    latest_date = f"{d.day} {d.strftime('%b %Y')}"  # e.g. "2 Sep 2026"
 
     if EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS > 0:
         scope = (
@@ -53,8 +52,8 @@ def build_messages(alert):
 
     header = (
         f"<b>SGX Share Buy-Back Alert</b>\n"
-        f"Latest trading day with filings: <b>{latest_date}</b> ({staleness})\n"
-        f"{scope} Each links to that day's SGX filing; the date shown is the previous buy-back on record."
+        f"Latest trading day with filings: <b>{latest_date}</b>\n"
+        f"{scope}"
     )
 
     company_lines = []
