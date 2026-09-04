@@ -1,27 +1,27 @@
-# US Market Morning Brief -- Thu 03 Sep 2026, 12:48 SGT
+# US Market Morning Brief -- 4 Sep 2026, 12:50 SGT
 
 ## Markets
-- [Shipping stocks at a crossroads amid their best rally in decades](https://www.cnbc.com/2026/09/03/shipping-hormuz-tankers-earnings-freight-rates-iran-trump-crude-china-stocks.html) — CNBC Top News
-- [Google starts September with AI momentum after longest monthly losing streak in over a decade](https://www.cnbc.com/2026/09/02/google-starts-september-with-ai-momentum-after-long-losing-streak.html) — CNBC Top News
-- [Wall St ends higher as stocks reclaim some shine](https://news.google.com/rss/articles/CBMitAFBVV95cUxNUmZ3SUhHbXJYY2d1bWZHdjZ4MHIzLWdpTzFRWGdWU0pfZDhpV3ZoWVJnY194WF9PR0UxQjRES2NjOHBIbkpTcW9iY1l0Y05uYS1kd1Fha2lnYXNVS1VyZ0xlWGVPaF9Qamh6R2lLZDF5bDBLUFdaTU1RNmtoMVhhcEFCdWJvZWlxNUpYc2FuSG0zb2hFRW1IUW9OZWVOUFNwbWF3V1ZWS2xoaFQ5ZV9CdFpGVEo?oc=5) — Reuters
-- [Inside India newsletter: India’s economic growth is smashing forecasts, but its biggest stocks aren't feeling the love](https://www.cnbc.com/2026/09/03/india-nifty-sensex-manufacturing-economy-gdp.html) — CNBC Top News
+- [Trump-promoted Freedom Fuel expands to Detroit as lawsuit over supplier's unpaid fuel heats up](https://www.cnbc.com/2026/09/03/freedom-fuel-trump-lawsuit-detroit.html) — CNBC Top News
+- ['No steering wheel, no pedals': Tesla teases fans ahead of long-awaited Cybercab update](https://www.cnbc.com/2026/09/03/tesla-teases-no-steering-wheel-no-pedals-ahead-of-cybercab-update.html) — CNBC Top News
+- [Trump admin targets tax-exempt status at private colleges — threatening a key tax break for donations](https://www.cnbc.com/2026/09/03/treasury-irs-proposal-tax-exempt-schools-charitable-donations.html) — CNBC Top News
+- [Automakers urge Congress to permanently ban Chinese connected vehicles in U.S.](https://www.cnbc.com/2026/09/03/chinese-vehicles-congress.html) — CNBC Top News
 
 ## Macro, Fed & data
-- [Stocks climb and US yields ease; yen jumps against dollar](https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5) — Reuters
-- [10-year U.S. Treasury yield hits highest level since November 2023](https://www.cnbc.com/2026/09/02/bond-yields-treasurys-inflation.html) — CNBC Top News
-- [New York Fed's Williams says yield surge due to strong economic prospects](https://www.cnbc.com/2026/09/02/new-york-feds-williams-says-yield-surge-due-to-strong-economic-prospects.html) — CNBC Finance
-- [What the Fed’s Beige Book Says About Inflation, Jobs, and Data Centers](https://news.google.com/rss/articles/CBMif0FVX3lxTFBoM3dncldvQ3hQMmhrV25MWkpvS2dtNkMxOUhnQ3k0d29LS3NmbEFVbW5jLXZBMHNHa3k1Y1RCT2stM0kxS0FfaG1mN3l5d2JiS29mc0xFTTBFb3RZMEREcUFDOGdEQzQyM3NKby15M3NPVzl6ZkltemNLRVRWYlU?oc=5) — Barron's
+- [U.S. Stocks Climb as Treasury Yields Retreat on Waller’s Rate Comments](https://news.google.com/rss/articles/CBMivAFBVV95cUxQemNkZHN2VEZMZV8wU3psUG53a1doTUNxdTgteUNoSWsyeXAyUWJvZ0ZkMWxTMUM2Qm5kWGxKZHVFQ01vV1dSUDQ0ZW85MWRPeTM3eWE5UmozM1dTdDg1cWJqRHRtM0g2UGdiaTQycndZNEVZOC01VFdYSFBwRU1ybElRdDZpQ0tEQjNsTmhQTDlDd1hMd0JJUnpsYk52R0Y0TlBJZEhfMUZlSzVFc2V2LTBtanYtOWdqY094Wg?oc=5) — WSJ
+- [What the Bond Market Selloff Means for Retail Portfolios](https://news.google.com/rss/articles/CBMirwFBVV95cUxOSV9SQ0tsSmhUc0RxYzRtM2YzNE1CX000WmZ3VXM5VHBHSlJlY1VSdVFCcWpxcDNRd0R6LUpqLUdUaUN4TFFNV3QycElEaEJDa0NuUWp2Vnp4SUVHanJjRWxZM1ZzU05QcGYtZVlqYl9tUXZkYXVBWDBCSXlKcGt5dlR5UjRfVUFWbnB5VTVJemtfYXdGeWFjVm5MMU9tWmRpeWxrdmxVZG9lZEJwY2gw?oc=5) — Bloomberg.com
+- [Vance says Fed should lower interest rates: 'Would be nice to have some help'](https://www.cnbc.com/2026/09/03/vance-fed-interest-rates-trump-bond-yields.html) — CNBC Top News
+- [Fed Governor Waller indicates he will support holding rates steady at September meeting](https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html) — CNBC Economy
 
 ## Stocks & earnings
-- [Broadcom delivers strong earnings view as CEO touts growth with AI labs](https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html) — CNBC Top News
-- [Microsoft to start disclosing Azure quarterly revenue as company consolidates business units](https://www.cnbc.com/2026/09/02/microsoft-to-disclose-azure-revenue-as-part-of-segment-changes.html) — CNBC Top News
-- [Stocks making the biggest moves after hours: Snowflake, Broadcom, Netskope, Five Below & more](https://news.google.com/rss/articles/CBMiogFBVV95cUxPY1hRUzNlaG93dTZ5ZDAweWZEQVFhSmxmLW1wd2dMS0x2Z0pyc1FRY1c5N0ZSbVEyNnhiMldJcDF6b3kxY1Vab1Y2M1VwTlhKWF9yLTNJUUpBZVl1RTBhV2lUaE0tWG4xWDRsbld5UDJvbDlSRUdaZVpkdDlLa1JQTDFPX3N5cldpS0JkTGFCTTNmRjktdUJWUTZQaHZOUWtkTWc?oc=5) — CNBC
-- [Traders are piling into this international stock market that just pulled ahead of the Nasdaq](https://www.cnbc.com/2026/09/02/traders-pile-into-this-international-stock-market-thats-beating-the-nasdaq.html) — CNBC Top News
+- [Lululemon stock plunges 15% on disappointing earnings and outlook](https://www.cnbc.com/2026/09/03/lululemon-lulu-q2-2026-earnings.html) — CNBC Markets
+- [Zscaler stock rises on earnings beat, upbeat guidance](https://www.cnbc.com/2026/09/03/zscaler-zs-q4-earnings-2026.html) — CNBC Top News
+- [ChargePoint CEO says 70% stock surge 'is the beginning of the momentum'](https://www.cnbc.com/2026/09/03/chargepoint-ceo-50percent-stock-surge-is-the-beginning-of-the-momentum.html) — CNBC Top News
+- [Options volume erupts in retail trading favorites as Robinhood, Tesla surge](https://www.cnbc.com/2026/09/03/options-volume-erupts-in-retail-trading-favorites-as-robinhood-tesla-surge.html) — CNBC Top News
 
 ## Geopolitics
-- [Iran attacks Kuwait as Trump says renewed Mideast hostilities will not last 'too long'](https://www.cnbc.com/2026/09/03/us-iran-war-trump-hormuz-israel-middle-east-europe-kuwait.html) — CNBC Top News
-- [US Lawmakers Pass Africa Trade Preference Extension to 2028](https://news.google.com/rss/articles/CBMirwFBVV95cUxOY1pqUEVSYldqUENwZVcwaHUyWmhqRnYtTzd3NnVtZDVoQ2FOYTg4TDdlNk5NMmdCVTlrTUROMzRzUUEtXzBISjQyUk5EV2lpYVRWR1o1MC1fcnpOMy16QlFtSDEzcFNrd1NrZml1bFRFRGhERVhZaHFXT3A4OVd6OTNEYnhBMllZcExsQndGNDFJbXNHbHFhQ2kxZHBQTWhrb0tZUVZ2M2pzcE9PcE04?oc=5) — Bloomberg.com
-- [Trump floats renaming Strait of Hormuz the 'Trump Strait'](https://www.cnbc.com/2026/09/02/trump-hormuz-strait-ontario-iran.html) — CNBC Top News
-- [USTR's Greer huddles with House Republicans amid Trump trade spats](https://news.google.com/rss/articles/CBMifEFVX3lxTE9kVUNHOXc5WHRkaG4yaFI5MTgzQ2d1Vy1RLVVMTnlUbWM3YjJwQUR0ekZOYTB3Q1E1V0RXLUl2dDBaM2pERHloWV9ndThaaGtOdlY0ZWFQREFXUmhKZDRRT21TdUFHQ190Zkc4TzdXMldtSGduRWpIQWNfRTXSAYIBQVVfeXFMTXYta1RubkUybmxxdUJ0cVgtZ2pYT3h0WmJRN1RuYjNMcm1ESHY1SGNIZHRBM3BVV0htSkkwdTdRWmluS3EwdlZMSjFKeVRPcDA5ckNTTEFWUVVqTVRhb2QxYmRHZ3lKcDJOMVFYRlhER0FfOTdidERMYXdTQldqSjFvZw?oc=5) — CNBC
+- [India Says US Trade Deal Hinges on Preferential Tariff Rate](https://news.google.com/rss/articles/CBMirwFBVV95cUxPQjZodnlaTTRKa0pfYm00Y2ZyX1BXbFRFTUJNdkdSVnBJdTJqMXFkUTl0YUFXNFQzSDNNYXNlVl9mV25xSEJYSHdvUF9kYmFFNkVNZ0pDMFJBTDVqUkJITzd0RGVMVE1ZTDhRU0RqN2JzVmg5cm9oVXZzRUY2Z1BtYm1MZ2RkWHJLREYzTndCZ0F6cktINENJRTZCdEJWZ0Vld0JZNlJ4T3ZodjBrTDdJ?oc=5) — Bloomberg.com
+- [EU joins U.S. sanctions push on Iran as South Korea weighs Hormuz deployment](https://www.cnbc.com/2026/09/04/us-iran-war-trump-hormuz-operation-economic-outcast-sanctions-campaign.html) — CNBC Top News
+- [U.S. Failed to Give Assurances on Tariff Levels, Canada’s Carney Says](https://news.google.com/rss/articles/CBMirwFBVV95cUxPdF9odzQ2YWR3NTg4UVBuOEtHbjhjeXdGNXhiSk1Lc2c4NzBlN0ZybjFtNWhHb00zaXAwR3VXVE12SUtVR1p4YU12YWotMzBnQ3RGR0Vqd3dwUmk3X253OHJ0MmF1eVBDbWV0cVdqbXZpNUk2ak1VUlE3bFRYck5KWk5Qb0Ewb3I4LUJRV2l0M0tJOGxWeDBleEVvZVdiaVJpLXByLTRQdHBWcmhlNUhz?oc=5) — WSJ
+- [Carney Says He’s Open to US Pact if Auto, Steel Terms Are Competitive](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaGRsSF90UFdodllYQ2JzempWSkk4MkN6ak8xeG5xbTdKb3VGTW84NUhmT3dOTGZ2MllyMWZTR2tPSmtFMGswZEpTT0FXc3FIUGNOOWNNR1hLeE9wYWlGTUlnRWM1ZDRzdUFOLVJiNjF2MlViTXd3clo3d0Jtb2dBZFpZLTUta1B5NXJjLVQyVnJzb2hIRXNMVkNWVHJWNXVlaUVJbXBKd2owbGs0blN6Rm5iNjhVT1dnd3BB?oc=5) — Bloomberg.com
 
 _Sources: Google News + CNBC + Fed feeds (16 headlines, 20h window)._
