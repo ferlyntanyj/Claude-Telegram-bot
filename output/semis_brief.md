@@ -1,18 +1,9 @@
-# Global Semiconductor Brief -- 5 Sep 2026, 12:50 SGT
-
-## Policy & geopolitics
-- [Can China’s chip ambitions reshape the global tech landscape?](https://news.google.com/rss/articles/CBMikAFBVV95cUxOWGZrQkstbkdPQVlzeDNHNkdQRnhmY3FPa25MNG9EQjZyQVZFQXpFSGZRMkFGRjVRMThUbjJLYUlqMklpZHJWVUFDWjZjVmRRdFQ4MmpLQmdxN2RLRFd3QmFsbnFlVmowX1Rzcnd5c19IWTdLRGtBWHlZclE2allHclFMU1k2ZHoxUFNqNHhkc2s?oc=5) — CNA
-
-## Supply chain signals
-- [Taiwan semiconductor output targets NT$8 trillion](https://www.digitimes.com/news/a20260904PD237/taiwan-semiconductors-equipment-development-moea-taipei.html) — DIGITIMES
-- [Samsung SDI nears solid-state battery mass production, eyes China supply chain](https://www.digitimes.com/news/a20260904PD225/samsung-sdi-production-supply-chain-solid-state-battery-2027.html) — DIGITIMES
-- [Google TPU splits training, inference as CPU becomes next focus](https://www.digitimes.com/news/a20260904PD217/google-training-tpu-cpu-chips.html) — DIGITIMES
-- [Micron looks to lock in Taiwanese construction capacity with long-term deals](https://www.digitimes.com/news/a20260904PD215/micron-construction-capacity-dram-manufacturing-taiwan.html) — DIGITIMES
+# Global Semiconductor Brief -- 5 Sep 2026, 21:30 SGT
 
 ## News — M&A, capex, capacity, earnings
-- [Exclusive | U.S. Used Promise of Nvidia Chips to Broker Armenia-Azerbaijan Peace Deal](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbEJmOWRwaGQxLXdMVzlaUk16VUZfVE9FTkN4MVdOXzBYZEY5VlpWMWZFbHBjaTNCTmxnQVdsamU4YUd3YmUtZDV6OUFNZDdvOGFfY0pLSndyc0JVci03c2NrcUtveEhnTU8tOEZMY3FoUUlETnlrM0pZUGlsSFdjOW5xU2VpQ3pOeWhoOHZ2TTNqb3RyQzdFSnR0YktRWjZHeDcxNzBuQmZvOUk?oc=5) — WSJ
-- [Samsung, SK chiefs to meet Nvidia's Huang in New York amid US investment pressure](https://www.digitimes.com/news/a20260904PD232/samsung-investment-nvidia-sk-group-sk-hynix.html?chid=10) — DIGITIMES
-- [TSMC's 3D packaging roadmap: engineering AI chips to think like the human brain](https://www.digitimes.com/news/a20260903VL229/tsmc-roadmap-silicon-packaging-cowos.html) — DIGITIMES
-- [Here’s the Real Reason Nvidia Is Buying Hugging Face](https://news.google.com/rss/articles/CBMiekFVX3lxTE1pTWN0Wkc3RTBDNWNCdU5vMERZenNSbkFIejZfR244VG9DWDV4S2FLM0tkQTJSSUktQXlIMDNjVTVRUzc4dlFpQ1pPelZxcDY5SFlKWFNTZUE4a21mM3hwRXlXNURJMldpYUlKZU1Zd2ZuR0VYRmU0WU1B?oc=5) — Barron's
+- [U.S. Used Promise of Nvidia Chips to Help Secure Armenia-Azerbaijan Peace Deal](https://news.google.com/rss/articles/CBMitgFBVV95cUxOUlVKV2FKVnpNR2NtY21oUjdQZ3JCRVNoWGFvVXZvTVJNVDhCUGpmSE5vVFczQlBZanEyUjMyTmNpcGVkUEszSURKZGZ5YW5lLUVMZEF0ZEFDRG03aGdhSm40LWZIRDdIbjVWNWsyZjNHODk1QllPMHJCOW9DbG1XMDhRUmlqMzZFRnZOZHl0Y3ptZ3hiQ0xDVllvY1RpTmo5bnhmcUhXOVllUFo5RmNPc3ZQejZidw?oc=5) — WSJ
+- [Broadcom Earnings Today: Outlook Shows Surging AI Chip Sales](https://news.google.com/rss/articles/CBMigwFBVV95cUxPV2hwTTJkX1ZacjVZY1NTdmI1TU8xWl9yX2c1QU1YZmZYdVRKNkF6aEg1QUUtalRkVEtQZjBtelVXMjJ5bHhrSDJ1dHNabmh3NDF5ZXk0Vk1IeS1yZUR1NGR1dENQbUlsOF80UG94dVpmN1EtdGZhR0lUNzgxNlcxTzVVOA?oc=5) — Barron's
+- [AMD reportedly prepping Ryzen 5 7500 (non-F) CPU with integrated graphics at double the price — Six-core Zen 4 chip rumored to share identical specs with its F-moniker cousin](https://www.tomshardware.com/pc-components/cpus/amd-reportedly-prepping-ryzen-5-7500-non-f-cpu-with-integrated-graphics-at-double-the-price-six-core-zen-4-chip-rumored-to-share-identical-specs-with-its-f-moniker-cousin) — Tom's Hardware
+- [Modder gets Nvidia's DLSS 5 working on AMD's RDNA 4 GPUs — RX 9070 XT only manages 30 FPS at 1080p right now, but 5070 Ti-level performance is the eventual goal](https://www.tomshardware.com/pc-components/gpus/modder-gets-nvidias-dlss-5-working-on-amds-rdna-4-gpus-rx-9070-xt-only-manages-30-fps-at-1080p-right-now-but-5070-ti-level-performance-is-the-eventual-goal) — Tom's Hardware
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (4 headlines, 13h window)._
