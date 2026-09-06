@@ -1,9 +1,14 @@
-# Global Semiconductor Brief -- 5 Sep 2026, 21:30 SGT
+# Global Semiconductor Brief -- 6 Sep 2026, 12:58 SGT
+
+## Supply chain signals
+- [I-Chiun eyes Nvidia Vera Rubin supply chain as thermal business nears half of sales](https://www.digitimes.com/news/a20260903PD226/i-chiun-business-nvidia-supply-chain-rubin.html) — DIGITIMES
+- [Tongtai doubles semiconductor orders on AI data-center demand](https://www.digitimes.com/news/a20260903PD230/demand-tongtai-equipment-expansion-packaging.html) — DIGITIMES
+- [Taiwan chip equipment maker Scientech sees orders into 2028, may turn away customers in 2027](https://www.digitimes.com/news/a20260903PD236/equipment-taiwan-2027-2028-demand.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [U.S. Used Promise of Nvidia Chips to Help Secure Armenia-Azerbaijan Peace Deal](https://news.google.com/rss/articles/CBMitgFBVV95cUxOUlVKV2FKVnpNR2NtY21oUjdQZ3JCRVNoWGFvVXZvTVJNVDhCUGpmSE5vVFczQlBZanEyUjMyTmNpcGVkUEszSURKZGZ5YW5lLUVMZEF0ZEFDRG03aGdhSm40LWZIRDdIbjVWNWsyZjNHODk1QllPMHJCOW9DbG1XMDhRUmlqMzZFRnZOZHl0Y3ptZ3hiQ0xDVllvY1RpTmo5bnhmcUhXOVllUFo5RmNPc3ZQejZidw?oc=5) — WSJ
-- [Broadcom Earnings Today: Outlook Shows Surging AI Chip Sales](https://news.google.com/rss/articles/CBMigwFBVV95cUxPV2hwTTJkX1ZacjVZY1NTdmI1TU8xWl9yX2c1QU1YZmZYdVRKNkF6aEg1QUUtalRkVEtQZjBtelVXMjJ5bHhrSDJ1dHNabmh3NDF5ZXk0Vk1IeS1yZUR1NGR1dENQbUlsOF80UG94dVpmN1EtdGZhR0lUNzgxNlcxTzVVOA?oc=5) — Barron's
-- [AMD reportedly prepping Ryzen 5 7500 (non-F) CPU with integrated graphics at double the price — Six-core Zen 4 chip rumored to share identical specs with its F-moniker cousin](https://www.tomshardware.com/pc-components/cpus/amd-reportedly-prepping-ryzen-5-7500-non-f-cpu-with-integrated-graphics-at-double-the-price-six-core-zen-4-chip-rumored-to-share-identical-specs-with-its-f-moniker-cousin) — Tom's Hardware
-- [Modder gets Nvidia's DLSS 5 working on AMD's RDNA 4 GPUs — RX 9070 XT only manages 30 FPS at 1080p right now, but 5070 Ti-level performance is the eventual goal](https://www.tomshardware.com/pc-components/gpus/modder-gets-nvidias-dlss-5-working-on-amds-rdna-4-gpus-rx-9070-xt-only-manages-30-fps-at-1080p-right-now-but-5070-ti-level-performance-is-the-eventual-goal) — Tom's Hardware
+- [Hanmi's 2.5D bonders pass Taiwan foundry qualification as packaging outsourcing expands](https://www.digitimes.com/news/a20260904VL217/packaging-hanmi-taiwan-outsourcing-production.html) — DIGITIMES
+- [Taiwan thermal supplier I-Chiun launches AI chip cooling venture targeting US$19.2B liquid-cooling market](https://www.digitimes.com/news/a20260903PD239/taiwan-cooling-i-chiun-ai-chip-market.html) — DIGITIMES
+- [Trumpf CTO says advanced packaging reshapes semiconductor equipment race](https://www.digitimes.com/news/a20260903PD238/packaging-equipment-demand-technology-semiconductor-industry.html) — DIGITIMES
+- [Save nearly 50% on this awesome 16-inch OLED laptop with a Ryzen AI 5 430 CPU & 16GB RAM — HP's MacBook Neo-beating OmniBook X Flip is down to just $699](https://www.tomshardware.com/pc-components/save-nearly-50-percent-on-this-awesome-16-inch-oled-laptop-with-a-ryzen-ai-5-430-cpu-and-16gb-ram-hps-macbook-neo-beating-omnibook-x-flip-is-down-to-just-usd699) — Tom's Hardware
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (4 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (7 headlines, 13h window)._
