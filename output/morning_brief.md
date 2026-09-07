@@ -1,27 +1,27 @@
-# US Market Morning Brief -- 4 Sep 2026, 12:50 SGT
+# US Market Morning Brief -- 7 Sep 2026, 12:59 SGT
 
 ## Markets
-- [Trump-promoted Freedom Fuel expands to Detroit as lawsuit over supplier's unpaid fuel heats up](https://www.cnbc.com/2026/09/03/freedom-fuel-trump-lawsuit-detroit.html) — CNBC Top News
-- ['No steering wheel, no pedals': Tesla teases fans ahead of long-awaited Cybercab update](https://www.cnbc.com/2026/09/03/tesla-teases-no-steering-wheel-no-pedals-ahead-of-cybercab-update.html) — CNBC Top News
-- [Trump admin targets tax-exempt status at private colleges — threatening a key tax break for donations](https://www.cnbc.com/2026/09/03/treasury-irs-proposal-tax-exempt-schools-charitable-donations.html) — CNBC Top News
-- [Automakers urge Congress to permanently ban Chinese connected vehicles in U.S.](https://www.cnbc.com/2026/09/03/chinese-vehicles-congress.html) — CNBC Top News
+- [Trump Says Canada’s Dollar ‘Imbalance’ With US Is Unacceptable](https://news.google.com/rss/articles/CBMisAFBVV95cUxPTlRqWTQwVG5ycG9OZXZnNFMwM2wxTXNNLVFBaEdpdHpCRTZmYXNUMk12eVNHRkJBNGtuZUJuOXhzNnFqeWxpTzdzTWpsRzJSNGI1OHY5eDd2VXBGNTYtaVdIUm9QdDhBckl5THJyaGZxMXdzWTN6cS1FODBQX1pNMTQ1YVQ3Z3d0REdFRHVnUzBVZE1BQVg1eWVDcTFNZk5JQjZBRFQtM1JROFN0Rmp2VQ?oc=5) — Bloomberg.com
+- [SEC sues ISS as Trump administration ramps up scrutiny of proxy advisers](https://www.cnbc.com/2026/09/06/sec-iss-proxy-adviser-subpoena.html) — CNBC Top News
+- [Many truckers don't feel like the rest of America about AI data centers as business booms](https://www.cnbc.com/2026/09/05/ai-data-centers-cost-economy.html) — CNBC Top News
+- [We got more defensive last week as Wall Street raised the bar for AI stocks](https://www.cnbc.com/2026/09/05/we-got-more-defensive-last-week-as-wall-street-raised-the-bar-for-ai-stocks.html) — CNBC Markets
 
 ## Macro, Fed & data
-- [U.S. Stocks Climb as Treasury Yields Retreat on Waller’s Rate Comments](https://news.google.com/rss/articles/CBMivAFBVV95cUxQemNkZHN2VEZMZV8wU3psUG53a1doTUNxdTgteUNoSWsyeXAyUWJvZ0ZkMWxTMUM2Qm5kWGxKZHVFQ01vV1dSUDQ0ZW85MWRPeTM3eWE5UmozM1dTdDg1cWJqRHRtM0g2UGdiaTQycndZNEVZOC01VFdYSFBwRU1ybElRdDZpQ0tEQjNsTmhQTDlDd1hMd0JJUnpsYk52R0Y0TlBJZEhfMUZlSzVFc2V2LTBtanYtOWdqY094Wg?oc=5) — WSJ
-- [What the Bond Market Selloff Means for Retail Portfolios](https://news.google.com/rss/articles/CBMirwFBVV95cUxOSV9SQ0tsSmhUc0RxYzRtM2YzNE1CX000WmZ3VXM5VHBHSlJlY1VSdVFCcWpxcDNRd0R6LUpqLUdUaUN4TFFNV3QycElEaEJDa0NuUWp2Vnp4SUVHanJjRWxZM1ZzU05QcGYtZVlqYl9tUXZkYXVBWDBCSXlKcGt5dlR5UjRfVUFWbnB5VTVJemtfYXdGeWFjVm5MMU9tWmRpeWxrdmxVZG9lZEJwY2gw?oc=5) — Bloomberg.com
-- [Vance says Fed should lower interest rates: 'Would be nice to have some help'](https://www.cnbc.com/2026/09/03/vance-fed-interest-rates-trump-bond-yields.html) — CNBC Top News
-- [Fed Governor Waller indicates he will support holding rates steady at September meeting](https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html) — CNBC Economy
+- [Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets](https://www.cnbc.com/2026/09/07/us-treasury-yields-markets-scott-bessent.html) — CNBC Top News
+- [U.S. Hiring Jumps, an Encouraging Sign for the Economy](https://news.google.com/rss/articles/CBMid0FVX3lxTE1uWnNDV3Q2ZXZINW9nT3FBQ1ktcUxBQ2ZIazNtN3JIYU4yaWJHWnJWQm83UlpyR3N1N0JkWk56b0JEWTFub1YwdmNDeUpLTlh4dVQtLUduY19QZDB6T1M1RFB1dXcyNlJJaktzVE5MdXMwVWFzN1lZ?oc=5) — The New York Times
+- [Trump turns up the heat on Warsh as Fed rate hike looms](https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html) — CNBC Economy
+- [Mohamed El-Erian says an influx of hyperscaler bonds is competing with U.S. Treasuries — and pushing rates higher](https://news.google.com/rss/articles/CBMingFBVV95cUxQTENIX3RmWlp5VVBqSzZjaXJzOVY3ay16Nm9sZ1NCY1pYd1gyVHpPTENTY0pLTWVoWUY2MXZscUZjQVJGUy1KdTZ6dWRXSjZDM185bFB6VVBOcUZuZ3JZX2JMbFR6dkFwZVpGMG1mYmVpYmhPbnFfY0V3UlNUUXkwSTFCNThtbXJRdzV1LUZMZEhXZjVlSmliOUZhRm9IUQ?oc=5) — Yahoo Finance
 
 ## Stocks & earnings
-- [Lululemon stock plunges 15% on disappointing earnings and outlook](https://www.cnbc.com/2026/09/03/lululemon-lulu-q2-2026-earnings.html) — CNBC Markets
-- [Zscaler stock rises on earnings beat, upbeat guidance](https://www.cnbc.com/2026/09/03/zscaler-zs-q4-earnings-2026.html) — CNBC Top News
-- [ChargePoint CEO says 70% stock surge 'is the beginning of the momentum'](https://www.cnbc.com/2026/09/03/chargepoint-ceo-50percent-stock-surge-is-the-beginning-of-the-momentum.html) — CNBC Top News
-- [Options volume erupts in retail trading favorites as Robinhood, Tesla surge](https://www.cnbc.com/2026/09/03/options-volume-erupts-in-retail-trading-favorites-as-robinhood-tesla-surge.html) — CNBC Top News
+- [If a Stock Market Crash Is Coming, History Says Investors Who Make This Simple Move Will Win](https://news.google.com/rss/articles/CBMinwFBVV95cUxNRlR4NXBuTjVBOFBQTldjMTJIYThfMm50ZV9keGdZR3pnUDhZLTlEUUo0b19XNDB4X0RCMm1DS01wMWZnVzJ2TU9jVktNSXZ4d0dUdzQzZGprQ0V1S3BrRV9UaDgyVlJZVmdPNnNBSndRb3NaOXFGeFVzV3pRakZNT2JXNnBOcVhuN1EtNC1EM3FpWnVCMDlWR3MydmNfaTQ?oc=5) — Yahoo Finance
+- [Roche (SWX:ROP) Stock Looks Reasonable On Earnings But Mixed On Value](https://news.google.com/rss/articles/CBMilAFBVV95cUxONUtXMTlZSG1LWkt0ODI2LUNTSEFjc29ja0o4TzNKaEVCakdyZS1ZUzI2b3ozNnFzdnBjakVRRU85MkxrT1BOeHJkQUJVMlFETmdiVTUtOG0xM3hPS1RpaUxIRW94X2pzWmxXZGx2Z01ISmFDU3Fpb0xKdmc1YWZXVXk4NzJ6WDFNV04yMEdJeTZuajdE?oc=5) — Yahoo Finance
+- [Bitcoin heads for third winning week in a row as macro pressures mount](https://www.cnbc.com/2026/09/04/bitcoin-heads-for-third-winning-week-in-a-row-as-macro-pressures-mount.html) — CNBC Finance
+- [Zscaler beats earnings expectations, issues upbeat guidance but stock falls](https://www.cnbc.com/2026/09/03/zscaler-zs-q4-earnings-2026.html) — CNBC Markets
 
 ## Geopolitics
-- [India Says US Trade Deal Hinges on Preferential Tariff Rate](https://news.google.com/rss/articles/CBMirwFBVV95cUxPQjZodnlaTTRKa0pfYm00Y2ZyX1BXbFRFTUJNdkdSVnBJdTJqMXFkUTl0YUFXNFQzSDNNYXNlVl9mV25xSEJYSHdvUF9kYmFFNkVNZ0pDMFJBTDVqUkJITzd0RGVMVE1ZTDhRU0RqN2JzVmg5cm9oVXZzRUY2Z1BtYm1MZ2RkWHJLREYzTndCZ0F6cktINENJRTZCdEJWZ0Vld0JZNlJ4T3ZodjBrTDdJ?oc=5) — Bloomberg.com
-- [EU joins U.S. sanctions push on Iran as South Korea weighs Hormuz deployment](https://www.cnbc.com/2026/09/04/us-iran-war-trump-hormuz-operation-economic-outcast-sanctions-campaign.html) — CNBC Top News
-- [U.S. Failed to Give Assurances on Tariff Levels, Canada’s Carney Says](https://news.google.com/rss/articles/CBMirwFBVV95cUxPdF9odzQ2YWR3NTg4UVBuOEtHbjhjeXdGNXhiSk1Lc2c4NzBlN0ZybjFtNWhHb00zaXAwR3VXVE12SUtVR1p4YU12YWotMzBnQ3RGR0Vqd3dwUmk3X253OHJ0MmF1eVBDbWV0cVdqbXZpNUk2ak1VUlE3bFRYck5KWk5Qb0Ewb3I4LUJRV2l0M0tJOGxWeDBleEVvZVdiaVJpLXByLTRQdHBWcmhlNUhz?oc=5) — WSJ
-- [Carney Says He’s Open to US Pact if Auto, Steel Terms Are Competitive](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaGRsSF90UFdodllYQ2JzempWSkk4MkN6ak8xeG5xbTdKb3VGTW84NUhmT3dOTGZ2MllyMWZTR2tPSmtFMGswZEpTT0FXc3FIUGNOOWNNR1hLeE9wYWlGTUlnRWM1ZDRzdUFOLVJiNjF2MlViTXd3clo3d0Jtb2dBZFpZLTUta1B5NXJjLVQyVnJzb2hIRXNMVkNWVHJWNXVlaUVJbXBKd2owbGs0blN6Rm5iNjhVT1dnd3BB?oc=5) — Bloomberg.com
+- [Trump’s ‘Erratic’ Tariffs Undermine Economy, House Democrat Says](https://news.google.com/rss/articles/CBMisgFBVV95cUxPYldIaFlsTVA1SGJQMU1qYzZ1TnJHX19HdEgtdE82Wnc0dm5EUjNqaGxFSkN1b3RrbHJuQl81bzZQWkx4d0o0elVXQ1Y5WGRVa2pKc3FiaHBPVlFRM2V1UEVuZ01JU0tNbkl4RWdoczBwTXhkVDZ2T2l1WXk0Nm1mcFNTY2JxaE9HNDZqTVZhaGlWMGdHZGp1MFBJZGxzdDUxNTR6MEtZOWpMSk41Z0FmT1Nn?oc=5) — Bloomberg.com
+- [U.S. Energy Secretary Wright says Iran nuclear deal may never happen](https://www.cnbc.com/2026/09/06/iran-us-response-oil-tanker-strikes.html) — CNBC Top News
+- [OPEC Plus Holds Oil Production Steady as U.S.-Iran Strikes Resume](https://news.google.com/rss/articles/CBMigwFBVV95cUxPY2pWUklObC1DTFJZQTFnd2s1eVJhRFplUkZoZlNXZU84bjl4ckRQOEdhclpUTlBKMHNRLU1nRE81Sjl3amhuLVJwZEd0TDBGZ1pfbUt3UmxaLXNIRWt6LWJRRWdHUEllR0pVRV8zS2ZMMEItZkxsLTdNNmowV0pvWlJFcw?oc=5) — The New York Times
+- [A Bad Year for Bees Gets Worse as Trump’s Tariffs Hit Canada’s Honey Belt](https://news.google.com/rss/articles/CBMijAFBVV95cUxQcnozYnVnY2tlSS11RVdQRDVRMW5mUDlzMEtLdW5meldrUTRhQnV4eERFTmFTTEp2Ynh6UlVTVW1lLVBQX05PempFRWZDY3l6Q3B4RE45SUlKSDNaLXpvUThqT1JyQ05TNklndFRlVjZibEdmRkxnZ2dlejNDZnJnN1gyR2Vhc1Q0RTdudw?oc=5) — The New York Times
 
-_Sources: Google News + CNBC + Fed feeds (16 headlines, 20h window)._
+_Sources: Google News + CNBC + Fed feeds (16 headlines, 72h window)._
