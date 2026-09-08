@@ -1,27 +1,24 @@
-# US Market Morning Brief -- 7 Sep 2026, 12:59 SGT
+# US Market Morning Brief -- 8 Sep 2026, 12:55 SGT
 
 ## Markets
-- [Trump Says Canada’s Dollar ‘Imbalance’ With US Is Unacceptable](https://news.google.com/rss/articles/CBMisAFBVV95cUxPTlRqWTQwVG5ycG9OZXZnNFMwM2wxTXNNLVFBaEdpdHpCRTZmYXNUMk12eVNHRkJBNGtuZUJuOXhzNnFqeWxpTzdzTWpsRzJSNGI1OHY5eDd2VXBGNTYtaVdIUm9QdDhBckl5THJyaGZxMXdzWTN6cS1FODBQX1pNMTQ1YVQ3Z3d0REdFRHVnUzBVZE1BQVg1eWVDcTFNZk5JQjZBRFQtM1JROFN0Rmp2VQ?oc=5) — Bloomberg.com
-- [SEC sues ISS as Trump administration ramps up scrutiny of proxy advisers](https://www.cnbc.com/2026/09/06/sec-iss-proxy-adviser-subpoena.html) — CNBC Top News
-- [Many truckers don't feel like the rest of America about AI data centers as business booms](https://www.cnbc.com/2026/09/05/ai-data-centers-cost-economy.html) — CNBC Top News
-- [We got more defensive last week as Wall Street raised the bar for AI stocks](https://www.cnbc.com/2026/09/05/we-got-more-defensive-last-week-as-wall-street-raised-the-bar-for-ai-stocks.html) — CNBC Markets
+- [Bombardier points out U.S. footprint after Trump says aerospace giant must build in America](https://www.cnbc.com/2026/09/07/trump-bombardier-cant-sell-in-us-unless-canada-aerospace-giant-builds-there.html) — CNBC Top News
+- [Trump says Canada's Bombardier must build jets in US or lose market access](https://news.google.com/rss/articles/CBMiygFBVV95cUxPdzREc0pTbkJYakNVdk83YXAxTmpwU2gyMGNfbHFpVk4zTEdnVExLcHFUNUpYc0Zya0NyMnVQTGFObXZIeVk3X1I2MFRZQWFGWVJteHdMWEdod3k3N0FhbmliMFRrMG42OTV2bWNvSHZ6Y0lGT0Z1Ymc5NEZTeXExOGtmZkNRcXNfSWpGcXZGLUlHNElxNHVFQk5QN3JoR05xR2JxU29DZ0RiTC1NLWxzMWZiV3p3SnFUcHI1T2oyNElJMWFQMjFscVpB?oc=5) — Reuters
+- [Crashed Amazon cargo jet struck two vehicles, ended up 1,300 feet past runway, NTSB says](https://www.cnbc.com/2026/09/07/crashed-amazon-cargo-jet-struck-two-vehicles-ended-up-1300-feet-past-runway-ntsb-says.html) — CNBC Top News
+- [Greenland welcomes major funding boost from EU amid Trump’s annexation threats](https://www.cnbc.com/2026/09/07/greenland-eu-trump-critical-minerals-arctic.html) — CNBC Top News
 
 ## Macro, Fed & data
-- [Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets](https://www.cnbc.com/2026/09/07/us-treasury-yields-markets-scott-bessent.html) — CNBC Top News
-- [U.S. Hiring Jumps, an Encouraging Sign for the Economy](https://news.google.com/rss/articles/CBMid0FVX3lxTE1uWnNDV3Q2ZXZINW9nT3FBQ1ktcUxBQ2ZIazNtN3JIYU4yaWJHWnJWQm83UlpyR3N1N0JkWk56b0JEWTFub1YwdmNDeUpLTlh4dVQtLUduY19QZDB6T1M1RFB1dXcyNlJJaktzVE5MdXMwVWFzN1lZ?oc=5) — The New York Times
-- [Trump turns up the heat on Warsh as Fed rate hike looms](https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html) — CNBC Economy
-- [Mohamed El-Erian says an influx of hyperscaler bonds is competing with U.S. Treasuries — and pushing rates higher](https://news.google.com/rss/articles/CBMingFBVV95cUxQTENIX3RmWlp5VVBqSzZjaXJzOVY3ay16Nm9sZ1NCY1pYd1gyVHpPTENTY0pLTWVoWUY2MXZscUZjQVJGUy1KdTZ6dWRXSjZDM185bFB6VVBOcUZuZ3JZX2JMbFR6dkFwZVpGMG1mYmVpYmhPbnFfY0V3UlNUUXkwSTFCNThtbXJRdzV1LUZMZEhXZjVlSmliOUZhRm9IUQ?oc=5) — Yahoo Finance
+- [White House ups pressure on Kevin Warsh's Fed as Wall Street expects hike](https://news.google.com/rss/articles/CBMiiwFBVV95cUxQa1ZYZkI5azJEanM2elFUMDFVbFdUVmcwd0ducFRZT2c5SlEwZnhBcVpkZlo5bl80ZS1xVUlmYjdLSlRIQXBCMVBwbW5lQzhPN2E3dllKRkZ1eVVVeGxKMDVFUEY5VUp2QVFWNWY1ODUyVFRvMGRVU25BZVptQjNGeW12bVZrV3RVMVFz?oc=5) — Fortune
 
 ## Stocks & earnings
-- [If a Stock Market Crash Is Coming, History Says Investors Who Make This Simple Move Will Win](https://news.google.com/rss/articles/CBMinwFBVV95cUxNRlR4NXBuTjVBOFBQTldjMTJIYThfMm50ZV9keGdZR3pnUDhZLTlEUUo0b19XNDB4X0RCMm1DS01wMWZnVzJ2TU9jVktNSXZ4d0dUdzQzZGprQ0V1S3BrRV9UaDgyVlJZVmdPNnNBSndRb3NaOXFGeFVzV3pRakZNT2JXNnBOcVhuN1EtNC1EM3FpWnVCMDlWR3MydmNfaTQ?oc=5) — Yahoo Finance
-- [Roche (SWX:ROP) Stock Looks Reasonable On Earnings But Mixed On Value](https://news.google.com/rss/articles/CBMilAFBVV95cUxONUtXMTlZSG1LWkt0ODI2LUNTSEFjc29ja0o4TzNKaEVCakdyZS1ZUzI2b3ozNnFzdnBjakVRRU85MkxrT1BOeHJkQUJVMlFETmdiVTUtOG0xM3hPS1RpaUxIRW94X2pzWmxXZGx2Z01ISmFDU3Fpb0xKdmc1YWZXVXk4NzJ6WDFNV04yMEdJeTZuajdE?oc=5) — Yahoo Finance
-- [Bitcoin heads for third winning week in a row as macro pressures mount](https://www.cnbc.com/2026/09/04/bitcoin-heads-for-third-winning-week-in-a-row-as-macro-pressures-mount.html) — CNBC Finance
-- [Zscaler beats earnings expectations, issues upbeat guidance but stock falls](https://www.cnbc.com/2026/09/03/zscaler-zs-q4-earnings-2026.html) — CNBC Markets
+- [Nvidia supplier Wistron's shares drop after it announces $1.5 billion global stock sale](https://www.cnbc.com/2026/09/08/nvidia-supplier-wistron-share-sale.html) — CNBC Top News
+- [China says it will pump $54 billion into banks and insurers — but their stocks still fell](https://www.cnbc.com/2026/09/07/china-state-banks-lenders-insurers-capital-solvency-bankrupt-nim-.html) — CNBC Finance
+- [Applied Optoelectronics, Inc. (AAOI) Stock Price, News, Quote & History](https://news.google.com/rss/articles/CBMiTkFVX3lxTFAyWk5Td0tZS292OGRfMmpnVHJBYVN0UXBkRGpXTmRnYU5wMlVrb0gxTjVTMmoyNGNGeXRZU2tFcy1mQnU3cnBldmVoQWZlUQ?oc=5) — Yahoo Finance
+- [The Stock Market Is Flashing a Warning Seen Only 6 Times Since 1871, and History Is Crystal Clear That a Disaster Could Be Heading Toward Wall Street](https://news.google.com/rss/articles/CBMioAFBVV95cUxOMnYzNXZESjBqcnRtUEdTM3RSVUY2clJfMEgwZ3I4eTVDYjZEdXNEZHIyckdmdG9keGpZUVFGY2dibG9IYXIzN3BJX19Na0wwQ3VRcmdVU2dDR0xCYmlsRjFCc2dQb1dqOXhhT2lfeTUxUUZtTVUtYzEtcnh6T0Z1Mk5EcnJNWEZVNEFBbmxJZEM5Vi16Q3N5UjBCVks1R0ww?oc=5) — Yahoo Finance
 
 ## Geopolitics
-- [Trump’s ‘Erratic’ Tariffs Undermine Economy, House Democrat Says](https://news.google.com/rss/articles/CBMisgFBVV95cUxPYldIaFlsTVA1SGJQMU1qYzZ1TnJHX19HdEgtdE82Wnc0dm5EUjNqaGxFSkN1b3RrbHJuQl81bzZQWkx4d0o0elVXQ1Y5WGRVa2pKc3FiaHBPVlFRM2V1UEVuZ01JU0tNbkl4RWdoczBwTXhkVDZ2T2l1WXk0Nm1mcFNTY2JxaE9HNDZqTVZhaGlWMGdHZGp1MFBJZGxzdDUxNTR6MEtZOWpMSk41Z0FmT1Nn?oc=5) — Bloomberg.com
-- [U.S. Energy Secretary Wright says Iran nuclear deal may never happen](https://www.cnbc.com/2026/09/06/iran-us-response-oil-tanker-strikes.html) — CNBC Top News
-- [OPEC Plus Holds Oil Production Steady as U.S.-Iran Strikes Resume](https://news.google.com/rss/articles/CBMigwFBVV95cUxPY2pWUklObC1DTFJZQTFnd2s1eVJhRFplUkZoZlNXZU84bjl4ckRQOEdhclpUTlBKMHNRLU1nRE81Sjl3amhuLVJwZEd0TDBGZ1pfbUt3UmxaLXNIRWt6LWJRRWdHUEllR0pVRV8zS2ZMMEItZkxsLTdNNmowV0pvWlJFcw?oc=5) — The New York Times
-- [A Bad Year for Bees Gets Worse as Trump’s Tariffs Hit Canada’s Honey Belt](https://news.google.com/rss/articles/CBMijAFBVV95cUxQcnozYnVnY2tlSS11RVdQRDVRMW5mUDlzMEtLdW5meldrUTRhQnV4eERFTmFTTEp2Ynh6UlVTVW1lLVBQX05PempFRWZDY3l6Q3B4RE45SUlKSDNaLXpvUThqT1JyQ05TNklndFRlVjZibEdmRkxnZ2dlejNDZnJnN1gyR2Vhc1Q0RTdudw?oc=5) — The New York Times
+- [Iran foreign ministry takes aim at Canada for support of U.S. actions in Strait of Hormuz](https://www.cnbc.com/2026/09/08/us-iran-war-trump-hormuz-canada-trade-talks-greenland.html) — CNBC Top News
+- [Copper Surges to All-Time High as Tariff Turmoil Rocks Market](https://news.google.com/rss/articles/CBMisgFBVV95cUxPbXFyZDVyUXl3bDVvdEd4eGlKR1l4ZFViTGdGMFdieWhVY1UwazUwQ2IyOFhiVkhwWlk4NFVBVk8teXpJd21IMEZNYjdtYWFhRmlieDc0enZjOXZYUDN0aGtfdlFiX1p4SVhJaGozU1ZrQVFodVZGRWJlZ0FmZzJWMXI2czdLYUJnRHdRREVpX1NxUGxLOXdodjhLNGFjQ2dMQURwSzdrRmo4SEUyRWNmSUdn?oc=5) — Bloomberg.com
+- [Canada is fated to try to do deals with Donald Trump](https://news.google.com/rss/articles/CBMihAFBVV95cUxPM21la0lBNHpFZmZRRU00Rkg2OTBsTTV6N2tITGxBZFRER3FPWFhjZWZzMU5RTVBDdGVqbWtDdDdTd25mRlhMaWZrcWtJdVRpcTJHRFRheVA3dGlUNUU3ckVTM3d5VEsybHRSQzZsZk44aXhOQ0k2RXhaQnpNcWFBM2dHZVI?oc=5) — Financial Times
+- [Trump threatens to ban Canadian Bombardier jet sales in US, hours before Ottawa’s retaliatory tariffs set to take effect](https://news.google.com/rss/articles/CBMie0FVX3lxTE0xMDJtZWJPN1BNZUJVVC1ZOEgwb19DMTBuS0ZiWEVtQlZOWTB5YlFLUjNQNENzZEh1UU1PTWY1S25BQXB4WkFwdGRsVTVEc24zNXB2bXhoX0d4X1p4SG1LOHlkVVQ4d3psR3N1dXlJZlpZOUZSQV9IcEFWUQ?oc=5) — CNN
 
-_Sources: Google News + CNBC + Fed feeds (16 headlines, 72h window)._
+_Sources: Google News + CNBC + Fed feeds (13 headlines, 20h window)._
