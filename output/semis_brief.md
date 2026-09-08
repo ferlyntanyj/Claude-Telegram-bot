@@ -1,20 +1,19 @@
-# Global Semiconductor Brief -- 7 Sep 2026, 23:59 SGT
+# Global Semiconductor Brief -- 8 Sep 2026, 13:02 SGT
 
 ## Policy & geopolitics
-- [IQE CEO Warns of Emerging China Supply Risk for Chip Industry](https://news.google.com/rss/articles/CBMizAFBVV95cUxQUU16QW1LU0NNYzlQMUc2amV5b0tzZjhUbXFFdEptU1VoYzZIeC1YZ0RPUDdDdmp4d0pVTXRiVXNwdjNMbHpIVFk5NGdhY3BKSkl5dGpUNkxYbEk2SHptcGRBSG5nTXNRN2ZQTlNtT0Y4bkcyZW9wSGZ3elpiMVExdHRVei15V3ZqS19ob0daRVJqa3I2MjNxM2htamJhQ3R5ZnBjNlJWUkpDTlVTLXBDM3dib0JjeEY2VnpCYlVRTWVhSVEzUks5bTFHY24?oc=5) — Bloomberg.com
-- [Analysis: Under tariff threats, Taiwan chipmakers hedge beyond US](https://www.digitimes.com/news/a20260907PD205/taiwan-investment-europe-supply-chain-taipei.html) — DIGITIMES
-- [Experts say subsidies can't buy semiconductor competitiveness](https://www.digitimes.com/news/a20260904PD228/subsidies-semi-competitiveness-taiwan-policy.html) — DIGITIMES
+- [Huawei drives China’s push to make its own advanced chips](https://news.google.com/rss/articles/CBMihAFBVV95cUxOMFNTc3V3akREbVlsb2N3VmJMcFY1ZUtKZXlWc28zMnFIcmE3M0R1X0gtMnl4bXZIX2pPX2YtLS1ZbDZsdkxPYTM0MVpyOTc0SlJtd2x3YUgydHNocDBQdnBoWkZsb0Q5QnhCX2tEaVdwMDZYZFl0VXZKWl9DNm56aHU5QV8?oc=5) — Financial Times
+- [Huawei tests LogicFolding chip in handset with higher AI stakes ahead](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSE03RDdMeTQ3d2hSaHh6WUhjaHNhSWRuQzBCUEoyUHZQampvUFRXMmdiRTFjaTdJLVk1c0pBaC03OXA3aGZzclJwZkpnclZXV3pwb0NRLXpEWnp3U0FGb1lOOEcyUGdoeUp5VWRBcmk5T0Npc29tUEVYS05SYzV5OW8xQTdvaVJqNkZxb3YzQkNFVzl2QktOX1RlVTVsUVVtY1RPY2wxNV9oYWg2d3MwdXZzRzhsTFJu0gG4AUFVX3lxTE9ITTdEN0x5NDd3aFJoeHpZSGNoc2FJZG5DMEJQSjJQdlBqam9QVFcyZ2JFMWNpN0ktWTVzSkFoLTc5cDdoZnNyUnBmSmdyVldXenBvQ1EtekRaendTQUZvWU44RzJQZ2h5SnlVZEFyaTlPQ2lzb21QRVhLTlJjNXk5bzFBN29pUmo2RnFvdjNCQ0VXOXZCS05fVGVVNWxRVW1jVE9jbDE1X2hhaDZ3czB1dnNHOGxMUm4?oc=5) — South China Morning Post
 
 ## Supply chain signals
-- [SK Hynix reportedly ends LG eSSD talks as ASICLAND deal expands](https://www.digitimes.com/news/a20260907VL218/sk-hynix-design-lg-outsourcing-lg-electronics.html) — DIGITIMES
-- [How UC Santa Cruz's Silicon Valley lab is reverse-engineering the human brain to solve AI's chip power crisis](https://www.digitimes.com/news/a20260906VL202/ai-chip-california-electricity-hardware-silicon-valley-academia.html) — DIGITIMES
-- [HBM4 squeezes DRAM supply as Samsung, SK Hynix inventories fall below 10 days](https://news.google.com/rss/articles/CBMijAFBVV95cUxPaVNPd3RyWkcwa01DellWM1pMZFRzZ2dGOWQ1XzlzRVhDWTk0QS1fOUhmOXVSZ3oyQXMyejktN3Jjc0VGc2c3OEkwaEk5M0s1Ti1hRnpqTktUTjU2Y0NEUXl4eFFFakxRY1dPTS1iaE9RazhfYzBibE8zd21uWElpN2hMTW1VMTh3MGtzaw?oc=5) — Digitimes
-- [STMicroelectronics says humanoid robots must clear a trio of hurdles](https://www.digitimes.com/news/a20260907PD234/stmicroelectronics-manufacturing-robot-production.html) — DIGITIMES
+- [Intel CPU prices reportedly rising 10% again as Qualcomm and MediaTek target IPC and IoT gaps](https://www.digitimes.com/news/a20260908PD210/intel-cpu-pc-ipc-iot.html) — DIGITIMES
+- [Renewable power shortage puts Taiwan's chip cluster under scrutiny](https://www.digitimes.com/news/a20260908PD218/taiwan-re100-infrastructure-electricity-renewable-energy.html) — DIGITIMES
+- [ViTrox rides AI demand, expands Taiwan push as Malaysia semiconductor base grows](https://www.digitimes.com/news/a20260907VL216/taiwan-demand-inspection-equipment-packaging.html) — DIGITIMES
+- [Nvidia underwrites its own demand, and that may be harder to copy than its chips](https://www.digitimes.com/news/a20260907PD214/nvidia-financing-supply-chain-chips-capacity.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [AI computing demand may never be sated, says CEO of Nvidia partner Iren](https://news.google.com/rss/articles/CBMihAFBVV95cUxNcl9UQllHZTNxT0xReUxGQmplaDBEZ3E4OUg0OE5HWVFnVktQX0NvNmxoZWt4YVcyc2VkbzJaelJuV3hUYVBhM01CZm84QnJnWlZ3VE5ndFNlMGJDZDNCak5TemVZY2NhdUdWbEEzczgzN1J2ZmlLNktZMm12d1FmTDFOT0E?oc=5) — Financial Times
-- [Nvidia Acquires HuggingFace for $12.9B](https://www.eetimes.com/nvidia-acquires-huggingface-for-12-9b/) — EE Times
-- [Huawei unveils first-ever smartphone powered by Tau Scaling Law-based Kirin chip](https://news.google.com/rss/articles/CBMizAFBVV95cUxONHdCUXZWeXFxekpPWVljT0Fhdy1CVUVXVF9ocXpTVXg0YzZoVlpKcnB0N0FhVS01bjlQVUJJbFp3RW9DYnN0QU5nM2Y3ZFRyVHNPdERLMTN5d184aXdPSVdSZWNJdHJGN0NQdDlzS1hWYVk1M1U5cHY5Vl9ValpCM0VFOTRucjkxdUFFRWdZc3MxN0VpeEh3MU9HR195RHNpYkxFVGJiRkZqWElOTURPR2NsVjZsa3hRTGx4d0pOb2hzanY4ckJSTWROS1_SAcwBQVVfeXFMTjR3QlF2VnlxcXpKT1lZY09BYXctQlVFV1RfaHF6U1V4NGM2aFZaSnJwdDdBYVUtNW45UFVCSWxad0VvQ2JzdEFOZzNmN2RUclRzT3RESzEzeXdfOGl3T0lXUmVjSXRyRjdDUHQ5c0tYVmFZNTNVOXB2OVZfVWpaQjNFRTk0bnI5MXVBRUVnWXNzMTdFaXhIdzFPR0dfeURzaWJMRVRiYkZGalhJTk1ET0djbFY2bGt4UUxseHdKTm9oc2p2OHJCUk1kTktf?oc=5) — South China Morning Post
-- [Inside UC San Diego's 'Made with Taiwan' push to train TSMC's future engineers, reinvent chip packaging](https://www.digitimes.com/news/a20260904VL221/tsmc-taiwan-packaging-design-training.html) — DIGITIMES
+- [Samsung allocates more than half of 4nm foundry capacity to HBM4](https://www.digitimes.com/news/a20260908VL205/samsung-hbm4-capacity-4nm-hbm.html) — DIGITIMES
+- [Analysis: Imec's EUV edge raises question over how far Taiwan should replicate research fab model](https://www.digitimes.com/news/a20260908PD206/imec-euv-fab-itri-government-taiwan.html) — DIGITIMES
+- [TSMC's co-COO left ITRI in 1987 for a startup foundry &mdash; ITRI just named him a laureate](https://www.digitimes.com/news/a20260907PD239/tsmc-manufacturing-itri-taiwan-development.html) — DIGITIMES
+- [Infineon COO leaves a US fab open, says GlobalFoundries and ESMC already cover it](https://www.digitimes.com/news/a20260907PD223/infineon-outsourcing-capacity-2026-production.html) — DIGITIMES
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (11 headlines, 62h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (10 headlines, 13h window)._
