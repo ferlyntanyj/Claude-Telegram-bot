@@ -4,6 +4,11 @@ Compute the liquidity momentum screener:
   ADTV_recent = mean(close * volume) over the trailing 5 trading days
   surge_ratio = ADTV_recent / ADTV_2024
 
+The "liquid" universe additionally requires ADTV_2024 >= MIN_ADTV_2024_SGD (excludes names with
+a near-zero historical base that turn any trade into a noise-driven "surge") AND ADTV_recent >=
+MIN_ADTV_RECENT_SGD (excludes names that aren't presently trading at a practically tradable size,
+regardless of how impressive the ratio looks).
+
 Outputs the full ranked table and prints/saves the top 10.
 """
 import pandas as pd
@@ -17,6 +22,9 @@ RECENT_WINDOW = 5
 MIN_2024_TRADING_DAYS = 100  # require reasonably complete 2024 history to avoid noisy ratios
 MIN_ADTV_2024_SGD = 100_000  # liquidity floor: excludes near-untraded names where a tiny base
                               # inflates the ratio off noise rather than genuine momentum
+MIN_ADTV_RECENT_SGD = 500_000  # current-liquidity floor: excludes names whose *present-day*
+                                # trading (trailing 5D ADTV) is too thin to be practically
+                                # tradable, even if the surge ratio looks impressive
 
 
 def main():
@@ -72,9 +80,13 @@ def main():
     df.to_csv(OUT_PATH, index=False)
     print(f"Saved full ranked screener ({len(df)} tickers) to {OUT_PATH}")
 
-    df_liquid = df[df["adtv_2024"] >= MIN_ADTV_2024_SGD].copy()
+    df_liquid = df[
+        (df["adtv_2024"] >= MIN_ADTV_2024_SGD) &
+        (df["adtv_recent"] >= MIN_ADTV_RECENT_SGD)
+    ].copy()
     df_liquid.to_csv(OUT_PATH_FILTERED.replace("_top10", "_liquid"), index=False)
-    print(f"{len(df_liquid)} tickers pass the SGD {MIN_ADTV_2024_SGD:,.0f}/day 2024 ADTV liquidity floor")
+    print(f"{len(df_liquid)} tickers pass both the SGD {MIN_ADTV_2024_SGD:,.0f}/day 2024 ADTV floor "
+          f"and the SGD {MIN_ADTV_RECENT_SGD:,.0f}/day current (trailing 5D) ADTV floor")
 
     top10 = df_liquid.head(TOP_N).copy()
     top10.to_csv(OUT_PATH_FILTERED, index=False)

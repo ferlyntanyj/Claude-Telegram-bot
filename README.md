@@ -6,9 +6,12 @@ Ranks SGX mainboard + Catalist stocks by ADTV surge ratio:
 surge_ratio = (trailing 5-trading-day average daily traded value) / (full-year 2024 average daily traded value)
 ```
 
-A liquidity floor (2024 ADTV >= SGD 100,000/day) is applied before ranking to exclude
-near-untraded microcaps where a single small trade inflates the ratio off pure noise.
-See `scripts/03_compute_screener.py` for the full rationale and `MIN_ADTV_2024_SGD` to adjust it.
+Two liquidity floors are applied before ranking: 2024 ADTV >= SGD 100,000/day (excludes
+near-untraded microcaps where a single small trade inflates the ratio off pure noise) AND
+current/trailing-5-day ADTV >= SGD 500,000/day (excludes names that aren't presently trading
+at a practically tradable size, however impressive the ratio looks). See
+`scripts/03_compute_screener.py` for the full rationale and `MIN_ADTV_2024_SGD` /
+`MIN_ADTV_RECENT_SGD` to adjust them.
 
 ## Pipeline
 

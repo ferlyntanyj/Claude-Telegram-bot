@@ -92,7 +92,8 @@ write_sheet(
     ws1, top10,
     "SGX Liquidity Momentum Screener — Top 10",
     f"Ranked by ADTV surge ratio (trailing 5-trading-day ADTV ÷ full-year 2024 ADTV). "
-    f"Recent window: {recent_start} to {latest_trading_date}. Liquidity floor: 2024 ADTV ≥ SGD 100,000/day. Run date: {run_date}.",
+    f"Recent window: {recent_start} to {latest_trading_date}. Liquidity floors: 2024 ADTV ≥ SGD 100,000/day "
+    f"and current (trailing 5D) ADTV ≥ SGD 500,000/day. Run date: {run_date}.",
     highlight_top10=True,
 )
 
@@ -101,7 +102,8 @@ ws2 = wb.create_sheet("Liquid Universe")
 write_sheet(
     ws2, liquid,
     "SGX Liquidity Momentum Screener — Liquid Universe",
-    f"All {len(liquid)} SGX mainboard/Catalist stocks with 2024 ADTV ≥ SGD 100,000/day, ranked by surge ratio. "
+    f"All {len(liquid)} SGX mainboard/Catalist stocks with 2024 ADTV ≥ SGD 100,000/day AND current "
+    f"(trailing 5D) ADTV ≥ SGD 500,000/day, ranked by surge ratio. "
     f"Recent window: {recent_start} to {latest_trading_date}.",
     highlight_top10=True,
 )
@@ -141,13 +143,17 @@ notes = [
     ("Surge Ratio = ADTV Recent ÷ ADTV 2024. A ratio of 5.0x means the stock is trading roughly 5 "
      "times its average 2024 daily value over the last week.", None),
     ("", None),
-    ("Liquidity floor", Font(name=FONT_NAME, bold=True)),
+    ("Liquidity floors", Font(name=FONT_NAME, bold=True)),
     ("Stocks with 2024 ADTV below SGD 100,000/day are excluded from the 'Top 10' and 'Liquid Universe' "
      "sheets. Without this floor, near-untraded microcaps dominate the top of the ranking purely because "
      "a tiny historical base (e.g. SGD 50/day) makes any single trade register as a 100x+ 'surge' — "
-     "this is noise, not liquidity momentum. The unfiltered ranking is kept on the 'Full Universe' sheet "
-     "for reference. The SGD 100,000 threshold is a judgment call, not a market convention — adjust "
-     "in scripts/03_compute_screener.py (MIN_ADTV_2024_SGD) if a different bar is wanted.", None),
+     "this is noise, not liquidity momentum.", None),
+    ("Separately, stocks whose *current* (trailing 5D) ADTV is below SGD 500,000/day are also excluded — "
+     "this catches names with a large-enough 2024 base to pass the first floor, but that aren't actually "
+     "trading at a practically tradable size right now, surge ratio notwithstanding.", None),
+    ("The unfiltered ranking is kept on the 'Full Universe' sheet for reference. Both thresholds are "
+     "judgment calls, not market conventions — adjust in scripts/03_compute_screener.py "
+     "(MIN_ADTV_2024_SGD, MIN_ADTV_RECENT_SGD) if different bars are wanted.", None),
     ("", None),
     ("Caveats", Font(name=FONT_NAME, bold=True)),
     ("Yahoo Finance data for SGX counters can have gaps or reporting lag for thinly-traded names. "
