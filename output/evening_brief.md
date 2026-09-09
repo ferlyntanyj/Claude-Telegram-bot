@@ -1,19 +1,22 @@
-# Asia Market Evening Brief -- 8 Sep 2026, 22:33 SGT
+# Asia Market Evening Brief -- 9 Sep 2026, 22:37 SGT
 
 ## Macro & policy
-- [Why the BOJ will bet small on rate hikes now to avoid a bigger shock later](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUUYyQzRuc2hRZ211U0hTZkRkWWVfTzFGaGhUVEt0STdfSDdFM3lfdGlzYXRvN1NLT18zTlBLSlpoa0MxTFFNc0pXTG1fSnpFRWpveW4xNVhVT3RyWGZWOWplTFJobDQ0MG5oSTRBN0ZXUHNwamgyR2NLSFAzM0JiTjIyaVIyNVAzTEpvZmlXcXRfTHlZSDRoOHByN29DT0hwT0ZaODZ6dFE2NXVCak9BbkRfREplUDZq?oc=5) — Reuters
-- [China’s 25% export surge sets stage for record annual trade surplus](https://news.google.com/rss/articles/CBMihAFBVV95cUxNcnkxQXZIUUNxQzlQMXFUYTNMTXpfSjdjcHZaSUtTa0U4dEF1dHZUYzk2QzRDdzJlN0djaFNObE9qSXo1QUthc25Wck16MUZjd1FIVGFmZEg1RDlRZGFFRndWbENRVXpEUWVPRnM5MFd6aWlNaHpIblA0ejNZZW1PT3l1RjU?oc=5) — Financial Times
-- [Yen pauses after rally as dollar firms](https://www.channelnewsasia.com/business/yen-pauses-after-rally-dollar-firms-6368266) — CNA Business
-- [China's imports in August miss estimates as calls for rebalancing trade grow](https://www.cnbc.com/2026/09/08/china-exports-imports-august-trade-rebalance-demand-surplus-.html) — CNBC Asia Markets
-- [Analysis:Why the BOJ will bet small on rate hikes now to avoid a bigger shock later](https://www.channelnewsasia.com/business/analysiswhy-boj-will-bet-small-rate-hikes-now-avoid-bigger-shock-later-6368941) — CNA Business
+- [Volatile yen risks ‘confused’ global markets, chairman of Japanese shipping giant says](https://www.cnbc.com/2026/09/09/mitsui-chairman-yen-markets-hormuz.html) — CNBC Asia Markets
+- [Samsung Electronics Chairman Lee to buy 1.9 trillion won worth of shares from his mother](https://www.channelnewsasia.com/business/samsung-electronics-chairman-lee-buy-19-trillion-won-worth-shares-his-mother-6372511) — CNA Business
+- [China's wholesale inflation tops estimates in August on commodity costs, tech demand as consumer price increases meet forecast](https://www.cnbc.com/2026/09/09/china-cpi-ppi-august-oil-prices-tech-manufacturing-.html) — CNBC Asia Markets
+- [Explainer-What is the yen carry trade?](https://www.channelnewsasia.com/business/explainer-what-yen-carry-trade-6371986) — CNA Business
+- [Oil heads for $100, Asia stocks subdued as Middle East tensions escalate](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMC1Fd0lwS2Q5SllqbUs3c25NaDhhbFEtWUFnTUZoMlotRGZhal8tZTFoOXZLSTBNLWNkdFkwWWpENHZDNEVldDZzTFBhdFVTN05kbWtUeVlVVExlNVEzYnpnblhuUGVUdElUV21Ub2VHUzNESDR5MnFiU3NOc29pSVFqelFNUTIzc3FmYmZCOTFaSFZ0X21paFhTNHROXzR1Ni1nSVZmcjRoeHdERUpnYzI2ZzRtNHRvd2dj?oc=5) — The Straits Times
 
 ## Markets
-- [Japanese investors favoured foreign equities over bonds in August](https://www.channelnewsasia.com/business/japanese-investors-favoured-foreign-equities-over-bonds-in-august-6369491) — CNA Business
-- [Asean's digital economy pact promises to unlock US$2 trillion, but is unknown to 1 in 3 firms: poll](https://news.google.com/rss/articles/CBMivwFBVV95cUxNSkEzQllQckRNQmpvcXRGU3ZjR2xlT0FEZi1xak13RkhyWV9ndmM5cFFWWVk0a3pxcGh2aWZxQTlta3dQdExxc2RqSmdhQzVZZVdmbEpoZDJpU3FMNG4zZUYtM2dkb24weTBqOWY5cFBab3k4T1hrUHdVWXQ3MkNfTG81S19rYlZmbHphNjNSeVFjeFdJak5acEZRaFhTZHpERndJM2lvOHpEZDVCb0pHNGQwR2tkVk1KT1hVLWl4dw?oc=5) — The Business Times
-- [Kospi opens higher amid revived AI hopes](https://news.google.com/rss/articles/CBMimAFBVV95cUxNVHpHUElxd1E3ZUxEX243MEwxak56ZllrTEJQN19UMnNSVDV6aDI2eU92M0RoMUtyR3dKNVJNZmIxeldlVUZ1VnU2ekxFWm9jbnJCN3R2MXU3ZlFEWWJDQXhtY3BrSktvRVlfOGRIcm5iSmE3aWVUZDBHVGZXZVhRZG1SbFVMeDNtOTd2SzZYYW5nWDhvSEpKQw?oc=5) — Korea JoongAng Daily
+- [Japan, India and Australia hedge against a US Quad retreat](https://news.google.com/rss/articles/CBMixgFBVV95cUxNSzNnWTRwM0Q1ekd4aGQ4eU1jS2NrclZZNmRCVjkyazdtTTJEeEthV3dzOVMyMkhuMkdXTzJWMTNGSGVkR1VTV2NKeGE1d01QSk10ZGotMkRzTy0xSVpVdllWXzE5QUh5WTdLNzVNMm1qSWQ2QUxPUTdkdlA0XzkxYk1tOXRaM2gtbW9pRGNrc19LaGVuZGRBVHNtbW8xdHRjSnVKNlY1UWlBRDdyNG9yMi02Z0FFS1gyaHgwYVdzeHBtQ0hQSWc?oc=5) — Nikkei Asia
+- [Asian shares are mixed as Brent crude approaches $100 a barrel](https://news.google.com/rss/articles/CBMipAFBVV95cUxNM25YN1BIYmQ2T19ubkxMeE9YeGVRblJoTFdDcFo5Q0tBQUs5N19hRkxzMDh4UEozT1ZpMUZaTXo2c0hrT0laNEF4VWdNNGlnRXJ1b2F6dk1hclFHR1VKN0pTeVNWSUtraEhELUI3WUNWWkZfMVNOSVBVT1VzLXVpVjNEYVZCenlMRll3MkpjMlllVUVadDVDYnlCT0JmY1AwT0lFZA?oc=5) — Yahoo Finance
+- [Russia's hybrid war in Europe has repercussions in Asia: 5 things to know](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ05kcng4M2hhOW5NVkZnOG5ka1JrU3BaSGZQWXYzY1RPNEFJc1VUUEowaDVKY0s4eVZUdGtFaG15ckZIVXpmSmhFLW9qSl82WFFJZ1BmbjJfOTJyUVhKd3h4dUtPRlQwOGhaX2FOVWFwbkNhZVd6OHNILVZlTkxBem5FenBlRjVjYXNNalpQMmtqRm1CYmt0V2tKejZRYzN4WGI5dXRYSzRyY1VKa2l6Z0JEUWVDRVFU?oc=5) — Nikkei Asia
 
 ## Geopolitics
-- [Huawei drives China’s push to make advanced chips](https://news.google.com/rss/articles/CBMihAFBVV95cUxOMFNTc3V3akREbVlsb2N3VmJMcFY1ZUtKZXlWc28zMnFIcmE3M0R1X0gtMnl4bXZIX2pPX2YtLS1ZbDZsdkxPYTM0MVpyOTc0SlJtd2x3YUgydHNocDBQdnBoWkZsb0Q5QnhCX2tEaVdwMDZYZFl0VXZKWl9DNm56aHU5QV8?oc=5) — Financial Times
-- [North Korea and Russia open their first road bridge, a symbol of expanding ties](https://www.straitstimes.com/asia/north-korea-and-russia-open-their-first-road-bridge-a-symbol-of-expanding-ties-tass-reports) — The Straits Times
+- [Australia's new envoy to Japan calls out China missile buildup and coercion](https://news.google.com/rss/articles/CBMizAFBVV95cUxNVHNFcXhOZDBGRjNHZlNsaDNDRzJpZ29PVDI3ZjU3UGhsTkdlcDlRM1k3NHNUbEd3YWI4V0RtX09hRjYwbElBRzgtdVIzczBmeHQyR25wMXYxRVB1anRyamdFbERranozeTNqcTUzVVNQbHdsWl8wY1hZUkxJY09OTklJZjBNcDhvZ3VKWnZaMjI0dXpOZlFzWU9XSGtWOHp0ZnZXTzRUMkh3bGJ3c0pKZS13czNPSUcxcEY5SWg2eWVJdnVrdUxVWWo1YVY?oc=5) — Nikkei Asia
+- [North Korea nears completion of bridge with China, analytics firm says](https://www.straitstimes.com/asia/north-korea-nears-completion-of-bridge-with-china-analytics-firm-says) — The Straits Times
+- [North Korea builds new Yongbyon uranium enrichment facility, IAEA says](https://www.straitstimes.com/asia/east-asia/north-korea-builds-new-yongbyon-uranium-enrichment-facility-iaea-says) — The Straits Times
+- [Conflict over Taiwan would be disastrous, de facto US ambassador says](https://www.straitstimes.com/asia/east-asia/conflict-over-taiwan-would-be-disastrous-de-facto-us-ambassador-says) — The Straits Times
+- [South Korea says monitoring North Korea border incursions, maintains readiness](https://www.straitstimes.com/asia/east-asia/south-korea-says-monitoring-north-korea-border-incursions-maintains-readiness) — The Straits Times
 
-_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (10 headlines, 14h window)._
+_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (13 headlines, 14h window)._
