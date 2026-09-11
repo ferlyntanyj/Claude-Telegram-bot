@@ -13,8 +13,8 @@ Auth:
   SGX_SCREENER_TELEGRAM_BOT_TOKEN, SGX_SCREENER_TELEGRAM_CHAT_ID -- same
     bot and chat as the other briefs; alerts land in that same chat,
     interleaved with the scheduled digests.
-  GEMINI_API_KEY -- free-tier Gemini API key (aistudio.google.com), used for
-    peer-inference and significance write-ups. No billing account needed.
+  GROQ_API_KEY -- free-tier Groq API key (console.groq.com), used for
+    peer-inference and significance write-ups. No credit card needed.
 
 Usage:
     python major_news_alert.py            # run a cycle and send any alerts

@@ -5,5 +5,5 @@ pyarrow
 requests
 curl_cffi
 feedparser
-google-genai>=2.3.0
+groq
 lxml

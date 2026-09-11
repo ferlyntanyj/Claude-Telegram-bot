@@ -59,10 +59,12 @@ COOLDOWN_HOURS = 4.0
 RE_ALERT_DELTA_PCT = 3.0
 
 # ---------------------------------------------------------------------------
-# LLM (Gemini API -- free tier, no billing account required; needs
-# GEMINI_API_KEY set, from a key created at aistudio.google.com)
+# LLM (Groq API -- free tier, no credit card required; needs GROQ_API_KEY
+# set, from a key created at console.groq.com. Gemini's free tier was tried
+# first but requires paid billing for requests originating from the EEA/UK/
+# Switzerland, which GitHub Actions runners can't reliably avoid.)
 # ---------------------------------------------------------------------------
-LLM_MODEL = "gemini-3.8-flash"
+LLM_MODEL = "llama-3.3-70b-versatile"
 LLM_PEER_MAX_TOKENS = 400
 LLM_SIGNIFICANCE_MAX_TOKENS = 300
 

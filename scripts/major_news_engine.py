@@ -154,7 +154,7 @@ def check_price_moves(tickers):
 
 
 # ---------------------------------------------------------------------------
-# Sector-peer inference (Gemini) + evaluation
+# Sector-peer inference (Groq) + evaluation
 # ---------------------------------------------------------------------------
 def _looks_sector_worthy(title, cfg):
     low = title.lower()
@@ -162,26 +162,21 @@ def _looks_sector_worthy(title, cfg):
 
 
 def _llm_client():
-    from google import genai
-    return genai.Client()  # reads GEMINI_API_KEY from the environment
+    from groq import Groq
+    return Groq()  # reads GROQ_API_KEY from the environment
 
 
-def _run_interaction(prompt, cfg, max_tokens, response_mime_type=None):
-    """One Gemini API call via the Interactions API. Raises on any failure
-    (missing key, bad response, non-"completed" status) -- callers decide how
-    to degrade, same defensive shape as the rest of this module."""
+def _run_completion(prompt, cfg, max_tokens):
+    """One Groq chat-completion call. Raises on any failure (missing key, bad
+    response) -- callers decide how to degrade, same defensive shape as the
+    rest of this module."""
     client = _llm_client()
-    extra = {"response_mime_type": response_mime_type} if response_mime_type else {}
-    interaction = client.interactions.create(
+    resp = client.chat.completions.create(
         model=cfg.LLM_MODEL,
-        input=prompt,
-        generation_config={"max_output_tokens": max_tokens},
-        **extra,
+        messages=[{"role": "user", "content": prompt}],
+        max_tokens=max_tokens,
     )
-    if interaction.status != "completed":
-        detail = "; ".join(e.message for e in (interaction.errors or [])) or interaction.status
-        raise RuntimeError(f"Gemini interaction did not complete ({detail})")
-    return interaction.output_text
+    return resp.choices[0].message.content
 
 
 def _extract_json_array(text):
@@ -192,7 +187,7 @@ def _extract_json_array(text):
 
 
 def infer_sector_peers(title, cfg):
-    """Ask Gemini which large-cap peers a thematic headline likely moved.
+    """Ask Groq which large-cap peers a thematic headline likely moved.
     Returns [(ticker, company), ...], empty on any failure -- a missing API
     key or a bad response must not crash the whole poll cycle."""
     prompt = (
@@ -205,9 +200,7 @@ def infer_sector_peers(title, cfg):
         '[{"ticker": "AAPL", "company": "Apple Inc"}, ...]'
     )
     try:
-        text = _run_interaction(
-            prompt, cfg, cfg.LLM_PEER_MAX_TOKENS, response_mime_type="application/json"
-        )
+        text = _run_completion(prompt, cfg, cfg.LLM_PEER_MAX_TOKENS)
         data = _extract_json_array(text)
         return [(d["ticker"].strip(), d.get("company", d["ticker"]).strip())
                 for d in data if d.get("ticker")]
@@ -246,7 +239,7 @@ def evaluate_sector_move(peers, cfg):
 
 
 # ---------------------------------------------------------------------------
-# Significance write-up (Gemini)
+# Significance write-up (Groq)
 # ---------------------------------------------------------------------------
 def write_significance(alert, cfg):
     headline = alert["headline"]
@@ -276,7 +269,7 @@ def write_significance(alert, cfg):
         "and avoid generic filler. No preamble, just the analysis."
     )
     try:
-        text = _run_interaction(prompt, cfg, cfg.LLM_SIGNIFICANCE_MAX_TOKENS)
+        text = _run_completion(prompt, cfg, cfg.LLM_SIGNIFICANCE_MAX_TOKENS)
         return text.strip()
     except Exception as e:  # noqa: BLE001
         print(f"  LLM significance write-up failed: {e}", file=sys.stderr)
