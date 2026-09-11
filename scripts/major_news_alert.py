@@ -10,10 +10,9 @@ messages depending on how many qualifying stories it finds this cycle -- there
 is no "quiet session" placeholder message.
 
 Auth:
-  SGX_SCREENER_TELEGRAM_BOT_TOKEN  -- same bot as the other briefs
-  Claude_BOT_CHAT_ID -- a NEW/different chat id, so this
-    alert stream is visually separate from the scheduled briefs. Message the
-    bot in the new chat once, then run get_telegram_chat_id.py to find it.
+  SGX_SCREENER_TELEGRAM_BOT_TOKEN, SGX_SCREENER_TELEGRAM_CHAT_ID -- same
+    bot and chat as the other briefs; alerts land in that same chat,
+    interleaved with the scheduled digests.
   ANTHROPIC_API_KEY -- separate from Claude Code; this script calls the
     Claude API directly for peer-inference and significance write-ups.
 
@@ -31,7 +30,7 @@ import major_news_alert_config as cfg
 import major_news_engine as engine
 
 TOKEN_ENV_VAR = "SGX_SCREENER_TELEGRAM_BOT_TOKEN"
-CHAT_ID_ENV_VAR = "Claude_BOT_CHAT_ID"
+CHAT_ID_ENV_VAR = "SGX_SCREENER_TELEGRAM_CHAT_ID"
 
 ARROW = {1: "🔺", -1: "🔻", 0: "▪️"}
 

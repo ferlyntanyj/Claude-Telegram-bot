@@ -38,7 +38,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SGX_SCREENER_TELEGRAM_BOT_TOKEN: ${{ secrets.SGX_SCREENER_TELEGRAM_BOT_TOKEN }}
-          Claude_BOT_CHAT_ID: ${{ secrets.Claude_BOT_CHAT_ID }}
+          SGX_SCREENER_TELEGRAM_CHAT_ID: ${{ secrets.SGX_SCREENER_TELEGRAM_CHAT_ID }}
         run: python major_news_alert.py
 
       # Only data/alert_state.json (cooldown bookkeeping) and the audit log
