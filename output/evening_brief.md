@@ -1,20 +1,23 @@
-# Asia Market Evening Brief -- 10 Sep 2026, 22:27 SGT
+# Asia Market Evening Brief -- 11 Sep 2026, 22:26 SGT
 
 ## Macro & policy
-- [ECB raises interest rates as Iran war fuels inflation fears](https://news.google.com/rss/articles/CBMilgFBVV95cUxNTVRFOWJDUk41R0R1U1dyY0c0TGZLbzZSb090cTVJUU5KcU1kT0tvVVE1MDVUMm5UY2RJdmtXNTZQNWUtLURWN3ZCdkQ5SzdOTXJwWWJGOTVXbG0ySk5COUcxaHVhSDNVVXdCeTQ5ZGFNd3BIQ2paSEZpNjQ4ekRYd001cWZtbzR3SzVzWWVjQU9VUGhvZWc?oc=5) — Nikkei Asia
-- [Thai central bank targets money flows behind scam networks](https://www.straitstimes.com/business/thai-central-bank-targets-money-flows-behind-scam-networks) — The Straits Times
-- [Thailand to increase tax on EV imports, official says](https://www.channelnewsasia.com/business/thailand-increase-tax-ev-imports-official-says-6375871) — CNA Business
-- [Bank of Korea to assess conditions to determine pace and timing of tightening, says board member](https://news.google.com/rss/articles/CBMizwFBVV95cUxQX2lOV3dpVTkxQ2ZMamxFOEdNbXIybXgyRHZMcURHV0tyWlUwa0VnUTEzbEpBakVaeFFXY2REWWNjdzJuODV5SmhxNzhNaWNXRmlRME1yVzVOdG02MUs5bmEwTHh6VnN3WGcxQ2VVcUlMV0pIbmJFaFhLdGVfR2xkTmQ1bEUwOUs0a19hbFhHU01SSjJZM3ZSLTJEeFc3b1NSN3BOQzJIUkJoRmhPTUwwZXhZSmwxdlRtOUVlVW5KQ0VKanJBMTI1QnpXVWdaQTA?oc=5) — Reuters
-- [South Korea’s Inflation Rebounds Above 3%](https://news.google.com/rss/articles/CBMiggFBVV95cUxORDV4UUhpNERMSmhHemx4SUpNTzRnVkdGcWZXQXBma3MyR1d0Rk5wSW1tc21Udmx2T2J0WENPVEEyVFdsa1lTbmZORzZ6bHI2by1GZjBRTnFOLTJXU1hRSHhnTDRoeVUzM2ZOSV9iQWJtQjRncHNjb3hBVE5WRndrY0Z3?oc=5) — WSJ
+- [BOJ set to lift rates next week but offer few clues on terminal, sources say](https://www.channelnewsasia.com/business/boj-set-lift-rates-next-week-offer-few-clues-terminal-sources-say-6377716) — CNA Business
+- [Japan core inflation seen steady at 1.8% in August: Reuters poll](https://www.channelnewsasia.com/business/japan-core-inflation-seen-steady-18-in-august-reuters-poll-6377646) — CNA Business
+- [S. Korea's 2nd disaster relief team arrives in Nepal](https://news.google.com/rss/articles/CBMid0FVX3lxTE44bWFuaWVKMmRNUEw5SlR2cWJBM1Z5bm5Lc1VjeVBzX08yMTkwV0tiV0RQQ0pmMUV5ZEpQRmVnZUp6QWR6M1VQOEt1TW1RR3VWYUk4NDVSYWEtZWhiQUlVYnNMUGd6UzYtSzk4bWNBLWlmcDBLbjR3?oc=5) — Yonhap News Agency
+- [Seoul shares narrow losses late Fri. morning amid inflation concerns](https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6S0hvNnJSNDNOQWFTNWRoTkV6OVRvYmhlMXYzQXZ3YXFraHBWM3NyN3V3VThlM21jQ1JUWU45UWhGVUJMODh5VkhvWmdDelhXY2dVTFMtaE1NUQ?oc=5) — Yonhap News Agency
+- [Stocks tumble as oil and inflation fan rate hike bets](https://news.google.com/rss/articles/CBMipwFBVV95cUxQV25KWmlvQ25YamxMVExsM2ZyVXpRSjVfNFlvUVJzeERDdnZuN3FxdEdJQmdyS254T1BDcDdzSXBoejJnb01hQjJXXzBvVXdibVc5QnA3NmUwSVNGOWlERy04SHlraWZZelRhWmJRNTJZbmFGNnhLczAtUGl2WHBGZU5peXBQLUdSM3FzQmhyTnUxRDRXY1hVSkQwUWZNRXR2ZmxPM1BRUQ?oc=5) — The Jakarta Post
 
 ## Markets
-- ['Saved the day': How China helped keep the lid on oil price surge as Iran war disrupted supplies](https://www.cnbc.com/2026/09/10/china-crude-oil-iran-hormuz-war-trump-brent-prices-.html) — CNBC Asia Markets
-- [Merz Aesthetics Hosts “PRI’ME THE FUTURE SYMPOSIUM 2026”](https://news.google.com/rss/articles/CBMiowFBVV95cUxOLVlWMnhmRUd1TmxPS1RSNnk0R3dhMFhrcUJESHQzMTk2cURMZnBsb2F3X015T3RTcnltN1FWUXVBbGgxVjBRZjVvVEpNc0tLMVFCcEtBUmstQWVMWXJObUN4UGpJWlBQUXc5ZXQ2VnRlZVpoYkpmd1ZZMjBsdUlVa1lMZVprUXVKVnBIOFpwdGM3YTNTbG95VzBfZDV1VnpBdmtZ?oc=5) — Bangkok Post
-- [Seoul shares open lower](https://news.google.com/rss/articles/CBMid0FVX3lxTFBzazVaeGpMeXlHbGZLRHNwRzd6cXFGRXJkN1BmMXRMRERyRk5PbXB6T0lfRVg0X25kOXNwbXlvOThFOE5fSFpJVThJd1lZMklxUXhzVmlKQUk3eVdMODBDWGp0RURXVEFzVWdjUmtNTlZDYlgtZG9v?oc=5) — Yonhap News Agency
+- [Chinese Nvidia rival Enflame soars 206% on stock market debut as AI demand stays hot](https://www.cnbc.com/2026/09/11/chinese-nvidia-rival-enflame-stock-market-debut-ai.html) — CNBC Asia Markets
+- [Japan’s Nikkei plummets 3% as oil prices surge](https://www.straitstimes.com/business/japans-nikkei-plummets-3-as-oil-prices-surge) — The Straits Times
+- [Tencent-backed Enflame triples in Shanghai debut as China AI chip bets surge](https://www.channelnewsasia.com/business/enflame-triples-shanghai-debut-china-ai-chips-tencent-6377566) — CNA Business
+- [Jakarta Stocks Slide as Fed Hike Odds Jump to 73%](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRmhUR0ZvdmI1dHRDWkJTZmlvVkNTaXBoeEFDLU5YQ1FDajNkd2czZXNxc01ja1I0bkRsMXF3WXpZX0g4dlFpNGlMTndMN2NPY2FZQ3NMSi1mXzk3YzdRN1FpUlhUTlhNbDZ6QXQ0UGh5dzEzMWdaQ3A2aU9EcEg2eVpLZ2lXQTBh?oc=5) — Jakarta Globe
 
 ## Geopolitics
-- [Exclusive | Senior Pentagon official for China to lead US delegation to Xiangshan Forum](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdUxUbEhoaGdmVVR2UXpGUUV5UGlCRGNYYVoxUmhjMnFpRk1OelBwMXB2Yy1RWG1KQVVhYTZEVjhpME0tdzFoUUg1ck9EWElzQWUwZG5KdklOdUNlYjY1M2ttOHJIelBHZXRUWTMwZjZEV2pobjNwQkFaazBwcWxMLUt4cEJfZEZjeE9WdVFwakFNaktWVXIwbHBDTDJRQ3RfRjdvUDhnTk9JY1Q1WVRfTVdRMVRRVksxZ3NiOEpMTENpZ9IBwgFBVV95cUxNTEhyM0t6RnZ5QXpWYlNnWFBxMkZEZjRNNkx6RDBpdWFYWGtVXzhQRXV0TkNzVERSbVpya2lIZjRaT09fako1amJaNl9ETTl3U29NVFlmekgzU0xvek5LNHFnVUg4M1ZGZ2FKdlA2VGJneEt4bWpNaTJBUFBzNE1lTlQ3cGlwb1JYWTVqYjhmVUU0LWFwWHQ1c090TUlnOGV4TGt5MWFXeFhNSFBVWjBGbWFWbVNLYmx5RUYzOEN6Snhsdw?oc=5) — South China Morning Post
-- [How a billion-dollar sanctions dodge kept Chinese goods flowing to Iran](https://www.straitstimes.com/asia/how-a-billion-dollar-sanctions-dodge-kept-chinese-goods-flowing-to-iran) — The Straits Times
-- [North Korea has built new uranium facility to expand nuclear arsenal, UN agency says](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOM2htNEVNeTUtLWVBWFg3SzAxeF9xMG5idEd3cHdtUkdGaU9YcjhQeVdvOTZ5VDJ2S0ZiaFBGMmhBdUg1UGxNZERjWFJzTk1TamFzSFRodjhESWRUSll3elJPUURwVjRFYkhFd2dLNXZPTkZxRjlHeWYxWUgzRjdJV20zdWtnM2FqVlhTbXRyT0xieVNWckcxdDh1YjFuOXBuODVTXzRFb3BpLXBrYkZXR2JFWUw2VndJdmVtUUQ2UXg3eEd3N3JiMg?oc=5) — The Guardian
+- [‘Identity returned to us’: How Taiwan’s latest recognised indigenous group is reclaiming its voice](https://www.straitstimes.com/asia/east-asia/identity-returned-to-us-how-taiwans-latest-recognised-indigenous-group-is-reclaiming-its-voice) — The Straits Times
+- [Modi, Putin agree to strengthen India-Russia partnership on eve of BRICS summit](https://www.straitstimes.com/asia/modi-putin-hold-talks-in-new-delhi-on-trade-defence) — The Straits Times
+- [Micron's Taiwan workers to get rewards worth up to 68 months of pay](https://www.channelnewsasia.com/east-asia/micron-taiwan-workers-68-months-pay-bonus-reward-6377621) — CNA Business
+- [South Korea’s Lee to host Central Asia summit in Seoul next week](https://www.straitstimes.com/asia/east-asia/south-koreas-lee-to-host-central-asia-summit-in-seoul-next-week) — The Straits Times
+- [Micron set to reward engineers in Taiwan with $40,000 cash bonus](https://www.straitstimes.com/business/micron-rewards-engineers-in-taiwan-with-40000-cash-bonus) — The Straits Times
 
-_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (11 headlines, 14h window)._
+_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (14 headlines, 14h window)._
