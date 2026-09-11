@@ -1,0 +1,772 @@
+ticker,company_name,aliases,exchange,region,currency,market_cap_usd
+NVDA,Nvidia,,NYSE/Nasdaq,US,USD,5272738934738
+AAPL,Apple Inc.,,NYSE/Nasdaq,US,USD,4766021469491
+GOOGL,Alphabet Inc. (Class A),,NYSE/Nasdaq,US,USD,4067676399436
+GOOG,Alphabet Inc. (Class C),,NYSE/Nasdaq,US,USD,4040648347964
+MSFT,Microsoft,,NYSE/Nasdaq,US,USD,3656635639717
+AMZN,Amazon,,NYSE/Nasdaq,US,USD,2716964519068
+AVGO,Broadcom,,NYSE/Nasdaq,US,USD,1722468800089
+META,Meta Platforms,,NYSE/Nasdaq,US,USD,1641562073704
+TSLA,"Tesla, Inc.",,NYSE/Nasdaq,US,USD,1435897440920
+005930.KS,Samsung Electronics,,seed list,South Korea,KRW,1266347952758
+MU,Micron Technology,,NYSE/Nasdaq,US,USD,1103880129389
+BRK-B,Berkshire Hathaway,,NYSE/Nasdaq,US,USD,1085339865558
+LLY,Lilly (Eli),,NYSE/Nasdaq,US,USD,1001425598938
+000660.KS,SK Hynix,,seed list,South Korea,KRW,955884326303
+JPM,JPMorgan Chase,,NYSE/Nasdaq,US,USD,939828304614
+WMT,Walmart,,NYSE/Nasdaq,US,USD,838835016694
+AMD,Advanced Micro Devices,,NYSE/Nasdaq,US,USD,822114441115
+V,Visa Inc.,,NYSE/Nasdaq,US,USD,685598408024
+XOM,ExxonMobil,,NYSE/Nasdaq,US,USD,679411195583
+JNJ,Johnson & Johnson,,NYSE/Nasdaq,US,USD,641876506020
+INTC,Intel,,NYSE/Nasdaq,US,USD,530302078271
+MA,Mastercard,,NYSE/Nasdaq,US,USD,495269735500
+0700.HK,Tencent Holdings Limited,,HKEX,Hong Kong,HKD,492020209737
+ABBV,AbbVie,,NYSE/Nasdaq,US,USD,450614907675
+ORCL,Oracle Corporation,,NYSE/Nasdaq,US,USD,440539241772
+BAC,Bank of America,,NYSE/Nasdaq,US,USD,437466347317
+CSCO,Cisco,,NYSE/Nasdaq,US,USD,423591543261
+CVX,Chevron Corporation,,NYSE/Nasdaq,US,USD,417350701801
+COST,Costco,,NYSE/Nasdaq,US,USD,400186405319
+PLTR,Palantir Technologies,,NYSE/Nasdaq,US,USD,398571280960
+KO,Coca-Cola Company (The),,NYSE/Nasdaq,US,USD,377892907891
+LRCX,Lam Research,,NYSE/Nasdaq,US,USD,372906183430
+CAT,Caterpillar Inc.,,NYSE/Nasdaq,US,USD,370038285645
+AMAT,Applied Materials,,NYSE/Nasdaq,US,USD,360301182846
+MRK,Merck & Co.,,NYSE/Nasdaq,US,USD,357024424299
+0005.HK,HSBC Holdings plc,,HKEX,Hong Kong,HKD,355727368539
+HSBA.L,HSBC,,LSE,UK,GBp,354112016372
+UNH,UnitedHealth Group,,NYSE/Nasdaq,US,USD,348518126097
+1398.HK,Industrial and Commercial Bank of China,,HKEX,Hong Kong,HKD,345652623478
+GE,GE Aerospace,,NYSE/Nasdaq,US,USD,336325882256
+MS,Morgan Stanley,,NYSE/Nasdaq,US,USD,333996633408
+PG,Procter & Gamble,,NYSE/Nasdaq,US,USD,332324197426
+0939.HK,China Construction Bank,,HKEX,Hong Kong,HKD,326266537439
+DELL,Dell Technologies,,NYSE/Nasdaq,US,USD,322115452300
+NFLX,Netflix,,NYSE/Nasdaq,US,USD,316501063668
+HD,Home Depot (The),,NYSE/Nasdaq,US,USD,304983744208
+GS,Goldman Sachs,,NYSE/Nasdaq,US,USD,296927872423
+PM,Philip Morris International,,NYSE/Nasdaq,US,USD,295778078978
+PANW,Palo Alto Networks,,NYSE/Nasdaq,US,USD,275869342041
+SHEL.L,Shell plc,,LSE,UK,GBp,273394566421
+9988.HK,Alibaba Group,,HKEX,Hong Kong,HKD,272094902516
+WFC,Wells Fargo,,NYSE/Nasdaq,US,USD,270496731377
+8306.T,Mitsubishi UFJ Financial Group,,seed list,Japan,JPY,267271312658
+RTX,RTX Corporation,,NYSE/Nasdaq,US,USD,267017836908
+SNDK,Sandisk,,NYSE/Nasdaq,US,USD,247827331898
+3988.HK,Bank of China Ltd,,HKEX,Hong Kong,HKD,247157165446
+AZN.L,AstraZeneca,,LSE,UK,GBp,246629812330
+GEV,GE Vernova,,NYSE/Nasdaq,US,USD,246068251669
+9984.T,SoftBank Group,,seed list,Japan,JPY,241739823513
+SAP.DE,SAP,,XETRA,Germany,EUR,238374665951
+ANET,Arista Networks,,NYSE/Nasdaq,US,USD,238358853154
+TXN,Texas Instruments,,NYSE/Nasdaq,US,USD,236366772779
+SIE.DE,Siemens,,XETRA,Germany,EUR,233898002933
+7203.T,Toyota Motor,,seed list,Japan,JPY,232799746220
+0857.HK,PetroChina Company Limited,,HKEX,Hong Kong,HKD,232697308124
+C,Citigroup,,NYSE/Nasdaq,US,USD,232324994446
+KLAC,KLA Corporation,,NYSE/Nasdaq,US,USD,231493949443
+TMO,Thermo Fisher Scientific,,NYSE/Nasdaq,US,USD,223024165261
+BHP.AX,BHP Group,,seed list,Australia,AUD,221998555026
+IBM,IBM,,NYSE/Nasdaq,US,USD,220478293973
+0941.HK,China Mobile Ltd,,HKEX,Hong Kong,HKD,218175332303
+AXP,American Express,,NYSE/Nasdaq,US,USD,216578610771
+CRWD,CrowdStrike,,NYSE/Nasdaq,US,USD,213859031725
+LIN,Linde plc,,NYSE/Nasdaq,US,USD,212797660593
+VZ,Verizon,,NYSE/Nasdaq,US,USD,207614121916
+AMGN,Amgen,,NYSE/Nasdaq,US,USD,206775523612
+MRVL,Marvell Technology,,NYSE/Nasdaq,US,USD,203970005000
+CRM,Salesforce,,NYSE/Nasdaq,US,USD,199989000000
+APH,Amphenol,,NYSE/Nasdaq,US,USD,197893844848
+STX,Seagate Technology,,NYSE/Nasdaq,US,USD,196087821649
+ALV.DE,Allianz,,XETRA,Germany,EUR,193607791211
+TMUS,T-Mobile US,,NYSE/Nasdaq,US,USD,190034506887
+QCOM,Qualcomm,,NYSE/Nasdaq,US,USD,188918544156
+PEP,PepsiCo,,NYSE/Nasdaq,US,USD,186512423070
+SCHW,Charles Schwab Corporation,,NYSE/Nasdaq,US,USD,185609605350
+CBA.AX,Commonwealth Bank of Australia,,seed list,Australia,AUD,184960579807
+DE,Deere & Company,,NYSE/Nasdaq,US,USD,182789852470
+DIS,Walt Disney Company (The),,NYSE/Nasdaq,US,USD,182718007443
+GILD,Gilead Sciences,,NYSE/Nasdaq,US,USD,179557902968
+MCD,McDonald's,,NYSE/Nasdaq,US,USD,179068691579
+ABT,Abbott Laboratories,,NYSE/Nasdaq,US,USD,178852418531
+T,AT&T,,NYSE/Nasdaq,US,USD,175078448130
+ADI,Analog Devices,,NYSE/Nasdaq,US,USD,175049274231
+D05.SI,DBS Group Holdings,,seed list,Singapore,SGD,172398361772
+NEE,NextEra Energy,,NYSE/Nasdaq,US,USD,171937310805
+8316.T,Sumitomo Mitsui Financial Group,,seed list,Japan,JPY,170312331344
+WELL,Welltower,,NYSE/Nasdaq,US,USD,169846033551
+UNP,Union Pacific Corporation,,NYSE/Nasdaq,US,USD,169774895093
+3968.HK,China Merchants Bank,,HKEX,Hong Kong,HKD,167401162279
+COP,ConocoPhillips,,NYSE/Nasdaq,US,USD,166955002540
+WDC,Western Digital,,NYSE/Nasdaq,US,USD,166184134677
+BLK,BlackRock,,NYSE/Nasdaq,US,USD,164533104543
+RIO.L,Rio Tinto,,LSE,UK,GBp,162002428972
+BA,Boeing,,NYSE/Nasdaq,US,USD,161867782508
+RR.L,Rolls-Royce Holdings,,LSE,UK,GBp,159391450717
+ETN,Eaton Corporation,,NYSE/Nasdaq,US,USD,158872942630
+PFE,Pfizer,,NYSE/Nasdaq,US,USD,157595972562
+DTE.DE,Deutsche Telekom,,XETRA,Germany,EUR,154865468311
+8035.T,Tokyo Electron,,seed list,Japan,JPY,151630694092
+6501.T,Hitachi,,seed list,Japan,JPY,150938877940
+UBER,Uber,,NYSE/Nasdaq,US,USD,148208157393
+0883.HK,CNOOC Limited,,HKEX,Hong Kong,HKD,148015900914
+DHR,Danaher Corporation,,NYSE/Nasdaq,US,USD,140969792550
+GLW,Corning Inc.,,NYSE/Nasdaq,US,USD,140224117817
+TJX,TJX Companies,,NYSE/Nasdaq,US,USD,139656734041
+6098.T,Recruit Holdings,,seed list,Japan,JPY,139627445078
+ENR.DE,Siemens Energy,,XETRA,Germany,EUR,139159686252
+6758.T,Sony Group,,seed list,Japan,JPY,137625631753
+NOW,ServiceNow,,NYSE/Nasdaq,US,USD,135611676647
+BKNG,Booking Holdings,,NYSE/Nasdaq,US,USD,135084559167
+NEM,Newmont,,NYSE/Nasdaq,US,USD,132912742421
+ULVR.L,Unilever,,LSE,UK,GBp,132769802591
+9983.T,Fast Retailing,,seed list,Japan,JPY,132311074857
+CB,Chubb Limited,,NYSE/Nasdaq,US,USD,130658843428
+VRTX,Vertex Pharmaceuticals,,NYSE/Nasdaq,US,USD,130420852435
+BMY,Bristol Myers Squibb,,NYSE/Nasdaq,US,USD,130223059320
+ISRG,Intuitive Surgical,,NYSE/Nasdaq,US,USD,129144898516
+PLD,Prologis,,NYSE/Nasdaq,US,USD,127734312011
+1088.HK,China Shenhua Energy,,HKEX,Hong Kong,HKD,127122830573
+COF,Capital One,,NYSE/Nasdaq,US,USD,127061985374
+PGR,Progressive Corporation,,NYSE/Nasdaq,US,USD,125628010419
+2318.HK,Ping An Insurance,,HKEX,Hong Kong,HKD,124464642225
+LMT,Lockheed Martin,,NYSE/Nasdaq,US,USD,122346792853
+CVS,CVS Health,,NYSE/Nasdaq,US,USD,121873087633
+SPGI,S&P Global,,NYSE/Nasdaq,US,USD,120991819958
+6861.T,Keyence,,seed list,Japan,JPY,119549553635
+BATS.L,British American Tobacco,,LSE,UK,GBp,119174375583
+8058.T,Mitsubishi Corp,,seed list,Japan,JPY,118861326443
+BP.L,BP,,LSE,UK,GBp,118101193283
+2899.HK,Zijin Mining,,HKEX,Hong Kong,HKD,117802677709
+PH,Parker Hannifin,,NYSE/Nasdaq,US,USD,117771195571
+MDT,Medtronic,,NYSE/Nasdaq,US,USD,117194616995
+FTNT,Fortinet,,NYSE/Nasdaq,US,USD,116550418257
+MO,Altria,,NYSE/Nasdaq,US,USD,114861686198
+MPC,Marathon Petroleum,,NYSE/Nasdaq,US,USD,114561778227
+SBUX,Starbucks,,NYSE/Nasdaq,US,USD,113110801392
+O39.SI,Oversea-Chinese Banking Corp,,seed list,Singapore,SGD,111294023288
+VLO,Valero Energy,,NYSE/Nasdaq,US,USD,110975879184
+BNY,BNY Mellon,,NYSE/Nasdaq,US,USD,110317985963
+LOW,Lowe's,,NYSE/Nasdaq,US,USD,110297607541
+ACN,Accenture,,NYSE/Nasdaq,US,USD,108870622853
+2628.HK,China Life,,HKEX,Hong Kong,HKD,106547728903
+ADP,Automatic Data Processing,,NYSE/Nasdaq,US,USD,106200242148
+APP,AppLovin,,NYSE/Nasdaq,US,USD,105649616679
+SYK,Stryker Corporation,,NYSE/Nasdaq,US,USD,103568561896
+PSX,Phillips 66,,NYSE/Nasdaq,US,USD,103150900892
+MCK,McKesson Corporation,,NYSE/Nasdaq,US,USD,102699785444
+FCX,Freeport-McMoRan,,NYSE/Nasdaq,US,USD,102258806498
+HOOD,Robinhood Markets,,NYSE/Nasdaq,US,USD,101892995645
+CEG,Constellation Energy,,NYSE/Nasdaq,US,USD,101321281605
+EQIX,Equinix,,NYSE/Nasdaq,US,USD,101021058603
+SO,Southern Company,,NYSE/Nasdaq,US,USD,100944350266
+1299.HK,AIA Group Limited,,HKEX,Hong Kong,HKD,99200047033
+ADBE,Adobe Inc.,,NYSE/Nasdaq,US,USD,98909925728
+ABNB,Airbnb,,NYSE/Nasdaq,US,USD,98844035989
+CME,CME Group,,NYSE/Nasdaq,US,USD,98549891244
+USB,U.S. Bancorp,,NYSE/Nasdaq,US,USD,97237990507
+PNC,PNC Financial Services,,NYSE/Nasdaq,US,USD,96949018295
+TT,Trane Technologies,,NYSE/Nasdaq,US,USD,96772790985
+0300.HK,Midea Group,,HKEX,Hong Kong,HKD,96756537258
+GSK.L,GSK plc,,LSE,UK,GBp,96188191559
+GD,General Dynamics,,NYSE/Nasdaq,US,USD,95844886329
+VRT,Vertiv,,NYSE/Nasdaq,US,USD,95527117246
+GLEN.L,Glencore,,LSE,UK,GBp,95043137965
+BX,Blackstone Inc.,,NYSE/Nasdaq,US,USD,94135898296
+1211.HK,BYD Company,,HKEX,Hong Kong,HKD,93304314180
+DUK,Duke Energy,,NYSE/Nasdaq,US,USD,93073052920
+PWR,Quanta Services,,NYSE/Nasdaq,US,USD,93021964614
+9432.T,NTT,,seed list,Japan,JPY,92338786204
+HCA,HCA Healthcare,,NYSE/Nasdaq,US,USD,91192594965
+HWM,Howmet Aerospace,,NYSE/Nasdaq,US,USD,90890828307
+CSX,CSX Corporation,,NYSE/Nasdaq,US,USD,90845371626
+KKR,KKR & Co.,,NYSE/Nasdaq,US,USD,90544505538
+ELV,Elevance Health,,NYSE/Nasdaq,US,USD,90334735910
+CMCSA,Comcast,,NYSE/Nasdaq,US,USD,89319182813
+WMB,Williams Companies,,NYSE/Nasdaq,US,USD,89071054938
+BARC.L,Barclays,,LSE,UK,GBp,87834919510
+ICE,Intercontinental Exchange,,NYSE/Nasdaq,US,USD,87470873649
+DASH,DoorDash,,NYSE/Nasdaq,US,USD,87105883746
+1810.HK,Xiaomi,,HKEX,Hong Kong,HKD,86613204261
+JCI,Johnson Controls,,NYSE/Nasdaq,US,USD,86505937852
+WM,Waste Management,,NYSE/Nasdaq,US,USD,85846831775
+MAR,Marriott International,,NYSE/Nasdaq,US,USD,85810364302
+LLOY.L,Lloyds Banking Group,,LSE,UK,GBp,85353519845
+UPS,United Parcel Service,,NYSE/Nasdaq,US,USD,85052635791
+NAB.AX,National Australia Bank,,seed list,Australia,AUD,85050507642
+MRSH,Marsh McLennan,,NYSE/Nasdaq,US,USD,84604782500
+MNST,Monster Beverage,,NYSE/Nasdaq,US,USD,84415540810
+IFX.DE,Infineon Technologies,,XETRA,Germany,EUR,84218441044
+MMM,3M,,NYSE/Nasdaq,US,USD,83990553147
+LITE,Lumentum,,NYSE/Nasdaq,US,USD,83932291095
+WBC.AX,Westpac Banking Corp,,seed list,Australia,AUD,83847407033
+INTU,Intuit,,NYSE/Nasdaq,US,USD,83583400784
+SLB,Schlumberger,,NYSE/Nasdaq,US,USD,83126859877
+EMR,Emerson Electric,,NYSE/Nasdaq,US,USD,82760783276
+REGN,Regeneron Pharmaceuticals,,NYSE/Nasdaq,US,USD,81670074786
+MCO,Moody's Corporation,,NYSE/Nasdaq,US,USD,80937862145
+AMT,American Tower,,NYSE/Nasdaq,US,USD,80601767112
+ANZ.AX,ANZ Group Holdings,,seed list,Australia,AUD,80520269459
+MDLZ,Mondelez International,,NYSE/Nasdaq,US,USD,80189602449
+DDOG,Datadog,,NYSE/Nasdaq,US,USD,79614114760
+CTAS,Cintas,,NYSE/Nasdaq,US,USD,79409648662
+EOG,EOG Resources,,NYSE/Nasdaq,US,USD,78541406610
+CDNS,Cadence Design Systems,,NYSE/Nasdaq,US,USD,78473238712
+GM,General Motors,,NYSE/Nasdaq,US,USD,77891369195
+SHW,Sherwin-Williams,,NYSE/Nasdaq,US,USD,77061148046
+MSI,Motorola Solutions,,NYSE/Nasdaq,US,USD,76769259186
+NG.L,National Grid plc,,LSE,UK,GBp,76723500311
+TRV,Travelers Companies (The),,NYSE/Nasdaq,US,USD,76663834577
+BA.L,BAE Systems,,LSE,UK,GBp,76179496624
+ECL,Ecolab,,NYSE/Nasdaq,US,USD,76137250286
+SNPS,Synopsys,,NYSE/Nasdaq,US,USD,76112329265
+DBK.DE,Deutsche Bank,,XETRA,Germany,EUR,76043846784
+CMI,Cummins,,NYSE/Nasdaq,US,USD,75719601818
+APO,Apollo Global Management,,NYSE/Nasdaq,US,USD,75536377630
+ITW,Illinois Tool Works,,NYSE/Nasdaq,US,USD,75528963477
+9999.HK,NetEase,,HKEX,Hong Kong,HKD,74789478467
+005380.KS,Hyundai Motor,,seed list,South Korea,KRW,74427798660
+CI,Cigna,,NYSE/Nasdaq,US,USD,74227795890
+FDX,FedEx,,NYSE/Nasdaq,US,USD,73793838744
+NOC,Northrop Grumman,,NYSE/Nasdaq,US,USD,73723609077
+0386.HK,Sinopec Corp,,HKEX,Hong Kong,HKD,73583073109
+HPE,Hewlett Packard Enterprise,,NYSE/Nasdaq,US,USD,73302606717
+NWG.L,NatWest Group,,LSE,UK,GBp,73275575876
+MUV2.DE,Munich Re,,XETRA,Germany,EUR,72770733766
+9433.T,KDDI,,seed list,Japan,JPY,72659286545
+NSC,Norfolk Southern,,NYSE/Nasdaq,US,USD,72615884249
+2359.HK,WuXi AppTec,,HKEX,Hong Kong,HKD,72569815494
+ROST,Ross Stores,,NYSE/Nasdaq,US,USD,72030285878
+DHL.DE,Deutsche Post,,XETRA,Germany,EUR,71418374923
+TGT,Target Corporation,,NYSE/Nasdaq,US,USD,70746807281
+WBD,Warner Bros. Discovery,,NYSE/Nasdaq,US,USD,70701256909
+2388.HK,BOC Hong Kong (Holdings) Ltd,,HKEX,Hong Kong,HKD,70380935279
+CL,Colgate-Palmolive,,NYSE/Nasdaq,US,USD,70071492885
+RCL,Royal Caribbean Group,,NYSE/Nasdaq,US,USD,69272766889
+ORLY,O'Reilly Automotive,,NYSE/Nasdaq,US,USD,69174239052
+HLT,Hilton Worldwide,,NYSE/Nasdaq,US,USD,68923875841
+KMI,Kinder Morgan,,NYSE/Nasdaq,US,USD,68919526353
+0981.HK,Semiconductor Manufacturing International Corporation,,HKEX,Hong Kong,HKD,68843821687
+DLR,Digital Realty,,NYSE/Nasdaq,US,USD,68772032212
+RSG,Republic Services,,NYSE/Nasdaq,US,USD,67697565737
+4063.T,Shin-Etsu Chemical,,seed list,Japan,JPY,67550764261
+AEP,American Electric Power,,NYSE/Nasdaq,US,USD,67216741716
+MQG.AX,Macquarie Group,,seed list,Australia,AUD,67069092601
+STAN.L,Standard Chartered,,LSE,UK,GBp,66915532046
+MRK.DE,Merck,,XETRA,Germany,EUR,66479099985
+SPG,Simon Property Group,,NYSE/Nasdaq,US,USD,66222925343
+APD,Air Products,,NYSE/Nasdaq,US,USD,65391604525
+AON,Aon plc,,NYSE/Nasdaq,US,USD,65285842492
+PCAR,Paccar,,NYSE/Nasdaq,US,USD,64516552129
+HON,Honeywell Technologies,,NYSE/Nasdaq,US,USD,64078928900
+ALL,Allstate,,NYSE/Nasdaq,US,USD,63667101533
+0388.HK,HKEx Limited,,HKEX,Hong Kong,HKD,63380481619
+373220.KS,LG Energy Solution,,seed list,South Korea,KRW,62603112547
+TRGP,Targa Resources,,NYSE/Nasdaq,US,USD,62594560125
+BSX,Boston Scientific,,NYSE/Nasdaq,US,USD,62461790359
+AJG,Arthur J. Gallagher & Co.,,NYSE/Nasdaq,US,USD,62370328084
+TDG,TransDigm Group,,NYSE/Nasdaq,US,USD,62290010762
+URI,United Rentals,,NYSE/Nasdaq,US,USD,61562802084
+MET,MetLife,,NYSE/Nasdaq,US,USD,61501456219
+TFC,Truist Financial,,NYSE/Nasdaq,US,USD,61484448279
+COR,Cencora,,NYSE/Nasdaq,US,USD,61245980936
+OXY,Occidental Petroleum,,NYSE/Nasdaq,US,USD,61137821458
+7974.T,Nintendo,,seed list,Japan,JPY,60515788406
+OKE,Oneok,,NYSE/Nasdaq,US,USD,60306745363
+GWW,W. W. Grainger,,NYSE/Nasdaq,US,USD,60031008216
+TEL,TE Connectivity,,NYSE/Nasdaq,US,USD,59330561127
+WES.AX,Wesfarmers,,seed list,Australia,AUD,59317863252
+BKR,Baker Hughes,,NYSE/Nasdaq,US,USD,58964841332
+REL.L,RELX,,LSE,UK,GBp,58710993038
+DB1.DE,Deutsche Börse,,XETRA,Germany,EUR,58567312722
+CRH,CRH plc,,NYSE/Nasdaq,US,USD,58318842671
+MPWR,Monolithic Power Systems,,NYSE/Nasdaq,US,USD,58287527280
+NUE,Nucor,,NYSE/Nasdaq,US,USD,57957661714
+Z74.SI,Singtel,,seed list,Singapore,SGD,57888772979
+TER,Teradyne,,NYSE/Nasdaq,US,USD,57875782624
+AAL.L,Anglo American plc,,LSE,UK,GBp,57561064270
+CSL.AX,CSL Limited,,seed list,Australia,AUD,57536531152
+FANG,Diamondback Energy,,NYSE/Nasdaq,US,USD,57513264908
+COHR,Coherent Corp.,,NYSE/Nasdaq,US,USD,57412142189
+AFL,Aflac,,NYSE/Nasdaq,US,USD,57388767934
+D,Dominion Energy,,NYSE/Nasdaq,US,USD,57213165667
+NXPI,NXP Semiconductors,,NYSE/Nasdaq,US,USD,57107620794
+9633.HK,Nongfu Spring,,HKEX,Hong Kong,HKD,56737174755
+CTVA,Corteva,,NYSE/Nasdaq,US,USD,56371388615
+O,Realty Income,,NYSE/Nasdaq,US,USD,56366207937
+FAST,Fastenal,,NYSE/Nasdaq,US,USD,56238854127
+FIX,Comfort Systems USA,,NYSE/Nasdaq,US,USD,55987492579
+LSEG.L,London Stock Exchange Group,,LSE,UK,GBp,55629433263
+BAYN.DE,Bayer,,XETRA,Germany,EUR,55568003090
+KEYS,Keysight Technologies,,NYSE/Nasdaq,US,USD,55440200170
+F,Ford Motor Company,,NYSE/Nasdaq,US,USD,55347828314
+RHM.DE,Rheinmetall,,XETRA,Germany,EUR,55091076793
+PSA,Public Storage,,NYSE/Nasdaq,US,USD,55046687247
+DVN,Devon Energy,,NYSE/Nasdaq,US,USD,55022000504
+SRE,Sempra,,NYSE/Nasdaq,US,USD,54927629232
+CAH,Cardinal Health,,NYSE/Nasdaq,US,USD,54892524316
+BAS.DE,BASF,,XETRA,Germany,EUR,54785023196
+MRNA,Moderna,,NYSE/Nasdaq,US,USD,54543605206
+RWE.DE,RWE,,XETRA,Germany,EUR,54517427849
+NKE,"Nike, Inc.",,NYSE/Nasdaq,US,USD,54230081567
+3690.HK,Meituan,,HKEX,Hong Kong,HKD,53740186784
+AME,Ametek,,NYSE/Nasdaq,US,USD,53702155054
+U11.SI,United Overseas Bank,,seed list,Singapore,SGD,53586194644
+EOAN.DE,E.ON,,XETRA,Germany,EUR,53348403796
+CBK.DE,Commerzbank,,XETRA,Germany,EUR,52874886889
+CPG.L,Compass Group,,LSE,UK,USD,52641697508
+STT,State Street Corporation,,NYSE/Nasdaq,US,USD,52550448483
+GRMN,Garmin,,NYSE/Nasdaq,US,USD,52494462653
+MBG.DE,Mercedes-Benz Group,,XETRA,Germany,EUR,52097217849
+DAL,Delta Air Lines,,NYSE/Nasdaq,US,USD,51452424462
+NDAQ,"Nasdaq, Inc.",,NYSE/Nasdaq,US,USD,51431509192
+0267.HK,CITIC Limited,,HKEX,Hong Kong,HKD,50786279099
+CVNA,Carvana,,NYSE/Nasdaq,US,USD,50595724767
+ETR,Entergy,,NYSE/Nasdaq,US,USD,50515414776
+VMRK,Vivmark Residential,,NYSE/Nasdaq,US,USD,50311115785
+ANTO.L,Antofagasta plc,,LSE,UK,GBp,50280849645
+EW,Edwards Lifesciences,,NYSE/Nasdaq,US,USD,49962164067
+0992.HK,Lenovo,,HKEX,Hong Kong,HKD,49956532180
+SHL.DE,Siemens Healthineers,,XETRA,Germany,EUR,49941489827
+VST,Vistra Corp.,,NYSE/Nasdaq,US,USD,49355156449
+FITB,Fifth Third Bancorp,,NYSE/Nasdaq,US,USD,49344768667
+AMP,Ameriprise Financial,,NYSE/Nasdaq,US,USD,48895089301
+HONA,Honeywell Aerospace,,NYSE/Nasdaq,US,USD,48731481469
+207940.KS,Samsung Biologics,,seed list,South Korea,KRW,48677706858
+DGE.L,Diageo,,LSE,UK,GBp,48193331176
+HUM,Humana,,NYSE/Nasdaq,US,USD,48119783144
+BDX,Becton Dickinson,,NYSE/Nasdaq,US,USD,48054478757
+XYZ,"Block, Inc.",,NYSE/Nasdaq,US,USD,47504860467
+CIEN,Ciena,,NYSE/Nasdaq,US,USD,47443459778
+WAB,Wabtec,,NYSE/Nasdaq,US,USD,47340642354
+VOW3.DE,Volkswagen Group,,XETRA,Germany,EUR,47264979833
+XEL,Xcel Energy,,NYSE/Nasdaq,US,USD,47103675303
+CARR,Carrier Global,,NYSE/Nasdaq,US,USD,47044074652
+AZO,AutoZone,,NYSE/Nasdaq,US,USD,47041020194
+ROK,Rockwell Automation,,NYSE/Nasdaq,US,USD,46792580064
+EBAY,eBay Inc.,,NYSE/Nasdaq,US,USD,46738349457
+105560.KS,KB Financial Group,,seed list,South Korea,KRW,46418585762
+VTR,Ventas,,NYSE/Nasdaq,US,USD,46390869960
+LHX,L3Harris,,NYSE/Nasdaq,US,USD,46250123267
+CMG,Chipotle Mexican Grill,,NYSE/Nasdaq,US,USD,45719553692
+CCEP.L,Coca-Cola Europacific Partners,,LSE,UK,GBp,45705710470
+PYPL,PayPal,,NYSE/Nasdaq,US,USD,45604620368
+COIN,Coinbase,,NYSE/Nasdaq,US,USD,45453824772
+WDS.AX,Woodside Energy Group,,seed list,Australia,AUD,44823240732
+EXC,Exelon,,NYSE/Nasdaq,US,USD,44702718999
+WDAY,"Workday, Inc.",,NYSE/Nasdaq,US,USD,44606689117
+ADSK,Autodesk,,NYSE/Nasdaq,US,USD,44226490128
+6178.T,Japan Post Holdings,,seed list,Japan,JPY,43788447965
+BMW.DE,BMW,,XETRA,Germany,EUR,43589643210
+RKT.L,Reckitt,,LSE,UK,GBp,43400418611
+KDP,Keurig Dr Pepper,,NYSE/Nasdaq,US,USD,42811585910
+FERG,Ferguson Enterprises,,NYSE/Nasdaq,US,USD,42747247112
+IQV,IQVIA,,NYSE/Nasdaq,US,USD,42351577991
+VEEV,Veeva Systems,,NYSE/Nasdaq,US,USD,42254973452
+6702.T,Fujitsu,,seed list,Japan,JPY,42053748069
+7267.T,Honda Motor,,seed list,Japan,JPY,42011532873
+ADM,Archer Daniels Midland,,NYSE/Nasdaq,US,USD,41886843527
+PAYX,Paychex,,NYSE/Nasdaq,US,USD,41001830989
+PRU,Prudential Financial,,NYSE/Nasdaq,US,USD,40875601158
+TTWO,Take-Two Interactive,,NYSE/Nasdaq,US,USD,40567278169
+IBKR,Interactive Brokers,,NYSE/Nasdaq,US,USD,40514249221
+A,Agilent Technologies,,NYSE/Nasdaq,US,USD,40349656208
+VOD.L,Vodafone Group,,LSE,UK,GBp,40211315257
+0016.HK,Sun Hung Kai Properties Limited,,HKEX,Hong Kong,HKD,40205889744
+HLN.L,Haleon,,LSE,UK,GBp,39992392969
+CBRE,CBRE Group,,NYSE/Nasdaq,US,USD,39958496962
+IDXX,Idexx Laboratories,,NYSE/Nasdaq,US,USD,39904998591
+FLEX,Flex Ltd.,,NYSE/Nasdaq,US,USD,39899216443
+MSCI,MSCI,,NYSE/Nasdaq,US,USD,39810518225
+LYV,Live Nation Entertainment,,NYSE/Nasdaq,US,USD,39621753037
+GMG.AX,Goodman Group,,seed list,Australia,AUD,39481509045
+ED,Consolidated Edison,,NYSE/Nasdaq,US,USD,39471811242
+WAT,Waters Corporation,,NYSE/Nasdaq,US,USD,39435368240
+SYY,Sysco,,NYSE/Nasdaq,US,USD,39434391907
+055550.KS,Shinhan Financial Group,,seed list,South Korea,KRW,39387741013
+TSCO.L,Tesco,,LSE,UK,GBp,39324416441
+YUM,Yum! Brands,,NYSE/Nasdaq,US,USD,39267736954
+AIG,American International Group,,NYSE/Nasdaq,US,USD,39232673832
+AXON,Axon Enterprise,,NYSE/Nasdaq,US,USD,38900536669
+MCHP,Microchip Technology,,NYSE/Nasdaq,US,USD,38868563096
+DTG.DE,Daimler Truck,,XETRA,Germany,EUR,38655201223
+TLS.AX,Telstra Group,,seed list,Australia,AUD,38603735465
+SSE.L,SSE plc,,LSE,UK,GBp,38568670325
+ROP,Roper Technologies,,NYSE/Nasdaq,US,USD,38430900291
+DHI,D. R. Horton,,NYSE/Nasdaq,US,USD,37919102816
+6367.T,Daikin Industries,,seed list,Japan,JPY,37513943670
+ODFL,Old Dominion,,NYSE/Nasdaq,US,USD,37438238735
+9618.HK,JD.com,,HKEX,Hong Kong,HKD,37064713607
+HIG,Hartford (The),,NYSE/Nasdaq,US,USD,37055290700
+FMG.AX,Fortescue,,seed list,Australia,AUD,36827397847
+III.L,3i,,LSE,UK,GBp,36356287227
+PEG,Public Service Enterprise Group,,NYSE/Nasdaq,US,USD,36118336890
+NTAP,NetApp,,NYSE/Nasdaq,US,USD,36062530517
+MLM,Martin Marietta Materials,,NYSE/Nasdaq,US,USD,35685108960
+HSY,Hershey Company (The),,NYSE/Nasdaq,US,USD,35029378306
+EL,Estée Lauder Companies (The),,NYSE/Nasdaq,US,USD,34902355892
+KR,Kroger,,NYSE/Nasdaq,US,USD,34890263177
+HNR1.DE,Hannover Re,,XETRA,Germany,EUR,34876521518
+HEN3.DE,Henkel,,XETRA,Germany,EUR,34645080840
+MTB,M&T Bank,,NYSE/Nasdaq,US,USD,34641886279
+UAL,United Airlines Holdings,,NYSE/Nasdaq,US,USD,34563429641
+EQT,EQT Corporation,,NYSE/Nasdaq,US,USD,34378358787
+WEC,WEC Energy Group,,NYSE/Nasdaq,US,USD,34328232002
+NTRS,Northern Trust,,NYSE/Nasdaq,US,USD,34247469132
+KVUE,Kenvue,,NYSE/Nasdaq,US,USD,34170561736
+STLD,Steel Dynamics,,NYSE/Nasdaq,US,USD,33980223365
+HBAN,Huntington Bancshares,,NYSE/Nasdaq,US,USD,33801539114
+0001.HK,CK Hutchison Holdings Limited,,HKEX,Hong Kong,HKD,33652580324
+IRM,Iron Mountain,,NYSE/Nasdaq,US,USD,33610647929
+RJF,Raymond James Financial,,NYSE/Nasdaq,US,USD,33380527475
+EXPE,Expedia Group,,NYSE/Nasdaq,US,USD,33231713266
+EXPN.L,Experian,,LSE,UK,GBp,33204871981
+EME,Emcor,,NYSE/Nasdaq,US,USD,33008762969
+ACGL,Arch Capital Group,,NYSE/Nasdaq,US,USD,32826240880
+PRU.L,Prudential plc,,LSE,UK,GBp,32793374771
+KMB,Kimberly-Clark,,NYSE/Nasdaq,US,USD,32752384779
+4568.T,Daiichi Sankyo,,seed list,Japan,JPY,32715944929
+VMC,Vulcan Materials Company,,NYSE/Nasdaq,US,USD,32472432784
+CNC,Centene Corporation,,NYSE/Nasdaq,US,USD,32307273754
+DXCM,Dexcom,,NYSE/Nasdaq,US,USD,31890759056
+006400.KS,Samsung SDI,,seed list,South Korea,KRW,31872319994
+BIIB,Biogen,,NYSE/Nasdaq,US,USD,31830642707
+JBL,Jabil,,NYSE/Nasdaq,US,USD,31729529270
+RMD,ResMed|,,NYSE/Nasdaq,US,USD,31674921616
+HEI.DE,Heidelberg Materials,,XETRA,Germany,EUR,31566752520
+CCI,Crown Castle,,NYSE/Nasdaq,US,USD,31428394447
+9888.HK,Baidu,,HKEX,Hong Kong,HKD,31122139157
+PCG,PG&E Corporation,,NYSE/Nasdaq,US,USD,30899207103
+CCL,Carnival Corporation,,NYSE/Nasdaq,US,USD,30776014763
+068270.KS,Celltrion,,seed list,South Korea,KRW,30369722331
+ZTS,Zoetis,,NYSE/Nasdaq,US,USD,30107471894
+HAL,Halliburton,,NYSE/Nasdaq,US,USD,30051012083
+CBOE,Cboe Global Markets,,NYSE/Nasdaq,US,USD,30022872632
+RDDT,Reddit,,NYSE/Nasdaq,US,USD,29886873159
+ARES,Ares Management,,NYSE/Nasdaq,US,USD,29711488022
+CPRT,Copart,,NYSE/Nasdaq,US,USD,29621732931
+0669.HK,Techtronic Industries,,HKEX,Hong Kong,HKD,29587544729
+HPQ,HP Inc.,,NYSE/Nasdaq,US,USD,29515618003
+FRES.L,Fresnillo plc,,LSE,UK,GBp,29490492713
+CFG,Citizens Financial Group,,NYSE/Nasdaq,US,USD,29326538592
+WTW,Willis Towers Watson,,NYSE/Nasdaq,US,USD,29292737989
+FRE.DE,Fresenius,,XETRA,Germany,EUR,29244507951
+AEE,Ameren,,NYSE/Nasdaq,US,USD,29054698348
+GEHC,GE HealthCare,,NYSE/Nasdaq,US,USD,29016323864
+ADS.DE,Adidas,,XETRA,Germany,EUR,29014485156
+KHC,Kraft Heinz,,NYSE/Nasdaq,US,USD,28922240734
+EXR,Extra Space Storage,,NYSE/Nasdaq,US,USD,28827730544
+AV.L,Aviva,,LSE,UK,GBp,28463041431
+IR,Ingersoll Rand,,NYSE/Nasdaq,US,USD,28358876845
+1378.HK,China Hongqiao Group,,HKEX,Hong Kong,HKD,28250052503
+DTE,DTE Energy,,NYSE/Nasdaq,US,USD,27954550427
+ATO,Atmos Energy,,NYSE/Nasdaq,US,USD,27851003007
+AWK,American Water Works,,NYSE/Nasdaq,US,USD,27790261094
+TDY,Teledyne Technologies,,NYSE/Nasdaq,US,USD,27651158944
+LVS,Las Vegas Sands,,NYSE/Nasdaq,US,USD,27592069450
+CTSH,Cognizant,,NYSE/Nasdaq,US,USD,27585359856
+012330.KS,Hyundai Mobis,,seed list,South Korea,KRW,27537144492
+FOXA,Fox Corporation (Class A),,NYSE/Nasdaq,US,USD,27404114814
+ON,ON Semiconductor,,NYSE/Nasdaq,US,USD,27318486361
+VICI,Vici Properties,,NYSE/Nasdaq,US,USD,27229647604
+DG,Dollar General,,NYSE/Nasdaq,US,USD,27133658531
+CPAY,Corpay,,NYSE/Nasdaq,US,USD,26819976484
+FE,FirstEnergy,,NYSE/Nasdaq,US,USD,26752441844
+ECHO,EchoStar,,NYSE/Nasdaq,US,USD,26681571087
+1109.HK,China Resources Land Limited,,HKEX,Hong Kong,HKD,26462755818
+WSM,"Williams-Sonoma, Inc.",,NYSE/Nasdaq,US,USD,26349412967
+VRSN,Verisign,,NYSE/Nasdaq,US,USD,26112040552
+0066.HK,MTR Corporation Ltd,,HKEX,Hong Kong,HKD,26103693467
+CINF,Cincinnati Financial,,NYSE/Nasdaq,US,USD,26028341089
+FISV,Fiserv,,NYSE/Nasdaq,US,USD,26019345821
+WRB,W. R. Berkley Corporation,,NYSE/Nasdaq,US,USD,26004489539
+ES,Eversource Energy,,NYSE/Nasdaq,US,USD,25986790474
+9992.HK,Pop Mart,,HKEX,Hong Kong,HKD,25854764100
+OTIS,Otis Worldwide,,NYSE/Nasdaq,US,USD,25843641192
+Q,Qnity Electronics,,NYSE/Nasdaq,US,USD,25799597459
+CNP,CenterPoint Energy,,NYSE/Nasdaq,US,USD,25769136963
+PPL,PPL Corporation,,NYSE/Nasdaq,US,USD,25744558322
+2020.HK,Anta Sports,,HKEX,Hong Kong,HKD,25685486767
+MTD,Mettler Toledo,,NYSE/Nasdaq,US,USD,25658415844
+RF,Regions Financial Corporation,,NYSE/Nasdaq,US,USD,25515289355
+DGX,Quest Diagnostics,,NYSE/Nasdaq,US,USD,25511698363
+IMB.L,Imperial Brands,,LSE,UK,GBp,25407488452
+0002.HK,CLP Holdings Limited,,HKEX,Hong Kong,HKD,25275459216
+TPL,Texas Pacific Land Corporation,,NYSE/Nasdaq,US,USD,25251631867
+DOV,Dover Corporation,,NYSE/Nasdaq,US,USD,25235033101
+JBHT,J.B. Hunt,,NYSE/Nasdaq,US,USD,25149235739
+3692.HK,Hansoh Pharmaceutical Group,,HKEX,Hong Kong,HKD,25128296868
+INCY,Incyte,,NYSE/Nasdaq,US,USD,24988577879
+LH,Labcorp,,NYSE/Nasdaq,US,USD,24894455307
+XYL,Xylem Inc.,,NYSE/Nasdaq,US,USD,24878020531
+PFG,Principal Financial Group,,NYSE/Nasdaq,US,USD,24613469333
+EXPD,Expeditors International,,NYSE/Nasdaq,US,USD,24609825509
+6690.HK,Haier,,HKEX,Hong Kong,HKD,24605443766
+9961.HK,Trip.com Group,,HKEX,Hong Kong,HKD,24556704071
+SYF,Synchrony Financial,,NYSE/Nasdaq,US,USD,24545976964
+2269.HK,WuXi Biologics,,HKEX,Hong Kong,HKD,24439662783
+FOX,Fox Corporation (Class B),,NYSE/Nasdaq,US,USD,24410600434
+IAG.L,International Airlines Group,,LSE,UK,GBp,24368513842
+WST,West Pharmaceutical Services,,NYSE/Nasdaq,US,USD,24226856068
+SMCI,Supermicro,,NYSE/Nasdaq,US,USD,24180114440
+BG,Bunge Global,,NYSE/Nasdaq,US,USD,23936120831
+HUBB,Hubbell Incorporated,,NYSE/Nasdaq,US,USD,23901983640
+DRI,Darden Restaurants,,NYSE/Nasdaq,US,USD,23563320484
+NRG,NRG Energy,,NYSE/Nasdaq,US,USD,23470000748
+GPN,Global Payments,,NYSE/Nasdaq,US,USD,23431959242
+PPG,PPG Industries,,NYSE/Nasdaq,US,USD,23352615678
+CASY,Casey's,,NYSE/Nasdaq,US,USD,23197679757
+KEY,KeyCorp,,NYSE/Nasdaq,US,USD,23188702990
+EXE,Expand Energy,,NYSE/Nasdaq,US,USD,23174099260
+TPR,"Tapestry, Inc.",,NYSE/Nasdaq,US,USD,23103514278
+NXT.L,Next plc,,LSE,UK,GBp,23027100793
+035420.KS,Naver,,seed list,South Korea,KRW,22954641030
+TROW,T. Rowe Price,,NYSE/Nasdaq,US,USD,22942120318
+ULTA,Ulta Beauty,,NYSE/Nasdaq,US,USD,22902184401
+VRSK,Verisk Analytics,,NYSE/Nasdaq,US,USD,22889236350
+VLTO,Veralto,,NYSE/Nasdaq,US,USD,22782487253
+OMC,Omnicom Group,,NYSE/Nasdaq,US,USD,22643741402
+0762.HK,China Unicom,,HKEX,Hong Kong,HKD,22631657719
+FFIV,"F5, Inc.",,NYSE/Nasdaq,US,USD,22564800105
+IHG.L,IHG Hotels & Resorts,,LSE,UK,USD,22343278352
+L,Loews Corporation,,NYSE/Nasdaq,US,USD,22298976072
+CHD,Church & Dwight,,NYSE/Nasdaq,US,USD,22282935603
+FSLR,First Solar,,NYSE/Nasdaq,US,USD,22264515783
+DLTR,Dollar Tree,,NYSE/Nasdaq,US,USD,22264211966
+BRO,Brown & Brown,,NYSE/Nasdaq,US,USD,22194705592
+PHM,PulteGroup,,NYSE/Nasdaq,US,USD,22174517050
+0175.HK,Geely Auto,,HKEX,Hong Kong,HKD,22171933350
+CCH.L,Coca-Cola HBC,,LSE,UK,GBp,22162251575
+SW,Smurfit Westrock,,NYSE/Nasdaq,US,USD,22140111466
+EIX,Edison International,,NYSE/Nasdaq,US,USD,21838193308
+IFF,International Flavors & Fragrances,,NYSE/Nasdaq,US,USD,21458257685
+DOW,Dow Inc.,,NYSE/Nasdaq,US,USD,21410178233
+1113.HK,CK Asset Holdings,,HKEX,Hong Kong,HKD,21333580252
+1038.HK,Cheung Kong Infrastructure Holdings Limited,,HKEX,Hong Kong,HKD,21303077764
+MTX.DE,MTU Aero Engines,,XETRA,Germany,EUR,21172839680
+STZ,Constellation Brands,,NYSE/Nasdaq,US,USD,21144077497
+SMT.L,Scottish Mortgage Investment Trust,,LSE,UK,GBp,21096306966
+LGEN.L,Legal & General,,LSE,UK,GBp,20938934885
+CMS,CMS Energy,,NYSE/Nasdaq,US,USD,20907678758
+LYB,LyondellBasell,,NYSE/Nasdaq,US,USD,20771341299
+FICO,Fair Isaac,,NYSE/Nasdaq,US,USD,20748199646
+STE,Steris,,NYSE/Nasdaq,US,USD,20713898072
+PKG,Packaging Corporation of America,,NYSE/Nasdaq,US,USD,20707335997
+CF,CF Industries,,NYSE/Nasdaq,US,USD,20447294837
+RL,Ralph Lauren Corporation,,NYSE/Nasdaq,US,USD,20059553204
+AMCR,Amcor,,NYSE/Nasdaq,US,USD,19880864670
+FIS,Fidelity National Information Services,,NYSE/Nasdaq,US,USD,19864992159
+NI,NiSource,,NYSE/Nasdaq,US,USD,19863378464
+EFX,Equifax,,NYSE/Nasdaq,US,USD,19742161135
+BR,Broadridge Financial Solutions,,NYSE/Nasdaq,US,USD,19458352523
+SNA,Snap-on,,NYSE/Nasdaq,US,USD,19388877194
+SBAC,SBA Communications,,NYSE/Nasdaq,US,USD,19246504722
+GIS,General Mills,,NYSE/Nasdaq,US,USD,19225275324
+LUV,Southwest Airlines,,NYSE/Nasdaq,US,USD,18927464625
+VTRS,Viatris,,NYSE/Nasdaq,US,USD,18813917388
+LEN,Lennar,,NYSE/Nasdaq,US,USD,18765731929
+EVRG,Evergy,,NYSE/Nasdaq,US,USD,18758945255
+BEI.DE,Beiersdorf,,XETRA,Germany,EUR,18613858038
+FDXF,FedEx Freight,,NYSE/Nasdaq,US,USD,18543238353
+GPC,Genuine Parts Company,,NYSE/Nasdaq,US,USD,18495265638
+BBY,Best Buy,,NYSE/Nasdaq,US,USD,18474912149
+TSN,Tyson Foods,,NYSE/Nasdaq,US,USD,18455506997
+HLMA.L,Halma plc,,LSE,UK,GBp,18327647505
+0027.HK,Galaxy Entertainment Group Ltd.,,HKEX,Hong Kong,HKD,18272898709
+IP,International Paper,,NYSE/Nasdaq,US,USD,18158952184
+GEN,Gen Digital,,NYSE/Nasdaq,US,USD,17939652938
+CDW,CDW Corporation,,NYSE/Nasdaq,US,USD,17827485711
+CHRW,C.H. Robinson,,NYSE/Nasdaq,US,USD,17810468530
+VNA.DE,Vonovia,,XETRA,Germany,EUR,17683131912
+ZBH,Zimmer Biomet,,NYSE/Nasdaq,US,USD,17631792437
+NWS,News Corp (Class B),,NYSE/Nasdaq,US,USD,17584964678
+ABF.L,Associated British Foods,,LSE,UK,GBp,17567116086
+TSCO,Tractor Supply,,NYSE/Nasdaq,US,USD,17465265631
+ESS,Essex Property Trust,,NYSE/Nasdaq,US,USD,17438707799
+LNT,Alliant Energy,,NYSE/Nasdaq,US,USD,17436896008
+0688.HK,China Overseas Land & Investment Limited,,HKEX,Hong Kong,HKD,17418912279
+DD,DuPont,,NYSE/Nasdaq,US,USD,17193671536
+NDSN,Nordson Corporation,,NYSE/Nasdaq,US,USD,17130483793
+1024.HK,Kuaishou,,HKEX,Hong Kong,HKD,17121445468
+BEN,Franklin Resources,,NYSE/Nasdaq,US,USD,17101868713
+0003.HK,Hong Kong and China Gas Company Limited,,HKEX,Hong Kong,HKD,17097424836
+SGRO.L,Segro,,LSE,UK,GBp,17065733316
+AAF.L,Airtel Africa,,LSE,UK,GBp,16837957410
+CHTR,Charter Communications,,NYSE/Nasdaq,US,USD,16765644125
+ROL,"Rollins, Inc.",,NYSE/Nasdaq,US,USD,16628385823
+0006.HK,Power Assets Holdings Limited,,HKEX,Hong Kong,HKD,16618685523
+FTV,Fortive,,NYSE/Nasdaq,US,USD,16617973743
+J,Jacobs Solutions,,NYSE/Nasdaq,US,USD,16593905782
+C6L.SI,Singapore Airlines,,seed list,Singapore,SGD,16546658490
+CON.DE,Continental,,XETRA,Germany,EUR,16423254782
+ZBRA,Zebra Technologies,,NYSE/Nasdaq,US,USD,16386363647
+IEX,IDEX Corporation,,NYSE/Nasdaq,US,USD,16326008663
+LDOS,Leidos,,NYSE/Nasdaq,US,USD,16295507504
+INVH,Invitation Homes,,NYSE/Nasdaq,US,USD,16277575793
+NVR,"NVR, Inc.",,NYSE/Nasdaq,US,USD,16224413268
+BN4.SI,Keppel,,seed list,Singapore,SGD,16190308922
+0012.HK,Henderson Land Development Company Limited,,HKEX,Hong Kong,HKD,16151127858
+051910.KS,LG Chem,,seed list,South Korea,KRW,15880488085
+WY,Weyerhaeuser,,NYSE/Nasdaq,US,USD,15848984475
+BALL,Ball Corporation,,NYSE/Nasdaq,US,USD,15813378991
+NWSA,News Corp (Class A),,NYSE/Nasdaq,US,USD,15761020949
+2057.HK,ZTO Express,,HKEX,Hong Kong,HKD,15650109855
+KIM,Kimco Realty,,NYSE/Nasdaq,US,USD,15622685111
+APA,APA Corporation,,NYSE/Nasdaq,US,USD,15601152313
+AKAM,Akamai Technologies,,NYSE/Nasdaq,US,USD,15396359927
+ADM.L,Admiral Group,,LSE,UK,GBp,15305296160
+HST,Host Hotels & Resorts,,NYSE/Nasdaq,US,USD,15168653776
+SOLV,Solventum,,NYSE/Nasdaq,US,USD,14920110107
+INF.L,Informa,,LSE,UK,GBp,14774404668
+1929.HK,Chow Tai Fook,,HKEX,Hong Kong,HKD,14708402425
+EDV.L,Endeavour Mining,,LSE,UK,GBp,14689945964
+MAA,Mid-America Apartment Communities,,NYSE/Nasdaq,US,USD,14442413597
+ALB,Albemarle Corporation,,NYSE/Nasdaq,US,USD,14409597582
+EG,Everest Group,,NYSE/Nasdaq,US,USD,14226304549
+C38U.SI,CapitaLand Integrated Commercial Trust,,seed list,Singapore,SGD,14175027178
+IVZ,Invesco,,NYSE/Nasdaq,US,USD,14097088110
+6618.HK,JD Health,,HKEX,Hong Kong,HKD,14081509006
+DOC,Healthpeak Properties,,NYSE/Nasdaq,US,USD,14045670865
+SY1.DE,Symrise,,XETRA,Germany,EUR,14014364700
+PTC,PTC Inc.,,NYSE/Nasdaq,US,USD,13966926048
+1928.HK,Sands China,,HKEX,Hong Kong,HKD,13881855034
+TKO,TKO Group Holdings,,NYSE/Nasdaq,US,USD,13864788580
+AIZ,Assurant,,NYSE/Nasdaq,US,USD,13858498874
+REG,Regency Centers,,NYSE/Nasdaq,US,USD,13790807947
+TYL,Tyler Technologies,,NYSE/Nasdaq,US,USD,13738669331
+MKC,McCormick & Company,,NYSE/Nasdaq,US,USD,13738313897
+TXT,Textron,,NYSE/Nasdaq,US,USD,13621363302
+RVTY,Revvity,,NYSE/Nasdaq,US,USD,13495259609
+SWK,Stanley Black & Decker,,NYSE/Nasdaq,US,USD,13475215383
+MAS,Masco,,NYSE/Nasdaq,US,USD,13337757645
+UU.L,United Utilities,,LSE,UK,GBp,13282293396
+GL,Globe Life,,NYSE/Nasdaq,US,USD,13261725416
+TRMB,Trimble Inc.,,NYSE/Nasdaq,US,USD,13250058776
+CRL,Charles River Laboratories,,NYSE/Nasdaq,US,USD,13032712056
+SJM,J.M. Smucker Company (The),,NYSE/Nasdaq,US,USD,12933082733
+LII,Lennox International,,NYSE/Nasdaq,US,USD,12877998550
+ALLE,Allegion,,NYSE/Nasdaq,US,USD,12863514982
+AVY,Avery Dennison,,NYSE/Nasdaq,US,USD,12790765049
+DPLM.L,Diploma,,LSE,UK,GBp,12740623354
+HAS,Hasbro,,NYSE/Nasdaq,US,USD,12716569661
+SWKS,Skyworks Solutions,,NYSE/Nasdaq,US,USD,12644227688
+1093.HK,CSPC Pharmaceutical Group,,HKEX,Hong Kong,HKD,12573981864
+ERIE,Erie Indemnity,,NYSE/Nasdaq,US,USD,12570483948
+0836.HK,China Resources Power,,HKEX,Hong Kong,HKD,12543881070
+0823.HK,Link REIT,,HKEX,Hong Kong,HKD,12504892225
+BAX,Baxter International,,NYSE/Nasdaq,US,USD,12500963414
+0316.HK,Orient Overseas (International) Limited,,HKEX,Hong Kong,HKD,12421580039
+SDLF.L,Standard Life,,LSE,UK,GBp,12347782483
+SDR.L,Schroders,,LSE,UK,GBp,12337400692
+003670.KS,POSCO Holdings,,seed list,South Korea,KRW,12248426852
+GDDY,GoDaddy,,NYSE/Nasdaq,US,USD,12205039582
+BF-B,Brown–Forman,,NYSE/Nasdaq,US,USD,12201200876
+ITRK.L,Intertek,,LSE,UK,GBp,12144671951
+G1A.DE,GEA Group,,XETRA,Germany,EUR,12025766979
+1177.HK,Sino Biopharm,,HKEX,Hong Kong,HKD,12020794091
+1997.HK,Wharf Real Estate Investment Company Limited,,HKEX,Hong Kong,HKD,12009886005
+FME.DE,Fresenius Medical Care,,XETRA,Germany,EUR,12005867768
+CSGP,CoStar Group,,NYSE/Nasdaq,US,USD,11949276777
+SGE.L,Sage Group,,LSE,UK,GBp,11908349238
+SVT.L,Severn Trent,,LSE,UK,GBp,11896460930
+CPT,Camden Property Trust,,NYSE/Nasdaq,US,USD,11862589245
+PNW,Pinnacle West Capital,,NYSE/Nasdaq,US,USD,11706440388
+PSKY,Paramount Skydance Corporation,,NYSE/Nasdaq,US,USD,11617016470
+SN.L,Smith & Nephew,,LSE,UK,GBp,11609386904
+DVA,DaVita,,NYSE/Nasdaq,US,USD,11568854117
+2015.HK,Li Auto,,HKEX,Hong Kong,HKD,11545438082
+HRL,Hormel Foods,,NYSE/Nasdaq,US,USD,11469310756
+JKHY,Jack Henry & Associates,,NYSE/Nasdaq,US,USD,11317577055
+TECH,Bio-Techne,,NYSE/Nasdaq,US,USD,11303458882
+035720.KS,Kakao,,seed list,South Korea,KRW,11298578851
+UDR,"UDR, Inc.",,NYSE/Nasdaq,US,USD,11289224565
+RTO.L,Rentokil Initial,,LSE,UK,GBp,11271316772
+BNZL.L,Bunzl,,LSE,UK,GBp,11152360861
+1209.HK,China Resources Mixc Lifestyle,,HKEX,Hong Kong,HKD,11119095898
+HII,Huntington Ingalls Industries,,NYSE/Nasdaq,US,USD,11099093648
+DECK,Deckers Brands,,NYSE/Nasdaq,US,USD,10878206363
+IT,Gartner,,NYSE/Nasdaq,US,USD,10774477977
+CLX,Clorox,,NYSE/Nasdaq,US,USD,10735044908
+LULU,Lululemon Athletica,,NYSE/Nasdaq,US,USD,10725586918
+GNRC,Generac,,NYSE/Nasdaq,US,USD,10719554329
+ALGN,Align Technology,,NYSE/Nasdaq,US,USD,10707126580
+MNG.L,M&G,,LSE,UK,GBp,10704065402
+0288.HK,WH Group,,HKEX,Hong Kong,HKD,10651491128
+MKS.L,Marks & Spencer,,LSE,UK,GBp,10559049764
+AES,AES Corporation,,NYSE/Nasdaq,US,USD,10554734288
+DPZ,Domino's,,NYSE/Nasdaq,US,USD,10496834112
+BEZ.L,Beazley,,LSE,UK,GBp,10487853031
+MGM,MGM Resorts,,NYSE/Nasdaq,US,USD,10420820684
+COO,Cooper Companies (The),,NYSE/Nasdaq,US,USD,10300711928
+PAH3.DE,Porsche SE,,XETRA,Germany,EUR,10286584907
+BNR.DE,Brenntag,,XETRA,Germany,EUR,10286409203
+UHS,Universal Health Services,,NYSE/Nasdaq,US,USD,10179514943
+BXP,"BXP, Inc.",,NYSE/Nasdaq,US,USD,10173634543
+HSIC,Henry Schein,,NYSE/Nasdaq,US,USD,9944933234
+FRT,Federal Realty Investment Trust,,NYSE/Nasdaq,US,USD,9920935067
+SBRY.L,Sainsbury's,,LSE,UK,GBp,9847504852
+1876.HK,Budweiser Brewing Company APAC,,HKEX,Hong Kong,HKD,9844381660
+SMIN.L,Smiths Group,,LSE,UK,GBp,9755136353
+PCT.L,Polar Capital Technology Trust,,LSE,UK,GBp,9675509985
+2382.HK,Sunny Optical,,HKEX,Hong Kong,HKD,9609437414
+IMI.L,IMI,,LSE,UK,GBp,9568646566
+APTV,Aptiv,,NYSE/Nasdaq,US,USD,9486766608
+PSON.L,Pearson plc,,LSE,UK,GBp,9435236620
+WEIR.L,Weir,,LSE,UK,GBp,9431117272
+FDS,FactSet,,NYSE/Nasdaq,US,USD,9351247961
+PODD,Insulet Corporation,,NYSE/Nasdaq,US,USD,9340623013
+CNA.L,Centrica,,LSE,UK,GBp,9246401797
+A17U.SI,Ascendas REIT,,seed list,Singapore,SGD,9182959228
+PNR,Pentair,,NYSE/Nasdaq,US,USD,9167882267
+WYNN,Wynn Resorts,,NYSE/Nasdaq,US,USD,9104951254
+2319.HK,Mengniu Dairy,,HKEX,Hong Kong,HKD,9004444557
+PSH.L,Pershing Square Holdings,,LSE,UK,GBp,8852417770
+QIA.DE,Qiagen,,XETRA,Germany,EUR,8781433319
+0322.HK,Tingyi,,HKEX,Hong Kong,HKD,8670026828
+FCIT.L,F & C Investment Trust,,LSE,UK,GBp,8555850533
+ARE,Alexandria Real Estate Equities,,NYSE/Nasdaq,US,USD,8529042164
+2618.HK,JD Logistics,,HKEX,Hong Kong,HKD,8418927277
+MOS,Mosaic Company (The),,NYSE/Nasdaq,US,USD,8074549287
+MRO.L,Melrose Industries,,LSE,UK,GBp,7986767225
+HSX.L,Hiscox,,LSE,UK,GBp,7943031107
+MTLN.L,Metlen Energy & Metals,,LSE,UK,EUR,7818278659
+BGEO.L,Lion Finance Group,,LSE,UK,GBp,7790883922
+GAW.L,Games Workshop,,LSE,UK,GBp,7745315288
+AOS,A. O. Smith,,NYSE/Nasdaq,US,USD,7707375050
+0291.HK,China Resources Beer,,HKEX,Hong Kong,HKD,7616052840
+STJ.L,St. James's Place,,LSE,UK,GBp,7559693858
+ICG.L,ICG,,LSE,UK,GBp,7463031607
+DCC.L,DCC Energy,,LSE,UK,GBp,7313353821
+CCC.L,Computacenter,,LSE,UK,GBp,7281593115
+TAP,Molson Coors Beverage Company,,NYSE/Nasdaq,US,USD,7167288928
+6862.HK,Haidilao,,HKEX,Hong Kong,HKD,6968243431
+2313.HK,Shenzhou International,,HKEX,Hong Kong,HKD,6899369554
+2688.HK,ENN Energy,,HKEX,Hong Kong,HKD,6896629589
+0285.HK,BYD Electronics,,HKEX,Hong Kong,HKD,6880168282
+SPX.L,Spirax Group,,LSE,UK,GBp,6821861941
+NCLH,Norwegian Cruise Line Holdings,,NYSE/Nasdaq,US,USD,6690366776
+ALW.L,Alliance Witan,,LSE,UK,GBp,6676288146
+TTD,Trade Desk (The),,NYSE/Nasdaq,US,USD,6564226436
+BAB.L,Babcock International,,LSE,UK,GBp,6431112742
+LAND.L,Land Securities,,LSE,UK,GBp,6349213182
+BLDR,Builders FirstSource,,NYSE/Nasdaq,US,USD,6344963201
+KGF.L,Kingfisher plc,,LSE,UK,GBp,6318161592
+ZAL.DE,Zalando,,XETRA,Germany,EUR,6316885011
+0241.HK,Alibaba Health,,HKEX,Hong Kong,HKD,6250148162
+1099.HK,Sinopharm Group,,HKEX,Hong Kong,HKD,6144527608
+ABDN.L,Aberdeen Group,,LSE,UK,GBp,6041024532
+CRDA.L,Croda International,,LSE,UK,GBp,6038716831
+IGG.L,IG Group,,LSE,UK,GBp,5974060699
+G24.DE,Scout24,,XETRA,Germany,EUR,5868058523
+BBOX.L,Tritax Big Box REIT,,LSE,UK,GBp,5829054756
+C09.SI,City Developments,,seed list,Singapore,SGD,5737778996
+CTEC.L,Convatec,,LSE,UK,GBp,5699035767
+LMP.L,LondonMetric Property,,LSE,UK,GBp,5629502755
+INVP.L,Investec,,LSE,UK,GBp,5531613046
+BLND.L,British Land,,LSE,UK,GBp,5530978476
+HWDN.L,Howdens Joinery,,LSE,UK,GBp,5407961698
+BTRW.L,Barratt Redrow,,LSE,UK,GBp,5347875748
+WTB.L,Whitbread,,LSE,UK,GBp,5307802616
+AUTO.L,Autotrader Group,,LSE,UK,GBp,5096379860
+JD.L,JD Sports,,LSE,UK,GBp,5078270910

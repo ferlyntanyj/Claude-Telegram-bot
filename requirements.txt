@@ -5,3 +5,5 @@ pyarrow
 requests
 curl_cffi
 feedparser
+anthropic
+lxml

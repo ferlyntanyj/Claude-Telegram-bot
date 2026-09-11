@@ -1,0 +1,46 @@
+name: Global Watchlist Build
+
+on:
+  schedule:
+    # Weekly -- index membership and market caps don't move fast enough to
+    # need more. Monday 03:00 UTC (11:00 SGT), ahead of the other scheduled jobs.
+    - cron: "0 3 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build watchlist
+        working-directory: scripts
+        run: python global_watchlist_build.py
+
+      - name: Commit and push watchlist if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/global_watchlist.csv
+          if git diff --cached --quiet; then
+            echo "No watchlist changes to commit."
+          else
+            git commit -m "Weekly global watchlist refresh: $(date -u +%Y-%m-%d)"
+            for attempt in 1 2 3; do
+              git pull --rebase --autostash origin main && git push && break
+              echo "push attempt $attempt failed, retrying..."
+              sleep 5
+            done
+          fi

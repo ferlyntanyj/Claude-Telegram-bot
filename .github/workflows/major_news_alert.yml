@@ -1,0 +1,61 @@
+name: Global Major News Alert
+
+on:
+  schedule:
+    # Every 20 minutes, offset 7 min from the hour to avoid the top-of-hour
+    # congestion GitHub warns scheduled jobs can be delayed by. Runs every day,
+    # all hours -- major news breaks outside SGT market hours too (matches
+    # major_news_alert_config.POLL_INTERVAL_MINUTES = 20).
+    # NOTE: GitHub often skips the *first* scheduled slot after a workflow is
+    # added or the repo is renamed; committing to this file re-arms the cron.
+    - cron: "7,27,47 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: major-news-alert
+  cancel-in-progress: false
+
+jobs:
+  alert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run major news alert
+        working-directory: scripts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SGX_SCREENER_TELEGRAM_BOT_TOKEN: ${{ secrets.SGX_SCREENER_TELEGRAM_BOT_TOKEN }}
+          Claude_BOT_CHAT_ID: ${{ secrets.Claude_BOT_CHAT_ID }}
+        run: python major_news_alert.py
+
+      # Only data/alert_state.json (cooldown bookkeeping) and the audit log
+      # change here -- most cycles find nothing, so most runs commit nothing.
+      # data/global_watchlist.csv is refreshed by the separate weekly workflow.
+      - name: Commit and push state/log if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/alert_state.json output/major_news_alert_log.json
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "Major news alert state update: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            for attempt in 1 2 3; do
+              git pull --rebase --autostash origin main && git push && break
+              echo "push attempt $attempt failed, retrying..."
+              sleep 5
+            done
+          fi

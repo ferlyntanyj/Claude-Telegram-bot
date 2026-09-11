@@ -1,6 +1,12 @@
 __pycache__/
 *.pyc
-data/
+data/*
+# Cloud runners (GitHub Actions) are ephemeral -- these two need to persist
+# in git across runs, unlike the rest of data/ which only ever lives locally.
+# (Note: "data/*" not "data/" -- git can't re-include a file whose parent
+# directory pattern excluded the directory itself, only one that excludes contents.)
+!data/global_watchlist.csv
+!data/alert_state.json
 logs/
 output/morning_brief.json
 output/evening_brief.json
