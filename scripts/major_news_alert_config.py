@@ -63,8 +63,13 @@ RE_ALERT_DELTA_PCT = 3.0
 # set, from a key created at console.groq.com. Gemini's free tier was tried
 # first but requires paid billing for requests originating from the EEA/UK/
 # Switzerland, which GitHub Actions runners can't reliably avoid.)
+#
+# llama-3.3-70b-versatile was deprecated by Groq on 2026-06-17 (confirmed via
+# a live 404 model_not_found from the API on 2026-09-11 -- Groq's own docs
+# pages were still claiming it was current when checked the same day, so
+# trust runs against the real API over their docs if this drifts again).
 # ---------------------------------------------------------------------------
-LLM_MODEL = "llama-3.3-70b-versatile"
+LLM_MODEL = "openai/gpt-oss-120b"
 LLM_PEER_MAX_TOKENS = 400
 LLM_SIGNIFICANCE_MAX_TOKENS = 300
 
