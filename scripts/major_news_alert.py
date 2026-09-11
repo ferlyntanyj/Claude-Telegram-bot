@@ -13,8 +13,8 @@ Auth:
   SGX_SCREENER_TELEGRAM_BOT_TOKEN, SGX_SCREENER_TELEGRAM_CHAT_ID -- same
     bot and chat as the other briefs; alerts land in that same chat,
     interleaved with the scheduled digests.
-  ANTHROPIC_API_KEY -- separate from Claude Code; this script calls the
-    Claude API directly for peer-inference and significance write-ups.
+  GEMINI_API_KEY -- free-tier Gemini API key (aistudio.google.com), used for
+    peer-inference and significance write-ups. No billing account needed.
 
 Usage:
     python major_news_alert.py            # run a cycle and send any alerts

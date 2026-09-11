@@ -59,9 +59,10 @@ COOLDOWN_HOURS = 4.0
 RE_ALERT_DELTA_PCT = 3.0
 
 # ---------------------------------------------------------------------------
-# LLM (Claude API -- separate from Claude Code; needs ANTHROPIC_API_KEY set)
+# LLM (Gemini API -- free tier, no billing account required; needs
+# GEMINI_API_KEY set, from a key created at aistudio.google.com)
 # ---------------------------------------------------------------------------
-LLM_MODEL = "claude-haiku-4-5-20251001"
+LLM_MODEL = "gemini-3.8-flash"
 LLM_PEER_MAX_TOKENS = 400
 LLM_SIGNIFICANCE_MAX_TOKENS = 300
 

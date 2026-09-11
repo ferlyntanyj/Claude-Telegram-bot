@@ -154,7 +154,7 @@ def check_price_moves(tickers):
 
 
 # ---------------------------------------------------------------------------
-# Sector-peer inference (Claude) + evaluation
+# Sector-peer inference (Gemini) + evaluation
 # ---------------------------------------------------------------------------
 def _looks_sector_worthy(title, cfg):
     low = title.lower()
@@ -162,8 +162,26 @@ def _looks_sector_worthy(title, cfg):
 
 
 def _llm_client():
-    import anthropic
-    return anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from the environment
+    from google import genai
+    return genai.Client()  # reads GEMINI_API_KEY from the environment
+
+
+def _run_interaction(prompt, cfg, max_tokens, response_mime_type=None):
+    """One Gemini API call via the Interactions API. Raises on any failure
+    (missing key, bad response, non-"completed" status) -- callers decide how
+    to degrade, same defensive shape as the rest of this module."""
+    client = _llm_client()
+    extra = {"response_mime_type": response_mime_type} if response_mime_type else {}
+    interaction = client.interactions.create(
+        model=cfg.LLM_MODEL,
+        input=prompt,
+        generation_config={"max_output_tokens": max_tokens},
+        **extra,
+    )
+    if interaction.status != "completed":
+        detail = "; ".join(e.message for e in (interaction.errors or [])) or interaction.status
+        raise RuntimeError(f"Gemini interaction did not complete ({detail})")
+    return interaction.output_text
 
 
 def _extract_json_array(text):
@@ -174,7 +192,7 @@ def _extract_json_array(text):
 
 
 def infer_sector_peers(title, cfg):
-    """Ask Claude which large-cap peers a thematic headline likely moved.
+    """Ask Gemini which large-cap peers a thematic headline likely moved.
     Returns [(ticker, company), ...], empty on any failure -- a missing API
     key or a bad response must not crash the whole poll cycle."""
     prompt = (
@@ -187,13 +205,10 @@ def infer_sector_peers(title, cfg):
         '[{"ticker": "AAPL", "company": "Apple Inc"}, ...]'
     )
     try:
-        client = _llm_client()
-        resp = client.messages.create(
-            model=cfg.LLM_MODEL,
-            max_tokens=cfg.LLM_PEER_MAX_TOKENS,
-            messages=[{"role": "user", "content": prompt}],
+        text = _run_interaction(
+            prompt, cfg, cfg.LLM_PEER_MAX_TOKENS, response_mime_type="application/json"
         )
-        data = _extract_json_array(resp.content[0].text)
+        data = _extract_json_array(text)
         return [(d["ticker"].strip(), d.get("company", d["ticker"]).strip())
                 for d in data if d.get("ticker")]
     except Exception as e:  # noqa: BLE001
@@ -231,7 +246,7 @@ def evaluate_sector_move(peers, cfg):
 
 
 # ---------------------------------------------------------------------------
-# Significance write-up (Claude)
+# Significance write-up (Gemini)
 # ---------------------------------------------------------------------------
 def write_significance(alert, cfg):
     headline = alert["headline"]
@@ -261,13 +276,8 @@ def write_significance(alert, cfg):
         "and avoid generic filler. No preamble, just the analysis."
     )
     try:
-        client = _llm_client()
-        resp = client.messages.create(
-            model=cfg.LLM_MODEL,
-            max_tokens=cfg.LLM_SIGNIFICANCE_MAX_TOKENS,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        return resp.content[0].text.strip()
+        text = _run_interaction(prompt, cfg, cfg.LLM_SIGNIFICANCE_MAX_TOKENS)
+        return text.strip()
     except Exception as e:  # noqa: BLE001
         print(f"  LLM significance write-up failed: {e}", file=sys.stderr)
         return "(Significance write-up unavailable — LLM call failed; see logs.)"
