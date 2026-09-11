@@ -9,7 +9,12 @@ on:
     # NOTE: GitHub often skips the *first* scheduled slot after a workflow is
     # added or the repo is renamed; committing to this file re-arms the cron.
     - cron: "7,27,47 * * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      test_llm:
+        description: "Diagnostic only: force one real Groq call to verify GROQ_API_KEY, skip headline fetching/Telegram entirely"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -39,7 +44,7 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           SGX_SCREENER_TELEGRAM_BOT_TOKEN: ${{ secrets.SGX_SCREENER_TELEGRAM_BOT_TOKEN }}
           SGX_SCREENER_TELEGRAM_CHAT_ID: ${{ secrets.SGX_SCREENER_TELEGRAM_CHAT_ID }}
-        run: python major_news_alert.py
+        run: python major_news_alert.py ${{ inputs.test_llm && '--test-llm' || '' }}
 
       # Only data/alert_state.json (cooldown bookkeeping) and the audit log
       # change here -- most cycles find nothing, so most runs commit nothing.

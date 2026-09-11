@@ -17,8 +17,11 @@ Auth:
     peer-inference and significance write-ups. No credit card needed.
 
 Usage:
-    python major_news_alert.py            # run a cycle and send any alerts
-    python major_news_alert.py --dry-run  # run a cycle, print, don't send
+    python major_news_alert.py             # run a cycle and send any alerts
+    python major_news_alert.py --dry-run   # run a cycle, print, don't send
+    python major_news_alert.py --test-llm  # force one real Groq call to verify
+                                            # GROQ_API_KEY works, independent of
+                                            # whether any headline qualifies
 """
 import html
 import os
@@ -95,6 +98,25 @@ def send_telegram(text, token, chat_id):
         raise RuntimeError(f"Telegram API error: {payload}")
 
 
+def _test_llm():
+    """Force one real Groq call with a synthetic alert -- bypasses headline
+    fetching entirely, so you can verify GROQ_API_KEY works without waiting
+    for a real qualifying story. Prints the result (or the exact failure) and
+    exits; sends nothing to Telegram."""
+    dummy_alert = {
+        "type": "single_stock",
+        "headline": {"title": "Diagnostic test headline", "source": "major_news_alert --test-llm"},
+        "ticker": "TEST", "company": "Diagnostic Test Co",
+        "move": {"pct": 6.0, "last": 106.0, "prev": 100.0, "currency": "USD"},
+    }
+    result = engine.write_significance(dummy_alert, cfg)
+    if result.startswith("(Significance write-up unavailable"):
+        print(f"GROQ TEST FAILED: {result}", file=sys.stderr)
+        sys.exit(1)
+    print("GROQ TEST OK -- model responded:")
+    print(result)
+
+
 def main():
     dry_run = "--dry-run" in sys.argv[1:]
     if dry_run:  # the message contains emoji; Windows consoles default to cp1252
@@ -102,6 +124,10 @@ def main():
             sys.stdout.reconfigure(encoding="utf-8", errors="replace")
         except (AttributeError, ValueError):
             pass
+
+    if "--test-llm" in sys.argv[1:]:
+        _test_llm()
+        return
 
     alerts, state = engine.run_cycle(cfg)
     if not alerts:
