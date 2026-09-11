@@ -48,7 +48,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/alert_state.json output/major_news_alert_log.json
+          # Both paths only get written once the first alert ever fires --
+          # "git add" hard-fails (exit 128) on a pathspec that matches nothing,
+          # which would red-X every quiet cycle before that under Actions'
+          # default `bash -e`, so add each only if it exists.
+          [ -f data/alert_state.json ] && git add data/alert_state.json
+          [ -f output/major_news_alert_log.json ] && git add output/major_news_alert_log.json
           if git diff --cached --quiet; then
             echo "No state changes to commit."
           else
