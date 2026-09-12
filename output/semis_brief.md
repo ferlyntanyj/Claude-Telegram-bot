@@ -1,19 +1,14 @@
-# Global Semiconductor Brief -- 11 Sep 2026, 22:34 SGT
-
-## Policy & geopolitics
-- [Taiwan unfazed by Trump's renewed chip tariff threat as MOU already locks in preferential US treatment](https://www.digitimes.com/news/a20260910PD246/taiwan-xi-jinping-donald-trump-manufacturing-semiconductors.html) — DIGITIMES
-- [FCC closes a chip-level loophole while media debate another White House retreat](https://www.digitimes.com/news/a20260911VL209/fcc-communications-component-equipment-router.html) — DIGITIMES
+# Global Semiconductor Brief -- 12 Sep 2026, 12:53 SGT
 
 ## Supply chain signals
-- [Kioxia eyes US listing amid NAND profit rebound](https://www.digitimes.com/news/a20260911VL229/kioxia-nand-demand-ssd-2027.html) — DIGITIMES
-- [Samsung Electro-Mechanics, LG Innotek vie in AI package substrates](https://www.digitimes.com/news/a20260911PD229/semco-lg-innotek-2026-substrate-technology.html?chid=10) — DIGITIMES
-- [Enflame enters public markets with Nvidia alternatives in its sights](https://www.digitimes.com/news/a20260911VL224/nvidia-shanghai-market-accelerator-ipo.html) — DIGITIMES
+- [AI’s HBM Shortage Strengthens Micron’s Hand—and Pressures Nvidia’s GPU Economics](https://news.google.com/rss/articles/CBMinwFBVV95cUxQRE1OOG1aM2U5aVdfeVdTUjF5eEVOX0hBRTVic2p3SjFQVW1ZcjBYU0h2TmtsczRENFo2UF9PSFpxRG9BS3lwZHJNQWFtZEsxemZFVEdtS1JVZ1kzMlRvcVBIYnlRcDdkcVZEcFIwSzVEbG5JTElCbUtqWVlFU0o1N2RyU01uWGhWcE1WYkxHNDNmRU1jLXc1dkNXQnA0XzA?oc=5) — Yahoo Finance
 - [Can Samsung’s HBM growth hold off rising Chinese foundry rivals?](https://news.google.com/rss/articles/CBMid0FVX3lxTFB3RFROMDlGUVdYNG5NbmRoRnNYRG44ODZqRkRhcWdOQ09jVWtrNnVJODlYNXRaMTRLVHA0ek0zN3JzRlNXNktHaDlDZ28wS1dKXzNXLWx6SmlZc21MS0ZYRjJzbTVaeGZVOUk4THBKMDAtSWdVblNj?oc=5) — KED Global
+- [Why Micron Needs To Be In An AI Portfolio (NASDAQ:MU)](https://news.google.com/rss/articles/CBMiigFBVV95cUxNYzJTbmxMR2V6MWZKemMxeTg3clVYSjVjdkllMGFYb01GSlh6LWpPaTV0a05LdFAySFYzYldhZzhsRFl6V3M1YUFpd3I0LVlPX09sbW0xQUt0bGpEYXZOdktZb25QbkVscU9RbXBHSG5VS0RKaVpTQVdTU2d5MUt2cXpYSWxQUTZWbVE?oc=5) — Seeking Alpha
 
 ## News — M&A, capex, capacity, earnings
-- [AUO, Innolux accelerate shift from displays to AI, CPO, advanced packaging](https://www.digitimes.com/news/a20260911PD222/panel-auo-innolux-taiwan-packaging.html) — DIGITIMES
-- [Chip Industry Week in Review](https://news.google.com/rss/articles/CBMibkFVX3lxTE9sUDgwWENmdHNHSEdUM2VEMTQzNWtYSGtnZHBEb1hTTlQtMy0wTXMtamlYNko0a1ZfNmVYOGRneE8waU5ZWGVKUkpwUWlVNThkdi1wVHQ5NjBqcUdGSjRCTnRNb2VBS1psYmw5S1hR?oc=5) — Semiconductor Engineering
-- [Indian Researchers Look Beyond GPUs to Neuromorphic AI Hardware](https://www.eetimes.com/indian-researchers-look-beyond-gpus-to-neuromorphic-ai-hardware/) — EE Times
-- [Qualcomm Chip Deal With Samsung Hits a Major Pricing Snag](https://news.google.com/rss/articles/CBMilwFBVV95cUxQREktTDZ3d2xIbE5uM0ptRUc4dmlnRG5OdUh6UnFBMnhXTnJVYThaZXFPczY2QVk4TmhkUjRmUURGZXZQOVVlVXg1SG9HYTFrSTNpYXlBWDk1T2xkcFVQNGRqOXFnbmV6Q3NrY1FDRWE3bEQ4a1pXU0dmYjQwU0ZxRTFkem9jYjBRUWtaMUZQQVRBYVJJOEFV?oc=5) — Yahoo Finance
+- [EXCLUSIVE: Nvidia in talks to invest in Anthropic’s mega IPO, sources say](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbmduYjZNYlh4TmVDd3dMTzZmU21ud1Q5WVVaYXBOM2hUQ201U2tjeDhoWHd6ZjhlQzdtUWxiNmFibkRpc2VlcmxjbWMzTWljZ0ZZSkF6VHFPWnJVUFQwc2g4RDNtb1FCWjN1R3BBcFRzUHkyTXJiRXZpa0NxV29IWFc1LV9lUXh0bXc3TWNrSHZhT0lPTVU2dEswYWhSVUw2SzFkRkVmSHU0S3c?oc=5) — Reuters
+- [Inside Architect Labs’ Two-Week Chip Design](https://www.eetimes.com/inside-architect-labs-two-week-chip-design/) — EE Times
+- [ViTrox sees chip inspection moving upstream as advanced packaging raises defect costs](https://www.digitimes.com/news/a20260911VL230/inspection-packaging-production-equipment-taiwan.html) — DIGITIMES
+- [Nvidia in talks to invest in Anthropic’s mega IPO, sources say](https://news.google.com/rss/articles/CBMimwFBVV95cUxOaDVNRHpBVFlFeFhGbUlTc1AwZFpkbVJfZFFoV3M3UnNYUElPUWk4RGJ0MmM4ZTRNTDdCWU02NS1tbFhfLWpoNmNBN1pPQWJURlFPNFZudWRsQnZuWWo0OU10aGE0eTNOTXY3SmVKdDBic3p6YzY2QTk1djVYM084NkE0elJMQXo3T1Y2cTVXVzV3NGp0YV9vZzVJZw?oc=5) — The Straits Times
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (10 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (7 headlines, 13h window)._
