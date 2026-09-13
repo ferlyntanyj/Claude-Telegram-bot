@@ -1,9 +1,8 @@
-# Global Semiconductor Brief -- 12 Sep 2026, 21:41 SGT
+# Global Semiconductor Brief -- 13 Sep 2026, 13:13 SGT
 
 ## News — M&A, capex, capacity, earnings
-- [South Korea arms itself to protect chip secrets from foreign spies](https://news.google.com/rss/articles/CBMicEFVX3lxTFB4bWEwdE9Hc3lZUmVGS0Y3dzNXR2dGSUZ0d0laeHgwWExDZl94WkNjNlZ2dXhvdzBma1dyOWR6dVlkZUZXbnFsUzhJYmRGX21ESjBQVWItV3QzaDIxM2NnWHF4V1VpLVVNMFY1QmM2eEg?oc=5) — Financial Times
-- [Kioxia Exceria Pro G2 2TB SSD Review — Speed built to last](https://www.tomshardware.com/pc-components/ssds/kioxia-exceria-pro-g2-2tb-ssd-review) — Tom's Hardware
-- [Lucky PC scavenger discovers 12 RTX 3070 GPUs from the crypto mining era — cards survived years of basement storage with only minor signs of wear](https://www.tomshardware.com/pc-components/gpus/lucky-pc-scavenger-discovers-12-rtx-3070-gpus-from-the-crypto-mining-era-cards-survived-years-of-basement-storage-with-only-minor-signs-of-wear) — Tom's Hardware
-- [Apple's A20 Pro shatters Geekbench 7 single-core record — 2nm chip beats desktop Intel Core i9 and AMD Ryzen 9 by up to 32%](https://www.tomshardware.com/pc-components/cpus/apples-a20-pro-shatters-geekbench-7-single-core-record-2nm-chip-beats-desktop-intel-core-i9-and-amd-ryzen-9-by-up-to-32-percent) — Tom's Hardware
+- [South Korea’s expanded espionage law takes effect amid push to protect chip technology](https://news.google.com/rss/articles/CBMiuwFBVV95cUxQekdqaklST0ZRRVhtOXpEOFptSEJsSW1pS25WNGpkWk52ZjN4cWRWWGl6djdFNVUtMXFWWnBPX051Ul9IYlRfTk53UmVzUExpYVNwQ3NZOXdZc2tjRFVmR2FSZk5rRENyRTNqczE2VUpVYUpQd19TSGpmQTEtaGZMLVlSNS1FQWV1WVVjTjFISEE3YVNqM052aHZrY21ocDFKVHZPT3VScjI3djZoMTRCSVlzaFJzOHNKRFVR?oc=5) — The Straits Times
+- [Fujitsu to export AI chips built on supercomputer tech to US, Asia](https://news.google.com/rss/articles/CBMiugFBVV95cUxQOHUyWDd0V0xRN0RRdjk4N1dsUWFlQ05pT1o1TV84R2xzQ1BhNzMwUTVNVlVTeHU0dzNrOEd5Z19BSC0tVEVWbWpRVXRVRzF1TC1vVjNVSGJPTTdvUlZBSWRpbWJwVHVWaUNjVkNZU3YtS1RvVnRhMWN3WENDaGc4MEpEU2ZQMEhncTZrcmZNVmlnLUdZYVFjT1J1VEdqQngyX2R0NVJabFJqTzVfZkxBY3d3SUdVam9NVWc?oc=5) — Nikkei Asia
+- [Build a high-end AMD gaming PC for less — Ryzen 7 9800X3D bundle includes an X870E motherboard, 32GB DDR5, AIO cooler and a game for $1,109.99](https://www.tomshardware.com/pc-components/build-a-high-end-amd-gaming-pc-for-less-ryzen-7-9800x3d-bundle-includes-an-x870e-motherboard-32gb-ddr5-aio-cooler-and-a-game-for-usd1-109-99) — Tom's Hardware
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (4 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (3 headlines, 13h window)._
