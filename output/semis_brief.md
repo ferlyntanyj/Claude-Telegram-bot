@@ -1,8 +1,9 @@
-# Global Semiconductor Brief -- 13 Sep 2026, 13:13 SGT
+# Global Semiconductor Brief -- 13 Sep 2026, 22:35 SGT
 
 ## News — M&A, capex, capacity, earnings
-- [South Korea’s expanded espionage law takes effect amid push to protect chip technology](https://news.google.com/rss/articles/CBMiuwFBVV95cUxQekdqaklST0ZRRVhtOXpEOFptSEJsSW1pS25WNGpkWk52ZjN4cWRWWGl6djdFNVUtMXFWWnBPX051Ul9IYlRfTk53UmVzUExpYVNwQ3NZOXdZc2tjRFVmR2FSZk5rRENyRTNqczE2VUpVYUpQd19TSGpmQTEtaGZMLVlSNS1FQWV1WVVjTjFISEE3YVNqM052aHZrY21ocDFKVHZPT3VScjI3djZoMTRCSVlzaFJzOHNKRFVR?oc=5) — The Straits Times
-- [Fujitsu to export AI chips built on supercomputer tech to US, Asia](https://news.google.com/rss/articles/CBMiugFBVV95cUxQOHUyWDd0V0xRN0RRdjk4N1dsUWFlQ05pT1o1TV84R2xzQ1BhNzMwUTVNVlVTeHU0dzNrOEd5Z19BSC0tVEVWbWpRVXRVRzF1TC1vVjNVSGJPTTdvUlZBSWRpbWJwVHVWaUNjVkNZU3YtS1RvVnRhMWN3WENDaGc4MEpEU2ZQMEhncTZrcmZNVmlnLUdZYVFjT1J1VEdqQngyX2R0NVJabFJqTzVfZkxBY3d3SUdVam9NVWc?oc=5) — Nikkei Asia
-- [Build a high-end AMD gaming PC for less — Ryzen 7 9800X3D bundle includes an X870E motherboard, 32GB DDR5, AIO cooler and a game for $1,109.99](https://www.tomshardware.com/pc-components/build-a-high-end-amd-gaming-pc-for-less-ryzen-7-9800x3d-bundle-includes-an-x870e-motherboard-32gb-ddr5-aio-cooler-and-a-game-for-usd1-109-99) — Tom's Hardware
+- [AMD’s best gaming CPU drops below launch price and includes free 240mm AIO cooler and Onimusha: Way of the Sword — grab the Ryzen 7 9850X3D for $484](https://www.tomshardware.com/pc-components/cpus/amds-best-gaming-cpu-drops-below-launch-price-and-includes-free-240mm-aio-cooler-and-onimusha-way-of-the-sword-grab-the-ryzen-7-9850x3d-for-usd484) — Tom's Hardware
+- [Intel revives One Mono font after brief retirement during open-source purge — typeface built to fight coder eyestrain gets reprieve](https://www.tomshardware.com/tech-industry/intel-revives-one-mono-font-after-brief-retirement-typeface-built-to-fight-coder-eyestrain-gets-reprieve-from-open-source-purge) — Tom's Hardware
+- [Mexican cartel's crypto farm seized in mountain raid — 300 GPUs, satellite links, and industrial transformers tapped hydroelectric power](https://www.tomshardware.com/tech-industry/cryptomining/mexican-cartel-crypto-farm-seized-in-mountain-raid-300-gpus-satellite-links-and-industrial-transformers-tapped-hydroelectric-power) — Tom's Hardware
+- [Playable Tomb Raider runs on a humble 1-watt chip — $25 board with dual-core 400 MHz ESP32-P4 MCU scales OpenLara up to 1,024 x 600 playable pixels](https://www.tomshardware.com/software/programming/playable-tomb-raider-runs-on-a-humble-1-watt-chip-usd25-board-with-dual-core-400-mhz-esp32-p4-mcu-scales-openlara-up-to-1-024-x-600-playable-pixels) — Tom's Hardware
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (3 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (4 headlines, 13h window)._
