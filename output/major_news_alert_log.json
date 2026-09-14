@@ -180,5 +180,49 @@
       "look_out": "Investors should watch for export licensing approvals, initial order volumes, and the impact on Fujitsu's Q3 earnings, as well as any US‑Japan trade policy shifts that could affect the rollout.",
       "memory": "A comparable boost occurred in 2022 when Toshiba announced export of its AI accelerator chips to the US, sending its shares higher on expectations of tapping the same burgeoning market."
     }
+  },
+  {
+    "alert_utc": "2026-09-14T21:45:59.589274+00:00",
+    "type": "single_stock",
+    "headline": "Applied Materials using AI to speed chip materials discovery, Japan chief says",
+    "source": "Nikkei Asia",
+    "url": "https://asia.nikkei.com/business/tech/semiconductors/applied-materials-using-ai-to-speed-chip-materials-discovery-japan-chief-says",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "AMAT",
+      "company": "Applied Materials",
+      "pct": -7.164371335720887,
+      "last": 424.2099914550781,
+      "prev": 456.9474,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research Corporation",
+        "pct": -8.40311131543472
+      },
+      {
+        "ticker": "ASML",
+        "company": "ASML Holding N.V.",
+        "pct": -7.398587629978692
+      },
+      {
+        "ticker": "KLAC",
+        "company": "KLA Corporation",
+        "pct": -6.5284707916580365
+      },
+      {
+        "ticker": "TSM",
+        "company": "Taiwan Semiconductor Manufacturing Company Limited",
+        "pct": -3.4529726151087847
+      }
+    ],
+    "analysis": {
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
