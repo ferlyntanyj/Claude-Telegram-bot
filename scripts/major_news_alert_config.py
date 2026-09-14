@@ -149,6 +149,15 @@ DIRECT_FEEDS = [
     # Straits Times' own business section (not their general feed) -- gives
     # the watchlist's 9 Singapore names the same direct-feed coverage.
     ("news", "Straits Times Business", "https://www.straitstimes.com/news/business/rss.xml"),
+    # General national wire, same treatment as Yonhap -- gives the
+    # watchlist's Indonesian names direct-feed coverage. No business-specific
+    # Jakarta Post feed found (only /home exists), so this stays relevance-
+    # gated below. The Star / The Edge Malaysia (Malaysia's equivalents)
+    # don't appear to publish a public RSS feed at all any more -- no
+    # auto-discovery link on either homepage and every guessed URL 404s
+    # (checked 2026-09-14) -- so Malaysia has no direct feed; both are still
+    # recognized as trusted sources below for whenever Google News surfaces them.
+    ("news", "Jakarta Post", "https://rss.thejakartapost.com/home"),
 ]
 
 # Feeds that are themselves finance/markets desks, not general news -- so
@@ -188,6 +197,17 @@ SOURCE_WEIGHTS = {
     "The Straits Times": 6, "Straits Times": 6, "The Business Times": 6, "Business Times": 6,
     "CNBC": 6, "CNBC Markets": 6, "MarketWatch": 6, "Barron's": 6,
     "The Economist": 7,
+    # Jakarta Post's direct feed tags entries "The Jakarta Post - Home" (its
+    # own feed-title quirk, not a clean source name) -- normalizes (strips
+    # leading "The ") to "Jakarta Post - Home"; "Jakarta Post" kept too in
+    # case Google News surfaces it under a cleaner name.
+    "Jakarta Post - Home": 6, "Jakarta Post": 6,
+    # The Star and The Edge Malaysia don't appear to publish a public RSS
+    # feed any more (no direct feed for either, see DIRECT_FEEDS comment),
+    # but Google News does surface their content by name -- recognized here
+    # so it isn't silently dropped as an unknown source when that happens.
+    # _norm_source strips the leading "The " from both.
+    "Star": 6, "Edge Malaysia": 6,
 }
 DEFAULT_SOURCE_WEIGHT = 0   # unknown source -> dropped
 MIN_SOURCE_WEIGHT = 6       # higher bar than the digests -- this is an alert, not a scan
