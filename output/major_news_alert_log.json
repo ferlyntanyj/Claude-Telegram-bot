@@ -1,0 +1,48 @@
+[
+  {
+    "alert_utc": "2026-09-14T08:01:07.435915+00:00",
+    "type": "single_stock",
+    "headline": "SoftBank Group plunges 11% after OpenAI says no IPO this year",
+    "source": "Nikkei Asia",
+    "url": "https://asia.nikkei.com/business/markets/softbank-group-plunges-11-after-openai-says-no-ipo-this-year",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "9984.T",
+      "company": "SoftBank Group",
+      "pct": -10.581929555895863,
+      "last": 5839.0,
+      "prev": 6530.0,
+      "currency": "JPY"
+    },
+    "peers": [],
+    "analysis": {
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-14T08:01:07.435927+00:00",
+    "type": "single_stock",
+    "headline": "Fujitsu to export AI chips built on supercomputer tech to US, Asia",
+    "source": "Nikkei Asia",
+    "url": "https://asia.nikkei.com/business/tech/semiconductors/fujitsu-to-export-ai-chips-built-on-supercomputer-tech-to-us-asia",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6702.T",
+      "company": "Fujitsu",
+      "pct": 7.560780122896071,
+      "last": 4026.0,
+      "prev": 3743.0,
+      "currency": "JPY"
+    },
+    "peers": [],
+    "analysis": {
+      "why_moved": "Fujitsu jumped 7.6% after announcing it will begin exporting AI chips based on its supercomputer technology to the US and Asian markets, signalling a new revenue stream from high‑margin AI hardware.",
+      "read_across": "The move could pressure domestic rivals such as NEC and international chipmakers like Intel to accelerate their own AI‑focused product rollouts, and may spur supply‑chain partners to prioritize AI‑grade silicon fabs.",
+      "look_out": "Watch for regulatory clearance in the US, initial order volumes, and any competitive response from established AI chip vendors that could affect Fujitsu’s market share.",
+      "memory": "A comparable surge occurred in 2023 when Samsung announced its Exynos AI chip exports to Europe, driving a similar short‑term rally as investors priced in new AI hardware revenue."
+    }
+  }
+]
