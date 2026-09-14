@@ -157,5 +157,28 @@
       "look_out": "Watch Applied Materials' upcoming Q3 earnings and any guidance on AI‑tool commercialization timelines, as well as macro data on chip fab capex and AI chip demand that could confirm or rebut the cost‑vs‑growth narrative.",
       "memory": "A similar pattern occurred in early 2023 when Applied Materials announced a major AI‑enabled lithography upgrade, prompting a steep drop as investors feared heightened R&D expenses without immediate upside."
     }
+  },
+  {
+    "alert_utc": "2026-09-14T20:15:48.924766+00:00",
+    "type": "single_stock",
+    "headline": "Fujitsu to export AI chips built on supercomputer tech to US, Asia",
+    "source": "Nikkei Asia",
+    "url": "https://asia.nikkei.com/business/tech/semiconductors/fujitsu-to-export-ai-chips-built-on-supercomputer-tech-to-us-asia",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6702.T",
+      "company": "Fujitsu Ltd.",
+      "pct": 7.560780122896071,
+      "last": 4026.0,
+      "prev": 3743.0,
+      "currency": "JPY"
+    },
+    "peers": [],
+    "analysis": {
+      "why_moved": "The stock jumped after Fujitsu announced it will begin exporting AI chips based on its supercomputer technology to the US and Asian markets, signalling a new revenue stream and positioning the company in the fast‑growing AI hardware arena.",
+      "read_across": "The move could lift peers such as Renesas, Sony and other Japanese semiconductor firms as they benefit from a broader AI chip ecosystem, while global chipmakers may feel increased competition in supply chains for high‑performance AI processors.",
+      "look_out": "Investors should watch for export licensing approvals, initial order volumes, and the impact on Fujitsu's Q3 earnings, as well as any US‑Japan trade policy shifts that could affect the rollout.",
+      "memory": "A comparable boost occurred in 2022 when Toshiba announced export of its AI accelerator chips to the US, sending its shares higher on expectations of tapping the same burgeoning market."
+    }
   }
 ]
