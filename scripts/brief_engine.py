@@ -125,7 +125,11 @@ def _norm_title(title):
 def _entry_age_hours(entry, now):
     tm = getattr(entry, "published_parsed", None) or getattr(entry, "updated_parsed", None)
     if not tm:
-        return None
+        # Some feeds (seen on Nikkei Asia) omit a date on some items entirely.
+        # Treat as freshly published rather than silently dropping real,
+        # current news just because it can't be dated -- worst case it's
+        # picked up on its next appearance in a later poll instead of lost.
+        return 0.0, now
     published = dt.datetime.fromtimestamp(calendar.timegm(tm), UTC)
     return (now - published).total_seconds() / 3600.0, published
 
@@ -184,6 +188,13 @@ def fetch_news(cfg, lookback_hours):
     # wording matches a section's keywords -- the feed-level tag is not enough.
     # Google News queries are topical, so their tag always stands.
     strict_direct = getattr(cfg, "STRICT_DIRECT_FEEDS", False)
+    # Direct feeds named here skip the RELEVANCE_TERMS gate entirely. Default
+    # empty -- opt-in per cfg, for feeds that are themselves a finance/markets
+    # desk (not general news), where the keyword gate can only ever reject
+    # genuinely relevant news that happens not to use market-specific
+    # vocabulary in its headline, never add value. Google News queries always
+    # stay gated regardless -- they cast a much wider net.
+    relevance_exempt_feeds = set(getattr(cfg, "RELEVANCE_EXEMPT_FEEDS", ()))
 
     def classify(title):
         for section, rx in section_res.items():
@@ -213,7 +224,8 @@ def fetch_news(cfg, lookback_hours):
         if weight < cfg.MIN_SOURCE_WEIGHT:
             return
 
-        if cfg.REQUIRE_RELEVANCE and not relevance_re.search(title):
+        if (cfg.REQUIRE_RELEVANCE and feed_name not in relevance_exempt_feeds
+                and not relevance_re.search(title)):
             return
 
         matched = classify(title)

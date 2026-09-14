@@ -133,6 +133,16 @@ DIRECT_FEEDS = [
     ("news", "CNBC Markets", "https://www.cnbc.com/id/15839135/device/rss/rss.html"),
 ]
 
+# All three DIRECT_FEEDS above are themselves finance/markets desks, not
+# general news -- so gating them by RELEVANCE_TERMS can only ever reject
+# genuinely relevant business news that happens not to use market-specific
+# vocabulary in its headline, never add value. Confirmed 2026-09-14: a
+# Fujitsu AI-chip-export story that moved the stock +7.5% was dropped here
+# purely because its headline never said "stock"/"shares"/"billion". Google
+# News queries are NOT exempted -- they cast a much wider, less-curated net
+# and still need the gate.
+RELEVANCE_EXEMPT_FEEDS = {"Nikkei Asia", "SCMP Business", "CNBC Markets"}
+
 # Restricted primarily to the user's named tier; a secondary tier of major
 # wires is kept for global breadth. Everything else is dropped (allowlist
 # behaviour, same as the other briefs).
@@ -154,6 +164,7 @@ SOURCE_WEIGHTS = {
     # Secondary tier -- major wires / desks, kept for global breadth
     "Associated Press": 7, "AP News": 7, "AP Business": 7,
     "Yonhap": 6, "Yonhap News Agency": 6, "Kyodo News": 6,
+    "Japan Wire by Kyodo News": 6,  # Kyodo's own sub-brand; doesn't exact-match "Kyodo News"
     "Caixin": 6, "Caixin Global": 6,
     "The Straits Times": 6, "Straits Times": 6, "The Business Times": 6, "Business Times": 6,
     "CNBC": 6, "CNBC Markets": 6, "MarketWatch": 6, "Barron's": 6,
