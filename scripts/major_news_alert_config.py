@@ -68,7 +68,15 @@ LOOKBACK_OVERLAP_MINUTES = 15
 # under 24h -- if GitHub goes quiet longer than this, that's a dead-workflow
 # problem widening the window further wouldn't fix anyway.
 MAX_LOOKBACK_HOURS = 23.0
-MAX_ITEMS_PER_SECTION = 40
+# This is a candidate pool for matching/evaluation, not a display limit (this
+# alert has no digest to keep short, unlike the scheduled briefs that share
+# this config field) -- so it should comfortably exceed realistic volume
+# rather than cap it. Confirmed 2026-09-14: relevance-exempting Nikkei Asia
+# alone produced 50 candidates in just a 2h window; at MAX_LOOKBACK_HOURS=23
+# that single feed could plausibly produce 500+, which at the old cap of 40
+# was silently starving out every lower-weight source (Yonhap, AP, etc.)
+# entirely, regardless of their own relevance.
+MAX_ITEMS_PER_SECTION = 1000
 # Peers shown in the Telegram message's "Peers movement" section, for BOTH
 # alert types (see major_news_engine.top_peer_moves / the sector-basket
 # ranking in run_cycle) -- not the same as SECTOR_MIN_PEERS below, which
@@ -131,17 +139,28 @@ DIRECT_FEEDS = [
     ("news", "Nikkei Asia", "https://asia.nikkei.com/rss/feed/nar"),
     ("news", "SCMP Business", "https://www.scmp.com/rss/92/feed"),
     ("news", "CNBC Markets", "https://www.cnbc.com/id/15839135/device/rss/rss.html"),
+    # General national wire (also covers non-business news), added to give
+    # the watchlist's 14 South Korean names direct-feed coverage the way
+    # Japan/HK already have via Nikkei Asia/SCMP -- stays relevance-gated
+    # below since it's not a dedicated business desk. No working
+    # business/economy-specific category URL found (en.yna.co.kr/RSS/economy.xml
+    # etc. all 404 as of 2026-09-14) -- only the general feed is available.
+    ("news", "Yonhap", "https://en.yna.co.kr/RSS/news.xml"),
+    # Straits Times' own business section (not their general feed) -- gives
+    # the watchlist's 9 Singapore names the same direct-feed coverage.
+    ("news", "Straits Times Business", "https://www.straitstimes.com/news/business/rss.xml"),
 ]
 
-# All three DIRECT_FEEDS above are themselves finance/markets desks, not
-# general news -- so gating them by RELEVANCE_TERMS can only ever reject
-# genuinely relevant business news that happens not to use market-specific
-# vocabulary in its headline, never add value. Confirmed 2026-09-14: a
-# Fujitsu AI-chip-export story that moved the stock +7.5% was dropped here
-# purely because its headline never said "stock"/"shares"/"billion". Google
-# News queries are NOT exempted -- they cast a much wider, less-curated net
-# and still need the gate.
-RELEVANCE_EXEMPT_FEEDS = {"Nikkei Asia", "SCMP Business", "CNBC Markets"}
+# Feeds that are themselves finance/markets desks, not general news -- so
+# gating them by RELEVANCE_TERMS can only ever reject genuinely relevant
+# business news that happens not to use market-specific vocabulary in its
+# headline, never add value. Confirmed 2026-09-14: a Fujitsu AI-chip-export
+# story that moved the stock +7.5% was dropped here purely because its
+# headline never said "stock"/"shares"/"billion". Google News queries are
+# NOT exempted -- they cast a much wider, less-curated net and still need the
+# gate. Yonhap above is deliberately NOT in this set -- it's a general wire,
+# not a business desk, so it still needs the gate to stay on-topic.
+RELEVANCE_EXEMPT_FEEDS = {"Nikkei Asia", "SCMP Business", "CNBC Markets", "Straits Times Business"}
 
 # Restricted primarily to the user's named tier; a secondary tier of major
 # wires is kept for global breadth. Everything else is dropped (allowlist
