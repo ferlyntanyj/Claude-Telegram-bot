@@ -1,15 +1,16 @@
-# Global Semiconductor Brief -- 14 Sep 2026, 13:18 SGT
+# Global Semiconductor Brief -- 15 Sep 2026, 00:28 SGT
+
+## Policy & geopolitics
+- [Nvidia, Palantir, and others restrict advanced AI model usage over privacy concerns, report claims — 'paranoia' rising over customer intellectual property](https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-palantir-and-others-restrict-advanced-ai-model-usage-over-privacy-concerns-report-claims-paranoia-rising-over-customer-intellectual-property) — Tom's Hardware
 
 ## Supply chain signals
-- [Gritek to take full control of 12-inch silicon wafer venture in major restructuring](https://www.digitimes.com/news/a20260914VL207/12-inch-silicon-wafer-materials-manufacturing-market.html) — DIGITIMES
-- [India semiconductor deals hit a multi-year high ahead of SEMICON India 2026](https://www.digitimes.com/news/a20260914VL204/2026-semicon-india-2025-funding-data.html) — DIGITIMES
-- [AI server tracker: Taiwan testing suppliers accelerate as AI chip complexity raises interface demand](https://www.digitimes.com/news/a20260913VL200/testing-taiwan-demand-revenue-supply-chain.html) — DIGITIMES
-- [AI labs ask to be slowed, Congress stirs, and Nvidia calls the alarm a sales pitch](https://www.digitimes.com/news/a20260914VL201/nvidia-sales-development-openai-anthropic.html) — DIGITIMES
+- [STMicro lead times top 1 year, boosting Taiwan chip makers](https://www.digitimes.com/news/a20260914PD227/mcu-capacity-supply-chain-demand-market.html) — DIGITIMES
+- [DIGITIMES Insight: High NA EUV chips near production, but economics will be the pacemaker](https://www.digitimes.com/news/a20260914PD217/euv-asml-production-digitimes-chips.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Samsung, SK Hynix Reject Kepco’s Power Grid Prepayment Plan](https://news.google.com/rss/articles/CBMirgFBVV95cUxOOTBYSlphb01GQVNudDlCX1pLX1R0ZUcyUkpKQkdkLVNNWTNjaHpDVGstRUltdlk2ZnlNbEVfczloMHJzMU9BYkRlbkMxNk1YdU5JT3pOdFRoWWZLWTVDRkNXOUVpcDFSM1pIanZ0Qlluei05SzN0UFZpaFpmQ2ptcDhfXzZNNnJIdmh3dTBqZDhsTkJGQllJYi03XzhPMV82M0lxSnJ1N1F2dU9zMEE?oc=5) — Bloomberg.com
-- [Samsung, SK Hynix reject KEPCO's $19 billion power prepayment proposal, document shows](https://news.google.com/rss/articles/CBMiywFBVV95cUxQQjJHWHN4NlplMGhFY2FHN0tkOURPOEFjSlRzZFhZaDB1bWpEcFRKam93VnNscllYSkxHT1lKcVJhZVBpSkN4VlNRZG1CazRCMjZkUkFhYkcwV29kU1BzR3NLeTV5MU1BdDd2SHpMQnhYR0llVVFreXpTVXZsX3hvUkNXX0J6NnFzYktONVRNVWE5eDlNN0hGQ1JYaEZvUFJOcmJLUVBoTkVNQ3JObFFFQ0MydFpBZHJUdFU0dy1LLVFqd1NydjZ6M3dTdw?oc=5) — Reuters
-- [Applied Materials using AI to speed chip materials discovery, Japan chief says](https://news.google.com/rss/articles/CBMiygFBVV95cUxPUVZKQlFQZ0hGZEtxWDRMZTZpNncxRVBkREx2ZlBaZnIyR252WWlJRzVEdDRnU1ViendDeVVORDhFdmtIUTFtU2J6V3NvMlBCOTVuc2UxVlJpWGxENDVUb3VlTU02RjY4QTZwRGVfUmJvM2VxREF0UUs3eDBmWnNnaHV2QVpwUUNfV1Y3SFg1Ym1tTnFvVDVCdk1kaDV2VG1RSXRscmhkMWRDemxFRjVyYlg1NDNJTGNRUTM2OWR3X0FqVzNHc1psaVZ3?oc=5) — Nikkei Asia
-- [Samsung, Qualcomm deepen 2nm talks as pricing and yield hurdles persist](https://www.digitimes.com/news/a20260914VL208/samsung-qualcomm-2nm-production-optimization.html) — DIGITIMES
+- [Micron Stock Sinks Again. What AI Safety Fears Mean for Memory Chips.](https://news.google.com/rss/articles/CBMiggFBVV95cUxPTHV5ZDlaVFl4bzRZM0UyNUo5M0VLXzc4d0VXcmI2RV9YWlRVUjI1d1YwejNmMUwtQ1VVMWI0SENOeUVuZTdON0NCaWxKWFVaYmswOVJXWHkxMmJQcnQ4enNkSzZ6OUpmTnJ4TjQzZWdSWnNRU282bVUxYUxHX0VPY2J3?oc=5) — Barron's
+- [Nvidia Stock Drops. It’s Still the Best Chip Bet in an AI Slowdown.](https://news.google.com/rss/articles/CBMigwFBVV95cUxNd28zaEgxYzJOZi1kWWhWa0Y5RG5za0VEUDN5dEVXTjVPdzhnTlhLX3BIaUdTNUEtN20zRWhkandEbDlZaTNiX0VrUkQ2aFQ3Z3BvbmlDeTI5enc2RUJqaTkzV3FZZWxZUmxqMXBNZ25MNnRLMDhPYmV1aTd0WWc3MERLWQ?oc=5) — Barron's
+- [Why Nvidia Stock Could Be the Best Chip Bet in an AI Slowdown](https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNzVSdXFNZHhnU3hwbGFoalB3WWJwYkxvM0djc3ROTFFSaEo1N3lZeHVxU2dSbjdhNTk2ZDF2VFFFdHRNcndJS2xwYzNLTGFEdV9yRjgzWVZlM0NBa0xoODU3WnF0eTJzQTR1eldxXzBjN2RaUk9Qb21ONy0zYU1iU01tSkYxMWJJWnoydmdLTFU5NnhlWm9nQzRkdGJjRm9NMUxhci1RUnFGTTM5eUR6QWZ4T3dMa0JZeFZIajBHT05BZG5HYmNCbjM4WkpIYUowem02Y0haNFFxX3lLTkJoRjNDSFJ2QlN4RVow?oc=5) — Barron's
+- [Samsung, SK Hynix reject KEPCO’s $17 billion power-bill prepayment plan](https://news.google.com/rss/articles/CBMid0FVX3lxTE5DS1AzbkRlNmV4cTRvaUFHZXdBSGdhVDNudmhvbVE3MnQ3X0tmZHVIWE4zZjBHdVZFblpsdHBiLW1zdFZWVVVMNVlNbU80ay12QXg5bF9vUmh4UWJWM0FsZGEtR01rLXlCdmFZZmtNLV9CWjdCaGFJ?oc=5) — KED Global
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 62h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (7 headlines, 13h window)._
