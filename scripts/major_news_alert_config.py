@@ -12,17 +12,23 @@ periodically, self-healing lookback window" rather than a latency guarantee.
 It only sends a Telegram message when a qualifying story is found, rather
 than always producing a digest.
 
-Two trigger paths:
+Two trigger paths, both ending in the same Telegram format (market/time,
+primary mover, an "Analysis" section with why-it-moved + industry read-
+across, up to MAX_DISPLAY_PEERS peer movements, a "Look out" forward-looking
+line, and a "Memory" line recalling a historical parallel if the model has
+one -- see major_news_alert.render_telegram):
   1. Single-stock: a headline names a company on data/global_watchlist.csv
      (built by global_watchlist_build.py, already filtered to >= USD 5B
-     market cap) whose intraday move clears SINGLE_STOCK_MOVE_PCT.
+     market cap) whose intraday move clears SINGLE_STOCK_MOVE_PCT. Groq is
+     then asked separately for read-across peers, purely for display.
   2. Sector-wide: a headline looks thematic/macro (SECTOR_TRIGGER_KEYWORDS),
-     so Claude is asked to name the likely-affected large-cap peers; if their
+     so Groq is asked to name the likely-affected large-cap peers; if their
      MEDIAN intraday move clears SECTOR_MEDIAN_MOVE_PCT (or enough of them
      individually clear SECTOR_BREADTH_MOVE_PCT), it qualifies. Median/breadth
      rather than a plain average, deliberately -- see the plan this was built
      from: a single outlier in an LLM-picked peer list shouldn't be able to
-     drag a mean over the line.
+     drag a mean over the line. The peer basket's biggest mover becomes the
+     "primary" line; the rest become its peers.
 
 Headline sourcing reuses brief_engine.fetch_news as-is (same Google News RSS +
 direct-feed + source-trust-ranking + de-dup machinery as the other briefs);
@@ -63,6 +69,11 @@ LOOKBACK_OVERLAP_MINUTES = 15
 # problem widening the window further wouldn't fix anyway.
 MAX_LOOKBACK_HOURS = 23.0
 MAX_ITEMS_PER_SECTION = 40
+# Peers shown in the Telegram message's "Peers movement" section, for BOTH
+# alert types (see major_news_engine.top_peer_moves / the sector-basket
+# ranking in run_cycle) -- not the same as SECTOR_MIN_PEERS below, which
+# gates qualification, not display.
+MAX_DISPLAY_PEERS = 4
 
 # ---------------------------------------------------------------------------
 # Move thresholds
@@ -91,7 +102,10 @@ RE_ALERT_DELTA_PCT = 3.0
 # ---------------------------------------------------------------------------
 LLM_MODEL = "openai/gpt-oss-120b"
 LLM_PEER_MAX_TOKENS = 400
-LLM_SIGNIFICANCE_MAX_TOKENS = 300
+# The analysis call now returns 4 JSON-structured sections instead of one
+# blob (why_moved/read_across/look_out/memory) -- more headroom than the old
+# single-paragraph LLM_SIGNIFICANCE_MAX_TOKENS=300.
+LLM_ANALYSIS_MAX_TOKENS = 600
 
 # ---------------------------------------------------------------------------
 # News sources -- broad market-moving queries, not sector-specific

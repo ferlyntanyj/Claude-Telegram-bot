@@ -185,10 +185,18 @@ def build_candidate_list():
             candidates.setdefault(ticker, (name, region, exchange))
         print(f"  {label}: {len(rows)} constituents")
 
+    # label -> (region, exchange) -- exchange is shown to the user directly
+    # (Telegram alert "Market Name" line), so these must be real names.
+    seed_exchange = {
+        "Japan (Nikkei 225, seed)": ("Japan", "TSE"),
+        "South Korea (KOSPI, seed)": ("South Korea", "KRX"),
+        "Singapore (STI, seed)": ("Singapore", "SGX"),
+        "Australia (ASX 200, seed)": ("Australia", "ASX"),
+    }
     for label, rows in SEED_CONSTITUENTS.items():
+        region, exchange = seed_exchange[label]
         for ticker, name in rows:
-            region = label.split(" (")[0]
-            candidates.setdefault(ticker, (name, region, "seed list"))
+            candidates.setdefault(ticker, (name, region, exchange))
         print(f"  {label}: {len(rows)} constituents")
 
     return candidates

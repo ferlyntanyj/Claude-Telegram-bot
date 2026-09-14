@@ -19,7 +19,7 @@ Auth:
     bot and chat as the other briefs; alerts land in that same chat,
     interleaved with the scheduled digests.
   GROQ_API_KEY -- free-tier Groq API key (console.groq.com), used for
-    peer-inference and significance write-ups. No credit card needed.
+    peer-inference and the structured analysis write-up. No credit card needed.
 
 Usage:
     python major_news_alert.py             # run a cycle and send any alerts
@@ -28,6 +28,7 @@ Usage:
                                             # GROQ_API_KEY works, independent of
                                             # whether any headline qualifies
 """
+import datetime as dt
 import html
 import os
 import sys
@@ -40,15 +41,31 @@ import major_news_engine as engine
 TOKEN_ENV_VAR = "SGX_SCREENER_TELEGRAM_BOT_TOKEN"
 CHAT_ID_ENV_VAR = "SGX_SCREENER_TELEGRAM_CHAT_ID"
 
-ARROW = {1: "🔺", -1: "🔻", 0: "▪️"}
+SGT = dt.timezone(dt.timedelta(hours=8))
+COLOR = {1: "🟢", -1: "🔴", 0: "⚪"}
 
 
 def _esc(text):
     return html.escape(str(text), quote=False)
 
 
-def _arrow(pct):
-    return ARROW[1] if pct > 0 else ARROW[-1] if pct < 0 else ARROW[0]
+def _color(pct):
+    return COLOR[1] if pct > 0 else COLOR[-1] if pct < 0 else COLOR[0]
+
+
+def _fmt_move(pct):
+    return f"{_color(pct)} {pct:+.1f}%"
+
+
+def _fmt_time(headline):
+    published = headline.get("published")
+    if not published:
+        return "time unknown"
+    try:
+        d = dt.datetime.fromisoformat(published).astimezone(SGT)
+        return f"{d.day} {d:%b %Y}, {d:%H:%M} SGT"
+    except (ValueError, TypeError):
+        return "time unknown"
 
 
 def render_telegram(alert):
@@ -56,34 +73,42 @@ def render_telegram(alert):
     title = _esc(headline["title"])
     url = html.escape(str(headline["url"]), quote=True)
     source = _esc(headline["source"])
+    market_name = _esc(alert["market_name"])
+    time_str = _fmt_time(headline)
 
-    if alert["type"] == "single_stock":
-        kicker = "🚨 <b>SINGLE-STOCK MOVE</b>"
-        m = alert["move"]
-        price_block = (
-            f'{_arrow(m["pct"])} <b>{_esc(alert["company"])}</b> ({_esc(alert["ticker"])})  '
-            f'{m["last"]:,.2f} {_esc(m.get("currency") or "")}  <i>{m["pct"]:+.1f}%</i>'
+    primary = alert["primary"]
+    primary_line = (
+        f'{_esc(primary["company"])} ({_esc(primary["ticker"])}) | {_fmt_move(primary["pct"])}'
+    )
+
+    peers = alert["peers"]
+    if peers:
+        peers_block = "\n".join(
+            f'{_esc(p["company"])} ({_esc(p["ticker"])}) | {_fmt_move(p["pct"])}' for p in peers
         )
     else:
-        kicker = "📊 <b>SECTOR-WIDE MOVE</b>"
-        result = alert["result"]
-        top = sorted(result["moves"].items(), key=lambda kv: -abs(kv[1]["pct"]))[:6]
-        lines = [
-            f'{_arrow(m["pct"])} {_esc(result["peer_names"].get(t, t))} ({_esc(t)})  <i>{m["pct"]:+.1f}%</i>'
-            for t, m in top
-        ]
-        price_block = (
-            f'Peer median move: <b>{result["median_pct"]:+.1f}%</b> '
-            f'({result["breadth_share_pct"]:.0f}% of peers moving together)\n' + "\n".join(lines)
-        )
+        peers_block = "<i>No peers identified this cycle.</i>"
 
-    significance = _esc(alert["significance"])
+    analysis = alert.get("analysis") or {}
+    why_moved = _esc(analysis.get("why_moved") or "(not available)")
+    read_across = _esc(analysis.get("read_across") or "(not available)")
+    look_out = _esc(analysis.get("look_out") or "(not available)")
+    memory = _esc(analysis.get("memory") or "(not available)")
 
     return (
-        f'{kicker}\n'
-        f'<a href="{url}">{title}</a> — <i>{source}</i>\n\n'
-        f'{price_block}\n\n'
-        f'{significance}\n\n'
+        f'<b>{market_name}</b>; <i>{time_str}</i>\n'
+        f'<a href="{url}">{title}</a> — <i>{source}</i>\n'
+        f'{primary_line}\n\n'
+        f'<b>Analysis:</b>\n'
+        f'<i>Why it moved:</i> {why_moved}\n'
+        f'<i>Read across the industry:</i> {read_across}\n\n'
+        f'<b>Peers movement:</b>\n'
+        f'{peers_block}\n\n'
+        f'<b>Look out:</b>\n'
+        f'{look_out}\n\n'
+        f'<b>Memory:</b>\n'
+        f'{memory}\n'
+        f'<i>(recalled from general knowledge -- not verified against a source)</i>\n\n'
         f'<i>Automated, data ~15-20 min delayed (Yahoo Finance) — not investment advice.</i>'
     )
 
@@ -110,16 +135,24 @@ def _test_llm():
     exits; sends nothing to Telegram."""
     dummy_alert = {
         "type": "single_stock",
-        "headline": {"title": "Diagnostic test headline", "source": "major_news_alert --test-llm"},
-        "ticker": "TEST", "company": "Diagnostic Test Co",
-        "move": {"pct": 6.0, "last": 106.0, "prev": 100.0, "currency": "USD"},
+        "headline": {
+            "title": "Diagnostic test headline", "source": "major_news_alert --test-llm",
+            "url": "https://example.com", "published": dt.datetime.now(dt.timezone.utc).isoformat(),
+        },
+        "key": "test", "metric_pct": 6.0, "market_name": "US · NYSE/Nasdaq",
+        "primary": {
+            "ticker": "TEST", "company": "Diagnostic Test Co", "pct": 6.0,
+            "last": 106.0, "prev": 100.0, "currency": "USD",
+        },
+        "peers": [],
     }
-    result = engine.write_significance(dummy_alert, cfg)
-    if result.startswith("(Significance write-up unavailable"):
-        print(f"GROQ TEST FAILED: {result}", file=sys.stderr)
+    result = engine.write_analysis(dummy_alert, cfg)
+    if result["why_moved"].startswith("(unavailable"):
+        print(f"GROQ TEST FAILED: {result['why_moved']}", file=sys.stderr)
         sys.exit(1)
     print("GROQ TEST OK -- model responded:")
-    print(result)
+    for section in ("why_moved", "read_across", "look_out", "memory"):
+        print(f"  {section}: {result[section]}")
 
 
 def main():

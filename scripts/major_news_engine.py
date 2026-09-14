@@ -1,28 +1,37 @@
 """
 Core logic for the global major-news Telegram alert. One call to run_cycle()
 is one poll cycle: fetch headlines, check which watchlist names they moved (or
-ask Claude which peers a thematic/sector headline likely moved), evaluate
+ask Groq which peers a thematic/sector headline likely moved), evaluate
 against major_news_alert_config's thresholds, dedup/cooldown against prior
-alerts, and (for whatever survives) write a short significance/outlook blurb.
+alerts, and (for whatever survives) write a structured analysis.
 
 Headline fetching reuses brief_engine.fetch_news as-is -- same Google News RSS
 + direct-feed + source-trust-ranking + de-dup machinery as the scheduled
 briefs, just pointed at major_news_alert_config's broader, non-sector-specific
 queries.
 
-Two independent paths per headline:
+Two independent paths per headline, both ending in the same alert shape:
   - Single-stock: the headline names a company already on the curated
     data/global_watchlist.csv (>= USD 5B market cap, built by
-    global_watchlist_build.py). Its live intraday move is checked directly --
-    no LLM call needed.
+    global_watchlist_build.py). Its live intraday move (no LLM needed) sets
+    the "primary" mover; infer_peers() then finds up to
+    cfg.MAX_DISPLAY_PEERS read-across names purely for display.
   - Sector-wide: the headline looks thematic/macro (SECTOR_TRIGGER_KEYWORDS)
-    rather than naming one company. Claude is asked which large-cap peers are
-    most likely affected; their MEDIAN move (not a plain average -- see
-    major_news_alert_config's docstring) decides whether it qualifies.
+    rather than naming one company. infer_peers() finds the likely-affected
+    large-caps; their MEDIAN move (not a plain average -- see
+    major_news_alert_config's docstring) decides whether it qualifies, and
+    the single biggest mover in that basket becomes the "primary" line.
+
+Every alert therefore carries: headline, key (cooldown), metric_pct (the
+number should_alert()/cooldown compares against), market_name, primary
+({ticker, company, pct, last, prev, currency}), peers (up to
+MAX_DISPLAY_PEERS {ticker, company, pct} dicts), and -- once write_analysis()
+runs -- analysis ({why_moved, read_across, look_out, memory}).
 
 State (data/alert_state.json) is a flat map of alert key -> {last_alert_utc,
 last_move_pct}, used only to avoid re-sending the same story every cycle
-(dedup_and_cooldown / should_alert below).
+(dedup_and_cooldown / should_alert below), plus a top-level last_run_utc used
+by effective_lookback_hours().
 """
 import datetime as dt
 import json
@@ -111,6 +120,29 @@ def match_watchlist(title, watchlist):
 
 
 # ---------------------------------------------------------------------------
+# Market name -- resolved from the ticker's own suffix rather than threaded
+# through from the watchlist, so it works uniformly for watchlist hits AND
+# for arbitrary tickers the LLM names as peers (which may not be on the
+# curated watchlist at all).
+# ---------------------------------------------------------------------------
+_EXCHANGE_BY_SUFFIX = {
+    ".T": "Japan · TSE", ".HK": "Hong Kong · HKEX", ".KS": "South Korea · KRX",
+    ".SI": "Singapore · SGX", ".AX": "Australia · ASX", ".L": "UK · LSE",
+    ".DE": "Germany · XETRA", ".PA": "France · Euronext Paris",
+    ".AS": "Netherlands · Euronext Amsterdam", ".SW": "Switzerland · SIX",
+    ".TO": "Canada · TSX", ".NS": "India · NSE", ".BO": "India · BSE",
+    ".SS": "China · Shanghai", ".SZ": "China · Shenzhen", ".MI": "Italy · Borsa Italiana",
+}
+
+
+def market_name_for_ticker(ticker):
+    if "." not in ticker:
+        return "US · NYSE/Nasdaq"
+    suffix = "." + ticker.rsplit(".", 1)[-1]
+    return _EXCHANGE_BY_SUFFIX.get(suffix, f"International · {suffix.lstrip('.')}")
+
+
+# ---------------------------------------------------------------------------
 # Price checks
 # ---------------------------------------------------------------------------
 def check_price_moves(tickers):
@@ -154,7 +186,10 @@ def check_price_moves(tickers):
 
 
 # ---------------------------------------------------------------------------
-# Sector-peer inference (Groq) + evaluation
+# Peer inference (Groq) + evaluation. Used for BOTH paths now: sector-wide
+# stories use it to find the peer basket that decides qualification; single-
+# stock stories use it purely for read-across display (up to
+# cfg.MAX_DISPLAY_PEERS peers shown alongside the primary mover).
 # ---------------------------------------------------------------------------
 def _looks_sector_worthy(title, cfg):
     low = title.lower()
@@ -166,15 +201,17 @@ def _llm_client():
     return Groq()  # reads GROQ_API_KEY from the environment
 
 
-def _run_completion(prompt, cfg, max_tokens):
+def _run_completion(prompt, cfg, max_tokens, json_object=False):
     """One Groq chat-completion call. Raises on any failure (missing key, bad
     response) -- callers decide how to degrade, same defensive shape as the
     rest of this module."""
     client = _llm_client()
+    extra = {"response_format": {"type": "json_object"}} if json_object else {}
     resp = client.chat.completions.create(
         model=cfg.LLM_MODEL,
         messages=[{"role": "user", "content": prompt}],
         max_tokens=max_tokens,
+        **extra,
     )
     return resp.choices[0].message.content
 
@@ -186,16 +223,24 @@ def _extract_json_array(text):
     return json.loads(match.group(0))
 
 
-def infer_sector_peers(title, cfg):
-    """Ask Groq which large-cap peers a thematic headline likely moved.
-    Returns [(ticker, company), ...], empty on any failure -- a missing API
-    key or a bad response must not crash the whole poll cycle."""
+def _extract_json_object(text):
+    match = re.search(r"\{.*\}", text, re.DOTALL)
+    if not match:
+        raise ValueError(f"no JSON object found in LLM response: {text[:200]!r}")
+    return json.loads(match.group(0))
+
+
+def infer_peers(title, cfg):
+    """Ask Groq which large-cap peers/companies a headline is most relevant
+    to. Returns [(ticker, company), ...], empty on any failure -- a missing
+    API key or a bad response must not crash the whole poll cycle."""
     prompt = (
         f'Headline: "{title}"\n\n'
         "List 4 to 8 publicly traded, large-cap (market cap at least USD 5 billion) "
         "companies most directly and immediately affected by this news -- the ones "
-        "whose share price would plausibly move because of it. Use tickers exactly as "
-        'they appear on Yahoo Finance (e.g. "AAPL", "7203.T", "005930.KS", "0700.HK", "BP.L").\n\n'
+        "whose share price would plausibly move because of it (competitors, supply "
+        "chain, or the company the headline is about). Use tickers exactly as they "
+        'appear on Yahoo Finance (e.g. "AAPL", "7203.T", "005930.KS", "0700.HK", "BP.L").\n\n'
         "Respond with ONLY a JSON array, no other text, in this exact form:\n"
         '[{"ticker": "AAPL", "company": "Apple Inc"}, ...]'
     )
@@ -207,6 +252,22 @@ def infer_sector_peers(title, cfg):
     except Exception as e:  # noqa: BLE001
         print(f"  LLM peer-inference failed: {e}", file=sys.stderr)
         return []
+
+
+def top_peer_moves(peer_pairs, exclude_ticker, max_count):
+    """peer_pairs: [(ticker, company), ...] (e.g. from infer_peers). Prices
+    them, drops exclude_ticker (the primary mover, if it's in the list) and
+    anything that fails to price, and returns up to max_count
+    {ticker, company, pct} dicts sorted by |move| descending."""
+    peer_pairs = [(t, c) for t, c in peer_pairs if t != exclude_ticker]
+    peer_names = dict(peer_pairs)
+    moves = check_price_moves([t for t, _ in peer_pairs])
+    rows = [
+        {"ticker": t, "company": peer_names.get(t, t), "pct": m["pct"]}
+        for t, m in moves.items()
+    ]
+    rows.sort(key=lambda r: -abs(r["pct"]))
+    return rows[:max_count]
 
 
 def evaluate_sector_move(peers, cfg):
@@ -239,41 +300,59 @@ def evaluate_sector_move(peers, cfg):
 
 
 # ---------------------------------------------------------------------------
-# Significance write-up (Groq)
+# Structured analysis write-up (Groq) -- four named sections rather than one
+# blob, so the Telegram render can lay them out under fixed headers.
 # ---------------------------------------------------------------------------
-def write_significance(alert, cfg):
+_ANALYSIS_UNAVAILABLE = "(unavailable — LLM call failed; see logs.)"
+_NO_MEMORY = "No clear historical parallel comes to mind."
+
+
+def write_analysis(alert, cfg):
+    """Returns {why_moved, read_across, look_out, memory}, all strings.
+    On any failure returns the same shape with a clear unavailable marker in
+    each field rather than raising -- a bad LLM call must not drop the alert
+    itself, only degrade its commentary."""
     headline = alert["headline"]
-    if alert["type"] == "single_stock":
-        m = alert["move"]
-        move_desc = (
-            f'{alert["company"]} ({alert["ticker"]}) moved {m["pct"]:+.1f}% intraday '
-            f'(last {m["last"]:.2f} {m.get("currency") or ""}, prior close {m["prev"]:.2f}).'
-        )
-    else:
-        result = alert["result"]
-        top = sorted(result["moves"].items(), key=lambda kv: -abs(kv[1]["pct"]))[:6]
-        detail = "; ".join(
-            f'{result["peer_names"].get(t, t)} ({t}) {m["pct"]:+.1f}%' for t, m in top
-        )
-        move_desc = (
-            f'Peer basket median move {result["median_pct"]:+.1f}% '
-            f'({result["breadth_share_pct"]:.0f}% of peers moving together): {detail}'
-        )
+    primary = alert["primary"]
+    peer_desc = "; ".join(
+        f'{p["company"]} ({p["ticker"]}) {p["pct"]:+.1f}%' for p in alert["peers"]
+    ) or "none identified"
 
     prompt = (
         f'Headline: "{headline["title"]}" (source: {headline["source"]})\n\n'
-        f"Price reaction: {move_desc}\n\n"
-        "In 2-4 concise sentences: explain why this news is significant for markets/"
-        "investors, and what specifically to watch for next (e.g. an upcoming event, "
-        "data point, follow-through risk, or read-through to other names). Be specific "
-        "and avoid generic filler. No preamble, just the analysis."
+        f'Primary mover: {primary["company"]} ({primary["ticker"]}) {primary["pct"]:+.1f}% '
+        f'intraday (last {primary["last"]:.2f} {primary.get("currency") or ""}, '
+        f'prior close {primary["prev"]:.2f}).\n'
+        f"Peer/read-across candidates and their moves: {peer_desc}\n\n"
+        "Respond with ONLY a JSON object, no other text, with exactly these four "
+        "string keys:\n"
+        "{\n"
+        '  "why_moved": "1-2 sentences on why the price moved, specific to this news",\n'
+        '  "read_across": "1-2 sentences on what this means for domestic/international '
+        'peers, supply chain, or the wider industry",\n'
+        '  "look_out": "1-2 sentences on what to watch for next -- an upcoming event, '
+        'data point, or follow-through risk",\n'
+        '  "memory": "1-2 sentences recalling a genuinely similar past event or pattern '
+        f'you know of and explaining the parallel, or exactly this sentence if you cannot '
+        f'think of a solid one: \'{_NO_MEMORY}\' -- do not force a weak or vague analogy"\n'
+        "}\n\n"
+        "Be specific and concrete, avoid generic filler, no preamble."
     )
     try:
-        text = _run_completion(prompt, cfg, cfg.LLM_SIGNIFICANCE_MAX_TOKENS)
-        return text.strip()
+        text = _run_completion(prompt, cfg, cfg.LLM_ANALYSIS_MAX_TOKENS, json_object=True)
+        data = _extract_json_object(text)
+        return {
+            "why_moved": str(data.get("why_moved") or "").strip() or _ANALYSIS_UNAVAILABLE,
+            "read_across": str(data.get("read_across") or "").strip() or _ANALYSIS_UNAVAILABLE,
+            "look_out": str(data.get("look_out") or "").strip() or _ANALYSIS_UNAVAILABLE,
+            "memory": str(data.get("memory") or "").strip() or _NO_MEMORY,
+        }
     except Exception as e:  # noqa: BLE001
-        print(f"  LLM significance write-up failed: {e}", file=sys.stderr)
-        return "(Significance write-up unavailable — LLM call failed; see logs.)"
+        print(f"  LLM analysis write-up failed: {e}", file=sys.stderr)
+        return {
+            "why_moved": _ANALYSIS_UNAVAILABLE, "read_across": _ANALYSIS_UNAVAILABLE,
+            "look_out": _ANALYSIS_UNAVAILABLE, "memory": _ANALYSIS_UNAVAILABLE,
+        }
 
 
 # ---------------------------------------------------------------------------
@@ -320,13 +399,9 @@ def should_alert(state, key, move_pct, cfg):
 
 
 def _record_alert(state, alert):
-    move_pct = (
-        alert["move"]["pct"] if alert["type"] == "single_stock"
-        else alert["result"]["median_pct"]
-    )
     state["alerts"][alert["key"]] = {
         "last_alert_utc": dt.datetime.now(UTC).isoformat(),
-        "last_move_pct": move_pct,
+        "last_move_pct": alert["metric_pct"],
     }
 
 
@@ -338,23 +413,17 @@ _LOG_MAX_ENTRIES = 2000
 
 
 def _log_entry(alert):
-    entry = {
+    return {
         "alert_utc": dt.datetime.now(UTC).isoformat(),
         "type": alert["type"],
         "headline": alert["headline"]["title"],
         "source": alert["headline"]["source"],
         "url": alert["headline"]["url"],
-        "significance": alert.get("significance"),
+        "market_name": alert["market_name"],
+        "primary": alert["primary"],
+        "peers": alert["peers"],
+        "analysis": alert.get("analysis"),
     }
-    if alert["type"] == "single_stock":
-        entry["ticker"] = alert["ticker"]
-        entry["company"] = alert["company"]
-        entry["move_pct"] = round(alert["move"]["pct"], 2)
-    else:
-        entry["median_move_pct"] = round(alert["result"]["median_pct"], 2)
-        entry["breadth_share_pct"] = round(alert["result"]["breadth_share_pct"], 1)
-        entry["peers"] = alert["result"]["peer_names"]
-    return entry
 
 
 def append_log(alerts, cfg):
@@ -407,24 +476,55 @@ def run_cycle(cfg):
                 if not should_alert(state, key, move["pct"], cfg):
                     continue
                 company = next((c for t, c in matched if t == ticker), ticker)
+                peer_pairs = infer_peers(item["title"], cfg)
+                peers = top_peer_moves(peer_pairs, exclude_ticker=ticker,
+                                        max_count=cfg.MAX_DISPLAY_PEERS)
                 alerts.append({
-                    "type": "single_stock", "headline": item, "ticker": ticker,
-                    "company": company, "move": move, "key": key,
+                    "type": "single_stock", "headline": item, "key": key,
+                    "metric_pct": move["pct"],
+                    "market_name": market_name_for_ticker(ticker),
+                    "primary": {
+                        "ticker": ticker, "company": company, "pct": move["pct"],
+                        "last": move["last"], "prev": move["prev"],
+                        "currency": move.get("currency"),
+                    },
+                    "peers": peers,
                 })
         elif _looks_sector_worthy(item["title"], cfg):
-            peers = infer_sector_peers(item["title"], cfg)
-            if len(peers) < cfg.SECTOR_MIN_PEERS:
+            peer_pairs = infer_peers(item["title"], cfg)
+            if len(peer_pairs) < cfg.SECTOR_MIN_PEERS:
                 continue
-            result = evaluate_sector_move(peers, cfg)
+            result = evaluate_sector_move(peer_pairs, cfg)
             if not result or not result["qualifies"]:
                 continue
             key = f"sector:{norm[:80]}"
             if not should_alert(state, key, result["median_pct"], cfg):
                 continue
-            alerts.append({"type": "sector", "headline": item, "result": result, "key": key})
+            # The peer basket has no single "subject" the way a single-stock
+            # headline does -- use its biggest mover as the primary line, and
+            # the rest (up to MAX_DISPLAY_PEERS) as the peers list.
+            ranked = sorted(result["moves"].items(), key=lambda kv: -abs(kv[1]["pct"]))
+            top_ticker, top_move = ranked[0]
+            peers = [
+                {"ticker": t, "company": result["peer_names"].get(t, t), "pct": m["pct"]}
+                for t, m in ranked[1:1 + cfg.MAX_DISPLAY_PEERS]
+            ]
+            alerts.append({
+                "type": "sector", "headline": item, "key": key,
+                "metric_pct": result["median_pct"],
+                "market_name": market_name_for_ticker(top_ticker),
+                "primary": {
+                    "ticker": top_ticker, "company": result["peer_names"].get(top_ticker, top_ticker),
+                    "pct": top_move["pct"], "last": top_move["last"], "prev": top_move["prev"],
+                    "currency": top_move.get("currency"),
+                },
+                "peers": peers,
+                "median_pct": result["median_pct"],
+                "breadth_share_pct": result["breadth_share_pct"],
+            })
 
     for alert in alerts:
-        alert["significance"] = write_significance(alert, cfg)
+        alert["analysis"] = write_analysis(alert, cfg)
 
     print(f"Qualifying alert(s) this cycle: {len(alerts)}")
     return alerts, state
