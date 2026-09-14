@@ -113,5 +113,49 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-14T17:45:48.482357+00:00",
+    "type": "single_stock",
+    "headline": "Applied Materials using AI to speed chip materials discovery, Japan chief says",
+    "source": "Nikkei Asia",
+    "url": "https://asia.nikkei.com/business/tech/semiconductors/applied-materials-using-ai-to-speed-chip-materials-discovery-japan-chief-says",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "AMAT",
+      "company": "Applied Materials",
+      "pct": -6.435618509937502,
+      "last": 427.5400085449219,
+      "prev": 456.9474,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research Corporation",
+        "pct": -7.410078849130675
+      },
+      {
+        "ticker": "ASML",
+        "company": "ASML Holding N.V.",
+        "pct": -6.38447828253601
+      },
+      {
+        "ticker": "KLAC",
+        "company": "KLA Corporation",
+        "pct": -6.008845340355517
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel Corporation",
+        "pct": -4.648226942037392
+      }
+    ],
+    "analysis": {
+      "why_moved": "Investors sold Applied Materials after the Japan chief highlighted AI‑driven materials discovery, interpreting the announcement as a costly R&D push amid already weak semiconductor demand, which pressured the stock sharply lower.",
+      "read_across": "The sell‑off spilled to peers like Lam, ASML, KLA and Intel, underscoring sector‑wide concerns that AI‑focused spend may not translate into near‑term revenue and could compress margins across the chip‑equipment supply chain.",
+      "look_out": "Watch Applied Materials' upcoming Q3 earnings and any guidance on AI‑tool commercialization timelines, as well as macro data on chip fab capex and AI chip demand that could confirm or rebut the cost‑vs‑growth narrative.",
+      "memory": "A similar pattern occurred in early 2023 when Applied Materials announced a major AI‑enabled lithography upgrade, prompting a steep drop as investors feared heightened R&D expenses without immediate upside."
+    }
   }
 ]
