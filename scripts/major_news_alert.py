@@ -130,9 +130,14 @@ def send_telegram(text, token, chat_id):
 
 def _test_llm():
     """Force one real Groq call with a synthetic alert -- bypasses headline
-    fetching entirely, so you can verify GROQ_API_KEY works without waiting
-    for a real qualifying story. Prints the result (or the exact failure) and
-    exits; sends nothing to Telegram."""
+    fetching entirely, so you can verify GROQ_API_KEY works, and see exactly
+    what the rendered Telegram card looks like, without waiting for a real
+    qualifying story. Prints the result (or the exact failure) and exits;
+    sends nothing to Telegram."""
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except (AttributeError, ValueError):
+        pass
     dummy_alert = {
         "type": "single_stock",
         "headline": {
@@ -144,15 +149,17 @@ def _test_llm():
             "ticker": "TEST", "company": "Diagnostic Test Co", "pct": 6.0,
             "last": 106.0, "prev": 100.0, "currency": "USD",
         },
-        "peers": [],
+        "peers": [
+            {"ticker": "PEER1", "company": "Sample Peer One", "pct": 2.1},
+            {"ticker": "PEER2", "company": "Sample Peer Two", "pct": -1.4},
+        ],
     }
-    result = engine.write_analysis(dummy_alert, cfg)
-    if result["why_moved"].startswith("(unavailable"):
-        print(f"GROQ TEST FAILED: {result['why_moved']}", file=sys.stderr)
+    dummy_alert["analysis"] = engine.write_analysis(dummy_alert, cfg)
+    if dummy_alert["analysis"]["why_moved"].startswith("(unavailable"):
+        print(f"GROQ TEST FAILED: {dummy_alert['analysis']['why_moved']}", file=sys.stderr)
         sys.exit(1)
-    print("GROQ TEST OK -- model responded:")
-    for section in ("why_moved", "read_across", "look_out", "memory"):
-        print(f"  {section}: {result[section]}")
+    print("GROQ TEST OK -- rendered card:\n")
+    print(render_telegram(dummy_alert))
 
 
 def main():
