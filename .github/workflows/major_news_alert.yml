@@ -16,6 +16,13 @@ on:
     # NOTE: GitHub often skips the *first* scheduled slot after a workflow is
     # added or the repo is renamed; committing to this file re-arms the cron.
     - cron: "7,27,47 * * * *"
+  # Also triggered externally every 20-30 min by a cron-job.org job POSTing
+  # to this repo's /actions/workflows/major_news_alert.yml/dispatches with a
+  # no-expiration classic PAT (repo scope) -- this is the actual reliable
+  # cadence in practice, working around the `schedule:` trigger's throttling
+  # above. If runs are showing up on a real ~20-30 min cadence, that's why;
+  # if that external job is ever paused, the `schedule:` trigger above still
+  # eventually catches up on its own (self-healing lookback), just slower.
   workflow_dispatch:
     inputs:
       test_llm:
