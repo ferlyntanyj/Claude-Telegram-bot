@@ -9,11 +9,23 @@ maintenance step rather than part of the daily SGX pipeline. Can also be run
 manually any time: python global_watchlist_build.py
 
 Pulls constituents of the major global indices from Wikipedia (read_html --
-same "no paid data feed" approach as the rest of this repo), then fetches each
-ticker's market cap via yfinance and drops anything below MIN_MARKET_CAP_USD.
-Some smaller indices don't have a clean, stable Wikipedia table, so those use a
-small hand-maintained seed list instead -- extend SEED_CONSTITUENTS directly if
-you want deeper coverage there.
+same "no paid data feed" approach as the rest of this repo; Nikkei 225 is the
+one exception, see fetch_nikkei225), then fetches each ticker's market cap via
+yfinance and drops anything below MIN_MARKET_CAP_USD.
+
+Covers 12 markets: US (S&P 500), UK (FTSE 100), Germany (DAX), Hong Kong
+(Hang Seng), Japan (Nikkei 225), South Korea (KOSPI 200), Australia (ASX 200),
+mainland China A-shares (CSI 300), Malaysia (FTSE Bursa Malaysia KLCI),
+Indonesia (IDX LQ45), Thailand (SET50), Singapore (Straits Times Index), plus
+a hand-typed Vietnam seed list (no scrapable VN30 source exists anywhere).
+The Philippines (PSEi) is deliberately excluded -- yfinance has no working
+ticker format for individual PSE stocks, verified 2026-09 (see the comment
+above SEED_CONSTITUENTS), so a fetcher for it would only produce tickers that
+can never be priced.
+
+A source going stale or a Wikipedia table layout drifting doesn't abort the
+run -- see the try/except in build_candidate_list(); extend SEED_CONSTITUENTS
+directly for deeper coverage anywhere a scraped source isn't available.
 
 Output: ../data/global_watchlist.csv
   ticker, company_name, aliases, exchange, region, currency, market_cap_usd
@@ -53,6 +65,11 @@ FX_TICKERS = {
     "HKD": ("HKD=X", "inverse"),
     "KRW": ("KRW=X", "inverse"),
     "SGD": ("SGD=X", "inverse"),
+    "CNY": ("CNY=X", "inverse"),
+    "MYR": ("MYR=X", "inverse"),
+    "IDR": ("IDR=X", "inverse"),
+    "THB": ("THB=X", "inverse"),
+    "VND": ("VND=X", "inverse"),
 }
 
 
@@ -125,41 +142,124 @@ def fetch_hangseng():
     return rows
 
 
-# Wikipedia doesn't reliably tabulate these -- hand-maintained seed lists.
-# Not exhaustive; extend as needed (or just add rows directly to the output CSV).
+def fetch_nikkei225():
+    # Wikipedia's Nikkei 225 page has no scrapable constituent table (the 225
+    # names are inline prose links, not a <table>) -- this mirror publishes
+    # the same list as a genuine static table. Verified 2026-09; data dated
+    # to Jan 2024 there, so expect the odd index-review miss/stale name.
+    t = _find_table(
+        _read_tables("https://topforeignstocks.com/indices/the-components-of-the-nikkei-225-index/"),
+        ["code", "company name"],
+    )
+    rows = []
+    for _, r in t.iterrows():
+        ticker = str(r["code"]).strip()  # already carries the .T suffix
+        rows.append((ticker, str(r["company name"]).strip(), "Japan", "TSE"))
+    return rows
+
+
+def fetch_kospi200():
+    t = _find_table(_read_tables("https://en.wikipedia.org/wiki/KOSPI_200"), ["company", "symbol"])
+    rows = []
+    for _, r in t.iterrows():
+        code = str(r["symbol"]).strip()  # 6-digit KRX code, leading zeros preserved as text
+        rows.append((f"{code}.KS", str(r["company"]).strip(), "South Korea", "KRX"))
+    return rows
+
+
+def fetch_asx200():
+    t = _find_table(_read_tables("https://en.wikipedia.org/wiki/S%26P/ASX_200"), ["code", "company"])
+    rows = []
+    for _, r in t.iterrows():
+        ticker = str(r["code"]).strip()
+        if not ticker.endswith(".AX"):
+            ticker += ".AX"
+        rows.append((ticker, str(r["company"]).strip(), "Australia", "ASX"))
+    return rows
+
+
+def fetch_csi300():
+    """Mainland China A-shares (Shanghai + Shenzhen), via the CSI 300 --
+    China's standard large-cap benchmark. Ticker cells read like
+    "SSE: 600519" / "SZSE: 300750"; map the exchange prefix to the Yahoo
+    Finance suffix."""
+    t = _find_table(_read_tables("https://en.wikipedia.org/wiki/CSI_300_Index"), ["ticker", "company"])
+    suffix_by_prefix = {"SSE": ".SS", "SZSE": ".SZ"}
+    rows = []
+    for _, r in t.iterrows():
+        raw = str(r["ticker"]).strip()
+        if ":" not in raw:
+            continue
+        prefix, code = (p.strip() for p in raw.split(":", 1))
+        suffix = suffix_by_prefix.get(prefix.upper())
+        if not suffix:
+            continue
+        rows.append((code + suffix, str(r["company"]).strip(), "China", "Shanghai/Shenzhen"))
+    return rows
+
+
+def fetch_klci():
+    t = _find_table(_read_tables("https://en.wikipedia.org/wiki/FTSE_Bursa_Malaysia_KLCI"),
+                     ["stock code", "constituent name"])
+    rows = []
+    for _, r in t.iterrows():
+        code = str(int(r["stock code"])).strip()  # verified: no KLCI code starts with 0
+        rows.append((f"{code}.KL", str(r["constituent name"]).strip(), "Malaysia", "Bursa Malaysia"))
+    return rows
+
+
+def fetch_lq45():
+    """Indonesia's 45 most liquid large-caps. Ticker cells read like
+    "IDX:\xa0AADI" (a non-breaking space after the colon) -- str.split +
+    strip() handles both that and a plain space."""
+    t = _find_table(_read_tables("https://en.wikipedia.org/wiki/LQ45"), ["ticker", "company"])
+    rows = []
+    for _, r in t.iterrows():
+        code = str(r["ticker"]).split(":", 1)[-1].strip()
+        rows.append((f"{code}.JK", str(r["company"]).strip(), "Indonesia", "IDX"))
+    return rows
+
+
+def fetch_set50():
+    t = _find_table(_read_tables("https://en.wikipedia.org/wiki/SET50_Index"),
+                     ["symbol", "securities name"])
+    rows = []
+    for _, r in t.iterrows():
+        code = str(r["symbol"]).strip()
+        rows.append((f"{code}.BK", str(r["securities name"]).strip(), "Thailand", "SET"))
+    return rows
+
+
+def fetch_sti():
+    t = _find_table(_read_tables("https://en.wikipedia.org/wiki/Straits_Times_Index"),
+                     ["stock symbol", "company"])
+    rows = []
+    for _, r in t.iterrows():
+        code = str(r["stock symbol"]).split(":", 1)[-1].strip()
+        rows.append((f"{code}.SI", str(r["company"]).strip(), "Singapore", "SGX"))
+    return rows
+
+
+# Philippines (PSEi) is deliberately NOT scraped: Yahoo Finance / yfinance has
+# no working ticker format for individual PSE-listed stocks (.PS and the
+# internal .XPHS suffix both resolve to dead/placeholder data, verified
+# 2026-09) -- only US OTC ADRs of a few names work, at different prices. A
+# PSEi fetcher would just produce tickers that can never be priced.
+#
+# VN30 (Vietnam) has no scrapable source anywhere (no Wikipedia page, no
+# public HTML table -- HOSE's own lists are PDF-only) -- unlike the
+# Philippines, yfinance DOES have working data for large-cap Vietnamese
+# names under the ".VN" suffix (verified 2026-09: VCB.VN, FPT.VN both
+# return live data), so a hand-typed seed list is worth keeping here.
 SEED_CONSTITUENTS = {
-    "Japan (Nikkei 225, seed)": [
-        ("7203.T", "Toyota Motor"), ("6758.T", "Sony Group"), ("9984.T", "SoftBank Group"),
-        ("8306.T", "Mitsubishi UFJ Financial Group"), ("6501.T", "Hitachi"),
-        ("8035.T", "Tokyo Electron"), ("6098.T", "Recruit Holdings"), ("9432.T", "NTT"),
-        ("9433.T", "KDDI"), ("6861.T", "Keyence"), ("7974.T", "Nintendo"),
-        ("8058.T", "Mitsubishi Corp"), ("7267.T", "Honda Motor"), ("4063.T", "Shin-Etsu Chemical"),
-        ("6702.T", "Fujitsu"), ("6367.T", "Daikin Industries"), ("8316.T", "Sumitomo Mitsui Financial Group"),
-        ("9983.T", "Fast Retailing"), ("4568.T", "Daiichi Sankyo"), ("6178.T", "Japan Post Holdings"),
-    ],
-    "South Korea (KOSPI, seed)": [
-        ("005930.KS", "Samsung Electronics"), ("000660.KS", "SK Hynix"),
-        ("373220.KS", "LG Energy Solution"), ("207940.KS", "Samsung Biologics"),
-        ("005380.KS", "Hyundai Motor"), ("012330.KS", "Hyundai Mobis"),
-        ("035420.KS", "Naver"), ("051910.KS", "LG Chem"),
-        ("006400.KS", "Samsung SDI"), ("105560.KS", "KB Financial Group"),
-        ("055550.KS", "Shinhan Financial Group"), ("035720.KS", "Kakao"),
-        ("068270.KS", "Celltrion"), ("003670.KS", "POSCO Holdings"),
-    ],
-    "Singapore (STI, seed)": [
-        ("D05.SI", "DBS Group Holdings"), ("O39.SI", "Oversea-Chinese Banking Corp"),
-        ("U11.SI", "United Overseas Bank"), ("C6L.SI", "Singapore Airlines"),
-        ("Z74.SI", "Singtel"), ("C38U.SI", "CapitaLand Integrated Commercial Trust"),
-        ("A17U.SI", "Ascendas REIT"), ("BN4.SI", "Keppel"),
-        ("C09.SI", "City Developments"), ("Y92.SI", "Thai Beverage"),
-    ],
-    "Australia (ASX 200, seed)": [
-        ("BHP.AX", "BHP Group"), ("CBA.AX", "Commonwealth Bank of Australia"),
-        ("CSL.AX", "CSL Limited"), ("NAB.AX", "National Australia Bank"),
-        ("WBC.AX", "Westpac Banking Corp"), ("ANZ.AX", "ANZ Group Holdings"),
-        ("WES.AX", "Wesfarmers"), ("MQG.AX", "Macquarie Group"),
-        ("FMG.AX", "Fortescue"), ("WDS.AX", "Woodside Energy Group"),
-        ("GMG.AX", "Goodman Group"), ("TLS.AX", "Telstra Group"),
+    "Vietnam (VN30-ish, seed)": [
+        ("VCB.VN", "Vietcombank"), ("BID.VN", "BIDV"), ("CTG.VN", "VietinBank"),
+        ("VIC.VN", "Vingroup"), ("VHM.VN", "Vinhomes"), ("VNM.VN", "Vinamilk"),
+        ("HPG.VN", "Hoa Phat Group"), ("FPT.VN", "FPT Corporation"), ("MSN.VN", "Masan Group"),
+        ("TCB.VN", "Techcombank"), ("MBB.VN", "MB Bank"), ("VPB.VN", "VPBank"),
+        ("GAS.VN", "PV Gas"), ("SAB.VN", "Sabeco"), ("MWG.VN", "Mobile World Investment"),
+        ("PLX.VN", "Petrolimex"), ("STB.VN", "Sacombank"), ("POW.VN", "PV Power"),
+        ("VJC.VN", "VietJet Aviation"), ("SSI.VN", "SSI Securities"),
     ],
 }
 
@@ -169,6 +269,14 @@ INDEX_SOURCES = [
     ("FTSE 100", fetch_ftse100),
     ("DAX", fetch_dax),
     ("Hang Seng", fetch_hangseng),
+    ("Nikkei 225", fetch_nikkei225),
+    ("KOSPI 200", fetch_kospi200),
+    ("ASX 200", fetch_asx200),
+    ("CSI 300", fetch_csi300),
+    ("FTSE Bursa Malaysia KLCI", fetch_klci),
+    ("IDX LQ45", fetch_lq45),
+    ("SET50", fetch_set50),
+    ("Straits Times Index", fetch_sti),
 ]
 
 
@@ -188,10 +296,7 @@ def build_candidate_list():
     # label -> (region, exchange) -- exchange is shown to the user directly
     # (Telegram alert "Market Name" line), so these must be real names.
     seed_exchange = {
-        "Japan (Nikkei 225, seed)": ("Japan", "TSE"),
-        "South Korea (KOSPI, seed)": ("South Korea", "KRX"),
-        "Singapore (STI, seed)": ("Singapore", "SGX"),
-        "Australia (ASX 200, seed)": ("Australia", "ASX"),
+        "Vietnam (VN30-ish, seed)": ("Vietnam", "HOSE"),
     }
     for label, rows in SEED_CONSTITUENTS.items():
         region, exchange = seed_exchange[label]
@@ -206,17 +311,35 @@ def build_candidate_list():
 # Market cap enrichment
 # ---------------------------------------------------------------------------
 def _fetch_market_cap(ticker):
+    import time as _time
+
     import yfinance as yf
-    try:
-        info = yf.Ticker(ticker).fast_info
-        cap = info.get("market_cap") or info.get("marketCap")
-        currency = info.get("currency")
-        return ticker, cap, currency
-    except Exception:  # noqa: BLE001 -- one bad ticker must not sink the run
-        return ticker, None, None
+    from yfinance.exceptions import YFRateLimitError
+
+    for attempt in range(3):
+        try:
+            info = yf.Ticker(ticker).fast_info
+            cap = info.get("market_cap") or info.get("marketCap")
+            currency = info.get("currency")
+            return ticker, cap, currency
+        except YFRateLimitError:
+            # At ~1800 tickers this reliably trips Yahoo's rate limit
+            # partway through (confirmed 2026-09-14: everything queued after
+            # the first ~950 tickers came back empty in one run, wiping out 8
+            # entire regions with no error surfaced -- fast_info swallows it
+            # into a plain empty result on the non-first ticker in a session,
+            # only raising cleanly here on some). Retry with backoff rather
+            # than let a transient limit silently degrade the whole list.
+            if attempt < 2:
+                _time.sleep(3 * (attempt + 1))
+                continue
+            return ticker, None, None
+        except Exception:  # noqa: BLE001 -- one bad ticker must not sink the run
+            return ticker, None, None
+    return ticker, None, None
 
 
-def enrich_with_market_cap(candidates, max_workers=12):
+def enrich_with_market_cap(candidates, max_workers=8):
     results = {}
     with ThreadPoolExecutor(max_workers=max_workers) as pool:
         futures = {pool.submit(_fetch_market_cap, t): t for t in candidates}
@@ -230,23 +353,52 @@ def enrich_with_market_cap(candidates, max_workers=12):
     return results
 
 
-def fetch_fx_rates():
+def _download_fx_batch(symbols):
     import yfinance as yf
+    return yf.download(symbols, period="5d", interval="1d", progress=False, group_by="ticker", threads=True)
+
+
+def fetch_fx_rates():
+    """A single missing currency here silently zeroes out every company in
+    that whole region (to_usd() can't verify their market cap without it) --
+    a much bigger blast radius than one missing stock price, so this retries
+    harder than check_price_moves does. yf.download() doesn't raise on a
+    per-symbol failure (it logs "N Failed download" and leaves that column
+    all-NaN), so a retry has to re-run the whole batch and recheck which
+    currencies are still missing, not catch an exception."""
+    import time as _time
+
     rates = {"USD": 1.0}
     symbols = sorted({sym for sym, _ in FX_TICKERS.values()})
-    data = yf.download(symbols, period="5d", interval="1d", progress=False, group_by="ticker", threads=True)
-    for currency, (sym, mode) in FX_TICKERS.items():
-        try:
-            close = data[sym]["Close"].dropna().iloc[-1] if len(symbols) > 1 else data["Close"].dropna().iloc[-1]
-            close = float(close)
-        except Exception:  # noqa: BLE001
-            continue
-        if mode == "direct":
-            rates[currency] = close
-        elif mode == "inverse":
-            rates[currency] = 1.0 / close if close else None
-        elif mode == "direct_pence":
-            rates[currency] = close / 100.0
+    needed = set(FX_TICKERS.keys())
+
+    for attempt in range(4):
+        data = _download_fx_batch(symbols)
+        still_missing = []
+        for currency in list(needed):
+            sym, mode = FX_TICKERS[currency]
+            try:
+                close = data[sym]["Close"].dropna().iloc[-1] if len(symbols) > 1 else data["Close"].dropna().iloc[-1]
+                close = float(close)
+            except Exception:  # noqa: BLE001
+                still_missing.append(currency)
+                continue
+            if mode == "direct":
+                rates[currency] = close
+            elif mode == "inverse":
+                rates[currency] = 1.0 / close if close else None
+            elif mode == "direct_pence":
+                rates[currency] = close / 100.0
+            needed.discard(currency)
+        if not needed:
+            break
+        print(f"  FX rates: still missing {sorted(needed)} after attempt {attempt + 1}/4", file=sys.stderr)
+        if attempt < 3:
+            _time.sleep(5 * (attempt + 1))
+
+    if needed:
+        print(f"  WARNING: could not get FX rates for {sorted(needed)} after retries -- "
+              f"every company priced in {sorted(needed)} will be dropped this run.", file=sys.stderr)
     return rates
 
 
@@ -292,6 +444,24 @@ def main():
     df.to_csv(OUT_CSV_PATH, index=False)
     print(f"Wrote {OUT_CSV_PATH}: {len(df)} names >= ${MIN_MARKET_CAP_USD/1e9:.0f}B "
           f"(of {len(candidates)} candidates checked).")
+    _warn_on_regional_dropout(df, candidates)
+
+
+def _warn_on_regional_dropout(df, candidates):
+    """A whole region silently disappearing (e.g. one FX rate that failed to
+    fetch, since to_usd() can't verify a market cap without it -- confirmed
+    to actually happen 2026-09-14, wiping out 8 regions in one run) is a much
+    more likely bug than "this region genuinely has zero $5B+ companies" --
+    flag it loudly rather than let a bad run silently ship a degraded CSV."""
+    from collections import Counter
+    raw_regions = Counter(region for _, region, _ in candidates.values())
+    kept_regions = Counter(df["region"]) if len(df) else Counter()
+    for region, raw_count in raw_regions.items():
+        if raw_count >= 10 and kept_regions.get(region, 0) == 0:
+            print(f"  WARNING: {region} had {raw_count} raw candidates but ZERO survived the "
+                  f"market-cap filter -- almost certainly a data issue (FX rate, ticker "
+                  f"format) this run, not reality. Investigate before trusting this CSV.",
+                  file=sys.stderr)
 
 
 if __name__ == "__main__":

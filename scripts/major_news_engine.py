@@ -58,9 +58,14 @@ def _norm(text):
 
 # Legal-entity suffixes stripped off company_name to get the name headlines
 # actually use -- "Apple Inc." never appears in a headline, "Apple" does.
+# "berhad"/"bhd" (Malaysia), "tbk"/"persero" (Indonesia) added 2026-09-14 when
+# the watchlist expanded to those markets -- confirmed via a live example:
+# "CIMB Group Holdings announces deal" didn't match "CIMB GROUP HOLDINGS
+# BERHAD" until "berhad" was added here.
 _CORP_SUFFIXES = {
     "inc", "incorporated", "corp", "corporation", "co", "company", "ltd", "limited",
     "plc", "group", "holdings", "holding", "nv", "sa", "ag", "se", "llc", "lp", "spa", "kk",
+    "berhad", "bhd", "tbk", "persero",
 }
 # Short names that collide with common English words -- kept as full-legal-name
 # matches only (never as the bare short form), to cut false positives.
@@ -132,6 +137,8 @@ _EXCHANGE_BY_SUFFIX = {
     ".AS": "Netherlands · Euronext Amsterdam", ".SW": "Switzerland · SIX",
     ".TO": "Canada · TSX", ".NS": "India · NSE", ".BO": "India · BSE",
     ".SS": "China · Shanghai", ".SZ": "China · Shenzhen", ".MI": "Italy · Borsa Italiana",
+    ".KL": "Malaysia · Bursa Malaysia", ".JK": "Indonesia · IDX", ".BK": "Thailand · SET",
+    ".VN": "Vietnam · HOSE",
 }
 
 
