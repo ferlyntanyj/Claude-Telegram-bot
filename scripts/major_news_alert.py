@@ -1,9 +1,14 @@
 """
 Global major-news Telegram alert -- one run is one poll cycle. Runs in the
-cloud every major_news_alert_config.POLL_INTERVAL_MINUTES via GitHub Actions
-(.github/workflows/major_news_alert.yml), not continuously -- so it works even
-when this machine is off. run_major_news_alert.ps1 still exists for manual
-local testing, but is not the scheduled path.
+cloud via GitHub Actions (.github/workflows/major_news_alert.yml), not
+continuously -- so it works even when this machine is off. The workflow's
+cron asks for every major_news_alert_config.POLL_INTERVAL_MINUTES, but GitHub
+does not actually honor that cadence for this account tier (real gaps are
+2-6+ hours, not 20 minutes -- see the .yml's comments); the lookback window
+self-heals around that (major_news_engine.effective_lookback_hours), so no
+headline is silently missed, but "near-real-time" should be read as "checked
+whenever GitHub gets to it," not a latency guarantee. run_major_news_alert.ps1
+still exists for manual local testing, but is not the scheduled path.
 
 Unlike the scheduled digests, this sends zero, one, or several Telegram
 messages depending on how many qualifying stories it finds this cycle -- there
@@ -132,6 +137,12 @@ def main():
     alerts, state = engine.run_cycle(cfg)
     if not alerts:
         print("No qualifying alerts this cycle.")
+        # Persist even on a quiet cycle -- state.last_run_utc is what makes
+        # the next cycle's lookback window self-heal around GitHub's
+        # irregular scheduling (see effective_lookback_hours). Skipped only
+        # for --dry-run, matching every other persist() call in this script.
+        if not dry_run:
+            engine.persist(state, [], cfg)
         return
 
     if dry_run:

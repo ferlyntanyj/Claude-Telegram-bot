@@ -293,6 +293,21 @@ def save_state(state, cfg):
         json.dump(state, f, indent=2)
 
 
+def effective_lookback_hours(state, cfg):
+    """How far back to fetch headlines this cycle. GitHub Actions doesn't
+    honor the cron's nominal cadence for this account tier (runs land 2-6+
+    hours apart in practice, not every POLL_INTERVAL_MINUTES) -- so rather
+    than assume a fixed gap and silently miss whatever aged out of the
+    scheduler's queue in between, look back to whenever the last run actually
+    completed, capped at cfg.MAX_LOOKBACK_HOURS."""
+    floor_hours = (cfg.POLL_INTERVAL_MINUTES + cfg.LOOKBACK_OVERLAP_MINUTES) / 60.0
+    last_run = state.get("last_run_utc")
+    if not last_run:
+        return floor_hours
+    gap_hours = (dt.datetime.now(UTC) - dt.datetime.fromisoformat(last_run)).total_seconds() / 3600.0
+    return min(cfg.MAX_LOOKBACK_HOURS, max(floor_hours, gap_hours))
+
+
 def should_alert(state, key, move_pct, cfg):
     entry = state["alerts"].get(key)
     if entry is None:
@@ -367,7 +382,8 @@ def run_cycle(cfg):
     the cooldown on a story the user never actually received."""
     watchlist = load_watchlist(cfg)
     state = load_state(cfg)
-    lookback_hours = (cfg.POLL_INTERVAL_MINUTES + cfg.LOOKBACK_OVERLAP_MINUTES) / 60.0
+    lookback_hours = effective_lookback_hours(state, cfg)
+    state["last_run_utc"] = dt.datetime.now(UTC).isoformat()
 
     sections, total = brief_engine.fetch_news(cfg, lookback_hours)
     candidates = [item for items in sections.values() for item in items]

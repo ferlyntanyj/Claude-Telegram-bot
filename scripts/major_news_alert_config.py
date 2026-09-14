@@ -2,11 +2,15 @@
 Tuning knobs for the global major-news Telegram alert. Consumed by
 major_news_engine.py via the thin major_news_alert.py wrapper.
 
-Unlike the scheduled digests (morning/evening/semis brief), this is a
-near-real-time alert stream: one run = one poll cycle, run in the cloud every
-POLL_INTERVAL_MINUTES via GitHub Actions (.github/workflows/major_news_alert.yml)
-so it doesn't depend on this machine being on. It only sends a Telegram message
-when a qualifying story is found, rather than always producing a digest.
+Unlike the scheduled digests (morning/evening/semis brief), this is meant to
+be a near-real-time alert stream: one run = one poll cycle via GitHub Actions
+(.github/workflows/major_news_alert.yml) so it doesn't depend on this machine
+being on. In practice GitHub's scheduler doesn't honor the requested
+POLL_INTERVAL_MINUTES cadence for this account tier -- see the cadence
+comment below and the .yml's cron comments -- so treat this as "checked
+periodically, self-healing lookback window" rather than a latency guarantee.
+It only sends a Telegram message when a qualifying story is found, rather
+than always producing a digest.
 
 Two trigger paths:
   1. Single-stock: a headline names a company on data/global_watchlist.csv
@@ -38,10 +42,26 @@ SOURCES_FOOTER_TG = "Google News (Bloomberg/Reuters/Nikkei/SCMP/WSJ/FT tier)"
 # ---------------------------------------------------------------------------
 # Cadence / window
 # ---------------------------------------------------------------------------
+# The .yml cron asks for every 20 min, but GitHub Actions does NOT guarantee
+# that for scheduled workflows: personal/new-account repos get routed to a
+# low-priority batch queue that in practice sweeps every 2-6+ hours, not on
+# the cron minute (confirmed empirically -- 24 runs over 60 hours, not the
+# ~180 a 20-min cadence would produce; this is documented GitHub behavior,
+# not something fixable from the workflow YAML). POLL_INTERVAL_MINUTES below
+# is therefore only the FLOOR of the lookback window, not a promise about
+# actual cadence -- see effective_lookback_hours() in major_news_engine.py,
+# which instead looks back to whenever the last run actually completed (state
+# STATE_JSON_PATH -> last_run_utc), so an irregular gap just widens the
+# window rather than silently dropping headlines that aged out in between.
 POLL_INTERVAL_MINUTES = 20
 # Overlap beyond the poll interval so a headline can't fall through the crack
 # between two cycles (feed lag, clock drift, a cycle that ran slightly late).
 LOOKBACK_OVERLAP_MINUTES = 15
+# Upper bound on the dynamic lookback, matched to Google News RSS's `when:1d`
+# in the queries below (its own effective ceiling) with a small safety margin
+# under 24h -- if GitHub goes quiet longer than this, that's a dead-workflow
+# problem widening the window further wouldn't fix anyway.
+MAX_LOOKBACK_HOURS = 23.0
 MAX_ITEMS_PER_SECTION = 40
 
 # ---------------------------------------------------------------------------
@@ -77,16 +97,16 @@ LLM_SIGNIFICANCE_MAX_TOKENS = 300
 # News sources -- broad market-moving queries, not sector-specific
 # ---------------------------------------------------------------------------
 GOOGLE_NEWS_QUERIES = [
-    ("news", "stock shares surge OR plunge OR soar OR tumble when:1h"),
-    ("news", "earnings guidance profit warning beat miss when:1h"),
-    ("news", "acquisition merger deal billion stake buyout when:1h"),
-    ("news", "credit rating downgrade upgrade default when:1h"),
-    ("news", "Federal Reserve OR ECB OR Bank of Japan rate decision when:1h"),
-    ("news", "tariff export controls sanctions trade war when:1h"),
-    ("news", "antitrust regulator fine investigation ruling when:1h"),
-    ("news", "recall lawsuit cyberattack outage disruption when:1h"),
-    ("news", "OPEC oil price shock supply when:1h"),
-    ("news", "market selloff rally record high stocks close when:1h"),
+    ("news", "stock shares surge OR plunge OR soar OR tumble when:1d"),
+    ("news", "earnings guidance profit warning beat miss when:1d"),
+    ("news", "acquisition merger deal billion stake buyout when:1d"),
+    ("news", "credit rating downgrade upgrade default when:1d"),
+    ("news", "Federal Reserve OR ECB OR Bank of Japan rate decision when:1d"),
+    ("news", "tariff export controls sanctions trade war when:1d"),
+    ("news", "antitrust regulator fine investigation ruling when:1d"),
+    ("news", "recall lawsuit cyberattack outage disruption when:1d"),
+    ("news", "OPEC oil price shock supply when:1d"),
+    ("news", "market selloff rally record high stocks close when:1d"),
 ]
 
 # Chip-topical direct feeds aren't relevant here; a handful of general wire/
