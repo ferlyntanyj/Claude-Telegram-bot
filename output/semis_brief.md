@@ -1,9 +1,15 @@
-# Global Semiconductor Brief -- 13 Sep 2026, 22:35 SGT
+# Global Semiconductor Brief -- 14 Sep 2026, 13:18 SGT
+
+## Supply chain signals
+- [Gritek to take full control of 12-inch silicon wafer venture in major restructuring](https://www.digitimes.com/news/a20260914VL207/12-inch-silicon-wafer-materials-manufacturing-market.html) — DIGITIMES
+- [India semiconductor deals hit a multi-year high ahead of SEMICON India 2026](https://www.digitimes.com/news/a20260914VL204/2026-semicon-india-2025-funding-data.html) — DIGITIMES
+- [AI server tracker: Taiwan testing suppliers accelerate as AI chip complexity raises interface demand](https://www.digitimes.com/news/a20260913VL200/testing-taiwan-demand-revenue-supply-chain.html) — DIGITIMES
+- [AI labs ask to be slowed, Congress stirs, and Nvidia calls the alarm a sales pitch](https://www.digitimes.com/news/a20260914VL201/nvidia-sales-development-openai-anthropic.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [AMD’s best gaming CPU drops below launch price and includes free 240mm AIO cooler and Onimusha: Way of the Sword — grab the Ryzen 7 9850X3D for $484](https://www.tomshardware.com/pc-components/cpus/amds-best-gaming-cpu-drops-below-launch-price-and-includes-free-240mm-aio-cooler-and-onimusha-way-of-the-sword-grab-the-ryzen-7-9850x3d-for-usd484) — Tom's Hardware
-- [Intel revives One Mono font after brief retirement during open-source purge — typeface built to fight coder eyestrain gets reprieve](https://www.tomshardware.com/tech-industry/intel-revives-one-mono-font-after-brief-retirement-typeface-built-to-fight-coder-eyestrain-gets-reprieve-from-open-source-purge) — Tom's Hardware
-- [Mexican cartel's crypto farm seized in mountain raid — 300 GPUs, satellite links, and industrial transformers tapped hydroelectric power](https://www.tomshardware.com/tech-industry/cryptomining/mexican-cartel-crypto-farm-seized-in-mountain-raid-300-gpus-satellite-links-and-industrial-transformers-tapped-hydroelectric-power) — Tom's Hardware
-- [Playable Tomb Raider runs on a humble 1-watt chip — $25 board with dual-core 400 MHz ESP32-P4 MCU scales OpenLara up to 1,024 x 600 playable pixels](https://www.tomshardware.com/software/programming/playable-tomb-raider-runs-on-a-humble-1-watt-chip-usd25-board-with-dual-core-400-mhz-esp32-p4-mcu-scales-openlara-up-to-1-024-x-600-playable-pixels) — Tom's Hardware
+- [Samsung, SK Hynix Reject Kepco’s Power Grid Prepayment Plan](https://news.google.com/rss/articles/CBMirgFBVV95cUxOOTBYSlphb01GQVNudDlCX1pLX1R0ZUcyUkpKQkdkLVNNWTNjaHpDVGstRUltdlk2ZnlNbEVfczloMHJzMU9BYkRlbkMxNk1YdU5JT3pOdFRoWWZLWTVDRkNXOUVpcDFSM1pIanZ0Qlluei05SzN0UFZpaFpmQ2ptcDhfXzZNNnJIdmh3dTBqZDhsTkJGQllJYi03XzhPMV82M0lxSnJ1N1F2dU9zMEE?oc=5) — Bloomberg.com
+- [Samsung, SK Hynix reject KEPCO's $19 billion power prepayment proposal, document shows](https://news.google.com/rss/articles/CBMiywFBVV95cUxQQjJHWHN4NlplMGhFY2FHN0tkOURPOEFjSlRzZFhZaDB1bWpEcFRKam93VnNscllYSkxHT1lKcVJhZVBpSkN4VlNRZG1CazRCMjZkUkFhYkcwV29kU1BzR3NLeTV5MU1BdDd2SHpMQnhYR0llVVFreXpTVXZsX3hvUkNXX0J6NnFzYktONVRNVWE5eDlNN0hGQ1JYaEZvUFJOcmJLUVBoTkVNQ3JObFFFQ0MydFpBZHJUdFU0dy1LLVFqd1NydjZ6M3dTdw?oc=5) — Reuters
+- [Applied Materials using AI to speed chip materials discovery, Japan chief says](https://news.google.com/rss/articles/CBMiygFBVV95cUxPUVZKQlFQZ0hGZEtxWDRMZTZpNncxRVBkREx2ZlBaZnIyR252WWlJRzVEdDRnU1ViendDeVVORDhFdmtIUTFtU2J6V3NvMlBCOTVuc2UxVlJpWGxENDVUb3VlTU02RjY4QTZwRGVfUmJvM2VxREF0UUs3eDBmWnNnaHV2QVpwUUNfV1Y3SFg1Ym1tTnFvVDVCdk1kaDV2VG1RSXRscmhkMWRDemxFRjVyYlg1NDNJTGNRUTM2OWR3X0FqVzNHc1psaVZ3?oc=5) — Nikkei Asia
+- [Samsung, Qualcomm deepen 2nm talks as pricing and yield hurdles persist](https://www.digitimes.com/news/a20260914VL208/samsung-qualcomm-2nm-production-optimization.html) — DIGITIMES
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (4 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 62h window)._
