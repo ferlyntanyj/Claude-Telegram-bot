@@ -198,9 +198,28 @@ def check_price_moves(tickers):
 # stock stories use it purely for read-across display (up to
 # cfg.MAX_DISPLAY_PEERS peers shown alongside the primary mover).
 # ---------------------------------------------------------------------------
+# Catches "[anything] stocks/shares slump/tumble/plunge/..." regardless of
+# what the "[anything]" sector/theme actually is -- a literal keyword list
+# (SECTOR_TRIGGER_KEYWORDS) can only ever cover topics someone thought to
+# enumerate in advance (tariffs, rate decisions, ...), and confirmed missed a
+# real ~8-name >5% semiconductor selloff on 2026-09-14 driven by an "AI
+# safety" narrative: "AI-linked stocks slump after top lab CEOs call for
+# slowing technology's development" matched no topic keyword and named no
+# single company, so it fell through both detection paths entirely. This
+# regex is a general shape check, not a topic list, so it doesn't have that
+# blind spot.
+_STOCK_MOVE_VERB_RE = re.compile(
+    r"\b(stocks?|shares?)\b[^.]{0,25}\b(slump\w*|tumbl\w*|plung\w*|sink|sinks|sank|sunk|"
+    r"fall\w*|fell|drop\w*|slid\w*|surg\w*|soar\w*|rall(?:y|ies|ied)|jump\w*|sell[- ]?off)\b",
+    re.I,
+)
+
+
 def _looks_sector_worthy(title, cfg):
     low = title.lower()
-    return any(kw in low for kw in cfg.SECTOR_TRIGGER_KEYWORDS)
+    if any(kw in low for kw in cfg.SECTOR_TRIGGER_KEYWORDS):
+        return True
+    return bool(_STOCK_MOVE_VERB_RE.search(title))
 
 
 def _llm_client():
@@ -394,15 +413,21 @@ def effective_lookback_hours(state, cfg):
     return min(cfg.MAX_LOOKBACK_HOURS, max(floor_hours, gap_hours))
 
 
-def should_alert(state, key, move_pct, cfg):
+def should_alert(state, key, cfg):
+    """One alert per story/ticker per COOLDOWN_HOURS, full stop -- no
+    same-day re-alert on a deepening move, even a large one. Confirmed
+    2026-09-14: the old same-day delta-escalation bypass (re-alert if the
+    move deepened by RE_ALERT_DELTA_PCT further) was exactly what caused
+    Fujitsu and Applied Materials to each fire multiple times in one day as
+    they drifted further past the threshold intraday -- unwanted noise, not
+    a feature. COOLDOWN_HOURS is set long enough to span a full trading day,
+    so a fresh move the next day still alerts normally once it expires."""
     entry = state["alerts"].get(key)
     if entry is None:
         return True
     last_time = dt.datetime.fromisoformat(entry["last_alert_utc"])
     hours_since = (dt.datetime.now(UTC) - last_time).total_seconds() / 3600.0
-    if hours_since >= cfg.COOLDOWN_HOURS:
-        return True
-    return abs(move_pct) - abs(entry["last_move_pct"]) >= cfg.RE_ALERT_DELTA_PCT
+    return hours_since >= cfg.COOLDOWN_HOURS
 
 
 def _record_alert(state, alert):
@@ -480,7 +505,7 @@ def run_cycle(cfg):
                 if abs(move["pct"]) < cfg.SINGLE_STOCK_MOVE_PCT:
                     continue
                 key = f"single:{ticker}"
-                if not should_alert(state, key, move["pct"], cfg):
+                if not should_alert(state, key, cfg):
                     continue
                 company = next((c for t, c in matched if t == ticker), ticker)
                 peer_pairs = infer_peers(item["title"], cfg)
@@ -505,7 +530,7 @@ def run_cycle(cfg):
             if not result or not result["qualifies"]:
                 continue
             key = f"sector:{norm[:80]}"
-            if not should_alert(state, key, result["median_pct"], cfg):
+            if not should_alert(state, key, cfg):
                 continue
             # The peer basket has no single "subject" the way a single-stock
             # headline does -- use its biggest mover as the primary line, and

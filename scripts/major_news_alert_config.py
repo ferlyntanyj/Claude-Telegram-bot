@@ -92,10 +92,15 @@ SECTOR_BREADTH_MOVE_PCT = 2.0     # per-peer bar used for the breadth check
 SECTOR_BREADTH_SHARE_PCT = 60.0   # % of the peer basket that must clear it
 SECTOR_MIN_PEERS = 3              # fewer than this and "median"/"breadth" isn't meaningful
 
-# Cooldown: don't re-alert the same story/ticker within this many hours...
-COOLDOWN_HOURS = 4.0
-# ...unless the move has deepened by at least this many additional points.
-RE_ALERT_DELTA_PCT = 3.0
+# Cooldown: one alert per story/ticker per this many hours, full stop -- even
+# a further-deepening move doesn't re-trigger within the window (that used to
+# be allowed via a delta-escalation bypass; removed 2026-09-14 after it caused
+# Fujitsu and Applied Materials to each fire multiple times in one day as they
+# drifted further past the threshold intraday). Set to span a full trading
+# day (not exactly 24h, so a fresh move at the next day's open isn't blocked
+# by an alert that fired late in the prior session) so "once per day, unless
+# it moves >=5% again the next day" is the practical behaviour.
+COOLDOWN_HOURS = 18.0
 
 # ---------------------------------------------------------------------------
 # LLM (Groq API -- free tier, no credit card required; needs GROQ_API_KEY
