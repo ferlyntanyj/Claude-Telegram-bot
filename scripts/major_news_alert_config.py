@@ -13,10 +13,13 @@ It only sends a Telegram message when a qualifying story is found, rather
 than always producing a digest.
 
 Two trigger paths, both ending in the same Telegram format (market/time,
-primary mover, an "Analysis" section with why-it-moved + industry read-
-across, up to MAX_DISPLAY_PEERS peer movements, a "Look out" forward-looking
-line, and a "Memory" line recalling a historical parallel if the model has
-one -- see major_news_alert.render_telegram):
+primary mover, a "Sentiment" line, an "Analysis" section with why-it-moved +
+industry read-across, up to MAX_DISPLAY_PEERS peer movements, a "Look out"
+forward-looking line, and a "Memory" line recalling a historical parallel if
+the model has one -- see major_news_alert.render_telegram). Sector-wide
+alerts additionally ground the write-up in a handful of other recent
+headlines about the same story (major_news_engine.gather_related_headlines),
+not just the one that triggered the alert.
   1. Single-stock: a headline names a company on data/global_watchlist.csv
      (built by global_watchlist_build.py, already filtered to >= USD 5B
      market cap) whose intraday move clears SINGLE_STOCK_MOVE_PCT. Groq is
@@ -115,10 +118,12 @@ COOLDOWN_HOURS = 18.0
 # ---------------------------------------------------------------------------
 LLM_MODEL = "openai/gpt-oss-120b"
 LLM_PEER_MAX_TOKENS = 400
-# The analysis call now returns 4 JSON-structured sections instead of one
-# blob (why_moved/read_across/look_out/memory) -- more headroom than the old
-# single-paragraph LLM_SIGNIFICANCE_MAX_TOKENS=300.
-LLM_ANALYSIS_MAX_TOKENS = 600
+# The analysis call returns 5 JSON-structured sections (sentiment/why_moved/
+# read_across/look_out/memory) instead of one blob -- more headroom than the
+# old single-paragraph LLM_SIGNIFICANCE_MAX_TOKENS=300. Sector-wide alerts'
+# prompt also grows with related-coverage context (gather_related_headlines),
+# so this has a bit of margin beyond the 4-field version.
+LLM_ANALYSIS_MAX_TOKENS = 700
 
 # ---------------------------------------------------------------------------
 # News sources -- broad market-moving queries, not sector-specific

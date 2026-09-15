@@ -26,7 +26,7 @@ Every alert therefore carries: headline, key (cooldown), metric_pct (the
 number should_alert()/cooldown compares against), market_name, primary
 ({ticker, company, pct, last, prev, currency}), peers (up to
 MAX_DISPLAY_PEERS {ticker, company, pct} dicts), and -- once write_analysis()
-runs -- analysis ({why_moved, read_across, look_out, memory}).
+runs -- analysis ({sentiment, why_moved, read_across, look_out, memory}).
 
 State (data/alert_state.json) is a flat map of alert key -> {last_alert_utc,
 last_move_pct}, used only to avoid re-sending the same story every cycle
@@ -326,59 +326,130 @@ def evaluate_sector_move(peers, cfg):
 
 
 # ---------------------------------------------------------------------------
-# Structured analysis write-up (Groq) -- four named sections rather than one
+# Related-coverage gathering (sector-wide alerts only) -- reuses the same
+# Google News RSS search brief_engine already uses, just with the qualifying
+# headline's own text as the query and a much looser source bar, since this
+# is grounding context for the LLM to synthesize from, not the primary
+# trust-gated trigger. Added 2026-09-14 per the user's request to have a
+# wide sell-off checked against more than a single headline: "use news
+# first... try to find more information online" -- this is that, done with
+# the free infrastructure already in place rather than a paid search API.
+# ---------------------------------------------------------------------------
+def gather_related_headlines(query_text, cfg, max_results=5, lookback_hours=48):
+    import urllib.parse
+
+    hl, gl, ceid = cfg.GOOGLE_NEWS_LOCALE
+    url = (f"https://news.google.com/rss/search?q={urllib.parse.quote(query_text)}"
+           f"&hl={hl}&gl={gl}&ceid={ceid}")
+    try:
+        feed = brief_engine._parse_feed(url, cfg.HTTP_TIMEOUT_SECONDS)
+    except Exception as e:  # noqa: BLE001 -- context-gathering must not sink the alert
+        print(f"  related-headline search failed: {e}", file=sys.stderr)
+        return []
+    if not feed:
+        return []
+
+    now = dt.datetime.now(UTC)
+    seen = set()
+    results = []
+    for entry in feed.entries:
+        title = (getattr(entry, "title", "") or "").strip()
+        if not title:
+            continue
+        aged = brief_engine._entry_age_hours(entry, now)
+        if aged is None:
+            continue
+        age_h, _ = aged
+        if age_h > lookback_hours:
+            continue
+        clean_title = brief_engine._TRAIL_SOURCE_RE.sub("", title).strip()
+        key = _norm(clean_title)
+        if key in seen:
+            continue
+        seen.add(key)
+        results.append({
+            "title": clean_title,
+            "source": brief_engine._source_name(entry, "Google News"),
+        })
+        if len(results) >= max_results:
+            break
+    return results
+
+
+# ---------------------------------------------------------------------------
+# Structured analysis write-up (Groq) -- five named sections rather than one
 # blob, so the Telegram render can lay them out under fixed headers.
 # ---------------------------------------------------------------------------
 _ANALYSIS_UNAVAILABLE = "(unavailable — LLM call failed; see logs.)"
 _NO_MEMORY = "No clear historical parallel comes to mind."
+_ANALYSIS_FIELDS = ("sentiment", "why_moved", "read_across", "look_out", "memory")
 
 
 def write_analysis(alert, cfg):
-    """Returns {why_moved, read_across, look_out, memory}, all strings.
-    On any failure returns the same shape with a clear unavailable marker in
-    each field rather than raising -- a bad LLM call must not drop the alert
-    itself, only degrade its commentary."""
+    """Returns {sentiment, why_moved, read_across, look_out, memory}, all
+    strings. On any failure returns the same shape with a clear unavailable
+    marker in each field rather than raising -- a bad LLM call must not drop
+    the alert itself, only degrade its commentary.
+
+    Sector-wide alerts get extra grounding: gather_related_headlines() pulls
+    a handful of other recent headlines about the same story (not just the
+    one that triggered the alert) so the write-up -- especially "memory",
+    which is otherwise just the model's own recall -- has more than one
+    data point to reason from. Single-stock alerts skip this (one extra
+    Google News round-trip per alert isn't worth it when the story is
+    already anchored to one specific, named company)."""
     headline = alert["headline"]
     primary = alert["primary"]
     peer_desc = "; ".join(
         f'{p["company"]} ({p["ticker"]}) {p["pct"]:+.1f}%' for p in alert["peers"]
     ) or "none identified"
 
+    context_block = ""
+    if alert["type"] == "sector":
+        related = gather_related_headlines(headline["title"], cfg)
+        if related:
+            lines = "\n".join(f'- "{r["title"]}" ({r["source"]})' for r in related)
+            context_block = f"\nOther recent coverage of this story:\n{lines}\n"
+
     prompt = (
-        f'Headline: "{headline["title"]}" (source: {headline["source"]})\n\n'
+        f'Headline: "{headline["title"]}" (source: {headline["source"]})\n'
+        f"{context_block}\n"
         f'Primary mover: {primary["company"]} ({primary["ticker"]}) {primary["pct"]:+.1f}% '
         f'intraday (last {primary["last"]:.2f} {primary.get("currency") or ""}, '
         f'prior close {primary["prev"]:.2f}).\n'
         f"Peer/read-across candidates and their moves: {peer_desc}\n\n"
-        "Respond with ONLY a JSON object, no other text, with exactly these four "
+        "Respond with ONLY a JSON object, no other text, with exactly these five "
         "string keys:\n"
         "{\n"
-        '  "why_moved": "1-2 sentences on why the price moved, specific to this news",\n'
+        '  "sentiment": "Exactly one of: Bullish, Bearish, Mixed, Neutral -- then \'"'
+        ' -- \'"\' then a reason clause under 12 words, e.g. \'Bearish -- investors '
+        'reassessing AI capex growth assumptions\'",\n'
+        '  "why_moved": "1-2 sentences on why the price moved, specific to this news '
+        '(use the other coverage above if given, not just the single headline)",\n'
         '  "read_across": "1-2 sentences on what this means for domestic/international '
         'peers, supply chain, or the wider industry",\n'
         '  "look_out": "1-2 sentences on what to watch for next -- an upcoming event, '
         'data point, or follow-through risk",\n'
-        '  "memory": "1-2 sentences recalling a genuinely similar past event or pattern '
-        f'you know of and explaining the parallel, or exactly this sentence if you cannot '
-        f'think of a solid one: \'{_NO_MEMORY}\' -- do not force a weak or vague analogy"\n'
+        '  "memory": "1-2 sentences on whether something like this -- this kind of '
+        'shock, or this specific company/sector under similar pressure -- has happened '
+        f'before, and how it played out, or exactly this sentence if nothing solid comes '
+        f'to mind: \'{_NO_MEMORY}\' -- do not force a weak or vague analogy"\n'
         "}\n\n"
         "Be specific and concrete, avoid generic filler, no preamble."
     )
     try:
         text = _run_completion(prompt, cfg, cfg.LLM_ANALYSIS_MAX_TOKENS, json_object=True)
         data = _extract_json_object(text)
-        return {
-            "why_moved": str(data.get("why_moved") or "").strip() or _ANALYSIS_UNAVAILABLE,
-            "read_across": str(data.get("read_across") or "").strip() or _ANALYSIS_UNAVAILABLE,
-            "look_out": str(data.get("look_out") or "").strip() or _ANALYSIS_UNAVAILABLE,
-            "memory": str(data.get("memory") or "").strip() or _NO_MEMORY,
-        }
+        result = {f: str(data.get(f) or "").strip() for f in _ANALYSIS_FIELDS}
+        if not result["memory"]:
+            result["memory"] = _NO_MEMORY
+        for f in _ANALYSIS_FIELDS:
+            if f != "memory" and not result[f]:
+                result[f] = _ANALYSIS_UNAVAILABLE
+        return result
     except Exception as e:  # noqa: BLE001
         print(f"  LLM analysis write-up failed: {e}", file=sys.stderr)
-        return {
-            "why_moved": _ANALYSIS_UNAVAILABLE, "read_across": _ANALYSIS_UNAVAILABLE,
-            "look_out": _ANALYSIS_UNAVAILABLE, "memory": _ANALYSIS_UNAVAILABLE,
-        }
+        return {f: _ANALYSIS_UNAVAILABLE for f in _ANALYSIS_FIELDS}
 
 
 # ---------------------------------------------------------------------------

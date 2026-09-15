@@ -57,6 +57,15 @@ def _fmt_move(pct):
     return f"{_color(pct)} {pct:+.1f}%"
 
 
+_SENTIMENT_EMOJI = {"bullish": "🟢", "bearish": "🔴", "mixed": "🟡", "neutral": "⚪"}
+
+
+def _fmt_sentiment(text):
+    label = text.split(None, 1)[0].lower().rstrip(":-") if text else ""
+    emoji = _SENTIMENT_EMOJI.get(label, "")
+    return f"{emoji} {text}".strip()
+
+
 def _fmt_time(headline):
     published = headline.get("published")
     if not published:
@@ -90,6 +99,7 @@ def render_telegram(alert):
         peers_block = "<i>No peers identified this cycle.</i>"
 
     analysis = alert.get("analysis") or {}
+    sentiment = _fmt_sentiment(_esc(analysis.get("sentiment") or "(not available)"))
     why_moved = _esc(analysis.get("why_moved") or "(not available)")
     read_across = _esc(analysis.get("read_across") or "(not available)")
     look_out = _esc(analysis.get("look_out") or "(not available)")
@@ -98,7 +108,8 @@ def render_telegram(alert):
     return (
         f'<b>{market_name}</b>; <i>{time_str}</i>\n'
         f'<a href="{url}">{title}</a> — <i>{source}</i>\n'
-        f'{primary_line}\n\n'
+        f'{primary_line}\n'
+        f'<b>Sentiment:</b> {sentiment}\n\n'
         f'<b>Analysis:</b>\n'
         f'<i>Why it moved:</i> {why_moved}\n'
         f'<i>Read across the industry:</i> {read_across}\n\n'
