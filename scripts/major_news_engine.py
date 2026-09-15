@@ -421,9 +421,9 @@ def write_analysis(alert, cfg):
         "Respond with ONLY a JSON object, no other text, with exactly these five "
         "string keys:\n"
         "{\n"
-        '  "sentiment": "Exactly one of: Bullish, Bearish, Mixed, Neutral -- then \'"'
-        ' -- \'"\' then a reason clause under 12 words, e.g. \'Bearish -- investors '
-        'reassessing AI capex growth assumptions\'",\n'
+        '  "sentiment": "One word, either Bullish, Bearish, Mixed, or Neutral, then '
+        "a dash then a reason clause under 12 words -- for example: "
+        'Bearish - investors reassessing AI capex growth assumptions",\n'
         '  "why_moved": "1-2 sentences on why the price moved, specific to this news '
         '(use the other coverage above if given, not just the single headline)",\n'
         '  "read_across": "1-2 sentences on what this means for domestic/international '
