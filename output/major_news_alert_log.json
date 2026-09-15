@@ -224,5 +224,29 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-15T06:15:47.476391+00:00",
+    "type": "single_stock",
+    "headline": "SoftBank Group plunges 11% after OpenAI says no IPO this year",
+    "source": "Nikkei Asia",
+    "url": "https://asia.nikkei.com/business/markets/softbank-group-plunges-11-after-openai-says-no-ipo-this-year",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "9984.T",
+      "company": "Softbank Group Corp.",
+      "pct": 8.007544581618653,
+      "last": 6299.0,
+      "prev": 5832.0,
+      "currency": "JPY"
+    },
+    "peers": [],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
