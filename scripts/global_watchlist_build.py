@@ -9,19 +9,31 @@ maintenance step rather than part of the daily SGX pipeline. Can also be run
 manually any time: python global_watchlist_build.py
 
 Pulls constituents of the major global indices from Wikipedia (read_html --
-same "no paid data feed" approach as the rest of this repo; Nikkei 225 is the
-one exception, see fetch_nikkei225), then fetches each ticker's market cap via
-yfinance and drops anything below MIN_MARKET_CAP_USD.
+same "no paid data feed" approach as the rest of this repo; Nikkei 225 is
+the exception, see fetch_nikkei225), then fetches each ticker's market cap
+via yfinance and drops anything below MIN_MARKET_CAP_USD.
 
-Covers 12 markets: US (S&P 500), UK (FTSE 100), Germany (DAX), Hong Kong
-(Hang Seng), Japan (Nikkei 225), South Korea (KOSPI 200), Australia (ASX 200),
-mainland China A-shares (CSI 300), Malaysia (FTSE Bursa Malaysia KLCI),
-Indonesia (IDX LQ45), Thailand (SET50), Singapore (Straits Times Index), plus
-a hand-typed Vietnam seed list (no scrapable VN30 source exists anywhere).
-The Philippines (PSEi) is deliberately excluded -- yfinance has no working
-ticker format for individual PSE stocks, verified 2026-09 (see the comment
-above SEED_CONSTITUENTS), so a fetcher for it would only produce tickers that
-can never be priced.
+Covers 13 markets: US (S&P 500), UK (FTSE 100), Germany (DAX), Hong Kong
+(Hang Seng), Japan (Nikkei 225), South Korea (KOSPI 200), Australia
+(ASX 200), mainland China A-shares (CSI 300), Malaysia (FTSE Bursa Malaysia
+KLCI), Indonesia (IDX LQ45), Thailand (SET50), Singapore (Straits Times
+Index), plus hand-typed Vietnam and Taiwan seed lists. Taiwan was missing
+entirely until 2026-09-15 -- a real gap given TSMC alone is central to the
+whole semiconductor supply chain this alert cares about; caught when a real
+~6% Delta Electronics (Taiwan) move went unflagged simply because the
+market wasn't covered. The first fix attempt scraped topforeignstocks.com's
+"TAIEX components" page, but that source turned out to be fundamentally
+broken -- verified 2026-09-15 that it doesn't contain TSMC, Hon Hai,
+MediaTek, or Delta Electronics at all (every real blue chip was missing),
+while most of what it did contain were Taipei Exchange (OTC) codes
+mislabeled as main-board TWSE. Replaced with a hand-typed seed list of the
+real FTSE TWSE Taiwan 50 constituents (sourced from Wikipedia's TAIEX
+article, cross-checked ticker-by-ticker against yfinance company names) --
+same maintenance model as Vietnam below, and one this alert's $5B floor
+trims down further anyway. The Philippines (PSEi) is deliberately excluded
+-- yfinance has no working ticker format for individual PSE stocks,
+verified 2026-09 (see the comment above SEED_CONSTITUENTS), so a fetcher
+for it would only produce tickers that can never be priced.
 
 A source going stale or a Wikipedia table layout drifting doesn't abort the
 run -- see the try/except in build_candidate_list(); extend SEED_CONSTITUENTS
@@ -70,6 +82,7 @@ FX_TICKERS = {
     "IDR": ("IDR=X", "inverse"),
     "THB": ("THB=X", "inverse"),
     "VND": ("VND=X", "inverse"),
+    "TWD": ("TWD=X", "inverse"),
 }
 
 
@@ -251,6 +264,16 @@ def fetch_sti():
 # Philippines, yfinance DOES have working data for large-cap Vietnamese
 # names under the ".VN" suffix (verified 2026-09: VCB.VN, FPT.VN both
 # return live data), so a hand-typed seed list is worth keeping here.
+# Taiwan (FTSE TWSE Taiwan 50) also has no reliable scrapable source: the
+# topforeignstocks.com "TAIEX components" page looked promising (753 rows,
+# clean columns) but verified 2026-09-15 to be fundamentally wrong -- it does
+# not contain TSMC, Hon Hai, MediaTek, or Delta Electronics at all (every
+# actual blue chip absent), and most of what it does list are Taipei
+# Exchange (OTC) codes mislabeled as main-board TWSE (they 404 under ".TW"
+# but resolve under ".TWO"). This seed list is the real Taiwan 50
+# constituents instead, sourced from Wikipedia's TAIEX article (the
+# "vte FTSE TWSE Taiwan 50 companies" navbox lists names but no tickers) and
+# verified ticker-by-ticker against yfinance company names on 2026-09-15.
 SEED_CONSTITUENTS = {
     "Vietnam (VN30-ish, seed)": [
         ("VCB.VN", "Vietcombank"), ("BID.VN", "BIDV"), ("CTG.VN", "VietinBank"),
@@ -260,6 +283,29 @@ SEED_CONSTITUENTS = {
         ("GAS.VN", "PV Gas"), ("SAB.VN", "Sabeco"), ("MWG.VN", "Mobile World Investment"),
         ("PLX.VN", "Petrolimex"), ("STB.VN", "Sacombank"), ("POW.VN", "PV Power"),
         ("VJC.VN", "VietJet Aviation"), ("SSI.VN", "SSI Securities"),
+    ],
+    "Taiwan (Taiwan 50, seed)": [
+        ("2330.TW", "TSMC"), ("2317.TW", "Hon Hai"), ("2454.TW", "MediaTek"),
+        ("2308.TW", "Delta Electronics"), ("2303.TW", "UMC"), ("2382.TW", "Quanta"),
+        ("2395.TW", "Advantech"), ("2327.TW", "Yageo"), ("2408.TW", "Nanya Technology"),
+        ("3008.TW", "Largan"), ("3034.TW", "Novatek"), ("3037.TW", "Unimicron"),
+        ("3045.TW", "Taiwan Mobile"), ("3231.TW", "Wistron"), ("3481.TW", "InnoLux"),
+        ("3711.TW", "ASE Group"), ("4904.TW", "Far EasTone"), ("4938.TW", "Pegatron"),
+        ("6669.TW", "Wiwynn"), ("2379.TW", "Realtek"), ("2345.TW", "Accton"),
+        ("2357.TW", "Asus"), ("1101.TW", "Taiwan Cement"), ("1216.TW", "Uni-President"),
+        ("1301.TW", "Formosa Plastics"), ("1303.TW", "Nan Ya Plastics"),
+        ("1326.TW", "Formosa Chemicals & Fibre"), ("1590.TW", "AirTac"),
+        ("2002.TW", "China Steel"), ("2207.TW", "Hotai Motor"), ("2301.TW", "Lite-On"),
+        ("2603.TW", "Evergreen Marine"), ("2412.TW", "Chunghwa Telecom"),
+        ("2912.TW", "President Chain Store"), ("6505.TW", "Formosa Petrochemical"),
+        ("9910.TW", "Feng Tay"), ("2801.TW", "Chang Hwa Bank"),
+        ("2880.TW", "Hua Nan Financial"), ("2881.TW", "Fubon Financial"),
+        ("2882.TW", "Cathay Financial"), ("2883.TW", "KGI Financial"),
+        ("2884.TW", "E.SUN Financial"), ("2885.TW", "Yuanta Financial"),
+        ("2886.TW", "Mega Financial"), ("2887.TW", "Taishin Financial"),
+        ("2890.TW", "Bank SinoPac"), ("2891.TW", "CTBC Financial"),
+        ("2892.TW", "First Financial"), ("5871.TW", "Chailease"),
+        ("5876.TW", "Shanghai Commercial & Savings Bank"),
     ],
 }
 
@@ -297,6 +343,7 @@ def build_candidate_list():
     # (Telegram alert "Market Name" line), so these must be real names.
     seed_exchange = {
         "Vietnam (VN30-ish, seed)": ("Vietnam", "HOSE"),
+        "Taiwan (Taiwan 50, seed)": ("Taiwan", "TWSE"),
     }
     for label, rows in SEED_CONSTITUENTS.items():
         region, exchange = seed_exchange[label]
@@ -311,17 +358,32 @@ def build_candidate_list():
 # Market cap enrichment
 # ---------------------------------------------------------------------------
 def _fetch_market_cap(ticker):
+    """Returns (original_ticker, cap, currency, resolved_ticker).
+    resolved_ticker is what should actually be written to the CSV (and
+    later used for live price checks) -- usually the same as the input, but
+    topforeignstocks' "TAIEX" scrape turned out to mix in Taipei Exchange
+    (OTC/emerging-board) listings that 404 under the main-board ".TW"
+    suffix on Yahoo but resolve fine under ".TWO" (confirmed 2026-09-15:
+    roughly 740 of 753 scraped "TAIEX" codes were actually OTC names, not
+    main-board constituents at all -- not a rate-limit issue, a permanently
+    wrong suffix). A clean not-found on a ".TW" ticker is retried once
+    against ".TWO" rather than burning retry passes on a 404 that will
+    never resolve."""
     import time as _time
 
     import yfinance as yf
     from yfinance.exceptions import YFRateLimitError
 
+    def _pull(sym):
+        info = yf.Ticker(sym).fast_info
+        cap = info.get("market_cap") or info.get("marketCap")
+        currency = info.get("currency")
+        return cap, currency
+
     for attempt in range(3):
         try:
-            info = yf.Ticker(ticker).fast_info
-            cap = info.get("market_cap") or info.get("marketCap")
-            currency = info.get("currency")
-            return ticker, cap, currency
+            cap, currency = _pull(ticker)
+            return ticker, cap, currency, ticker
         except YFRateLimitError:
             # At ~1800 tickers this reliably trips Yahoo's rate limit
             # partway through (confirmed 2026-09-14: everything queued after
@@ -333,23 +395,56 @@ def _fetch_market_cap(ticker):
             if attempt < 2:
                 _time.sleep(3 * (attempt + 1))
                 continue
-            return ticker, None, None
+            return ticker, None, None, ticker
         except Exception:  # noqa: BLE001 -- one bad ticker must not sink the run
-            return ticker, None, None
-    return ticker, None, None
+            if ticker.endswith(".TW"):
+                alt = ticker[:-3] + ".TWO"
+                try:
+                    cap, currency = _pull(alt)
+                    return ticker, cap, currency, alt
+                except Exception:  # noqa: BLE001
+                    pass
+            return ticker, None, None, ticker
+    return ticker, None, None, ticker
 
 
 def enrich_with_market_cap(candidates, max_workers=8):
-    results = {}
-    with ThreadPoolExecutor(max_workers=max_workers) as pool:
-        futures = {pool.submit(_fetch_market_cap, t): t for t in candidates}
-        done = 0
-        for fut in as_completed(futures):
-            ticker, cap, currency = fut.result()
-            results[ticker] = (cap, currency)
-            done += 1
-            if done % 200 == 0:
-                print(f"  market cap: {done}/{len(candidates)} checked")
+    """Runs in up to 3 passes rather than one shot. A contiguous block of
+    tickers reliably trips Yahoo's rate limiter under sustained load --
+    confirmed 2026-09-15: adding Taiwan's ~750 candidates pushed the total
+    past ~2500, and the whole tail of regions submitted after that point
+    (South Korea, Singapore, Indonesia, Thailand) came back almost entirely
+    empty even with _fetch_market_cap's per-ticker retries, because those
+    retries only wait a few seconds -- not long enough to outlast a
+    sustained rate-limit window. A second and third full pass over just the
+    tickers still missing, after a real cooldown and at reduced
+    concurrency, recovers the transient failures while still letting
+    genuinely bad tickers end up None after all passes. (Taiwan's own
+    near-total failure turned out to be a separate, permanent wrong-suffix
+    bug -- see _fetch_market_cap -- not something more passes could fix.)"""
+    import time as _time
+
+    results = {t: (None, None, t) for t in candidates}
+    pending = list(candidates)
+    workers = max_workers
+    for pass_num in range(3):
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            futures = {pool.submit(_fetch_market_cap, t): t for t in pending}
+            done = 0
+            for fut in as_completed(futures):
+                ticker, cap, currency, resolved = fut.result()
+                results[ticker] = (cap, currency, resolved)
+                done += 1
+                if done % 200 == 0:
+                    print(f"  market cap: {done}/{len(pending)} checked (pass {pass_num + 1})")
+        pending = [t for t in pending if results[t][0] is None]
+        if not pending:
+            break
+        if pass_num < 2:
+            print(f"  market cap: {len(pending)} tickers still missing after pass "
+                  f"{pass_num + 1}/3, cooling down 60s before retry...")
+            _time.sleep(60)
+            workers = max(3, workers - 2)
     return results
 
 
@@ -426,12 +521,12 @@ def main():
 
     rows = []
     for ticker, (name, region, exchange) in candidates.items():
-        cap, currency = caps.get(ticker, (None, None))
+        cap, currency, resolved_ticker = caps.get(ticker, (None, None, ticker))
         cap_usd = to_usd(cap, currency, fx_rates)
         if cap_usd is None or cap_usd < MIN_MARKET_CAP_USD:
             continue
         rows.append({
-            "ticker": ticker,
+            "ticker": resolved_ticker,
             "company_name": name,
             "aliases": "",
             "exchange": exchange,

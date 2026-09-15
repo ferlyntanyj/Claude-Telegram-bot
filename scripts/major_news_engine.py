@@ -138,7 +138,7 @@ _EXCHANGE_BY_SUFFIX = {
     ".TO": "Canada · TSX", ".NS": "India · NSE", ".BO": "India · BSE",
     ".SS": "China · Shanghai", ".SZ": "China · Shenzhen", ".MI": "Italy · Borsa Italiana",
     ".KL": "Malaysia · Bursa Malaysia", ".JK": "Indonesia · IDX", ".BK": "Thailand · SET",
-    ".VN": "Vietnam · HOSE",
+    ".VN": "Vietnam · HOSE", ".TW": "Taiwan · TWSE", ".TWO": "Taiwan · TPEx",
 }
 
 
