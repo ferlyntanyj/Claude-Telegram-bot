@@ -1,16 +1,15 @@
-# Global Semiconductor Brief -- 15 Sep 2026, 00:28 SGT
-
-## Policy & geopolitics
-- [Nvidia, Palantir, and others restrict advanced AI model usage over privacy concerns, report claims — 'paranoia' rising over customer intellectual property](https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-palantir-and-others-restrict-advanced-ai-model-usage-over-privacy-concerns-report-claims-paranoia-rising-over-customer-intellectual-property) — Tom's Hardware
+# Global Semiconductor Brief -- 15 Sep 2026, 13:10 SGT
 
 ## Supply chain signals
-- [STMicro lead times top 1 year, boosting Taiwan chip makers](https://www.digitimes.com/news/a20260914PD227/mcu-capacity-supply-chain-demand-market.html) — DIGITIMES
-- [DIGITIMES Insight: High NA EUV chips near production, but economics will be the pacemaker](https://www.digitimes.com/news/a20260914PD217/euv-asml-production-digitimes-chips.html) — DIGITIMES
+- [Sivers Semiconductors positions laser arrays as solution to copper's limits](https://www.digitimes.com/news/a20260914VL219/laser-copper-expo-market-demand.html) — DIGITIMES
+- [Ainos pushes AI Nose into semiconductor front-end manufacturing](https://www.digitimes.com/news/a20260915PD222/ai-commercial-data-equipment-industrial-manufacturing.html) — DIGITIMES
+- [Samsung Display deepens ties with Vivo's iQOO through dedicated OLED line](https://www.digitimes.com/news/a20260915VL205/sdc-vivo-technology-panel-flagship.html) — DIGITIMES
+- [Chinese chip tools reach 35% of equipment installed at local fabs](https://www.digitimes.com/news/a20260914VL222/equipment-2025.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Micron Stock Sinks Again. What AI Safety Fears Mean for Memory Chips.](https://news.google.com/rss/articles/CBMiggFBVV95cUxPTHV5ZDlaVFl4bzRZM0UyNUo5M0VLXzc4d0VXcmI2RV9YWlRVUjI1d1YwejNmMUwtQ1VVMWI0SENOeUVuZTdON0NCaWxKWFVaYmswOVJXWHkxMmJQcnQ4enNkSzZ6OUpmTnJ4TjQzZWdSWnNRU282bVUxYUxHX0VPY2J3?oc=5) — Barron's
-- [Nvidia Stock Drops. It’s Still the Best Chip Bet in an AI Slowdown.](https://news.google.com/rss/articles/CBMigwFBVV95cUxNd28zaEgxYzJOZi1kWWhWa0Y5RG5za0VEUDN5dEVXTjVPdzhnTlhLX3BIaUdTNUEtN20zRWhkandEbDlZaTNiX0VrUkQ2aFQ3Z3BvbmlDeTI5enc2RUJqaTkzV3FZZWxZUmxqMXBNZ25MNnRLMDhPYmV1aTd0WWc3MERLWQ?oc=5) — Barron's
-- [Why Nvidia Stock Could Be the Best Chip Bet in an AI Slowdown](https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNzVSdXFNZHhnU3hwbGFoalB3WWJwYkxvM0djc3ROTFFSaEo1N3lZeHVxU2dSbjdhNTk2ZDF2VFFFdHRNcndJS2xwYzNLTGFEdV9yRjgzWVZlM0NBa0xoODU3WnF0eTJzQTR1eldxXzBjN2RaUk9Qb21ONy0zYU1iU01tSkYxMWJJWnoydmdLTFU5NnhlWm9nQzRkdGJjRm9NMUxhci1RUnFGTTM5eUR6QWZ4T3dMa0JZeFZIajBHT05BZG5HYmNCbjM4WkpIYUowem02Y0haNFFxX3lLTkJoRjNDSFJ2QlN4RVow?oc=5) — Barron's
-- [Samsung, SK Hynix reject KEPCO’s $17 billion power-bill prepayment plan](https://news.google.com/rss/articles/CBMid0FVX3lxTE5DS1AzbkRlNmV4cTRvaUFHZXdBSGdhVDNudmhvbVE3MnQ3X0tmZHVIWE4zZjBHdVZFblpsdHBiLW1zdFZWVVVMNVlNbU80ay12QXg5bF9vUmh4UWJWM0FsZGEtR01rLXlCdmFZZmtNLV9CWjdCaGFJ?oc=5) — KED Global
+- [TSMC 3nm, 2nm, and CoWoS stay tight as AWS, MediaTek, TPU shift capacity](https://www.digitimes.com/news/a20260915PD214/tsmc-3nm-2nm-capacity-cowos.html) — DIGITIMES
+- [Samsung backs Nvidia AI chip rival in $230 million funding round as GPU alternatives boom](https://news.google.com/rss/articles/CBMidkFVX3lxTE1ydVhNMHFzRmctZVp2Sjlsd0tXMm5pNTN6UGoyczRpZlBUTjhITy1ybEQ4SDh0MWNZb09ldElzWEZWS3BBTVZwdnlzQXRBM0FFSzEzOXNCVlJneEFydmdXQWc1MVVCZlZRN1lyWG1KM3U0OXd4aUHSAXtBVV95cUxQSWlJd0JfRlNxTVIwNjEyaG5JQWZwYTRic0lfNFVha09oLVF0UGlyemVpOW1USGN5SlpiWXRiVUxSaVllTnZoaXhGZ3dpR0lkUUlIYTVUWkxTaDJYOUYzYXktbnVRNmgzeDJiWFNLWE5icW5UZTRxVzU2UXc?oc=5) — CNBC
+- [Broadcom CEO addresses Anthropic's slowdown push, says AI revenue targets haven't changed](https://news.google.com/rss/articles/CBMisAFBVV95cUxOamtMaEl3OW04aFdDZXY3Q0tDMnRWWHNna3h1ak5HTi1INUZIX0h6R1g1Z0JKOC1NSkR1R3VCVUFzTktFR0g0T2V4QzNRQkgtRlZ4YUltRGc0eGdITDhCY3N4M1VaRU5Nd2w1TWJXMnNSNTZPRHBkTUwwM0lUZkhmU1VzNnhtUXl2TTlPcGJ3c2NabEhmTDA3RGNaMGtKTmQzZG1hdm1sbzBDRHlmYXNZZ9IBtgFBVV95cUxQRk56b2o1TFpzTnZKNGpOVm5QeUxNZzk4SC11d1FGUnNNX1ltU0lTaGdYQjB4Qjl5aExrTjVJQ0xpWlVVQ2tqdGE4UU1tajBRZWM5NWVMVXJvcU1zZFFGX254NzV3V3RSLUVUR0E0VVc5REZxM01WbE9IZi1FWkNiaW5VbGJXbmtsdXQyS3Z4d0FNd2VlSDdJRlZDRDJZQnp1dmhyc2hQVDBBMENxaUlYc05IcHhfQQ?oc=5) — CNBC
+- [2nm capacity crunch may keep smartphone SoC makers on split-node strategy through 2027](https://www.digitimes.com/news/a20260915PD208/smartphone-2nm-capacity-soc-2026.html) — DIGITIMES
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (7 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
