@@ -1,2 +1,4 @@
 stock_code,issuer_name,last_buyback_date,days_since_run_date,prior_buyback_date,days_since_prior_buyback,url
-41B,HUATIONG GLOBAL LIMITED,2026-09-14,0,,,https://links.sgx.com/1.0.0/corporate-announcements/CJXLEYNLU1OO2YLZ/2c50bbf7418262ed68ab8f8593b386aa4548a17b353aa61df154b073bf1b3c43
+41B,HUATIONG GLOBAL LIMITED,2026-09-14,1,,,https://links.sgx.com/1.0.0/corporate-announcements/CJXLEYNLU1OO2YLZ/2c50bbf7418262ed68ab8f8593b386aa4548a17b353aa61df154b073bf1b3c43
+NEX,RECLAIMS GLOBAL LIMITED,2026-09-14,1,2026-08-05,40.0,https://links.sgx.com/1.0.0/corporate-announcements/3TJ06PG1BM06HDUR/c730125e264094895e1350b7a49a90d8a3e9c56e000230092fb40dd4189e7070
+F99,FRASER AND NEAVE LIMITED.,2026-09-14,1,2026-09-08,6.0,https://links.sgx.com/1.0.0/corporate-announcements/WOMF3RL1O2VVVJUP/435c2bac5afa5077552294e5b3faa63104b88b180962b5e8a0c31cea82b20096
