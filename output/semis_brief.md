@@ -1,15 +1,15 @@
-# Global Semiconductor Brief -- 16 Sep 2026, 13:05 SGT
+# Global Semiconductor Brief -- 16 Sep 2026, 23:07 SGT
 
 ## Supply chain signals
-- [Samsung reportedly weighs Micron's newest memory for Galaxy S27](https://www.digitimes.com/news/a20260916PD210/samsung-galaxy-micron-mobile-dram.html) — DIGITIMES
-- [Apple reportedly accepts Samsung's 1Q27 memory hike, raising the 2027 smartphone cost floor](https://www.digitimes.com/news/a20260916VL210/apple-samsung-2027-smartphone-cost.html) — DIGITIMES
-- [Samsung backs Dutch AI chip startup Euclyd in US$230M funding round](https://www.digitimes.com/news/a20260916VL208/samsung-dutch-startup-ai-chip-funding.html) — DIGITIMES
-- [Samsung reportedly pushes conventional memory modules to partners in Vietnam and India as HBM crowds its back end](https://www.digitimes.com/news/a20260916VL201/samsung-memory-module-vietnam-india-production-hbm-packaging.html) — DIGITIMES
+- [Analysis: Jensen Huang is in Trump's ear; what it means for Taiwan's chip supply chain](https://www.digitimes.com/news/a20260916PD226/nvidia-jensen-huang-taiwan-ai-technology.html) — DIGITIMES
+- [Samsung advances jump 70% amid shift to long-term memory deals](https://www.digitimes.com/news/a20260916VL222/samsung-demand-dram-2026-capacity.html) — DIGITIMES
+- [Nvidia's Jensen Huang expected to attend Trump-Xi Summit as tech and trade take center stage](https://www.digitimes.com/news/a20260916VL218/donald-trump-xi-jinping-jensen-huang-nvidia-ai.html) — DIGITIMES
+- [Piecemakers bets edge AI devices will diverge from reliance on HBM — custom-designed memory fuses DRAM stack directly to the processor using hybrid bonding](https://www.tomshardware.com/tech-industry/semiconductors/piecemakers-bets-edge-ai-devices-will-diverge-from-reliance-on-hbm-custom-designed-memory-fuses-dram-stack-directly-to-the-processor-using-hybrid-bonding) — Tom's Hardware
 
 ## News — M&A, capex, capacity, earnings
-- [Micron unveils 512GB DDR5 RDIMM for next-gen servers](https://www.digitimes.com/news/a20260916VL209/micron-ddr5-256gb-dram-capacity.html) — DIGITIMES
-- [Glass substrates, TGV set to reshape 2027 advanced packaging race](https://www.digitimes.com/news/a20260916PD221/ai-chip-2027-substrate-technology-materials.html) — DIGITIMES
-- [Inside South Korea’s university programs offering a direct route to Samsung and SK Hynix](https://news.google.com/rss/articles/CBMilAFBVV95cUxNay1oSUY0Z1AwY1E0ZHdUeF9jRUNuRldkakZ2RWlnal95OVV0Y2lhREVPZDV4OUlCbHgtSUU3MlM2UE9RaVlMaXpOMjR1SGlDR0R3ZFRna3VkZWdHMl9RUDJ3NWJlTnBHdGZRaUlrb2xqTEx5aHhlWWU5SXA1azZNa09NMlEwbGszVURfal9tSHI0UDZ10gGaAUFVX3lxTE54eGd5Wlc4S2p0REozaXVHZGJrTzhyS2ZxRG4tbkxiblBqZnNGRXpIdFB5Nk5YNl9mVnVUY3g3dHp1dVF3VmV2Qm5ZQ29fUDBocWdSZzEwN3Y3T0xGS3F6aUtIbzRIZVRuWnE3eTJPQ0hRb1hSWU9jVFFFS0JwcVNVZl9xa3dhX05IWms0V2NyZTVSTjJUdnk0OUE?oc=5) — CNBC
-- [Altera confidentially files for US IPO as AI chip demand fuels listing boom](https://www.digitimes.com/news/a20260916VL206/altera-ipo-demand-intel-silver-lake.html) — DIGITIMES
+- [Intel Shares Rise Premarket on Report of SK Hynix U.S. Manufacturing Talks](https://news.google.com/rss/articles/CBMiugFBVV95cUxOUUtUMmVzUndwaXpLc1lnX3hxN01jb1NsWmJOSGdjMmpWU2VOcF9rWDVoUWtfaHJZRnJvTFh4ZUdlZlRqOGdRSEdfQUdhMjVVOGwtWHlSM0lzektkS283d3dSaTZWUjlNU1V1bnltZEtqSElSREJBRnotaTU0aF8zRTRCWmQyQWNVWlZFRWJhd2ZDQUhjVHFnVWtqbVV6ajRTc2IwWkd4QjFid0I1SDJLalZTRmhuQ1lKWFE?oc=5) — WSJ
+- [SK Hynix Says Exploring Options After Report of Intel Tie-Up](https://news.google.com/rss/articles/CBMisAFBVV95cUxNUGJ4clRVOGpDRDRSelNuU1dPWk1qVlg3WUd2UU15eWhLRDhYMGFsbHlxNmg4aVZyZ2pud29hT1JsM01DTHhvTWFRbDE0Q3oyMTVqTDhzemRhczVoMXBaMElsQ2hheldzRG1xWkJTQ1dDSUNFSFg2MVc0bjUwR3lxci0xWlF0UmtYMm03bU5BOHJELU1TNkJqcWJXVkNYYzBQNU1DOHZaYy1lSUFhWS1UQQ?oc=5) — Bloomberg.com
+- [Intel Can Join Memory-Chip Boom With SK Hynix. Why the Stock Can Double.](https://news.google.com/rss/articles/CBMijwFBVV95cUxNb2pUS09nVnNaUjhVVHZ5SzlLVTVrd2hTVGtycDloeWR5T2lXbkY5eFBVdzFobS1LMVdidW9LQ3FjSnluVGFMM1dvRnZNV185d25OOHB2aS04ZGd0M2VUMUVSd185QzhfV29QcDYwZFRQVDFKUW1KVXJrZXk5VmprMVdyTmROd0JtOG1VRVVMZw?oc=5) — Barron's
+- [Micron Faces New Threat to Its U.S. Memory-Chip Supremacy](https://news.google.com/rss/articles/CBMihgFBVV95cUxQVmMyUmVzeVpqTjdla19iX3RIUzJmOWpaNHZONEJFWnp5UmU4RnJoOEo5MnRCcWEzQ3I0VF92M0F6U0VydnVNNEVxSWVyYUZUcFhMTGZGZXFNZkZHMzlfbzJldUdLeDVHZHo3bGRqRkFNVEJvNHJkb3pwbDFsWWdJT1gwOW9QQQ?oc=5) — Barron's
 
 _Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
