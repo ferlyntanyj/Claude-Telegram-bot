@@ -1,15 +1,15 @@
-# Global Semiconductor Brief -- 15 Sep 2026, 23:11 SGT
+# Global Semiconductor Brief -- 16 Sep 2026, 13:05 SGT
 
 ## Supply chain signals
-- [Astera Labs targets the KV cache bottleneck as agentic AI outgrows GPU memory](https://www.digitimes.com/news/a20260915VL218/astera-labs-memory-controller-cpu-ai-inference-dram.html) — DIGITIMES
-- [Apple's foldable debut set to further widen Samsung Display's OLED lead](https://www.digitimes.com/news/a20260915VL225/sdc-apple-foldable-panel-iphone.html) — DIGITIMES
-- [China's Guoxin Micro buys its way into power-chip manufacturing](https://www.digitimes.com/news/a20260914VL215/manufacturing-wafer-sic-capacity-price.html) — DIGITIMES
-- [Interview: Corning sees CPO, glass core as new semiconductor battlegrounds](https://www.digitimes.com/news/a20260915PD233/corning-cpo-packaging-demand-auo.html) — DIGITIMES
+- [Samsung reportedly weighs Micron's newest memory for Galaxy S27](https://www.digitimes.com/news/a20260916PD210/samsung-galaxy-micron-mobile-dram.html) — DIGITIMES
+- [Apple reportedly accepts Samsung's 1Q27 memory hike, raising the 2027 smartphone cost floor](https://www.digitimes.com/news/a20260916VL210/apple-samsung-2027-smartphone-cost.html) — DIGITIMES
+- [Samsung backs Dutch AI chip startup Euclyd in US$230M funding round](https://www.digitimes.com/news/a20260916VL208/samsung-dutch-startup-ai-chip-funding.html) — DIGITIMES
+- [Samsung reportedly pushes conventional memory modules to partners in Vietnam and India as HBM crowds its back end](https://www.digitimes.com/news/a20260916VL201/samsung-memory-module-vietnam-india-production-hbm-packaging.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Silver Lake, Intel-backed Altera confidentially files for US IPO](https://news.google.com/rss/articles/CBMikwFBVV95cUxQSkFQajNXclRkalhsUnFQNTNSeW5wUzVvZU1aSUhITHItTTN2VW1yV2V4NGtzZ0xaa1NlcjFwZXotcldDRkt2cGRmbzExa1BycXVJMElxTHlwOGVaSGd2cDJmeWJGSm1xeXc0NzZ5akQydlBJa1lCVkJQajRiWmxzS2dZc0g1ZFdKSVlBOEFNZjZUU3M?oc=5) — Reuters
-- [Intel-Backed Chipmaker Altera Files Confidentially for IPO](https://news.google.com/rss/articles/CBMirgFBVV95cUxOZEpJREdjcnZEY0w0UlFyWHpuMFU4RW1MSzM5MGdzeUlMZXZCcGFNYnFCMWo5WUcwcUlIQ1dUT0Vnd251NV9DWElDdnh4cG8zV3BjWGhFMm5hRUtMNXVSakpMN0ZNa1l5akFWSkNsRGVldzFvNFB6cWsxSGY5bUZkRmROZDF0Ul9ia0R2QVZfS1ota3lMSlNOeHI1ZmQ1cUV0WnlUTnZMVEhGMjMybXc?oc=5) — Bloomberg.com
-- [Delos Data, a chip startup founded by Intel veterans, raises $100 million for AI networks](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMUpwdm5VMU9vRHllRDBiTm8wVXNCU0ZZT0dUZFNDdFNoLXNPN1BaNXVlSTBpMC1sSmh5YkRYZkI1Tk1aOFNJa042T3VzQjJqdFBHSEJTejlvNXdoWU83QlFGVkpINE4xeUZyV1paYTNCSUE4cktrRjNVZ1poUUw4VDZJV04tSDlzU1hlc1ZERGdTZTFPZGR1eGZsbkdObmhoNFJjM0lKdjZBVzBUbHdLYzMyTzdfWmZZV00wa2NmcEtTSTg?oc=5) — Reuters
-- [MediaTek launches new mobile chip using TSMC's most advanced technology](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUUVlcUMzUkQ4NXk1QVkxeFc0NTBCenZSWTExWDJkeS1CaE1hamtXNHZmbmZHc2tKVXZSUGhOSGdCUnVTSGdxMTJPWm1vcmVRazl3Vm1fR2RPSU1heVFtRjBtUm4zWTkxYk1tM1J3ZmpyRW5RRXFIT1BJU1djQzBUeExSeTRZNEhnck84ek1zYTVOb2l5R2JzVmhvU20tMXVROWpuRmFDYjhyWDVkbThtQXlfQW4yZWhGa1lOUkJXV0VlcVNvTXl0Xw?oc=5) — Reuters
+- [Micron unveils 512GB DDR5 RDIMM for next-gen servers](https://www.digitimes.com/news/a20260916VL209/micron-ddr5-256gb-dram-capacity.html) — DIGITIMES
+- [Glass substrates, TGV set to reshape 2027 advanced packaging race](https://www.digitimes.com/news/a20260916PD221/ai-chip-2027-substrate-technology-materials.html) — DIGITIMES
+- [Inside South Korea’s university programs offering a direct route to Samsung and SK Hynix](https://news.google.com/rss/articles/CBMilAFBVV95cUxNay1oSUY0Z1AwY1E0ZHdUeF9jRUNuRldkakZ2RWlnal95OVV0Y2lhREVPZDV4OUlCbHgtSUU3MlM2UE9RaVlMaXpOMjR1SGlDR0R3ZFRna3VkZWdHMl9RUDJ3NWJlTnBHdGZRaUlrb2xqTEx5aHhlWWU5SXA1azZNa09NMlEwbGszVURfal9tSHI0UDZ10gGaAUFVX3lxTE54eGd5Wlc4S2p0REozaXVHZGJrTzhyS2ZxRG4tbkxiblBqZnNGRXpIdFB5Nk5YNl9mVnVUY3g3dHp1dVF3VmV2Qm5ZQ29fUDBocWdSZzEwN3Y3T0xGS3F6aUtIbzRIZVRuWnE3eTJPQ0hRb1hSWU9jVFFFS0JwcVNVZl9xa3dhX05IWms0V2NyZTVSTjJUdnk0OUE?oc=5) — CNBC
+- [Altera confidentially files for US IPO as AI chip demand fuels listing boom](https://www.digitimes.com/news/a20260916VL206/altera-ipo-demand-intel-silver-lake.html) — DIGITIMES
 
 _Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
