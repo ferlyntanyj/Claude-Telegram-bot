@@ -248,5 +248,29 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-16T17:02:49.799449+00:00",
+    "type": "single_stock",
+    "headline": "J.B. Hunt stock plunges 10% after company warns third-quarter earnings will fall",
+    "source": "CNBC Markets",
+    "url": "https://www.cnbc.com/2026/09/16/jb-hunt-stock-jbht-earnings.html",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "JBHT",
+      "company": "J.B. Hunt",
+      "pct": -5.28811502521812,
+      "last": 235.6999969482422,
+      "prev": 248.86,
+      "currency": "USD"
+    },
+    "peers": [],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
