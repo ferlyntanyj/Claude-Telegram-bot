@@ -1,15 +1,18 @@
-# Global Semiconductor Brief -- 16 Sep 2026, 23:07 SGT
+# Global Semiconductor Brief -- 17 Sep 2026, 13:08 SGT
+
+## Policy & geopolitics
+- [20 of China's OSATs push into advanced packaging amid EUV curbs](https://www.digitimes.com/news/a20260917VL207/packaging-euv-equipment-osat-development.html) — DIGITIMES
 
 ## Supply chain signals
-- [Analysis: Jensen Huang is in Trump's ear; what it means for Taiwan's chip supply chain](https://www.digitimes.com/news/a20260916PD226/nvidia-jensen-huang-taiwan-ai-technology.html) — DIGITIMES
-- [Samsung advances jump 70% amid shift to long-term memory deals](https://www.digitimes.com/news/a20260916VL222/samsung-demand-dram-2026-capacity.html) — DIGITIMES
-- [Nvidia's Jensen Huang expected to attend Trump-Xi Summit as tech and trade take center stage](https://www.digitimes.com/news/a20260916VL218/donald-trump-xi-jinping-jensen-huang-nvidia-ai.html) — DIGITIMES
-- [Piecemakers bets edge AI devices will diverge from reliance on HBM — custom-designed memory fuses DRAM stack directly to the processor using hybrid bonding](https://www.tomshardware.com/tech-industry/semiconductors/piecemakers-bets-edge-ai-devices-will-diverge-from-reliance-on-hbm-custom-designed-memory-fuses-dram-stack-directly-to-the-processor-using-hybrid-bonding) — Tom's Hardware
+- [Samsung Galaxy S27 series rumored to feature 4 models, reshaping flagship lineup with display and camera upgrades](https://www.digitimes.com/news/a20260916PD239/samsung-galaxy-flagship-smartphone-camera-display.html) — DIGITIMES
+- [Samsung expands SRAM, IP to speed chip development](https://www.digitimes.com/news/a20260917PD219/samsung-ip-development-sram-design.html) — DIGITIMES
+- [AI's memory appetite is squeezing the electronics industry from the bottom up, Intel warns](https://www.digitimes.com/news/a20260917VL205/production-electronics-infrastructure-demand-manufacturing.html) — DIGITIMES
+- [SK Hynix weighs US memory options as buyers lock in 2027 supply](https://www.digitimes.com/news/a20260917VL208/sk-hynix-2027-intel-investment-hbm.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Intel Shares Rise Premarket on Report of SK Hynix U.S. Manufacturing Talks](https://news.google.com/rss/articles/CBMiugFBVV95cUxOUUtUMmVzUndwaXpLc1lnX3hxN01jb1NsWmJOSGdjMmpWU2VOcF9rWDVoUWtfaHJZRnJvTFh4ZUdlZlRqOGdRSEdfQUdhMjVVOGwtWHlSM0lzektkS283d3dSaTZWUjlNU1V1bnltZEtqSElSREJBRnotaTU0aF8zRTRCWmQyQWNVWlZFRWJhd2ZDQUhjVHFnVWtqbVV6ajRTc2IwWkd4QjFid0I1SDJLalZTRmhuQ1lKWFE?oc=5) — WSJ
-- [SK Hynix Says Exploring Options After Report of Intel Tie-Up](https://news.google.com/rss/articles/CBMisAFBVV95cUxNUGJ4clRVOGpDRDRSelNuU1dPWk1qVlg3WUd2UU15eWhLRDhYMGFsbHlxNmg4aVZyZ2pud29hT1JsM01DTHhvTWFRbDE0Q3oyMTVqTDhzemRhczVoMXBaMElsQ2hheldzRG1xWkJTQ1dDSUNFSFg2MVc0bjUwR3lxci0xWlF0UmtYMm03bU5BOHJELU1TNkJqcWJXVkNYYzBQNU1DOHZaYy1lSUFhWS1UQQ?oc=5) — Bloomberg.com
-- [Intel Can Join Memory-Chip Boom With SK Hynix. Why the Stock Can Double.](https://news.google.com/rss/articles/CBMijwFBVV95cUxNb2pUS09nVnNaUjhVVHZ5SzlLVTVrd2hTVGtycDloeWR5T2lXbkY5eFBVdzFobS1LMVdidW9LQ3FjSnluVGFMM1dvRnZNV185d25OOHB2aS04ZGd0M2VUMUVSd185QzhfV29QcDYwZFRQVDFKUW1KVXJrZXk5VmprMVdyTmROd0JtOG1VRVVMZw?oc=5) — Barron's
-- [Micron Faces New Threat to Its U.S. Memory-Chip Supremacy](https://news.google.com/rss/articles/CBMihgFBVV95cUxQVmMyUmVzeVpqTjdla19iX3RIUzJmOWpaNHZONEJFWnp5UmU4RnJoOEo5MnRCcWEzQ3I0VF92M0F6U0VydnVNNEVxSWVyYUZUcFhMTGZGZXFNZkZHMzlfbzJldUdLeDVHZHo3bGRqRkFNVEJvNHJkb3pwbDFsWWdJT1gwOW9QQQ?oc=5) — Barron's
+- [China's Huawei sets 2027 launch for new AI chips as it targets Nvidia](https://news.google.com/rss/articles/CBMingFBVV95cUxQUUF2NV9DeFExYkFNQS1hQnZfTjFBY05sRjRmN3hMQkxoTmo0aEYtMnNyU3BnRUZPUzVtZGt6ZjE1ZWVsRldkWG1RMVUyaWpFWTg1Q3paeENVblNJUi1ITktZemVWRy1tbGc3OHd5QkFLT0Zya1UyOE13LW1XbTN4d002Zi1ReXJHRlZDNTZlUmh5cmFEcmhlNk9ET2JWZw?oc=5) — Reuters
+- [Nvidia Partner GMI Cloud Seeks Loan to Buy Chips for Thai Site](https://news.google.com/rss/articles/CBMiswFBVV95cUxNa29zX2dMc0RNT0pzbnc3czFCajNQcC1kQ1BLSkRlN2ZRQml2UUZNRGxkdy12TW5vQkVqMVBRTEdGZnpuVUprMFM1VEhPaUdYMHNHa0xoTzVjdUIzb2Q2aFBhdFlkNzVzWksxZW4yTnNmTVhSbzhKY2tpWWlpdlZWSXJtRi0wY05zRTdBZEtncDZ5QmoybTJHWi01TDdtQVpkUmJKNTFqMzVfMW51blg3RHRXSQ?oc=5) — Bloomberg.com
+- [Huawei debuts 11 AI-related chips in challenge to Nvidia, Intel, AMD](https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZnRPNmFIYlRLSE8xOUVHSndyN0Z6ZjM3LTllaUh4V1pMS05CV2RjUkxuV3BjNUxycXdYTlUzVEl6VTBjUDBUTHpNdVFYUUl0UW9DUUlTdzBOclZpLUpiMXUyaGQybU1DZzV2RUF5Z3ZqaU5QeXNZSm5ibUxNRk9fYXlyRkJXRnVoZW00NnBNMFE1ZXRVN0U1N2Y5WFA5RnhFVDA0bE5EYk9aZklvS2VWVVZaaUJQd1V6V1ZB?oc=5) — Nikkei Asia
+- [Huawei Set to Unveil China’s Best Answer to Nvidia AI Chip Reign](https://news.google.com/rss/articles/CBMitgFBVV95cUxOcHJ3Q0EwbFRwV2xZcHF0XzNtMVV2X0U1cVZ2bU1SRHBwRm51RlA1cGc2UmxST0JNbThJcUoxclFZTTVzeGlfcEREbjI3TjR3MGFYU1M4ZnpfbFgya2ltY3JxYk0zdXNFUXBNQURsODIzanFJa05UbzJJYmVwbF95MGRKajVCSTJfekM5QmNmRTRQajNFbmlEMFRoblBXVUtXSWFwNUNkMXU1WVhLWGE3QmFnaFVsUQ?oc=5) — Bloomberg.com
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
