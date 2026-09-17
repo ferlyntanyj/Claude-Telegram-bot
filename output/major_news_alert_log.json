@@ -272,5 +272,50 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-17T14:01:17.722136+00:00",
+    "type": "single_stock",
+    "headline": "Huawei debuts 11 AI-related chips in challenge to Nvidia, Intel, AMD",
+    "source": "Nikkei Asia",
+    "url": "https://asia.nikkei.com/business/tech/semiconductors/huawei-debuts-11-ai-related-chips-in-challenge-to-nvidia-intel-amd",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "INTC",
+      "company": "Intel",
+      "pct": 5.997471275028765,
+      "last": 108.87000274658203,
+      "prev": 102.71,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices, Inc.",
+        "pct": 3.846189072775741
+      },
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm Incorporated",
+        "pct": 1.7741951891171004
+      },
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "pct": 1.4465889520390407
+      },
+      {
+        "ticker": "TSM",
+        "company": "Taiwan Semiconductor Manufacturing Company Limited",
+        "pct": 0.9022581156512111
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
