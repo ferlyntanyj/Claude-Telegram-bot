@@ -317,5 +317,29 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-17T16:30:57.075696+00:00",
+    "type": "single_stock",
+    "headline": "Generac shares surge on big Amazon deal. Wall Street thinks the generator stock has more to go",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbEdoeVlfaHJ4ckRLa0xrWjNJMkJ0dHhiR0F3bW9MVlllYWhqcVhZbUN1b1NHSDJSOVI5TkhSa3B4aHNOS0poM0xkbXdreTNVN2J5UGlacTVDOHp4d2RodHAtWUg2dFFoTTdHbjhJektuU0stVFBhQzQxS2lKSGtkb18wWEUyMGt5Nk55dVZ0aFRCRzNLdWh2clczb0l6WnRqYlU5Q1BiTVBCSW0xa3Qw?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "GNRC",
+      "company": "Generac",
+      "pct": -9.079531475508896,
+      "last": 211.82650756835938,
+      "prev": 232.98,
+      "currency": "USD"
+    },
+    "peers": [],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
