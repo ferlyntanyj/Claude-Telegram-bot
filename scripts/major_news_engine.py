@@ -258,6 +258,94 @@ def _tradeable_now(ticker, now_utc):
     return local.weekday() < 5 and open_t <= local.time() <= close_t
 
 
+# ---------------------------------------------------------------------------
+# US pre-market -- a deliberately narrow, bounded extension (2026-09-18) of
+# the trading-hours gate above, not a general extended-hours feature. Scoped
+# to the US only: it's the market this was verified against (Intel's real
+# live pre-market move, +3.03% on top of its already-known regular-session
+# close), and the only one confirmed to expose reliable pre/post-market data
+# via yfinance at all. Deliberately regular-hours-only for every other
+# market and for US after-hours too -- extending this further was
+# considered and explicitly declined (thin extended-hours liquidity elsewhere
+# makes the moves noisier, and checking .info -- a much heavier call than
+# fast_info or a batched daily-bar download -- for every watchlist name
+# every cycle isn't worth it for signal this marginal). Only runs the extra
+# per-ticker fetch during the ~5.5h US pre-market window itself, not on
+# every cycle of the day, keeping the added cost bounded to when it's
+# actually useful.
+# ---------------------------------------------------------------------------
+_US_PREMARKET_OPEN = dt.time(4, 0)
+_US_PREMARKET_CLOSE = dt.time(9, 30)
+
+
+def _is_us_premarket_now(now_utc):
+    import zoneinfo
+
+    local = now_utc.astimezone(zoneinfo.ZoneInfo("America/New_York"))
+    return local.weekday() < 5 and _US_PREMARKET_OPEN <= local.time() < _US_PREMARKET_CLOSE
+
+
+def _fetch_premarket_move(ticker):
+    """Only trusts Yahoo's own marketState=='PRE' confirmation rather than
+    just checking whether preMarketPrice is present -- .info can carry a
+    stale preMarketPrice field outside the actual pre-market window."""
+    import time as _time
+
+    import yfinance as yf
+    from yfinance.exceptions import YFRateLimitError
+
+    for attempt in range(2):
+        try:
+            info = yf.Ticker(ticker).info
+            if info.get("marketState") != "PRE":
+                return ticker, None
+            last = info.get("preMarketPrice")
+            prev = info.get("regularMarketPrice")
+            pct = info.get("preMarketChangePercent")
+            if last is None or prev is None or pct is None:
+                return ticker, None
+            return ticker, {"last": float(last), "prev": float(prev), "pct": float(pct)}
+        except YFRateLimitError:
+            if attempt == 0:
+                _time.sleep(3)
+                continue
+            return ticker, None
+        except Exception:  # noqa: BLE001 -- one bad ticker must not sink the scan
+            return ticker, None
+    return ticker, None
+
+
+def scan_premarket_moves(watchlist, cfg):
+    """Same shape and retry pattern as scan_watchlist_moves, but restricted
+    to US tickers (bare, no suffix) and only meaningful to call during
+    _is_us_premarket_now() -- see that function and the section comment
+    above for why."""
+    import time as _time
+
+    us_tickers = [t for t in watchlist if "." not in t]
+    results = {}
+    pending = list(us_tickers)
+    workers = cfg.PREMARKET_SCAN_MAX_WORKERS
+    for pass_num in range(cfg.PRICE_SCAN_MAX_PASSES):
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            futures = {pool.submit(_fetch_premarket_move, t): t for t in pending}
+            for fut in as_completed(futures):
+                ticker, move = fut.result()
+                if move is not None:
+                    results[ticker] = move
+        pending = [t for t in pending if t not in results]
+        if not pending:
+            break
+        if pass_num < cfg.PRICE_SCAN_MAX_PASSES - 1:
+            _time.sleep(cfg.PRICE_SCAN_RETRY_COOLDOWN_SECONDS)
+            workers = max(3, workers - 2)
+
+    for ticker, move in results.items():
+        move["currency"] = watchlist[ticker].get("currency") or None
+    print(f"  pre-market scan: {len(results)}/{len(us_tickers)} US tickers actually in pre-market")
+    return results
+
+
 def _group_by_industry(watchlist, scanned_moves):
     """{industry: {ticker: move}} -- tickers with no industry classification
     (a stale watchlist row, or yfinance simply had none for that name) are
@@ -530,21 +618,28 @@ def save_state(state, cfg):
         json.dump(state, f, indent=2)
 
 
-def should_alert(state, key, cfg):
-    """One alert per story/ticker per COOLDOWN_HOURS, full stop -- no
-    same-day re-alert on a deepening move, even a large one. Confirmed
-    2026-09-14: the old same-day delta-escalation bypass (re-alert if the
-    move deepened by RE_ALERT_DELTA_PCT further) was exactly what caused
-    Fujitsu and Applied Materials to each fire multiple times in one day as
-    they drifted further past the threshold intraday -- unwanted noise, not
-    a feature. COOLDOWN_HOURS is set long enough to span a full trading day,
-    so a fresh move the next day still alerts normally once it expires."""
+def should_alert(state, key, cfg, cooldown_hours=None):
+    """One alert per story/ticker per cooldown_hours (defaults to
+    cfg.COOLDOWN_HOURS), full stop -- no same-day re-alert on a deepening
+    move, even a large one. Confirmed 2026-09-14: the old same-day
+    delta-escalation bypass (re-alert if the move deepened by
+    RE_ALERT_DELTA_PCT further) was exactly what caused Fujitsu and Applied
+    Materials to each fire multiple times in one day as they drifted further
+    past the threshold intraday -- unwanted noise, not a feature.
+    COOLDOWN_HOURS is set long enough to span a full trading day, so a fresh
+    move the next day still alerts normally once it expires.
+
+    The override lets a distinct key namespace (e.g. "premarket:{ticker}",
+    added 2026-09-18) run its own, shorter cooldown independent of that
+    ticker's regular single:{ticker} cooldown -- a pre-market move and its
+    later regular-session confirmation are different signals worth tracking
+    separately, not one blocking the other."""
     entry = state["alerts"].get(key)
     if entry is None:
         return True
     last_time = dt.datetime.fromisoformat(entry["last_alert_utc"])
     hours_since = (dt.datetime.now(UTC) - last_time).total_seconds() / 3600.0
-    return hours_since >= cfg.COOLDOWN_HOURS
+    return hours_since >= (cfg.COOLDOWN_HOURS if cooldown_hours is None else cooldown_hours)
 
 
 def _record_alert(state, alert):
@@ -636,6 +731,33 @@ def run_cycle(cfg):
             },
             "peers": peers,
         })
+
+    # -- US pre-market: a live, still-forming move, not a regular-session ---
+    # one -- only checked during the pre-market window itself (see
+    # scan_premarket_moves's docstring for the cost reasoning), and tracked
+    # under its own "premarket:{ticker}" cooldown key so it doesn't block
+    # (or get blocked by) that ticker's regular single:{ticker} alert.
+    if _is_us_premarket_now(now):
+        premarket = scan_premarket_moves(watchlist, cfg)
+        for ticker, move in premarket.items():
+            if abs(move["pct"]) < cfg.SINGLE_STOCK_MOVE_PCT:
+                continue
+            key = f"premarket:{ticker}"
+            if not should_alert(state, key, cfg, cooldown_hours=cfg.PREMARKET_COOLDOWN_HOURS):
+                continue
+            info = watchlist[ticker]
+            headline = _find_headline(info["company_name"], cfg)
+            peers = same_group_peers(ticker, info["industry"], watchlist, scanned, cfg.MAX_DISPLAY_PEERS)
+            alerts.append({
+                "type": "single_stock", "headline": headline, "key": key,
+                "metric_pct": move["pct"],
+                "market_name": f"{market_name_for_ticker(ticker)} (pre-market)",
+                "primary": {
+                    "ticker": ticker, "company": info["company_name"], "pct": move["pct"],
+                    "last": move["last"], "prev": move["prev"], "currency": move.get("currency"),
+                },
+                "peers": peers,
+            })
 
     # -- Sector-wide: group this cycle's movers by real industry tag -------
     # Grouped from `tradeable`, not `scanned` -- a group spans many markets

@@ -74,6 +74,20 @@ PRICE_SCAN_MAX_PASSES = 2          # retry only a chunk's still-missing tickers,
 PRICE_SCAN_RETRY_COOLDOWN_SECONDS = 20
 
 # ---------------------------------------------------------------------------
+# US pre-market -- deliberately narrow, US-only (see
+# major_news_engine.scan_premarket_moves's docstring for why not every
+# market). Only runs during the ~5.5h pre-market window itself, threaded
+# per-ticker .info calls (heavier than the regular scan's batched daily
+# bars, which is why this isn't just folded into PRICE_SCAN_* above and
+# isn't run outside that window). PREMARKET_COOLDOWN_HOURS is deliberately
+# shorter than the regular COOLDOWN_HOURS (18h): a pre-market move and its
+# later regular-session confirmation are different signals, tracked under a
+# separate "premarket:{ticker}" key so one doesn't block the other.
+# ---------------------------------------------------------------------------
+PREMARKET_SCAN_MAX_WORKERS = 8
+PREMARKET_COOLDOWN_HOURS = 12.0
+
+# ---------------------------------------------------------------------------
 # Move thresholds
 # ---------------------------------------------------------------------------
 SINGLE_STOCK_MOVE_PCT = 5.0
