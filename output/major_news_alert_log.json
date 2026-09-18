@@ -3186,5 +3186,51 @@
       "look_out": "Watch Vodafone’s upcoming earnings guidance, any regulatory updates, and macro consumer spending data.",
       "memory": "In early 2022 a telecom earnings disappointment triggered comparable multi‑stock declines."
     }
+  },
+  {
+    "alert_utc": "2026-09-18T13:33:06.148403+00:00",
+    "type": "single_stock",
+    "headline": "Netflix Stock Falls After Downgrade. Why It’s Losing the Streaming Wars to Disney.",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOWNNM3A4bjhaTjB1YWtNMDU2Qk1GeHlCc1czd3loTXlmVXhPbHlpMHlaNnZMaFZUM0xPbDRmdmRLbnc5NlFfVjNxVVRnTFBTMUxVREtiTWlBR3dsRkMtTG4yemx3MmVsUXNPT2RmdlhvUDRwdFVpRV92RjB1N2NOLVFRSUFRTG96bkE?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "NFLX",
+      "company": "Netflix",
+      "pct": -6.214314774787477,
+      "last": 70.62999725341797,
+      "prev": 75.30999755859375,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "9602.T",
+        "company": "Toho Co., Ltd",
+        "pct": -2.166511915815539
+      },
+      {
+        "ticker": "FOX",
+        "company": "Fox Corporation (Class B)",
+        "pct": -1.7200086648403001
+      },
+      {
+        "ticker": "NWS.AX",
+        "company": "News Corp Class B",
+        "pct": -1.439458681234007
+      },
+      {
+        "ticker": "TKO",
+        "company": "TKO Group Holdings",
+        "pct": -1.3153753053470663
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
