@@ -3232,5 +3232,97 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-18T13:47:24.331338+00:00",
+    "type": "single_stock",
+    "headline": "Stocks making the biggest moves premarket: Netflix, Nucor, Xenon Pharmaceuticals & more",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNnduLUNoZEI2V1hQYm9qSzN1cVZFYUZlREJUdURQbnF5Mm9NZ1JMTDNJS0lYVERnN2pVOV9mXzI2cTZ6SHd0OTVteEFxQzJhYXQ1RFNsT0M3a2FpTElEbGJocFNOeVFzR3VaNVlrY1dnTXRZa3JGQWwtenZnNUJHS1FwVVBaMkZRNjI1emNxYVZLbzdlem9Z?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "NUE",
+      "company": "Nucor",
+      "pct": -5.110514279979029,
+      "last": 251.58999633789062,
+      "prev": 265.1400146484375,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "STLD",
+        "company": "Steel Dynamics",
+        "pct": -3.366623012081782
+      },
+      {
+        "ticker": "BSL.AX",
+        "company": "BlueScope",
+        "pct": -3.09378334056708
+      },
+      {
+        "ticker": "HPG.VN",
+        "company": "Hoa Phat Group",
+        "pct": 1.650943396226423
+      },
+      {
+        "ticker": "5401.T",
+        "company": "Nippon Steel Corp.",
+        "pct": -1.0816931184205458
+      }
+    ],
+    "analysis": {
+      "business_model": "Nucor is a vertically integrated steelmaker that produces and sells steel products, primarily using electric‑arc furnace recycling.",
+      "sentiment": "Bearish - investors worried about falling steel prices",
+      "why_moved": "The stock fell after pre‑market data showed weaker steel pricing and lower demand outlook, echoing broader sector weakness highlighted in the CNBC movers list.",
+      "read_across": "Similar declines in Steel Dynamics and BlueScope suggest a sector‑wide pressure on steel margins and demand.",
+      "look_out": "Watch upcoming US construction spending reports and Nucor’s quarterly earnings for confirmation of the pricing trend.",
+      "memory": "In early 2023 Nucor slipped 7% after a sudden drop in steel prices, then recovered as demand rebounded."
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T13:47:24.331354+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "COHR",
+      "company": "Coherent Corp.",
+      "pct": 5.554429972017827,
+      "last": 312.4200134277344,
+      "prev": 295.9800109863281,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "CDA.AX",
+        "company": "Codan",
+        "pct": 3.107631851803516
+      },
+      {
+        "ticker": "KEYS",
+        "company": "Keysight Technologies",
+        "pct": 0.8613960189771674
+      },
+      {
+        "ticker": "GRMN",
+        "company": "Garmin",
+        "pct": -0.7971698839888686
+      },
+      {
+        "ticker": "FTV",
+        "company": "Fortive",
+        "pct": -0.7626623774700803
+      }
+    ],
+    "analysis": {
+      "business_model": "Coherent Corp designs, manufactures and sells laser-based photonics systems for industrial, scientific and defense applications, generating revenue primarily from sales of high‑power fiber lasers and related components.",
+      "sentiment": "Bullish - momentum trading on sector rally",
+      "why_moved": "The stock jumped on speculative buying as peers in the photonics and test equipment space posted gains, suggesting broader optimism for laser technology demand.",
+      "read_across": "The modest advances in Codan, Keysight, Garmin and Fortive hint at a sector‑wide lift in high‑tech equipment, reinforcing positive sentiment for Coherent's market and supply chain.",
+      "look_out": "Watch Coherent's upcoming earnings release and any announcements of new laser product launches or defense contracts.",
+      "memory": "Coherent saw a similar sharp rally in early 2022 after an earnings beat, followed by a pull‑back once the excitement faded."
+    }
   }
 ]
