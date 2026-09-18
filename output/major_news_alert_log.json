@@ -2700,5 +2700,51 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-18T07:47:36.550517+00:00",
+    "type": "single_stock",
+    "headline": "Deutsche Telekom Enlists Iridium as Additional Low Earth Orbit Satellite Partner",
+    "source": "marketscreener.com",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaW1DMXZRSWNSeHdSYVhiTGZ5cWFKZm5CVlNTd2J4NVJteHJzVzJMUXF6QzRISVRRZVJmSEtpaUkzWXc2aFNZRS1TZUEwbFg5c1pWS2hYTElYemYwb1Nta0pNYzk4aExGUVY2allQbW1MQjJfSlItRmRXTGpzWk5FMmotdzJSd0d6bDl3Qm43aGIxTDFmU0VNUlRZLTZRb0Z0cklnUkVUQnVfMmctXzB5MVhBMmJma2NZMFJqRWpaZ09DSDRRMVh2dW0wRDNKZw?oc=5",
+    "market_name": "Germany · XETRA",
+    "primary": {
+      "ticker": "DTE.DE",
+      "company": "Deutsche Telekom",
+      "pct": -5.201109542523364,
+      "last": 27.34000015258789,
+      "prev": 28.84000015258789,
+      "currency": "EUR"
+    },
+    "peers": [
+      {
+        "ticker": "TMUS",
+        "company": "T-Mobile US",
+        "pct": -5.565640454058496
+      },
+      {
+        "ticker": "CMCSA",
+        "company": "Comcast",
+        "pct": -3.455540289264336
+      },
+      {
+        "ticker": "601698.SS",
+        "company": "China Satellite Communications",
+        "pct": 2.889920858409001
+      },
+      {
+        "ticker": "VZ",
+        "company": "Verizon",
+        "pct": -2.873787256258198
+      }
+    ],
+    "analysis": {
+      "business_model": "Deutsche Telekom provides mobile, broadband, fixed-line and IT services across Europe, generating most revenue from telecom subscriptions and data services.",
+      "sentiment": "Bearish - cost concerns from new satellite partnership",
+      "why_moved": "The share fell as investors worry the Iridium partnership will raise expenses and dilute margins, signalling a strategic shift that may not boost short‑term earnings.",
+      "read_across": "Peers like T‑Mobile US, Comcast and Verizon also slipped, indicating the telecom sector is sensitive to added satellite costs, while China Satellite Communications rose on broader satellite demand.",
+      "look_out": "Watch for disclosed contract terms with Iridium, the incremental capex impact and any guidance updates in the next earnings release.",
+      "memory": "A similar reaction occurred when Verizon announced a satellite‑backhaul deal, causing a brief dip before integration benefits materialised."
+    }
   }
 ]
