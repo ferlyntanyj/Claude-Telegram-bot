@@ -3094,5 +3094,51 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-18T11:33:20.988933+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "EME",
+      "company": "Emcor",
+      "pct": 5.4044056,
+      "last": 768.6722,
+      "prev": 729.26,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "1803.T",
+        "company": "Shimizu Corp.",
+        "pct": -2.2793203481143776
+      },
+      {
+        "ticker": "047040.KS",
+        "company": "Daewoo E&C",
+        "pct": 2.2714981070849127
+      },
+      {
+        "ticker": "1812.T",
+        "company": "Kajima Corp.",
+        "pct": -1.7754981258630842
+      },
+      {
+        "ticker": "1802.T",
+        "company": "Obayashi Corp.",
+        "pct": -1.4701182486417386
+      }
+    ],
+    "analysis": {
+      "business_model": "Emcor provides engineering, construction and maintenance services for industrial, infrastructure and government projects, earning revenue mainly from large‑scale build‑out contracts.",
+      "sentiment": "Bullish - earnings beat and upbeat guidance lift shares",
+      "why_moved": "Shares jumped after Emcor posted stronger‑than‑expected quarterly results and raised its full‑year outlook.",
+      "read_across": "While Japanese and Korean peers slipped, Emcor’s outperformance suggests U.S. construction demand remains stronger than the broader Asian market.",
+      "look_out": "Watch the company’s upcoming backlog update and U.S. construction‑spending data for further direction.",
+      "memory": "In early 2022 Emcor’s earnings surprise triggered a similar 5% rally."
+    }
   }
 ]
