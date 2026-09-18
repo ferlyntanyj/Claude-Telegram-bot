@@ -18,10 +18,12 @@ suppress a real move just because it used unexpected phrasing or wasn't in
 a covered feed, which was the old design's structural weakness.
 
 Two trigger paths, both ending in the same Telegram format (market/time,
-primary mover, a "Sentiment" line, an "Analysis" section with why-it-moved +
-industry read-across, up to MAX_DISPLAY_PEERS peer movements, a "Look out"
-forward-looking line, and a "Memory" line recalling a historical parallel if
-the model has one -- see major_news_alert.render_telegram):
+primary mover, a one-line business-model blurb (added 2026-09-18 -- price-
+first detection surfaces far more, and far less familiar, names than
+headline-matching ever did), a "Sentiment" line, an "Analysis" section with
+why-it-moved + industry read-across, up to MAX_DISPLAY_PEERS peer movements,
+a "Look out" forward-looking line, and a "Memory" line recalling a
+historical parallel if the model has one -- see major_news_alert.render_telegram):
   1. Single-stock: any watchlist ticker whose own move clears
      SINGLE_STOCK_MOVE_PCT. Peers shown alongside it come from other
      watchlist names in the same industry (major_news_engine.same_group_peers),
@@ -97,12 +99,12 @@ COOLDOWN_HOURS = 18.0
 # trust runs against the real API over their docs if this drifts again).
 # ---------------------------------------------------------------------------
 LLM_MODEL = "openai/gpt-oss-120b"
-# The analysis call returns 5 JSON-structured sections (sentiment/why_moved/
-# read_across/look_out/memory) instead of one blob -- more headroom than the
-# old single-paragraph LLM_SIGNIFICANCE_MAX_TOKENS=300. Sector-wide alerts'
-# prompt also grows with related-coverage context (gather_related_headlines),
-# so this has a bit of margin beyond the 4-field version.
-LLM_ANALYSIS_MAX_TOKENS = 700
+# The analysis call returns 6 JSON-structured sections (business_model/
+# sentiment/why_moved/read_across/look_out/memory) instead of one blob --
+# more headroom than the old single-paragraph LLM_SIGNIFICANCE_MAX_TOKENS=300.
+# Sector-wide alerts' prompt also grows with related-coverage context
+# (gather_related_headlines), so this has a bit of margin beyond that.
+LLM_ANALYSIS_MAX_TOKENS = 800
 # Free tier is 8,000 tokens/minute (verified via Groq's docs 2026-09-15) --
 # tighter than the 30 requests/minute cap once each call's ~700-token max
 # output plus its prompt is counted. Confirmed 2026-09-18: the price-first

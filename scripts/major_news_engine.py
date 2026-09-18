@@ -362,19 +362,25 @@ def _find_headline(query_text, cfg):
 
 
 # ---------------------------------------------------------------------------
-# Structured analysis write-up (Groq) -- five named sections rather than one
+# Structured analysis write-up (Groq) -- six named sections rather than one
 # blob, so the Telegram render can lay them out under fixed headers.
 # ---------------------------------------------------------------------------
 _ANALYSIS_UNAVAILABLE = "(unavailable — LLM call failed; see logs.)"
 _NO_MEMORY = "No clear historical parallel comes to mind."
-_ANALYSIS_FIELDS = ("sentiment", "why_moved", "read_across", "look_out", "memory")
+_ANALYSIS_FIELDS = ("business_model", "sentiment", "why_moved", "read_across", "look_out", "memory")
 
 
 def write_analysis(alert, cfg):
-    """Returns {sentiment, why_moved, read_across, look_out, memory}, all
-    strings. On any failure returns the same shape with a clear unavailable
-    marker in each field rather than raising -- a bad LLM call must not drop
-    the alert itself, only degrade its commentary.
+    """Returns {business_model, sentiment, why_moved, read_across, look_out,
+    memory}, all strings. On any failure returns the same shape with a clear
+    unavailable marker in each field rather than raising -- a bad LLM call
+    must not drop the alert itself, only degrade its commentary.
+
+    business_model added 2026-09-18 per user request -- price-first
+    detection surfaces far more, and far less familiar, names than the old
+    headline-matching design ever did (small/mid-caps across 14 markets,
+    not just the companies that happened to make trusted-source news), so a
+    reader often has no idea what the primary mover even does.
 
     Sector-wide alerts get extra grounding: gather_related_headlines() pulls
     a handful of other recent headlines about the same story (not just the
@@ -403,9 +409,12 @@ def write_analysis(alert, cfg):
         f'intraday (last {primary["last"]:.2f} {primary.get("currency") or ""}, '
         f'prior close {primary["prev"]:.2f}).\n'
         f"Peer/read-across candidates and their moves: {peer_desc}\n\n"
-        "Respond with ONLY a JSON object, no other text, with exactly these five "
+        "Respond with ONLY a JSON object, no other text, with exactly these six "
         "string keys:\n"
         "{\n"
+        f'  "business_model": "1-2 plain-English sentences on what {primary["company"]} '
+        'actually does -- its core business/revenue driver, not history or stock '
+        'performance -- for a reader who has never heard of the company",\n'
         '  "sentiment": "One word, either Bullish, Bearish, Mixed, or Neutral, then '
         "a dash then a reason clause under 12 words -- for example: "
         'Bearish - investors reassessing AI capex growth assumptions",\n'

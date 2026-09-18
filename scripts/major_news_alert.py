@@ -102,6 +102,7 @@ def render_telegram(alert):
         peers_block = "<i>No peers identified this cycle.</i>"
 
     analysis = alert.get("analysis") or {}
+    business_model = _esc(analysis.get("business_model") or "(not available)")
     sentiment = _fmt_sentiment(_esc(analysis.get("sentiment") or "(not available)"))
     why_moved = _esc(analysis.get("why_moved") or "(not available)")
     read_across = _esc(analysis.get("read_across") or "(not available)")
@@ -112,6 +113,7 @@ def render_telegram(alert):
         f'<b>{market_name}</b>; <i>{time_str}</i>\n'
         f'{headline_line} — <i>{source}</i>\n'
         f'{primary_line}\n'
+        f'<i>{business_model}</i>\n\n'
         f'<b>Sentiment:</b> {sentiment}\n\n'
         f'<b>Analysis:</b>\n'
         f'<i>Why it moved:</i> {why_moved}\n'
