@@ -2746,5 +2746,51 @@
       "look_out": "Watch for disclosed contract terms with Iridium, the incremental capex impact and any guidance updates in the next earnings release.",
       "memory": "A similar reaction occurred when Verizon announced a satellite‑backhaul deal, causing a brief dip before integration benefits materialised."
     }
+  },
+  {
+    "alert_utc": "2026-09-18T08:02:25.287665+00:00",
+    "type": "single_stock",
+    "headline": "EXCLUSIVE: SK Hynix in talks with Intel about deal to make memory chips in US for the first time, sources say",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVW1TN09JajVCZlllYVppOUxpX1RKbnVZOEpHNlA5ZkxFaElCd3h2czNacjJ6QlRyM2NPM1A4Y2tUVmNUTzlRSVJhX29oUk9ZTjFnYjFLOE9NWm5jaTVGOWo1Mnc1VHBOMTRKYXR0NURtUlltQV9ZVlgybWNSWmlDbjdVOGxLTTRlWFhGcUNNcjhYZXA2Q3BocGFpUF9sZXhYdXNURk5CVkZ2UVptUlUxOVQ1UmdOY1RUT2FvZDVBQ2EtNWRRbnpaMHlEYl9XQ2Ny?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "INTC",
+      "company": "Intel",
+      "pct": 7.6694703275075105,
+      "last": 108.80000305175781,
+      "prev": 101.05000305175781,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "2408.TW",
+        "company": "Nanya Technology",
+        "pct": 7.581967213114749
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      },
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": 7.043650793650791
+      }
+    ],
+    "analysis": {
+      "business_model": "Intel designs and manufactures semiconductor chips, chiefly CPUs for PCs, data centers and AI, and sells related products and services.",
+      "sentiment": "Bullish - news suggests new US memory production partnership",
+      "why_moved": "Shares jumped as Reuters reported Intel negotiating with SK Hynix to build memory chips in the US, expanding Intel’s foundry services and domestic supply.",
+      "read_across": "The move could lift peers like JCET, Nanya, SG Micro and SK Square as they benefit from increased US chip demand and supply‑chain diversification.",
+      "look_out": "Watch for a formal agreement announcement, regulatory approvals, and timeline for the US fab construction.",
+      "memory": "Similar to Intel’s 2021 IDM‑2 strategy rollout, which initially boosted the stock before execution challenges emerged."
+    }
   }
 ]
