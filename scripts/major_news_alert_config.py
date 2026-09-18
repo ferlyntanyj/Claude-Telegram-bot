@@ -62,7 +62,12 @@ MAX_DISPLAY_PEERS = 4
 # Price scan -- chunked yf.download() batching over the full watchlist every
 # cycle (major_news_engine.scan_watchlist_moves), not per-ticker calls; see
 # that function's docstring for why (~1,400 names, every ~15-20 min, would
-# be far too slow/rate-limit-fragile one ticker at a time).
+# be far too slow/rate-limit-fragile one ticker at a time). The real fix for
+# a move firing outside its own market's hours is the _tradeable_now() gate
+# in major_news_engine.py, not this scan mechanism -- a per-ticker
+# fast_info-based alternative was tried and reverted 2026-09-18 (see that
+# module's comments): it doesn't actually differ from this mathematically,
+# just slower.
 # ---------------------------------------------------------------------------
 PRICE_SCAN_CHUNK_SIZE = 250
 PRICE_SCAN_MAX_PASSES = 2          # retry only a chunk's still-missing tickers, not the whole chunk

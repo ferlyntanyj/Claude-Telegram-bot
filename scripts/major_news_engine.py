@@ -57,6 +57,7 @@ import os
 import re
 import statistics
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import pandas as pd
 
@@ -126,11 +127,22 @@ def market_name_for_ticker(ticker):
 # ---------------------------------------------------------------------------
 # Price scan -- the trigger itself now, not a lookup for a headline-matched
 # handful of tickers. Has to cover the FULL ~1,400-name watchlist every
-# cycle, which the old per-ticker check_price_moves() (one
-# yf.Ticker().fast_info call per name, sequential) was far too slow and
-# rate-limit-fragile for at this volume -- uses the same chunked
-# yf.download() batching as global_watchlist_build._download_fx_batch
-# instead of per-ticker calls.
+# cycle, which the old per-ticker check_price_moves() (one yf.Ticker()
+# .fast_info call per name, sequential) was far too slow and rate-limit-
+# fragile for at this volume -- uses chunked yf.download() batching instead
+# (same idea as global_watchlist_build._download_fx_batch).
+#
+# A per-ticker fast_info-based rewrite was tried on 2026-09-18 in the belief
+# that lastPrice/previousClose would "self-correct" to ~0% while a market is
+# closed, unlike a daily-bar comparison -- verified false and reverted:
+# fast_info's regularMarketPreviousClose (the field that actually matches
+# real historical closes; bare previousClose does NOT and would have
+# silently suppressed genuine moves) gives the IDENTICAL number to the
+# daily-bar approach. There is no bug in this calculation -- "Intel is
+# +7.67% versus its last real close" stays true and unchanged for as long as
+# nothing has traded since that close, which is simply how prices work. See
+# _tradeable_now() below for the actual fix to the real issue (WHEN a true,
+# accurate figure like that should be allowed to trigger a new alert).
 # ---------------------------------------------------------------------------
 def _scan_chunk(chunk):
     import yfinance as yf
@@ -189,6 +201,61 @@ def scan_watchlist_moves(watchlist, cfg):
         move["currency"] = watchlist[ticker].get("currency") or None
     print(f"  price scan: resolved {len(results)}/{len(tickers)} tickers")
     return results
+
+
+# ---------------------------------------------------------------------------
+# Trading-hours gate -- the actual fix for a real move (e.g. Intel's genuine
+# +7.67% Sept 17 regular-session close) surfacing as a "new" alert hours
+# into the FOLLOWING closed-market gap (confirmed 2026-09-18: fired at 08:02
+# UTC, hours before NYSE's 13:30 UTC/9:30am ET open). The move itself was
+# never wrong -- a stock's price relative to its last close is genuinely
+# constant until new trading occurs, that's not a data bug. The real problem
+# is that our own poll+cooldown timing has no relationship to when that
+# market is actually live, so a real-but-day-old number can get surfaced at
+# an arbitrary, misleadingly "breaking-news-looking" moment. Gating
+# qualification (not the scan itself, which still needs every ticker's data
+# for peer display) to "this ticker's home market is currently in its
+# regular session" ties alert timing back to genuine market activity.
+#
+# Lunch breaks (several Asian markets) and holidays are NOT modeled -- a
+# known simplification. The goal is "don't alert 5+ hours before/after a
+# market's own session," not minute-perfect calendar accuracy.
+# ---------------------------------------------------------------------------
+_EXCHANGE_SESSIONS = {
+    "": (dt.time(9, 30), dt.time(16, 0), "America/New_York"),        # bare ticker = US
+    ".T": (dt.time(9, 0), dt.time(15, 0), "Asia/Tokyo"),
+    ".HK": (dt.time(9, 30), dt.time(16, 0), "Asia/Hong_Kong"),
+    ".KS": (dt.time(9, 0), dt.time(15, 30), "Asia/Seoul"),
+    ".SI": (dt.time(9, 0), dt.time(17, 0), "Asia/Singapore"),
+    ".AX": (dt.time(10, 0), dt.time(16, 0), "Australia/Sydney"),
+    ".L": (dt.time(8, 0), dt.time(16, 30), "Europe/London"),
+    ".DE": (dt.time(9, 0), dt.time(17, 30), "Europe/Berlin"),
+    ".SS": (dt.time(9, 30), dt.time(15, 0), "Asia/Shanghai"),
+    ".SZ": (dt.time(9, 30), dt.time(15, 0), "Asia/Shanghai"),
+    ".KL": (dt.time(9, 0), dt.time(17, 0), "Asia/Kuala_Lumpur"),
+    ".JK": (dt.time(9, 0), dt.time(15, 0), "Asia/Jakarta"),
+    ".BK": (dt.time(10, 0), dt.time(16, 30), "Asia/Bangkok"),
+    ".VN": (dt.time(9, 0), dt.time(15, 0), "Asia/Ho_Chi_Minh"),
+    ".TW": (dt.time(9, 0), dt.time(13, 30), "Asia/Taipei"),
+    ".TWO": (dt.time(9, 0), dt.time(13, 30), "Asia/Taipei"),
+}
+
+
+def _tradeable_now(ticker, now_utc):
+    """Best-effort check: is ticker's home exchange currently inside its
+    regular Mon-Fri trading session? Unknown suffix -> assumed tradeable
+    (fails open, matching this module's general bias toward not silently
+    dropping a real move over being maximally precise about market
+    calendars)."""
+    import zoneinfo
+
+    suffix = "." + ticker.rsplit(".", 1)[-1] if "." in ticker else ""
+    session = _EXCHANGE_SESSIONS.get(suffix)
+    if session is None:
+        return True
+    open_t, close_t, tz_name = session
+    local = now_utc.astimezone(zoneinfo.ZoneInfo(tz_name))
+    return local.weekday() < 5 and open_t <= local.time() <= close_t
 
 
 def _group_by_industry(watchlist, scanned_moves):
@@ -533,14 +600,24 @@ def run_cycle(cfg):
     the cooldown on a story the user never actually received."""
     watchlist = load_watchlist(cfg)
     state = load_state(cfg)
-    state["last_run_utc"] = dt.datetime.now(UTC).isoformat()
+    now = dt.datetime.now(UTC)
+    state["last_run_utc"] = now.isoformat()
 
     scanned = scan_watchlist_moves(watchlist, cfg)
+    # Qualification only looks at tickers whose home market is currently in
+    # its regular session (_tradeable_now) -- a move's size relative to its
+    # last close is real and correct even while that market is shut, but
+    # letting it qualify a NEW alert at an arbitrary point during the
+    # following closed-market gap is what actually needs fixing (see that
+    # function's docstring). scanned (unfiltered) is still used below for
+    # peer DISPLAY, so a qualifying alert can still show a same-industry
+    # name whose own market happens to be closed right now.
+    tradeable = {t: m for t, m in scanned.items() if _tradeable_now(t, now)}
 
     alerts = []
 
     # -- Single-stock: any watchlist ticker that itself cleared the bar -----
-    for ticker, move in scanned.items():
+    for ticker, move in tradeable.items():
         if abs(move["pct"]) < cfg.SINGLE_STOCK_MOVE_PCT:
             continue
         key = f"single:{ticker}"
@@ -561,7 +638,12 @@ def run_cycle(cfg):
         })
 
     # -- Sector-wide: group this cycle's movers by real industry tag -------
-    for industry, moves in _group_by_industry(watchlist, scanned).items():
+    # Grouped from `tradeable`, not `scanned` -- a group spans many markets
+    # at once (e.g. "Semiconductors" mixes US/Taiwan/Japan/Korea names), so
+    # without this a story could "qualify" on the strength of several
+    # already-closed markets' stale prior-session moves rather than
+    # anything actually live right now.
+    for industry, moves in _group_by_industry(watchlist, tradeable).items():
         if len(moves) < cfg.SECTOR_MIN_PEERS:
             continue
         result = _median_breadth(moves, cfg)
