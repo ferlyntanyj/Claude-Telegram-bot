@@ -341,5 +341,29 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-18T00:31:34.479160+00:00",
+    "type": "single_stock",
+    "headline": "SoftBank's record $6.4bn bond sale tests limits of Japan's debt market",
+    "source": "Nikkei Asia",
+    "url": "https://asia.nikkei.com/business/markets/bonds/softbank-s-record-6.4bn-bond-sale-tests-limits-of-japan-s-debt-market",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "9984.T",
+      "company": "Softbank Group Corp.",
+      "pct": 5.682182985553763,
+      "last": 6584.0,
+      "prev": 6230.0,
+      "currency": "JPY"
+    },
+    "peers": [],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
