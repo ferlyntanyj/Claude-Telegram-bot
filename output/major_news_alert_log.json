@@ -2910,5 +2910,97 @@
       "look_out": "Watch Symrise’s upcoming earnings and any further equity issuances, as well as regulatory clearances for the new capital that could affect share price momentum.",
       "memory": "A similar large premium share issue at Givaudan in 2022 triggered a short‑term sell‑off before the stock stabilized."
     }
+  },
+  {
+    "alert_utc": "2026-09-18T09:03:38.705360+00:00",
+    "type": "single_stock",
+    "headline": "Workday Named a Leader in Inaugural 2026 Gartner® Magic Quadrant™ for Workforce Management Technology",
+    "source": "Financial Times",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbjA5bWhaNUYwc24wWUx0anpGVmk0M0s4UEYyaWJNNzZtS2F4T1hSX3Fzekh4QXRkNjBIckV4M2FkRjgyV2sxYXdHZkZJaERsZ2RaYm1OeDdlOGI0NXoweVI2ZEtXVHdhMnRoY1ZsMlFBYXdYcTVPbDBiWDc1c2RPV0JOVGJDRU95WWI0Umpnb0VxUTI2WVpnRg?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "IT",
+      "company": "Gartner",
+      "pct": -6.5654964,
+      "last": 175.47,
+      "prev": 187.8,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "NXT.AX",
+        "company": "NextDC",
+        "pct": 2.7124703949237716
+      },
+      {
+        "ticker": "JKHY",
+        "company": "Jack Henry & Associates",
+        "pct": -1.7423506655636745
+      },
+      {
+        "ticker": "6701.T",
+        "company": "Nec Corp.",
+        "pct": -1.715686274509809
+      },
+      {
+        "ticker": "BR",
+        "company": "Broadridge Financial Solutions",
+        "pct": -1.6637733199030946
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T09:03:38.705372+00:00",
+    "type": "sector",
+    "headline": "Verizon and AT&T Dominate Communications Services. Why That’s a Problem.",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1NVBBUFB6Qnc2NjVzZEQ4d25idTFxUFFXYm5mREhNb1loeTZZRTlEU1IzRF9FcC1QSTFYZkNrTFFmdE5WYmRQdDYxdE1pTTNwX1ZIMl9KUFlxMVZxeHVNYmlwb2UxazZuQ1JQclBCRXlvMDNZelpDbUp1elBYVzQ?oc=5",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "AAF.L",
+      "company": "Airtel Africa",
+      "pct": -6.123631270802332,
+      "last": 325.0,
+      "prev": 346.20001220703125,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "DTE.DE",
+        "company": "Deutsche Telekom",
+        "pct": -4.958392155374048
+      },
+      {
+        "ticker": "VOD.L",
+        "company": "Vodafone Group",
+        "pct": -3.1963448579388043
+      },
+      {
+        "ticker": "TRUE.BK",
+        "company": "TRUE Corporation",
+        "pct": -0.7873970810807207
+      },
+      {
+        "ticker": "ADVANC.BK",
+        "company": "Advanced Info Service",
+        "pct": -0.5730659025787954
+      }
+    ],
+    "analysis": {
+      "business_model": "Airtel Africa operates mobile networks across 14 African countries, earning revenue from voice, data, and mobile‑money services for consumers and enterprises.",
+      "sentiment": "Bearish - concerns over competitive pressure from US telecom dominance",
+      "why_moved": "The Barron's story on Verizon and AT&T's market power raised worries that similar concentration could squeeze margins for international operators like Airtel Africa, prompting a 6.1% drop.",
+      "read_across": "Peers such as Deutsche Telekom and Vodafone also slid, indicating broader investor anxiety about telecom consolidation and pricing pressures worldwide.",
+      "look_out": "Watch Airtel Africa’s upcoming earnings, any regulatory changes in African telecom markets, and US policy shifts that could affect cross‑border pricing dynamics.",
+      "memory": "A similar slump occurred in 2015 when U.S. carrier consolidation heightened margin concerns for emerging‑market telcos, leading to comparable share‑price declines."
+    }
   }
 ]

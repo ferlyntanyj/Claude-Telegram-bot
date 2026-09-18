@@ -251,7 +251,15 @@
     "sector:specialty chemicals": {
       "last_alert_utc": "2026-09-18T08:33:31.285705+00:00",
       "last_move_pct": -2.1414661062535534
+    },
+    "premarket:IT": {
+      "last_alert_utc": "2026-09-18T09:03:38.198855+00:00",
+      "last_move_pct": -6.5654964
+    },
+    "sector:telecom services": {
+      "last_alert_utc": "2026-09-18T09:03:38.703451+00:00",
+      "last_move_pct": -3.1963448579388043
     }
   },
-  "last_run_utc": "2026-09-18T08:45:28.708086+00:00"
+  "last_run_utc": "2026-09-18T09:01:53.801511+00:00"
 }
