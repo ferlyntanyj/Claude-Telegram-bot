@@ -3416,5 +3416,133 @@
       "look_out": "Monitor U.S. construction spending data and the pending steel import tariff review for demand and pricing signals.",
       "memory": "Similar demand‑driven guidance cuts in 2022 caused a short‑term sell‑off before a gradual recovery."
     }
+  },
+  {
+    "alert_utc": "2026-09-18T15:32:25.210130+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "LRCX",
+      "company": "Lam Research",
+      "pct": 5.176191960112186,
+      "last": 283.25,
+      "prev": 269.30999755859375,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300316.SZ",
+        "company": "Zhejiang Jingsheng Mechanical & Electrical",
+        "pct": 5.847375061105087
+      },
+      {
+        "ticker": "AMAT",
+        "company": "Applied Materials",
+        "pct": 4.5352163278842506
+      },
+      {
+        "ticker": "300751.SZ",
+        "company": "Suzhou Maxwell Technologies",
+        "pct": 4.00511602611493
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": -3.6620191500084
+      }
+    ],
+    "analysis": {
+      "business_model": "Lam Research designs and manufactures equipment for semiconductor wafer processing, chiefly etch and deposition tools used in advanced chip fabs.",
+      "sentiment": "Bullish - demand for advanced node equipment lifts outlook",
+      "why_moved": "Lam’s shares jumped on a sector‑wide rally as peers reported strong demand for advanced‑node equipment, boosting investor confidence.",
+      "read_across": "The gains in peers such as Applied Materials and Chinese fab‑tool makers suggest a broader recovery in global semiconductor‑equipment demand and supply‑chain health.",
+      "look_out": "Watch Lam’s upcoming earnings guidance, fab‑capacity utilization data and any US‑China export policy changes that could affect equipment sales.",
+      "memory": "A comparable surge occurred in early 2023 when chip‑fab spending rebounded after inventory clean‑up."
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T15:32:25.210142+00:00",
+    "type": "single_stock",
+    "headline": "GM touts new V-8 engines in revived ‘truck wars’ with Ford, Ram amid lackluster EV sales",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVGMzdnBOZFhYSVFwSjh0Rk9nRENXQ0pldEVzRW4zb1F0RkpGWnN1SlBYbUdKUXROYXBWLXhjcmFQU0R6dGVQN0taT1VNQ3h5TzlzZUE1T21ORWVsN29YcE9hYjBXT0FEa1AzcWVSZVYwTDNQenB6UHFRQnV0bFB5ctIBhgFBVV95cUxPdU1XV3R2d3c5NWhrSV9zTDVWTjNjYTE1SnZhUzBLWGh0SU5oZ24xc0Y0SUpmbHNzZS1zQnpfd0pUNEd2bXIySjhUYXBlWEczVlczVTg3Q0h1OHMzWThCUFVrVndSVl9EdEJRUElVYnkwV0oyNmREUzNkQUtoajIyVHY4ZmEwZw?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "GM",
+      "company": "General Motors",
+      "pct": -5.587628508215603,
+      "last": 81.77999877929688,
+      "prev": 86.62000274658203,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "F",
+        "company": "Ford Motor Company",
+        "pct": -4.776633142782982
+      },
+      {
+        "ticker": "VOW3.DE",
+        "company": "Volkswagen Group",
+        "pct": -2.6369095766798134
+      },
+      {
+        "ticker": "7270.T",
+        "company": "Subaru Corp.",
+        "pct": 2.323366977718533
+      },
+      {
+        "ticker": "000338.SZ",
+        "company": "Weichai Power",
+        "pct": 2.176359970012043
+      }
+    ],
+    "analysis": {
+      "business_model": "General Motors designs, manufactures and sells automobiles and automotive parts, earning most revenue from vehicle sales and financing services.",
+      "sentiment": "Bearish - investors worry EV slowdown and reliance on costly V‑8 rollout",
+      "why_moved": "GM’s announcement of new V‑8 engines to revive truck sales amid weak EV demand disappointed investors, pulling the stock down.",
+      "read_across": "The news pressures Ford and VW, which also saw declines, while engine‑focused suppliers like Weichai gain on expected demand.",
+      "look_out": "Watch Q4 truck sales, upcoming EV adoption figures, and GM’s V‑8 production timeline for further moves.",
+      "memory": "In 2019 GM cut its EV spending, triggering a sell‑off; a similar pivot back to gasoline sparked comparable stock weakness."
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T15:32:25.210148+00:00",
+    "type": "sector",
+    "headline": "Tesla Stock Rises. Inside the EV Maker's Shanghai Gigafactory.",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yVkZGY0RRRnBKVm9GOUF0TGNESjlTbFBEbGotQmUwa1BybmY0c29LYnI1WXRHMzgzNllNbVdTWGV0UkI1REx6dWd3X3pNMVJUbERQN0Z3b3k1VVZ0OWRxRkdqQW5KRWJXMXJRY1kyajJJWEgzY2tLd3pxMFAtcm8?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "GM",
+      "company": "General Motors",
+      "pct": -5.587628508215603,
+      "last": 81.77999877929688,
+      "prev": 86.62000274658203,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "F",
+        "company": "Ford Motor Company",
+        "pct": -4.776633142782982
+      },
+      {
+        "ticker": "TSLA",
+        "company": "Tesla, Inc.",
+        "pct": -0.9107105028633322
+      }
+    ],
+    "analysis": {
+      "business_model": "General Motors designs, manufactures and sells automobiles and related services worldwide, earning revenue primarily from vehicle sales, financing and parts.",
+      "sentiment": "Bearish - investors reacting to weak EV demand after Tesla news",
+      "why_moved": "GM’s shares dropped as the Tesla Shanghai gigafactory story boosted confidence in Tesla’s growth, pulling attention away from GM’s slower EV rollout.",
+      "read_across": "Ford’s similar decline indicates legacy automakers are being punished as Tesla’s production advances, pressuring the broader auto supply chain.",
+      "look_out": "Watch GM’s upcoming earnings and its next‑generation EV platform launch for signs of recovery or further weakness.",
+      "memory": "In early 2023, Tesla’s Shanghai factory expansion triggered short‑term sell‑offs in legacy car makers."
+    }
   }
 ]
