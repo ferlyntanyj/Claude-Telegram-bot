@@ -40,11 +40,16 @@ run -- see the try/except in build_candidate_list(); extend SEED_CONSTITUENTS
 directly for deeper coverage anywhere a scraped source isn't available.
 
 Output: ../data/global_watchlist.csv
-  ticker, company_name, aliases, exchange, region, currency, market_cap_usd
+  ticker, company_name, exchange, region, currency, market_cap_usd, sector, industry
 
-`aliases` is a pipe-separated, manually-extendable field (e.g. "Alphabet|Google")
-so major_news_engine's headline matching doesn't depend on exact legal names --
-edit the CSV directly to add aliases for names that get missed.
+`sector`/`industry` (added 2026-09-18, via a second, .info-based enrichment
+pass over just the names that clear the $5B floor -- see
+enrich_with_sector_industry) are what the alert's per-cycle price scan now
+groups movers by to detect sector-wide moves, replacing an LLM-inferred peer
+basket with real classification data. `company_name` is also what the
+per-mover targeted news search (major_news_engine.gather_related_headlines)
+queries by now that detection no longer depends on matching a headline's
+text against this list at all.
 
 Run from the scripts/ directory:  python global_watchlist_build.py
 """
@@ -448,6 +453,63 @@ def enrich_with_market_cap(candidates, max_workers=8):
     return results
 
 
+def _fetch_sector_industry(ticker):
+    """Returns (ticker, sector, industry). Uses .info rather than fast_info
+    -- fast_info doesn't carry sector/industry classification at all, .info
+    does (at the cost of a heavier per-ticker call). Only run over tickers
+    that already cleared the $5B floor (~1,400), not the full raw candidate
+    pool (~1,900), and only weekly, so the extra cost per ticker is fine.
+    Added 2026-09-18 so the alert's per-cycle price scan can group movers by
+    real industry classification instead of an LLM-inferred peer basket."""
+    import time as _time
+
+    import yfinance as yf
+    from yfinance.exceptions import YFRateLimitError
+
+    for attempt in range(3):
+        try:
+            info = yf.Ticker(ticker).info
+            return ticker, info.get("sector") or "", info.get("industry") or ""
+        except YFRateLimitError:
+            if attempt < 2:
+                _time.sleep(3 * (attempt + 1))
+                continue
+            return ticker, "", ""
+        except Exception:  # noqa: BLE001 -- one bad ticker must not sink the run
+            return ticker, "", ""
+    return ticker, "", ""
+
+
+def enrich_with_sector_industry(tickers, max_workers=8):
+    """Same multi-pass-with-cooldown retry shape as enrich_with_market_cap --
+    .info calls are heavier than fast_info and hit the same kind of
+    sustained rate-limit wall under load."""
+    import time as _time
+
+    results = {t: ("", "") for t in tickers}
+    pending = list(tickers)
+    workers = max_workers
+    for pass_num in range(3):
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            futures = {pool.submit(_fetch_sector_industry, t): t for t in pending}
+            done = 0
+            for fut in as_completed(futures):
+                ticker, sector, industry = fut.result()
+                results[ticker] = (sector, industry)
+                done += 1
+                if done % 200 == 0:
+                    print(f"  sector/industry: {done}/{len(pending)} checked (pass {pass_num + 1})")
+        pending = [t for t in pending if not results[t][1]]
+        if not pending:
+            break
+        if pass_num < 2:
+            print(f"  sector/industry: {len(pending)} tickers still missing after pass "
+                  f"{pass_num + 1}/3, cooling down 60s before retry...")
+            _time.sleep(60)
+            workers = max(3, workers - 2)
+    return results
+
+
 def _download_fx_batch(symbols):
     import yfinance as yf
     return yf.download(symbols, period="5d", interval="1d", progress=False, group_by="ticker", threads=True)
@@ -528,12 +590,19 @@ def main():
         rows.append({
             "ticker": resolved_ticker,
             "company_name": name,
-            "aliases": "",
             "exchange": exchange,
             "region": region,
             "currency": currency or "",
             "market_cap_usd": round(cap_usd),
         })
+
+    print(f"Fetching sector/industry classification for {len(rows)} names that cleared the "
+          f"${MIN_MARKET_CAP_USD/1e9:.0f}B floor...")
+    sector_industry = enrich_with_sector_industry([r["ticker"] for r in rows])
+    for r in rows:
+        sector, industry = sector_industry.get(r["ticker"], ("", ""))
+        r["sector"] = sector
+        r["industry"] = industry
 
     df = pd.DataFrame(rows).sort_values("market_cap_usd", ascending=False)
     df.to_csv(OUT_CSV_PATH, index=False)

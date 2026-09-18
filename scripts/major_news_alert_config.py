@@ -5,37 +5,40 @@ major_news_engine.py via the thin major_news_alert.py wrapper.
 Unlike the scheduled digests (morning/evening/semis brief), this is meant to
 be a near-real-time alert stream: one run = one poll cycle via GitHub Actions
 (.github/workflows/major_news_alert.yml) so it doesn't depend on this machine
-being on. In practice GitHub's scheduler doesn't honor the requested
-POLL_INTERVAL_MINUTES cadence for this account tier -- see the cadence
-comment below and the .yml's cron comments -- so treat this as "checked
-periodically, self-healing lookback window" rather than a latency guarantee.
-It only sends a Telegram message when a qualifying story is found, rather
-than always producing a digest.
+being on. It only sends a Telegram message when a qualifying move is found,
+rather than always producing a digest.
+
+Price-first (redesigned 2026-09-18, see major_news_engine's module
+docstring for the full "why"): every cycle scans the ENTIRE curated
+watchlist (data/global_watchlist.csv, built by global_watchlist_build.py)
+for price moves via Yahoo Finance, rather than scanning headlines first and
+trying to match them to watchlist names. A headline is only looked up
+afterwards, per qualifying mover, for display/grounding -- it can no longer
+suppress a real move just because it used unexpected phrasing or wasn't in
+a covered feed, which was the old design's structural weakness.
 
 Two trigger paths, both ending in the same Telegram format (market/time,
 primary mover, a "Sentiment" line, an "Analysis" section with why-it-moved +
 industry read-across, up to MAX_DISPLAY_PEERS peer movements, a "Look out"
 forward-looking line, and a "Memory" line recalling a historical parallel if
-the model has one -- see major_news_alert.render_telegram). Sector-wide
-alerts additionally ground the write-up in a handful of other recent
-headlines about the same story (major_news_engine.gather_related_headlines),
-not just the one that triggered the alert.
-  1. Single-stock: a headline names a company on data/global_watchlist.csv
-     (built by global_watchlist_build.py, already filtered to >= USD 5B
-     market cap) whose intraday move clears SINGLE_STOCK_MOVE_PCT. Groq is
-     then asked separately for read-across peers, purely for display.
-  2. Sector-wide: a headline looks thematic/macro (SECTOR_TRIGGER_KEYWORDS),
-     so Groq is asked to name the likely-affected large-cap peers; if their
-     MEDIAN intraday move clears SECTOR_MEDIAN_MOVE_PCT (or enough of them
-     individually clear SECTOR_BREADTH_MOVE_PCT), it qualifies. Median/breadth
-     rather than a plain average, deliberately -- see the plan this was built
-     from: a single outlier in an LLM-picked peer list shouldn't be able to
-     drag a mean over the line. The peer basket's biggest mover becomes the
-     "primary" line; the rest become its peers.
+the model has one -- see major_news_alert.render_telegram):
+  1. Single-stock: any watchlist ticker whose own move clears
+     SINGLE_STOCK_MOVE_PCT. Peers shown alongside it come from other
+     watchlist names in the same industry (major_news_engine.same_group_peers),
+     computed for free from the same scan -- no LLM call.
+  2. Sector-wide: this cycle's movers are grouped by the watchlist's real
+     `industry` classification (not an LLM-guessed peer basket); if a
+     group's MEDIAN move clears SECTOR_MEDIAN_MOVE_PCT (or enough of it
+     individually clears SECTOR_BREADTH_MOVE_PCT), it qualifies. Median/
+     breadth rather than a plain average, deliberately -- a single outlier
+     in a large group shouldn't be able to drag a mean over the line. The
+     group's biggest mover becomes the "primary" line; the rest become its
+     peers.
 
-Headline sourcing reuses brief_engine.fetch_news as-is (same Google News RSS +
-direct-feed + source-trust-ranking + de-dup machinery as the other briefs);
-only the config below differs.
+write_analysis() (Groq) is the only LLM call left anywhere in this
+pipeline, once per qualifying alert -- it also grounds sector-wide write-ups
+in a handful of other recent headlines about the same story
+(major_news_engine.gather_related_headlines), same as before.
 """
 
 # ---------------------------------------------------------------------------
@@ -46,45 +49,22 @@ STATE_JSON_PATH = "../data/alert_state.json"
 OUT_LOG_JSON_PATH = "../output/major_news_alert_log.json"  # append-only run log, for auditing
 
 GOOGLE_NEWS_LOCALE = ("en-US", "US", "US:en")
-SOURCES_FOOTER_TG = "Google News (Bloomberg/Reuters/Nikkei/SCMP/WSJ/FT tier)"
 
-# ---------------------------------------------------------------------------
-# Cadence / window
-# ---------------------------------------------------------------------------
-# The .yml cron asks for every 20 min, but GitHub Actions does NOT guarantee
-# that for scheduled workflows: personal/new-account repos get routed to a
-# low-priority batch queue that in practice sweeps every 2-6+ hours, not on
-# the cron minute (confirmed empirically -- 24 runs over 60 hours, not the
-# ~180 a 20-min cadence would produce; this is documented GitHub behavior,
-# not something fixable from the workflow YAML). POLL_INTERVAL_MINUTES below
-# is therefore only the FLOOR of the lookback window, not a promise about
-# actual cadence -- see effective_lookback_hours() in major_news_engine.py,
-# which instead looks back to whenever the last run actually completed (state
-# STATE_JSON_PATH -> last_run_utc), so an irregular gap just widens the
-# window rather than silently dropping headlines that aged out in between.
-POLL_INTERVAL_MINUTES = 20
-# Overlap beyond the poll interval so a headline can't fall through the crack
-# between two cycles (feed lag, clock drift, a cycle that ran slightly late).
-LOOKBACK_OVERLAP_MINUTES = 15
-# Upper bound on the dynamic lookback, matched to Google News RSS's `when:1d`
-# in the queries below (its own effective ceiling) with a small safety margin
-# under 24h -- if GitHub goes quiet longer than this, that's a dead-workflow
-# problem widening the window further wouldn't fix anyway.
-MAX_LOOKBACK_HOURS = 23.0
-# This is a candidate pool for matching/evaluation, not a display limit (this
-# alert has no digest to keep short, unlike the scheduled briefs that share
-# this config field) -- so it should comfortably exceed realistic volume
-# rather than cap it. Confirmed 2026-09-14: relevance-exempting Nikkei Asia
-# alone produced 50 candidates in just a 2h window; at MAX_LOOKBACK_HOURS=23
-# that single feed could plausibly produce 500+, which at the old cap of 40
-# was silently starving out every lower-weight source (Yonhap, AP, etc.)
-# entirely, regardless of their own relevance.
-MAX_ITEMS_PER_SECTION = 1000
 # Peers shown in the Telegram message's "Peers movement" section, for BOTH
-# alert types (see major_news_engine.top_peer_moves / the sector-basket
+# alert types (see major_news_engine.same_group_peers / the sector-group
 # ranking in run_cycle) -- not the same as SECTOR_MIN_PEERS below, which
 # gates qualification, not display.
 MAX_DISPLAY_PEERS = 4
+
+# ---------------------------------------------------------------------------
+# Price scan -- chunked yf.download() batching over the full watchlist every
+# cycle (major_news_engine.scan_watchlist_moves), not per-ticker calls; see
+# that function's docstring for why (~1,400 names, every ~15-20 min, would
+# be far too slow/rate-limit-fragile one ticker at a time).
+# ---------------------------------------------------------------------------
+PRICE_SCAN_CHUNK_SIZE = 250
+PRICE_SCAN_MAX_PASSES = 2          # retry only a chunk's still-missing tickers, not the whole chunk
+PRICE_SCAN_RETRY_COOLDOWN_SECONDS = 20
 
 # ---------------------------------------------------------------------------
 # Move thresholds
@@ -92,7 +72,7 @@ MAX_DISPLAY_PEERS = 4
 SINGLE_STOCK_MOVE_PCT = 5.0
 SECTOR_MEDIAN_MOVE_PCT = 3.0
 SECTOR_BREADTH_MOVE_PCT = 2.0     # per-peer bar used for the breadth check
-SECTOR_BREADTH_SHARE_PCT = 60.0   # % of the peer basket that must clear it
+SECTOR_BREADTH_SHARE_PCT = 60.0   # % of the industry group that must clear it
 SECTOR_MIN_PEERS = 3              # fewer than this and "median"/"breadth" isn't meaningful
 
 # Cooldown: one alert per story/ticker per this many hours, full stop -- even
@@ -117,7 +97,6 @@ COOLDOWN_HOURS = 18.0
 # trust runs against the real API over their docs if this drifts again).
 # ---------------------------------------------------------------------------
 LLM_MODEL = "openai/gpt-oss-120b"
-LLM_PEER_MAX_TOKENS = 400
 # The analysis call returns 5 JSON-structured sections (sentiment/why_moved/
 # read_across/look_out/memory) instead of one blob -- more headroom than the
 # old single-paragraph LLM_SIGNIFICANCE_MAX_TOKENS=300. Sector-wide alerts'
@@ -126,171 +105,8 @@ LLM_PEER_MAX_TOKENS = 400
 LLM_ANALYSIS_MAX_TOKENS = 700
 
 # ---------------------------------------------------------------------------
-# News sources -- broad market-moving queries, not sector-specific
-# ---------------------------------------------------------------------------
-GOOGLE_NEWS_QUERIES = [
-    ("news", "stock shares surge OR plunge OR soar OR tumble when:1d"),
-    ("news", "earnings guidance profit warning beat miss when:1d"),
-    ("news", "acquisition merger deal billion stake buyout when:1d"),
-    ("news", "credit rating downgrade upgrade default when:1d"),
-    ("news", "Federal Reserve OR ECB OR Bank of Japan rate decision when:1d"),
-    ("news", "tariff export controls sanctions trade war when:1d"),
-    ("news", "antitrust regulator fine investigation ruling when:1d"),
-    ("news", "recall lawsuit cyberattack outage disruption when:1d"),
-    ("news", "OPEC oil price shock supply when:1d"),
-    ("news", "market selloff rally record high stocks close when:1d"),
-]
-
-# Chip-topical direct feeds aren't relevant here; a handful of general wire/
-# business feeds with known-stable public RSS, matching the trust tier below.
-# (AP's public RSS feeds were retired -- feeds.apnews.com no longer resolves --
-# so AP is only reachable here via Google News, not a direct feed.)
-DIRECT_FEEDS = [
-    ("news", "Nikkei Asia", "https://asia.nikkei.com/rss/feed/nar"),
-    ("news", "SCMP Business", "https://www.scmp.com/rss/92/feed"),
-    ("news", "CNBC Markets", "https://www.cnbc.com/id/15839135/device/rss/rss.html"),
-    # General national wire (also covers non-business news), added to give
-    # the watchlist's 14 South Korean names direct-feed coverage the way
-    # Japan/HK already have via Nikkei Asia/SCMP -- stays relevance-gated
-    # below since it's not a dedicated business desk. No working
-    # business/economy-specific category URL found (en.yna.co.kr/RSS/economy.xml
-    # etc. all 404 as of 2026-09-14) -- only the general feed is available.
-    ("news", "Yonhap", "https://en.yna.co.kr/RSS/news.xml"),
-    # Straits Times' own business section (not their general feed) -- gives
-    # the watchlist's 9 Singapore names the same direct-feed coverage.
-    ("news", "Straits Times Business", "https://www.straitstimes.com/news/business/rss.xml"),
-    # General national wire, same treatment as Yonhap -- gives the
-    # watchlist's Indonesian names direct-feed coverage. No business-specific
-    # Jakarta Post feed found (only /home exists), so this stays relevance-
-    # gated below. The Star / The Edge Malaysia (Malaysia's equivalents)
-    # don't appear to publish a public RSS feed at all any more -- no
-    # auto-discovery link on either homepage and every guessed URL 404s
-    # (checked 2026-09-14) -- so Malaysia has no direct feed; both are still
-    # recognized as trusted sources below for whenever Google News surfaces them.
-    ("news", "Jakarta Post", "https://rss.thejakartapost.com/home"),
-]
-
-# Feeds that are themselves finance/markets desks, not general news -- so
-# gating them by RELEVANCE_TERMS can only ever reject genuinely relevant
-# business news that happens not to use market-specific vocabulary in its
-# headline, never add value. Confirmed 2026-09-14: a Fujitsu AI-chip-export
-# story that moved the stock +7.5% was dropped here purely because its
-# headline never said "stock"/"shares"/"billion". Google News queries are
-# NOT exempted -- they cast a much wider, less-curated net and still need the
-# gate. Yonhap above is deliberately NOT in this set -- it's a general wire,
-# not a business desk, so it still needs the gate to stay on-topic.
-RELEVANCE_EXEMPT_FEEDS = {"Nikkei Asia", "SCMP Business", "CNBC Markets", "Straits Times Business"}
-
-# Restricted primarily to the user's named tier; a secondary tier of major
-# wires is kept for global breadth. Everything else is dropped (allowlist
-# behaviour, same as the other briefs).
-#
-# Google News RSS is inconsistent about how it tags some of these: Reuters,
-# FT, and WSJ usually get a proper title ("Reuters", "Financial Times", "WSJ"),
-# but Bloomberg (and occasionally FT) frequently comes through as the bare
-# domain instead (e.g. "bloomberg.com"), which _norm_source strips down to a
-# lowercase word ("bloomberg"). Lowercase fallback keys below catch that --
-# verified empirically against live Google News RSS output, not assumed.
-SOURCE_WEIGHTS = {
-    # Primary tier
-    "Bloomberg": 10, "bloomberg": 10, "Bloomberg Technology": 10, "Reuters": 10, "Reuters Technology": 10,
-    "Nikkei Asia": 10, "Nikkei Asian Review": 10, "Nikkei": 9,
-    "South China Morning Post": 10, "SCMP": 10, "scmp": 10,
-    "Wall Street Journal": 10, "WSJ": 10, "The Wall Street Journal": 10,
-    "Washington Post": 10, "The Washington Post": 10, "washingtonpost": 10,
-    "Financial Times": 10, "ft": 10,
-    # Secondary tier -- major wires / desks, kept for global breadth
-    "Associated Press": 7, "AP News": 7, "AP Business": 7,
-    "Yonhap": 6, "Yonhap News Agency": 6, "Kyodo News": 6,
-    "Japan Wire by Kyodo News": 6,  # Kyodo's own sub-brand; doesn't exact-match "Kyodo News"
-    "Caixin": 6, "Caixin Global": 6,
-    "The Straits Times": 6, "Straits Times": 6, "The Business Times": 6, "Business Times": 6,
-    "CNBC": 6, "CNBC Markets": 6, "MarketWatch": 6, "Barron's": 6,
-    "The Economist": 7,
-    # Jakarta Post's direct feed tags entries "The Jakarta Post - Home" (its
-    # own feed-title quirk, not a clean source name) -- normalizes (strips
-    # leading "The ") to "Jakarta Post - Home"; "Jakarta Post" kept too in
-    # case Google News surfaces it under a cleaner name.
-    "Jakarta Post - Home": 6, "Jakarta Post": 6,
-    # The Star and The Edge Malaysia don't appear to publish a public RSS
-    # feed any more (no direct feed for either, see DIRECT_FEEDS comment),
-    # but Google News does surface their content by name -- recognized here
-    # so it isn't silently dropped as an unknown source when that happens.
-    # _norm_source strips the leading "The " from both.
-    "Star": 6, "Edge Malaysia": 6,
-}
-DEFAULT_SOURCE_WEIGHT = 0   # unknown source -> dropped
-MIN_SOURCE_WEIGHT = 6       # higher bar than the digests -- this is an alert, not a scan
-
-DOWNRANK_PENALTY = 9
-DOWNRANK_PATTERNS = [
-    "how to", "here are", "here's why", "here is why", "heres why", "should you buy",
-    "best stocks", "stocks to buy", "motley fool", "reasons to", "ways to", "could make you",
-    "millionaire", "if you invested", "my top", "watch this", "is it too late", "prediction:",
-    "better buy", "vs.", "which stock", "what to know", "what to watch", "things to know",
-    "your money", "review:", "opinion:", "5 things", "3 things", "top 5", "top 10",
-    "explained", "everything you need to know", "what it means for you",
-]
-DENY_PATTERNS = [
-    "week ahead", "week-ahead", "the week that was", "what to expect this week",
-    "day ahead", "coming week", "premarket:", "pre-market:", "stocks to watch",
-    "things to watch", "earnings preview", "what to expect", "preview:",
-    "stock quote", "quote price", "price and forecast", "quote and news",
-    "as it happened", "live updates:", "live blog", "livestream", "podcast:", "webinar",
-]
-
-# Classification here is only used as a fallback tag; single-stock vs
-# sector-wide is actually decided by major_news_engine against the watchlist
-# and the sector-trigger keywords below, not by this section machinery. One
-# catch-all section keeps brief_engine.fetch_news happy.
-SECTION_ORDER = ["news"]
-SECTION_TITLES = {"news": "Major news"}
-SECTION_KEYWORDS = {
-    "news": [
-        "stock", "stocks", "shares", "share price", "market", "markets", "earnings",
-        "revenue", "profit", "guidance", "merger", "acquisition", "deal", "tariff",
-        "sanctions", "rate", "fed", "regulator", "downgrade", "upgrade", "recall",
-        "lawsuit", "cyberattack", "outage", "oil", "opec", "selloff", "rally", "surge",
-        "plunge", "soar", "tumble", "record high",
-    ],
-}
-
-REQUIRE_RELEVANCE = True
-STRICT_DIRECT_FEEDS = False
-RELEVANCE_TERMS = [
-    "stock", "stocks", "share", "shares", "market", "markets", "nasdaq", "s&p", "dow",
-    "ftse", "nikkei", "hang seng", "kospi", "dax", "index", "indices",
-    "earnings", "revenue", "profit", "guidance", "quarterly", "forecast",
-    "merger", "acquisition", "acquire", "stake", "buyout", "takeover", "ipo",
-    "tariff", "tariffs", "sanction", "sanctions", "export control", "trade war",
-    "federal reserve", "the fed", "ecb", "bank of japan", "rate cut", "rate hike",
-    "interest rate", "central bank",
-    "credit rating", "downgrade", "downgraded", "upgrade", "upgraded", "default",
-    "antitrust", "regulator", "regulators", "fine", "fined", "investigation", "ruling",
-    "recall", "lawsuit", "cyberattack", "data breach", "outage",
-    "oil price", "oil prices", "crude", "opec",
-    "selloff", "sell-off", "rally", "record high", "plunge", "plunges", "soar", "soars",
-    "surge", "surges", "tumble", "tumbles", "slump", "slumps", "jump", "jumps",
-    "billion", "market cap",
-]
-
-# Cheap pre-filter before spending an LLM call: a headline only goes down the
-# "infer sector peers" path if it also carries one of these thematic/macro
-# markers -- otherwise a random single-company headline that didn't match the
-# watchlist would trigger an LLM call for nothing.
-SECTOR_TRIGGER_KEYWORDS = [
-    "tariff", "tariffs", "export control", "sanction", "sanctions", "trade war",
-    "federal reserve", "the fed", "ecb", "bank of japan", "rate cut", "rate hike",
-    "interest rate", "central bank", "opec", "oil price", "oil prices",
-    "chipmakers", "automakers", "airlines", "banks", "lenders", "retailers",
-    "homebuilders", "miners", "oil majors", "utilities", "insurers",
-    "industry", "sector-wide", "across the sector", "peers", "rivals",
-    "regulation", "regulators", "antitrust", "recall", "shortage", "supply chain",
-    "credit rating", "sovereign debt", "currency", "inflation", "recession",
-]
-
-# ---------------------------------------------------------------------------
-# HTTP
+# HTTP -- used by gather_related_headlines()'s targeted per-mover/per-industry
+# Google News search (the only news-fetching this alert does now).
 # ---------------------------------------------------------------------------
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "

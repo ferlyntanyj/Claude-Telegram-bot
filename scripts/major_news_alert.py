@@ -1,25 +1,24 @@
 """
 Global major-news Telegram alert -- one run is one poll cycle. Runs in the
 cloud via GitHub Actions (.github/workflows/major_news_alert.yml), not
-continuously -- so it works even when this machine is off. The workflow's
-cron asks for every major_news_alert_config.POLL_INTERVAL_MINUTES, but GitHub
-does not actually honor that cadence for this account tier (real gaps are
-2-6+ hours, not 20 minutes -- see the .yml's comments); the lookback window
-self-heals around that (major_news_engine.effective_lookback_hours), so no
-headline is silently missed, but "near-real-time" should be read as "checked
-whenever GitHub gets to it," not a latency guarantee. run_major_news_alert.ps1
-still exists for manual local testing, but is not the scheduled path.
+continuously -- so it works even when this machine is off. Each cycle
+re-scans the entire watchlist for price moves from scratch (see
+major_news_engine's module docstring) -- unlike the old headline-first
+design, there's no lookback window to self-heal, since detection doesn't
+depend on catching a headline within any particular time gap.
+run_major_news_alert.ps1 still exists for manual local testing, but is not
+the scheduled path.
 
 Unlike the scheduled digests, this sends zero, one, or several Telegram
-messages depending on how many qualifying stories it finds this cycle -- there
+messages depending on how many qualifying moves it finds this cycle -- there
 is no "quiet session" placeholder message.
 
 Auth:
   SGX_SCREENER_TELEGRAM_BOT_TOKEN, SGX_SCREENER_TELEGRAM_CHAT_ID -- same
     bot and chat as the other briefs; alerts land in that same chat,
     interleaved with the scheduled digests.
-  GROQ_API_KEY -- free-tier Groq API key (console.groq.com), used for
-    peer-inference and the structured analysis write-up. No credit card needed.
+  GROQ_API_KEY -- free-tier Groq API key (console.groq.com), used for the
+    structured analysis write-up. No credit card needed.
 
 Usage:
     python major_news_alert.py             # run a cycle and send any alerts
@@ -80,10 +79,14 @@ def _fmt_time(headline):
 def render_telegram(alert):
     headline = alert["headline"]
     title = _esc(headline["title"])
-    url = html.escape(str(headline["url"]), quote=True)
+    url = html.escape(str(headline.get("url") or ""), quote=True)
     source = _esc(headline["source"])
     market_name = _esc(alert["market_name"])
     time_str = _fmt_time(headline)
+    # No headline found for this move (see major_news_engine._find_headline)
+    # -- show the placeholder title as plain text rather than an empty,
+    # self-referencing link.
+    headline_line = f'<a href="{url}">{title}</a>' if url else title
 
     primary = alert["primary"]
     primary_line = (
@@ -107,7 +110,7 @@ def render_telegram(alert):
 
     return (
         f'<b>{market_name}</b>; <i>{time_str}</i>\n'
-        f'<a href="{url}">{title}</a> — <i>{source}</i>\n'
+        f'{headline_line} — <i>{source}</i>\n'
         f'{primary_line}\n'
         f'<b>Sentiment:</b> {sentiment}\n\n'
         f'<b>Analysis:</b>\n'
@@ -188,10 +191,10 @@ def main():
     alerts, state = engine.run_cycle(cfg)
     if not alerts:
         print("No qualifying alerts this cycle.")
-        # Persist even on a quiet cycle -- state.last_run_utc is what makes
-        # the next cycle's lookback window self-heal around GitHub's
-        # irregular scheduling (see effective_lookback_hours). Skipped only
-        # for --dry-run, matching every other persist() call in this script.
+        # Persist even on a quiet cycle -- state.last_run_utc is kept purely
+        # for observability (health checks: "when did this last actually
+        # run"). Skipped only for --dry-run, matching every other persist()
+        # call in this script.
         if not dry_run:
             engine.persist(state, [], cfg)
         return

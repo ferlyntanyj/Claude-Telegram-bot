@@ -1,37 +1,55 @@
 """
 Core logic for the global major-news Telegram alert. One call to run_cycle()
-is one poll cycle: fetch headlines, check which watchlist names they moved (or
-ask Groq which peers a thematic/sector headline likely moved), evaluate
-against major_news_alert_config's thresholds, dedup/cooldown against prior
-alerts, and (for whatever survives) write a structured analysis.
+is one poll cycle.
 
-Headline fetching reuses brief_engine.fetch_news as-is -- same Google News RSS
-+ direct-feed + source-trust-ranking + de-dup machinery as the scheduled
-briefs, just pointed at major_news_alert_config's broader, non-sector-specific
-queries.
+Price-first (redesigned 2026-09-18): every cycle, scan_watchlist_moves()
+batch-checks the ENTIRE curated watchlist (data/global_watchlist.csv, built
+by global_watchlist_build.py) for price moves, rather than scanning
+headlines first and trying to match them to watchlist names. The prior
+headline-first design spent most of a session getting patched for exactly
+the failure mode this replaces: a real move only got caught if a matching
+headline was also seen AND correctly parsed (missed: Fujitsu -- headline
+lacked finance vocabulary; Malaysia/Indonesia -- thin news feeds; a broad
+semis selloff -- keyword list too narrow; Taiwan/Delta Electronics -- market
+not even in the watchlist yet). Scanning price data directly makes detection
+independent of whether any headline was ever found at all; a headline is now
+only *looked up afterwards*, per qualifying mover, for display/grounding.
 
-Two independent paths per headline, both ending in the same alert shape:
-  - Single-stock: the headline names a company already on the curated
-    data/global_watchlist.csv (>= USD 5B market cap, built by
-    global_watchlist_build.py). Its live intraday move (no LLM needed) sets
-    the "primary" mover; infer_peers() then finds up to
-    cfg.MAX_DISPLAY_PEERS read-across names purely for display.
-  - Sector-wide: the headline looks thematic/macro (SECTOR_TRIGGER_KEYWORDS)
-    rather than naming one company. infer_peers() finds the likely-affected
-    large-caps; their MEDIAN move (not a plain average -- see
-    major_news_alert_config's docstring) decides whether it qualifies, and
-    the single biggest mover in that basket becomes the "primary" line.
+Two independent paths per cycle, both ending in the same alert shape:
+  - Single-stock: any watchlist ticker whose move clears
+    cfg.SINGLE_STOCK_MOVE_PCT. same_group_peers() finds up to
+    cfg.MAX_DISPLAY_PEERS other watchlist names in the same industry
+    (from the SAME scan, no extra fetch) purely for display.
+  - Sector-wide: scanned movers are grouped by the watchlist's `industry`
+    column; a group's MEDIAN move (not a plain average -- see
+    major_news_alert_config's docstring) or breadth decides whether it
+    qualifies, and the group's single biggest mover becomes the "primary"
+    line. This replaces an LLM-inferred peer basket with real
+    classification data -- deterministic, free, and not dependent on a
+    sector-keyword prefilter ever matching.
 
 Every alert therefore carries: headline, key (cooldown), metric_pct (the
 number should_alert()/cooldown compares against), market_name, primary
 ({ticker, company, pct, last, prev, currency}), peers (up to
 MAX_DISPLAY_PEERS {ticker, company, pct} dicts), and -- once write_analysis()
 runs -- analysis ({sentiment, why_moved, read_across, look_out, memory}).
+write_analysis() is the ONLY LLM (Groq) call left anywhere in the pipeline,
+once per qualifying alert -- infer_peers() and its sector-keyword prefilter
+are gone, which also removes the root cause behind a prior bug where
+sector-candidate LLM calls fired before their own cooldown check and burned
+through Groq's free-tier daily quota.
+
+A headline is still useful context, just not the trigger: _find_headline()
+does a targeted Google News search (gather_related_headlines(), reused from
+the old sector-grounding step) per qualifying mover/industry, for the
+Telegram card and as LLM grounding. If nothing turns up, the alert still
+fires with a clear placeholder rather than being suppressed -- suppressing a
+verified, real price move for lack of a headline was exactly the old
+design's structural weakness.
 
 State (data/alert_state.json) is a flat map of alert key -> {last_alert_utc,
 last_move_pct}, used only to avoid re-sending the same story every cycle
-(dedup_and_cooldown / should_alert below), plus a top-level last_run_utc used
-by effective_lookback_hours().
+(should_alert below), plus a top-level last_run_utc for observability.
 """
 import datetime as dt
 import json
@@ -56,72 +74,28 @@ def _norm(text):
     return re.sub(r"\s+", " ", text).strip()
 
 
-# Legal-entity suffixes stripped off company_name to get the name headlines
-# actually use -- "Apple Inc." never appears in a headline, "Apple" does.
-# "berhad"/"bhd" (Malaysia), "tbk"/"persero" (Indonesia) added 2026-09-14 when
-# the watchlist expanded to those markets -- confirmed via a live example:
-# "CIMB Group Holdings announces deal" didn't match "CIMB GROUP HOLDINGS
-# BERHAD" until "berhad" was added here.
-_CORP_SUFFIXES = {
-    "inc", "incorporated", "corp", "corporation", "co", "company", "ltd", "limited",
-    "plc", "group", "holdings", "holding", "nv", "sa", "ag", "se", "llc", "lp", "spa", "kk",
-    "berhad", "bhd", "tbk", "persero",
-}
-# Short names that collide with common English words -- kept as full-legal-name
-# matches only (never as the bare short form), to cut false positives.
-_AMBIGUOUS_SHORT_NAMES = {"target", "gap", "block", "match", "square", "chart"}
-
-
-def _short_name(norm_name):
-    tokens = norm_name.split()
-    while tokens and tokens[-1] in _CORP_SUFFIXES:
-        tokens.pop()
-    while tokens and tokens[0] == "the":
-        tokens.pop(0)
-    return " ".join(tokens)
-
-
 def load_watchlist(cfg):
+    """{ticker: {company_name, sector, industry, currency}} for the whole
+    curated watchlist. No more name/alias regex-pattern building -- price
+    scanning keys directly off the ticker, and detection no longer depends
+    on matching a headline's text against a company name at all."""
     try:
         df = pd.read_csv(cfg.WATCHLIST_CSV_PATH)
     except FileNotFoundError:
         print(f"ERROR: {cfg.WATCHLIST_CSV_PATH} not found. Run global_watchlist_build.py first.",
               file=sys.stderr)
-        return []
+        return {}
 
-    rows = []
+    watchlist = {}
     for _, r in df.iterrows():
-        aliases = [a.strip() for a in str(r.get("aliases") or "").split("|") if a.strip()]
-        names = [str(r["company_name"]).strip()] + aliases
-
-        match_terms = set()
-        for name in names:
-            norm_name = _norm(name)
-            if len(norm_name) >= 4:
-                match_terms.add(norm_name)
-            short = _short_name(norm_name)
-            if len(short) >= 4 and short not in _AMBIGUOUS_SHORT_NAMES:
-                match_terms.add(short)
-
-        patterns = [re.compile(r"\b" + re.escape(term) + r"\b") for term in match_terms]
-        if not patterns:
-            continue
-        rows.append({
-            "ticker": str(r["ticker"]).strip(),
+        ticker = str(r["ticker"]).strip()
+        watchlist[ticker] = {
             "company_name": str(r["company_name"]).strip(),
-            "patterns": patterns,
-        })
-    return rows
-
-
-def match_watchlist(title, watchlist):
-    """Return [(ticker, company_name), ...] for every watchlist row named in title."""
-    norm_title = _norm(title)
-    matches = []
-    for row in watchlist:
-        if any(p.search(norm_title) for p in row["patterns"]):
-            matches.append((row["ticker"], row["company_name"]))
-    return matches
+            "sector": str(r.get("sector") or "").strip(),
+            "industry": str(r.get("industry") or "").strip(),
+            "currency": str(r.get("currency") or "").strip(),
+        }
+    return watchlist
 
 
 # ---------------------------------------------------------------------------
@@ -150,76 +124,120 @@ def market_name_for_ticker(ticker):
 
 
 # ---------------------------------------------------------------------------
-# Price checks
+# Price scan -- the trigger itself now, not a lookup for a headline-matched
+# handful of tickers. Has to cover the FULL ~1,400-name watchlist every
+# cycle, which the old per-ticker check_price_moves() (one
+# yf.Ticker().fast_info call per name, sequential) was far too slow and
+# rate-limit-fragile for at this volume -- uses the same chunked
+# yf.download() batching as global_watchlist_build._download_fx_batch
+# instead of per-ticker calls.
 # ---------------------------------------------------------------------------
-def check_price_moves(tickers):
-    """Return {ticker: {last, prev, pct, currency}} -- skips any ticker that
-    fails to resolve (bad symbol, no trade today, data outage), same
-    defensive pattern as brief_engine.fetch_market. One retry on a Yahoo
-    rate-limit response (single-ticker fast_info calls hit that fairly easily
-    when run back-to-back)."""
+def _scan_chunk(chunk):
+    import yfinance as yf
+
+    data = yf.download(chunk, period="5d", interval="1d", group_by="ticker",
+                        threads=True, progress=False)
+    resolved, unresolved = {}, []
+    for ticker in chunk:
+        try:
+            closes = data[ticker]["Close"].dropna() if len(chunk) > 1 else data["Close"].dropna()
+            if len(closes) < 2:
+                unresolved.append(ticker)
+                continue
+            prev, last = float(closes.iloc[-2]), float(closes.iloc[-1])
+            if prev == 0:
+                continue
+            resolved[ticker] = {"last": last, "prev": prev, "pct": (last / prev - 1.0) * 100.0}
+        except Exception:  # noqa: BLE001 -- one bad ticker must not sink the chunk
+            unresolved.append(ticker)
+    return resolved, unresolved
+
+
+def scan_watchlist_moves(watchlist, cfg):
+    """Returns {ticker: {last, prev, pct, currency}} for whatever resolves.
+    Chunks the watchlist, retries a chunk's still-unresolved tickers (not
+    the whole chunk) across up to cfg.PRICE_SCAN_MAX_PASSES passes with a
+    cooldown, same shape as global_watchlist_build.enrich_with_market_cap --
+    anything still unresolved after that is just skipped this cycle (picked
+    up again next cycle), not fatal. Currency comes from the watchlist CSV
+    itself (already captured at build time), not re-fetched here."""
     import time as _time
 
-    import yfinance as yf
-    from yfinance.exceptions import YFRateLimitError
-
+    tickers = list(watchlist.keys())
+    chunk_size = cfg.PRICE_SCAN_CHUNK_SIZE
+    pending = [tickers[i:i + chunk_size] for i in range(0, len(tickers), chunk_size)]
     results = {}
-    for ticker in tickers:
-        for attempt in range(2):
+
+    for attempt in range(cfg.PRICE_SCAN_MAX_PASSES):
+        still_missing = []
+        for chunk in pending:
             try:
-                fi = yf.Ticker(ticker).fast_info
-                # FastInfo's real keys are camelCase (lastPrice/previousClose);
-                # snake_case fallback kept in case a future yfinance version changes it.
-                last = fi.get("lastPrice") or fi.get("last_price")
-                prev = (fi.get("previousClose") or fi.get("previous_close")
-                        or fi.get("regularMarketPreviousClose"))
-                if last is None or prev is None or prev == 0:
-                    break
-                pct = (float(last) / float(prev) - 1.0) * 100.0
-                results[ticker] = {
-                    "last": float(last), "prev": float(prev), "pct": pct,
-                    "currency": fi.get("currency"),
-                }
-                break
-            except YFRateLimitError:
-                if attempt == 0:
-                    _time.sleep(3)
-                    continue
-                print(f"  price check: rate-limited on {ticker}, skipping", file=sys.stderr)
-            except Exception as e:  # noqa: BLE001
-                print(f"  price check: skipping {ticker} ({e})", file=sys.stderr)
-                break
+                resolved, unresolved = _scan_chunk(chunk)
+            except Exception as e:  # noqa: BLE001 -- one bad chunk must not sink the scan
+                print(f"  price scan: chunk download failed ({e}), will retry", file=sys.stderr)
+                unresolved, resolved = chunk, {}
+            results.update(resolved)
+            if unresolved:
+                still_missing.append(unresolved)
+        pending = still_missing
+        if not pending:
+            break
+        if attempt < cfg.PRICE_SCAN_MAX_PASSES - 1:
+            _time.sleep(cfg.PRICE_SCAN_RETRY_COOLDOWN_SECONDS)
+
+    for ticker, move in results.items():
+        move["currency"] = watchlist[ticker].get("currency") or None
+    print(f"  price scan: resolved {len(results)}/{len(tickers)} tickers")
     return results
 
 
-# ---------------------------------------------------------------------------
-# Peer inference (Groq) + evaluation. Used for BOTH paths now: sector-wide
-# stories use it to find the peer basket that decides qualification; single-
-# stock stories use it purely for read-across display (up to
-# cfg.MAX_DISPLAY_PEERS peers shown alongside the primary mover).
-# ---------------------------------------------------------------------------
-# Catches "[anything] stocks/shares slump/tumble/plunge/..." regardless of
-# what the "[anything]" sector/theme actually is -- a literal keyword list
-# (SECTOR_TRIGGER_KEYWORDS) can only ever cover topics someone thought to
-# enumerate in advance (tariffs, rate decisions, ...), and confirmed missed a
-# real ~8-name >5% semiconductor selloff on 2026-09-14 driven by an "AI
-# safety" narrative: "AI-linked stocks slump after top lab CEOs call for
-# slowing technology's development" matched no topic keyword and named no
-# single company, so it fell through both detection paths entirely. This
-# regex is a general shape check, not a topic list, so it doesn't have that
-# blind spot.
-_STOCK_MOVE_VERB_RE = re.compile(
-    r"\b(stocks?|shares?)\b[^.]{0,25}\b(slump\w*|tumbl\w*|plung\w*|sink|sinks|sank|sunk|"
-    r"fall\w*|fell|drop\w*|slid\w*|surg\w*|soar\w*|rall(?:y|ies|ied)|jump\w*|sell[- ]?off)\b",
-    re.I,
-)
+def _group_by_industry(watchlist, scanned_moves):
+    """{industry: {ticker: move}} -- tickers with no industry classification
+    (a stale watchlist row, or yfinance simply had none for that name) are
+    skipped rather than lumped into one meaningless catch-all group."""
+    groups = {}
+    for ticker, move in scanned_moves.items():
+        industry = watchlist.get(ticker, {}).get("industry")
+        if not industry:
+            continue
+        groups.setdefault(industry, {})[ticker] = move
+    return groups
 
 
-def _looks_sector_worthy(title, cfg):
-    low = title.lower()
-    if any(kw in low for kw in cfg.SECTOR_TRIGGER_KEYWORDS):
-        return True
-    return bool(_STOCK_MOVE_VERB_RE.search(title))
+def _median_breadth(moves, cfg):
+    """moves: {ticker: {pct, ...}}. Same median/breadth math the old
+    LLM-peer-basket evaluate_sector_move used, now fed a real industry
+    group instead -- median rather than a plain average so one outlier
+    can't drag a large group over the line."""
+    signed = [m["pct"] for m in moves.values()]
+    median_pct = statistics.median(signed)
+    dominant_sign = 1 if median_pct >= 0 else -1
+    concordant_at_bar = sum(1 for m in signed if (m * dominant_sign) >= cfg.SECTOR_BREADTH_MOVE_PCT)
+    breadth_share_pct = 100.0 * concordant_at_bar / len(signed)
+    qualifies = (
+        abs(median_pct) >= cfg.SECTOR_MEDIAN_MOVE_PCT
+        or breadth_share_pct >= cfg.SECTOR_BREADTH_SHARE_PCT
+    )
+    return {"median_pct": median_pct, "breadth_share_pct": breadth_share_pct, "qualifies": qualifies}
+
+
+def same_group_peers(ticker, industry, watchlist, scanned_moves, max_count):
+    """Other watchlist names in the same industry that also moved this
+    cycle, ranked by |move| descending -- replaces the old LLM-guessed peer
+    basket (infer_peers/top_peer_moves) with something deterministic and
+    free, computed from data already fetched for the scan itself. Limited
+    to names already on the curated watchlist, unlike an LLM's broader
+    real-world knowledge of true competitors -- a known, accepted trade-off
+    for consistency and zero extra cost."""
+    if not industry:
+        return []
+    peers = [
+        {"ticker": t, "company": watchlist[t]["company_name"], "pct": m["pct"]}
+        for t, m in scanned_moves.items()
+        if t != ticker and watchlist.get(t, {}).get("industry") == industry
+    ]
+    peers.sort(key=lambda p: -abs(p["pct"]))
+    return peers[:max_count]
 
 
 def _llm_client():
@@ -242,13 +260,6 @@ def _run_completion(prompt, cfg, max_tokens, json_object=False):
     return resp.choices[0].message.content
 
 
-def _extract_json_array(text):
-    match = re.search(r"\[.*\]", text, re.DOTALL)
-    if not match:
-        raise ValueError(f"no JSON array found in LLM response: {text[:200]!r}")
-    return json.loads(match.group(0))
-
-
 def _extract_json_object(text):
     match = re.search(r"\{.*\}", text, re.DOTALL)
     if not match:
@@ -256,77 +267,8 @@ def _extract_json_object(text):
     return json.loads(match.group(0))
 
 
-def infer_peers(title, cfg):
-    """Ask Groq which large-cap peers/companies a headline is most relevant
-    to. Returns [(ticker, company), ...], empty on any failure -- a missing
-    API key or a bad response must not crash the whole poll cycle."""
-    prompt = (
-        f'Headline: "{title}"\n\n'
-        "List 4 to 8 publicly traded, large-cap (market cap at least USD 5 billion) "
-        "companies most directly and immediately affected by this news -- the ones "
-        "whose share price would plausibly move because of it (competitors, supply "
-        "chain, or the company the headline is about). Use tickers exactly as they "
-        'appear on Yahoo Finance (e.g. "AAPL", "7203.T", "005930.KS", "0700.HK", "BP.L").\n\n'
-        "Respond with ONLY a JSON array, no other text, in this exact form:\n"
-        '[{"ticker": "AAPL", "company": "Apple Inc"}, ...]'
-    )
-    try:
-        text = _run_completion(prompt, cfg, cfg.LLM_PEER_MAX_TOKENS)
-        data = _extract_json_array(text)
-        return [(d["ticker"].strip(), d.get("company", d["ticker"]).strip())
-                for d in data if d.get("ticker")]
-    except Exception as e:  # noqa: BLE001
-        print(f"  LLM peer-inference failed: {e}", file=sys.stderr)
-        return []
-
-
-def top_peer_moves(peer_pairs, exclude_ticker, max_count):
-    """peer_pairs: [(ticker, company), ...] (e.g. from infer_peers). Prices
-    them, drops exclude_ticker (the primary mover, if it's in the list) and
-    anything that fails to price, and returns up to max_count
-    {ticker, company, pct} dicts sorted by |move| descending."""
-    peer_pairs = [(t, c) for t, c in peer_pairs if t != exclude_ticker]
-    peer_names = dict(peer_pairs)
-    moves = check_price_moves([t for t, _ in peer_pairs])
-    rows = [
-        {"ticker": t, "company": peer_names.get(t, t), "pct": m["pct"]}
-        for t, m in moves.items()
-    ]
-    rows.sort(key=lambda r: -abs(r["pct"]))
-    return rows[:max_count]
-
-
-def evaluate_sector_move(peers, cfg):
-    """peers: [(ticker, company), ...]. Returns None if too few peers priced,
-    else a dict with median_pct, breadth_share_pct, qualifies, moves, peer_names."""
-    peer_names = dict(peers)
-    moves = check_price_moves([t for t, _ in peers])
-    if len(moves) < cfg.SECTOR_MIN_PEERS:
-        return None
-
-    signed = [m["pct"] for m in moves.values()]
-    median_pct = statistics.median(signed)
-    dominant_sign = 1 if median_pct >= 0 else -1
-    concordant_at_bar = sum(
-        1 for m in signed if (m * dominant_sign) >= cfg.SECTOR_BREADTH_MOVE_PCT
-    )
-    breadth_share_pct = 100.0 * concordant_at_bar / len(signed)
-
-    qualifies = (
-        abs(median_pct) >= cfg.SECTOR_MEDIAN_MOVE_PCT
-        or breadth_share_pct >= cfg.SECTOR_BREADTH_SHARE_PCT
-    )
-    return {
-        "median_pct": median_pct,
-        "breadth_share_pct": breadth_share_pct,
-        "qualifies": qualifies,
-        "moves": moves,
-        "peer_names": peer_names,
-    }
-
-
 # ---------------------------------------------------------------------------
-# Related-coverage gathering (sector-wide alerts only) -- reuses the same
+# Related-coverage gathering -- reuses the same
 # Google News RSS search brief_engine already uses, just with the qualifying
 # headline's own text as the query and a much looser source bar, since this
 # is grounding context for the LLM to synthesize from, not the primary
@@ -359,7 +301,7 @@ def gather_related_headlines(query_text, cfg, max_results=5, lookback_hours=48):
         aged = brief_engine._entry_age_hours(entry, now)
         if aged is None:
             continue
-        age_h, _ = aged
+        age_h, published = aged
         if age_h > lookback_hours:
             continue
         clean_title = brief_engine._TRAIL_SOURCE_RE.sub("", title).strip()
@@ -370,10 +312,33 @@ def gather_related_headlines(query_text, cfg, max_results=5, lookback_hours=48):
         results.append({
             "title": clean_title,
             "source": brief_engine._source_name(entry, "Google News"),
+            "url": getattr(entry, "link", "") or "",
+            "published": published.isoformat(),
         })
         if len(results) >= max_results:
             break
     return results
+
+
+_NO_HEADLINE_TITLE = "(no specific news story found — price move only)"
+
+
+def _find_headline(query_text, cfg):
+    """Per-mover targeted lookup -- now that detection no longer depends on
+    having already seen a matching headline, this reuses the same Google
+    News search (gather_related_headlines) queried by the specific
+    company/industry name instead of the triggering headline's own text.
+    Always returns a usable headline dict, with a clear placeholder if
+    nothing turns up, so a real, verified price move is never suppressed
+    just because no story was found -- the whole point of this redesign."""
+    related = gather_related_headlines(query_text, cfg, max_results=1)
+    if related:
+        r = related[0]
+        return {"title": r["title"], "source": r["source"], "url": r["url"], "published": r["published"]}
+    return {
+        "title": _NO_HEADLINE_TITLE, "source": "price data", "url": "",
+        "published": dt.datetime.now(UTC).isoformat(),
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -469,21 +434,6 @@ def save_state(state, cfg):
         json.dump(state, f, indent=2)
 
 
-def effective_lookback_hours(state, cfg):
-    """How far back to fetch headlines this cycle. GitHub Actions doesn't
-    honor the cron's nominal cadence for this account tier (runs land 2-6+
-    hours apart in practice, not every POLL_INTERVAL_MINUTES) -- so rather
-    than assume a fixed gap and silently miss whatever aged out of the
-    scheduler's queue in between, look back to whenever the last run actually
-    completed, capped at cfg.MAX_LOOKBACK_HOURS."""
-    floor_hours = (cfg.POLL_INTERVAL_MINUTES + cfg.LOOKBACK_OVERLAP_MINUTES) / 60.0
-    last_run = state.get("last_run_utc")
-    if not last_run:
-        return floor_hours
-    gap_hours = (dt.datetime.now(UTC) - dt.datetime.fromisoformat(last_run)).total_seconds() / 3600.0
-    return min(cfg.MAX_LOOKBACK_HOURS, max(floor_hours, gap_hours))
-
-
 def should_alert(state, key, cfg):
     """One alert per story/ticker per COOLDOWN_HOURS, full stop -- no
     same-day re-alert on a deepening move, even a large one. Confirmed
@@ -554,86 +504,66 @@ def run_cycle(cfg):
     the cooldown on a story the user never actually received."""
     watchlist = load_watchlist(cfg)
     state = load_state(cfg)
-    lookback_hours = effective_lookback_hours(state, cfg)
     state["last_run_utc"] = dt.datetime.now(UTC).isoformat()
 
-    sections, total = brief_engine.fetch_news(cfg, lookback_hours)
-    candidates = [item for items in sections.values() for item in items]
-    print(f"Fetched {total} candidate headline(s) (lookback {lookback_hours:.2f}h).")
+    scanned = scan_watchlist_moves(watchlist, cfg)
 
     alerts = []
-    seen = set()
-    for item in candidates:
-        norm = _norm(item["title"])
-        if norm in seen:
-            continue
-        seen.add(norm)
 
-        matched = match_watchlist(item["title"], watchlist)
-        if matched:
-            moves = check_price_moves([t for t, _ in matched])
-            for ticker, move in moves.items():
-                if abs(move["pct"]) < cfg.SINGLE_STOCK_MOVE_PCT:
-                    continue
-                key = f"single:{ticker}"
-                if not should_alert(state, key, cfg):
-                    continue
-                company = next((c for t, c in matched if t == ticker), ticker)
-                peer_pairs = infer_peers(item["title"], cfg)
-                peers = top_peer_moves(peer_pairs, exclude_ticker=ticker,
-                                        max_count=cfg.MAX_DISPLAY_PEERS)
-                alerts.append({
-                    "type": "single_stock", "headline": item, "key": key,
-                    "metric_pct": move["pct"],
-                    "market_name": market_name_for_ticker(ticker),
-                    "primary": {
-                        "ticker": ticker, "company": company, "pct": move["pct"],
-                        "last": move["last"], "prev": move["prev"],
-                        "currency": move.get("currency"),
-                    },
-                    "peers": peers,
-                })
-        elif _looks_sector_worthy(item["title"], cfg):
-            # Cooldown gated *before* the Groq call, not after -- a
-            # sector-worthy headline typically sits in the lookback window
-            # for many hours and reappears in every ~15-minute cycle, so
-            # checking should_alert() only after infer_peers() (as this used
-            # to) burned a real LLM call every single cycle on a story
-            # that's already in cooldown and gets discarded moments later.
-            # Confirmed 2026-09-18 as the likely driver of Groq free-tier
-            # quota exhaustion (200k tokens/day) causing later, genuinely
-            # new alerts' write_analysis() calls to fail that same day.
-            key = f"sector:{norm[:80]}"
-            if not should_alert(state, key, cfg):
-                continue
-            peer_pairs = infer_peers(item["title"], cfg)
-            if len(peer_pairs) < cfg.SECTOR_MIN_PEERS:
-                continue
-            result = evaluate_sector_move(peer_pairs, cfg)
-            if not result or not result["qualifies"]:
-                continue
-            # The peer basket has no single "subject" the way a single-stock
-            # headline does -- use its biggest mover as the primary line, and
-            # the rest (up to MAX_DISPLAY_PEERS) as the peers list.
-            ranked = sorted(result["moves"].items(), key=lambda kv: -abs(kv[1]["pct"]))
-            top_ticker, top_move = ranked[0]
-            peers = [
-                {"ticker": t, "company": result["peer_names"].get(t, t), "pct": m["pct"]}
-                for t, m in ranked[1:1 + cfg.MAX_DISPLAY_PEERS]
-            ]
-            alerts.append({
-                "type": "sector", "headline": item, "key": key,
-                "metric_pct": result["median_pct"],
-                "market_name": market_name_for_ticker(top_ticker),
-                "primary": {
-                    "ticker": top_ticker, "company": result["peer_names"].get(top_ticker, top_ticker),
-                    "pct": top_move["pct"], "last": top_move["last"], "prev": top_move["prev"],
-                    "currency": top_move.get("currency"),
-                },
-                "peers": peers,
-                "median_pct": result["median_pct"],
-                "breadth_share_pct": result["breadth_share_pct"],
-            })
+    # -- Single-stock: any watchlist ticker that itself cleared the bar -----
+    for ticker, move in scanned.items():
+        if abs(move["pct"]) < cfg.SINGLE_STOCK_MOVE_PCT:
+            continue
+        key = f"single:{ticker}"
+        if not should_alert(state, key, cfg):
+            continue
+        info = watchlist[ticker]
+        headline = _find_headline(info["company_name"], cfg)
+        peers = same_group_peers(ticker, info["industry"], watchlist, scanned, cfg.MAX_DISPLAY_PEERS)
+        alerts.append({
+            "type": "single_stock", "headline": headline, "key": key,
+            "metric_pct": move["pct"],
+            "market_name": market_name_for_ticker(ticker),
+            "primary": {
+                "ticker": ticker, "company": info["company_name"], "pct": move["pct"],
+                "last": move["last"], "prev": move["prev"], "currency": move.get("currency"),
+            },
+            "peers": peers,
+        })
+
+    # -- Sector-wide: group this cycle's movers by real industry tag -------
+    for industry, moves in _group_by_industry(watchlist, scanned).items():
+        if len(moves) < cfg.SECTOR_MIN_PEERS:
+            continue
+        result = _median_breadth(moves, cfg)
+        if not result["qualifies"]:
+            continue
+        key = f"sector:{_norm(industry)}"
+        if not should_alert(state, key, cfg):
+            continue
+        # The group has no single "subject" the way a single-stock ticker
+        # does -- use its biggest mover as the primary line, and the rest
+        # (up to MAX_DISPLAY_PEERS) as the peers list.
+        ranked = sorted(moves.items(), key=lambda kv: -abs(kv[1]["pct"]))
+        top_ticker, top_move = ranked[0]
+        peers = [
+            {"ticker": t, "company": watchlist[t]["company_name"], "pct": m["pct"]}
+            for t, m in ranked[1:1 + cfg.MAX_DISPLAY_PEERS]
+        ]
+        headline = _find_headline(f"{industry} stocks", cfg)
+        alerts.append({
+            "type": "sector", "headline": headline, "key": key,
+            "metric_pct": result["median_pct"],
+            "market_name": market_name_for_ticker(top_ticker),
+            "primary": {
+                "ticker": top_ticker, "company": watchlist[top_ticker]["company_name"],
+                "pct": top_move["pct"], "last": top_move["last"], "prev": top_move["prev"],
+                "currency": top_move.get("currency"),
+            },
+            "peers": peers,
+            "median_pct": result["median_pct"],
+            "breadth_share_pct": result["breadth_share_pct"],
+        })
 
     for alert in alerts:
         alert["analysis"] = write_analysis(alert, cfg)
