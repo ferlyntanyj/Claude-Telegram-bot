@@ -594,14 +594,23 @@ def run_cycle(cfg):
                     "peers": peers,
                 })
         elif _looks_sector_worthy(item["title"], cfg):
+            # Cooldown gated *before* the Groq call, not after -- a
+            # sector-worthy headline typically sits in the lookback window
+            # for many hours and reappears in every ~15-minute cycle, so
+            # checking should_alert() only after infer_peers() (as this used
+            # to) burned a real LLM call every single cycle on a story
+            # that's already in cooldown and gets discarded moments later.
+            # Confirmed 2026-09-18 as the likely driver of Groq free-tier
+            # quota exhaustion (200k tokens/day) causing later, genuinely
+            # new alerts' write_analysis() calls to fail that same day.
+            key = f"sector:{norm[:80]}"
+            if not should_alert(state, key, cfg):
+                continue
             peer_pairs = infer_peers(item["title"], cfg)
             if len(peer_pairs) < cfg.SECTOR_MIN_PEERS:
                 continue
             result = evaluate_sector_move(peer_pairs, cfg)
             if not result or not result["qualifies"]:
-                continue
-            key = f"sector:{norm[:80]}"
-            if not should_alert(state, key, cfg):
                 continue
             # The peer basket has no single "subject" the way a single-stock
             # headline does -- use its biggest mover as the primary line, and
