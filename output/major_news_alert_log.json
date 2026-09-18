@@ -3590,5 +3590,51 @@
       "look_out": "Watch Qualcomm’s upcoming earnings release, 5G chipset rollout updates, and any macro‑economic data that could affect chip spending.",
       "memory": "A similar drop followed the Q2 2023 earnings miss, where the share price fell ~6% before rebounding on later guidance improvements."
     }
+  },
+  {
+    "alert_utc": "2026-09-18T17:17:08.617288+00:00",
+    "type": "single_stock",
+    "headline": "Seagate Technology Holdings PLC stock underperforms Thursday when compared to competitors despite daily gains",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWmRXNHRoelo3UkZPNE93a2RsZWRNOThmWGRzQkJDNkl3OFlLVDZtaDhxSFFXVVF0ZFkzdjh3cHlRcUR4aUIyM1FLYmFxRHg1MEQxenFwZ0tUMzI5Zkdva0xyWXpuNHpHV1RzbHBoLTlnYTlkOWhhSjhkMWNXeUE5T3hpYW1ybnlKbUloMW81RExfZlZDVVJxdGZmMnU3dXB5X3JGZ3BJNUhHcF9ISnExNVBTNlcwN1o5VVJKUGlzYTNMS1I0MWFjbFJNeVEwQmhhbXQzZlRkYnRjR0xuZmJtdnRXN0VRRUVaUW5FV21vU2xVXzNFZTBzaDFzSkxDZw?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "STX",
+      "company": "Seagate Technology",
+      "pct": 5.233270828656367,
+      "last": 845.1599731445312,
+      "prev": 803.1300048828125,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "SNDK",
+        "company": "Sandisk",
+        "pct": 7.717153835631874
+      },
+      {
+        "ticker": "SMCI",
+        "company": "Supermicro",
+        "pct": -3.7298570268427977
+      },
+      {
+        "ticker": "WDC",
+        "company": "Western Digital",
+        "pct": 3.2911063221576997
+      },
+      {
+        "ticker": "3231.TW",
+        "company": "Wistron",
+        "pct": 1.91256830601092
+      }
+    ],
+    "analysis": {
+      "business_model": "Seagate designs, manufactures and sells hard disk drives and storage solutions for data centers, enterprises and consumers.",
+      "sentiment": "Mixed - gains modest versus stronger peer advances",
+      "why_moved": "The stock rose on reported higher HDD shipments and improved inventory, but investors noted weaker guidance relative to SSD‑focused rivals.",
+      "read_across": "Peers’ stronger moves suggest broader storage demand, with SSD players gaining faster; supply chain remains tight across HDD and SSD production.",
+      "look_out": "Watch Seagate’s upcoming earnings, SSD roadmap announcements and any shifts in data‑center procurement trends.",
+      "memory": "In Q3 2023 Seagate’s modest rally lagged peers amid similar HDD demand dynamics, then recovered after earnings."
+    }
   }
 ]
