@@ -2792,5 +2792,123 @@
       "look_out": "Watch for a formal agreement announcement, regulatory approvals, and timeline for the US fab construction.",
       "memory": "Similar to Intel’s 2021 IDM‑2 strategy rollout, which initially boosted the stock before execution challenges emerged."
     }
+  },
+  {
+    "alert_utc": "2026-09-18T08:33:31.287683+00:00",
+    "type": "single_stock",
+    "headline": "Airtel Money to trim London IPO size ahead of kick-off, Bloomberg News reports",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa0I5RVliVlB1ZWV2eHI3Q3lraG5tanp2b1FPQ3JOQnR1YXBhUV9CSUFlZzNBQThMSHVZQjF2WlRBTmI0TVV1NUxMRjJuWEFteVhFQUc1b3hCZXFzLWFtME1oNms5aFp6eTVzeHVMaklpMGRPaUs0RUZTb2ItbU5FM1pkVXRTUXRVYVZlOWpTZkwyaklVN2FUVkxRSTVaYXd0dXNVbUdMVk1zV29qaUhOak1wZW9FRjFkNGNpUA?oc=5",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "AAF.L",
+      "company": "Airtel Africa",
+      "pct": -5.026003408589452,
+      "last": 328.79998779296875,
+      "prev": 346.20001220703125,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "TMUS",
+        "company": "T-Mobile US",
+        "pct": -5.565640454058496
+      },
+      {
+        "ticker": "DTE.DE",
+        "company": "Deutsche Telekom",
+        "pct": -5.201109542523364
+      },
+      {
+        "ticker": "CMCSA",
+        "company": "Comcast",
+        "pct": -3.455540289264336
+      },
+      {
+        "ticker": "VOD.L",
+        "company": "Vodafone Group",
+        "pct": -3.272447200987527
+      }
+    ],
+    "analysis": {
+      "business_model": "Airtel Africa operates mobile networks across 14 African countries, earning revenue from voice, data and its Airtel Money mobile‑payment platform.",
+      "sentiment": "Bearish - reduced IPO size signals weaker investor appetite",
+      "why_moved": "The shares fell after Bloomberg reported the London IPO will be smaller, implying lower valuation and funding needs.",
+      "read_across": "The move mirrors pressure on other telcos like T‑Mobile, Deutsche Telekom, Comcast and Vodafone, hinting at broader valuation strain in the sector.",
+      "look_out": "Watch the actual IPO launch, subsequent pricing, and upcoming subscriber growth or earnings data for confirmation.",
+      "memory": "When Vodafone trimmed its 2022 share issue, its stock similarly dropped on perceived funding weakness."
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T08:33:31.287697+00:00",
+    "type": "sector",
+    "headline": "Tata Chemicals shares crash 7.5% amid Tata Sons listing row; TMPV, TCS down 2%: Here's why",
+    "source": "Moneycontrol.com",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQM1ZqVHpTVTFpQU5YNFdGS21BUFB2b0xILWRVNVl6WVlLdzJUb1BxZ2hOLTBmbk5ldjljU2hJR1J4ay02NWhFOGcyYUZHSm4tTG42Ukd2V3NRQXJ3NVVlU0d6RzF4OFk5MEZ6VG1LSWNiRnQwZWRBMDlmQ294WmdHT3Boc0FZQncyVWl2d0Z6X0VpV2RfSEVzQWJDUGtjeEpQZ1JCQWpzcFE2cC02OWViQWxweUhCMjdyX2h6STM2NTNEdHBTMkl4Zjg3cXBjNHhPVWFXSllzU29tUkVIeDlTTlR0MDbSAeoBQVVfeXFMTTIxQXVtaGhIelB0bndYNVUzaURnVGtoYTE2VEN0ZUZLQk16UXBwTnZnTjVJRnNmV3VPeWF0WU42MFhFRktQenFrSkJQT1l1bXpNWXFEc3l6RHZ2blhEVXVydk4yR3NWN0Z0MlVob1RTeEhrbjJuNUN0WUhweTFWUzc0U240LXpVMFBaUnpBSllQNXpEOTdqY2VaUDlrRjdXdGVyZktuWGt0NzlXOXdaX2ZGVGVvOEpZQTlWZHRjNEF0a2lXMHJsYTh1Q1FUY243ZmlUZlNKSTNaZk80UTM5Vnl2MUxQWF9KSW9B?oc=5",
+    "market_name": "Malaysia · Bursa Malaysia",
+    "primary": {
+      "ticker": "5183.KL",
+      "company": "PETRONAS CHEMICALS GROUP BHD",
+      "pct": -3.2921876513111736,
+      "last": 4.699999809265137,
+      "prev": 4.860000133514404,
+      "currency": "MYR"
+    },
+    "peers": [
+      {
+        "ticker": "PTTGC.BK",
+        "company": "PTT Global Chemical",
+        "pct": -2.538071065989844
+      },
+      {
+        "ticker": "BAS.DE",
+        "company": "BASF",
+        "pct": -0.34529119794297625
+      }
+    ],
+    "analysis": {
+      "business_model": "PETRONas Chemicals Group BHD manufactures and markets petrochemicals, refining products and specialty chemicals, supplying feedstocks and polymers primarily to domestic and regional customers.",
+      "sentiment": "Bearish - sector pressure after Tata Chemicals listing controversy",
+      "why_moved": "Shares fell as investors reacted to negative sentiment from Tata Chemicals' 7.5% plunge over a listing dispute, dragging down regional chemical stocks.",
+      "read_across": "The drop suggests broader risk aversion across Asian chemical producers, potentially affecting peers like PTT Global Chemical and BASF.",
+      "look_out": "Watch for PETRONAS Chemicals' upcoming earnings release and any further fallout from the Tata Sons listing row that could amplify sector volatility.",
+      "memory": "A comparable regional chemical sell‑off occurred in 2022 after a major earnings downgrade at Sinopec, leading to temporary price declines."
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T08:33:31.287704+00:00",
+    "type": "sector",
+    "headline": "Rs 600 Crore Raised At Premium Price: Why Investors Are Tracking This Chemical Stock",
+    "source": "Dalal Street Investment Journal",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQXNWb2JjTG1zZENDOUpINFpWWHR6ZHV6R0RwdDNPM1h4REFlZzFoV0h4V2tZYUdqVnJiNUx4QVFVNkQ4a202SUtOMHVCRDRXdWJJUFVvZjBYQXNfdlZPTjlSelVpYk00YTVQZ2hwazFRdTBwSjIzZ3hDelFSaTBWUkFZSTVOT0IwYVJsWW9KVXlydWF5MFlzVzBuOGxtTDU1dEQ2dGItWFBsNXF0T0lPWkpHZUJZdWcyWkdzMG1lazY4TEtr?oc=5",
+    "market_name": "Germany · XETRA",
+    "primary": {
+      "ticker": "SY1.DE",
+      "company": "Symrise",
+      "pct": -2.5147555711639624,
+      "last": 89.16000366210938,
+      "prev": 91.45999908447266,
+      "currency": "EUR"
+    },
+    "peers": [
+      {
+        "ticker": "BNR.DE",
+        "company": "Brenntag",
+        "pct": -2.1414661062535534
+      },
+      {
+        "ticker": "CRDA.L",
+        "company": "Croda International",
+        "pct": 0.7936507936507908
+      }
+    ],
+    "analysis": {
+      "business_model": "Symrise creates and sells flavors, fragrances and specialty chemicals for consumer goods, cosmetics and food industries, earning revenue from licensing its formulations and selling finished ingredients.",
+      "sentiment": "Bearish - investors fear dilution after large premium fundraise",
+      "why_moved": "The Rs 600 crore premium raise for a domestic chemical firm spooked investors, prompting a sell‑off in related stocks like Symrise. The sizable capital influx raised concerns about over‑hang and valuation.",
+      "read_across": "Peers such as Brenntag and Croda saw modest moves, highlighting sector‑wide scrutiny of fundraising and pricing dynamics across the chemical supply chain.",
+      "look_out": "Watch Symrise’s upcoming earnings and any further equity issuances, as well as regulatory clearances for the new capital that could affect share price momentum.",
+      "memory": "A similar large premium share issue at Givaudan in 2022 triggered a short‑term sell‑off before the stock stabilized."
+    }
   }
 ]

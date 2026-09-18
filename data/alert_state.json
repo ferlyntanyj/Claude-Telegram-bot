@@ -239,7 +239,19 @@
     "single:DTE.DE": {
       "last_alert_utc": "2026-09-18T07:47:36.549146+00:00",
       "last_move_pct": -5.201109542523364
+    },
+    "single:AAF.L": {
+      "last_alert_utc": "2026-09-18T08:33:30.085545+00:00",
+      "last_move_pct": -5.026003408589452
+    },
+    "sector:chemicals": {
+      "last_alert_utc": "2026-09-18T08:33:30.690969+00:00",
+      "last_move_pct": -2.538071065989844
+    },
+    "sector:specialty chemicals": {
+      "last_alert_utc": "2026-09-18T08:33:31.285705+00:00",
+      "last_move_pct": -2.1414661062535534
     }
   },
-  "last_run_utc": "2026-09-18T08:15:38.089418+00:00"
+  "last_run_utc": "2026-09-18T08:30:41.132909+00:00"
 }
