@@ -365,5 +365,50 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-18T06:01:37.591306+00:00",
+    "type": "sector",
+    "headline": "Thailand must invest in front-end chip production, industry body says",
+    "source": "Nikkei Asia",
+    "url": "https://asia.nikkei.com/business/tech/semiconductors/thailand-must-invest-in-front-end-chip-production-industry-body-says",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "pct": 5.929318519869353,
+      "last": 108.80000305175781,
+      "prev": 102.71,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices, Inc.",
+        "pct": 5.017571037559976
+      },
+      {
+        "ticker": "MU",
+        "company": "Micron Technology, Inc.",
+        "pct": 4.601391118245046
+      },
+      {
+        "ticker": "005930.KS",
+        "company": "Samsung Electronics Co Ltd",
+        "pct": 3.7698412698412787
+      },
+      {
+        "ticker": "TSM",
+        "company": "Taiwan Semiconductor Manufacturing Co.",
+        "pct": 2.172709957511154
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
