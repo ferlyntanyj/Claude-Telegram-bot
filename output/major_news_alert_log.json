@@ -3324,5 +3324,51 @@
       "look_out": "Watch Coherent's upcoming earnings release and any announcements of new laser product launches or defense contracts.",
       "memory": "Coherent saw a similar sharp rally in early 2022 after an earnings beat, followed by a pull‑back once the excitement faded."
     }
+  },
+  {
+    "alert_utc": "2026-09-18T14:17:12.587333+00:00",
+    "type": "single_stock",
+    "headline": "Next boss warns on tax rises as retailer raises profit outlook",
+    "source": "Financial Times",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNXVHdVlTNGpYUGpldUdORjFLc3ZHUDlXYVJocXFYTmhFc1FtYnVnd0YxR3YwSVlTUFdRSkFxZngwdHg1QlJrcEh5YWRCM2ZOUTJIT21taGdLd3Jzc3RzQ0t0a3FtRWExWHoyZ2d3UDRmdV9iZklGSDJPNUxEQ0FWdDAzVG4?oc=5",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "NXT.L",
+      "company": "Next plc",
+      "pct": -5.160857908847182,
+      "last": 14150.0,
+      "prev": 14920.0,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "LULU",
+        "company": "Lululemon Athletica",
+        "pct": -0.8954617115543795
+      },
+      {
+        "ticker": "TJX",
+        "company": "TJX Companies",
+        "pct": 0.6242538657306174
+      },
+      {
+        "ticker": "ROST",
+        "company": "Ross Stores",
+        "pct": -0.09368848783921635
+      },
+      {
+        "ticker": "9983.T",
+        "company": "Fast Retailing Co., Ltd.",
+        "pct": -0.02954209748892156
+      }
+    ],
+    "analysis": {
+      "business_model": "Next plc is a British multinational retailer selling clothing, footwear and home goods through its own high‑street stores and online platform.",
+      "sentiment": "Mixed - tax concerns offset profit outlook boost",
+      "why_moved": "Shares fell because the CEO highlighted higher corporation tax eroding margins, outweighing the upbeat profit forecast. The warning sparked investor worries about cost pressures.",
+      "read_across": "The tax‑rise caution could pressure peers such as Lululemon, TJX, Ross and Fast Retailing, especially those with similar UK exposure, tightening industry margins.",
+      "look_out": "Watch the UK government’s upcoming corporate‑tax legislation and Next’s next earnings release for guidance on whether the profit outlook holds.",
+      "memory": "In 2023, UK retailer B&M saw its stock slide after warning of higher taxes despite strong sales, a similar pattern of tax‑driven volatility."
+    }
   }
 ]
