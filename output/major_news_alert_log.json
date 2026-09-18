@@ -410,5 +410,2295 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477914+00:00",
+    "type": "single_stock",
+    "headline": "Micron’s Taiwan workers threaten strike, say up to 68 months’ bonus not enough",
+    "source": "The Straits Times",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQakZ0Y2FEQXBmenZ5cjkzRTRqUFBoWnF6NjBfM3dSUkZibzRHQzRVOG9ORGIwbFFTTHlRS0Z3ZGRBSENvV3NQY2hYS0E5LTVUb05SVnhscm5kdHRzWGh0Rl9zbXRHTWdvMGVKTGRLbVZka01xRDdIalhhQjdNdDRobVpMQ0pZd01fd3hGNnJRWlJfT3J1THBYX1RWTTdZLWV6TDVRSkpIaElzUVdPbXljTEFBOWFBbm9pdS1j?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "MU",
+      "company": "Micron Technology",
+      "pct": 5.498895135533233,
+      "last": 977.5,
+      "prev": 926.5499877929688,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": 7.6694703275075105
+      },
+      {
+        "ticker": "2408.TW",
+        "company": "Nanya Technology",
+        "pct": 7.581967213114749
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      }
+    ],
+    "analysis": {
+      "sentiment": "Bearish - potential production halt threatens earnings",
+      "why_moved": "Investors shrugged off the strike threat, seeing it as short‑term and believing Micron’s Taiwan fab remains essential for memory supply, pushing the stock higher.",
+      "read_across": "Peers like Intel and JCET also rose, indicating broader memory‑chip demand outweighs isolated labor concerns and that supply‑chain tightness lifts the sector.",
+      "look_out": "Monitor the outcome of the bonus negotiations, any work stoppage announcements, and Micron’s upcoming quarterly results for earnings impact.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477925+00:00",
+    "type": "single_stock",
+    "headline": "No plans have been confirmed regarding the reported talks between SK hynix and Intel on memory chip production in the U.S.",
+    "source": "SK hynix",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5nZXBGVUVkY2NYNWFHNXVsYzNCbFBPUnFNNHhGdGdPV0trOWxwNDRKTUp0d1piMVpKdUFVY2NkYkxMUmVFMnUyeXBGT3U?oc=5",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "000660.KS",
+      "company": "SK Hynix",
+      "pct": 6.418338108882526,
+      "last": 1857000.0,
+      "prev": 1745000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": 7.6694703275075105
+      },
+      {
+        "ticker": "2408.TW",
+        "company": "Nanya Technology",
+        "pct": 7.581967213114749
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477929+00:00",
+    "type": "single_stock",
+    "headline": "AMD Jumps 7% as Semiconductor Rebound Reaches a Third Session; Broadcom Rises 3%, NVIDIA Edges Higher",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUEdiMWFJUkJPdHBGUThBWTVzY1hjQjg0NjRiMkkzMFZ1dEo1eW02Vm1CNTlMd1VUdHNOR2JBR0k4cGRHWmJWcnJUNDc3d3lUVnhPVW5MOEVYTEw1ZG8tenU5bnFKRlpHV3VzR09yZ005RHFNTnNRRGRkZW9haFd5LXZaLUpvXzJMQ0p1clVTSFhTX2Zvbzg0b1VtbkdmU1k?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "AMD",
+      "company": "Advanced Micro Devices",
+      "pct": 6.359029630335367,
+      "last": 545.0900268554688,
+      "prev": 512.5,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": 7.6694703275075105
+      },
+      {
+        "ticker": "2408.TW",
+        "company": "Nanya Technology",
+        "pct": 7.581967213114749
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477934+00:00",
+    "type": "single_stock",
+    "headline": "Oracle Shares Climb Despite Layoffs as $30 Billion AI Deals Fuel Growth",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUWxWSVFlSWtNZnc4MmZWREd3TjVtWjJ3ZHZSemRTbzVUZS1lR0Y3T280R3lUMTh3TklFMlBUb2JHNzIyU1BGUWRNZlE4X0FQU2FOdWctSE9KR3Nid0RBRWg5MWctQXV5LTh4RTQ2WXJSa3I5SVJoRE9ZYWJBa3NaQnlEZ28taVhCckhKVWxYdE81MVRiNnBGX3JhS3NJTUdr?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "ORCL",
+      "company": "Oracle Corporation",
+      "pct": 5.189991957053697,
+      "last": 150.58999633789062,
+      "prev": 143.16000366210938,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300454.SZ",
+        "company": "Sangfor Technologies",
+        "pct": 4.066339047248624
+      },
+      {
+        "ticker": "NTAP",
+        "company": "NetApp",
+        "pct": 2.8356533082741553
+      },
+      {
+        "ticker": "FFIV",
+        "company": "F5, Inc.",
+        "pct": 2.6039327827984016
+      },
+      {
+        "ticker": "AKAM",
+        "company": "Akamai Technologies",
+        "pct": 2.48851300783246
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477937+00:00",
+    "type": "single_stock",
+    "headline": "Micron vs. Sandisk: Which AI Memory Stock Benefits More From Nvidia's $279 Billion Warning?",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObFJkbDFrdl93LUlMazRUbk1nQnRWSlhUZjNzeERBdVJTUFNLS2tEMVpGQVFMRl9LXzRTZmxqUktwV2lsc0x2UFlnQm5CQW03Y1FUdmJ0bEhCMlU1QkMtcmI5MFVWN3c1QktyT3VlWjdkZlhNRmhTOG9QVF9EX3F4OTI4Wk9fWm9BMjdBa0NsQlFtXzJDZnV3?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "SNDK",
+      "company": "Sandisk",
+      "pct": 6.211967720759293,
+      "last": 1614.3900146484375,
+      "prev": 1519.969970703125,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "SMCI",
+        "company": "Supermicro",
+        "pct": 9.497965115135543
+      },
+      {
+        "ticker": "0992.HK",
+        "company": "Lenovo",
+        "pct": 8.974364389400558
+      },
+      {
+        "ticker": "HPQ",
+        "company": "HP Inc.",
+        "pct": 5.993880852425004
+      },
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies",
+        "pct": 4.457747761580055
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477941+00:00",
+    "type": "single_stock",
+    "headline": "T-Mobile is giving away the Apple iPhone for free — how to claim",
+    "source": "Mashable",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9wRElxNVJrdVBrNVZoTURXamZqOFRuamhZUWtKdlYwYmNacWRzWndpSHdFT2Q3ODZkNFJEQUdmQW9QTWtreDdGaWVnX1RvcUQyMlAtR0huVVNjcXNC?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "TMUS",
+      "company": "T-Mobile US",
+      "pct": -5.565640454058496,
+      "last": 166.4499969482422,
+      "prev": 176.25999450683594,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "DTE.DE",
+        "company": "Deutsche Telekom",
+        "pct": -4.785024482711053
+      },
+      {
+        "ticker": "CMCSA",
+        "company": "Comcast",
+        "pct": -3.455540289264336
+      },
+      {
+        "ticker": "601698.SS",
+        "company": "China Satellite Communications",
+        "pct": 2.889920858409001
+      },
+      {
+        "ticker": "VZ",
+        "company": "Verizon",
+        "pct": -2.873787256258198
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477944+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6857.T",
+      "company": "Advantest Corp.",
+      "pct": 5.985449735449744,
+      "last": 32050.0,
+      "prev": 30240.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": 8.704115684093438
+      },
+      {
+        "ticker": "300316.SZ",
+        "company": "Zhejiang Jingsheng Mechanical & Electrical",
+        "pct": 5.847375061105087
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": 5.597210113339135
+      },
+      {
+        "ticker": "042700.KS",
+        "company": "Hanmi Semiconductor",
+        "pct": 4.656319290465638
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477948+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "402340.KS",
+      "company": "SK Square",
+      "pct": 7.043650793650791,
+      "last": 1079000.0,
+      "prev": 1008000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": 7.6694703275075105
+      },
+      {
+        "ticker": "2408.TW",
+        "company": "Nanya Technology",
+        "pct": 7.581967213114749
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477951+00:00",
+    "type": "single_stock",
+    "headline": "SEC Sends Strong Signal to Robinhood, Coinbase Investors",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc09Ma1lwZDJyLTYxX3d5NVM1bHdldXNKUFBlRTBYZ0l2MFV6U00tZ3p4YmJ0Rm5JbkNzZXlDUXpiWG8tNFZ2MjhWNDVETkU5LXJ4emFobUlUZUg5RERBUnNYVkIyVm1HSi1welM1dGF4T0VnZ2ZVQ1RNRkpDN3dqTzJrUzhBUkoxU21hOGF2SjBpRlVRYUFCUUhkQlVXWW8?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "HOOD",
+      "company": "Robinhood Markets",
+      "pct": 5.1618458955800195,
+      "last": 109.80999755859375,
+      "prev": 104.41999816894531,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "000776.SZ",
+        "company": "GF Securities",
+        "pct": 3.8461560447420995
+      },
+      {
+        "ticker": "IGG.L",
+        "company": "IG Group",
+        "pct": 2.203647416413368
+      },
+      {
+        "ticker": "INVP.L",
+        "company": "Investec",
+        "pct": -2.0454545454545503
+      },
+      {
+        "ticker": "600999.SS",
+        "company": "China Merchants Securities",
+        "pct": 1.9119346426997863
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477954+00:00",
+    "type": "single_stock",
+    "headline": "Are Computer and Technology Stocks Lagging Hewlett Packard (HPE) This Year?",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSDF3cUJZRjhJOFV1dzh1eXREQXVIM3VLd3hGWDN6cHdpUXBob1l0bDBFRUtSWk8walk5ZkVFa1RwS3M1NXVKS3BiUlNMUEZCNFQ2ZEptbjItUlRVUHJvWHJQNWFBelU0MlFMUmdSdGVlaElDRGxNYVhKbE40R2ItQjVjQzVUaXNhdVczUWdJR0pGMVRpdklxeFhYMmplUzRkUmw3d0EtczhXWVU?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "HPE",
+      "company": "Hewlett Packard Enterprise",
+      "pct": 7.964699694720312,
+      "last": 61.040000915527344,
+      "prev": 56.5369987487793,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300308.SZ",
+        "company": "Zhongji Innolight",
+        "pct": 3.3962045397077256
+      },
+      {
+        "ticker": "2345.TW",
+        "company": "Accton",
+        "pct": 3.0555555555555447
+      },
+      {
+        "ticker": "LITE",
+        "company": "Lumentum",
+        "pct": -2.805094450474488
+      },
+      {
+        "ticker": "601138.SS",
+        "company": "Foxconn Industrial Internet",
+        "pct": 2.3502507196839995
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477957+00:00",
+    "type": "single_stock",
+    "headline": "Moderna: Another Day, Another Big Stock Move. Is the Cancer Vaccine Rally Back On?",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5jS1pFN3VGT2JNbmZlT2VfY0YxVGNRRzdqcjBxRl9OYU9wYldWT01jRUdBclYtRnVfTHVkYXhPLTM3NWNFQ0JxWUNZdDBZeEcxZF9LZGtuczFrcDc1U3BwTjhrcEs3NzNQaGZVdFBFZVd1VDAxdnc?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "pct": 8.549658442861595,
+      "last": 158.07000732421875,
+      "prev": 145.6199951171875,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "INCY",
+        "company": "Incyte",
+        "pct": 2.3006034040737644
+      },
+      {
+        "ticker": "REGN",
+        "company": "Regeneron Pharmaceuticals",
+        "pct": 1.9158062942776999
+      },
+      {
+        "ticker": "0126Z0.KS",
+        "company": "Samsung Epis",
+        "pct": -1.6541353383458635
+      },
+      {
+        "ticker": "CSL.AX",
+        "company": "CSL",
+        "pct": -1.109484820787432
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477960+00:00",
+    "type": "single_stock",
+    "headline": "Children’s Miracle Network raises record $2 million for UMC Children’s Hospital",
+    "source": "KCBD",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT2JySFNXdUQ2QmwtZzNzYjd5MmQwY0Q5LXpLdE1UVFFxcVBxYlNWMWt3eGdDTXdsbnYwY0Q0V3ZJWDJ1ZXJhdklmTE1IenppSUI4Ym9yVWl0QmpKRk9ycjRQMlNsVTN6VFV4QlNKZG1ITnE1dkQ5LUVYclIzUVgxa21odHlWTGdpc0V2N29XaVdXNWNkRG9qUVNZMjFpNmVLLWRGQmlZbWbSAbwBQVVfeXFMUGlhY1dtT19jLU1xeGNHMDlhY0xLQkRpc0RlcjVkUlBMTUU2aEFER1ExLWtaT3BKaWxSaVduSktaZnlCM2NkS1J3UmxpRm5ockhZZlBKelZlVEZJdDUybXBTSkhtTU90aXRMcmQ4UGdpQVFta19iN1pGZ051ejctQXpIejRNdmU2SUV1NGhfTFdRV0ZiT0dOQkxWNWs0U0RnSUcxVDdHcVJMNU16TmdoSE54WElkTld2ckF5eUg?oc=5",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "2303.TW",
+      "company": "UMC",
+      "pct": 5.762711864406778,
+      "last": 156.0,
+      "prev": 147.5,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": 7.6694703275075105
+      },
+      {
+        "ticker": "2408.TW",
+        "company": "Nanya Technology",
+        "pct": 7.581967213114749
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477963+00:00",
+    "type": "single_stock",
+    "headline": "Lenovo Legion 5i (2026), Legion 5a (2026) Launched in India With Up to Nvidia GeForce RTX 5060 GPU; LOQ 1...",
+    "source": "Gadgets 360",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMV92cnZVSXF0MDdtQWpsVWhEUU9vOU91d1c5LUJsZ0F6bVB1dHhFdHN5bzl4cjNLZF9qR0ViVEpvR3ZCbkk1WDhVODExbWlOUU9sT2RDdnFuQXJnNTNoVkZmRmY1SmFmdWZHUXVTT09uV0hQMWl5N2NnMmNWSi1NWlVkZk4xYmtsVXByakxWcDN0UHdpRFBpMXJlcHUzYlRzaGdqM3F4OFBycEJJTUp5aFJLeDRxU0tSaHljbDktSVdSVUxFVGZ5WFMyd9IB0AFBVV95cUxPVmhhU2l0a21DQ0JyWE1aRnV6Sml4andtMm5CaGJweW5uNFBKTEUzb1VuMG1hcXgxaGNHcUZnMUx4R0M2ZzBwY0RBQlFEak94S0Zxa3VwbEkwaDJ6LVdrNEhQSndXbzZITjIyaGlnaFpQRHFpUmhoelduMXVRemFlTEZpZGExaFR1RHc5ck0zbkJ1eUZnRHJxUWRPVk56dExIQzVTUVl1MlR4Q2E5NkZER0tWTHFJRjRwZUR0aF9XeXBuOVBMTDViNFhyZGloSUlz?oc=5",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "0992.HK",
+      "company": "Lenovo",
+      "pct": 8.974364389400558,
+      "last": 37.400001525878906,
+      "prev": 34.31999969482422,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "SMCI",
+        "company": "Supermicro",
+        "pct": 9.497965115135543
+      },
+      {
+        "ticker": "SNDK",
+        "company": "Sandisk",
+        "pct": 6.211967720759293
+      },
+      {
+        "ticker": "HPQ",
+        "company": "HP Inc.",
+        "pct": 5.993880852425004
+      },
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies",
+        "pct": 4.457747761580055
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477966+00:00",
+    "type": "single_stock",
+    "headline": "CMC Magnetics Disposes of NT$601 Million Worth Shares in Nanya Technology",
+    "source": "marketscreener.com",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeEptUWhkRjhVQTFFeENtelFkZWRNWHhwMFA1S3N4bHVxR0x0SWxJS2Vubmsya3Y2ckJlcndkQmNWZHBycWJ0aTU2VmtmTEE1dkJkeW5sUGppeElybHp1NHJVWDdGNVZrZlF0RkVVQWFScmEyVnF4ME9yWHh1MlVNdjFKeFd2Qkk3VkRKUzdWNXdPTXFUSG5LUWUtQ0ZhbExDVmhwTEhZZmptaV8weUZPM0VSVmZOdU5VcjA2TE0yUWVncUZ4?oc=5",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "2408.TW",
+      "company": "Nanya Technology",
+      "pct": 7.581967213114749,
+      "last": 525.0,
+      "prev": 488.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": 7.6694703275075105
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      },
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": 7.043650793650791
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477969+00:00",
+    "type": "single_stock",
+    "headline": "Workday gains on report take-private financing effort continues",
+    "source": "Seeking Alpha",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYmVldDJZRDZwV0VWVkI4UEo0TWREc1lXM25faXpld0xKeFhld3dsWmJHcm5DQUdqMWkzMGRTaGhZdm1ZbzR3eENuUUVmcUlTemVseGptN2FVLXpBalZrMHpZX3pzcm8tbGVJZnpVRWpPQkU2eDRTcFYtMWFUd0Qxd0FJTkl4c2JaUU0zeGczcGlLYUpiZ1JpSmxVTlItTDBIMTlj?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "WDAY",
+      "company": "Workday, Inc.",
+      "pct": 6.135494572589328,
+      "last": 199.27999877929688,
+      "prev": 187.75999450683594,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "600845.SS",
+        "company": "Baosight Software",
+        "pct": 6.964286484685922
+      },
+      {
+        "ticker": "XRO.AX",
+        "company": "Xero",
+        "pct": -4.079447354377641
+      },
+      {
+        "ticker": "301269.SZ",
+        "company": "Empyrean Technology",
+        "pct": 3.949979274830362
+      },
+      {
+        "ticker": "CRM",
+        "company": "Salesforce",
+        "pct": -2.898834468855327
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477972+00:00",
+    "type": "single_stock",
+    "headline": "Coinbase CEO says crypto can’t wait on Congress after CLARITY vote fails",
+    "source": "thestreet.com",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQekdYSlNuekN4YnZfVmREWDNsNU5RM0tETnhoVlF0WXpETTFKTERncHNzZmRlUWx1VEFkcFh1VGF1Z1FvZHNHSWJRR09Yci1vdXFIeEhOUkxEbGVrUjc1dHh0eEF6d2E3b1NqQ3FKaVRhWGhBRmNXb29IeVhXYnhMbDlacUg5TE1GUlFCUWFvX3l3YkJ5U05WVnJ6dEpGR3Vqd21JRC1yWXlPbmlPSzBZMA?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "COIN",
+      "company": "Coinbase",
+      "pct": 5.750414582546282,
+      "last": 173.97000122070312,
+      "prev": 164.50999450683594,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300033.SZ",
+        "company": "Hithink RoyalFlush Information Network",
+        "pct": 3.064068776276807
+      },
+      {
+        "ticker": "NDAQ",
+        "company": "Nasdaq, Inc.",
+        "pct": 2.872910501342152
+      },
+      {
+        "ticker": "MSCI",
+        "company": "MSCI",
+        "pct": 1.638886737506473
+      },
+      {
+        "ticker": "CBOE",
+        "company": "Cboe Global Markets",
+        "pct": -1.3903706504014623
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477975+00:00",
+    "type": "single_stock",
+    "headline": "HP Inc. stock outperforms competitors on strong trading day",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUm03MF8wdi1JNkl2YTFaQ3UyUndibGFsVkwxV09jY0ZQWjlaVWNIZUtENG1qVVQ2YWpHazRwTjBaZklkU1NYODNRSlp3MlNDSFNneGQyZWdCNEhRTm1PVFBOOWlpZDJGU2JtS1RxOWluNnEtSngtT2ktRlE5REprNnNmU3UxNWtoY3plWjNsa3hfRVY5Y1BPR0dIUTVsdzF6c2FXY2xKQU5wNkVIb2JGSGVDS2VDMU1YQlE?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "HPQ",
+      "company": "HP Inc.",
+      "pct": 5.993880852425004,
+      "last": 34.65999984741211,
+      "prev": 32.70000076293945,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "SMCI",
+        "company": "Supermicro",
+        "pct": 9.497965115135543
+      },
+      {
+        "ticker": "0992.HK",
+        "company": "Lenovo",
+        "pct": 8.974364389400558
+      },
+      {
+        "ticker": "SNDK",
+        "company": "Sandisk",
+        "pct": 6.211967720759293
+      },
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies",
+        "pct": 4.457747761580055
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477977+00:00",
+    "type": "single_stock",
+    "headline": "Fresnillo advances Thursday, outperforms market",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONlplNGxxVDY5Z04waTJZak9ncjlpRlJtWlRxVHBoNWZ5TkxYdDZqV0NTZmU3VmZTQVVSdG0wMDZ6SkNuTEREOHdhcFpfRDRSUm1qSUh2UERyVUl2YWpaZWlnUGVRbjMzNHBvbW1ERjNpQ2ZLZUZwZDZnRnZyMnVnTzdIRDROMzhNSjc2b2tKSGZKVEY2RDhiSWxadlBmQjBzRTkwSC1ZTlBjZw?oc=5",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "FRES.L",
+      "company": "Fresnillo plc",
+      "pct": 5.214408233276169,
+      "last": 3067.0,
+      "prev": 2915.0,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "AMMN.JK",
+        "company": "Amman Mineral Internasional Tbk.",
+        "pct": -4.897959183673473
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477980+00:00",
+    "type": "single_stock",
+    "headline": "Why is Super Micro Computer stock rallying today?",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMmhNLXJGN3BoS2UyM2I5NFhDT2tVTXpvTEhfSDNnRVRFUlhJQV9leWxIYUVNM3VaOURyejBPUVNIeTVMcGY2bTdFV19sNXZpLXlJaWVrdVpIZnJMU0NIdWk3U0xHRGdxYVoyNVQ0WXBfQmJKekhrVUF5MGtzVUhETnRWTXQ1N25HZHQ5N3hlRUhKRWcwYXRUeVFyMGYzTUtPQnl6VG5Ndmt6UkVSY0R3?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "SMCI",
+      "company": "Supermicro",
+      "pct": 9.497965115135543,
+      "last": 40.349998474121094,
+      "prev": 36.849998474121094,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "0992.HK",
+        "company": "Lenovo",
+        "pct": 8.974364389400558
+      },
+      {
+        "ticker": "SNDK",
+        "company": "Sandisk",
+        "pct": 6.211967720759293
+      },
+      {
+        "ticker": "HPQ",
+        "company": "HP Inc.",
+        "pct": 5.993880852425004
+      },
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies",
+        "pct": 4.457747761580055
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477983+00:00",
+    "type": "single_stock",
+    "headline": "LARGAN Precision Acquires Property In Taichung City For T$1.17 Bln",
+    "source": "TradingView",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbF9HNmY2TFZybWIxczdjSC1wMXVhaXlDbzJQZUNjNFJBYzEzMTRGOG1VUG9QNUhkQnZtRXhTS2luUDd3djhzdTU4NFZDZWNXMWJnWm50R3RGd2NLOG5QTDJpS2FLZkE3VXpyMVdVMGZxUllleUpFRUxUb1VzUXhXeVNUUzlDNmxlSFFDTHFsLXdfUjlKU09FZXFrTlUtQnZ4Wk94MUo5ZjNhVFI2b0FmVGVzMjV2c1JVV1lmalgyZ3pNV2tRR1RMTVhyOTZ5Z0w1OGc?oc=5",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "3008.TW",
+      "company": "Largan",
+      "pct": 6.810631229235886,
+      "last": 6430.0,
+      "prev": 6020.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "011070.KS",
+        "company": "LG Innotek",
+        "pct": 4.930966469428011
+      },
+      {
+        "ticker": "6981.T",
+        "company": "Murata Manufacturing Co., Ltd.",
+        "pct": 4.467770152065675
+      },
+      {
+        "ticker": "3037.TW",
+        "company": "Unimicron",
+        "pct": 4.3617021276595835
+      },
+      {
+        "ticker": "009150.KS",
+        "company": "Samsung Electro-Mechanics",
+        "pct": 4.360902255639099
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477986+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6920.T",
+      "company": "Lasertec Corp.",
+      "pct": 8.704115684093438,
+      "last": 39090.0,
+      "prev": 35960.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "6857.T",
+        "company": "Advantest Corp.",
+        "pct": 5.985449735449744
+      },
+      {
+        "ticker": "300316.SZ",
+        "company": "Zhejiang Jingsheng Mechanical & Electrical",
+        "pct": 5.847375061105087
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": 5.597210113339135
+      },
+      {
+        "ticker": "042700.KS",
+        "company": "Hanmi Semiconductor",
+        "pct": 4.656319290465638
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477989+00:00",
+    "type": "single_stock",
+    "headline": "First Solar Retreats 5% After Dropping ITC Patent Case It Calls Procedural; Enphase Energy Slips, Sunrun Holds Steady",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUWlEbEpFUjlZOVpzUFM5cGxkMjdjenVjcnVIZC1Ib1daY3hCclQwUkpRYWRnR193ZDFJckY0WnQxa01KRE4zbWRRR2lfWUhDaFY5S0Vsd25EYnZpb3o2X3QxQndGYndoY3RRQndsUno2Z2pXYVpMOWdrZjVjVUxrUzB2OUVydHp2b01DdVRodGJ5dw?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "FSLR",
+      "company": "First Solar",
+      "pct": 5.280785027013324,
+      "last": 201.16000366210938,
+      "prev": 191.07000732421875,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "688223.SS",
+        "company": "Jinko Solar",
+        "pct": 3.7433183034006445
+      },
+      {
+        "ticker": "600438.SS",
+        "company": "Tongwei Company",
+        "pct": 2.344456495080971
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477992+00:00",
+    "type": "single_stock",
+    "headline": "91st Civil Affairs Battalion gives medical training to Chadian Special Forces during JCET [Image 10 of 10]",
+    "source": "DVIDS",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYkRmZnFOV2NiMU01Z1Z6dmRqcV84MU84aXltLU1LZnNLWHA3NjQ4NHQ0T2RaWjBuOUgwTWtyelJpOUlKOXV0UVZna0gySW9KX1VtZzR0Y3RtWUh1UkhFa1ZzbGRzR2ZhVmx6R0lYemNfSlhvdll5X0oyV2RsWURDalFCcVJFTm42Z0Y3Y1JuSTNocjZCQnlLcjBrUXlpN21RbU9sbHFRNUpId19EaVpMbF9tVThlNXYwcnlZNHlibWM1Rms?oc=5",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "600584.SS",
+      "company": "JCET",
+      "pct": 7.749077490774914,
+      "last": 73.0,
+      "prev": 67.75,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": 7.6694703275075105
+      },
+      {
+        "ticker": "2408.TW",
+        "company": "Nanya Technology",
+        "pct": 7.581967213114749
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      },
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": 7.043650793650791
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477995+00:00",
+    "type": "single_stock",
+    "headline": "Why is EVE Energy stock rallying today?",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQamx3UFhPRl8wcXpYMXNVbmxwREFnNWs3SklSYUwtX0tZcUFnT2lNMHBCdm1CcVVxYTc4UkJDNWpoYTJnUEgzTWNFdTV0SXhQd1l6R1JzcVhtcHgyUm1aRDA1YTktZ3dTUmN6OC1jSkY3dHE1X0haNE94azIwUUdsbHFRUnh5aUVHVmd5elVMc0V1RTRUcWtqdlRoYndVeHBxclE?oc=5",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "300014.SZ",
+      "company": "Eve Energy",
+      "pct": 6.9044202004159505,
+      "last": 51.560001373291016,
+      "prev": 48.22999954223633,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "006260.KS",
+        "company": "LS",
+        "pct": 7.072368421052633
+      },
+      {
+        "ticker": "010120.KS",
+        "company": "LS Electric",
+        "pct": 4.702970297029707
+      },
+      {
+        "ticker": "300274.SZ",
+        "company": "Sungrow Power Supply",
+        "pct": 3.8030014058558548
+      },
+      {
+        "ticker": "5801.T",
+        "company": "Furukawa Electric Co., Ltd.",
+        "pct": 3.6672867393037434
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.477998+00:00",
+    "type": "single_stock",
+    "headline": "Endeavour Mining advances Thursday, outperforms market",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVXZlNE5XWXVGWld3Tm0wN3BvM3ZqNTlFX2V1X2d6cGk3S3NYRkVLU3Y0WFpWOGdJd1dRb3FlMmFtUGRwcjNjTlFEQ0RrTWxZSXU0Y3ZfNVhLcWpBS1BHLTU1WjlMRkFXTTA4WmRXcl82S1hwZGhDVXhvUmtsbEozWV8ybURONl8zVXJ6ZWRCanJ5Z0h5YUpwdkFYYnZwWkNtU1ZYMG5TX25yTmpPQW9HZFBUMlh2U2FGNG96cl8yb2JudXZTV0IxTVpHWQ?oc=5",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "EDV.L",
+      "company": "Endeavour Mining",
+      "pct": 5.3215077605321515,
+      "last": 4750.0,
+      "prev": 4510.0,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "GGP.AX",
+        "company": "Greatland Resources",
+        "pct": 5.539636188286812
+      },
+      {
+        "ticker": "GMD.AX",
+        "company": "Genesis Minerals",
+        "pct": 5.263159632734982
+      },
+      {
+        "ticker": "EVN.AX",
+        "company": "Evolution Mining",
+        "pct": 4.420731164368741
+      },
+      {
+        "ticker": "PRU.AX",
+        "company": "Perseus Mining",
+        "pct": 2.647976234792826
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478001+00:00",
+    "type": "single_stock",
+    "headline": "Skyworks Solutions Inc. stock outperforms competitors on strong trading day",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb3QxeV9JbVp5MkZ3dmFnYjh3LVY0TGY1aEVuenUwdFpQNEhqQ0JqNXNSaEYwMGhuU3hrTUk2QWVkN1EtLW9MNWREM1dxSGlBemFnLTNmY1YzOWljYXZCVWFfekJETVBiYmtwYzREeVMwb1dsV0ZxYkRoLVoweGthV1E0OUJienpwOVJ5TWlsTS13LVV0VWMzRm9yODJmbXBEUEpIZGo5TjF5TkU0b1ltQnF5QzAxb3Y5TzRRdE5DSmFla3pmeXJCUGNDQUVVN3M?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "SWKS",
+      "company": "Skyworks Solutions",
+      "pct": 6.694711534176023,
+      "last": 91.31999969482422,
+      "prev": 85.58999633789062,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": 7.6694703275075105
+      },
+      {
+        "ticker": "2408.TW",
+        "company": "Nanya Technology",
+        "pct": 7.581967213114749
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478005+00:00",
+    "type": "single_stock",
+    "headline": "Albemarle Corp. stock outperforms competitors on strong trading day",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeW9nOUN2RFpmdnI2dHhHQlp1NVd5b0tCMWxfSGZ3MEM0NGxNaURsREdjbjdHOEZvazNwbjZycjMwanBybnZlQVVxUWs5N0FNQnNpdVhRVDhGX0JzbU05aWs5MkpSbzlJZnFHdmlVSExfN0QzNTZVUzh0OXpXM1dKdU9UNTFHWDF4d2Q2aTJWWmFOMTFMUWZMOHlzUVQtOWQ4aUlaV3ZRY2VhLWd3UU1fanU2SEpiQUtoZEdhcFU1RHljUVp0?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "ALB",
+      "company": "Albemarle Corporation",
+      "pct": 5.097288543739764,
+      "last": 115.05000305175781,
+      "prev": 109.47000122070312,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "SY1.DE",
+        "company": "Symrise",
+        "pct": -2.4054198231625468
+      },
+      {
+        "ticker": "4188.T",
+        "company": "Mitsubishi Chemical Group Corp.",
+        "pct": -2.300739523418238
+      },
+      {
+        "ticker": "BNR.DE",
+        "company": "Brenntag",
+        "pct": -2.109018899956161
+      },
+      {
+        "ticker": "4183.T",
+        "company": "Mitsui Chemicals, Inc.",
+        "pct": -1.9291161956034086
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478008+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "300661.SZ",
+      "company": "SG Micro",
+      "pct": 7.444614663492,
+      "last": 125.12999725341797,
+      "prev": 116.45999908447266,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": 7.6694703275075105
+      },
+      {
+        "ticker": "2408.TW",
+        "company": "Nanya Technology",
+        "pct": 7.581967213114749
+      },
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": 7.043650793650791
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478011+00:00",
+    "type": "single_stock",
+    "headline": "Hanwha shares rally on EDGE pact to pursue UAE air defense system",
+    "source": "KED Global",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB3ZkFOT0NtQTh0Rm9kTUxhQmdpN1RFUl96RzJaODF1dy1DaHJmQVZhN2xVeHFBZHdxQ3hGRVVKblZPWk1ZUDY3QXkzWGtoQnZrUjNuR3QxVldfVkVyV1RvNDRIX294aEVRaHFIZGktckM3TVd4bzhF?oc=5",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "079550.KS",
+      "company": "LIG Nex1",
+      "pct": 5.084745762711873,
+      "last": 744000.0,
+      "prev": 708000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "010140.KS",
+        "company": "Samsung Heavy Industries",
+        "pct": -3.2558139534883734
+      },
+      {
+        "ticker": "272210.KS",
+        "company": "Hanwha Systems",
+        "pct": 3.2258064516129004
+      },
+      {
+        "ticker": "AXON",
+        "company": "Axon Enterprise",
+        "pct": -3.1851784723190835
+      },
+      {
+        "ticker": "009540.KS",
+        "company": "HD KSOE",
+        "pct": -3.1563845050215256
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478014+00:00",
+    "type": "single_stock",
+    "headline": "DaVita Inc. stock underperforms Thursday when compared to competitors",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaDREeE9FT0ZweWxnU0hQdXNoSHBVVVU0d2Fna2NaMDFyR0M4QzFMLWNnc3FRSEg0VTB1UVVOcEl0ZmVxWnZrY3NlYUtMSkFJSlgxa0ZNUldhaHB5MGFJUDZIeW94R0RkRHZERkFDRHhndHcyRkw2RXdoWFFoRVZiUUtOMUJiMUZqazFsbjZZUjhUS0ZXRVl3dU5SNHRlWTMtVzN3Ql8yY2pUNWpkQ1lzYVRVWmt0RkVvTXFEYVV3WVNRNXptVUlJ?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "DVA",
+      "company": "DaVita",
+      "pct": -5.555557741954242,
+      "last": 183.08999633789062,
+      "prev": 193.86000061035156,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "FME.DE",
+        "company": "Fresenius Medical Care",
+        "pct": -3.172621774898743
+      },
+      {
+        "ticker": "300015.SZ",
+        "company": "Aier Eye Hospital",
+        "pct": 1.1320774182032256
+      },
+      {
+        "ticker": "BDMS.BK",
+        "company": "Bangkok Dusit Medical Service",
+        "pct": -0.990102749433508
+      },
+      {
+        "ticker": "FRE.DE",
+        "company": "Fresenius",
+        "pct": -0.856091163824968
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478017+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "300223.SZ",
+      "company": "Ingenic Semiconductor",
+      "pct": 5.856659118239471,
+      "last": 142.97000122070312,
+      "prev": 135.05999755859375,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": 7.6694703275075105
+      },
+      {
+        "ticker": "2408.TW",
+        "company": "Nanya Technology",
+        "pct": 7.581967213114749
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478020+00:00",
+    "type": "single_stock",
+    "headline": "HD Hyundai keeps $4bn Indian shipyard talks alive",
+    "source": "TradeWinds News",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdjZsTENKaEUxNWZ6YV9MTmdwNF8xVnBxalN4emVMMnk5bVZ5a1RIVWxUV2JRNXNHZ3czMjl4dDdNUDExTEZaU1RHTnA4WF81YmZJRkNxcU43SlZLX2tnM3VCcndoNUc3b082Tnd5c2hjSHRuNkhFbzJBeU9fM0dxS1VEb2trdjhYY05yMFVRdlBQSDVDSVA3c04wWDNLaVdkZzc4?oc=5",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "267250.KS",
+      "company": "HD Hyundai",
+      "pct": -6.516853932584265,
+      "last": 208000.0,
+      "prev": 222500.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "PSX",
+        "company": "Phillips 66",
+        "pct": 3.620143746174209
+      },
+      {
+        "ticker": "VLO",
+        "company": "Valero Energy",
+        "pct": 2.29369173477465
+      },
+      {
+        "ticker": "096770.KS",
+        "company": "SK Innovation",
+        "pct": -2.0086083213773365
+      },
+      {
+        "ticker": "MPC",
+        "company": "Marathon Petroleum",
+        "pct": 1.9423989578961187
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478023+00:00",
+    "type": "single_stock",
+    "headline": "Alexandria Real Estate Equities Stock: Is ARE Underperforming the Real Estate Sector?",
+    "source": "Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR3F1dGp3MDFmb0l3UlRkRnlWMUZJSkhHZWlueTI2YkNFUm9HazRyVlN4SU84RHp2RzJ5OHhIQS0xcTBNN2hmOGFPVmotUUZvQnMyalZKbmdyOHcwUXhFVEIyTDVyamJpYnhndVU5ejVlMGtPQXVtS2F3UWVaUlB4YlpvbEVlRUx5c2RxMmd4WnpYamZHdHhoaDRPX29uZ0JKWThoUg?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "ARE",
+      "company": "Alexandria Real Estate Equities",
+      "pct": 5.269057680688327,
+      "last": 56.34000015258789,
+      "prev": 53.52000045776367,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "BXP",
+        "company": "BXP, Inc.",
+        "pct": -0.1717685958447457
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478026+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "001979.SZ",
+      "company": "China Merchants Shekou Industrial Zone Holdings",
+      "pct": 5.997002860450995,
+      "last": 7.070000171661377,
+      "prev": 6.670000076293945,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "000002.SZ",
+        "company": "China Vanke",
+        "pct": 9.933773318245077
+      },
+      {
+        "ticker": "600048.SS",
+        "company": "Poly Real Estate Group",
+        "pct": 5.555559760468798
+      },
+      {
+        "ticker": "0960.HK",
+        "company": "Longfor Properties",
+        "pct": 3.5681553408901223
+      },
+      {
+        "ticker": "0688.HK",
+        "company": "China Overseas Land & Investment Limited",
+        "pct": 2.257520930001511
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478029+00:00",
+    "type": "single_stock",
+    "headline": "Poly Property Unit Wins CSRC Nod for RMB9.8 Billion Bond Issue",
+    "source": "TipRanks",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORkNEQUlHeHpjeDJVUTdSbDhkX1lYVFVKVm1MQ0pEWVdiLW9CdVZfNHB3Yk1SbUEyMnBiTnZxNDlDWnBSX19SQ3pSMHZ6cy0xdHFUdXpLN19ZbGFGVXUzd2U3Rk5YUnV6WlV1VFlnQXNBVDd6MmV3S1AyMmk0UXR5QTRFNHhhVVd5emZXME1ydGJ3dnB2Q1BUZVBYdFMtNnBqeGxJM3J5TjNGZ3lPSGt4dkFpX3Q?oc=5",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "600048.SS",
+      "company": "Poly Real Estate Group",
+      "pct": 5.555559760468798,
+      "last": 5.320000171661377,
+      "prev": 5.039999961853027,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "000002.SZ",
+        "company": "China Vanke",
+        "pct": 9.933773318245077
+      },
+      {
+        "ticker": "001979.SZ",
+        "company": "China Merchants Shekou Industrial Zone Holdings",
+        "pct": 5.997002860450995
+      },
+      {
+        "ticker": "0960.HK",
+        "company": "Longfor Properties",
+        "pct": 3.5681553408901223
+      },
+      {
+        "ticker": "0688.HK",
+        "company": "China Overseas Land & Investment Limited",
+        "pct": 2.257520930001511
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478032+00:00",
+    "type": "single_stock",
+    "headline": "ETFs Investing in Zhejiang Jingsheng Mechanical & Electrical Co., Ltd. Class A Stocks",
+    "source": "TradingView",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iUFFKc3NRdEZGZm9VYmJ0ZGlxeGR4cUFaLW5ac3hraDJUdUgxWjdVNGhMWXI2ODJJRmV6b25JcmF4bC1PdzJJd0NiaWZXU2ROOEN0ZUswUThyOXFGX3VDbm5qZw?oc=5",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "300316.SZ",
+      "company": "Zhejiang Jingsheng Mechanical & Electrical",
+      "pct": 5.847375061105087,
+      "last": 42.720001220703125,
+      "prev": 40.36000061035156,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": 8.704115684093438
+      },
+      {
+        "ticker": "6857.T",
+        "company": "Advantest Corp.",
+        "pct": 5.985449735449744
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": 5.597210113339135
+      },
+      {
+        "ticker": "042700.KS",
+        "company": "Hanmi Semiconductor",
+        "pct": 4.656319290465638
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478035+00:00",
+    "type": "single_stock",
+    "headline": "Factorial partners with Mitsui Kinzoku on solid-state batteries",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZG9FLTk1dlJPUzR5NkxhUFFhTWVPV3VQaVduVDc5MWlSQTFnd2RxRjIzUENZQTlmTUxtM1Rqd2duUzZIQmI5QVhRUlB4bm10Tm9HRDZmX3Fuc1lnanlKakR1V0pxLVJNRDNxYjNYenNfNW5YX2hLWFZzUU1lQ3dWQWtOU2RsRzdjUG5feDYtckNEYlQ4elpNWExlTkgzYXRkdzBVejRHVjhaZkFDNjZTcmF3VjdlN0J3a0R3?oc=5",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "5706.T",
+      "company": "Mitsui Mining & Smelting Co.",
+      "pct": 7.346362137979745,
+      "last": 22795.0,
+      "prev": 21235.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "000880.KS",
+        "company": "Hanwha",
+        "pct": -3.985507246376807
+      },
+      {
+        "ticker": "000150.KS",
+        "company": "Doosan",
+        "pct": 2.9893238434163694
+      },
+      {
+        "ticker": "SCC.BK",
+        "company": "Siam Cement Group",
+        "pct": 2.7027027027026973
+      },
+      {
+        "ticker": "8001.T",
+        "company": "Itochu Corp.",
+        "pct": -2.6793248945147674
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478038+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "600845.SS",
+      "company": "Baosight Software",
+      "pct": 6.964286484685922,
+      "last": 17.969999313354492,
+      "prev": 16.799999237060547,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "WDAY",
+        "company": "Workday, Inc.",
+        "pct": 6.135494572589328
+      },
+      {
+        "ticker": "XRO.AX",
+        "company": "Xero",
+        "pct": -4.079447354377641
+      },
+      {
+        "ticker": "301269.SZ",
+        "company": "Empyrean Technology",
+        "pct": 3.949979274830362
+      },
+      {
+        "ticker": "CRM",
+        "company": "Salesforce",
+        "pct": -2.898834468855327
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478040+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "3436.T",
+      "company": "Sumco Corp.",
+      "pct": 5.597210113339135,
+      "last": 3028.0,
+      "prev": 2867.5,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": 8.704115684093438
+      },
+      {
+        "ticker": "6857.T",
+        "company": "Advantest Corp.",
+        "pct": 5.985449735449744
+      },
+      {
+        "ticker": "300316.SZ",
+        "company": "Zhejiang Jingsheng Mechanical & Electrical",
+        "pct": 5.847375061105087
+      },
+      {
+        "ticker": "042700.KS",
+        "company": "Hanmi Semiconductor",
+        "pct": 4.656319290465638
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478043+00:00",
+    "type": "single_stock",
+    "headline": "LS Expands Energy, Critical Minerals Cooperation in Central Asia",
+    "source": "thelec.net",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1RbnNLUU51R1gxdldhek1UMENrQTJkTi10eExqUzdUUFZYYm9ZaDhSLU4xZVhYQlN6Skp6OEU2Z1N5VVg0cnhSVUxPdTNHY1MwUHFVeEVNdmtMdTNkN2tGWmRoeUE2SUE?oc=5",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "006260.KS",
+      "company": "LS",
+      "pct": 7.072368421052633,
+      "last": 325500.0,
+      "prev": 304000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "300014.SZ",
+        "company": "Eve Energy",
+        "pct": 6.9044202004159505
+      },
+      {
+        "ticker": "010120.KS",
+        "company": "LS Electric",
+        "pct": 4.702970297029707
+      },
+      {
+        "ticker": "300274.SZ",
+        "company": "Sungrow Power Supply",
+        "pct": 3.8030014058558548
+      },
+      {
+        "ticker": "5801.T",
+        "company": "Furukawa Electric Co., Ltd.",
+        "pct": 3.6672867393037434
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478046+00:00",
+    "type": "single_stock",
+    "headline": "Genesis Minerals Says JPMorgan Chase Ceases to be Substantial Holder",
+    "source": "marketscreener.com",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRFpEM0FCUlNQcERQUktYVHZhVmQtdXN6LTMwOU5JRzZYSnlLVjJBQlRtN1pQSEd6TEViQW41eFpYM1pIRHpUbXpUS2dZWlZxdHgtbWZybzdEdDJXM1BDR2dUcFBoYWV0cGxWU0t2aUx2VlpSSW9IWHc3ejhicmJfNG82cVZFblZGOWY1Z1FITk5jT19SbUdhbDd6UWVXeUZfOUVJQ3Q4ODlockFRM1c2SURVakxOM3ZndHY1RkF3?oc=5",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "GMD.AX",
+      "company": "Genesis Minerals",
+      "pct": 5.263159632734982,
+      "last": 7.599999904632568,
+      "prev": 7.21999979019165,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "GGP.AX",
+        "company": "Greatland Resources",
+        "pct": 5.539636188286812
+      },
+      {
+        "ticker": "EDV.L",
+        "company": "Endeavour Mining",
+        "pct": 5.3215077605321515
+      },
+      {
+        "ticker": "EVN.AX",
+        "company": "Evolution Mining",
+        "pct": 4.420731164368741
+      },
+      {
+        "ticker": "PRU.AX",
+        "company": "Perseus Mining",
+        "pct": 2.647976234792826
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478049+00:00",
+    "type": "single_stock",
+    "headline": "China Vanke and Yu Liang Hit with First-Ever Consumption Restrictions Over Unpaid 5 Million Yuan Debt",
+    "source": "finance.biggo.com",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFByOFo4UG5ZaHFQbXRYclBuRGVRUU9KZ2dqdUZwVVRGTXhCOFFpN0I4UEY2N2sxT0piZzRPdElKLU1Mek00RElsVldla3AxRlUwdFhMN1ZVbnhoR3FkR1loX2VUNnNYa0dqSEh4emlLS01YWk5rVVE?oc=5",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "000002.SZ",
+      "company": "China Vanke",
+      "pct": 9.933773318245077,
+      "last": 3.319999933242798,
+      "prev": 3.0199999809265137,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "001979.SZ",
+        "company": "China Merchants Shekou Industrial Zone Holdings",
+        "pct": 5.997002860450995
+      },
+      {
+        "ticker": "600048.SS",
+        "company": "Poly Real Estate Group",
+        "pct": 5.555559760468798
+      },
+      {
+        "ticker": "0960.HK",
+        "company": "Longfor Properties",
+        "pct": 3.5681553408901223
+      },
+      {
+        "ticker": "0688.HK",
+        "company": "China Overseas Land & Investment Limited",
+        "pct": 2.257520930001511
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478053+00:00",
+    "type": "single_stock",
+    "headline": "What Could Put Mercury NZ (ASX:MCY) Remain on the Radar Around Today’s Energy Milestone?",
+    "source": "Kalkine Media",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdVVkWFhQVUZBTEszajIxVVVGLWd1eTlPQXdDVTBmT0l3d3RJYnhfQklwOThLVmZZSU1aZTIzTWJPY1hSQnNSRlFLMGdrZEN3OU5RVW9rQmIxamxnQ25pcUFsa19VVjlWLUt5LWtyeEwwdjBSM21jUWV4NzJrVzhRaDlCQ2VBWVRjdVZSRUVGd24tMk9Da0VGX0pjMGl2a3ZWaXljTmhDUU8wdjhHbzE1RXh3cnhBZGxRYWZFMDFKY1RUSk0?oc=5",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "MCY.AX",
+      "company": "Mercury NZ",
+      "pct": 5.660371756630234,
+      "last": 5.599999904632568,
+      "prev": 5.300000190734863,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "MEZ.AX",
+        "company": "Meridian Energy",
+        "pct": -3.587440494251337
+      },
+      {
+        "ticker": "9501.T",
+        "company": "Tokyo Electric Power Company Holdings, I",
+        "pct": -1.1686443468793994
+      },
+      {
+        "ticker": "001289.SZ",
+        "company": "China Longyuan Power Group Limited",
+        "pct": 1.143241947560747
+      },
+      {
+        "ticker": "600886.SS",
+        "company": "SDIC Power Holdings",
+        "pct": -0.8321767331774033
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478055+00:00",
+    "type": "single_stock",
+    "headline": "What Lifted Greatland (LSE:GGP) As Telfer And Havieron Reserves Expanded Sharply?",
+    "source": "Kalkine Media",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeFNrek1RTkJNaUhTNzFITUVqTUYtWnc2ekFUOXI0T0ZmdDRCVGozdVIyOFZkZDdEUnUyeUNSZ1dzMGhVZXFYejdzbGFUYkp4UGhjeVZKMUk3YlJKRzNtUExZT2I2YV9UWFhvRDY1OU9INjQyM2pMdUlHaDlFejByNUxrdlY4RDVVTTQ4TTFQazY1aS1Kb0RUVG12S1pBVWtJQkdEVG9Db0R4ZHJ3QmpZN1FfaHcxVkt6?oc=5",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "GGP.AX",
+      "company": "Greatland Resources",
+      "pct": 5.539636188286812,
+      "last": 11.050000190734863,
+      "prev": 10.470000267028809,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "EDV.L",
+        "company": "Endeavour Mining",
+        "pct": 5.3215077605321515
+      },
+      {
+        "ticker": "GMD.AX",
+        "company": "Genesis Minerals",
+        "pct": 5.263159632734982
+      },
+      {
+        "ticker": "EVN.AX",
+        "company": "Evolution Mining",
+        "pct": 4.420731164368741
+      },
+      {
+        "ticker": "PRU.AX",
+        "company": "Perseus Mining",
+        "pct": 2.647976234792826
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478058+00:00",
+    "type": "single_stock",
+    "headline": "Coway's Airmega 100 Purifier Quickly Filtered the Air and Slid Easily Under a Desk",
+    "source": "Popular Mechanics",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNkFyV3JCUWZLTzR0b3FkalF4Zkc2RkxHYU5EQTBDaHBXci1hT2VOTlEyNTdKZnVtbVlCWXFfR2RaZ2E1VERyTm8zdGJaYkUtbXJlMFFLYnZZaTBtdVN3Um5nMElUWnVDTEl5aW1tT25OOWFvMXd3emJ0NU10NG1EM2hJNjE5MDFDRFdHdUhkYw?oc=5",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "021240.KS",
+      "company": "Coway",
+      "pct": -5.953488372093019,
+      "last": 101100.0,
+      "prev": 107500.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "9843.T",
+        "company": "Nitori Holdings Co., Ltd.",
+        "pct": -2.822322001282873
+      },
+      {
+        "ticker": "000651.SZ",
+        "company": "Gree Electric",
+        "pct": 1.5271243761066478
+      },
+      {
+        "ticker": "000333.SZ",
+        "company": "Midea Group",
+        "pct": -0.7525862920488069
+      },
+      {
+        "ticker": "HWDN.L",
+        "company": "Howdens Joinery",
+        "pct": -0.39499670836076195
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478061+00:00",
+    "type": "sector",
+    "headline": "Micron, Qualcomm, Nova, Lattice Semiconductor, and Workday Shares Are Soaring, What You Need To Know",
+    "source": "StockStory",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORW1JYVVJS2RCMkNGTVZneW93dFBzSE1VWmM0MnpJWE4zMFdEd192dTVSVnlNQVlVY0hGZ29IWTZWVm54eXB4ZG1yVlhkVEZzZUxNQkR2OFpQX01mWDcxcUFHX2pRTnpYdEpMV2ZCbE5CcXpCSzVGUk5iWmlLX3pzV1l0MTZueVVSTDlubnNlQmlZWlBOSDNhTUQza1VRU2ZZOXdGRHFDTE5zeGpkV0JvTnUzVUUteUVxdDNnaEZEYmptekphZXdfQjI2eWlLWkV0anlweUlMaHNZTzNjOVZVYk5randja3FGNW04?oc=5",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "600584.SS",
+      "company": "JCET",
+      "pct": 7.749077490774914,
+      "last": 73.0,
+      "prev": 67.75,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": 7.6694703275075105
+      },
+      {
+        "ticker": "2408.TW",
+        "company": "Nanya Technology",
+        "pct": 7.581967213114749
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      },
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": 7.043650793650791
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478065+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6920.T",
+      "company": "Lasertec Corp.",
+      "pct": 8.704115684093438,
+      "last": 39090.0,
+      "prev": 35960.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "6857.T",
+        "company": "Advantest Corp.",
+        "pct": 5.985449735449744
+      },
+      {
+        "ticker": "300316.SZ",
+        "company": "Zhejiang Jingsheng Mechanical & Electrical",
+        "pct": 5.847375061105087
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": 5.597210113339135
+      },
+      {
+        "ticker": "042700.KS",
+        "company": "Hanmi Semiconductor",
+        "pct": 4.656319290465638
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478067+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "LULU",
+      "company": "Lululemon Athletica",
+      "pct": 3.5528192471859343,
+      "last": 99.38999938964844,
+      "prev": 95.9800033569336,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "TJX",
+        "company": "TJX Companies",
+        "pct": 3.020194419138722
+      },
+      {
+        "ticker": "ROST",
+        "company": "Ross Stores",
+        "pct": 2.0818472474414262
+      },
+      {
+        "ticker": "NXT.L",
+        "company": "Next plc",
+        "pct": 0.5494505494505475
+      },
+      {
+        "ticker": "9983.T",
+        "company": "Fast Retailing Co., Ltd.",
+        "pct": -0.02954209748892156
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478070+00:00",
+    "type": "sector",
+    "headline": "Asian gold stocks rise as bullion rebounds from near six-week low",
+    "source": "Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUnZwUVNtcjhubkwwY0FmVS1oNEY0WERsdlpYZmoyNUVSUFMxTzNPZ2lxVDM3YWJPNzVSNDNXWmQ4T041NGotX0FSY2ZSUmZDYjIxb0J6R19FT2dlWWVtOXVWeVBzdndBTlE0N2lYVTRGajJzUUdMVVI5TW1ISnVIeGxFanhnWFg5djlKZGZMRVZMRjllc0EzS3lmYWZfOU9YVDU0QnRvR2VNVHZzUk9oUWxpcFpKV2NXS0gyck9B?oc=5",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "GGP.AX",
+      "company": "Greatland Resources",
+      "pct": 5.539636188286812,
+      "last": 11.050000190734863,
+      "prev": 10.470000267028809,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "EDV.L",
+        "company": "Endeavour Mining",
+        "pct": 5.3215077605321515
+      },
+      {
+        "ticker": "GMD.AX",
+        "company": "Genesis Minerals",
+        "pct": 5.263159632734982
+      },
+      {
+        "ticker": "EVN.AX",
+        "company": "Evolution Mining",
+        "pct": 4.420731164368741
+      },
+      {
+        "ticker": "PRU.AX",
+        "company": "Perseus Mining",
+        "pct": 2.647976234792826
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478074+00:00",
+    "type": "sector",
+    "headline": "Hudbay Minerals: Is It A Gold Or Copper Stock (NYSE:HBM)",
+    "source": "Seeking Alpha",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNTllakNaVk5EdUdKNnBfMDJkZmdDSnZXLUJVZ1pieDVua213bzNfWUszamxKOGM0OXZqeWRzMnJsNTlfd3o0NkdEVEo2VDd6cFRPcEUwWldqY1o4eWg5OGVGcHNURWROR1p2bWdLQ05iYXVHM3B2WmJ6Y1NEVm1QX2JuejI0NElndG90b0Zn?oc=5",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "ANTO.L",
+      "company": "Antofagasta plc",
+      "pct": 4.7095093384808,
+      "last": 3763.259765625,
+      "prev": 3594.0,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "SFR.AX",
+        "company": "Sandfire Resources",
+        "pct": 3.4352919634650814
+      },
+      {
+        "ticker": "CSC.AX",
+        "company": "Capstone Copper",
+        "pct": 2.4964295033356843
+      },
+      {
+        "ticker": "FCX",
+        "company": "Freeport-McMoRan",
+        "pct": 2.325246476060361
+      },
+      {
+        "ticker": "600362.SS",
+        "company": "Jiangxi Copper",
+        "pct": 1.7799364023100228
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478076+00:00",
+    "type": "sector",
+    "headline": "Century Aluminum: More Production Could Make Earnings More Durable (NASDAQ:CENX)",
+    "source": "Seeking Alpha",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZEZYdkg4WVdZMlh4MnRmZE9ORjFIaEQ5UXBxZzdaNmlTelVqYVhuS05waTdOLWlDT2lyXzBCUm1pRFRTMVFDVjFSc0dERm1NRms4WEpUc0NSdXlBT3ludXN0bUg3YWViVWxPUHdlR1IzZ0pxNWI1NGE0VWxuWjF4V2RrMXd2ZVlfSWN3eUlXUm01VE1JX2ZCdnVqX0lRVjhDZWEtMHdxY3pRZw?oc=5",
+    "market_name": "Malaysia · Bursa Malaysia",
+    "primary": {
+      "ticker": "8869.KL",
+      "company": "PRESS METAL ALUMINIUM HOLDINGS BERHAD",
+      "pct": 2.631582744894323,
+      "last": 7.800000190734863,
+      "prev": 7.599999904632568,
+      "currency": "MYR"
+    },
+    "peers": [
+      {
+        "ticker": "600219.SS",
+        "company": "Shandong Nanshan Aluminium",
+        "pct": 2.5751151572007247
+      },
+      {
+        "ticker": "601600.SS",
+        "company": "Aluminum Corporation of China Limited",
+        "pct": 2.074241672736443
+      },
+      {
+        "ticker": "1378.HK",
+        "company": "China Hongqiao Group",
+        "pct": 1.1904772301525313
+      },
+      {
+        "ticker": "AAI.AX",
+        "company": "Alcoa",
+        "pct": 0.7633587786259444
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-18T07:33:52.478079+00:00",
+    "type": "sector",
+    "headline": "Sunrun and First Solar Rise 6% as Solar Selloff Unwinds; SolarEdge Climbs 4%",
+    "source": "24/7 Wall St.",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUVJIX0ZiSkdWT0xOU0c0OUtnZFQ3UVdURE1ZUmNyNnZjeXhKOUNlX3ZSSHV4Q05jNUlCdXFJa2FzNU5tbUwzNnVKVi1JZ2RETE8wRW51SXBiQVg1c0lFaXFXNmo3ZHhoRm0wUGZjVWlHRGtFeW96aTNsR2NhZzdWTExHSFFYSWwyUkU5R0xndkpaaG0ySkZ4czQ3TGM5UTNGTjdYb045TUtSckNyR0twMi1ENElHdHNj?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "FSLR",
+      "company": "First Solar",
+      "pct": 5.280785027013324,
+      "last": 201.16000366210938,
+      "prev": 191.07000732421875,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "688223.SS",
+        "company": "Jinko Solar",
+        "pct": 3.7433183034006445
+      },
+      {
+        "ticker": "600438.SS",
+        "company": "Tongwei Company",
+        "pct": 2.344456495080971
+      }
+    ],
+    "analysis": {
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
