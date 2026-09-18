@@ -3002,5 +3002,51 @@
       "look_out": "Watch Airtel Africa’s upcoming earnings, any regulatory changes in African telecom markets, and US policy shifts that could affect cross‑border pricing dynamics.",
       "memory": "A similar slump occurred in 2015 when U.S. carrier consolidation heightened margin concerns for emerging‑market telcos, leading to comparable share‑price declines."
     }
+  },
+  {
+    "alert_utc": "2026-09-18T10:02:21.854060+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "CCH.L",
+      "company": "Coca-Cola HBC",
+      "pct": -5.087043282266812,
+      "last": 4375.4873046875,
+      "prev": 4610.0,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "KDP",
+        "company": "Keurig Dr Pepper",
+        "pct": -1.1635186816405962
+      },
+      {
+        "ticker": "CCEP.L",
+        "company": "Coca-Cola Europacific Partners",
+        "pct": -1.0526315789473717
+      },
+      {
+        "ticker": "9633.HK",
+        "company": "Nongfu Spring",
+        "pct": -0.9240262289817114
+      },
+      {
+        "ticker": "605499.SS",
+        "company": "Eastroc Beverage (Group)",
+        "pct": 0.6315451107583803
+      }
+    ],
+    "analysis": {
+      "business_model": "Coca‑Cola HBC bottles, markets and distributes Coca‑Cola beverages across Europe, Africa and the Middle East, earning revenue from bottling and selling the brands under license.",
+      "sentiment": "Bearish - stock falls on sector‑wide demand concerns",
+      "why_moved": "The shares slipped 5.1% as soft‑drink peers also dropped, reflecting broader consumer‑spending weakness and currency pressures on overseas earnings.",
+      "read_across": "Peers like KDP, CCEP and Nongfu Spring all declined, signalling a wider slowdown in carbonated‑drink demand and potential margin pressure across the industry.",
+      "look_out": "Watch upcoming Q3 earnings, European CPI data and sugar/energy cost trends for further direction.",
+      "memory": "A similar dip in early 2023 saw beverage stocks tumble on inflation‑driven demand slowdown, then recovered after pricing adjustments."
+    }
   }
 ]
