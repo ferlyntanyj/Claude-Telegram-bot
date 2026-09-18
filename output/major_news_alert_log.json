@@ -3140,5 +3140,51 @@
       "look_out": "Watch the company’s upcoming backlog update and U.S. construction‑spending data for further direction.",
       "memory": "In early 2022 Emcor’s earnings surprise triggered a similar 5% rally."
     }
+  },
+  {
+    "alert_utc": "2026-09-18T12:33:05.561112+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "VOD.L",
+      "company": "Vodafone Group",
+      "pct": -5.047439488333138,
+      "last": 125.0999984741211,
+      "prev": 131.75,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "AAF.L",
+        "company": "Airtel Africa",
+        "pct": -10.039264637632861
+      },
+      {
+        "ticker": "DTE.DE",
+        "company": "Deutsche Telekom",
+        "pct": -5.998611418457611
+      },
+      {
+        "ticker": "TMUS",
+        "company": "T-Mobile US",
+        "pct": -5.565640454058496
+      },
+      {
+        "ticker": "CMCSA",
+        "company": "Comcast",
+        "pct": -3.455540289264336
+      }
+    ],
+    "analysis": {
+      "business_model": "Vodafone Group provides mobile and fixed‑line telecommunications services, generating revenue from voice, data, and broadband subscriptions worldwide.",
+      "sentiment": "Bearish - price dropped on sector‑wide concerns",
+      "why_moved": "The stock fell without a specific catalyst, reflecting a broader telecom sell‑off seen in peers.",
+      "read_across": "Similar declines at Airtel Africa, Deutsche Telekom, T‑Mobile US and Comcast suggest industry‑wide pressure on margins and growth outlook.",
+      "look_out": "Watch Vodafone’s upcoming earnings guidance, any regulatory updates, and macro consumer spending data.",
+      "memory": "In early 2022 a telecom earnings disappointment triggered comparable multi‑stock declines."
+    }
   }
 ]
