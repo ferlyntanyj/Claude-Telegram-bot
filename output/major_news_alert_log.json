@@ -3544,5 +3544,51 @@
       "look_out": "Watch GM’s upcoming earnings and its next‑generation EV platform launch for signs of recovery or further weakness.",
       "memory": "In early 2023, Tesla’s Shanghai factory expansion triggered short‑term sell‑offs in legacy car makers."
     }
+  },
+  {
+    "alert_utc": "2026-09-18T16:02:19.849143+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "QCOM",
+      "company": "Qualcomm",
+      "pct": -5.781359373619088,
+      "last": 177.8000030517578,
+      "prev": 188.7100067138672,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 4.168153761639437
+      },
+      {
+        "ticker": "2303.TW",
+        "company": "UMC",
+        "pct": 3.8732394366197243
+      },
+      {
+        "ticker": "SWKS",
+        "company": "Skyworks Solutions",
+        "pct": -3.2084979357942855
+      },
+      {
+        "ticker": "688008.SS",
+        "company": "Montage Technology",
+        "pct": -2.781528628531116
+      }
+    ],
+    "analysis": {
+      "business_model": "Qualcomm designs, licenses and sells semiconductor chips and wireless patents, primarily its Snapdragon processors and cellular modem technologies that power smartphones and other connected devices.",
+      "sentiment": "Bearish - sharp intraday decline on lack of positive catalyst",
+      "why_moved": "The stock slipped 5.8% on weak market sentiment despite no specific news, likely reflecting investor concerns over recent earnings guidance or broader semiconductor weakness.",
+      "read_across": "Peers show mixed moves – Chinese fabs rose while rivals like Skyworks fell – indicating uneven demand across the chip supply chain and regional exposure.",
+      "look_out": "Watch Qualcomm’s upcoming earnings release, 5G chipset rollout updates, and any macro‑economic data that could affect chip spending.",
+      "memory": "A similar drop followed the Q2 2023 earnings miss, where the share price fell ~6% before rebounding on later guidance improvements."
+    }
   }
 ]
