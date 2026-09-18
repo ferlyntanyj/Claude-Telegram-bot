@@ -139,6 +139,45 @@ LLM_RATE_LIMIT_MAX_RETRIES = 2
 LLM_RATE_LIMIT_RETRY_SECONDS = 20
 
 # ---------------------------------------------------------------------------
+# Source trust -- gather_related_headlines() (the only news-fetching this
+# alert does now, used for both the display headline and sector-wide LLM
+# grounding) has no other quality signal of its own: it's a raw, targeted
+# Google News search per mover/industry, which surfaces whatever exists
+# regardless of quality. The old headline-first design's SOURCE_WEIGHTS
+# allowlist was dropped as part of the 2026-09-18 redesign on the
+# assumption it was only needed for that design's broad, unscoped headline
+# scan -- wrong: confirmed the same day that a *targeted* per-company search
+# just as readily surfaces Seeking Alpha, 24/7 Wall St., marketscreener.com,
+# Moneycontrol.com, and Dalal Street Investment Journal (opinion/contributor
+# or low-tier aggregator content, not primary reporting) ahead of any real
+# wire in Google News' own ranking. Restored here, same allowlist shape and
+# roughly the same tier as before. Being strict has no functional downside
+# now that a headline is display/grounding only, not the trigger: on a miss,
+# _find_headline() already falls back to its "no specific news story found"
+# placeholder, which is a better outcome than a clickbait source.
+# ---------------------------------------------------------------------------
+SOURCE_WEIGHTS = {
+    # Primary tier
+    "Bloomberg": 10, "bloomberg": 10, "Bloomberg Technology": 10, "Reuters": 10, "Reuters Technology": 10,
+    "Nikkei Asia": 10, "Nikkei Asian Review": 10, "Nikkei": 9,
+    "South China Morning Post": 10, "SCMP": 10, "scmp": 10,
+    "Wall Street Journal": 10, "WSJ": 10, "The Wall Street Journal": 10,
+    "Washington Post": 10, "The Washington Post": 10, "washingtonpost": 10,
+    "Financial Times": 10, "ft": 10,
+    # Secondary tier -- major wires / desks, kept for global breadth
+    "Associated Press": 7, "AP News": 7, "AP Business": 7,
+    "Yonhap": 6, "Yonhap News Agency": 6, "Kyodo News": 6,
+    "Japan Wire by Kyodo News": 6,  # Kyodo's own sub-brand; doesn't exact-match "Kyodo News"
+    "Caixin": 6, "Caixin Global": 6,
+    "The Straits Times": 6, "Straits Times": 6, "The Business Times": 6, "Business Times": 6,
+    "CNBC": 6, "CNBC Markets": 6, "MarketWatch": 6, "Barron's": 6,
+    "The Economist": 7,
+    "Jakarta Post - Home": 6, "Jakarta Post": 6, "Star": 6, "Edge Malaysia": 6,
+}
+DEFAULT_SOURCE_WEIGHT = 0   # unknown source -> dropped
+MIN_SOURCE_WEIGHT = 6       # higher bar than the digests -- this is an alert, not a scan
+
+# ---------------------------------------------------------------------------
 # HTTP -- used by gather_related_headlines()'s targeted per-mover/per-industry
 # Google News search (the only news-fetching this alert does now).
 # ---------------------------------------------------------------------------

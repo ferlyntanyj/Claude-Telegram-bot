@@ -479,6 +479,10 @@ def gather_related_headlines(query_text, cfg, max_results=5, lookback_hours=48):
         age_h, published = aged
         if age_h > lookback_hours:
             continue
+        source_name = brief_engine._source_name(entry, "Google News")
+        weight = cfg.SOURCE_WEIGHTS.get(brief_engine._norm_source(source_name), cfg.DEFAULT_SOURCE_WEIGHT)
+        if weight < cfg.MIN_SOURCE_WEIGHT:
+            continue
         clean_title = brief_engine._TRAIL_SOURCE_RE.sub("", title).strip()
         key = _norm(clean_title)
         if key in seen:
@@ -486,7 +490,7 @@ def gather_related_headlines(query_text, cfg, max_results=5, lookback_hours=48):
         seen.add(key)
         results.append({
             "title": clean_title,
-            "source": brief_engine._source_name(entry, "Google News"),
+            "source": source_name,
             "url": getattr(entry, "link", "") or "",
             "published": published.isoformat(),
         })
@@ -771,14 +775,21 @@ def run_cycle(cfg):
         result = _median_breadth(moves, cfg)
         if not result["qualifies"]:
             continue
+        # The group has no single "subject" the way a single-stock ticker
+        # does -- use its biggest mover as the primary line, and the rest
+        # (up to MAX_DISPLAY_PEERS) as the peers list. Median/breadth can
+        # qualify a group even when no single member has cleared 5% itself
+        # (confirmed 2026-09-18: Petronas Chemical at -3.29%, Symrise at
+        # -2.51% both surfaced as a sector alert's "primary" mover) -- per
+        # user request, only show a sector story whose biggest mover is
+        # itself a genuine >=5% move, same bar as a single-stock alert.
+        ranked = sorted(moves.items(), key=lambda kv: -abs(kv[1]["pct"]))
+        top_ticker, top_move = ranked[0]
+        if abs(top_move["pct"]) < cfg.SINGLE_STOCK_MOVE_PCT:
+            continue
         key = f"sector:{_norm(industry)}"
         if not should_alert(state, key, cfg):
             continue
-        # The group has no single "subject" the way a single-stock ticker
-        # does -- use its biggest mover as the primary line, and the rest
-        # (up to MAX_DISPLAY_PEERS) as the peers list.
-        ranked = sorted(moves.items(), key=lambda kv: -abs(kv[1]["pct"]))
-        top_ticker, top_move = ranked[0]
         peers = [
             {"ticker": t, "company": watchlist[t]["company_name"], "pct": m["pct"]}
             for t, m in ranked[1:1 + cfg.MAX_DISPLAY_PEERS]
