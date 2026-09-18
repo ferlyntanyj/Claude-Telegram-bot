@@ -3048,5 +3048,51 @@
       "look_out": "Watch upcoming Q3 earnings, European CPI data and sugar/energy cost trends for further direction.",
       "memory": "A similar dip in early 2023 saw beverage stocks tumble on inflation‑driven demand slowdown, then recovered after pricing adjustments."
     }
+  },
+  {
+    "alert_utc": "2026-09-18T10:33:20.645890+00:00",
+    "type": "single_stock",
+    "headline": "UDR Inc. stock outperforms competitors despite losses on the day",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTzhmMmppVTRDQWlwRXQybzFpSUN0V0J1Y3ExNGdzVGJKWHNjUGZ2MHhDWGxRVFNsSXVtWEx4UmpQZVBMUjctTTlaYXdNSm92RmkxdmNhQW5iLWRpUXpLOWgyN09LaGkwUU9rSmNyX2ZGME5Bc1gxZ0NJb2MycHNtOGNrcVcwYnF1QjBXT1dxR3NIOF96VnpzYmtzUGdYcnFTQ0hXNUFnVnZfejVqak5RN3Y0Y2ROQ1duaEJOMENSNUNYckx4eW5ySEhrZ1FXdmprWTluOGFGZHQ?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "UDR",
+      "company": "UDR, Inc.",
+      "pct": 11.078635,
+      "last": 38.0,
+      "prev": 34.21,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "MAA",
+        "company": "Mid-America Apartment Communities",
+        "pct": -0.5988542639834282
+      },
+      {
+        "ticker": "CPT",
+        "company": "Camden Property Trust",
+        "pct": -0.36525442787299633
+      },
+      {
+        "ticker": "INVH",
+        "company": "Invitation Homes",
+        "pct": -0.2205052111766581
+      },
+      {
+        "ticker": "ESS",
+        "company": "Essex Property Trust",
+        "pct": -0.19901546112258695
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
