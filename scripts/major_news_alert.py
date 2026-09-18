@@ -112,7 +112,7 @@ def render_telegram(alert):
     return (
         f'<b>{market_name}</b>; <i>{time_str}</i>\n'
         f'{headline_line} — <i>{source}</i>\n'
-        f'{primary_line}\n'
+        f'{primary_line}\n\n'
         f'<i>{business_model}</i>\n\n'
         f'<b>Sentiment:</b> {sentiment}\n\n'
         f'<b>Analysis:</b>\n'
