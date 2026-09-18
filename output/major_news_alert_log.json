@@ -3370,5 +3370,51 @@
       "look_out": "Watch the UK government’s upcoming corporate‑tax legislation and Next’s next earnings release for guidance on whether the profit outlook holds.",
       "memory": "In 2023, UK retailer B&M saw its stock slide after warning of higher taxes despite strong sales, a similar pattern of tax‑driven volatility."
     }
+  },
+  {
+    "alert_utc": "2026-09-18T14:58:59.236330+00:00",
+    "type": "single_stock",
+    "headline": "Steel Dynamics and Nucor Fall as Guidance Disappoints. What It Means for the Steel Sector.",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZ3U4NUI2dEVMa0ZZTTNScl9JUmJEUlFfdVUxUkt4V0tSY1FFZ2tMWkc1aUJMMXBMTHJ4cXlJc1NVaGtxckJ3eWpGZmtYTGZibXFnRjZQcWVkaEg1dk96V0FtVnBSX1FLd3dYZkxRSTNyVjE5dEFTMXZFMHZaamRNRmtDLWUwY1pKSldMdkVuTQ?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "STLD",
+      "company": "Steel Dynamics",
+      "pct": -5.082535524960175,
+      "last": 232.8800048828125,
+      "prev": 245.35000610351562,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "NUE",
+        "company": "Nucor",
+        "pct": -6.162785959843042
+      },
+      {
+        "ticker": "BSL.AX",
+        "company": "BlueScope",
+        "pct": -3.09378334056708
+      },
+      {
+        "ticker": "HPG.VN",
+        "company": "Hoa Phat Group",
+        "pct": 1.650943396226423
+      },
+      {
+        "ticker": "5401.T",
+        "company": "Nippon Steel Corp.",
+        "pct": -1.0816931184205458
+      }
+    ],
+    "analysis": {
+      "business_model": "Steel Dynamics manufactures flat‑rolled carbon and alloy steel for automotive, construction, and machinery markets, selling primarily in the U.S. and abroad.",
+      "sentiment": "Bearish - guidance missed analysts' earnings expectations",
+      "why_moved": "It cut quarterly earnings guidance due to weaker demand and higher input costs, triggering a 5.1% drop; peers fell on similar outlooks.",
+      "read_across": "The miss highlights sector‑wide demand softness and cost pressure, pulling down Nucor, BlueScope and others across the steel industry.",
+      "look_out": "Monitor U.S. construction spending data and the pending steel import tariff review for demand and pricing signals.",
+      "memory": "Similar demand‑driven guidance cuts in 2022 caused a short‑term sell‑off before a gradual recovery."
+    }
   }
 ]
