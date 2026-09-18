@@ -246,18 +246,38 @@ def _llm_client():
 
 
 def _run_completion(prompt, cfg, max_tokens, json_object=False):
-    """One Groq chat-completion call. Raises on any failure (missing key, bad
+    """One Groq chat-completion call, retried with backoff on a 429 -- the
+    price-first redesign's very first cycle surfaced 52 qualifying alerts at
+    once (every cooldown key was new), which burned through Groq's free-tier
+    limits (verified via their docs 2026-09-15: 30 RPM, 8,000 TPM) almost
+    immediately and failed 60/66 write-ups that cycle. A burst that size is
+    mostly a one-time cold-start effect (cooldown suppresses repeats for 18h
+    after), but a genuinely volatile day could still produce a similar burst
+    in steady state -- this alone can't fully absorb that (a sustained burst
+    still exceeds TPM even paced), but combined with the pacing in run_cycle
+    it meaningfully reduces how often a transient rate limit turns into a
+    dropped write-up. Raises on any other failure (missing key, bad
     response) -- callers decide how to degrade, same defensive shape as the
     rest of this module."""
+    import time as _time
+
+    from groq import RateLimitError
+
     client = _llm_client()
     extra = {"response_format": {"type": "json_object"}} if json_object else {}
-    resp = client.chat.completions.create(
-        model=cfg.LLM_MODEL,
-        messages=[{"role": "user", "content": prompt}],
-        max_tokens=max_tokens,
-        **extra,
-    )
-    return resp.choices[0].message.content
+    for attempt in range(cfg.LLM_RATE_LIMIT_MAX_RETRIES + 1):
+        try:
+            resp = client.chat.completions.create(
+                model=cfg.LLM_MODEL,
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=max_tokens,
+                **extra,
+            )
+            return resp.choices[0].message.content
+        except RateLimitError:
+            if attempt >= cfg.LLM_RATE_LIMIT_MAX_RETRIES:
+                raise
+            _time.sleep(cfg.LLM_RATE_LIMIT_RETRY_SECONDS * (attempt + 1))
 
 
 def _extract_json_object(text):
@@ -565,7 +585,16 @@ def run_cycle(cfg):
             "breadth_share_pct": result["breadth_share_pct"],
         })
 
-    for alert in alerts:
+    # Paced, not back-to-back -- Groq's free tier is 8,000 tokens/minute
+    # (verified via their docs), tighter than it sounds once you count each
+    # call's ~700-token max output plus its prompt: more than ~6-8 calls in
+    # a minute reliably 429s. A quiet cycle (the common case, cooldown
+    # suppresses repeats for 18h) pays nothing extra; a busy one spends time
+    # here rather than silently degrading most of its write-ups.
+    import time as _time
+    for i, alert in enumerate(alerts):
+        if i > 0:
+            _time.sleep(cfg.LLM_CALL_PACING_SECONDS)
         alert["analysis"] = write_analysis(alert, cfg)
 
     print(f"Qualifying alert(s) this cycle: {len(alerts)}")

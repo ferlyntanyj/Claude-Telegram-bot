@@ -103,6 +103,19 @@ LLM_MODEL = "openai/gpt-oss-120b"
 # prompt also grows with related-coverage context (gather_related_headlines),
 # so this has a bit of margin beyond the 4-field version.
 LLM_ANALYSIS_MAX_TOKENS = 700
+# Free tier is 8,000 tokens/minute (verified via Groq's docs 2026-09-15) --
+# tighter than the 30 requests/minute cap once each call's ~700-token max
+# output plus its prompt is counted. Confirmed 2026-09-18: the price-first
+# redesign's very first cycle surfaced 52 qualifying alerts at once (every
+# cooldown key was new that first time), firing write_analysis() back-to-back
+# and failing 60/66 write-ups that cycle to 429s. Cooldown means a burst
+# that size should be rare going forward, but a genuinely volatile day could
+# still produce a similar one -- pacing calls (run_cycle) and retrying a 429
+# with backoff (_run_completion) together absorb that instead of silently
+# degrading most of a busy cycle's alerts.
+LLM_CALL_PACING_SECONDS = 10
+LLM_RATE_LIMIT_MAX_RETRIES = 2
+LLM_RATE_LIMIT_RETRY_SECONDS = 20
 
 # ---------------------------------------------------------------------------
 # HTTP -- used by gather_related_headlines()'s targeted per-mover/per-industry
