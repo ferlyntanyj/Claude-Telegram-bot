@@ -5957,5 +5957,51 @@
       "look_out": "Watch upcoming Korean government infrastructure budget announcements and Samsung C&T’s earnings release later this month.",
       "memory": "In 2021 Samsung C&T rallied on expectations of new power‑plant contracts, then moderated after project delays."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T05:32:43.304988+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "COH.AX",
+      "company": "Cochlear",
+      "pct": 5.173466321859443,
+      "last": 139.4600067138672,
+      "prev": 132.59999084472656,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "4543.T",
+        "company": "Terumo Corp.",
+        "pct": -2.3347152520183267
+      },
+      {
+        "ticker": "SYK",
+        "company": "Stryker Corporation",
+        "pct": -1.7884588149423175
+      },
+      {
+        "ticker": "688271.SS",
+        "company": "United Imaging",
+        "pct": 1.6237617719291553
+      },
+      {
+        "ticker": "DXCM",
+        "company": "Dexcom",
+        "pct": 1.6149188718491692
+      }
+    ],
+    "analysis": {
+      "business_model": "Cochlear designs, manufactures and sells implantable hearing devices, earning revenue from device sales and ongoing patient servicing.",
+      "sentiment": "Bullish - price jump on speculation of positive earnings or regulatory news",
+      "why_moved": "The stock rose sharply despite no concrete news, likely driven by market speculation or analyst optimism ahead of upcoming earnings.",
+      "read_across": "Peers showed mixed moves, indicating sector rotation rather than a broad industry catalyst, with some firms gaining on demand while others fall.",
+      "look_out": "Watch Cochlear’s upcoming earnings release and any FDA approval updates for hearing‑implant trials.",
+      "memory": "Cochlear previously surged on rumors of successful clinical trial outcomes, then settled after results."
+    }
   }
 ]
