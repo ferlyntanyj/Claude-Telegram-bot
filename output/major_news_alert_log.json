@@ -5543,5 +5543,97 @@
       "look_out": "Monitor the upcoming earnings release and any regulatory announcements on online pharmacy licensing for further impact.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T02:33:22.541788+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "300759.SZ",
+      "company": "Pharmaron Beijing",
+      "pct": 5.334876244787279,
+      "last": 45.61000061035156,
+      "prev": 43.29999923706055,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "1177.HK",
+        "company": "Sino Biopharm",
+        "pct": 7.495435831358654
+      },
+      {
+        "ticker": "2269.HK",
+        "company": "WuXi Biologics",
+        "pct": 5.958292136874532
+      },
+      {
+        "ticker": "002821.SZ",
+        "company": "Asymchem Laboratories (Tianjin)",
+        "pct": 3.5475202119225058
+      },
+      {
+        "ticker": "MRNA",
+        "company": "Moderna",
+        "pct": -2.549512147374011
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T02:33:22.541801+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "AAI.AX",
+      "company": "Alcoa",
+      "pct": -5.287881331010302,
+      "last": 62.5099983215332,
+      "prev": 66.0,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "1378.HK",
+        "company": "China Hongqiao Group",
+        "pct": -2.2603977442585355
+      },
+      {
+        "ticker": "8869.KL",
+        "company": "PRESS METAL ALUMINIUM HOLDINGS BERHAD",
+        "pct": -2.1794881043192493
+      },
+      {
+        "ticker": "601600.SS",
+        "company": "Aluminum Corporation of China Limited",
+        "pct": -1.2834313832887245
+      },
+      {
+        "ticker": "600219.SS",
+        "company": "Shandong Nanshan Aluminium",
+        "pct": -0.6276194245094513
+      }
+    ],
+    "analysis": {
+      "business_model": "Alcoa designs, manufactures and sells primary aluminium, fabricated products and recycling services worldwide.",
+      "sentiment": "Bearish - sharp drop reflects weaker aluminium demand outlook",
+      "why_moved": "Alcoa fell 5.3% after market data showed a broad slump in aluminium stocks, with peers like China Hongqiao and Shandong Nanshan also declining. The sell‑off appears driven by concerns over weakening demand and lower commodity prices.",
+      "read_across": "The decline signals broader pressure on aluminium producers and downstream users, suggesting tighter margins across the supply chain and potential inventory build‑ups.",
+      "look_out": "Watch upcoming Chinese manufacturing PMI and aluminium price reports for further direction.",
+      "memory": "Similar sector sell‑offs occurred in early 2020 when aluminium prices fell sharply on COVID‑19 demand concerns."
+    }
   }
 ]
