@@ -6842,5 +6842,51 @@
       "look_out": "Watch upcoming Q3 earnings, carrier capex forecasts, and any 5G rollout updates that could confirm sustained demand.",
       "memory": "A similar rally occurred in early 2022 when telecom‑gear stocks rose on expectations of accelerated 5G deployments, delivering short‑term gains."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T12:02:54.893873+00:00",
+    "type": "single_stock",
+    "headline": "Bitcoin Is at Its Highest Price Since January. What It Means for Coinbase, Strategy, and Robinhood.",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTWFlWnNyWnEwU2UtY1dBOTFUdTRYcUZZYm8tY3lJY0p1RG5LUTczdGNOY2N6YnZzTDFQVW9pSG1jUkdTM3duSmJKRjRuQ1ZoQ204VDJUUHdFUVF2c1NJemM4bF9XUVBWanlFQ3dJWlh5bXBYb2YxaTl0X0E0ZXpJQ3VXZkVJSDVoNDlDR1Z3SXNQNW1FdFE?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "HOOD",
+      "company": "Robinhood Markets",
+      "pct": 5.191121,
+      "last": 126.04,
+      "prev": 119.82,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "IGG.L",
+        "company": "IG Group",
+        "pct": 3.4996276991809294
+      },
+      {
+        "ticker": "016360.KS",
+        "company": "Samsung Securities",
+        "pct": 3.3997655334114807
+      },
+      {
+        "ticker": "005940.KS",
+        "company": "NH Investment & Securities",
+        "pct": 2.935420743639927
+      },
+      {
+        "ticker": "IBKR",
+        "company": "Interactive Brokers",
+        "pct": 2.613719461163422
+      }
+    ],
+    "analysis": {
+      "business_model": "Robinhood operates a mobile app offering commission‑free trading of stocks, options, ETFs and cryptocurrencies, earning money from payment‑for‑order‑flow, interest on uninvested cash, and subscription services like Robinhood Gold.",
+      "sentiment": "Bullish - Bitcoin rally boosts crypto trading revenue",
+      "why_moved": "The surge to Bitcoin’s highest level since January lifted crypto‑trading volumes, directly benefiting Robinhood’s crypto offering and prompting a 5.2% intraday gain.",
+      "read_across": "Peers with crypto or digital brokerage exposure—including IG Group, Samsung Securities, NH Investment & Securities, and Interactive Brokers—also rose, reflecting broader investor enthusiasm for crypto‑linked trading platforms.",
+      "look_out": "Watch Bitcoin’s price stability, upcoming SEC crypto‑regulation decisions, and Robinhood’s next earnings for confirmation of sustained revenue growth.",
+      "memory": "When Bitcoin surged in late 2023, Robinhood’s shares similarly jumped, driven by higher crypto transaction volume."
+    }
   }
 ]

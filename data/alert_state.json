@@ -459,7 +459,11 @@
     "premarket:CIEN": {
       "last_alert_utc": "2026-09-21T11:33:36.182107+00:00",
       "last_move_pct": 6.087109
+    },
+    "premarket:HOOD": {
+      "last_alert_utc": "2026-09-21T12:02:54.890161+00:00",
+      "last_move_pct": 5.191121
     }
   },
-  "last_run_utc": "2026-09-21T11:45:34.540660+00:00"
+  "last_run_utc": "2026-09-21T12:00:50.536338+00:00"
 }
