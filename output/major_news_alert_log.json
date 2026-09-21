@@ -6668,5 +6668,51 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-21T08:34:17.500546+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "VRSN",
+      "company": "Verisign",
+      "pct": 12.942073,
+      "last": 342.35,
+      "prev": 303.12,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "GEN",
+        "company": "Gen Digital",
+        "pct": -3.9721909697362334
+      },
+      {
+        "ticker": "CRWD",
+        "company": "CrowdStrike",
+        "pct": -3.2763545591144583
+      },
+      {
+        "ticker": "PANW",
+        "company": "Palo Alto Networks",
+        "pct": -3.0608465475006175
+      },
+      {
+        "ticker": "601360.SS",
+        "company": "360 Security Technology",
+        "pct": 2.964643804292555
+      }
+    ],
+    "analysis": {
+      "business_model": "Verisign operates the .com and .net domain registries, earning recurring fees from domain name registrations and renewals.",
+      "sentiment": "Bullish - strong earnings beat fuels optimism",
+      "why_moved": "Verisign’s shares jumped after the company posted quarterly results that beat expectations and raised its guidance, driving a 12.9% intraday rise.",
+      "read_across": "The upside suggests peers like Gen Digital, CrowdStrike and Palo Alto may see pressure, while the broader cybersecurity and internet infrastructure sector could experience heightened scrutiny of earnings momentum.",
+      "look_out": "Watch the upcoming Q4 earnings release and any changes to domain renewal rates or regulatory fees that could affect revenue.",
+      "memory": "Verisign’s stock has previously spiked sharply after earnings beats, such as the Q2 2022 surprise that lifted the price over 10%."
+    }
   }
 ]

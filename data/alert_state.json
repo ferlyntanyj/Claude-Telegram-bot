@@ -447,7 +447,11 @@
     "premarket:PSKY": {
       "last_alert_utc": "2026-09-21T08:04:48.187306+00:00",
       "last_move_pct": 6.2683673
+    },
+    "premarket:VRSN": {
+      "last_alert_utc": "2026-09-21T08:34:17.497882+00:00",
+      "last_move_pct": 12.942073
     }
   },
-  "last_run_utc": "2026-09-21T08:15:35.484184+00:00"
+  "last_run_utc": "2026-09-21T08:31:01.586236+00:00"
 }
