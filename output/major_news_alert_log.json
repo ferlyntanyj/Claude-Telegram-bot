@@ -5865,5 +5865,97 @@
       "look_out": "Watch for YTL’s upcoming earnings release and any regulator announcements on power tariffs or dividend declarations.",
       "memory": "YTL previously rallied on similar tariff‑increase expectations in 2022, delivering a short‑term gain before stabilising."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T04:47:49.739718+00:00",
+    "type": "single_stock",
+    "headline": "China’s CXMT touts new chip process as close to ‘world’s most advanced’",
+    "source": "SCMP",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQnZDMVg0a1FaTUZ2aVdiVTU3aTJINkxsMEZHVEhWMWZLNzh1S2w3T0J4TkhGbm4tYzZoX3FBNG5TX2otSUNOc2hXcFhJWGJURnF3NmcwYVdDZTRZenVkQ3ozSlliX3B6MEhwRzYtWl9UUlcwejIxTGFKeS1VZnZPWUJEc29OaWFXRXZDQlEwSHNaWkR6MjBjQkZ0enhiRWFhLTY0N09teVBiREp2RGpDWnBDajlBaDd3OXfSAboBQVVfeXFMTU4tOVo1c1dCZExzWGVMM3dFYndHeFFCNEtGR1EwVlVmWVA0NERVU2RvZzBLYzZLVjY2dDF4aElBV0FwMEp6ekdOc0NvRzJWOFRKWDFodExqUEtydmtuelhxY3YwOFpScnVjSFJueDV1NkZmTHI2MG1FZUQ1UDlNaldRY0FtNjN2WGdSOE8xVnZMOFd2R1U4bGJ1OGNRZ200SzNlc1JUeHNMaV9taUQxaURJTEpId1VobW5B?oc=5",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "005930.KS",
+      "company": "Samsung Electronics",
+      "pct": 5.1724137931034475,
+      "last": 274500.0,
+      "prev": 261000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "1810.HK",
+        "company": "Xiaomi",
+        "pct": 3.8636381534177255
+      },
+      {
+        "ticker": "688036.SS",
+        "company": "Transsion",
+        "pct": 3.0888782527486613
+      },
+      {
+        "ticker": "066570.KS",
+        "company": "LG Electronics",
+        "pct": 1.814516129032251
+      },
+      {
+        "ticker": "6758.T",
+        "company": "Sony Group Corp.",
+        "pct": -1.5183803942461327
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T04:47:49.739734+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "028260.KS",
+      "company": "Samsung C&T",
+      "pct": 5.128205128205132,
+      "last": 369000.0,
+      "prev": 351000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "FIX",
+        "company": "Comfort Systems USA",
+        "pct": 4.9181704808793025
+      },
+      {
+        "ticker": "PWR",
+        "company": "Quanta Services",
+        "pct": 3.271490035382252
+      },
+      {
+        "ticker": "BAB.L",
+        "company": "Babcock International",
+        "pct": -3.0958230958230915
+      },
+      {
+        "ticker": "EME",
+        "company": "Emcor",
+        "pct": 2.856322410512857
+      }
+    ],
+    "analysis": {
+      "business_model": "Samsung C&T is a construction and engineering firm that also runs trading, investment, and resort businesses, with most revenue coming from large‑scale infrastructure projects.",
+      "sentiment": "Bullish - strong earnings expectations from infrastructure contracts",
+      "why_moved": "The stock surged 5.1% on intraday data, spurred by broader gains in construction and services peers. Positive sentiment around infrastructure spending lifted Samsung C&T.",
+      "read_across": "Similar upside in Comfort Systems, Quanta, and Emcor suggests a rally in global construction services, while Babcock’s decline hints at regional variation.",
+      "look_out": "Watch upcoming Korean government infrastructure budget announcements and Samsung C&T’s earnings release later this month.",
+      "memory": "In 2021 Samsung C&T rallied on expectations of new power‑plant contracts, then moderated after project delays."
+    }
   }
 ]
