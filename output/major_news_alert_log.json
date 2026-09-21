@@ -4408,5 +4408,51 @@
       "look_out": "Watch gold price trends, upcoming resource update for the Kintyre project, and any regulatory approvals.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T00:33:00.396798+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "AAI.AX",
+      "company": "Alcoa",
+      "pct": -5.4772752704042365,
+      "last": 62.3849983215332,
+      "prev": 66.0,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "8869.KL",
+        "company": "PRESS METAL ALUMINIUM HOLDINGS BERHAD",
+        "pct": 2.631582744894323
+      },
+      {
+        "ticker": "600219.SS",
+        "company": "Shandong Nanshan Aluminium",
+        "pct": 2.5751151572007247
+      },
+      {
+        "ticker": "601600.SS",
+        "company": "Aluminum Corporation of China Limited",
+        "pct": 2.074241672736443
+      },
+      {
+        "ticker": "1378.HK",
+        "company": "China Hongqiao Group",
+        "pct": 1.2820544170753179
+      }
+    ],
+    "analysis": {
+      "business_model": "Alcoa mines bauxite, refines it into alumina, and smelts primary aluminum for industrial customers worldwide.",
+      "sentiment": "Bearish - stock slides on likely earnings or guidance miss",
+      "why_moved": "Alcoa fell 5.5% while peers rose, suggesting a company‑specific disappointment such as a weaker earnings outlook.",
+      "read_across": "Peers gaining implies overall aluminum demand remains solid, but Alcoa’s drop may pressure its supply chain relationships.",
+      "look_out": "Watch upcoming earnings release and any analyst downgrades for confirmation of the downside.",
+      "memory": "Alcoa’s shares plunged after a muted earnings report in early 2022, then recovered on later guidance."
+    }
   }
 ]
