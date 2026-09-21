@@ -6162,5 +6162,235 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-21T07:03:21.083223+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Germany · XETRA",
+    "primary": {
+      "ticker": "DTE.DE",
+      "company": "Deutsche Telekom",
+      "pct": -5.998611418457611,
+      "last": 27.110000610351562,
+      "prev": 28.84000015258789,
+      "currency": "EUR"
+    },
+    "peers": [
+      {
+        "ticker": "AAF.L",
+        "company": "Airtel Africa",
+        "pct": -11.273138395673998
+      },
+      {
+        "ticker": "VOD.L",
+        "company": "Vodafone Group",
+        "pct": -4.25047322513935
+      },
+      {
+        "ticker": "CHTR",
+        "company": "Charter Communications",
+        "pct": -3.898925649410978
+      },
+      {
+        "ticker": "017670.KS",
+        "company": "SK Telecom",
+        "pct": -2.4663677130044803
+      }
+    ],
+    "analysis": {
+      "business_model": "Deutsche Telekom operates fixed‑line, mobile and broadband networks, earning most revenue from subscription fees and wholesale telecom services.",
+      "sentiment": "Bearish - sector‑wide revenue growth concerns",
+      "why_moved": "The stock slipped as investors reacted to a broader telecom sell‑off, fearing slower subscriber growth and margin pressure.",
+      "read_across": "Similar drops in Airtel Africa, Vodafone, Charter and SK Telecom signal a market‑wide reassessment of telecom earnings prospects.",
+      "look_out": "Watch Deutsche Telekom’s upcoming earnings report and EU 5G rollout decisions for further price direction.",
+      "memory": "In Q3 2023 a miss on broadband earnings triggered a comparable 5‑6% decline."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T07:03:21.083232+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "CCH.L",
+      "company": "Coca-Cola HBC",
+      "pct": -7.852494577006508,
+      "last": 4248.0,
+      "prev": 4610.0,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "PEP",
+        "company": "PepsiCo",
+        "pct": -2.925335594029921
+      },
+      {
+        "ticker": "KDP",
+        "company": "Keurig Dr Pepper",
+        "pct": -1.4953904426966425
+      },
+      {
+        "ticker": "9633.HK",
+        "company": "Nongfu Spring",
+        "pct": 1.39896615770434
+      },
+      {
+        "ticker": "CCEP.L",
+        "company": "Coca-Cola Europacific Partners",
+        "pct": -1.3815789473684226
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T07:03:21.083236+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "AAF.L",
+      "company": "Airtel Africa",
+      "pct": -11.273138395673998,
+      "last": 316.3999938964844,
+      "prev": 356.6000061035156,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "DTE.DE",
+        "company": "Deutsche Telekom",
+        "pct": -5.998611418457611
+      },
+      {
+        "ticker": "VOD.L",
+        "company": "Vodafone Group",
+        "pct": -4.25047322513935
+      },
+      {
+        "ticker": "CHTR",
+        "company": "Charter Communications",
+        "pct": -3.898925649410978
+      },
+      {
+        "ticker": "017670.KS",
+        "company": "SK Telecom",
+        "pct": -2.4663677130044803
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T07:03:21.083238+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "MTLN.L",
+      "company": "Metlen Energy & Metals",
+      "pct": -5.512816364138617,
+      "last": 44.220001220703125,
+      "prev": 46.79999923706055,
+      "currency": "EUR"
+    },
+    "peers": [
+      {
+        "ticker": "6742.KL",
+        "company": "YTL POWER INTERNATIONAL BHD",
+        "pct": 6.272399810358964
+      },
+      {
+        "ticker": "4677.KL",
+        "company": "YTL CORPORATION BHD",
+        "pct": 5.803565869145877
+      },
+      {
+        "ticker": "SSE.L",
+        "company": "SSE plc",
+        "pct": -2.2114997989545637
+      },
+      {
+        "ticker": "9502.T",
+        "company": "Chubu Electric Power Co., Inc.",
+        "pct": -1.7703591299949473
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T07:03:21.083241+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "1177.HK",
+      "company": "Sino Biopharm",
+      "pct": 8.31810636188839,
+      "last": 5.925000190734863,
+      "prev": 5.46999979019165,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "1093.HK",
+        "company": "CSPC Pharmaceutical Group",
+        "pct": 6.606944372061552
+      },
+      {
+        "ticker": "2269.HK",
+        "company": "WuXi Biologics",
+        "pct": 5.362464438459114
+      },
+      {
+        "ticker": "0241.HK",
+        "company": "Alibaba Health",
+        "pct": -5.22023108788412
+      },
+      {
+        "ticker": "2359.HK",
+        "company": "WuXi AppTec",
+        "pct": 4.0000000000000036
+      }
+    ],
+    "analysis": {
+      "business_model": "Sino Biopharm develops, manufactures and sells biopharmaceutical products, focusing on oncology, immunology and other specialty drugs, primarily in China and overseas markets.",
+      "sentiment": "Bullish - sector rally on biotech optimism",
+      "why_moved": "The stock jumped 8.3% intraday as Hong Kong biotech peers also rallied, suggesting market optimism for pipeline or regulatory news despite no specific announcement.",
+      "read_across": "Similar gains in CSPC, WuXi Biologics and others point to broader confidence in Chinese biotech firms and potential supply‑chain benefits across the sector.",
+      "look_out": "Watch for upcoming clinical trial read‑outs, regulatory filings and the next earnings report that could confirm whether the rally is fundamentals‑driven.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
