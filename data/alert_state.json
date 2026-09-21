@@ -551,7 +551,11 @@
     "sector:software infrastructure": {
       "last_alert_utc": "2026-09-21T19:03:11.562628+00:00",
       "last_move_pct": 2.1453376419542147
+    },
+    "sector:airlines": {
+      "last_alert_utc": "2026-09-21T19:18:03.022974+00:00",
+      "last_move_pct": 3.529260815950397
     }
   },
-  "last_run_utc": "2026-09-21T19:00:48.365918+00:00"
+  "last_run_utc": "2026-09-21T19:15:34.965461+00:00"
 }

@@ -8309,5 +8309,41 @@
       "look_out": "Watch upcoming earnings from other equipment makers, quarterly fab cap‑ex forecasts, and any signs of supply‑chain bottlenecks that could temper growth.",
       "memory": "A similar sharp rally occurred in early 2022 when equipment firms rallied on renewed fab spending expectations."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T19:18:03.026480+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "UAL",
+      "company": "United Airlines Holdings",
+      "pct": 5.027140109750716,
+      "last": 114.17500305175781,
+      "prev": 108.70999908447266,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "DAL",
+        "company": "Delta Air Lines",
+        "pct": 3.529260815950397
+      },
+      {
+        "ticker": "LUV",
+        "company": "Southwest Airlines",
+        "pct": 1.5861433214731324
+      }
+    ],
+    "analysis": {
+      "business_model": "United Airlines operates a global airline network, earning revenue from passenger flights, cargo, and ancillary services.",
+      "sentiment": "Bullish - sector rally lifts demand expectations",
+      "why_moved": "United’s stock jumped 5% amid a sector‑wide rally as peers also rose, indicating improving investor confidence in airline demand.",
+      "read_across": "The gains at Delta and Southwest suggest broader optimism for domestic and international travel recovery across the industry.",
+      "look_out": "Watch upcoming FAA capacity reports and United’s next earnings release for confirmation of sustained demand.",
+      "memory": "During early 2024 airlines rallied on easing pandemic restrictions, boosting shares in a similar pattern."
+    }
   }
 ]
