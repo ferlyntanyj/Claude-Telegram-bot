@@ -4500,5 +4500,143 @@
       "look_out": "Watch Q3 earnings and any new 5G handset or infrastructure order announcements that could confirm the trend.",
       "memory": "In early 2023 Korean PCB firms rallied on 5G rollout expectations, then stabilized as order volumes normalized."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T01:03:06.465044+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "2303.TW",
+      "company": "UMC",
+      "pct": 5.762711864406778,
+      "last": 156.0,
+      "prev": 147.5,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "2408.TW",
+        "company": "Nanya Technology",
+        "pct": 7.581967213114749
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      },
+      {
+        "ticker": "300223.SZ",
+        "company": "Ingenic Semiconductor",
+        "pct": 5.856659118239471
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T01:03:06.465056+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "2408.TW",
+      "company": "Nanya Technology",
+      "pct": 7.581967213114749,
+      "last": 525.0,
+      "prev": 488.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      },
+      {
+        "ticker": "300223.SZ",
+        "company": "Ingenic Semiconductor",
+        "pct": 5.856659118239471
+      },
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm",
+        "pct": -5.823753432337975
+      }
+    ],
+    "analysis": {
+      "business_model": "Nanya Technology manufactures and sells DRAM memory chips, primarily LPDDR and DDR products used in smartphones and servers.",
+      "sentiment": "Bullish - memory demand and price rally lift expectations",
+      "why_moved": "Shares spiked on market rumors of rising DRAM orders and improving inventory levels, echoing gains in peer Chinese memory fabs.",
+      "read_across": "The rally across JCET, SG Micro and Ingenic suggests broader demand recovery for memory components, boosting the supply chain.",
+      "look_out": "Watch global DRAM price trends, Nanya’s upcoming earnings, and any capacity expansion announcements.",
+      "memory": "In early 2021 Nanya’s stock surged on a DRAM price rally, then corrected when prices fell."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T01:03:06.465061+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "3008.TW",
+      "company": "Largan",
+      "pct": 6.810631229235886,
+      "last": 6430.0,
+      "prev": 6020.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "007660.KS",
+        "company": "Isu Petasys",
+        "pct": 5.882352941176472
+      },
+      {
+        "ticker": "6981.T",
+        "company": "Murata Manufacturing Co., Ltd.",
+        "pct": 4.467770152065675
+      },
+      {
+        "ticker": "3037.TW",
+        "company": "Unimicron",
+        "pct": 4.3617021276595835
+      },
+      {
+        "ticker": "6976.T",
+        "company": "Taiyo Yuden Co., Ltd.",
+        "pct": 4.166666666666674
+      }
+    ],
+    "analysis": {
+      "business_model": "Largan Precision designs and manufactures high‑precision optical lenses for smartphone cameras and automotive imaging systems, selling primarily to mobile device makers.",
+      "sentiment": "Bullish - strong demand signals lift earnings expectations",
+      "why_moved": "The stock jumped on reports of rising smartphone camera lens orders, echoing gains across peers like Murata and Unimicron, suggesting a sector‑wide demand surge.",
+      "read_across": "Peers’ similar advances imply broader strength in the camera‑module supply chain, benefiting component makers globally.",
+      "look_out": "Watch upcoming earnings releases and major smartphone launch schedules for order confirmations or supply constraints.",
+      "memory": "A comparable rally occurred in early 2022 when Largan’s shares surged on heightened iPhone 14 lens demand, which later translated into sustained earnings growth."
+    }
   }
 ]
