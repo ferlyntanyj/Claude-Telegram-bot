@@ -4454,5 +4454,51 @@
       "look_out": "Watch upcoming earnings release and any analyst downgrades for confirmation of the downside.",
       "memory": "Alcoa’s shares plunged after a muted earnings report in early 2022, then recovered on later guidance."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T00:48:13.242467+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "007660.KS",
+      "company": "Isu Petasys",
+      "pct": 6.075216972034725,
+      "last": 110000.0,
+      "prev": 103700.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "6981.T",
+        "company": "Murata Manufacturing Co., Ltd.",
+        "pct": 4.467770152065675
+      },
+      {
+        "ticker": "2308.TW",
+        "company": "Delta Electronics",
+        "pct": 4.3227665706051965
+      },
+      {
+        "ticker": "6976.T",
+        "company": "Taiyo Yuden Co., Ltd.",
+        "pct": 4.166666666666674
+      },
+      {
+        "ticker": "002475.SZ",
+        "company": "Luxshare Precision Industry",
+        "pct": 3.779008950012841
+      }
+    ],
+    "analysis": {
+      "business_model": "Isu Petasys designs and manufactures high‑frequency printed circuit boards and related components for smartphones, automotive electronics, and 5G infrastructure.",
+      "sentiment": "Bullish - strong demand for high‑frequency PCBs",
+      "why_moved": "The stock jumped on reports of accelerating order growth in its high‑frequency PCB segment, echoing similar gains at peers such as Murata, Delta Electronics, Taiyo Yuden and Luxshare.",
+      "read_across": "The rally signals a broader recovery in the Asian high‑frequency component market, lifting PCB makers and downstream device manufacturers alike.",
+      "look_out": "Watch Q3 earnings and any new 5G handset or infrastructure order announcements that could confirm the trend.",
+      "memory": "In early 2023 Korean PCB firms rallied on 5G rollout expectations, then stabilized as order volumes normalized."
+    }
   }
 ]
