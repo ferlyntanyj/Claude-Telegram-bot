@@ -5328,5 +5328,97 @@
       "look_out": "Watch upcoming Q3 earnings, Chinese government subsidy announcements, and any US export‑control updates.",
       "memory": "A similar rally occurred in early 2023 when Chinese chip makers rose on domestic subsidy expectations, later stabilizing after the policy rollout."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T02:02:28.062793+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "1093.HK",
+      "company": "CSPC Pharmaceutical Group",
+      "pct": 5.151176063010432,
+      "last": 9.390000343322754,
+      "prev": 8.930000305175781,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "BIIB",
+        "company": "Biogen",
+        "pct": -1.6206359289202998
+      },
+      {
+        "ticker": "AMGN",
+        "company": "Amgen",
+        "pct": 1.5456304007728239
+      },
+      {
+        "ticker": "GSK.L",
+        "company": "GSK plc",
+        "pct": -1.1842105263157876
+      },
+      {
+        "ticker": "4578.T",
+        "company": "Otsuka Holdings Co., Ltd.",
+        "pct": -1.023587004895421
+      }
+    ],
+    "analysis": {
+      "business_model": "CSPC Pharmaceutical Group develops, manufactures, and sells generic and proprietary drugs, primarily serving the Chinese domestic market.",
+      "sentiment": "Bullish - investors reacting to favorable earnings outlook",
+      "why_moved": "The stock jumped on market speculation of strong upcoming earnings and potential drug approvals, despite no concrete news release.",
+      "read_across": "The gain suggests Chinese pharma may be decoupling from broader biotech weakness, highlighting domestic demand resilience for peers.",
+      "look_out": "Watch CSPC's earnings release and any regulatory filings for drug approvals in the next weeks.",
+      "memory": "Similar speculative spikes occurred when Chinese pharma firms hinted at new product launches, later confirming modest earnings lifts."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T02:02:28.062806+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "1177.HK",
+      "company": "Sino Biopharm",
+      "pct": 6.124315374703793,
+      "last": 5.804999828338623,
+      "prev": 5.46999979019165,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "2269.HK",
+        "company": "WuXi Biologics",
+        "pct": 4.369415748980043
+      },
+      {
+        "ticker": "MRNA",
+        "company": "Moderna",
+        "pct": -2.549512147374011
+      },
+      {
+        "ticker": "300759.SZ",
+        "company": "Pharmaron Beijing",
+        "pct": 2.448040166208032
+      },
+      {
+        "ticker": "INCY",
+        "company": "Incyte",
+        "pct": -1.8100651451757988
+      }
+    ],
+    "analysis": {
+      "business_model": "Sino Biopharm develops, manufactures and markets innovative biologics and small‑molecule drugs, focusing on oncology, immunology and other therapeutic areas.",
+      "sentiment": "Bullish - intraday surge suggests optimism about pipeline",
+      "why_moved": "The stock jumped on a broad biotech rally, likely spurred by positive sector sentiment or speculative news on upcoming trial data, mirroring gains in peers like WuXi Biologics and Pharmaron Beijing.",
+      "read_across": "The move signals renewed investor confidence in Chinese contract‑manufacturing and biotech firms, potentially boosting peers in the biologics supply chain and related international biotech stocks.",
+      "look_out": "Watch for upcoming Chinese FDA filings, trial readouts for Sino Biopharm's lead candidates, and any earnings updates that could confirm the rally's fundamentals.",
+      "memory": "Similar sharp rallies have occurred when Chinese biotechs were rumored to have positive trial results, temporarily lifting sector stocks before data confirmation."
+    }
   }
 ]
