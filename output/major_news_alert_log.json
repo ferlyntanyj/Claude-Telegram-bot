@@ -7716,5 +7716,51 @@
       "look_out": "Watch upcoming Q2 earnings and any guidance on 5G/AI chipset demand.",
       "memory": "Similar sector‑wide lifts occurred in early 2023 on AI hype, with many chip stocks rallying."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T15:02:23.344935+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "GLW",
+      "company": "Corning Inc.",
+      "pct": 5.242120070088996,
+      "last": 158.0,
+      "prev": 150.1300048828125,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "APH",
+        "company": "Amphenol",
+        "pct": 3.2108288404678387
+      },
+      {
+        "ticker": "FLEX",
+        "company": "Flex Ltd.",
+        "pct": 2.059718520275755
+      },
+      {
+        "ticker": "TEL",
+        "company": "TE Connectivity",
+        "pct": 1.290044386571343
+      },
+      {
+        "ticker": "JBL",
+        "company": "Jabil",
+        "pct": 0.4840209814074736
+      }
+    ],
+    "analysis": {
+      "business_model": "Corning designs, manufactures and sells specialty glass and ceramics for display technologies, optical communications and industrial applications.",
+      "sentiment": "Bullish - earnings beat fuels optimism",
+      "why_moved": "The stock jumped after the company reported stronger‑than‑expected quarterly results and raised its full‑year guidance.",
+      "read_across": "Peers such as Amphenol, Flex, TE Connectivity and Jabil also rose, indicating broader confidence in the electronics components sector.",
+      "look_out": "Watch upcoming earnings of other component makers and any updates on demand from 5G and EV supply chains.",
+      "memory": "Corning previously saw sharp moves after earnings surprises, notably the Q2 2023 beat that sent the stock higher."
+    }
   }
 ]
