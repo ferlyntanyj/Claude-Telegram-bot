@@ -7895,5 +7895,51 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-21T17:18:12.798450+00:00",
+    "type": "single_stock",
+    "headline": "Final Trade: Uber, Micron, Natera and Datadog",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSkY4ZEd0cjQyUE56VzNabE11QlhnZWpsTFkwdm1RVnlYR214UmVCWnNFeWlodWhrVGh2ZXp2UEVEbFkxcHpjNnlwWkZQYmFaSFFOaURDMFN2ZHlSalBsSFlUVWhOOXVJeVBianJmZ1pEY25qaXVJX0VIVDN2MjhoV2tid0ZYOEhtTHZkTnZn?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "DDOG",
+      "company": "Datadog",
+      "pct": 5.101772712663233,
+      "last": 241.64999389648438,
+      "prev": 229.9199981689453,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "600845.SS",
+        "company": "Baosight Software",
+        "pct": 6.964286484685922
+      },
+      {
+        "ticker": "XRO.AX",
+        "company": "Xero",
+        "pct": -4.300727940014825
+      },
+      {
+        "ticker": "301269.SZ",
+        "company": "Empyrean Technology",
+        "pct": 3.949979274830362
+      },
+      {
+        "ticker": "CDNS",
+        "company": "Cadence Design Systems",
+        "pct": 3.904211264060975
+      }
+    ],
+    "analysis": {
+      "business_model": "Datadog offers a SaaS platform that monitors and analyzes cloud‑based applications, infrastructure and logs for enterprises.",
+      "sentiment": "Bullish - earnings beat and raised guidance",
+      "why_moved": "Datadog’s shares jumped after it reported quarterly earnings that exceeded expectations and lifted its full‑year outlook.",
+      "read_across": "The rally mirrors strength in other software‑infrastructure names, suggesting broader demand for observability tools across global tech firms.",
+      "look_out": "Watch the upcoming Q4 earnings release and any announcements of new AI‑driven monitoring features.",
+      "memory": "Datadog saw a similar surge after its 2022 earnings beat, which was followed by sustained upside through the next quarter."
+    }
   }
 ]
