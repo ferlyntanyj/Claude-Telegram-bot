@@ -7026,5 +7026,189 @@
       "look_out": "Watch HP’s upcoming earnings, shipment reports and any revised guidance; track consumer spending trends.",
       "memory": "In 2020 HP cut its PC outlook amid pandemic‑driven demand shifts, triggering a similar sell‑off."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T13:33:36.532459+00:00",
+    "type": "single_stock",
+    "headline": "Intel, AMD, Strategy, Meta, Warner Bros, and More Stocks That Explain Today’s Market",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9zM3hEVDdnSUhOblJuYUI5TlJkc1Z0TloyNjRpdThyY093TVRIV01RR2VpWllPM3BBWWNQX0g4TzhaUEx4UFBSY19JNjdpSnVLLUNwcENkUGxiV2FpTjU0R1lxU0M?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "INTC",
+      "company": "Intel",
+      "pct": 9.75598652814702,
+      "last": 119.19499969482422,
+      "prev": 108.5999984741211,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "2454.TW",
+        "company": "MediaTek",
+        "pct": 6.369426751592355
+      },
+      {
+        "ticker": "6723.T",
+        "company": "Renesas Electronics Corp.",
+        "pct": 4.450757575757569
+      },
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": 4.448563484708057
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "pct": 4.414805740588479
+      }
+    ],
+    "analysis": {
+      "business_model": "Intel designs and manufactures microprocessors and related semiconductor components for PCs, data centers, and AI workloads.",
+      "sentiment": "Bullish - strong earnings beat and AI demand boost",
+      "why_moved": "The stock jumped after Intel posted a surprise earnings beat, lifted its AI‑focused data‑center guidance and announced a sizable share buyback.",
+      "read_across": "Peers such as AMD, MediaTek and other chipmakers are likely to see similar upside as AI‑driven demand lifts the broader semiconductor industry.",
+      "look_out": "Key triggers include Intel’s Q3 results, progress on its new node rollouts, and pricing competition from AMD.",
+      "memory": "Intel’s 2023 earnings surprise sparked a comparable rally, reinforcing the pattern."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T13:33:36.532479+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "STX",
+      "company": "Seagate Technology",
+      "pct": 6.265792444643603,
+      "last": 912.5999755859375,
+      "prev": 858.7899780273438,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "0992.HK",
+        "company": "Lenovo",
+        "pct": -4.896221561829151
+      },
+      {
+        "ticker": "WDC",
+        "company": "Western Digital",
+        "pct": 4.166670123887428
+      },
+      {
+        "ticker": "SMCI",
+        "company": "Supermicro",
+        "pct": 3.7221744964897274
+      },
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies",
+        "pct": 2.9116604053144313
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T13:33:36.532484+00:00",
+    "type": "single_stock",
+    "headline": "Exclusive | Paramount Discussed $1.5 Billion California Investment to Clear Merger Hurdle",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPalY5cGVwVG9ZR1E5RnI0djRncDZxSVpjSFdyVi1MVjlDc0NWbmpaZlNJQmpFbTh5cTkwcTFXVW9rdTZ5V3hLanA2eG5OelRsQWRBbGl1bTZueDBVM1hBQzFyaXl0bkw3VHRNNXhtczRHai1MQ0NPUHE0T0ZPdUNQanZwai1sQUQ2bk1rZXMtSlJpWFdoU2xXMFoyMHFMU29kV3ZWdng2bnJETnBSZ3kyN0VZRVdJRjRGOUZHSw?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "WBD",
+      "company": "Warner Bros. Discovery",
+      "pct": 7.176262208575301,
+      "last": 29.795000076293945,
+      "prev": 27.799999237060547,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "PSKY",
+        "company": "Paramount Skydance Corporation",
+        "pct": 4.260532987183496
+      },
+      {
+        "ticker": "9602.T",
+        "company": "Toho Co., Ltd",
+        "pct": -2.166511915815539
+      },
+      {
+        "ticker": "352820.KS",
+        "company": "Hybe",
+        "pct": -2.049427365883061
+      },
+      {
+        "ticker": "NWS.AX",
+        "company": "News Corp Class B",
+        "pct": -1.0309268214748757
+      }
+    ],
+    "analysis": {
+      "business_model": "Warner Bros. Discovery creates and distributes premium entertainment content—movies, TV series and streaming services—earning revenue from advertising, subscription fees and licensing.",
+      "sentiment": "Bullish - $1.5B investment may clear merger hurdle",
+      "why_moved": "The report that Paramount is discussing a $1.5 billion California investment to satisfy antitrust concerns lifted expectations that a merger with Warner Bros. Discovery will proceed, driving the stock up intraday.",
+      "read_across": "The news signals renewed consolidation pressure across global media, suggesting peers like Paramount Skydance, Toho and News Corp could face similar regulatory or strategic moves.",
+      "look_out": "Watch for the regulator’s formal decision on the merger, any updated deal terms, and the impact on upcoming earnings guidance.",
+      "memory": "The 2018 AT&T‑WarnerMedia merger required sizable concessions to satisfy regulators, offering a comparable precedent."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T13:33:36.532487+00:00",
+    "type": "single_stock",
+    "headline": "Coinbase Gives Individual Investors Access to IPOs",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTHpTZU1IOFpfUy1PamRwZk1mQ2xscVh2cDRhaW84SVI1Qmg3eGkxQ1BHZ1VsdWlpaUsxVUgxSFVSVHYtSXo2b1R3MEVxSzJ1cFVZcUlsa21oSWJHdWRDQlFPdDNQcUNWSldaSll3ekNaeFZVNC12d1haaUk0bnNORjRPT1FyNnNZcEJrTFliS08ySjdVdjdhRXFDQjRvTUJnd2ZTekJTd2otVWNOUnJDZ2RLUGtMRUNMVmE0MENrU0tjcnVyVHJPU0dXSVRvaFh2ZXFpb3lIU0RHanZEclRYN0FjMUlYbWVrNmlaUXdn?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "COIN",
+      "company": "Coinbase",
+      "pct": 5.534105534105538,
+      "last": 205.0,
+      "prev": 194.25,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "ASX.AX",
+        "company": "ASX",
+        "pct": 1.8123131967101802
+      },
+      {
+        "ticker": "300033.SZ",
+        "company": "Hithink RoyalFlush Information Network",
+        "pct": 1.6698874347625958
+      },
+      {
+        "ticker": "FDS",
+        "company": "FactSet",
+        "pct": 1.314170863823949
+      },
+      {
+        "ticker": "LSEG.L",
+        "company": "London Stock Exchange Group",
+        "pct": 1.28547174387581
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
