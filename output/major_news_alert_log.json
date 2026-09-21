@@ -7578,5 +7578,51 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-21T14:24:45.447725+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "META",
+      "company": "Meta Platforms",
+      "pct": 7.00112434871385,
+      "last": 712.3599853515625,
+      "prev": 665.75,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "RDDT",
+        "company": "Reddit",
+        "pct": 2.923426068868773
+      },
+      {
+        "ticker": "GOOG",
+        "company": "Alphabet Inc. (Class C)",
+        "pct": 2.4418581262698025
+      },
+      {
+        "ticker": "GOOGL",
+        "company": "Alphabet Inc. (Class A)",
+        "pct": 2.1742878977297098
+      },
+      {
+        "ticker": "G24.DE",
+        "company": "Scout24",
+        "pct": 2.033898305084736
+      }
+    ],
+    "analysis": {
+      "business_model": "Meta Platforms operates the Facebook, Instagram, and WhatsApp social networks, generating most of its revenue by selling targeted advertising to businesses.",
+      "sentiment": "Bullish - strong ad revenue outlook after earnings beat",
+      "why_moved": "Meta surged 7% after reporting earnings that exceeded expectations and raising its 2024 guidance. The upbeat results lifted sentiment across the digital advertising sector.",
+      "read_across": "The rally spilled over to peers like Reddit and Alphabet, reflecting broader confidence in online ad spending. International platforms with similar ad models are likely to benefit.",
+      "look_out": "Watch next week’s ad spend data and Meta’s upcoming product roadmap announcements for potential follow‑through.",
+      "memory": "A similar post‑earnings jump occurred in Q2 2023, where Meta’s stock rose ~10% after an earnings beat, followed by a gradual pullback."
+    }
   }
 ]

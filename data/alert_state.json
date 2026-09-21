@@ -499,7 +499,11 @@
     "single:AKAM": {
       "last_alert_utc": "2026-09-21T14:18:15.935966+00:00",
       "last_move_pct": 7.443557844017135
+    },
+    "sector:internet content information": {
+      "last_alert_utc": "2026-09-21T14:24:45.443761+00:00",
+      "last_move_pct": 2.308073011999756
     }
   },
-  "last_run_utc": "2026-09-21T14:15:43.211294+00:00"
+  "last_run_utc": "2026-09-21T14:22:54.744747+00:00"
 }
