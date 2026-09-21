@@ -7532,5 +7532,51 @@
       "look_out": "Watch for the final penalty terms, the timeline for meeting the 30‑film target, and any impact on upcoming earnings or financing arrangements.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T14:18:15.938668+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "AKAM",
+      "company": "Akamai Technologies",
+      "pct": 7.443557844017135,
+      "last": 112.30000305175781,
+      "prev": 104.5199966430664,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "CRWD",
+        "company": "CrowdStrike",
+        "pct": 3.3957532217458786
+      },
+      {
+        "ticker": "601360.SS",
+        "company": "360 Security Technology",
+        "pct": 2.964643804292555
+      },
+      {
+        "ticker": "SNPS",
+        "company": "Synopsys",
+        "pct": 2.917113268753102
+      },
+      {
+        "ticker": "4704.T",
+        "company": "Trend Micro Inc.",
+        "pct": 2.4016114037805902
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
