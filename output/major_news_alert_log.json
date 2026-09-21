@@ -7440,5 +7440,97 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-21T14:04:04.279022+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "LITE",
+      "company": "Lumentum",
+      "pct": 5.068165029059402,
+      "last": 978.0900268554688,
+      "prev": 930.9099731445312,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "CIEN",
+        "company": "Ciena",
+        "pct": 4.400804656170654
+      },
+      {
+        "ticker": "000063.SZ",
+        "company": "ZTE",
+        "pct": 2.1886650099465443
+      },
+      {
+        "ticker": "300308.SZ",
+        "company": "Zhongji Innolight",
+        "pct": 1.5727046230591624
+      },
+      {
+        "ticker": "601138.SS",
+        "company": "Foxconn Industrial Internet",
+        "pct": 1.4192304299822656
+      }
+    ],
+    "analysis": {
+      "business_model": "Lumentum designs and manufactures optical components such as laser engines, transceivers, and photonic modules used in telecom, data‑center and industrial applications.",
+      "sentiment": "Bullish - sector demand for optical components surging",
+      "why_moved": "Lumentum’s stock rose alongside peers as investors bet on a rebound in telecom‑equipment and data‑center capex, reflected in gains for Ciena, ZTE and others.",
+      "read_across": "The coordinated uptick suggests broader optimism for the optical‑hardware supply chain and may tighten component availability across both domestic and international markets.",
+      "look_out": "Watch Lumentum’s upcoming earnings release and any guidance on optical‑module orders, as well as macro data on telecom‑capex and data‑center expansion.",
+      "memory": "A similar rally occurred in early 2023 when data‑center demand lifted many optical‑component makers, leading to sustained price gains."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T14:04:04.279037+00:00",
+    "type": "single_stock",
+    "headline": "Paramount Talks Include Penalty for Missing 30-Film Pledge",
+    "source": "Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLW5SYVlFdG9nQ3BPSW1kNU14RlVJSGxzbVczcHAtRm1qLU50UU9WZ3dUX245SzdlVmFNUVpqSkcxRDhqVG5aRklNWTVDVUFRTDhNaDBSZXRaLWNKaWVWQVc2TnhscVQyVnpJUzdnTGFrYk41ZHRkOUMwc1ZPUEJaQ2Eyanl5QzEzNlA5Rkhrdk9FQWFuWmFGMlBsYzlFb0txeWJaNldMSkVMMi10clE?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "PSKY",
+      "company": "Paramount Skydance Corporation",
+      "pct": 10.62683676878704,
+      "last": 11.295000076293945,
+      "prev": 10.210000038146973,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "WBD",
+        "company": "Warner Bros. Discovery",
+        "pct": 9.856121416054076
+      },
+      {
+        "ticker": "9602.T",
+        "company": "Toho Co., Ltd",
+        "pct": -2.166511915815539
+      },
+      {
+        "ticker": "352820.KS",
+        "company": "Hybe",
+        "pct": -2.049427365883061
+      },
+      {
+        "ticker": "LYV",
+        "company": "Live Nation Entertainment",
+        "pct": 1.49593111120363
+      }
+    ],
+    "analysis": {
+      "business_model": "Paramount Skydance Corp is a joint film and TV studio that creates, produces and distributes movies and series, earning revenue from box‑office receipts, streaming licensing, advertising and merchandising.",
+      "sentiment": "Bullish - investors see stronger content pipeline and enforcement incentives",
+      "why_moved": "The stock jumped as news emerged that the company may face a penalty for missing a 30‑film commitment, signaling aggressive content production and disciplined execution.",
+      "read_across": "The move highlights pressure on peers like Warner Bros. Discovery to maintain robust pipelines, and suggests industry‑wide emphasis on volume content to satisfy shareholders and streaming partners.",
+      "look_out": "Watch for the final penalty terms, the timeline for meeting the 30‑film target, and any impact on upcoming earnings or financing arrangements.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
