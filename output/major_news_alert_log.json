@@ -7941,5 +7941,51 @@
       "look_out": "Watch the upcoming Q4 earnings release and any announcements of new AI‑driven monitoring features.",
       "memory": "Datadog saw a similar surge after its 2022 earnings beat, which was followed by sustained upside through the next quarter."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T17:48:16.405959+00:00",
+    "type": "single_stock",
+    "headline": "Reddit Scores a Key Win in Anthropic Case. Why It’s Good for the Stock.",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9tcktzZG1Yem54UHg3Y3IxZXR1Vm5IYXRBYXFyUjU5SWRYOTBObWRKMkp1aFRYTDFOZlJZekhMTlBZSmVmTTQ2NG12aXBfZG9iX3E2UVhmV1FZbVo3enR5ZldTNEJHZFhOU0lNd3dfckdTVXRPVW9nQy02eGg?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "RDDT",
+      "company": "Reddit",
+      "pct": 5.157369342388196,
+      "last": 158.62989807128906,
+      "prev": 150.85000610351562,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "META",
+        "company": "Meta Platforms",
+        "pct": 11.714606118569293
+      },
+      {
+        "ticker": "1024.HK",
+        "company": "Kuaishou",
+        "pct": 2.672008092152578
+      },
+      {
+        "ticker": "GOOG",
+        "company": "Alphabet Inc. (Class C)",
+        "pct": 2.3576536775493206
+      },
+      {
+        "ticker": "AUTO.L",
+        "company": "Autotrader Group",
+        "pct": 2.0278561345643986
+      }
+    ],
+    "analysis": {
+      "business_model": "Reddit operates a social news aggregation and discussion platform where users post content and vote, monetizing via advertising and premium memberships.",
+      "sentiment": "Bullish - legal win reduces risk and supports growth",
+      "why_moved": "The stock jumped after Reddit secured a favorable ruling in its Anthropic lawsuit, removing a cloud over its AI data usage and potential revenue streams.",
+      "read_across": "The win reassures investors in other user‑generated‑content platforms like Meta, Kuaishou and Google, suggesting fewer legal headwinds for the sector.",
+      "look_out": "Watch for any appeal filings, settlement terms, and Reddit’s upcoming earnings that will show if the case translates to higher ad or premium sales.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
