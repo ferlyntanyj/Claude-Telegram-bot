@@ -6121,5 +6121,46 @@
       "look_out": "Monitor the Energy Commission’s tariff announcement and YTL Power’s upcoming earnings for confirmation of the upside.",
       "memory": "A comparable surge occurred in early 2023 when Malaysia announced a power tariff hike, sending utility stocks higher."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T06:32:12.248919+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "1177.HK",
+      "company": "Sino Biopharm",
+      "pct": 8.866547570697648,
+      "last": 5.954999923706055,
+      "prev": 5.46999979019165,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "2269.HK",
+        "company": "WuXi Biologics",
+        "pct": 5.163857731107391
+      },
+      {
+        "ticker": "300759.SZ",
+        "company": "Pharmaron Beijing",
+        "pct": 4.434184797858487
+      },
+      {
+        "ticker": "002821.SZ",
+        "company": "Asymchem Laboratories (Tianjin)",
+        "pct": 3.0615541373523403
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]

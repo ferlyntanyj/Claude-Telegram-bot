@@ -411,7 +411,11 @@
     "sector:malaysia utilities": {
       "last_alert_utc": "2026-09-21T06:17:37.086148+00:00",
       "last_move_pct": 6.250004656612851
+    },
+    "sector:biotechnology": {
+      "last_alert_utc": "2026-09-21T06:32:12.245717+00:00",
+      "last_move_pct": 4.799021264482938
     }
   },
-  "last_run_utc": "2026-09-21T06:16:07.701946+00:00"
+  "last_run_utc": "2026-09-21T06:30:44.095267+00:00"
 }
