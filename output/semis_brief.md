@@ -1,19 +1,15 @@
-# Global Semiconductor Brief -- 21 Sep 2026, 13:18 SGT
-
-## Policy & geopolitics
-- [IBM unit secures US$1 billion CHIPS Act award to expand quantum wafer manufacturing](https://www.digitimes.com/news/a20260921PR200/ibm-manufacturing-wafer-award-quantum-computing.html) — DIGITIMES
-- [China's premier memory maker CXMT eyes producing flash for SSDs, report claims — 3D NAND research and development line rumored for its second manufacturing facility near Beijing](https://www.tomshardware.com/pc-components/ssds/chinas-premiere-memory-maker-cxmt-eyes-producing-flash-for-ssds-report-claims-3d-nand-research-and-development-line-rumored-for-its-second-manufacturing-facility-near-beijing) — Tom's Hardware
+# Global Semiconductor Brief -- 22 Sep 2026, 00:33 SGT
 
 ## Supply chain signals
-- [Samsung reportedly plans to double HBM4 output in 2027 as memory supply stays tight](https://www.digitimes.com/news/a20260921VL206/samsung-2027-hbm4-production-hbm.html) — DIGITIMES
-- [ByteDance's China AI chip push hits substrate shortage](https://www.digitimes.com/news/a20260921PD206/substrate-bytedance-ai-chip-high-end-capacity.html) — DIGITIMES
-- [CXMT closes in on DRAM leaders with G5 process breakthrough](https://www.digitimes.com/news/a20260921VL204/cxmt-dram-production-manufacturing-wafer.html) — DIGITIMES
-- [DIGITIMES Insight: AI chip upgrades shift substrate supply bottleneck from upstream materials to equipment](https://www.digitimes.com/news/a20260918PD214/substrate-digitimes-equipment-chips-materials.html) — DIGITIMES
+- [Micron Stock Pops on Fresh Memory-Chip Price Data](https://news.google.com/rss/articles/CBMifkFVX3lxTFAzSzE4R0ptTDAxRzk4RmhvOS1hUmJzV3lCNVlDWnpsallBMWVwX3puMEZqdXZFWHR0YUJzUy1MZDZpREFFd28wYWVRM29QZ0NtU05WSm5KTGU1Y0xIT29NSXRrSkpscmN6SkVUVHQ4ajVBWHdDNXZ2MXY2WG1oQQ?oc=5) — Barron's
+- [China’s DRAM Specialist CXMT Eyes NAND Flash Entry](https://www.eetimes.com/chinas-dram-specialist-cxmt-eyes-nand-flash-entry/) — EE Times
+- [Weekly Radar 002: eSSD Demand is Reshaping NAND Supply](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WSW5HUy1UMW1MLUVvTjNaQV9PQTc4LWNfazRTcWZvYkFpZnlnSjdKMTdRdkhoX1dUR2NON3VNMGVsVmtGcmZtSldTUGg2dThWcktUR1B3SjVCZm84WWRn?oc=5) — TrendForce
+- [Tower Semiconductor to make Japan its largest optical chip base](https://www.digitimes.com/news/a20260921VL217/tower-semiconductor-production-communications-silicon-manufacturing.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Intel reportedly in talks with AUO on advanced packaging](https://www.digitimes.com/news/a20260921VL205/intel-packaging-auo-display-cpo.html) — DIGITIMES
-- [Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate](https://news.google.com/rss/articles/CBMiogFBVV95cUxPSnRwN284dVBRR1NqTHk3ellnNXcwQU1WRkNvR3RtdjdoZHF3Y21meXY0cGNEdmZzZUFjX2o4d3h4TG9HNXhmcFpZbkVaVkJQMEhrQ0NMTi1nRmw0ZU1OdF9JZndyUk1mcDdZS2J6STFhTVlHX1pOZ3JvR2xlUi1DQmdwcGlYMHhoWlNQSEZMUGZuazVXOUN1czVsMnBRajRoQ1HSAacBQVVfeXFMTzNvQ2VidEg5Uk9PbVdFWHdiSnJLLXZvamp3SFF6N1NlT2VGaGlEMGowMVQ3c19lNTZsdkJoWHJQSzFVLWpvbjc1RGlWVUdoRDJsbUpMOHdsU3J6eEJhVnJvTjdoU1JKdWtXQ0ktYjRUZG1QSVYyTWhyS2MyQU5qeldNVmZLbnhlVkViS2E5Zl9MXzFwVVJ6cjI2ZXVLZlEyRWMyTF83NnM?oc=5) — CNBC
-- [Weekly news roundup: <strong>AI boom strains chips; </strong>Google's TPUs pay off, China eyes 3nm without EUV](https://www.digitimes.com/news/a20260921VL200/2026-competition-taiwan-google-equipment.html) — DIGITIMES
-- [ASML (ASML) and Chip Giants like TSMC Plot a Bigger Canvas for Building AI Chips](https://news.google.com/rss/articles/CBMilAFBVV95cUxQUndTUWs2S1BiM3dTOUhPclo5bWktUzVNczJxRV93NWNva2xkTUZHRXgtb1pJM3JqQTFUc0FYTnFxMTBXV2N4dUNMcWFDOGRWMGM0WGo2c1JKMVlQRGh6MGpwaXY3NmFkNWlfT3dyNWpWR3YyUzdFZld2LUdhYjJQc190Z1ZjSUlFbzd5TU5LdTFSVktG?oc=5) — Yahoo Finance
+- [AMD Set to Top $1 Trillion in Market Value as Chip Stocks Soar](https://news.google.com/rss/articles/CBMizgFBVV95cUxPYzFfQ1RjOHBZSjVOa1VPTXlPeVplN2VVcnFaMVA5b3JFdEEzUHpHT2VHNnJRU29fVEJaZGZ4N1dUSWYxT2pjc3R1a2ZnQm0xYmFVRk5FZUFGU3pPMklVWDNpS2cxdHk1T0lqRnRJRUJLd0czQS1JRE5lMGxaTzc3QVl1dWxOeVFaQVd1bmszeTI5cTN6R3BvZmgzcnEzTkdKc0ZKZWt6NWJtbExMbzZGbHdjZGdFVktHOC1YazgxV012WW41NHoxbjAwMmp6QQ?oc=5) — Bloomberg.com
+- [AMD joins $1 trillion club as chipmakers rally on AI-driven demand](https://news.google.com/rss/articles/CBMirwFBVV95cUxNNEJSWFBacFZ6Y2xjRGFmeFBLLS02aTN5LWV1RWpLbWNtSXpQS3dGRF9OZUVYendmWTNxQnJqdHh6dEpIRWcxTnlFY0JXeVM2YXF3cTgwTmFxRjlYWm1oWFN5bFJFM3p2Y2twQ0xvTVFZb2NMQmNtdF9lX3dNNG1nR3l3dXg0OU1XX19pckx1cnBNNXlfeDJfTnVkSVhJbEpyTXY4dVdWalBQVkdSWDhn?oc=5) — Reuters
+- [AMD hits $1 trillion market cap for the first time as stock rides 5-day rally](https://news.google.com/rss/articles/CBMicEFVX3lxTE9SaGJvMThYUVlDY2hQVmVIQlRtMFR5YTBROTJhTW0weGRsYTlyQmJjNTF6UlE1MUE0UTFvZGtTQnNOMk9jUVR4WVZrYzI1X09CT29EU2ZDbUZ4QmFzOGdpbGJxaTZrODcybUE5Qm95cGbSAXZBVV95cUxOWmpqeFFKbWUwd04ybDU0MmFRdW9GVHpEN3pkUmkyR3M2SlBKeWo0Ti1TRUJGaHB4ZGRCSmQzUXhudEUxUVBmdEp0X2ttQmp4QmhwQXdNZ0JIZ0RIMWFXSm1MUG1hRXJWVVZfMDA2d2UyRFprMGpR?oc=5) — CNBC
+- [Meta’s Muse AI Agent Triggers Intel, Chip Stock Rally. AMD Hits $1T Market Cap.](https://news.google.com/rss/articles/CBMifkFVX3lxTE5SSTIydHlWS0FFdS1GRHczbHByd0d5aXU0OEF5X1lkTUdVTjlldTlVdEYwZHNxR0Z3M0RvWnU2TXBKV2R3NDViTFoxZDlVV3RfQ0NaZVQ4VXhFdmdpVXh6eER2YjlhOTRrRVktQ3h5Ykd2THBmcmZiTVI0YTNWdw?oc=5) — Barron's
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (10 headlines, 62h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
