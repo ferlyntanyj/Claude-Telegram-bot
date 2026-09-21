@@ -1,24 +1,21 @@
-# Asia Market Evening Brief -- 18 Sep 2026, 22:32 SGT
+# Asia Market Evening Brief -- 22 Sep 2026, 00:28 SGT
 
 ## Macro & policy
+- [China slow-walks yuan appreciation as US, Europe demand trade rebalancing](https://asia.nikkei.com/business/markets/trading-asia/china-slow-walks-yuan-appreciation-as-us-europe-demand-trade-rebalancing) — Nikkei Asia
+- [BOJ conducts rate check, lifting yen to upper-156 range against dollar](https://asia.nikkei.com/business/markets/currencies/boj-conducts-rate-check-lifting-yen-to-upper-156-range-against-dollar) — Nikkei Asia
+- [How the BOJ's rate hike became tangled in a 'currency alliance' with the US](https://asia.nikkei.com/economy/bank-of-japan/how-the-boj-s-rate-hike-became-tangled-in-a-currency-alliance-with-the-us) — Nikkei Asia
+- [Inflation draws BOJ, Fed, ECB into historic alignment on rate hikes](https://asia.nikkei.com/spotlight/comment/inflation-draws-boj-fed-ecb-into-historic-alignment-on-rate-hikes) — Nikkei Asia
 - [BOJ hikes rates to 1.25% as chief Ueda cites shift in policy phase](https://asia.nikkei.com/economy/bank-of-japan/boj-hikes-rates-to-1.25-as-chief-ueda-cites-shift-in-policy-phase) — Nikkei Asia
-- [Yen touches 158 to the dollar as market weighs further BOJ tightening pace](https://asia.nikkei.com/business/markets/currencies/yen-touches-158-to-the-dollar-as-market-weighs-further-boj-tightening-pace) — Nikkei Asia
-- [Philippines' GCash owner gets nod for 92.32bn peso IPO](https://asia.nikkei.com/business/markets/ipo/philippines-gcash-owner-gets-nod-for-92.32bn-peso-ipo) — Nikkei Asia
-- [Yen weakens to 156-level as Fed fulfills rate hike expectations](https://asia.nikkei.com/business/markets/currencies/yen-weakens-to-156-level-as-fed-fulfills-rate-hike-expectations) — Nikkei Asia
-- [Vietnam bus maker Kim Long enters Thailand, eyes ASEAN exports](https://asia.nikkei.com/business/automobiles/vietnam-bus-maker-kim-long-enters-thailand-eyes-asean-exports) — Nikkei Asia
 
 ## Markets
-- [Indonesia's Bayan shares soar after 30% stake sold to Prabowo-linked tycoon](https://asia.nikkei.com/business/markets/commodities/indonesia-s-bayan-shares-soar-after-30-stake-sold-to-prabowo-linked-tycoon) — Nikkei Asia
-- [Editor's Choice: 'Global Hawk missing.' On the alert in Nikkei Asia's newsroom](https://asia.nikkei.com/editor-s-picks/editor-in-chief-s-picks/editor-s-choice-global-hawk-missing.-on-the-alert-in-nikkei-asia-s-newsroom) — Nikkei Asia
-- [Malaysia's AirAsia shares tumble 21% as funding fears mount](https://asia.nikkei.com/business/transportation/malaysia-s-airasia-shares-tumble-21-as-funding-fears-mount) — Nikkei Asia
-- [Grab’s Atome deal advances its ASEAN super-app ambitions – but is it paying too much?](https://news.google.com/rss/articles/CBMiygFBVV95cUxPbFh2bGJWVnQ4RHFIamY1T1Q2YWdwSm1mdF9abnRXTjJycHhyOElqX0ZtTTNBaV9aUEstS3BCVjNHajZLbmxOUlhsazRyMlZ4UDFlYWRIZG82Zm5HeXBpY1NTNi1TVUtHdGpqWktNLThlMy1qSkR6LXUzLWVxOUllYjd3dFRTWE1vQ2FpSU43X0VpeURYbEE2V0E0ejV0VU9VOEc5UF95OXVkWlF3aHYwb0NCbGdneFEtc0FwaTRVTVdyLUEzRDRUWk5n?oc=5) — The Straits Times
-- [Where to celebrate Negroni Week in Hong Kong, September 21–27](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaFVWcUZiZ3ROdDZMcnpfdHlKVDc1cFVYb3dvdGJlZkdpX3hyLW9hTnFjdWtCMlR3aXB1cHZ1aF9OQmdETFNfMmdEZGZPUzJKcHZ1NS03YjlSTDZJdTNzQjlCNm1BaU5JM0dDcmQtdWQzaHVLbjh5SHhNY2JtUVYtUXRzWWZoX1E0XzhFeXk4M29maFhVOWJZZWNGTlZsTjJZRGtqVHpEakZVZHp5MEc4YmJnZlBrOXQ40gG4AUFVX3lxTFBoVVZxRmJndE50Nkxyel90eUpUNzVwVVhvd290YmVmR2lfeHItb2FOcWN1a0IyVHdpcHVwdnVoX05CZ0RMU18yZ0RkZk9TMkpwdnU1LTdiOVJMNkl1M3NCOUI2bUFpTkkzR0NyZC11ZDNodUtuOHlIeE1jYm1RVi1RdHNZZmhfUTRfOEV5eTgzb2ZoWFU5YlllY0ZOVmxOMllEa2pUekRqRlVkenkwRzhiYmdmUGs5dDg?oc=5) — South China Morning Post
+- [China expels 2 top officers from party and military, alleging disloyalty](https://news.google.com/rss/articles/CBMisgFBVV95cUxPbjBZOTJFYnp5Uy1LOXNyMUVZNFlkd0ZJOGZaQkZXTGRkOFR1blRubnhmbUN5UHcyNm1lVHNjcFpXTmVTS3hVWXlRa1N5dlhYMHktM203VnZGVkRNQXVrU0JfTFRfTDhmWC1jdGJuNmFaWnJQWjExT1lGa094R3FDeDRPaTdVOElfaXRLVHdPV2RSUmZDeV9PaWVSOFpWT2k0YWFtMEw4VHFnQ2lrSjd1c3ZR?oc=5) — Nikkei Asia
+- [Chinese biopharma stocks jump as U.S. weighs keeping door open to drug deals](https://www.cnbc.com/2026/09/21/chinese-biopharma-stocks-jump-as-us-plans-to-continue-drug-licensing-deals-.html) — CNBC Asia Markets
 
 ## Geopolitics
-- [US chip toolmaker Forge Nano bets on Taiwan for production: CEO](https://asia.nikkei.com/editor-s-picks/interview/us-chip-toolmaker-forge-nano-bets-on-taiwan-for-production-ceo) — Nikkei Asia
-- [Taiwan dollar, South Korea won strong among Asia currencies as AI booms](https://asia.nikkei.com/business/markets/currencies/taiwan-dollar-south-korea-won-strong-among-asia-currencies-as-ai-booms) — Nikkei Asia
-- [Japan, US in talks to build chip factory as part of tariff deal](https://asia.nikkei.com/economy/trade-war/trump-tariffs/japan-us-in-talks-to-build-chip-factory-as-part-of-tariff-deal2) — Nikkei Asia
-- [Taiwan confirms new Philippines office in works, China says move 'doomed'](https://asia.nikkei.com/politics/international-relations/taiwan-tensions/taiwan-confirms-new-philippines-office-in-works-china-says-move-doomed) — Nikkei Asia
-- [Taiwan holds first joint drill using multiple attack drones in modernisation push](https://www.straitstimes.com/asia/east-asia/taiwan-holds-first-joint-drill-using-multiple-attack-drones-in-modernisation-push) — The Straits Times
+- [US says China talks yield progress on tariff carve-outs, AI dialogue](https://asia.nikkei.com/politics/international-relations/us-china-tensions/us-says-china-talks-yield-progress-on-tariff-carve-outs-ai-dialogue) — Nikkei Asia
+- [Foreign envoys in Taiwan warn rules of game at sea are being challenged](https://asia.nikkei.com/politics/international-relations/taiwan-tensions/foreign-envoys-in-taiwan-warn-rules-of-game-at-sea-are-being-challenged) — Nikkei Asia
+- [Trump signs Russia sanctions bill that opens China, India to tariffs](https://asia.nikkei.com/spotlight/trump-administration/trump-signs-russia-sanctions-bill-that-opens-china-india-to-tariffs) — Nikkei Asia
+- [Bessent calls meeting with China Vice Premier He Lifeng 'successful' ahead of Trump-Xi summit](https://www.cnbc.com/2026/09/20/bessent-he-lifeng-trump-xi-summit.html) — CNBC Asia Markets
+- [Rubio meets Japanese and Korean allies ahead of Trump China summit](https://www.straitstimes.com/asia/rubio-meets-japanese-and-korean-allies-ahead-of-trump-china-summit) — The Straits Times
 
-_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (15 headlines, 14h window)._
+_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (12 headlines, 14h window)._
