@@ -511,7 +511,19 @@
     "sector:electronic components": {
       "last_alert_utc": "2026-09-21T15:02:23.340937+00:00",
       "last_move_pct": 2.059718520275755
+    },
+    "single:APP": {
+      "last_alert_utc": "2026-09-21T15:33:07.867311+00:00",
+      "last_move_pct": 5.060701311901217
+    },
+    "single:BE": {
+      "last_alert_utc": "2026-09-21T15:33:08.411276+00:00",
+      "last_move_pct": 5.278014063154135
+    },
+    "single:GDDY": {
+      "last_alert_utc": "2026-09-21T15:33:08.910785+00:00",
+      "last_move_pct": 5.930637013742546
     }
   },
-  "last_run_utc": "2026-09-21T15:15:40.355492+00:00"
+  "last_run_utc": "2026-09-21T15:30:43.577282+00:00"
 }

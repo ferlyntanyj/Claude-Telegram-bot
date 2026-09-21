@@ -7762,5 +7762,138 @@
       "look_out": "Watch upcoming earnings of other component makers and any updates on demand from 5G and EV supply chains.",
       "memory": "Corning previously saw sharp moves after earnings surprises, notably the Q2 2023 beat that sent the stock higher."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T15:33:08.915524+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "APP",
+      "company": "AppLovin",
+      "pct": 5.060701311901217,
+      "last": 323.6499938964844,
+      "prev": 308.05999755859375,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "002027.SZ",
+        "company": "Focus Media Information Technology",
+        "pct": 2.145931003093504
+      },
+      {
+        "ticker": "OMC",
+        "company": "Omnicom Group",
+        "pct": -1.6455558851407925
+      },
+      {
+        "ticker": "4324.T",
+        "company": "Dentsu Group Inc.",
+        "pct": -1.1560693641618491
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T15:33:08.915536+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "BE",
+      "company": "Bloom Energy",
+      "pct": 5.278014063154135,
+      "last": 279.6499938964844,
+      "prev": 265.6300048828125,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "006260.KS",
+        "company": "LS",
+        "pct": 7.072368421052633
+      },
+      {
+        "ticker": "010120.KS",
+        "company": "LS Electric",
+        "pct": 4.702970297029707
+      },
+      {
+        "ticker": "5801.T",
+        "company": "Furukawa Electric Co., Ltd.",
+        "pct": 3.6672867393037434
+      },
+      {
+        "ticker": "605117.SS",
+        "company": "Ningbo Deye Technology",
+        "pct": -3.143088879879896
+      }
+    ],
+    "analysis": {
+      "business_model": "Bloom Energy designs, builds, and operates solid-oxide fuel cell systems that generate electricity from natural gas or renewable hydrogen for commercial and industrial customers.",
+      "sentiment": "Bullish - sector optimism lifts fuel‑cell stocks",
+      "why_moved": "Bloom Energy surged as its fuel‑cell peers rallied on growing optimism for clean‑energy policy and demand, prompting a broad sector price lift despite no single catalyst.",
+      "read_across": "The gains in Korean and Japanese fuel‑cell firms suggest a wider market confidence in the clean‑energy supply chain, benefiting equipment makers and project developers globally.",
+      "look_out": "Watch upcoming earnings releases, any new government incentives for hydrogen or fuel cells, and announcements of large‑scale power‑purchase agreements that could sustain the rally.",
+      "memory": "A similar rally occurred after the US Inflation Reduction Act spurred clean‑energy investments, temporarily boosting fuel‑cell stocks."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T15:33:08.915541+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "GDDY",
+      "company": "GoDaddy",
+      "pct": 5.930637013742546,
+      "last": 103.23999786376953,
+      "prev": 97.45999908447266,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "AKAM",
+        "company": "Akamai Technologies",
+        "pct": 10.022011519276596
+      },
+      {
+        "ticker": "SNPS",
+        "company": "Synopsys",
+        "pct": 4.045122922889077
+      },
+      {
+        "ticker": "CRWD",
+        "company": "CrowdStrike",
+        "pct": 3.7870819403093448
+      },
+      {
+        "ticker": "601360.SS",
+        "company": "360 Security Technology",
+        "pct": 2.964643804292555
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
