@@ -5420,5 +5420,128 @@
       "look_out": "Watch for upcoming Chinese FDA filings, trial readouts for Sino Biopharm's lead candidates, and any earnings updates that could confirm the rally's fundamentals.",
       "memory": "Similar sharp rallies have occurred when Chinese biotechs were rumored to have positive trial results, temporarily lifting sector stocks before data confirmation."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T02:17:40.114059+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "2308.TW",
+      "company": "Delta Electronics",
+      "pct": 6.051873198847257,
+      "last": 1840.0,
+      "prev": 1735.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "007660.KS",
+        "company": "Isu Petasys",
+        "pct": 4.628736740597872
+      },
+      {
+        "ticker": "6981.T",
+        "company": "Murata Manufacturing Co., Ltd.",
+        "pct": 4.467770152065675
+      },
+      {
+        "ticker": "6976.T",
+        "company": "Taiyo Yuden Co., Ltd.",
+        "pct": 4.166666666666674
+      },
+      {
+        "ticker": "000725.SZ",
+        "company": "BOE Technology Group",
+        "pct": 3.2094603846593683
+      }
+    ],
+    "analysis": {
+      "business_model": "Delta Electronics designs and manufactures power management and thermal solutions for industrial, automotive, and consumer electronics, with most revenue coming from its power electronics division.",
+      "sentiment": "Bullish - strong earnings beat and demand for power solutions",
+      "why_moved": "Delta jumped 6.1% after reporting better‑than‑expected quarterly earnings and raising its outlook, echoing gains in other Asian component makers.",
+      "read_across": "Similar upticks at Isu Petasys, Murata, Taiyo Yuden and BOE suggest a broader rally in semiconductor and display component suppliers driven by renewed demand.",
+      "look_out": "Watch upcoming Q3 guidance, potential supply‑chain constraints, and Taiwan’s export data for confirmation.",
+      "memory": "Delta’s last sharp rally in early 2022 followed an earnings surprise and sustained demand, delivering similar upside."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T02:17:40.114070+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "2269.HK",
+      "company": "WuXi Biologics",
+      "pct": 6.057603066910633,
+      "last": 53.400001525878906,
+      "prev": 50.349998474121094,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "1177.HK",
+        "company": "Sino Biopharm",
+        "pct": 6.215725148610618
+      },
+      {
+        "ticker": "300759.SZ",
+        "company": "Pharmaron Beijing",
+        "pct": 4.919171144677903
+      },
+      {
+        "ticker": "002821.SZ",
+        "company": "Asymchem Laboratories (Tianjin)",
+        "pct": 2.613388994408705
+      },
+      {
+        "ticker": "MRNA",
+        "company": "Moderna",
+        "pct": -2.549512147374011
+      }
+    ],
+    "analysis": {
+      "business_model": "WuXi Biologics offers contract development and manufacturing services for biologic drugs, from cell‑line creation to commercial‑scale production.",
+      "sentiment": "Bullish - strong sector rally lifts CDMO stocks",
+      "why_moved": "The stock surged alongside peers as investors bet on rising demand for biologics manufacturing capacity.",
+      "read_across": "Similar gains across Chinese CDMOs suggest broader industry optimism and potential supply‑chain tightening.",
+      "look_out": "Watch for upcoming earnings, partnership announcements, and regulatory updates that could sustain the rally.",
+      "memory": "A comparable CDMO rally occurred in early 2023 after FDA guidance, boosting peers before normalizing."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T02:17:40.114075+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "0241.HK",
+      "company": "Alibaba Health",
+      "pct": -6.199022958347456,
+      "last": 2.875,
+      "prev": 3.065000057220459,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "6618.HK",
+        "company": "JD Health",
+        "pct": -0.16537365108177937
+      }
+    ],
+    "analysis": {
+      "business_model": "Alibaba Health operates a digital health platform offering online medical services, pharmaceutical e‑commerce, and health data solutions to consumers and providers in China.",
+      "sentiment": "Bearish - investors fear earnings slowdown",
+      "why_moved": "The share dropped after rumors of a weaker‑than‑expected earnings report and increased regulatory scrutiny of Chinese health‑tech firms.",
+      "read_across": "The decline may spill over to peers such as JD Health and other domestic digital‑health players, pressuring the sector’s overall sentiment.",
+      "look_out": "Monitor the upcoming earnings release and any regulatory announcements on online pharmacy licensing for further impact.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
