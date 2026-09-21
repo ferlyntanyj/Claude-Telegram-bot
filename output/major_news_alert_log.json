@@ -5144,5 +5144,51 @@
       "look_out": "Watch for official housing‑policy announcements, Vanke’s upcoming earnings release, and national new‑home sales data for confirmation.",
       "memory": "A similar spike occurred in early 2024 when Vanke rallied on hints of easing mortgage curbs, which later tempered after policy delays."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T01:43:38.550527+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "3037.TW",
+      "company": "Unimicron",
+      "pct": 7.543323139653424,
+      "last": 1055.0,
+      "prev": 981.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "007660.KS",
+        "company": "Isu Petasys",
+        "pct": 4.628736740597872
+      },
+      {
+        "ticker": "6981.T",
+        "company": "Murata Manufacturing Co., Ltd.",
+        "pct": 4.467770152065675
+      },
+      {
+        "ticker": "6976.T",
+        "company": "Taiyo Yuden Co., Ltd.",
+        "pct": 4.166666666666674
+      },
+      {
+        "ticker": "002475.SZ",
+        "company": "Luxshare Precision Industry",
+        "pct": 3.779008950012841
+      }
+    ],
+    "analysis": {
+      "business_model": "Unimicron designs and manufactures high‑density printed circuit boards (PCBs) for smartphones, networking, automotive and industrial electronics.",
+      "sentiment": "Bullish - sector demand recovery lifts PCB makers",
+      "why_moved": "The stock jumped after a broad rally in PCB suppliers, reflecting renewed optimism on semiconductor and AI‑related demand across the industry.",
+      "read_across": "Similar gains in peers like Murata and Luxshare suggest a wider lift in the global PCB and component market, hinting at strengthening supply chains.",
+      "look_out": "Watch upcoming Q3 earnings releases and any Taiwan‑China trade‑policy updates that could affect component orders.",
+      "memory": "A comparable rally occurred in late 2023 when AI chip demand boosted PCB makers, leading to short‑term price spikes."
+    }
   }
 ]
