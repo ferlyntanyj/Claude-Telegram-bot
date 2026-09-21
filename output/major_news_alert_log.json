@@ -7670,5 +7670,51 @@
       "look_out": "Watch upcoming earnings, smartphone launch volumes and automotive glass orders for confirmation of the trend.",
       "memory": "Corning’s stock previously jumped after beating earnings in early 2022, then moderated."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T14:47:18.766548+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "QCOM",
+      "company": "Qualcomm",
+      "pct": 5.843458493981912,
+      "last": 188.10499572753906,
+      "prev": 177.72000122070312,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": 11.990239995043005
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "pct": 9.186073273804185
+      },
+      {
+        "ticker": "2454.TW",
+        "company": "MediaTek",
+        "pct": 6.369426751592355
+      },
+      {
+        "ticker": "6723.T",
+        "company": "Renesas Electronics Corp.",
+        "pct": 4.450757575757569
+      }
+    ],
+    "analysis": {
+      "business_model": "Qualcomm designs and licenses wireless chip technologies, earning most revenue from semiconductor patents and modem chip sales for smartphones and other devices.",
+      "sentiment": "Bullish - sector AI chip demand drives price rally",
+      "why_moved": "Qualcomm jumped as the broader semiconductor sector surged on optimism for AI‑driven chip demand, mirrored by peers like Intel and AMD.",
+      "read_across": "The rally suggests peers with similar AI‑focused product lines may also see gains, indicating a broader industry upswing.",
+      "look_out": "Watch upcoming Q2 earnings and any guidance on 5G/AI chipset demand.",
+      "memory": "Similar sector‑wide lifts occurred in early 2023 on AI hype, with many chip stocks rallying."
+    }
   }
 ]
