@@ -257,8 +257,8 @@
       "last_move_pct": -6.5654964
     },
     "sector:telecom services": {
-      "last_alert_utc": "2026-09-18T09:03:38.703451+00:00",
-      "last_move_pct": -3.1963448579388043
+      "last_alert_utc": "2026-09-21T09:32:45.300435+00:00",
+      "last_move_pct": -2.5916503943220315
     },
     "single:CCH.L": {
       "last_alert_utc": "2026-09-21T07:03:19.415359+00:00",
@@ -451,7 +451,11 @@
     "premarket:VRSN": {
       "last_alert_utc": "2026-09-21T08:34:17.497882+00:00",
       "last_move_pct": 12.942073
+    },
+    "premarket:COIN": {
+      "last_alert_utc": "2026-09-21T09:32:44.583139+00:00",
+      "last_move_pct": 5.2303753
     }
   },
-  "last_run_utc": "2026-09-21T09:15:34.044867+00:00"
+  "last_run_utc": "2026-09-21T09:30:41.104488+00:00"
 }

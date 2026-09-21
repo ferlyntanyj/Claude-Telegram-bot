@@ -6714,5 +6714,87 @@
       "look_out": "Watch the upcoming Q4 earnings release and any changes to domain renewal rates or regulatory fees that could affect revenue.",
       "memory": "Verisign’s stock has previously spiked sharply after earnings beats, such as the Q2 2022 surprise that lifted the price over 10%."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T09:32:45.304827+00:00",
+    "type": "single_stock",
+    "headline": "Crypto Blew Its Big Moment—and the Blame Game Has Begun",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObUZXQlVLa3ZnMDJGb2hUTHFodkVwc3NyZlc4aFRLejBXa0lyTF9JcUtVbkZ2ZlNkclBfZzBkMXRZc29XZDNvaGJ4VDFBNHgyTERiT0o5WGljUnlxNlUwbE5KY1JILXVjcW5nSlp5UVl5YmF6RExhS1ZialNxMGJOQ1owTy1wX0pPT0xBZ29DZ05GejFIbW5sWllHSmU2ZFJjMDdwTQ?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "COIN",
+      "company": "Coinbase",
+      "pct": 5.2303753,
+      "last": 204.41,
+      "prev": 194.25,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "NDAQ",
+        "company": "Nasdaq, Inc.",
+        "pct": 2.44223350844206
+      },
+      {
+        "ticker": "CBOE",
+        "company": "Cboe Global Markets",
+        "pct": 2.3212103394240735
+      },
+      {
+        "ticker": "ASX.AX",
+        "company": "ASX",
+        "pct": 1.8123131967101802
+      },
+      {
+        "ticker": "CME",
+        "company": "CME Group",
+        "pct": 1.792371742038834
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T09:32:45.304840+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Germany · XETRA",
+    "primary": {
+      "ticker": "DTE.DE",
+      "company": "Deutsche Telekom",
+      "pct": -5.097084970793886,
+      "last": 27.3700008392334,
+      "prev": 28.84000015258789,
+      "currency": "EUR"
+    },
+    "peers": [
+      {
+        "ticker": "AAF.L",
+        "company": "Airtel Africa",
+        "pct": -2.5916503943220315
+      },
+      {
+        "ticker": "VOD.L",
+        "company": "Vodafone Group",
+        "pct": 0.8719765840790927
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
