@@ -427,7 +427,27 @@
     "sector:uk communication services": {
       "last_alert_utc": "2026-09-21T07:14:04.603549+00:00",
       "last_move_pct": -2.0772746157041944
+    },
+    "premarket:INTC": {
+      "last_alert_utc": "2026-09-21T08:04:45.438373+00:00",
+      "last_move_pct": 5.524862
+    },
+    "premarket:ACN": {
+      "last_alert_utc": "2026-09-21T08:04:46.132346+00:00",
+      "last_move_pct": 6.263446
+    },
+    "premarket:ROST": {
+      "last_alert_utc": "2026-09-21T08:04:46.808642+00:00",
+      "last_move_pct": -6.5858974
+    },
+    "premarket:WBD": {
+      "last_alert_utc": "2026-09-21T08:04:47.486690+00:00",
+      "last_move_pct": 6.906475
+    },
+    "premarket:PSKY": {
+      "last_alert_utc": "2026-09-21T08:04:48.187306+00:00",
+      "last_move_pct": 6.2683673
     }
   },
-  "last_run_utc": "2026-09-21T07:45:32.433328+00:00"
+  "last_run_utc": "2026-09-21T08:00:54.532428+00:00"
 }

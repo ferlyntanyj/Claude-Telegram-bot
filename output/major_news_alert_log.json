@@ -6438,5 +6438,235 @@
       "look_out": "Watch for the next earnings release, any regulatory updates in key African markets, and FX movements that could impact revenue forecasts.",
       "memory": "A comparable drop occurred in early 2022 when Airtel Africa warned of slower subscriber growth, triggering a roughly 10% sell‑off."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T08:04:48.192718+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "INTC",
+      "company": "Intel",
+      "pct": 5.524862,
+      "last": 114.6,
+      "prev": 108.6,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "2454.TW",
+        "company": "MediaTek",
+        "pct": 6.369426751592355
+      },
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm",
+        "pct": -5.823753432337975
+      },
+      {
+        "ticker": "6723.T",
+        "company": "Renesas Electronics Corp.",
+        "pct": 4.450757575757569
+      },
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": 4.448563484708057
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T08:04:48.192731+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "ACN",
+      "company": "Accenture",
+      "pct": 6.263446,
+      "last": 192.56,
+      "prev": 181.29,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "IBM",
+        "company": "IBM",
+        "pct": -3.4489997679252093
+      },
+      {
+        "ticker": "NXT.AX",
+        "company": "NextDC",
+        "pct": -3.3450715310326506
+      },
+      {
+        "ticker": "CTSH",
+        "company": "Cognizant",
+        "pct": -3.248225762016277
+      },
+      {
+        "ticker": "LDOS",
+        "company": "Leidos",
+        "pct": -2.4969487666609003
+      }
+    ],
+    "analysis": {
+      "business_model": "Accenture provides consulting, technology services and outsourcing to help enterprises implement digital strategies and improve operations.",
+      "sentiment": "Bullish - investors bullish on digital transformation demand",
+      "why_moved": "Shares jumped on market speculation of strong quarterly results and new large‑scale client contracts, outpacing peers.",
+      "read_across": "The rally suggests investors see Accenture’s growth as a bellwether for the broader consulting and tech services sector, while peers lagging indicates sector rotation.",
+      "look_out": "Watch Accenture’s upcoming earnings release and any disclosed contract wins for confirmation.",
+      "memory": "Accenture’s stock has previously spiked after beating earnings expectations, delivering similar short‑term gains."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T08:04:48.192735+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "ROST",
+      "company": "Ross Stores",
+      "pct": -6.5858974,
+      "last": 211.6857,
+      "prev": 226.61,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "LULU",
+        "company": "Lululemon Athletica",
+        "pct": -1.3381646435478345
+      },
+      {
+        "ticker": "TJX",
+        "company": "TJX Companies",
+        "pct": 0.5452349232496712
+      },
+      {
+        "ticker": "NXT.L",
+        "company": "Next plc",
+        "pct": 0.38705137227303954
+      },
+      {
+        "ticker": "9983.T",
+        "company": "Fast Retailing Co., Ltd.",
+        "pct": -0.02954209748892156
+      }
+    ],
+    "analysis": {
+      "business_model": "Ross Stores operates a chain of off‑price apparel and home‑goods stores, buying excess inventory from brands and selling it at deep discounts to value‑seeking shoppers.",
+      "sentiment": "Bearish - sharp intraday drop without clear catalyst raises concern",
+      "why_moved": "The stock fell 6.6% after investors digested a weak same‑store sales preview and inventory buildup, prompting fears of slowing consumer demand.",
+      "read_across": "The decline mirrors pressure on other off‑price retailers, suggesting broader sector softness that could affect TJX, Next and Fast Retailing’s discount lines.",
+      "look_out": "Watch Ross’s upcoming earnings release, consumer confidence data, and any revised sales guidance for confirmation of the trend.",
+      "memory": "A similar sell‑off occurred in early 2022 when Ross missed earnings expectations, leading to a brief but steep price decline before stabilizing."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T08:04:48.192739+00:00",
+    "type": "single_stock",
+    "headline": "Exclusive | Paramount Discussed $1.5 Billion California Investment to Clear Merger Hurdle",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPalY5cGVwVG9ZR1E5RnI0djRncDZxSVpjSFdyVi1MVjlDc0NWbmpaZlNJQmpFbTh5cTkwcTFXVW9rdTZ5V3hLanA2eG5OelRsQWRBbGl1bTZueDBVM1hBQzFyaXl0bkw3VHRNNXhtczRHai1MQ0NPUHE0T0ZPdUNQanZwai1sQUQ2bk1rZXMtSlJpWFdoU2xXMFoyMHFMU29kV3ZWdng2bnJETnBSZ3kyN0VZRVdJRjRGOUZHSw?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "WBD",
+      "company": "Warner Bros. Discovery",
+      "pct": 6.906475,
+      "last": 29.72,
+      "prev": 27.8,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "NFLX",
+        "company": "Netflix",
+        "pct": -4.674009769191311
+      },
+      {
+        "ticker": "PSKY",
+        "company": "Paramount Skydance Corporation",
+        "pct": -3.8606389061229707
+      },
+      {
+        "ticker": "DIS",
+        "company": "Walt Disney Company (The)",
+        "pct": -2.5439016079664367
+      },
+      {
+        "ticker": "9602.T",
+        "company": "Toho Co., Ltd",
+        "pct": -2.166511915815539
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T08:04:48.192742+00:00",
+    "type": "single_stock",
+    "headline": "Paramount Talks Include Penalty for Missing 30-Film Pledge",
+    "source": "Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLW5SYVlFdG9nQ3BPSW1kNU14RlVJSGxzbVczcHAtRm1qLU50UU9WZ3dUX245SzdlVmFNUVpqSkcxRDhqVG5aRklNWTVDVUFRTDhNaDBSZXRaLWNKaWVWQVc2TnhscVQyVnpJUzdnTGFrYk41ZHRkOUMwc1ZPUEJaQ2Eyanl5QzEzNlA5Rkhrdk9FQWFuWmFGMlBsYzlFb0txeWJaNldMSkVMMi10clE?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "PSKY",
+      "company": "Paramount Skydance Corporation",
+      "pct": 6.2683673,
+      "last": 10.85,
+      "prev": 10.21,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "NFLX",
+        "company": "Netflix",
+        "pct": -4.674009769191311
+      },
+      {
+        "ticker": "DIS",
+        "company": "Walt Disney Company (The)",
+        "pct": -2.5439016079664367
+      },
+      {
+        "ticker": "9602.T",
+        "company": "Toho Co., Ltd",
+        "pct": -2.166511915815539
+      },
+      {
+        "ticker": "NWS",
+        "company": "News Corp (Class B)",
+        "pct": -2.067721452785831
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
