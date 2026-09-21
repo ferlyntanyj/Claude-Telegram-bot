@@ -6980,5 +6980,51 @@
       "look_out": "Watch upcoming copper production reports, Antofagasta’s earnings release, and Chinese industrial demand data for confirmation of the rally’s durability.",
       "memory": "Similar copper‑price‑driven rallies in 2023 lifted Antofagasta and peers, leading to sustained higher valuations before a pull‑back later in the year."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T13:17:39.865796+00:00",
+    "type": "single_stock",
+    "headline": "HP Inc. Withholds Outlook, Warning PC Sales Will Drop Through 2027",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5pQXFycGZWTG1OZjllam9hUldBS0VsamR4cUcxZFB4ZmppOEQ4UlN1aVBKNTRVOHpiUkVZNnQ2YkNDZThpRTI1NXJjSGhQMG95NDV1a2JRRVdtRDI0TjRValhianRneXhsbGRVQThDRVU5WFZYam1BcmlMVTAyZw?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "HPQ",
+      "company": "HP Inc.",
+      "pct": -5.03848,
+      "last": 32.7,
+      "prev": 34.4,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "SNDK",
+        "company": "Sandisk",
+        "pct": 10.990524596329564
+      },
+      {
+        "ticker": "STX",
+        "company": "Seagate Technology",
+        "pct": 6.930381483213632
+      },
+      {
+        "ticker": "0992.HK",
+        "company": "Lenovo",
+        "pct": -4.896221561829151
+      },
+      {
+        "ticker": "WDC",
+        "company": "Western Digital",
+        "pct": 4.1262628720722505
+      }
+    ],
+    "analysis": {
+      "business_model": "HP Inc. designs, manufactures and sells personal computers, printers and related services.",
+      "sentiment": "Bearish - PC demand slowdown hurts revenue expectations",
+      "why_moved": "Shares fell about 5% after HP warned PC sales will decline through 2027, prompting a revenue outlook cut.",
+      "read_across": "Peers such as Lenovo and storage firms may feel pressure as overall PC demand wanes, tightening supply chains.",
+      "look_out": "Watch HP’s upcoming earnings, shipment reports and any revised guidance; track consumer spending trends.",
+      "memory": "In 2020 HP cut its PC outlook amid pandemic‑driven demand shifts, triggering a similar sell‑off."
+    }
   }
 ]
