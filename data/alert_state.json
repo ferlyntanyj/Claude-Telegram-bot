@@ -535,7 +535,15 @@
     "single:MRVL": {
       "last_alert_utc": "2026-09-21T18:02:29.315928+00:00",
       "last_move_pct": 5.191399253134588
+    },
+    "single:UAL": {
+      "last_alert_utc": "2026-09-21T18:32:53.419991+00:00",
+      "last_move_pct": 5.022536225237184
+    },
+    "sector:computer hardware": {
+      "last_alert_utc": "2026-09-21T18:32:53.912396+00:00",
+      "last_move_pct": 2.4487428745757045
     }
   },
-  "last_run_utc": "2026-09-21T18:15:37.789812+00:00"
+  "last_run_utc": "2026-09-21T18:30:40.982216+00:00"
 }

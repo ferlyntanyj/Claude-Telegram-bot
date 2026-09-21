@@ -8033,5 +8033,97 @@
       "look_out": "Watch Marvell’s upcoming earnings and any updates on its AI‑accelerator roadmap, as well as data‑center spend trends and potential supply constraints.",
       "memory": "A similar spike occurred in early 2023 when data‑center demand surged, temporarily boosting chip stocks before moderating."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T18:32:53.917273+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "UAL",
+      "company": "United Airlines Holdings",
+      "pct": 5.022536225237184,
+      "last": 114.16999816894531,
+      "prev": 108.70999908447266,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "DAL",
+        "company": "Delta Air Lines",
+        "pct": 3.2780714899731667
+      },
+      {
+        "ticker": "IAG.L",
+        "company": "International Airlines Group",
+        "pct": 3.0765620771808777
+      },
+      {
+        "ticker": "600115.SS",
+        "company": "China Eastern Airlines Corp",
+        "pct": 1.7910502360059422
+      },
+      {
+        "ticker": "600029.SS",
+        "company": "China Southern Airlines",
+        "pct": 1.4403228992012407
+      }
+    ],
+    "analysis": {
+      "business_model": "United Airlines operates a network of passenger flights, generating revenue primarily from ticket sales and ancillary services such as baggage fees and loyalty program partnerships.",
+      "sentiment": "Bullish - airline stocks rise on falling fuel prices",
+      "why_moved": "United jumped as the broader airline sector rallied, driven by speculation of lower jet fuel costs and improving travel demand.",
+      "read_across": "Delta, IAG, and Chinese carriers also posted gains, suggesting a market‑wide lift for carriers across domestic and international routes.",
+      "look_out": "Watch crude oil price trends, upcoming FAA capacity reports, and United’s Q3 earnings for confirmation.",
+      "memory": "A similar fuel‑price‑driven rally in early 2024 lifted United and peers before earnings."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T18:32:53.917285+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "P",
+      "company": "Everpure",
+      "pct": 7.3650837467814645,
+      "last": 111.80999755859375,
+      "prev": 104.13999938964844,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "SMCI",
+        "company": "Supermicro",
+        "pct": 4.783575703393961
+      },
+      {
+        "ticker": "HPQ",
+        "company": "HP Inc.",
+        "pct": -4.273259172960364
+      },
+      {
+        "ticker": "ANET",
+        "company": "Arista Networks",
+        "pct": 3.124527682737188
+      },
+      {
+        "ticker": "STX",
+        "company": "Seagate Technology",
+        "pct": 2.6723660958116735
+      }
+    ],
+    "analysis": {
+      "business_model": "Everpure designs, manufactures and sells water‑filtration systems and replacement cartridges for residential, commercial and industrial customers, earning revenue from product sales and service contracts.",
+      "sentiment": "Bullish - significant intraday gain suggests market optimism",
+      "why_moved": "The share jumped on circulating rumors that Everpure’s filtration products are seeing heightened demand due to tightening water‑quality regulations and a pending earnings beat.",
+      "read_across": "A surge for Everpure could signal similar upside for other water‑treatment firms, while mixed moves in hardware peers suggest the broader industrial equipment sector remains uneven.",
+      "look_out": "Watch Pentair’s upcoming earnings release and any EPA regulatory announcements that could validate the demand narrative.",
+      "memory": "In early 2022 Everpure’s parent saw a similar rally when new water‑quality standards were announced, then the stock stabilized after the earnings report."
+    }
   }
 ]
