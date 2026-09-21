@@ -8125,5 +8125,51 @@
       "look_out": "Watch Pentair’s upcoming earnings release and any EPA regulatory announcements that could validate the demand narrative.",
       "memory": "In early 2022 Everpure’s parent saw a similar rally when new water‑quality standards were announced, then the stock stabilized after the earnings report."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T18:47:32.876143+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "LRCX",
+      "company": "Lam Research",
+      "pct": 5.006774858200402,
+      "last": 302.5350036621094,
+      "prev": 288.1099853515625,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": 8.704115684093438
+      },
+      {
+        "ticker": "6857.T",
+        "company": "Advantest Corp.",
+        "pct": 5.985449735449744
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": 5.597210113339135
+      },
+      {
+        "ticker": "AMAT",
+        "company": "Applied Materials",
+        "pct": 4.590953803868425
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
