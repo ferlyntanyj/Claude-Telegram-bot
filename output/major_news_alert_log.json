@@ -5190,5 +5190,143 @@
       "look_out": "Watch upcoming Q3 earnings releases and any Taiwan‑China trade‑policy updates that could affect component orders.",
       "memory": "A comparable rally occurred in late 2023 when AI chip demand boosted PCB makers, leading to short‑term price spikes."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T01:47:46.519723+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "300408.SZ",
+      "company": "Chaozhou Three-Circle",
+      "pct": 5.7956597043201885,
+      "last": 138.5500030517578,
+      "prev": 130.9600067138672,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "3037.TW",
+        "company": "Unimicron",
+        "pct": 6.523955147808369
+      },
+      {
+        "ticker": "007660.KS",
+        "company": "Isu Petasys",
+        "pct": 4.725168756026998
+      },
+      {
+        "ticker": "6981.T",
+        "company": "Murata Manufacturing Co., Ltd.",
+        "pct": 4.467770152065675
+      },
+      {
+        "ticker": "6976.T",
+        "company": "Taiyo Yuden Co., Ltd.",
+        "pct": 4.166666666666674
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T01:47:46.519735+00:00",
+    "type": "single_stock",
+    "headline": "China’s CXMT touts new chip process as close to ‘world’s most advanced’",
+    "source": "South China Morning Post",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQnZDMVg0a1FaTUZ2aVdiVTU3aTJINkxsMEZHVEhWMWZLNzh1S2w3T0J4TkhGbm4tYzZoX3FBNG5TX2otSUNOc2hXcFhJWGJURnF3NmcwYVdDZTRZenVkQ3ozSlliX3B6MEhwRzYtWl9UUlcwejIxTGFKeS1VZnZPWUJEc29OaWFXRXZDQlEwSHNaWkR6MjBjQkZ0enhiRWFhLTY0N09teVBiREp2RGpDWnBDajlBaDd3OXfSAboBQVVfeXFMTU4tOVo1c1dCZExzWGVMM3dFYndHeFFCNEtGR1EwVlVmWVA0NERVU2RvZzBLYzZLVjY2dDF4aElBV0FwMEp6ekdOc0NvRzJWOFRKWDFodExqUEtydmtuelhxY3YwOFpScnVjSFJueDV1NkZmTHI2MG1FZUQ1UDlNaldRY0FtNjN2WGdSOE8xVnZMOFd2R1U4bGJ1OGNRZ200SzNlc1JUeHNMaV9taUQxaURJTEpId1VobW5B?oc=5",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "034730.KS",
+      "company": "SK",
+      "pct": 5.137614678899083,
+      "last": 573000.0,
+      "prev": 545000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "5706.T",
+        "company": "Mitsui Mining & Smelting Co.",
+        "pct": 7.346362137979745
+      },
+      {
+        "ticker": "8001.T",
+        "company": "Itochu Corp.",
+        "pct": -2.6793248945147674
+      },
+      {
+        "ticker": "8053.T",
+        "company": "Sumitomo Corp.",
+        "pct": -2.62943887232312
+      },
+      {
+        "ticker": "000880.KS",
+        "company": "Hanwha",
+        "pct": -2.3396226415094312
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T01:47:46.519741+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "300782.SZ",
+      "company": "Maxscend Microelectronics",
+      "pct": 5.234609061804818,
+      "last": 77.5999984741211,
+      "prev": 73.73999786376953,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm",
+        "pct": -5.823753432337975
+      },
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": 4.541241890639491
+      },
+      {
+        "ticker": "6723.T",
+        "company": "Renesas Electronics Corp.",
+        "pct": 4.450757575757569
+      },
+      {
+        "ticker": "2454.TW",
+        "company": "MediaTek",
+        "pct": 4.3524416135881205
+      }
+    ],
+    "analysis": {
+      "business_model": "Maxscend Microelectronics designs and sells analog and mixed-signal integrated circuits, primarily power‑management and sensor‑interface chips for automotive, IoT and consumer electronics.",
+      "sentiment": "Bullish - investors reacting to strong demand for analog chips",
+      "why_moved": "The stock jumped after a sector‑wide rally, with peers like SK Square and MediaTek gaining on optimism for 5G and AI‑driven chip demand.",
+      "read_across": "The move mirrors gains in Qualcomm and other peers, indicating broader confidence in the global semiconductor supply chain.",
+      "look_out": "Watch upcoming Q3 earnings, Chinese government subsidy announcements, and any US export‑control updates.",
+      "memory": "A similar rally occurred in early 2023 when Chinese chip makers rose on domestic subsidy expectations, later stabilizing after the policy rollout."
+    }
   }
 ]
