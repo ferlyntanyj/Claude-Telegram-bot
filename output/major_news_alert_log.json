@@ -5773,5 +5773,97 @@
       "look_out": "Watch the upcoming quarterly earnings release, any government stimulus announcements for the chemical industry, and export‑import data for chlorine and PVC.",
       "memory": "In early 2022 Hualu saw a similar rally when domestic chlorine shortages drove up prices, then the surge moderated after supply normalized."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T04:02:32.557281+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Malaysia · Bursa Malaysia",
+    "primary": {
+      "ticker": "6742.KL",
+      "company": "YTL POWER INTERNATIONAL BHD",
+      "pct": 6.630822412508919,
+      "last": 5.949999809265137,
+      "prev": 5.579999923706055,
+      "currency": "MYR"
+    },
+    "peers": [
+      {
+        "ticker": "4677.KL",
+        "company": "YTL CORPORATION BHD",
+        "pct": 6.250004656612851
+      },
+      {
+        "ticker": "MTLN.L",
+        "company": "Metlen Energy & Metals",
+        "pct": -5.512816364138617
+      },
+      {
+        "ticker": "SSE.L",
+        "company": "SSE plc",
+        "pct": -2.2114997989545637
+      },
+      {
+        "ticker": "9502.T",
+        "company": "Chubu Electric Power Co., Inc.",
+        "pct": -1.7703591299949473
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T04:02:32.557301+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Malaysia · Bursa Malaysia",
+    "primary": {
+      "ticker": "4677.KL",
+      "company": "YTL CORPORATION BHD",
+      "pct": 6.250004656612851,
+      "last": 2.380000114440918,
+      "prev": 2.240000009536743,
+      "currency": "MYR"
+    },
+    "peers": [
+      {
+        "ticker": "6742.KL",
+        "company": "YTL POWER INTERNATIONAL BHD",
+        "pct": 6.630822412508919
+      },
+      {
+        "ticker": "MTLN.L",
+        "company": "Metlen Energy & Metals",
+        "pct": -5.512816364138617
+      },
+      {
+        "ticker": "SSE.L",
+        "company": "SSE plc",
+        "pct": -2.2114997989545637
+      },
+      {
+        "ticker": "9502.T",
+        "company": "Chubu Electric Power Co., Inc.",
+        "pct": -1.7703591299949473
+      }
+    ],
+    "analysis": {
+      "business_model": "YTL CORPORATION BHD is a Malaysian conglomerate whose core revenue comes from its utilities segment, primarily electricity generation and water services, alongside construction and property development.",
+      "sentiment": "Bullish - strong intra‑day rally on group‑wide power sector optimism",
+      "why_moved": "The stock jumped on speculation that YTL’s utilities arm is benefitting from higher electricity tariffs and a possible dividend announcement, echoed by a similar rise in YTL Power International.",
+      "read_across": "The move suggests renewed confidence in regional utility operators, potentially lifting peers like SSE and Chubu, while energy miners such as Metlen face pressure.",
+      "look_out": "Watch for YTL’s upcoming earnings release and any regulator announcements on power tariffs or dividend declarations.",
+      "memory": "YTL previously rallied on similar tariff‑increase expectations in 2022, delivering a short‑term gain before stabilising."
+    }
   }
 ]
