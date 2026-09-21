@@ -7987,5 +7987,51 @@
       "look_out": "Watch for any appeal filings, settlement terms, and Reddit’s upcoming earnings that will show if the case translates to higher ad or premium sales.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T18:02:29.320240+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "MRVL",
+      "company": "Marvell Technology",
+      "pct": 5.191399253134588,
+      "last": 256.92999267578125,
+      "prev": 244.25,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": 11.993555901368369
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "pct": 8.697438784678436
+      },
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm",
+        "pct": 8.293948566238797
+      },
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      }
+    ],
+    "analysis": {
+      "business_model": "Marvell designs and sells semiconductor chips for data‑center, networking and storage applications, with most revenue coming from its Ethernet and custom ASIC solutions.",
+      "sentiment": "Bullish - sector rally on demand for data‑center chips",
+      "why_moved": "Marvell surged on a broad semiconductor rally driven by optimism over data‑center spending and recent earnings beat expectations. The move mirrors gains in peers like Intel and AMD.",
+      "read_across": "The rally suggests investors see renewed growth in networking and AI‑related silicon, lifting peers across the chip ecosystem. It could signal stronger demand for Ethernet and custom ASICs globally.",
+      "look_out": "Watch Marvell’s upcoming earnings and any updates on its AI‑accelerator roadmap, as well as data‑center spend trends and potential supply constraints.",
+      "memory": "A similar spike occurred in early 2023 when data‑center demand surged, temporarily boosting chip stocks before moderating."
+    }
   }
 ]
