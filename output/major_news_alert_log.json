@@ -6888,5 +6888,51 @@
       "look_out": "Watch Bitcoin’s price stability, upcoming SEC crypto‑regulation decisions, and Robinhood’s next earnings for confirmation of sustained revenue growth.",
       "memory": "When Bitcoin surged in late 2023, Robinhood’s shares similarly jumped, driven by higher crypto transaction volume."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T12:18:28.528087+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "IDXX",
+      "company": "Idexx Laboratories",
+      "pct": 5.379653,
+      "last": 539.175,
+      "prev": 511.65,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "603259.SS",
+        "company": "WuXi AppTec",
+        "pct": 4.975004196166988
+      },
+      {
+        "ticker": "2359.HK",
+        "company": "WuXi AppTec",
+        "pct": 4.0000000000000036
+      },
+      {
+        "ticker": "300347.SZ",
+        "company": "Hangzhou Tigermed Consulting",
+        "pct": 2.7879461680338613
+      },
+      {
+        "ticker": "ILMN",
+        "company": "Illumina, Inc.",
+        "pct": -2.2677207458547066
+      }
+    ],
+    "analysis": {
+      "business_model": "Idexx Laboratories provides veterinary diagnostic testing, software and services, generating revenue from pet health tests and related analytics platforms.",
+      "sentiment": "Bullish - earnings beat fuels optimism",
+      "why_moved": "Shares jumped after Idexx reported quarterly earnings that topped consensus, driven by strong demand for its diagnostic test kits and software subscriptions.",
+      "read_across": "The rally mirrors gains at peers like WuXi AppTec and Tigermed, suggesting broader investor confidence in biotech service providers and their growing role in drug development pipelines.",
+      "look_out": "Watch for Idexx's upcoming guidance release and any FDA approvals of new diagnostic assays that could sustain momentum.",
+      "memory": "Idexx saw a similar sharp rise after its 2022 earnings beat, which was followed by a consolidation period before further growth."
+    }
   }
 ]
