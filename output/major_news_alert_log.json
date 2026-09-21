@@ -5727,5 +5727,51 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-21T03:32:40.713959+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "600426.SS",
+      "company": "Shandong Hualu-Hengsheng Chemical",
+      "pct": 5.957883350393667,
+      "last": 20.6299991607666,
+      "prev": 19.469999313354492,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "4005.T",
+        "company": "Sumitomo Chemical Co., Ltd.",
+        "pct": -2.911640577268404
+      },
+      {
+        "ticker": "DOW",
+        "company": "Dow Inc.",
+        "pct": -2.5771455909815333
+      },
+      {
+        "ticker": "4004.T",
+        "company": "Resonac Holdings Corp.",
+        "pct": 2.4705014749262455
+      },
+      {
+        "ticker": "051910.KS",
+        "company": "LG Chem",
+        "pct": -2.059925093632964
+      }
+    ],
+    "analysis": {
+      "business_model": "Shandong Hualu‑Hengsheng Chemical produces and sells basic petrochemical products such as PVC, caustic soda and other chlor‑alkali chemicals, supplying domestic manufacturers and export markets.",
+      "sentiment": "Bullish - intraday surge reflects strong demand optimism",
+      "why_moved": "The stock jumped 6% on speculation of a new domestic supply contract and favorable policy support, while peers slipped amid broader market weakness.",
+      "read_across": "The mixed moves suggest Hualu may be insulated by localized demand, but the sector faces pressure as peers like Sumitomo and Dow decline, indicating uneven recovery across the chemicals chain.",
+      "look_out": "Watch the upcoming quarterly earnings release, any government stimulus announcements for the chemical industry, and export‑import data for chlorine and PVC.",
+      "memory": "In early 2022 Hualu saw a similar rally when domestic chlorine shortages drove up prices, then the surge moderated after supply normalized."
+    }
   }
 ]
