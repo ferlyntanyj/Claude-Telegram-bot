@@ -6796,5 +6796,51 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-21T11:33:36.184635+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "CIEN",
+      "company": "Ciena",
+      "pct": 6.087109,
+      "last": 370.0,
+      "prev": 348.8,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "LITE",
+        "company": "Lumentum",
+        "pct": 4.174079117781382
+      },
+      {
+        "ticker": "000063.SZ",
+        "company": "ZTE",
+        "pct": 2.1886650099465443
+      },
+      {
+        "ticker": "300308.SZ",
+        "company": "Zhongji Innolight",
+        "pct": 1.5727046230591624
+      },
+      {
+        "ticker": "601138.SS",
+        "company": "Foxconn Industrial Internet",
+        "pct": 1.4192304299822656
+      }
+    ],
+    "analysis": {
+      "business_model": "Ciena designs and sells optical networking equipment and software that enable high‑speed data transmission for telecom carriers and large enterprises.",
+      "sentiment": "Bullish - strong sector rally on optical networking demand",
+      "why_moved": "Ciena’s stock jumped as peers such as Lumentum, ZTE and Foxconn Industrial Internet all posted gains, indicating a broader rally in telecom‑gear stocks amid reports of carrier spending uptick.",
+      "read_across": "The move signals renewed buying interest in optical‑hardware makers worldwide, potentially boosting component orders and reinforcing supply‑chain confidence.",
+      "look_out": "Watch upcoming Q3 earnings, carrier capex forecasts, and any 5G rollout updates that could confirm sustained demand.",
+      "memory": "A similar rally occurred in early 2022 when telecom‑gear stocks rose on expectations of accelerated 5G deployments, delivering short‑term gains."
+    }
   }
 ]
