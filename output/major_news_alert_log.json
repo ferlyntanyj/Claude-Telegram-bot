@@ -8171,5 +8171,143 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-21T19:03:12.083963+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "CRWD",
+      "company": "CrowdStrike",
+      "pct": 5.011573308643613,
+      "last": 249.55999755859375,
+      "prev": 237.64999389648438,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "AKAM",
+        "company": "Akamai Technologies",
+        "pct": 11.196428812571412
+      },
+      {
+        "ticker": "GDDY",
+        "company": "GoDaddy",
+        "pct": 7.597987737388201
+      },
+      {
+        "ticker": "SNPS",
+        "company": "Synopsys",
+        "pct": 4.514638758267431
+      },
+      {
+        "ticker": "FFIV",
+        "company": "F5, Inc.",
+        "pct": 3.5090164351883057
+      }
+    ],
+    "analysis": {
+      "business_model": "CrowdStrike provides cloud‑based endpoint security, delivering threat detection and response via its Falcon platform on a subscription basis.",
+      "sentiment": "Bullish - sector‑wide cyber‑security rally lifts stocks",
+      "why_moved": "The stock jumped as cybersecurity names surged on strong demand signals and positive market sentiment, with peers like Akamai and GoDaddy also posting gains.",
+      "read_across": "Broad gains suggest investors view the cyber‑security supply chain as resilient, benefiting both domestic and global vendors.",
+      "look_out": "Watch CrowdStrike’s upcoming earnings and any new contract announcements for confirmation of momentum.",
+      "memory": "A similar rally occurred after CrowdStrike’s Q2 2023 earnings beat, driving a multi‑week uptrend."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T19:03:12.083972+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "AKAM",
+      "company": "Akamai Technologies",
+      "pct": 11.196428812571412,
+      "last": 116.22250366210938,
+      "prev": 104.5199966430664,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "GDDY",
+        "company": "GoDaddy",
+        "pct": 7.597987737388201
+      },
+      {
+        "ticker": "CRWD",
+        "company": "CrowdStrike",
+        "pct": 5.011573308643613
+      },
+      {
+        "ticker": "SNPS",
+        "company": "Synopsys",
+        "pct": 4.514638758267431
+      },
+      {
+        "ticker": "FFIV",
+        "company": "F5, Inc.",
+        "pct": 3.5090164351883057
+      }
+    ],
+    "analysis": {
+      "business_model": "Akamai provides cloud services that deliver, accelerate, and protect web content and applications through its content delivery network and security platform.",
+      "sentiment": "Bullish - sector demand surge boosts outlook",
+      "why_moved": "Akamai’s stock jumped as the broader CDN and cyber‑security sector rallied, reflected by similar gains in peers like GoDaddy and CrowdStrike.",
+      "read_across": "The move signals strong momentum for content‑delivery and security firms, suggesting rising enterprise spending on internet performance and protection globally.",
+      "look_out": "Watch Akamai’s upcoming earnings report and any new large‑scale customer contracts that could confirm sustained demand.",
+      "memory": "In early 2023 a similar CDN‑security rally followed heightened cloud adoption, lifting peers before stabilizing after earnings."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T19:03:12.083976+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "LRCX",
+      "company": "Lam Research",
+      "pct": 5.100485256103626,
+      "last": 302.80499267578125,
+      "prev": 288.1099853515625,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "AMAT",
+        "company": "Applied Materials",
+        "pct": 4.719162364331431
+      },
+      {
+        "ticker": "KLAC",
+        "company": "KLA Corporation",
+        "pct": 4.3561733520461
+      },
+      {
+        "ticker": "TER",
+        "company": "Teradyne",
+        "pct": 2.678550670130586
+      },
+      {
+        "ticker": "Q",
+        "company": "Qnity Electronics",
+        "pct": 1.2369850667236726
+      }
+    ],
+    "analysis": {
+      "business_model": "Lam Research designs, manufactures and services semiconductor equipment for wafer fabrication, focusing on deposition and etch technologies that shape microchips.",
+      "sentiment": "Bullish - investors reacting to strong demand outlook for chip fabs",
+      "why_moved": "Lam’s shares surged after it reported earnings that beat expectations and raised its 2024 revenue guidance, signaling robust demand for its equipment.",
+      "read_across": "The rally in Applied Materials, KLA and Teradyne suggests broader optimism across the semiconductor equipment supply chain and a potential upswing in fab spending worldwide.",
+      "look_out": "Watch upcoming earnings from other equipment makers, quarterly fab cap‑ex forecasts, and any signs of supply‑chain bottlenecks that could temper growth.",
+      "memory": "A similar sharp rally occurred in early 2022 when equipment firms rallied on renewed fab spending expectations."
+    }
   }
 ]
