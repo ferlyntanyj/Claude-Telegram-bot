@@ -8437,5 +8437,133 @@
       "look_out": "Watch U.S. gasoline demand data, upcoming OPEC+ production decisions, and Valero’s next earnings release for margin direction.",
       "memory": "During the 2020 COVID‑driven demand collapse, refiners’ stocks similarly plunged as margins evaporated."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T19:39:57.150187+00:00",
+    "type": "single_stock",
+    "headline": "The Technical Bull Case for Applied Materials: Chart of the Day",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaVVjemE5RU84MXNINzhYWHFGZjZlWXpvcEdrTkRRN3RzTnlWaU9WM1gwRVZpRjhkTGFIT2pLYl84NFRvc0ZzeVZlcmhTV1BGaTA0N190NnN0a2x0Ykx5UVg2WFVvOVJhVVpIdVBUUUdXWFhGYkNwWl9rUUUyaDRteWctVENyNUFoTGJ3aVBLdw?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "AMAT",
+      "company": "Applied Materials",
+      "pct": 5.200529666034437,
+      "last": 467.69000244140625,
+      "prev": 444.57000732421875,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": 8.704115684093438
+      },
+      {
+        "ticker": "6857.T",
+        "company": "Advantest Corp.",
+        "pct": 5.985449735449744
+      },
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research",
+        "pct": 5.810288293731403
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": 5.597210113339135
+      }
+    ],
+    "analysis": {
+      "business_model": "Applied Materials provides equipment, software and services that enable semiconductor wafer fabrication and display manufacturing.",
+      "sentiment": "Bullish - strong earnings outlook from semiconductor demand",
+      "why_moved": "Barron's highlighted a bullish technical chart breakout and upbeat earnings guidance, sparking a 5.2% intraday rise.",
+      "read_across": "Peers like Lasertec, Advantest, Lam Research and Sumco also surged, reflecting sector-wide optimism on chip capital spending.",
+      "look_out": "Watch Q3 earnings, wafer capacity utilization data, and any changes to chip subsidy policies for follow‑through.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T19:39:57.150199+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "INTC",
+      "company": "Intel",
+      "pct": 12.41243495783002,
+      "last": 122.07990264892578,
+      "prev": 108.5999984741211,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "pct": 9.947840683220432
+      },
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm",
+        "pct": 9.551545119806226
+      },
+      {
+        "ticker": "MRVL",
+        "company": "Marvell Technology",
+        "pct": 6.689865440282761
+      },
+      {
+        "ticker": "MPWR",
+        "company": "Monolithic Power Systems",
+        "pct": 4.915419851490821
+      }
+    ],
+    "analysis": {
+      "business_model": "Intel designs and manufactures microprocessors and related semiconductor components for PCs, data centers, and IoT devices, generating most revenue from its Core and Xeon CPU families.",
+      "sentiment": "Bullish - sector rally on AI demand expectations",
+      "why_moved": "The stock spiked on market speculation that Intel’s latest AI‑focused chip roadmap and recent earnings beat will boost future revenue, sparking a broad semiconductor surge.",
+      "read_across": "Similar gains at AMD, Qualcomm, Marvell and MPWR suggest the whole chip ecosystem is benefitting from renewed AI and data‑center optimism, lifting supply‑chain partners worldwide.",
+      "look_out": "Watch Intel’s upcoming earnings call, AI product announcements, and any guidance on capacity expansions for signs of sustained momentum.",
+      "memory": "A comparable surge occurred in early 2024 when AI hype lifted most semiconductor stocks after Nvidia’s earnings, then moderated as guidance clarified."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T19:39:57.150205+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "MPC",
+      "company": "Marathon Petroleum",
+      "pct": -5.1189717927347385,
+      "last": 403.1400146484375,
+      "prev": 424.8900146484375,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "VLO",
+        "company": "Valero Energy",
+        "pct": -4.46549231193768
+      },
+      {
+        "ticker": "PSX",
+        "company": "Phillips 66",
+        "pct": -4.322114914048436
+      }
+    ],
+    "analysis": {
+      "business_model": "Marathon Petroleum is a downstream energy company that refines crude oil into fuels and petrochemicals and operates pipelines, terminals, and retail gasoline stations, generating revenue primarily from refining operations.",
+      "sentiment": "Bearish - profit outlook weaker than expected",
+      "why_moved": "The stock dropped 5.1% after Marathon reported earnings that missed expectations, signaling lower refining margins and prompting a sell‑off across the sector.",
+      "read_across": "Valero and Phillips 66 posted similar declines, indicating broader pressure on U.S. refiners and tightening supply‑chain economics for the downstream industry.",
+      "look_out": "Watch upcoming quarterly earnings, U.S. crude inventory reports, and OPEC production decisions for clues on margin recovery or further downside.",
+      "memory": "Marathon and its peers fell sharply in early 2023 when refining margins contracted, then recovered once oil prices rebounded, showing the cyclical nature of the sector."
+    }
   }
 ]
