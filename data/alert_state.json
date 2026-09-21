@@ -503,7 +503,11 @@
     "sector:internet content information": {
       "last_alert_utc": "2026-09-21T14:24:45.443761+00:00",
       "last_move_pct": 2.308073011999756
+    },
+    "single:GLW": {
+      "last_alert_utc": "2026-09-21T14:32:23.604301+00:00",
+      "last_move_pct": 5.638444056868019
     }
   },
-  "last_run_utc": "2026-09-21T14:22:54.744747+00:00"
+  "last_run_utc": "2026-09-21T14:30:42.510989+00:00"
 }

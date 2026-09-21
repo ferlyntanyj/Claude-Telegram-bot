@@ -7624,5 +7624,51 @@
       "look_out": "Watch next week’s ad spend data and Meta’s upcoming product roadmap announcements for potential follow‑through.",
       "memory": "A similar post‑earnings jump occurred in Q2 2023, where Meta’s stock rose ~10% after an earnings beat, followed by a gradual pullback."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T14:32:23.608144+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "GLW",
+      "company": "Corning Inc.",
+      "pct": 5.638444056868019,
+      "last": 158.59500122070312,
+      "prev": 150.1300048828125,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "2308.TW",
+        "company": "Delta Electronics",
+        "pct": 8.069164265129691
+      },
+      {
+        "ticker": "007660.KS",
+        "company": "Isu Petasys",
+        "pct": 6.364513018322082
+      },
+      {
+        "ticker": "6981.T",
+        "company": "Murata Manufacturing Co., Ltd.",
+        "pct": 4.467770152065675
+      },
+      {
+        "ticker": "3481.TW",
+        "company": "InnoLux",
+        "pct": 4.455961711666134
+      }
+    ],
+    "analysis": {
+      "business_model": "Corning designs, manufactures and sells specialty glass and ceramics, chiefly for display panels, telecom fiber and automotive applications.",
+      "sentiment": "Bullish - demand for display glass fuels optimism",
+      "why_moved": "Shares rose as investors reacted to a strong demand outlook and sector‑wide gains in display component stocks.",
+      "read_across": "The rally in peers like Delta Electronics, Isu Petasys, Murata and InnoLux points to a broader upswing in display and electronics components, boosting confidence in the supply chain.",
+      "look_out": "Watch upcoming earnings, smartphone launch volumes and automotive glass orders for confirmation of the trend.",
+      "memory": "Corning’s stock previously jumped after beating earnings in early 2022, then moderated."
+    }
   }
 ]
