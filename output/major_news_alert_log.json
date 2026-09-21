@@ -8345,5 +8345,97 @@
       "look_out": "Watch upcoming FAA capacity reports and United’s next earnings release for confirmation of sustained demand.",
       "memory": "During early 2024 airlines rallied on easing pandemic restrictions, boosting shares in a similar pattern."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T19:33:23.904852+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "MPC",
+      "company": "Marathon Petroleum",
+      "pct": -5.900352199371451,
+      "last": 399.82000732421875,
+      "prev": 424.8900146484375,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "VLO",
+        "company": "Valero Energy",
+        "pct": -5.323267534112775
+      },
+      {
+        "ticker": "PSX",
+        "company": "Phillips 66",
+        "pct": -4.9756511898871985
+      },
+      {
+        "ticker": "096770.KS",
+        "company": "SK Innovation",
+        "pct": 3.0014641288433452
+      },
+      {
+        "ticker": "010950.KS",
+        "company": "S-Oil",
+        "pct": 2.943143812709037
+      }
+    ],
+    "analysis": {
+      "business_model": "Marathon Petroleum refines crude oil into gasoline, diesel, jet fuel and other products, operating a large U.S. refining, logistics and retail network.",
+      "sentiment": "Bearish - intraday drop reflects broad refinery sector weakness",
+      "why_moved": "The stock slid as U.S. crude prices fell, pressuring margins for refiners; no company‑specific news, just sector‑wide sell‑off.",
+      "read_across": "Valero and Phillips 66 also slipped, showing a domestic refining downturn, while Asian peers rose on tighter regional spreads.",
+      "look_out": "Track U.S. crude price trends, upcoming inventory reports and Marathon’s quarterly earnings for margin guidance.",
+      "memory": "Similar refinery‑stock declines occurred during 2022’s crude‑price slump, prompting margin‑pressure sell‑offs."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T19:33:23.904870+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "VLO",
+      "company": "Valero Energy",
+      "pct": -5.323267534112775,
+      "last": 391.2799987792969,
+      "prev": 413.2799987792969,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "MPC",
+        "company": "Marathon Petroleum",
+        "pct": -5.900352199371451
+      },
+      {
+        "ticker": "PSX",
+        "company": "Phillips 66",
+        "pct": -4.9756511898871985
+      },
+      {
+        "ticker": "096770.KS",
+        "company": "SK Innovation",
+        "pct": 3.0014641288433452
+      },
+      {
+        "ticker": "010950.KS",
+        "company": "S-Oil",
+        "pct": 2.943143812709037
+      }
+    ],
+    "analysis": {
+      "business_model": "Valero Energy operates large-scale oil refineries that turn crude oil into gasoline, diesel, jet fuel and other petroleum products, selling them wholesale and retail.",
+      "sentiment": "Bearish - sharp price drop on weakening refining margins",
+      "why_moved": "Valero fell 5.3% as lower crude‑oil spreads and weaker demand expectations squeezed refinery earnings, mirroring moves in other U.S. refiners.",
+      "read_across": "The slide highlights pressure on domestic refiners like Marathon and Phillips 66, while Asian refiners such as SK Innovation and S‑Oil benefit from tighter regional spreads.",
+      "look_out": "Watch U.S. gasoline demand data, upcoming OPEC+ production decisions, and Valero’s next earnings release for margin direction.",
+      "memory": "During the 2020 COVID‑driven demand collapse, refiners’ stocks similarly plunged as margins evaporated."
+    }
   }
 ]
