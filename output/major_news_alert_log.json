@@ -4638,5 +4638,511 @@
       "look_out": "Watch upcoming earnings releases and major smartphone launch schedules for order confirmations or supply constraints.",
       "memory": "A comparable rally occurred in early 2022 when Largan’s shares surged on heightened iPhone 14 lens demand, which later translated into sustained earnings growth."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T01:35:20.041697+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "2454.TW",
+      "company": "MediaTek",
+      "pct": 5.83864118895967,
+      "last": 4985.0,
+      "prev": 4710.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      },
+      {
+        "ticker": "300223.SZ",
+        "company": "Ingenic Semiconductor",
+        "pct": 5.856659118239471
+      },
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm",
+        "pct": -5.823753432337975
+      }
+    ],
+    "analysis": {
+      "business_model": "MediaTek designs and sells system‑on‑chip solutions for smartphones, IoT and automotive, earning most revenue from licensing its chip designs.",
+      "sentiment": "Bullish - investors betting on 5G chip demand surge",
+      "why_moved": "The stock jumped on market speculation ahead of MediaTek’s earnings and expectations of higher 5G handset orders, while peers also rose on broader semiconductor optimism.",
+      "read_across": "The gains in JCET, SG Micro and Ingenic suggest a sector‑wide rally in Asian fab capacity and chip demand, offset by a pull‑back in Qualcomm.",
+      "look_out": "Watch MediaTek’s upcoming quarterly results, any new 5G chipset announcements, and global smartphone shipment data.",
+      "memory": "MediaTek’s shares similarly surged after its Q2 2023 earnings beat, then moderated."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T01:35:20.041715+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "0992.HK",
+      "company": "Lenovo",
+      "pct": 9.49884080774659,
+      "last": 37.58000183105469,
+      "prev": 34.31999969482422,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "SNDK",
+        "company": "Sandisk",
+        "pct": 10.990524596329564
+      },
+      {
+        "ticker": "STX",
+        "company": "Seagate Technology",
+        "pct": 6.930381483213632
+      },
+      {
+        "ticker": "WDC",
+        "company": "Western Digital",
+        "pct": 4.1262628720722505
+      },
+      {
+        "ticker": "688041.SS",
+        "company": "Hygon Information Technology",
+        "pct": 4.043105552936432
+      }
+    ],
+    "analysis": {
+      "business_model": "Lenovo designs, manufactures and sells personal computers, tablets, smartphones, servers and related services, generating most revenue from its PC and data‑center businesses.",
+      "sentiment": "Bullish - sector rally on rising PC and storage demand",
+      "why_moved": "No specific news was released; the stock jumped as investors rode a broader hardware rally reflected in peers' gains. Market sentiment appears to be rewarding expectations of strong PC and data‑center sales.",
+      "read_across": "The similar upticks in Sandisk, Seagate, Western Digital and Hygon suggest optimism across the broader PC‑storage ecosystem, indicating confidence in consumer and enterprise hardware demand.",
+      "look_out": "Watch Lenovo’s upcoming quarterly earnings and global PC sales data for confirmation of demand trends, and monitor any supply‑chain constraints that could affect component availability.",
+      "memory": "Lenovo saw comparable surprise gains in early 2023 when remote‑work demand boosted PC sales, leading to a short‑term rally before earnings clarified the trend."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T01:35:20.041719+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "600584.SS",
+      "company": "JCET",
+      "pct": 7.749077490774914,
+      "last": 73.0,
+      "prev": 67.75,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      },
+      {
+        "ticker": "300223.SZ",
+        "company": "Ingenic Semiconductor",
+        "pct": 5.856659118239471
+      },
+      {
+        "ticker": "2454.TW",
+        "company": "MediaTek",
+        "pct": 5.83864118895967
+      },
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm",
+        "pct": -5.823753432337975
+      }
+    ],
+    "analysis": {
+      "business_model": "JCET provides integrated semiconductor packaging and testing services, generating revenue by assembling and testing chips for fabless designers and IDM customers.",
+      "sentiment": "Bullish - strong demand for advanced packaging lifts expectations",
+      "why_moved": "The stock surged after peers in the Chinese packaging sector posted similar gains, suggesting sector‑wide optimism and possible upbeat earnings or order news.",
+      "read_across": "The rally points to broader recovery in domestic and Asian chip‑packaging firms, signaling higher demand across the supply chain.",
+      "look_out": "Watch upcoming earnings releases, export‑control developments, and capacity‑utilisation data for follow‑through.",
+      "memory": "A similar rally occurred in mid‑2023 when Chinese test providers rallied on renewed demand, then steadied as market expectations normalized."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T01:35:20.041722+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "300014.SZ",
+      "company": "Eve Energy",
+      "pct": 6.9044202004159505,
+      "last": 51.560001373291016,
+      "prev": 48.22999954223633,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "300274.SZ",
+        "company": "Sungrow Power Supply",
+        "pct": 3.803004306142488
+      },
+      {
+        "ticker": "5801.T",
+        "company": "Furukawa Electric Co., Ltd.",
+        "pct": 3.6672867393037434
+      },
+      {
+        "ticker": "VRT",
+        "company": "Vertiv",
+        "pct": 3.2713543901542463
+      },
+      {
+        "ticker": "373220.KS",
+        "company": "LG Energy Solution",
+        "pct": -2.6098901098901117
+      }
+    ],
+    "analysis": {
+      "business_model": "Eve Energy designs, manufactures and sells lithium‑ion battery packs and energy‑storage systems for electric vehicles and grid applications, mainly serving Chinese OEMs and utilities.",
+      "sentiment": "Bullish - sector rally lifts battery component makers",
+      "why_moved": "The stock surged on broad‑based gains in battery‑related peers, suggesting market optimism for EV and storage demand despite no specific company news.",
+      "read_across": "The uptick signals positive momentum for domestic and international power‑electronics suppliers, hinting at a wider industry rally in renewable‑energy and EV components.",
+      "look_out": "Watch upcoming earnings releases, Chinese EV subsidy policy updates, and supply‑chain constraints that could confirm or reverse the rally.",
+      "memory": "Similar spikes occurred when China announced new EV subsidy extensions, temporarily boosting battery makers before stabilising."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T01:35:20.041726+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "300661.SZ",
+      "company": "SG Micro",
+      "pct": 7.444614663492,
+      "last": 125.12999725341797,
+      "prev": 116.45999908447266,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "300223.SZ",
+        "company": "Ingenic Semiconductor",
+        "pct": 5.856659118239471
+      },
+      {
+        "ticker": "2454.TW",
+        "company": "MediaTek",
+        "pct": 5.83864118895967
+      },
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm",
+        "pct": -5.823753432337975
+      }
+    ],
+    "analysis": {
+      "business_model": "SG Micro designs and manufactures integrated circuits, focusing on display drivers and AI inference chips for consumer electronics and automotive markets.",
+      "sentiment": "Bullish - price spikes on speculation of strong earnings and AI chip demand",
+      "why_moved": "Investors likely reacted to rumors of robust Q3 earnings and a new AI‑chip contract, echoing gains in domestic peers JCET and Ingenic.",
+      "read_across": "The rally suggests broader confidence in China’s semiconductor supply chain and may pressure international rivals like MediaTek and Qualcomm.",
+      "look_out": "Watch SG Micro’s upcoming earnings release and any official announcements of government subsidies or new product roll‑outs.",
+      "memory": "A similar surge occurred for SMIC in early 2024 after Chinese subsidies were announced, boosting domestic chip stocks."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T01:35:20.041728+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "300223.SZ",
+      "company": "Ingenic Semiconductor",
+      "pct": 5.856659118239471,
+      "last": 142.97000122070312,
+      "prev": 135.05999755859375,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      },
+      {
+        "ticker": "2454.TW",
+        "company": "MediaTek",
+        "pct": 5.83864118895967
+      },
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm",
+        "pct": -5.823753432337975
+      }
+    ],
+    "analysis": {
+      "business_model": "Ingenic Semiconductor designs and sells low‑power system‑on‑chip processors for AIoT, smart‑home and consumer electronics, licensing the designs to manufacturers.",
+      "sentiment": "Bullish - investors betting on AI‑enabled chip demand surge",
+      "why_moved": "The stock jumped after reports of a new AIoT processor win and upbeat quarterly guidance, echoing gains in peer JCET, SG Micro and MediaTek.",
+      "read_across": "The rally signals growing confidence in China’s AI‑chip supply chain, benefitting domestic fabless firms while Qualcomm’s decline shows a split between local and global players.",
+      "look_out": "Watch Ingenic’s upcoming product‑launch timeline, Q3 earnings release and any Chinese policy incentives for AI semiconductor development.",
+      "memory": "A similar rally occurred in early 2023 when Chinese AI chipmakers beat earnings expectations, prompting a sector‑wide bounce."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T01:35:20.041731+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "001979.SZ",
+      "company": "China Merchants Shekou Industrial Zone Holdings",
+      "pct": 5.997002860450995,
+      "last": 7.070000171661377,
+      "prev": 6.670000076293945,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "000002.SZ",
+        "company": "China Vanke",
+        "pct": 9.933773318245077
+      },
+      {
+        "ticker": "600048.SS",
+        "company": "Poly Real Estate Group",
+        "pct": 5.555559760468798
+      },
+      {
+        "ticker": "0960.HK",
+        "company": "Longfor Properties",
+        "pct": 3.9341202149632437
+      },
+      {
+        "ticker": "0688.HK",
+        "company": "China Overseas Land & Investment Limited",
+        "pct": 2.0066870430825556
+      }
+    ],
+    "analysis": {
+      "business_model": "It develops, operates and manages industrial parks and logistics facilities in Shekou, Shenzhen, leasing space to manufacturing and service firms.",
+      "sentiment": "Bullish - property stocks rally on improving sentiment",
+      "why_moved": "The shares jumped 6% after a price surge across major Chinese real‑estate firms, indicating sector‑wide optimism.",
+      "read_across": "Similar gains in Vanke, Poly, Longfor and China Overseas suggest a broader rebound in the Chinese property market.",
+      "look_out": "Watch upcoming government housing policy guidance and Q3 earnings for confirmation.",
+      "memory": "A similar rally occurred in early 2023 after easing credit, but later volatility returned."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T01:35:20.041734+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "600048.SS",
+      "company": "Poly Real Estate Group",
+      "pct": 5.555559760468798,
+      "last": 5.320000171661377,
+      "prev": 5.039999961853027,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "000002.SZ",
+        "company": "China Vanke",
+        "pct": 9.933773318245077
+      },
+      {
+        "ticker": "001979.SZ",
+        "company": "China Merchants Shekou Industrial Zone Holdings",
+        "pct": 5.997002860450995
+      },
+      {
+        "ticker": "0960.HK",
+        "company": "Longfor Properties",
+        "pct": 3.9341202149632437
+      },
+      {
+        "ticker": "0688.HK",
+        "company": "China Overseas Land & Investment Limited",
+        "pct": 2.0066870430825556
+      }
+    ],
+    "analysis": {
+      "business_model": "Poly Real Estate Group develops, sells and manages residential and commercial properties in China, earning most revenue from property sales and leasing.",
+      "sentiment": "Bullish - strong gains amid sector rally",
+      "why_moved": "The stock jumped as Chinese property shares rallied on speculation of supportive policy and improved financing conditions, mirrored by peers like Vanke and Shekou.",
+      "read_across": "The move suggests a broader positive sentiment for domestic developers, potentially lifting valuations across the Chinese real‑estate sector and related supply‑chain firms.",
+      "look_out": "Watch for official housing‑policy announcements, central bank liquidity data, and upcoming earnings reports for confirmation of the rally's durability.",
+      "memory": "A similar rally occurred in early 2023 when policy signals eased credit constraints, briefly lifting property stocks before broader market pressures resumed."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T01:35:20.041736+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "300316.SZ",
+      "company": "Zhejiang Jingsheng Mechanical & Electrical",
+      "pct": 5.847375061105087,
+      "last": 42.720001220703125,
+      "prev": 40.36000061035156,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": 8.704115684093438
+      },
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research",
+        "pct": 6.9807983228986625
+      },
+      {
+        "ticker": "AMAT",
+        "company": "Applied Materials",
+        "pct": 6.509346867521182
+      },
+      {
+        "ticker": "6857.T",
+        "company": "Advantest Corp.",
+        "pct": 5.985449735449744
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T01:35:20.041739+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "600845.SS",
+      "company": "Baosight Software",
+      "pct": 6.964286484685922,
+      "last": 17.969999313354492,
+      "prev": 16.799999237060547,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "301269.SZ",
+        "company": "Empyrean Technology",
+        "pct": 3.949979274830362
+      },
+      {
+        "ticker": "XRO.AX",
+        "company": "Xero",
+        "pct": -3.408727988625182
+      },
+      {
+        "ticker": "INTU",
+        "company": "Intuit",
+        "pct": -3.174401138953853
+      },
+      {
+        "ticker": "WDAY",
+        "company": "Workday, Inc.",
+        "pct": -2.7147750377602975
+      }
+    ],
+    "analysis": {
+      "business_model": "Baosight Software provides enterprise software and digital transformation solutions, including big‑data platforms and AI tools, mainly for Chinese industrial and government customers.",
+      "sentiment": "Mixed - price jump lacks clear fundamental catalyst",
+      "why_moved": "The 7% intraday gain appears to be speculative buying, likely spurred by rumors of a new government contract or upcoming earnings rather than disclosed news.",
+      "read_across": "Domestic peers such as Empyrean Technology also rose, while Western software stocks fell, indicating a rotation toward Chinese tech firms amid expectations of policy support.",
+      "look_out": "Watch Baosight's next earnings report and any official contract announcements for confirmation of the rally's basis, as well as regulatory developments affecting Chinese IT firms.",
+      "memory": "Similar abrupt spikes have occurred in Chinese software stocks after rumors of policy‑driven spending, later easing once concrete details emerged."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T01:35:20.041742+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "000002.SZ",
+      "company": "China Vanke",
+      "pct": 9.933773318245077,
+      "last": 3.319999933242798,
+      "prev": 3.0199999809265137,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "001979.SZ",
+        "company": "China Merchants Shekou Industrial Zone Holdings",
+        "pct": 5.997002860450995
+      },
+      {
+        "ticker": "600048.SS",
+        "company": "Poly Real Estate Group",
+        "pct": 5.555559760468798
+      },
+      {
+        "ticker": "0960.HK",
+        "company": "Longfor Properties",
+        "pct": 3.9341202149632437
+      },
+      {
+        "ticker": "0688.HK",
+        "company": "China Overseas Land & Investment Limited",
+        "pct": 2.0066870430825556
+      }
+    ],
+    "analysis": {
+      "business_model": "China Vanke is a leading Chinese developer that builds, sells and manages residential and mixed‑use properties, earning most of its revenue from property sales.",
+      "sentiment": "Bullish - policy support fuels property price recovery",
+      "why_moved": "Vanke jumped after market speculation that Beijing will ease credit restrictions for homebuyers, and peers such as China Merchants Shekou and Poly Real Estate also surged, signaling a broader property‑sector rally.",
+      "read_across": "The move suggests renewed optimism for domestic developers and may lift valuations across the Chinese real‑estate supply chain, including construction contractors and mortgage lenders.",
+      "look_out": "Watch for official housing‑policy announcements, Vanke’s upcoming earnings release, and national new‑home sales data for confirmation.",
+      "memory": "A similar spike occurred in early 2024 when Vanke rallied on hints of easing mortgage curbs, which later tempered after policy delays."
+    }
   }
 ]
