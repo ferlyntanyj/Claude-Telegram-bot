@@ -6392,5 +6392,51 @@
       "look_out": "Watch for upcoming clinical trial read‑outs, regulatory filings and the next earnings report that could confirm whether the rally is fundamentals‑driven.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T07:14:04.606940+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "AAF.L",
+      "company": "Airtel Africa",
+      "pct": -11.273138395673998,
+      "last": 316.3999938964844,
+      "prev": 356.6000061035156,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "VOD.L",
+        "company": "Vodafone Group",
+        "pct": -4.25047322513935
+      },
+      {
+        "ticker": "PSON.L",
+        "company": "Pearson plc",
+        "pct": -2.0772746157041944
+      },
+      {
+        "ticker": "INF.L",
+        "company": "Informa",
+        "pct": -2.060473058685608
+      },
+      {
+        "ticker": "AUTO.L",
+        "company": "Autotrader Group",
+        "pct": -1.731074033262936
+      }
+    ],
+    "analysis": {
+      "business_model": "Airtel Africa operates mobile networks across 14 African countries, earning revenue primarily from voice, data and broadband subscriptions.",
+      "sentiment": "Bearish - sharp intraday sell‑off amid unspecified concerns",
+      "why_moved": "The stock slumped over 11% despite no specific news, likely reflecting investor anxiety over regional economic pressures and a broader telecom sector dip evident in peers like Vodafone.",
+      "read_across": "Similar declines in Vodafone and other UK‑listed firms suggest sector‑wide concerns about growth prospects and currency headwinds affecting telecom operators and their supply chains.",
+      "look_out": "Watch for the next earnings release, any regulatory updates in key African markets, and FX movements that could impact revenue forecasts.",
+      "memory": "A comparable drop occurred in early 2022 when Airtel Africa warned of slower subscriber growth, triggering a roughly 10% sell‑off."
+    }
   }
 ]
