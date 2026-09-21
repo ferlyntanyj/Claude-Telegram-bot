@@ -76,10 +76,10 @@ def _norm(text):
 
 
 def load_watchlist(cfg):
-    """{ticker: {company_name, sector, industry, currency}} for the whole
-    curated watchlist. No more name/alias regex-pattern building -- price
-    scanning keys directly off the ticker, and detection no longer depends
-    on matching a headline's text against a company name at all."""
+    """{ticker: {company_name, sector, industry, region, currency}} for the
+    whole curated watchlist. No more name/alias regex-pattern building --
+    price scanning keys directly off the ticker, and detection no longer
+    depends on matching a headline's text against a company name at all."""
     try:
         df = pd.read_csv(cfg.WATCHLIST_CSV_PATH)
     except FileNotFoundError:
@@ -94,6 +94,7 @@ def load_watchlist(cfg):
             "company_name": str(r["company_name"]).strip(),
             "sector": str(r.get("sector") or "").strip(),
             "industry": str(r.get("industry") or "").strip(),
+            "region": str(r.get("region") or "").strip(),
             "currency": str(r.get("currency") or "").strip(),
         }
     return watchlist
@@ -356,6 +357,37 @@ def _group_by_industry(watchlist, scanned_moves):
         if not industry:
             continue
         groups.setdefault(industry, {})[ticker] = move
+    return groups
+
+
+# Hong Kong and mainland China deliberately bucketed together for the
+# region-scoped grouping below -- the watchlist's `region` reflects listing
+# exchange, not company nationality, and plenty of mainland companies list
+# primarily or dual-list in Hong Kong. A strict "region == China" filter
+# would miss exactly that pattern -- confirmed 2026-09-21: CSPC
+# Pharmaceutical (HK-listed) was one of the biggest movers in a real
+# "China pharma stocks rally on a Beijing five-year plan" story.
+_REGION_GROUP_OVERRIDES = {"China": "Greater China", "Hong Kong": "Greater China"}
+
+
+def _group_by_region_sector(watchlist, scanned_moves):
+    """{(region_group, sector): {ticker: move}} -- a coarser, region-scoped
+    companion to _group_by_industry(), added 2026-09-21. A country/policy-
+    driven rally can span several fine GICS industries at once (that same
+    real story split across Drug Manufacturers - General, Drug
+    Manufacturers - Specialty & Generic, and Biotechnology -- no single fine
+    industry bucket ever had enough members, even restricted to China),
+    while sharing one coarser `sector` tag (Healthcare) throughout. Reuses
+    the same SECTOR_* thresholds as the industry grouping rather than
+    introducing a second set to tune."""
+    groups = {}
+    for ticker, move in scanned_moves.items():
+        info = watchlist.get(ticker, {})
+        sector, region = info.get("sector"), info.get("region")
+        if not sector or not region:
+            continue
+        key = (_REGION_GROUP_OVERRIDES.get(region, region), sector)
+        groups.setdefault(key, {})[ticker] = move
     return groups
 
 
@@ -690,6 +722,59 @@ def append_log(alerts, cfg):
 
 
 # ---------------------------------------------------------------------------
+# Shared by both sector-wide groupings in run_cycle() (industry-level and
+# region+sector-level) -- same qualify/threshold/cooldown/append logic
+# either way, just fed a different group. Appends to `alerts` in place
+# rather than returning anything; a no-op if the group doesn't qualify.
+# ---------------------------------------------------------------------------
+def _build_sector_alert(group_label, moves, watchlist, cfg, state, alerts, headline_query):
+    if len(moves) < cfg.SECTOR_MIN_PEERS:
+        return
+    result = _median_breadth(moves, cfg)
+    if not result["qualifies"]:
+        return
+    # The group has no single "subject" the way a single-stock ticker does
+    # -- use its biggest mover as the primary line, and the rest (up to
+    # MAX_DISPLAY_PEERS) as the peers list. Median/breadth can qualify a
+    # group even when no single member has cleared 5% itself (confirmed
+    # 2026-09-18: Petronas Chemical at -3.29%, Symrise at -2.51% both
+    # surfaced as a sector alert's "primary" mover) -- per user request,
+    # only show a sector story whose biggest mover is itself a genuine
+    # >=5% move, same bar as a single-stock alert.
+    ranked = sorted(moves.items(), key=lambda kv: -abs(kv[1]["pct"]))
+    top_ticker, top_move = ranked[0]
+    if abs(top_move["pct"]) < cfg.SINGLE_STOCK_MOVE_PCT:
+        return
+    # Skip if this ticker is already another alert's primary this cycle --
+    # the industry and region+sector groupings can both catch the same
+    # underlying story, and a near-duplicate write-up isn't worth a second
+    # Groq call.
+    if any(a["primary"]["ticker"] == top_ticker for a in alerts):
+        return
+    key = f"sector:{_norm(group_label)}"
+    if not should_alert(state, key, cfg):
+        return
+    peers = [
+        {"ticker": t, "company": watchlist[t]["company_name"], "pct": m["pct"]}
+        for t, m in ranked[1:1 + cfg.MAX_DISPLAY_PEERS]
+    ]
+    headline = _find_headline(headline_query, cfg)
+    alerts.append({
+        "type": "sector", "headline": headline, "key": key,
+        "metric_pct": result["median_pct"],
+        "market_name": market_name_for_ticker(top_ticker),
+        "primary": {
+            "ticker": top_ticker, "company": watchlist[top_ticker]["company_name"],
+            "pct": top_move["pct"], "last": top_move["last"], "prev": top_move["prev"],
+            "currency": top_move.get("currency"),
+        },
+        "peers": peers,
+        "median_pct": result["median_pct"],
+        "breadth_share_pct": result["breadth_share_pct"],
+    })
+
+
+# ---------------------------------------------------------------------------
 # Main cycle
 # ---------------------------------------------------------------------------
 def run_cycle(cfg):
@@ -763,51 +848,31 @@ def run_cycle(cfg):
                 "peers": peers,
             })
 
-    # -- Sector-wide: group this cycle's movers by real industry tag -------
-    # Grouped from `tradeable`, not `scanned` -- a group spans many markets
-    # at once (e.g. "Semiconductors" mixes US/Taiwan/Japan/Korea names), so
-    # without this a story could "qualify" on the strength of several
-    # already-closed markets' stale prior-session moves rather than
-    # anything actually live right now.
+    # -- Sector-wide: two independent groupings over `tradeable`, both fed
+    # through _build_sector_alert (shared qualify/threshold/cooldown logic,
+    # factored out below to avoid duplicating it twice). Industry-level
+    # catches a tight, genuinely global story (e.g. a semis-wide selloff);
+    # region+sector-level (added 2026-09-21) catches a country/policy-driven
+    # rally that spans several fine industries within one broad sector but
+    # wouldn't reach SECTOR_MIN_PEERS in any single fine industry bucket on
+    # its own -- confirmed real: "China pharma stocks rally on a Beijing
+    # five-year plan" split across three separate GICS industries. Both
+    # grouped from `tradeable`, not `scanned` -- a group spans many
+    # markets/regions at once, so without this a story could "qualify" on
+    # the strength of several already-closed markets' stale prior-session
+    # moves rather than anything actually live right now.
+    #
+    # _build_sector_alert skips a ticker already used as another alert's
+    # primary this cycle -- when both groupings catch overlapping ground
+    # (e.g. one company's move counted toward both its fine industry and
+    # its region+sector group), that's the same underlying story, so it
+    # doesn't need (and shouldn't burn) a second Groq write-up.
     for industry, moves in _group_by_industry(watchlist, tradeable).items():
-        if len(moves) < cfg.SECTOR_MIN_PEERS:
-            continue
-        result = _median_breadth(moves, cfg)
-        if not result["qualifies"]:
-            continue
-        # The group has no single "subject" the way a single-stock ticker
-        # does -- use its biggest mover as the primary line, and the rest
-        # (up to MAX_DISPLAY_PEERS) as the peers list. Median/breadth can
-        # qualify a group even when no single member has cleared 5% itself
-        # (confirmed 2026-09-18: Petronas Chemical at -3.29%, Symrise at
-        # -2.51% both surfaced as a sector alert's "primary" mover) -- per
-        # user request, only show a sector story whose biggest mover is
-        # itself a genuine >=5% move, same bar as a single-stock alert.
-        ranked = sorted(moves.items(), key=lambda kv: -abs(kv[1]["pct"]))
-        top_ticker, top_move = ranked[0]
-        if abs(top_move["pct"]) < cfg.SINGLE_STOCK_MOVE_PCT:
-            continue
-        key = f"sector:{_norm(industry)}"
-        if not should_alert(state, key, cfg):
-            continue
-        peers = [
-            {"ticker": t, "company": watchlist[t]["company_name"], "pct": m["pct"]}
-            for t, m in ranked[1:1 + cfg.MAX_DISPLAY_PEERS]
-        ]
-        headline = _find_headline(f"{industry} stocks", cfg)
-        alerts.append({
-            "type": "sector", "headline": headline, "key": key,
-            "metric_pct": result["median_pct"],
-            "market_name": market_name_for_ticker(top_ticker),
-            "primary": {
-                "ticker": top_ticker, "company": watchlist[top_ticker]["company_name"],
-                "pct": top_move["pct"], "last": top_move["last"], "prev": top_move["prev"],
-                "currency": top_move.get("currency"),
-            },
-            "peers": peers,
-            "median_pct": result["median_pct"],
-            "breadth_share_pct": result["breadth_share_pct"],
-        })
+        _build_sector_alert(industry, moves, watchlist, cfg, state, alerts, f"{industry} stocks")
+
+    for (region_group, sector), moves in _group_by_region_sector(watchlist, tradeable).items():
+        _build_sector_alert(f"{region_group}:{sector}", moves, watchlist, cfg, state, alerts,
+                             f"{region_group} {sector} stocks")
 
     # Paced, not back-to-back -- Groq's free tier is 8,000 tokens/minute
     # (verified via their docs), tighter than it sounds once you count each
