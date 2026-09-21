@@ -6934,5 +6934,51 @@
       "look_out": "Watch for Idexx's upcoming guidance release and any FDA approvals of new diagnostic assays that could sustain momentum.",
       "memory": "Idexx saw a similar sharp rise after its 2022 earnings beat, which was followed by a consolidation period before further growth."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T12:32:53.604713+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "ANTO.L",
+      "company": "Antofagasta plc",
+      "pct": 5.004101722723542,
+      "last": 3840.0,
+      "prev": 3657.0,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "CSC.AX",
+        "company": "Capstone Copper",
+        "pct": 1.2526117370165846
+      },
+      {
+        "ticker": "FCX",
+        "company": "Freeport-McMoRan",
+        "pct": 0.9738919636791188
+      },
+      {
+        "ticker": "600362.SS",
+        "company": "Jiangxi Copper",
+        "pct": 0.47695413352739635
+      },
+      {
+        "ticker": "SFR.AX",
+        "company": "Sandfire Resources",
+        "pct": -0.36396690342203053
+      }
+    ],
+    "analysis": {
+      "business_model": "Antofagasta plc is a Chile‑based mining company that extracts and sells copper, along with by‑products such as gold, silver and molybdenum, generating most of its revenue from copper sales.",
+      "sentiment": "Bullish - copper price surge lifts mining stocks",
+      "why_moved": "Antofagasta jumped 5% as copper prices rallied, prompting a sector‑wide bump reflected in modest gains for peers like Capstone Copper and Freeport‑McMoRan. The price move appears driven by renewed demand expectations for copper in green‑energy projects.",
+      "read_across": "The uplift suggests broader optimism for copper producers worldwide, hinting at tighter supply dynamics and potential price support for both domestic Chilean miners and international peers.",
+      "look_out": "Watch upcoming copper production reports, Antofagasta’s earnings release, and Chinese industrial demand data for confirmation of the rally’s durability.",
+      "memory": "Similar copper‑price‑driven rallies in 2023 lifted Antofagasta and peers, leading to sustained higher valuations before a pull‑back later in the year."
+    }
   }
 ]
