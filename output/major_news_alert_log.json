@@ -7210,5 +7210,235 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-21T13:48:24.046785+00:00",
+    "type": "single_stock",
+    "headline": "Meta launches fresh legal challenge over UK’s Online Safety Act",
+    "source": "Financial Times",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU3R3YlFHTTJqUXJoQW9Ga3FHNWZKdUE3ak1KeHFXN1hDREpvYWdtWk9WaVcwbUR3bFYtdkxfYklENDJkbmUzem0yYi12OFFSbzZGb0JkS1gyUV9xeVByaWNnV0x6d0tBQUV6T1dwSWVsWi1XbWNpUGo1SWZxMDVJeUxpc18?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "META",
+      "company": "Meta Platforms",
+      "pct": 6.102892209209543,
+      "last": 706.3800048828125,
+      "prev": 665.75,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "RDDT",
+        "company": "Reddit",
+        "pct": 3.0096076250851533
+      },
+      {
+        "ticker": "0700.HK",
+        "company": "Tencent Holdings Limited",
+        "pct": 2.6252983293556076
+      },
+      {
+        "ticker": "G24.DE",
+        "company": "Scout24",
+        "pct": 2.101699053230943
+      },
+      {
+        "ticker": "9888.HK",
+        "company": "Baidu",
+        "pct": 2.0642237554505893
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T13:48:24.046798+00:00",
+    "type": "single_stock",
+    "headline": "Intel, AMD, Strategy, Meta, Warner Bros, and More Stocks That Explain Today’s Market",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9zM3hEVDdnSUhOblJuYUI5TlJkc1Z0TloyNjRpdThyY093TVRIV01RR2VpWllPM3BBWWNQX0g4TzhaUEx4UFBSY19JNjdpSnVLLUNwcENkUGxiV2FpTjU0R1lxU0M?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "AMD",
+      "company": "Advanced Micro Devices",
+      "pct": 7.704262855656352,
+      "last": 602.9500122070312,
+      "prev": 559.8200073242188,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": 7.186924875542866
+      },
+      {
+        "ticker": "2454.TW",
+        "company": "MediaTek",
+        "pct": 6.369426751592355
+      },
+      {
+        "ticker": "6723.T",
+        "company": "Renesas Electronics Corp.",
+        "pct": 4.450757575757569
+      },
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": 4.448563484708057
+      }
+    ],
+    "analysis": {
+      "business_model": "AMD designs and sells high‑performance CPUs and GPUs for PCs, servers, and AI workloads, licensing its chip architectures to manufacturers for revenue.",
+      "sentiment": "Bullish - AI chip demand exceeds expectations",
+      "why_moved": "AMD surged after the market highlighted its strong AI‑chip sales and upbeat guidance in its latest earnings release, outpacing peers.",
+      "read_across": "The rally suggests Intel and other chipmakers like MediaTek, Renesas, and SK Square may see similar upside if AI demand stays robust, reinforcing supply‑chain strength across the sector.",
+      "look_out": "Watch AMD’s upcoming product roadmap, Q3 earnings, and any shifts in semiconductor inventory levels that could temper the rally.",
+      "memory": "AMD’s 2023 earnings beat spurred a comparable AI‑driven rally, boosting the broader chip sector before a pullback later in the year."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T13:48:24.046803+00:00",
+    "type": "single_stock",
+    "headline": "A melanoma vaccine was hailed as a breakthrough. Which cancers are next?",
+    "source": "washingtonpost.com",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd01EWFpGRkJ5Q09ndFBoU1JUWmlCY0NtTlVOUG1kbXFlYVh6Vm1NeHhBc2ktdUZ2RHB2dG9zVUNRdmpRN1RidnZjMGtKRjZuSFJwRm45V1E5bmkzRGlJQ0g3WWh2YTI3bkwzNVh0N3gxS25JTFZLVGNGb2R1WHV6a1FYRzBfdlZBMWRiRE5xNngwTjNOU1ZFUl9yZllXSzFsRDJtWXRGdzhqb0pSVGRJc0RINA?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "pct": 6.0925799627841615,
+      "last": 163.4250030517578,
+      "prev": 154.0399932861328,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "1177.HK",
+        "company": "Sino Biopharm",
+        "pct": 8.226696587981564
+      },
+      {
+        "ticker": "2269.HK",
+        "company": "WuXi Biologics",
+        "pct": 5.263161084783263
+      },
+      {
+        "ticker": "300759.SZ",
+        "company": "Pharmaron Beijing",
+        "pct": 4.226332247803799
+      },
+      {
+        "ticker": "002821.SZ",
+        "company": "Asymchem Laboratories (Tianjin)",
+        "pct": 3.126354557413946
+      }
+    ],
+    "analysis": {
+      "business_model": "Moderna designs and manufactures messenger‑RNA medicines, primarily vaccines and therapeutics, generating revenue from product sales and licensing.",
+      "sentiment": "Bullish - breakthrough cancer vaccine fuels growth expectations",
+      "why_moved": "Shares jumped after data showed Moderna’s melanoma mRNA vaccine achieving strong early efficacy, suggesting the platform can target solid tumors beyond COVID.",
+      "read_across": "Peer biotech stocks rose, reflecting broader optimism that mRNA tech will expand into oncology and drive contract‑manufacturing demand.",
+      "look_out": "Watch for FDA review timelines, Phase III data for additional cancer indications, and partnership announcements.",
+      "memory": "The stock surged similarly after Moderna’s COVID‑19 vaccine received emergency use authorisation in 2020, sparking a multi‑digit rally."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T13:48:24.046807+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "P",
+      "company": "Everpure",
+      "pct": 6.318419310177892,
+      "last": 110.72000122070312,
+      "prev": 104.13999938964844,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "SMCI",
+        "company": "Supermicro",
+        "pct": 5.039655188061443
+      },
+      {
+        "ticker": "0992.HK",
+        "company": "Lenovo",
+        "pct": -4.896221561829151
+      },
+      {
+        "ticker": "STX",
+        "company": "Seagate Technology",
+        "pct": 2.6368518625783155
+      },
+      {
+        "ticker": "HPQ",
+        "company": "HP Inc.",
+        "pct": -2.4683197168607562
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T13:48:24.046811+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "SMCI",
+      "company": "Supermicro",
+      "pct": 5.039655188061443,
+      "last": 41.060001373291016,
+      "prev": 39.09000015258789,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "P",
+        "company": "Everpure",
+        "pct": 6.318419310177892
+      },
+      {
+        "ticker": "0992.HK",
+        "company": "Lenovo",
+        "pct": -4.896221561829151
+      },
+      {
+        "ticker": "STX",
+        "company": "Seagate Technology",
+        "pct": 2.6368518625783155
+      },
+      {
+        "ticker": "HPQ",
+        "company": "HP Inc.",
+        "pct": -2.4683197168607562
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
