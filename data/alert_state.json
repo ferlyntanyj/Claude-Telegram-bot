@@ -407,7 +407,11 @@
     "sector:utilities diversified": {
       "last_alert_utc": "2026-09-21T06:02:34.254230+00:00",
       "last_move_pct": 6.250004656612851
+    },
+    "sector:malaysia utilities": {
+      "last_alert_utc": "2026-09-21T06:17:37.086148+00:00",
+      "last_move_pct": 6.250004656612851
     }
   },
-  "last_run_utc": "2026-09-21T06:00:46.722517+00:00"
+  "last_run_utc": "2026-09-21T06:16:07.701946+00:00"
 }

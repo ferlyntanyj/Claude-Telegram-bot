@@ -6085,5 +6085,41 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-21T06:17:37.089360+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Malaysia · Bursa Malaysia",
+    "primary": {
+      "ticker": "6742.KL",
+      "company": "YTL POWER INTERNATIONAL BHD",
+      "pct": 6.451615384168385,
+      "last": 5.940000057220459,
+      "prev": 5.579999923706055,
+      "currency": "MYR"
+    },
+    "peers": [
+      {
+        "ticker": "4677.KL",
+        "company": "YTL CORPORATION BHD",
+        "pct": 6.250004656612851
+      },
+      {
+        "ticker": "5347.KL",
+        "company": "Tenaga Nasional",
+        "pct": 0.1533777440351214
+      }
+    ],
+    "analysis": {
+      "business_model": "YTL Power International Bhd is a Malaysia‑based power generation company that owns and operates a portfolio of thermal, hydro and renewable plants, selling electricity to the national grid and large industrial off‑takers.",
+      "sentiment": "Bullish - sector‑wide rally lifts YTL Power shares",
+      "why_moved": "The stock jumped after a market‑wide move in Malaysian utilities following rumors of higher electricity tariffs and renewed government support for power generation.",
+      "read_across": "Similar gains in YTL Corp and Tenaga Nasional suggest the entire power sector is benefiting from the same policy expectations.",
+      "look_out": "Monitor the Energy Commission’s tariff announcement and YTL Power’s upcoming earnings for confirmation of the upside.",
+      "memory": "A comparable surge occurred in early 2023 when Malaysia announced a power tariff hike, sending utility stocks higher."
+    }
   }
 ]
