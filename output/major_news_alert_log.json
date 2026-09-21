@@ -3682,5 +3682,731 @@
       "look_out": "Watch for Indian policy approvals, the timing of fab construction milestones, and Applied Materials' quarterly guidance on revenue contribution from the new investment.",
       "memory": "A similar surge occurred in 2021 when Applied Materials announced large U.S. chip subsidies under the CHIPS Act, boosting its stock before execution."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T00:06:27.502954+00:00",
+    "type": "single_stock",
+    "headline": "China’s CXMT touts new chip process as close to ‘world’s most advanced’",
+    "source": "South China Morning Post",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQnZDMVg0a1FaTUZ2aVdiVTU3aTJINkxsMEZHVEhWMWZLNzh1S2w3T0J4TkhGbm4tYzZoX3FBNG5TX2otSUNOc2hXcFhJWGJURnF3NmcwYVdDZTRZenVkQ3ozSlliX3B6MEhwRzYtWl9UUlcwejIxTGFKeS1VZnZPWUJEc29OaWFXRXZDQlEwSHNaWkR6MjBjQkZ0enhiRWFhLTY0N09teVBiREp2RGpDWnBDajlBaDd3OXfSAboBQVVfeXFMTU4tOVo1c1dCZExzWGVMM3dFYndHeFFCNEtGR1EwVlVmWVA0NERVU2RvZzBLYzZLVjY2dDF4aElBV0FwMEp6ekdOc0NvRzJWOFRKWDFodExqUEtydmtuelhxY3YwOFpScnVjSFJueDV1NkZmTHI2MG1FZUQ1UDlNaldRY0FtNjN2WGdSOE8xVnZMOFd2R1U4bGJ1OGNRZ200SzNlc1JUeHNMaV9taUQxaURJTEpId1VobW5B?oc=5",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "000660.KS",
+      "company": "SK Hynix",
+      "pct": 6.418338108882526,
+      "last": 1857000.0,
+      "prev": 1745000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      },
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": 7.043650793650791
+      },
+      {
+        "ticker": "2408.TW",
+        "company": "Nanya Technology",
+        "pct": -5.9047619047619015
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T00:06:27.502969+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6857.T",
+      "company": "Advantest Corp.",
+      "pct": 5.985449735449744,
+      "last": 32050.0,
+      "prev": 30240.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": 8.704115684093438
+      },
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research",
+        "pct": 6.9807983228986625
+      },
+      {
+        "ticker": "AMAT",
+        "company": "Applied Materials",
+        "pct": 6.509346867521182
+      },
+      {
+        "ticker": "300316.SZ",
+        "company": "Zhejiang Jingsheng Mechanical & Electrical",
+        "pct": 5.847375061105087
+      }
+    ],
+    "analysis": {
+      "business_model": "Advantest designs and manufactures semiconductor test equipment used to verify chips before shipment, selling primarily to fabless and integrated device manufacturers.",
+      "sentiment": "Bullish - strong demand for chip testing amid supply constraints",
+      "why_moved": "The stock jumped on a sector‑wide rally as peers in semiconductor equipment posted large gains, reflecting optimism over upcoming chip cycles.",
+      "read_across": "Similar moves in Lasertec, Lam Research, Applied Materials and Zhejiang Jingsheng suggest broader confidence in semiconductor equipment demand globally.",
+      "look_out": "Watch upcoming earnings reports and any updates on chip fab capacity expansions that could confirm the trend.",
+      "memory": "During the 2020 chip shortage, Advantest and peers saw similar spikes that later moderated."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T00:06:27.502973+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "402340.KS",
+      "company": "SK Square",
+      "pct": 7.043650793650791,
+      "last": 1079000.0,
+      "prev": 1008000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "600584.SS",
+        "company": "JCET",
+        "pct": 7.749077490774914
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": 7.444614663492
+      },
+      {
+        "ticker": "000660.KS",
+        "company": "SK Hynix",
+        "pct": 6.418338108882526
+      },
+      {
+        "ticker": "2408.TW",
+        "company": "Nanya Technology",
+        "pct": -5.9047619047619015
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T00:06:27.502977+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6920.T",
+      "company": "Lasertec Corp.",
+      "pct": 8.704115684093438,
+      "last": 39090.0,
+      "prev": 35960.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research",
+        "pct": 6.9807983228986625
+      },
+      {
+        "ticker": "AMAT",
+        "company": "Applied Materials",
+        "pct": 6.509346867521182
+      },
+      {
+        "ticker": "6857.T",
+        "company": "Advantest Corp.",
+        "pct": 5.985449735449744
+      },
+      {
+        "ticker": "300316.SZ",
+        "company": "Zhejiang Jingsheng Mechanical & Electrical",
+        "pct": 5.847375061105087
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T00:06:27.502980+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "079550.KS",
+      "company": "LIG Nex1",
+      "pct": 5.084745762711873,
+      "last": 744000.0,
+      "prev": 708000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "010140.KS",
+        "company": "Samsung Heavy Industries",
+        "pct": -3.2558139534883734
+      },
+      {
+        "ticker": "272210.KS",
+        "company": "Hanwha Systems",
+        "pct": 3.2258064516129004
+      },
+      {
+        "ticker": "009540.KS",
+        "company": "HD KSOE",
+        "pct": -3.1563845050215256
+      },
+      {
+        "ticker": "S63.SI",
+        "company": "Singapore Technologies Engineering",
+        "pct": 2.355257455108273
+      }
+    ],
+    "analysis": {
+      "business_model": "LIG Nex1 designs, produces and sells defense systems such as missiles, radars and avionics for South Korean and export customers.",
+      "sentiment": "Bullish - expectations of higher defense orders",
+      "why_moved": "The share rose on speculation of a new defense contract award, spurring buying while peers showed mixed reactions reflecting sector sentiment.",
+      "read_across": "LIG Nex1’s gain hints at renewed demand for Korean defense gear, which could lift peers like Hanwha Systems, though firms such as Samsung Heavy Industries remain pressured.",
+      "look_out": "Watch Korea’s upcoming defense procurement announcements and LIG Nex1’s quarterly earnings for confirmation of demand trends.",
+      "memory": "A comparable rally occurred in early 2022 after the government announced a boost in defense spending, lifting LIG Nex1 and other defense stocks."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T00:06:27.502983+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "267250.KS",
+      "company": "HD Hyundai",
+      "pct": -6.516853932584265,
+      "last": 208000.0,
+      "prev": 222500.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "096770.KS",
+        "company": "SK Innovation",
+        "pct": -2.0086083213773365
+      },
+      {
+        "ticker": "5020.T",
+        "company": "Eneos Holdings, Inc.",
+        "pct": -1.918465227817745
+      },
+      {
+        "ticker": "010950.KS",
+        "company": "S-Oil",
+        "pct": -1.7739816031537403
+      },
+      {
+        "ticker": "5019.T",
+        "company": "Idemitsu Kosan Co., Ltd.",
+        "pct": -1.3150029886431547
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T00:06:27.502985+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "5706.T",
+      "company": "Mitsui Mining & Smelting Co.",
+      "pct": 7.346362137979745,
+      "last": 22795.0,
+      "prev": 21235.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "000880.KS",
+        "company": "Hanwha",
+        "pct": -3.985507246376807
+      },
+      {
+        "ticker": "000150.KS",
+        "company": "Doosan",
+        "pct": 2.9893238434163694
+      },
+      {
+        "ticker": "8001.T",
+        "company": "Itochu Corp.",
+        "pct": -2.6793248945147674
+      },
+      {
+        "ticker": "8053.T",
+        "company": "Sumitomo Corp.",
+        "pct": -2.62943887232312
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T00:06:27.502988+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "3436.T",
+      "company": "Sumco Corp.",
+      "pct": 5.597210113339135,
+      "last": 3028.0,
+      "prev": 2867.5,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": 8.704115684093438
+      },
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research",
+        "pct": 6.9807983228986625
+      },
+      {
+        "ticker": "AMAT",
+        "company": "Applied Materials",
+        "pct": 6.509346867521182
+      },
+      {
+        "ticker": "6857.T",
+        "company": "Advantest Corp.",
+        "pct": 5.985449735449744
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T00:06:27.502991+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "006260.KS",
+      "company": "LS",
+      "pct": 7.072368421052633,
+      "last": 325500.0,
+      "prev": 304000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "300014.SZ",
+        "company": "Eve Energy",
+        "pct": 6.9044202004159505
+      },
+      {
+        "ticker": "010120.KS",
+        "company": "LS Electric",
+        "pct": 4.702970297029707
+      },
+      {
+        "ticker": "300274.SZ",
+        "company": "Sungrow Power Supply",
+        "pct": 3.803004306142488
+      },
+      {
+        "ticker": "5801.T",
+        "company": "Furukawa Electric Co., Ltd.",
+        "pct": 3.6672867393037434
+      }
+    ],
+    "analysis": {
+      "business_model": "LS Cable & System designs, manufactures and sells power and telecom cables and integrated energy infrastructure solutions.",
+      "sentiment": "Bullish - strong intraday rally on sector‑wide optimism",
+      "why_moved": "The stock jumped as peers in the power‑equipment space also surged, suggesting a broader industry rally.",
+      "read_across": "Similar gains in Eve Energy, LS Electric, Sungrow and Furukawa point to rising demand for renewable‑energy infrastructure and cables.",
+      "look_out": "Watch upcoming earnings releases and any government announcements on grid upgrades or renewable subsidies.",
+      "memory": "A comparable rally occurred in early 2023 when Korean infrastructure stimulus lifted cable makers’ shares."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T00:06:27.502994+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "GMD.AX",
+      "company": "Genesis Minerals",
+      "pct": 5.263159632734982,
+      "last": 7.599999904632568,
+      "prev": 7.21999979019165,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "GGP.AX",
+        "company": "Greatland Resources",
+        "pct": 5.539636188286812
+      },
+      {
+        "ticker": "EVN.AX",
+        "company": "Evolution Mining",
+        "pct": 4.420731164368741
+      },
+      {
+        "ticker": "PRU.AX",
+        "company": "Perseus Mining",
+        "pct": 2.647976234792826
+      },
+      {
+        "ticker": "NEM.AX",
+        "company": "Newmont",
+        "pct": 2.4823696123097427
+      }
+    ],
+    "analysis": {
+      "business_model": "Genesis Minerals explores and develops gold projects in Australia, chiefly the Mount Morgans gold deposit, generating revenue from future gold sales.",
+      "sentiment": "Bullish - sector rally on higher gold prices",
+      "why_moved": "The stock jumped as gold prices rose and peers rallied, fueling speculation on upcoming production updates.",
+      "read_across": "Similar gains in Greatland, Evolution, Perseus and Newmont show broad gold-mining optimism.",
+      "look_out": "Watch gold price trends, Genesis's next production guidance and any exploration drill results.",
+      "memory": "A comparable rally occurred in early 2024 when gold rallied, lifting junior miners."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T00:06:27.502996+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "MCY.AX",
+      "company": "Mercury NZ",
+      "pct": 5.660371756630234,
+      "last": 5.599999904632568,
+      "prev": 5.300000190734863,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "MEZ.AX",
+        "company": "Meridian Energy",
+        "pct": -3.587440494251337
+      },
+      {
+        "ticker": "9501.T",
+        "company": "Tokyo Electric Power Company Holdings, I",
+        "pct": -1.1686443468793994
+      },
+      {
+        "ticker": "001289.SZ",
+        "company": "China Longyuan Power Group Limited",
+        "pct": 1.143241947560747
+      },
+      {
+        "ticker": "600886.SS",
+        "company": "SDIC Power Holdings",
+        "pct": -0.8321767331774033
+      }
+    ],
+    "analysis": {
+      "business_model": "Mercury NZ generates and sells renewable electricity, mainly wind and hydro, to the New Zealand grid.",
+      "sentiment": "Bullish - investors reacting to speculative renewable demand",
+      "why_moved": "The stock jumped on speculation of a new power purchase agreement and strong demand for green energy, while peers fell on broader market weakness.",
+      "read_across": "The rise may signal confidence in NZ renewable assets, putting pressure on peers like Meridian to prove growth.",
+      "look_out": "Watch for the company’s upcoming earnings release and any government subsidy announcements.",
+      "memory": "In early 2023 Mercury NZ rallied on similar subsidy speculation, then settled after results."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T00:06:27.502999+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "GGP.AX",
+      "company": "Greatland Resources",
+      "pct": 5.539636188286812,
+      "last": 11.050000190734863,
+      "prev": 10.470000267028809,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "GMD.AX",
+        "company": "Genesis Minerals",
+        "pct": 5.263159632734982
+      },
+      {
+        "ticker": "EVN.AX",
+        "company": "Evolution Mining",
+        "pct": 4.420731164368741
+      },
+      {
+        "ticker": "PRU.AX",
+        "company": "Perseus Mining",
+        "pct": 2.647976234792826
+      },
+      {
+        "ticker": "NEM.AX",
+        "company": "Newmont",
+        "pct": 2.4823696123097427
+      }
+    ],
+    "analysis": {
+      "business_model": "Greatland Resources develops and eventually produces battery‑grade lithium from its Australian projects, selling the concentrate or hydroxide to EV battery makers.",
+      "sentiment": "Bullish - strong sector rally lifts junior lithium stocks",
+      "why_moved": "The share jump mirrors a broader rally in Australian mining and lithium stocks, likely driven by rising commodity prices and heightened demand for battery materials.",
+      "read_across": "Similar gains in Genesis Minerals, Evolution Mining and other miners suggest market optimism across the sector, benefiting both lithium and gold producers.",
+      "look_out": "Watch for Greatland's upcoming project milestones and lithium price trends, plus any Australian mining policy updates.",
+      "memory": "In early 2021 junior lithium explorers rallied sharply on soaring lithium prices before moderating later."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T00:06:27.503002+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "021240.KS",
+      "company": "Coway",
+      "pct": -5.953488372093019,
+      "last": 101100.0,
+      "prev": 107500.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "9843.T",
+        "company": "Nitori Holdings Co., Ltd.",
+        "pct": -2.822322001282873
+      },
+      {
+        "ticker": "000651.SZ",
+        "company": "Gree Electric",
+        "pct": 1.5271243761066478
+      },
+      {
+        "ticker": "HWDN.L",
+        "company": "Howdens Joinery",
+        "pct": -1.5101772816808912
+      },
+      {
+        "ticker": "000333.SZ",
+        "company": "Midea Group",
+        "pct": -0.7525862920488069
+      }
+    ],
+    "analysis": {
+      "business_model": "Coway manufactures and sells home‑appliance products such as water purifiers, air cleaners and other health‑focused consumer goods, earning most revenue from sales and service contracts in South Korea and abroad.",
+      "sentiment": "Bearish - intraday sell‑off reflects weak demand expectations",
+      "why_moved": "The stock slid 6% on a sharp intra‑day sell‑off, likely triggered by broader concerns about consumer‑appliance demand, as peers like Nitori and Howdens also fell.",
+      "read_across": "Similar declines among Nitori, Gree, Howdens and Midea suggest sector‑wide pressure on home‑appliance demand and supply chains.",
+      "look_out": "Watch Coway’s next earnings release, Korean consumer‑confidence data, and any regulatory updates on product safety.",
+      "memory": "Coway’s shares dropped over 5% after a Q1 earnings miss in early 2022, then recovered on later guidance improvement."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T00:06:27.503004+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "402340.KS",
+      "company": "SK Square",
+      "pct": 7.043650793650791,
+      "last": 1079000.0,
+      "prev": 1008000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "000660.KS",
+        "company": "SK Hynix",
+        "pct": 6.418338108882526
+      },
+      {
+        "ticker": "6723.T",
+        "company": "Renesas Electronics Corp.",
+        "pct": 4.450757575757569
+      }
+    ],
+    "analysis": {
+      "business_model": "SK Square operates as a fintech subsidiary of SK Group, offering digital payment platforms, merchant services and other financial technology solutions.",
+      "sentiment": "Bullish - strong intra‑day rally on sector momentum",
+      "why_moved": "The stock surged on a broad tech‑related rally, with investors betting on heightened demand for digital payments and possible positive earnings cues.",
+      "read_across": "Similar gains in SK Hynix and Renesas suggest a wider upbeat sentiment for chip‑linked technology firms, which could lift fintech players reliant on device ecosystems.",
+      "look_out": "Watch SK Square’s upcoming earnings, any fintech regulatory news, and macro data on consumer spending that could sustain the rally.",
+      "memory": "A comparable rally occurred in early 2023 when Korean chip makers rallied on global demand, lifting related tech stocks."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T00:06:27.503007+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6920.T",
+      "company": "Lasertec Corp.",
+      "pct": 8.704115684093438,
+      "last": 39090.0,
+      "prev": 35960.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "6857.T",
+        "company": "Advantest Corp.",
+        "pct": 5.985449735449744
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": 5.597210113339135
+      },
+      {
+        "ticker": "042700.KS",
+        "company": "Hanmi Semiconductor",
+        "pct": 4.656319290465638
+      },
+      {
+        "ticker": "8035.T",
+        "company": "Tokyo Electron Ltd.",
+        "pct": 4.198548165587601
+      }
+    ],
+    "analysis": {
+      "business_model": "Lasertec Corp designs, manufactures and sells laser processing systems for semiconductor, display and solar cell production, generating revenue from equipment sales and service contracts.",
+      "sentiment": "Bullish - sector rally on semiconductor equipment demand",
+      "why_moved": "Shares jumped on an industry‑wide surge as semiconductor equipment makers posted strong order growth, lifting Lasertec on market sentiment.",
+      "read_across": "Similar gains in Advantest, Sumco, Hanmi and Tokyo Electron suggest a broader boost in chip‑making supply chain and equipment demand.",
+      "look_out": "Watch Lasertec's upcoming earnings, order backlog updates and any macro‑chip demand data that could confirm the rally.",
+      "memory": "A comparable rally occurred in early 2023 when semiconductor equipment stocks rallied on renewed US chip demand, leading to sustained price gains."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T00:06:27.503010+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "GGP.AX",
+      "company": "Greatland Resources",
+      "pct": 5.539636188286812,
+      "last": 11.050000190734863,
+      "prev": 10.470000267028809,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "GMD.AX",
+        "company": "Genesis Minerals",
+        "pct": 5.263159632734982
+      },
+      {
+        "ticker": "EVN.AX",
+        "company": "Evolution Mining",
+        "pct": 4.420731164368741
+      },
+      {
+        "ticker": "PRU.AX",
+        "company": "Perseus Mining",
+        "pct": 2.647976234792826
+      },
+      {
+        "ticker": "NEM.AX",
+        "company": "Newmont",
+        "pct": 2.4823696123097427
+      }
+    ],
+    "analysis": {
+      "business_model": "Greatland Resources explores, develops and eventually mines gold projects in Australia, generating revenue from gold sales once production commences.",
+      "sentiment": "Bullish - market reacting to broader gold price rally",
+      "why_moved": "The stock jumped on a sector‑wide rally as gold prices rose, lifting peer miners like Genesis Minerals and Evolution Mining.",
+      "read_across": "Higher gold prices are boosting sentiment across Australian miners, suggesting continued upside for similar exploration companies.",
+      "look_out": "Watch gold price trends, upcoming resource update for the Kintyre project, and any regulatory approvals.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
