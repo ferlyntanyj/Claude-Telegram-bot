@@ -5635,5 +5635,97 @@
       "look_out": "Watch upcoming Chinese manufacturing PMI and aluminium price reports for further direction.",
       "memory": "Similar sector sell‑offs occurred in early 2020 when aluminium prices fell sharply on COVID‑19 demand concerns."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T03:02:53.343816+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "443060.KS",
+      "company": "HD Hyundai Marine Solution",
+      "pct": -5.284552845528456,
+      "last": 233000.0,
+      "prev": 246000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "600893.SS",
+        "company": "AVIC Aviation Engine Corporation",
+        "pct": 3.77647255447382
+      },
+      {
+        "ticker": "600760.SS",
+        "company": "AVIC SHENYANG AIRCRAFT COMPANY",
+        "pct": 2.7334781469991354
+      },
+      {
+        "ticker": "000768.SZ",
+        "company": "AVIC Aircraft",
+        "pct": 2.5503341615009667
+      },
+      {
+        "ticker": "600150.SS",
+        "company": "China CSSC Holdings",
+        "pct": 2.457556057781596
+      }
+    ],
+    "analysis": {
+      "business_model": "HD Hyundai Marine Solution designs, builds and maintains marine vessels and offshore structures, earning revenue from shipbuilding contracts and related services.",
+      "sentiment": "Bearish - shares fell sharply on unexpected price decline",
+      "why_moved": "The stock dropped 5.3% intraday despite peers rallying, likely reflecting market concerns over a slowdown in ship orders or a negative earnings preview.",
+      "read_across": "Peers such as AVIC and CSSC rose, suggesting sector‑wide optimism, but HD’s dip may signal firm‑specific order weakness that could affect related suppliers.",
+      "look_out": "Watch upcoming quarterly results, new order bookings, and any geopolitical freight‑rate shifts that could influence shipbuilding demand.",
+      "memory": "A similar sharp dip occurred in early 2023 when global freight rates fell, temporarily suppressing shipbuilder shares before recovery."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T03:02:53.343826+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "300413.SZ",
+      "company": "Mango Excellent Media",
+      "pct": 6.028761931346627,
+      "last": 19.170000076293945,
+      "prev": 18.079999923706055,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "4689.T",
+        "company": "Ly Corp.",
+        "pct": -3.069700320462132
+      },
+      {
+        "ticker": "9988.HK",
+        "company": "Alibaba Group",
+        "pct": 1.8298261154237272
+      },
+      {
+        "ticker": "AMZN",
+        "company": "Amazon",
+        "pct": 1.0032263418002785
+      },
+      {
+        "ticker": "3690.HK",
+        "company": "Meituan",
+        "pct": 0.9562904464759381
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
