@@ -399,7 +399,15 @@
     "single:COH.AX": {
       "last_alert_utc": "2026-09-21T05:32:43.301722+00:00",
       "last_move_pct": 5.173466321859443
+    },
+    "single:2015.HK": {
+      "last_alert_utc": "2026-09-21T06:02:33.731788+00:00",
+      "last_move_pct": -5.214464824698384
+    },
+    "sector:utilities diversified": {
+      "last_alert_utc": "2026-09-21T06:02:34.254230+00:00",
+      "last_move_pct": 6.250004656612851
     }
   },
-  "last_run_utc": "2026-09-21T05:45:32.724030+00:00"
+  "last_run_utc": "2026-09-21T06:00:46.722517+00:00"
 }

@@ -6003,5 +6003,87 @@
       "look_out": "Watch Cochlear’s upcoming earnings release and any FDA approval updates for hearing‑implant trials.",
       "memory": "Cochlear previously surged on rumors of successful clinical trial outcomes, then settled after results."
     }
+  },
+  {
+    "alert_utc": "2026-09-21T06:02:34.258336+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "2015.HK",
+      "company": "Li Auto",
+      "pct": -5.214464824698384,
+      "last": 45.08000183105469,
+      "prev": 47.560001373291016,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "GM",
+        "company": "General Motors",
+        "pct": -5.1027541655374264
+      },
+      {
+        "ticker": "MBG.DE",
+        "company": "Mercedes-Benz Group",
+        "pct": -3.019955242793093
+      },
+      {
+        "ticker": "VOW3.DE",
+        "company": "Volkswagen Group",
+        "pct": -2.9918872876853464
+      },
+      {
+        "ticker": "F",
+        "company": "Ford Motor Company",
+        "pct": -2.939012701106336
+      }
+    ],
+    "analysis": {
+      "business_model": "Li Auto designs, manufactures and sells extended‑range electric SUVs in China, earning revenue primarily from vehicle sales and related services.",
+      "sentiment": "Bearish - investors fear slowing EV demand and higher costs",
+      "why_moved": "The shares fell sharply as the broader auto sector sold off, with peers GM, Mercedes‑Benz and Volkswagen also dropping, indicating market‑wide pressure on car makers.",
+      "read_across": "The decline suggests peers may see margin pressure and valuation cuts as global demand softens and supply‑chain costs rise.",
+      "look_out": "Watch Chinese EV subsidy policy cues, Li Auto’s upcoming quarterly results, and macro consumer confidence data.",
+      "memory": "In early 2022 Chinese EV stocks plunged after subsidy cuts, then recovered as the market adjusted."
+    }
+  },
+  {
+    "alert_utc": "2026-09-21T06:02:34.258348+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Malaysia · Bursa Malaysia",
+    "primary": {
+      "ticker": "6742.KL",
+      "company": "YTL POWER INTERNATIONAL BHD",
+      "pct": 6.451615384168385,
+      "last": 5.940000057220459,
+      "prev": 5.579999923706055,
+      "currency": "MYR"
+    },
+    "peers": [
+      {
+        "ticker": "4677.KL",
+        "company": "YTL CORPORATION BHD",
+        "pct": 6.250004656612851
+      },
+      {
+        "ticker": "U96.SI",
+        "company": "Sembcorp Industries",
+        "pct": 0.0
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
