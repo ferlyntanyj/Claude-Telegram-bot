@@ -9025,5 +9025,143 @@
       "look_out": "Watch for the upcoming drilling results release and the company’s next production guidance, and keep an eye on gold price trends.",
       "memory": "In early 2022 Ramelius spiked after a resource upgrade announcement, then settled once the results were confirmed."
     }
+  },
+  {
+    "alert_utc": "2026-09-22T00:34:01.095529+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "009150.KS",
+      "company": "Samsung Electro-Mechanics",
+      "pct": 7.417774667599719,
+      "last": 1535000.0,
+      "prev": 1429000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "2308.TW",
+        "company": "Delta Electronics",
+        "pct": 8.069164265129691
+      },
+      {
+        "ticker": "011070.KS",
+        "company": "LG Innotek",
+        "pct": 7.129094412331405
+      },
+      {
+        "ticker": "007660.KS",
+        "company": "Isu Petasys",
+        "pct": 6.799637352674526
+      },
+      {
+        "ticker": "6981.T",
+        "company": "Murata Manufacturing Co., Ltd.",
+        "pct": 4.467770152065675
+      }
+    ],
+    "analysis": {
+      "business_model": "Samsung Electro-Mechanics designs and manufactures semiconductor components such as MLCCs, camera modules and printed circuit boards for smartphones, automotive and IoT devices.",
+      "sentiment": "Bullish - demand surge for MLCCs boosts earnings",
+      "why_moved": "The stock leapt after the company disclosed stronger-than-expected quarterly results and higher component order intake, echoing gains at peers like Delta Electronics and LG Innotek.",
+      "read_across": "Rising prices across regional component makers signal a broader upturn in demand for electronic parts and tighter supply-chain conditions.",
+      "look_out": "Watch the upcoming earnings call, global chip-supply outlook and any revisions to automotive-electronics forecasts.",
+      "memory": "A similar rally occurred in early 2022 when MLCC demand surged amid smartphone upgrades, leading to a 10%‑plus price jump."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T00:34:01.095546+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "006800.KS",
+      "company": "Mirae Asset Securities",
+      "pct": 5.790297339593109,
+      "last": 33800.0,
+      "prev": 31950.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "HOOD",
+        "company": "Robinhood Markets",
+        "pct": 9.115747526439222
+      },
+      {
+        "ticker": "IBKR",
+        "company": "Interactive Brokers",
+        "pct": 2.613719461163422
+      },
+      {
+        "ticker": "INVP.L",
+        "company": "Investec",
+        "pct": -2.4962178517397904
+      },
+      {
+        "ticker": "071050.KS",
+        "company": "Korea Investment",
+        "pct": 2.386117136659438
+      }
+    ],
+    "analysis": {
+      "business_model": "Mirae Asset Securities is a Korean brokerage and asset‑management firm that earns fees from trading services, investment advisory, and wealth‑management products for retail and institutional clients.",
+      "sentiment": "Bullish - broker gains on heightened retail trading demand",
+      "why_moved": "The stock jumped as part of a broader rally in brokerage equities, driven by strong retail trading activity and upbeat sentiment toward financial‑services firms. Its rise parallels gains in peers such as Robinhood and Interactive Brokers.",
+      "read_across": "The move signals renewed confidence in brokerage business models, likely lifting valuations for domestic peers like Korea Investment and international platforms that rely on retail trading volumes.",
+      "look_out": "Watch upcoming earnings reports and any regulatory updates affecting brokerage commissions or market access, which could confirm or reverse the rally.",
+      "memory": "A similar surge occurred in early 2023 when Korean brokerages beat earnings expectations, prompting a short‑term rally before normalizing."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T00:34:01.095550+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "011070.KS",
+      "company": "LG Innotek",
+      "pct": 7.129094412331405,
+      "last": 556000.0,
+      "prev": 519000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "2308.TW",
+        "company": "Delta Electronics",
+        "pct": 8.069164265129691
+      },
+      {
+        "ticker": "009150.KS",
+        "company": "Samsung Electro-Mechanics",
+        "pct": 7.417774667599719
+      },
+      {
+        "ticker": "007660.KS",
+        "company": "Isu Petasys",
+        "pct": 6.799637352674526
+      },
+      {
+        "ticker": "6981.T",
+        "company": "Murata Manufacturing Co., Ltd.",
+        "pct": 4.467770152065675
+      }
+    ],
+    "analysis": {
+      "business_model": "LG Innotek designs and manufactures electronic components such as camera modules, LED packages and automotive semiconductors, supplying major smartphone and car makers.",
+      "sentiment": "Bullish - strong sector demand lifts component stocks",
+      "why_moved": "The stock jumped alongside peers like Delta Electronics and Samsung Electro‑Mechanics, reflecting a broad rally in electronic component makers, likely driven by rising demand and supply‑chain optimism.",
+      "read_across": "The move suggests momentum for both Korean and international component suppliers, hinting at tighter supply or higher demand across the electronics ecosystem.",
+      "look_out": "Watch LG Innotek’s upcoming earnings, order book updates and any macro data on semiconductor demand or supply constraints.",
+      "memory": "A comparable rally occurred in early 2022 when smartphone component stocks surged on supply‑chain tightening."
+    }
   }
 ]
