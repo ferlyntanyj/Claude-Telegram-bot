@@ -10400,5 +10400,97 @@
       "look_out": "Watch for the next earnings release or any UK retail data that could confirm whether the rally has fundamentals behind it.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-22T12:37:30.681055+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "CHRW",
+      "company": "C.H. Robinson",
+      "pct": 6.8175855,
+      "last": 163.26,
+      "prev": 152.84,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "2057.HK",
+        "company": "ZTO Express",
+        "pct": -5.118835370411046
+      },
+      {
+        "ticker": "UPS",
+        "company": "United Parcel Service",
+        "pct": -4.35089608804442
+      },
+      {
+        "ticker": "600233.SS",
+        "company": "YTO Express Group",
+        "pct": -4.171173286041552
+      },
+      {
+        "ticker": "FDX",
+        "company": "FedEx",
+        "pct": -2.5885017321100268
+      }
+    ],
+    "analysis": {
+      "business_model": "C.H. Robinson is a third‑party logistics firm that provides freight brokerage and supply‑chain management services for shippers and carriers.",
+      "sentiment": "Bullish - price rally despite lack of news",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped intraday on its own momentum while peers fell.",
+      "read_across": "The move shows CHRW outperforming its logistics peers, hinting at a possible rotation into its services despite broader sector weakness.",
+      "look_out": "Watch for upcoming earnings, guidance updates, or any news that could justify the rally and see if the broader logistics sector steadies.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T12:37:30.681068+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "ALGN",
+      "company": "Align Technology",
+      "pct": 10.123907,
+      "last": 161.75,
+      "prev": 146.88,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "COO",
+        "company": "Cooper Companies (The)",
+        "pct": -2.116118582508475
+      },
+      {
+        "ticker": "ISRG",
+        "company": "Intuitive Surgical",
+        "pct": 2.1152740976412066
+      },
+      {
+        "ticker": "FPH.AX",
+        "company": "Fisher & Paykel Healthcare",
+        "pct": 1.287070685141578
+      },
+      {
+        "ticker": "RMD",
+        "company": "ResMed|",
+        "pct": -0.6133627490641724
+      }
+    ],
+    "analysis": {
+      "business_model": "Align Technology designs, manufactures and sells the Invisalign clear‑aligner system and iTero intraoral scanning devices, earning revenue from orthodontic and restorative dental products.",
+      "sentiment": "Neutral - price rally lacks identifiable catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped intraday on price action alone, while peers showed mixed moves.",
+      "read_across": "The modest moves in peers like Cooper Companies and Intuitive Surgical suggest limited sector‑wide drivers, indicating the rally may be isolated to Align.",
+      "look_out": "Watch for Align's upcoming earnings, guidance updates, or any regulatory news that could confirm the price move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]

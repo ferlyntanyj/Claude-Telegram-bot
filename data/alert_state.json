@@ -641,7 +641,17 @@
       "last_alert_utc": "2026-09-22T07:33:36.318479+00:00",
       "last_move_pct": 9.62624358124704,
       "last_move_asof": "2026-09-22"
+    },
+    "premarket:CHRW": {
+      "last_alert_utc": "2026-09-22T12:37:30.002572+00:00",
+      "last_move_pct": 6.8175855,
+      "last_move_asof": null
+    },
+    "premarket:ALGN": {
+      "last_alert_utc": "2026-09-22T12:37:30.673226+00:00",
+      "last_move_pct": 10.123907,
+      "last_move_asof": null
     }
   },
-  "last_run_utc": "2026-09-22T12:15:36.759331+00:00"
+  "last_run_utc": "2026-09-22T12:30:41.947066+00:00"
 }
