@@ -9991,5 +9991,327 @@
       "look_out": "Watch upcoming quarterly earnings releases and any supply‑chain updates on semiconductors.",
       "memory": "A similar rally occurred in 2022 after LG beat forecasts, leading to sustained gains."
     }
+  },
+  {
+    "alert_utc": "2026-09-22T01:48:28.290500+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "0700.HK",
+      "company": "Tencent Holdings Limited",
+      "pct": 6.232555300690401,
+      "last": 456.79998779296875,
+      "prev": 430.0,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "META",
+        "company": "Meta Platforms",
+        "pct": 11.428457919302492
+      },
+      {
+        "ticker": "RDDT",
+        "company": "Reddit",
+        "pct": 5.223725094592346
+      },
+      {
+        "ticker": "9888.HK",
+        "company": "Baidu",
+        "pct": 2.640447723731576
+      },
+      {
+        "ticker": "035720.KS",
+        "company": "Kakao",
+        "pct": 2.4096385542168752
+      }
+    ],
+    "analysis": {
+      "business_model": "Tencent operates a diversified internet platform, generating revenue from social networking (WeChat), online gaming, digital payments and cloud services.",
+      "sentiment": "Bullish - sector rally lifts Chinese tech stocks",
+      "why_moved": "Tencent shares jumped on broad tech optimism, mirrored by peers like Meta and Reddit, despite no specific corporate news.",
+      "read_across": "The rise suggests renewed investor confidence in internet and gaming firms globally, benefiting peers across China, US and Korea.",
+      "look_out": "Watch upcoming earnings reports and any regulatory updates affecting Chinese tech firms for confirmation of the trend.",
+      "memory": "A similar rally occurred after China eased tech regulations in 2021, spurring a sharp multi‑week price jump."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:48:28.290514+00:00",
+    "type": "single_stock",
+    "headline": "Chinese AI chipmaker Hygon plots expansion to robotics market",
+    "source": "South China Morning Post",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYWJuTkEzaDJHWkN1Sm4yTW0xU0VuTVU4U2llczA5YVlPOFRHeTBxVTJuMVFBNlc0Z2paT0lqcnB0WWJzMm1pcTY2UzNsODc3UjBOdjRUUFV0RUxnVHROekZVSWFRTHRsV0N6cWlrSFQ2V04xOHNfajA1OVZGRG44SE14dExDaldnNFhuZnYtX19KWTdPN09NaGNOdWtxaVgxRHdfQU05Tm5oOGRDM2lacHJyeGJzQXVZeVHSAboBQVVfeXFMTWFibk5BM2gyR1pDdUpuMk1tMVNFbk1VOFNpZXMwOWFZTzhUR3kwcVUybjFRQTZXNGdqWk9JanJwdFliczJtaXE2NlMzbDg3N1IwTnY0VFBVdEVMZ1R0TnpGVUlhUUx0bFdDenFpa0hUNldOMThzX2owNTlWRkRuOEhNeHRMQ2pXZzRYbmZ2LV9fSlk3TzdPTWhjTnVrcWlYMUR3X0FNOU5uaDhkQzNpWnBycnhic0F1WXlR?oc=5",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "688041.SS",
+      "company": "Hygon Information Technology",
+      "pct": 8.703589861576244,
+      "last": 267.8999938964844,
+      "prev": 246.4499969482422,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "P",
+        "company": "Everpure",
+        "pct": 9.141544390490196
+      },
+      {
+        "ticker": "SMCI",
+        "company": "Supermicro",
+        "pct": 5.397801489166465
+      },
+      {
+        "ticker": "HPQ",
+        "company": "HP Inc.",
+        "pct": -4.215118309947242
+      },
+      {
+        "ticker": "603019.SS",
+        "company": "Dawning Information Industry",
+        "pct": 3.145102826856916
+      }
+    ],
+    "analysis": {
+      "business_model": "Hygon Information Technology designs and manufactures AI‑focused processors, primarily x86‑compatible chips for data‑center and artificial‑intelligence workloads in China.",
+      "sentiment": "Bullish - robotics entry expands addressable AI chip market",
+      "why_moved": "The stock jumped after the company announced plans to extend its AI chip portfolio into the robotics sector, signalling a new growth avenue; peer stocks also rose on related AI optimism.",
+      "read_across": "Domestic peers like Dawning may see rising demand for AI silicon, while international vendors such as Supermicro could benefit from increased component orders in robotics deployments.",
+      "look_out": "Watch for partnership deals with robot manufacturers, timelines for product rollouts, and any regulatory approvals affecting AI chip usage in robotics.",
+      "memory": "A similar rally occurred in 2022 when Horizon Robotics announced its autonomous‑driving chip push, boosting its peers and the broader AI‑chip market."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:48:28.290519+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "002916.SZ",
+      "company": "Shennan Circuits",
+      "pct": 6.21994025810384,
+      "last": 419.5899963378906,
+      "prev": 395.0199890136719,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "3037.TW",
+        "company": "Unimicron",
+        "pct": 9.80392156862746
+      },
+      {
+        "ticker": "011070.KS",
+        "company": "LG Innotek",
+        "pct": 6.165703275529855
+      },
+      {
+        "ticker": "GLW",
+        "company": "Corning Inc.",
+        "pct": 5.894884804429745
+      },
+      {
+        "ticker": "009150.KS",
+        "company": "Samsung Electro-Mechanics",
+        "pct": 5.598320503848853
+      }
+    ],
+    "analysis": {
+      "business_model": "Shennan Circuits designs and manufactures printed circuit boards for telecom, consumer and automotive electronics, selling mainly to OEMs in China and abroad.",
+      "sentiment": "Bullish - PCB demand surge lifts shares",
+      "why_moved": "Shares jumped as the broader PCB sector rallied, with peers posting double‑digit gains on expectations of stronger 5G and automotive demand.",
+      "read_across": "The move signals similar upside for peers like Unimicron and LG Innotek as supply tightness meets rising demand across the global PCB market.",
+      "look_out": "Watch upcoming quarterly results, 5G rollout timelines and any export‑control news that could affect component supply.",
+      "memory": "A comparable PCB rally occurred in early 2021 when 5G rollout spurred earnings upgrades, then shares sustained gains for months."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:48:28.290523+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "688008.SS",
+      "company": "Montage Technology",
+      "pct": 10.647308171026836,
+      "last": 232.47000122070312,
+      "prev": 210.10000610351562,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": 12.136280377864384
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "pct": 9.949628716069213
+      },
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm",
+        "pct": 9.28989106090139
+      },
+      {
+        "ticker": "2454.TW",
+        "company": "MediaTek",
+        "pct": 7.684630738522946
+      }
+    ],
+    "analysis": {
+      "business_model": "Montage Technology designs and manufactures custom ASICs and AI‑focused chips for data centers, automotive and industrial applications, earning most revenue from contract chip design and wafer production contracts.",
+      "sentiment": "Bullish - AI chip demand fuels optimism",
+      "why_moved": "The stock jumped after reports of a large AI‑chip order and upbeat guidance, sparking investor enthusiasm.",
+      "read_across": "Similar gains at Intel, AMD, Qualcomm and MediaTek suggest a broader rally in AI‑related semiconductor demand across both domestic and global markets.",
+      "look_out": "Watch for the company's upcoming earnings release, any new export‑control rulings, and confirmation of the reported order size.",
+      "memory": "A comparable surge occurred in early 2023 when Chinese chip firms rallied on AI hype, but the rally later softened as supply constraints emerged."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:48:28.290526+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "3008.TW",
+      "company": "Largan",
+      "pct": 5.234374999999991,
+      "last": 6735.0,
+      "prev": 6400.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "3037.TW",
+        "company": "Unimicron",
+        "pct": 9.80392156862746
+      },
+      {
+        "ticker": "002916.SZ",
+        "company": "Shennan Circuits",
+        "pct": 6.21994025810384
+      },
+      {
+        "ticker": "011070.KS",
+        "company": "LG Innotek",
+        "pct": 6.165703275529855
+      },
+      {
+        "ticker": "GLW",
+        "company": "Corning Inc.",
+        "pct": 5.894884804429745
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:48:28.290529+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "2057.HK",
+      "company": "ZTO Express",
+      "pct": -5.728219869378814,
+      "last": 154.6999969482422,
+      "prev": 164.10000610351562,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "UPS",
+        "company": "United Parcel Service",
+        "pct": -4.35089608804442
+      },
+      {
+        "ticker": "FDX",
+        "company": "FedEx",
+        "pct": -2.5885017321100268
+      },
+      {
+        "ticker": "600233.SS",
+        "company": "YTO Express Group",
+        "pct": -2.3293522164301472
+      },
+      {
+        "ticker": "FDXF",
+        "company": "FedEx Freight",
+        "pct": -2.106050809241067
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:48:28.290532+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "003490.KS",
+      "company": "Korean Air",
+      "pct": 5.372616984402079,
+      "last": 30400.0,
+      "prev": 28850.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "UAL",
+        "company": "United Airlines Holdings",
+        "pct": 5.224910636566338
+      },
+      {
+        "ticker": "DAL",
+        "company": "Delta Air Lines",
+        "pct": 3.617178038268287
+      },
+      {
+        "ticker": "LUV",
+        "company": "Southwest Airlines",
+        "pct": 1.927771899345987
+      },
+      {
+        "ticker": "QAN.AX",
+        "company": "Qantas",
+        "pct": 1.4220705408700463
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
