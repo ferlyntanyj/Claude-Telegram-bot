@@ -10584,5 +10584,51 @@
       "look_out": "Watch for Trimble's upcoming earnings, guidance updates or any news that could justify the sharp move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-22T13:08:24.583699+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "IDXX",
+      "company": "Idexx Laboratories",
+      "pct": 13.3417425,
+      "last": 584.05,
+      "prev": 515.3,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "A",
+        "company": "Agilent Technologies",
+        "pct": 3.4958785569302986
+      },
+      {
+        "ticker": "MTD",
+        "company": "Mettler Toledo",
+        "pct": 2.7378761051860545
+      },
+      {
+        "ticker": "300347.SZ",
+        "company": "Hangzhou Tigermed Consulting",
+        "pct": -1.9494854944184459
+      },
+      {
+        "ticker": "DHR",
+        "company": "Danaher Corporation",
+        "pct": 1.9026480457713157
+      }
+    ],
+    "analysis": {
+      "business_model": "Idexx Laboratories provides diagnostic testing products and services for veterinary, livestock, and water markets, earning revenue from instruments, reagents, and software.",
+      "sentiment": "Bullish - strong intraday price surge without news",
+      "why_moved": "No specific catalyst mentioned; the stock rose 13.3% on price action alone, likely driven by broader sector momentum or speculative buying.",
+      "read_across": "Peers such as Agilent and Danaher also posted gains, indicating a wider positive sentiment in the diagnostics and analytical equipment industry.",
+      "look_out": "Watch for upcoming earnings, guidance updates, or analyst commentary that could explain and sustain the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
