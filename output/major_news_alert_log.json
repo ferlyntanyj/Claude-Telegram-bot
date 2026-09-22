@@ -10492,5 +10492,97 @@
       "look_out": "Watch for Align's upcoming earnings, guidance updates, or any regulatory news that could confirm the price move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-22T12:57:06.461839+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "INCY",
+      "company": "Incyte",
+      "pct": -21.62856,
+      "last": 97.69,
+      "prev": 124.65,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "MRNA",
+        "company": "Moderna",
+        "pct": 12.269546857332191
+      },
+      {
+        "ticker": "002821.SZ",
+        "company": "Asymchem Laboratories (Tianjin)",
+        "pct": -1.7435476911245362
+      },
+      {
+        "ticker": "REGN",
+        "company": "Regeneron Pharmaceuticals",
+        "pct": 1.697140566803812
+      },
+      {
+        "ticker": "068270.KS",
+        "company": "Celltrion",
+        "pct": -1.5986769570010995
+      }
+    ],
+    "analysis": {
+      "business_model": "Incyte is a biopharmaceutical company that develops and commercializes oncology and inflammation therapies, generating revenue primarily from its drug sales and licensing agreements.",
+      "sentiment": "Bearish - 21.6% intraday plunge signals strong negative pressure",
+      "why_moved": "No specific catalyst is mentioned; the stock fell sharply on its own, likely reflecting broader biotech market volatility or profit‑taking after earlier gains.",
+      "read_across": "The divergent moves of peers—Moderna up 12.3% while other biotech stocks dip—suggest sector‑wide rotation, with investors favoring certain drug pipelines over others.",
+      "look_out": "Watch for Incyte's upcoming earnings release, FDA review timelines for its pipeline candidates, and any analyst coverage changes that could trigger further price action.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T12:57:06.461857+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "TRMB",
+      "company": "Trimble Inc.",
+      "pct": 15.168836,
+      "last": 66.51,
+      "prev": 57.75,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "CDA.AX",
+        "company": "Codan",
+        "pct": 2.6989173565902247
+      },
+      {
+        "ticker": "GRMN",
+        "company": "Garmin",
+        "pct": 2.2805225336337998
+      },
+      {
+        "ticker": "KEYS",
+        "company": "Keysight Technologies",
+        "pct": 2.098507098297575
+      },
+      {
+        "ticker": "COHR",
+        "company": "Coherent Corp.",
+        "pct": 1.3108154317252874
+      }
+    ],
+    "analysis": {
+      "business_model": "Trimble provides positioning, surveying and construction software and hardware solutions that help customers improve productivity and accuracy in fields like construction, agriculture and transportation.",
+      "sentiment": "Bullish - intraday buying despite lack of news",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 15.2% on pure price action with broader sector momentum.",
+      "read_across": "Peers such as Codan, Garmin, Keysight and Coherent also rose, suggesting a broader rally in geospatial and measurement technology stocks.",
+      "look_out": "Watch for Trimble's upcoming earnings, guidance updates or any news that could justify the sharp move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]

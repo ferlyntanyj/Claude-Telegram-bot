@@ -651,7 +651,17 @@
       "last_alert_utc": "2026-09-22T12:37:30.673226+00:00",
       "last_move_pct": 10.123907,
       "last_move_asof": null
+    },
+    "premarket:INCY": {
+      "last_alert_utc": "2026-09-22T12:57:05.903428+00:00",
+      "last_move_pct": -21.62856,
+      "last_move_asof": null
+    },
+    "premarket:TRMB": {
+      "last_alert_utc": "2026-09-22T12:57:06.455015+00:00",
+      "last_move_pct": 15.168836,
+      "last_move_asof": null
     }
   },
-  "last_run_utc": "2026-09-22T12:30:41.947066+00:00"
+  "last_run_utc": "2026-09-22T12:45:35.030105+00:00"
 }
