@@ -10313,5 +10313,51 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-22T06:47:53.246141+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "002129.SZ",
+      "company": "Tianjin Zhonghuan Semiconductor",
+      "pct": 6.2084194847283225,
+      "last": 9.579999923706055,
+      "prev": 9.020000457763672,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": 8.704115684093438
+      },
+      {
+        "ticker": "6857.T",
+        "company": "Advantest Corp.",
+        "pct": 5.985449735449744
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": 5.597210113339135
+      },
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research",
+        "pct": 4.918265297345936
+      }
+    ],
+    "analysis": {
+      "business_model": "Tianjin Zhonghuan Semiconductor manufactures semiconductor wafers and provides foundry services for integrated‑circuit production in China.",
+      "sentiment": "Bullish - intraday rally on sector momentum",
+      "why_moved": "No specific catalyst is cited; the stock jumped 6.2% on price action amid broader semiconductor‑related buying.",
+      "read_across": "The gains in LaserTec, Advantest, Sumco and Lam Research suggest a wider uplift in semiconductor equipment and material suppliers, benefiting both domestic and international peers.",
+      "look_out": "Watch for Chinese semiconductor policy news, upcoming earnings from major fabs, and further price moves in related equipment stocks.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
