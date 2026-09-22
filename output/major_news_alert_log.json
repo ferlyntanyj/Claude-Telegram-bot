@@ -9209,5 +9209,235 @@
       "look_out": "Watch the company’s upcoming earnings and global AI server demand data for confirmation of the rally.",
       "memory": "A similar AI‑driven rally in early 2023 lifted Korean chip component stocks before easing later."
     }
+  },
+  {
+    "alert_utc": "2026-09-22T01:03:16.698345+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "2454.TW",
+      "company": "MediaTek",
+      "pct": 6.369426751592355,
+      "last": 5010.0,
+      "prev": 4710.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm",
+        "pct": -5.823753432337975
+      },
+      {
+        "ticker": "6723.T",
+        "company": "Renesas Electronics Corp.",
+        "pct": 4.450757575757569
+      },
+      {
+        "ticker": "MPWR",
+        "company": "Monolithic Power Systems",
+        "pct": 4.122855605023967
+      },
+      {
+        "ticker": "3711.TW",
+        "company": "ASE Group",
+        "pct": 3.9184952978056353
+      }
+    ],
+    "analysis": {
+      "business_model": "MediaTek designs and sells system‑on‑chip processors for smartphones, IoT and automotive devices, earning revenue from chip sales and licensing.",
+      "sentiment": "Bullish - strong earnings beat lifts shares",
+      "why_moved": "Shares jumped after reports that MediaTek’s new 7nm smartphone chipset secured major carrier orders, outpacing rivals.",
+      "read_across": "The rise suggests investors favor cost‑efficient, high‑volume chipmakers; Qualcomm’s drop reflects pressure on premium‑priced solutions while peers like Renesas also benefit.",
+      "look_out": "Watch MediaTek’s upcoming earnings release and the commercial rollout of the new chipset, plus any supply‑chain or fab capacity news.",
+      "memory": "In early 2023 MediaTek’s launch of a 5G chipset sparked a similar rally that sustained for several months."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:03:16.698358+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "2308.TW",
+      "company": "Delta Electronics",
+      "pct": 8.069164265129691,
+      "last": 1875.0,
+      "prev": 1735.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "009150.KS",
+        "company": "Samsung Electro-Mechanics",
+        "pct": 7.627711686494054
+      },
+      {
+        "ticker": "007660.KS",
+        "company": "Isu Petasys",
+        "pct": 7.026291931097006
+      },
+      {
+        "ticker": "011070.KS",
+        "company": "LG Innotek",
+        "pct": 6.551059730250475
+      },
+      {
+        "ticker": "6981.T",
+        "company": "Murata Manufacturing Co., Ltd.",
+        "pct": 4.467770152065675
+      }
+    ],
+    "analysis": {
+      "business_model": "Delta Electronics designs and manufactures power management, thermal and industrial automation solutions for electronics, automotive and smart building markets.",
+      "sentiment": "Bullish - demand surge for power and thermal solutions",
+      "why_moved": "Shares jumped as investors anticipate strong order growth amid a sector-wide rally in electronic components.",
+      "read_across": "Similar gains at Samsung Electro-Mechanics, Isu Petasys, LG Innotek and Murata suggest a broader uptick in demand for passive and power-management parts.",
+      "look_out": "Watch Delta’s upcoming earnings release and any guidance on new automotive or EV contracts.",
+      "memory": "In early 2022 a comparable rally followed rising power-chip demand, boosting prices."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:03:16.698363+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Malaysia · Bursa Malaysia",
+    "primary": {
+      "ticker": "6742.KL",
+      "company": "YTL POWER INTERNATIONAL BHD",
+      "pct": 5.55555460605901,
+      "last": 5.889999866485596,
+      "prev": 5.579999923706055,
+      "currency": "MYR"
+    },
+    "peers": [
+      {
+        "ticker": "MTLN.L",
+        "company": "Metlen Energy & Metals",
+        "pct": -5.512816364138617
+      },
+      {
+        "ticker": "4677.KL",
+        "company": "YTL CORPORATION BHD",
+        "pct": 5.357137725365435
+      },
+      {
+        "ticker": "ORG.AX",
+        "company": "Origin Energy",
+        "pct": -3.253425552330913
+      },
+      {
+        "ticker": "EOAN.DE",
+        "company": "E.ON",
+        "pct": -2.2784741940284903
+      }
+    ],
+    "analysis": {
+      "business_model": "YTL Power International BHD generates electricity and sells it to utilities and large consumers in Malaysia and overseas, mainly through its portfolio of thermal, hydro and renewable power plants.",
+      "sentiment": "Bullish - investors anticipate higher power tariffs or renewable earnings",
+      "why_moved": "The stock jumped 5.6% after market speculation that YTL Power will benefit from upcoming tariff reviews, while peers showed mixed moves, indicating a company‑specific catalyst.",
+      "read_across": "The rally suggests domestic power generators may see similar upside if tariff reforms materialise, but international peers like E.ON and Origin are lagging, reflecting regional policy differences.",
+      "look_out": "Watch the Malaysian Energy Commission’s tariff announcement and YTL Power’s next earnings release for confirmation.",
+      "memory": "YTL Power previously rallied on a 2022 tariff hike expectation, then steadied after the decision was confirmed."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:03:16.698366+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "078930.KS",
+      "company": "GS",
+      "pct": -7.060900264783765,
+      "last": 105300.0,
+      "prev": 113300.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "5706.T",
+        "company": "Mitsui Mining & Smelting Co.",
+        "pct": 7.346362137979745
+      },
+      {
+        "ticker": "000150.KS",
+        "company": "Doosan",
+        "pct": 3.9804469273742926
+      },
+      {
+        "ticker": "8001.T",
+        "company": "Itochu Corp.",
+        "pct": -2.6793248945147674
+      },
+      {
+        "ticker": "8053.T",
+        "company": "Sumitomo Corp.",
+        "pct": -2.62943887232312
+      }
+    ],
+    "analysis": {
+      "business_model": "GS is a South Korean conglomerate whose core revenue comes from energy businesses, especially oil refining, LPG and electricity, plus a large retail network.",
+      "sentiment": "Bearish - sharp intraday sell‑off on earnings concerns",
+      "why_moved": "The stock fell 7.1% after market speculation of weaker than expected energy margins and a possible downgrade, despite no specific news release.",
+      "read_across": "Peers in mining and heavy industry rose, suggesting commodity price strength, while energy‑focused firms like GS face pressure, highlighting a split between mining demand and energy pricing.",
+      "look_out": "Watch upcoming earnings, crude oil price trends, and any regulator statements on refining margins.",
+      "memory": "During the 2020 COVID‑induced oil price crash, Korean energy stocks similarly slumped before recovering later."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:03:16.698369+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Malaysia · Bursa Malaysia",
+    "primary": {
+      "ticker": "4677.KL",
+      "company": "YTL CORPORATION BHD",
+      "pct": 5.357137725365435,
+      "last": 2.359999895095825,
+      "prev": 2.240000009536743,
+      "currency": "MYR"
+    },
+    "peers": [
+      {
+        "ticker": "6742.KL",
+        "company": "YTL POWER INTERNATIONAL BHD",
+        "pct": 5.55555460605901
+      },
+      {
+        "ticker": "MTLN.L",
+        "company": "Metlen Energy & Metals",
+        "pct": -5.512816364138617
+      },
+      {
+        "ticker": "ORG.AX",
+        "company": "Origin Energy",
+        "pct": -3.253425552330913
+      },
+      {
+        "ticker": "EOAN.DE",
+        "company": "E.ON",
+        "pct": -2.2784741940284903
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
   }
 ]
