@@ -10359,5 +10359,46 @@
       "look_out": "Watch for Chinese semiconductor policy news, upcoming earnings from major fabs, and further price moves in related equipment stocks.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-22T07:33:36.322870+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "KGF.L",
+      "company": "Kingfisher plc",
+      "pct": 9.62624358124704,
+      "last": 330.85198974609375,
+      "prev": 301.79998779296875,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "HD",
+        "company": "Home Depot (The)",
+        "pct": -0.9267280076950102
+      },
+      {
+        "ticker": "WES.AX",
+        "company": "Wesfarmers",
+        "pct": 0.79736300259583
+      },
+      {
+        "ticker": "LOW",
+        "company": "Lowe's",
+        "pct": -0.7844613863230543
+      }
+    ],
+    "analysis": {
+      "business_model": "Kingfisher plc operates large‑format home‑improvement retail stores across the UK and Europe, selling building supplies, DIY products and garden goods.",
+      "sentiment": "Bullish - strong intraday buying pushes price up",
+      "why_moved": "No specific catalyst was mentioned; the stock simply rallied 9.6% intraday on price action alone.",
+      "read_across": "While Kingfisher surged, major peers Home Depot and Lowe's slipped and Wesfarmers rose modestly, indicating divergent moves within the global home‑improvement sector.",
+      "look_out": "Watch for the next earnings release or any UK retail data that could confirm whether the rally has fundamentals behind it.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
