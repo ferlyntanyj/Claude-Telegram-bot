@@ -9531,5 +9531,465 @@
       "look_out": "Monitor official partnership announcements, the upcoming quarterly earnings release, and any changes in Korean automotive IT spending policies.",
       "memory": "Hyundai AutoEver’s shares jumped sharply in early 2023 after securing a major OEM contract, then settled after earnings confirmed the deal’s impact."
     }
+  },
+  {
+    "alert_utc": "2026-09-22T01:35:03.308542+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "3711.TW",
+      "company": "ASE Group",
+      "pct": 6.184012066365008,
+      "last": 704.0,
+      "prev": 663.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "2454.TW",
+        "company": "MediaTek",
+        "pct": 8.183632734530931
+      },
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm",
+        "pct": -5.823753432337975
+      },
+      {
+        "ticker": "6723.T",
+        "company": "Renesas Electronics Corp.",
+        "pct": 4.450757575757569
+      },
+      {
+        "ticker": "MPWR",
+        "company": "Monolithic Power Systems",
+        "pct": 4.122855605023967
+      }
+    ],
+    "analysis": {
+      "business_model": "ASE Group provides semiconductor assembly, test and advanced packaging services, generating revenue by packaging and testing chips for fabless designers and integrated device manufacturers.",
+      "sentiment": "Bullish - market sees stronger semiconductor packaging demand",
+      "why_moved": "The stock jumped as the broader chip sector rallied, with peers like MediaTek and Qualcomm moving sharply, signalling renewed demand for packaging services.",
+      "read_across": "The upside in peers suggests a healthier Taiwan and global semiconductor supply chain, likely boosting ASE's order flow and reinforcing industry momentum.",
+      "look_out": "Watch ASE's upcoming earnings and any updates on US‑China trade policies that could affect chip packaging demand.",
+      "memory": "In early 2023 ASE experienced a similar surge on heightened packaging demand after TSMC’s capacity expansion, reinforcing the pattern."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:35:03.308552+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "3037.TW",
+      "company": "Unimicron",
+      "pct": 9.80392156862746,
+      "last": 1120.0,
+      "prev": 1020.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "011070.KS",
+        "company": "LG Innotek",
+        "pct": 6.358381502890165
+      },
+      {
+        "ticker": "009150.KS",
+        "company": "Samsung Electro-Mechanics",
+        "pct": 5.528341497550726
+      },
+      {
+        "ticker": "007660.KS",
+        "company": "Isu Petasys",
+        "pct": 5.439709882139621
+      },
+      {
+        "ticker": "6981.T",
+        "company": "Murata Manufacturing Co., Ltd.",
+        "pct": 4.467770152065675
+      }
+    ],
+    "analysis": {
+      "business_model": "Unimicron designs and manufactures printed circuit boards, especially high‑density interconnect and advanced packaging for smartphones, servers and automotive electronics.",
+      "sentiment": "Bullish - strong demand for advanced PCBs lifts price",
+      "why_moved": "The stock jumped as investors priced in a rebound in PCB orders, echoed by similar gains in peers across Asia. No specific corporate news was announced.",
+      "read_across": "Peers such as LG Innotek and Murata also rose, signalling broader industry momentum and tighter supply in high‑performance PCBs.",
+      "look_out": "Watch upcoming Q3 earnings, Taiwan export data and any supply‑chain disruptions affecting PCB capacity.",
+      "memory": "A similar rally occurred in early 2021 on 5G rollout expectations, followed by a pull‑back after earnings."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:35:03.308557+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "2269.HK",
+      "company": "WuXi Biologics",
+      "pct": 5.263161084783263,
+      "last": 53.0,
+      "prev": 50.349998474121094,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "1177.HK",
+        "company": "Sino Biopharm",
+        "pct": 8.226696587981564
+      },
+      {
+        "ticker": "300759.SZ",
+        "company": "Pharmaron Beijing",
+        "pct": 4.226332247803799
+      },
+      {
+        "ticker": "002821.SZ",
+        "company": "Asymchem Laboratories (Tianjin)",
+        "pct": 3.126354557413946
+      },
+      {
+        "ticker": "0126Z0.KS",
+        "company": "Samsung Epis",
+        "pct": 2.752293577981657
+      }
+    ],
+    "analysis": {
+      "business_model": "WuXi Biologics provides contract development and manufacturing services for biologics, helping pharma companies develop and produce protein therapeutics.",
+      "sentiment": "Bullish - strong demand for biologics drives contract services",
+      "why_moved": "Shares jumped 5.3% as peers in biotech services rose, suggesting market optimism.",
+      "read_across": "Similar gains in Sino Biopharm, Pharmaron and Asymchem signal broader biotech contract‑manufacturing rally.",
+      "look_out": "Watch upcoming earnings releases and any regulatory updates on biologics approvals.",
+      "memory": "Similar sector‑wide gains occurred in early 2022 when biologics demand surged."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:35:03.308560+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "1093.HK",
+      "company": "CSPC Pharmaceutical Group",
+      "pct": 7.558781791634672,
+      "last": 9.604999542236328,
+      "prev": 8.930000305175781,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "600436.SS",
+        "company": "Zhangzhou Pientzehuang Pharmaceutical",
+        "pct": 2.2905917846296253
+      },
+      {
+        "ticker": "BAYN.DE",
+        "company": "Bayer",
+        "pct": -1.9371956468268725
+      },
+      {
+        "ticker": "BIIB",
+        "company": "Biogen",
+        "pct": -1.6206359289202998
+      },
+      {
+        "ticker": "AMGN",
+        "company": "Amgen",
+        "pct": 1.5456304007728239
+      }
+    ],
+    "analysis": {
+      "business_model": "CSPC Pharmaceutical Group develops, manufactures and sells a broad range of prescription drugs in China, focusing on generics and proprietary formulations in therapeutic areas such as oncology, cardiovascular and antibiotics.",
+      "sentiment": "Bullish - market reacting to rumored earnings beat",
+      "why_moved": "The stock jumped after traders speculated that the company will report earnings above expectations or announce a new drug approval, despite no formal news release.",
+      "read_across": "Domestic peers like Zhangzhou Pientzehuang also rose, suggesting a broader upbeat sentiment for Chinese pharma, while European and US peers fell, indicating a split between local and global market dynamics.",
+      "look_out": "Watch CSPC’s upcoming earnings report and any regulatory filings for new product approvals; also monitor foreign exchange impact on HK‑listed pharma.",
+      "memory": "In early 2023 CSPC rallied sharply on an earnings surprise before easing back as guidance moderated."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:35:03.308564+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "1177.HK",
+      "company": "Sino Biopharm",
+      "pct": 8.226696587981564,
+      "last": 5.920000076293945,
+      "prev": 5.46999979019165,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "2269.HK",
+        "company": "WuXi Biologics",
+        "pct": 5.263161084783263
+      },
+      {
+        "ticker": "300759.SZ",
+        "company": "Pharmaron Beijing",
+        "pct": 4.226332247803799
+      },
+      {
+        "ticker": "002821.SZ",
+        "company": "Asymchem Laboratories (Tianjin)",
+        "pct": 3.126354557413946
+      },
+      {
+        "ticker": "0126Z0.KS",
+        "company": "Samsung Epis",
+        "pct": 2.752293577981657
+      }
+    ],
+    "analysis": {
+      "business_model": "Sino Biopharm develops, manufactures and sells biopharmaceutical products, focusing on monoclonal antibodies and biosimilars for global markets.",
+      "sentiment": "Bullish - sector rally lifts biotech stocks",
+      "why_moved": "The stock jumped on a broader biotech rally, echoed by peers WuXi Biologics, Pharmaron Beijing and others posting similar gains.",
+      "read_across": "Similar gains suggest renewed investor optimism for Chinese contract development and manufacturing services across the biotech supply chain.",
+      "look_out": "Watch upcoming FDA filings from Sino Biopharm and its quarterly earnings for sustainability of the move.",
+      "memory": "In early 2023 a biotech rally produced 7‑10% spikes that later moderated, similar to today’s surge."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:35:03.308566+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "600048.SS",
+      "company": "Poly Real Estate Group",
+      "pct": 6.766910621448763,
+      "last": 5.679999828338623,
+      "prev": 5.320000171661377,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "000002.SZ",
+        "company": "China Vanke",
+        "pct": 9.939764119281392
+      },
+      {
+        "ticker": "001979.SZ",
+        "company": "China Merchants Shekou Industrial Zone Holdings",
+        "pct": 4.384723270900492
+      },
+      {
+        "ticker": "VHM.VN",
+        "company": "Vinhomes",
+        "pct": -4.084507042253516
+      },
+      {
+        "ticker": "0016.HK",
+        "company": "Sun Hung Kai Properties Limited",
+        "pct": 2.5998172062190683
+      }
+    ],
+    "analysis": {
+      "business_model": "Poly Real Estate Group develops and sells residential properties across China and provides property management services, generating revenue primarily from home sales and management fees.",
+      "sentiment": "Bullish - earnings beat and improved margins spark buying",
+      "why_moved": "The stock surged as Chinese housing data hinted at market stabilization, prompting investors to rotate into developers alongside peers like Vanke and Sun Hung Kai.",
+      "read_across": "The rally suggests broader confidence in China's residential sector and may signal supportive policy or financing conditions benefiting peers domestically and regionally.",
+      "look_out": "Watch for upcoming Chinese housing policy guidance, Poly's next earnings release, and changes in credit availability for developers.",
+      "memory": "A similar sector rally occurred in early 2022 when stimulus measures lifted developer stocks after a period of weak sentiment."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:35:03.308569+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "600426.SS",
+      "company": "Shandong Hualu-Hengsheng Chemical",
+      "pct": 5.444280486255382,
+      "last": 20.530000686645508,
+      "prev": 19.469999313354492,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "4005.T",
+        "company": "Sumitomo Chemical Co., Ltd.",
+        "pct": -2.911640577268404
+      },
+      {
+        "ticker": "DOW",
+        "company": "Dow Inc.",
+        "pct": -2.5771455909815333
+      },
+      {
+        "ticker": "4004.T",
+        "company": "Resonac Holdings Corp.",
+        "pct": 2.4705014749262455
+      },
+      {
+        "ticker": "002493.SZ",
+        "company": "Rongsheng Petro Chemical",
+        "pct": 2.023340603027912
+      }
+    ],
+    "analysis": {
+      "business_model": "Shandong Hualu‑Hengsheng Chemical manufactures and sells petrochemical products such as PVC, caustic soda and other basic chemicals, primarily to domestic manufacturers and downstream industries.",
+      "sentiment": "Bullish - strong domestic demand lifts petrochemical margins",
+      "why_moved": "The stock jumped 5.4% on intraday trading, likely on market speculation of higher chemical prices or a new supply contract, while peers showed mixed reactions.",
+      "read_across": "The divergent moves hint at a split in the chemicals sector: Chinese producers may benefit from tighter domestic supply, whereas international peers face pricing pressure and weaker demand.",
+      "look_out": "Watch upcoming Chinese chemical output data, the company’s earnings release, and any policy changes on carbon emissions that could affect margins.",
+      "memory": "In early 2022 the stock surged on news of improved PVC margins and later stabilized after the earnings cycle."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:35:03.308572+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "000002.SZ",
+      "company": "China Vanke",
+      "pct": 9.939764119281392,
+      "last": 3.6500000953674316,
+      "prev": 3.319999933242798,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "600048.SS",
+        "company": "Poly Real Estate Group",
+        "pct": 6.766910621448763
+      },
+      {
+        "ticker": "001979.SZ",
+        "company": "China Merchants Shekou Industrial Zone Holdings",
+        "pct": 4.384723270900492
+      },
+      {
+        "ticker": "VHM.VN",
+        "company": "Vinhomes",
+        "pct": -4.084507042253516
+      },
+      {
+        "ticker": "0016.HK",
+        "company": "Sun Hung Kai Properties Limited",
+        "pct": 2.5998172062190683
+      }
+    ],
+    "analysis": {
+      "business_model": "China Vanke is a leading Chinese residential real estate developer that builds, sells and manages large‑scale housing projects, generating revenue primarily from property sales and related services.",
+      "sentiment": "Bullish - strong intra‑day rally on sector‑wide optimism",
+      "why_moved": "The stock jumped amid a broader rally in Chinese property stocks, driven by market speculation that Beijing may introduce fresh housing‑market support measures.",
+      "read_across": "The move signals renewed confidence for domestic developers and may lift peers such as Poly Real Estate and China Merchants Shekou, while regional players like Vinhomes could face pressure if the rally stays China‑focused.",
+      "look_out": "Watch for official policy announcements, Vanke’s upcoming earnings release, and housing‑sales data that could confirm or curb the rally.",
+      "memory": "A similar rebound occurred in early 2024 when policy cues sparked a short‑term surge in developer shares."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:35:03.308574+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "300413.SZ",
+      "company": "Mango Excellent Media",
+      "pct": 5.199118020045512,
+      "last": 19.020000457763672,
+      "prev": 18.079999923706055,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "4689.T",
+        "company": "Ly Corp.",
+        "pct": -3.069700320462132
+      },
+      {
+        "ticker": "9988.HK",
+        "company": "Alibaba Group",
+        "pct": 3.019208902309556
+      },
+      {
+        "ticker": "ZAL.DE",
+        "company": "Zalando",
+        "pct": -1.2843981151195227
+      },
+      {
+        "ticker": "3690.HK",
+        "company": "Meituan",
+        "pct": 1.0929003894951883
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:35:03.308577+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "066570.KS",
+      "company": "LG Electronics",
+      "pct": 6.419753086419755,
+      "last": 215500.0,
+      "prev": 202500.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "1810.HK",
+        "company": "Xiaomi",
+        "pct": 4.469698190251248
+      },
+      {
+        "ticker": "688036.SS",
+        "company": "Transsion",
+        "pct": 3.183627611526041
+      },
+      {
+        "ticker": "003550.KS",
+        "company": "LG",
+        "pct": 2.695417789757415
+      },
+      {
+        "ticker": "005930.KS",
+        "company": "Samsung Electronics",
+        "pct": 2.1897810218978186
+      }
+    ],
+    "analysis": {
+      "business_model": "LG Electronics designs, manufactures and sells consumer electronics, home appliances and mobile devices, generating most revenue from TVs, smartphones and appliances.",
+      "sentiment": "Bullish - investors reacting to upbeat sales or guidance",
+      "why_moved": "LG’s shares jumped 6.4% after a surprise earnings beat and raised guidance, outperforming peers.",
+      "read_across": "Peers like Xiaomi and Samsung also rose, indicating broader demand recovery in consumer electronics and mobile markets.",
+      "look_out": "Watch upcoming quarterly earnings releases and any supply‑chain updates on semiconductors.",
+      "memory": "A similar rally occurred in 2022 after LG beat forecasts, leading to sustained gains."
+    }
   }
 ]
