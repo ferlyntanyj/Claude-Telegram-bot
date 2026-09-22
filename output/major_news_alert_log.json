@@ -10630,5 +10630,51 @@
       "look_out": "Watch for upcoming earnings, guidance updates, or analyst commentary that could explain and sustain the move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-22T15:36:25.265582+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "ALL",
+      "company": "Allstate",
+      "pct": -5.548466634954485,
+      "last": 229.38499450683594,
+      "prev": 242.86000061035156,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "ADM.L",
+        "company": "Admiral Group",
+        "pct": -3.1621493437988812
+      },
+      {
+        "ticker": "PGR",
+        "company": "Progressive Corporation",
+        "pct": -3.130891490989418
+      },
+      {
+        "ticker": "TRV",
+        "company": "Travelers Companies (The)",
+        "pct": -2.9181195126660286
+      },
+      {
+        "ticker": "601319.SS",
+        "company": "People's Insurance Company of China",
+        "pct": 1.6169168539517775
+      }
+    ],
+    "analysis": {
+      "business_model": "Allstate sells property‑and‑casualty insurance, primarily auto and home policies, earning premiums from individuals and businesses.",
+      "sentiment": "Bearish - sector pressure on insurers",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 5.5% intraday amid broader insurance‑sector weakness.",
+      "read_across": "Peers like Admiral, Progressive, Travelers also declined, indicating a market‑wide sell‑off in the insurance industry.",
+      "look_out": "Watch upcoming earnings releases and rate‑change guidance for Allstate and its peers for further direction.",
+      "memory": "Allstate and other insurers have previously seen sharp drops during broader sector sell‑offs, such as rate‑cut concerns."
+    }
   }
 ]
