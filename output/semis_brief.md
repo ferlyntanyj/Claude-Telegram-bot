@@ -1,18 +1,15 @@
-# Global Semiconductor Brief -- 22 Sep 2026, 13:16 SGT
-
-## Policy & geopolitics
-- [BABA Stock Spikes Overnight: Alibaba Takes On Nvidia With China's Most Powerful AI Chip Yet](https://news.google.com/rss/articles/CBMioAFBVV95cUxQSWtmNDd1X1RIQ2Q1ZE05NFVFT0R0Q21mYmlZS2dhOTg2NHRrTUhvOURxR24yQVBET1U2eTZzc0lXMUVPbkkzbkRlTVZXbTN3NHNvRkcxQVJ1TXZweGNWeDJ6S0N4NVpDZzliTF9FYXplZU1yQkFTOVpiMkFpWFRCWkk0VV9ZYmZIX3paUDRaUVNXQlBmT0RQbXRSS1lwMktJ?oc=5) — Yahoo Finance
+# Global Semiconductor Brief -- 22 Sep 2026, 23:07 SGT
 
 ## Supply chain signals
-- [Exclusive: China SiC capacity tightens, spilling orders over to Taiwanese foundries](https://www.digitimes.com/news/a20260922PD216/sic-capacity-demand-wafer-silicon.html) — DIGITIMES
-- [Nvidia Rubin architecture drives high-end MLCC demand, solidifying Murata, SEMCO leadership](https://www.digitimes.com/news/a20260921PD217/mlcc-market-murata-nvidia-demand.html) — DIGITIMES
-- [US iPhone 18 Pro Max teardown reveals Qualcomm modem, suggesting prior supply-chain commitments](https://www.digitimes.com/news/a20260921PD211/apple-iphone-modem-qualcomm-flagship.html) — DIGITIMES
-- [DRAM: Walking Down A Different Kind Of Memory Lane](https://news.google.com/rss/articles/CBMilAFBVV95cUxPSlVKbzdxbDk1YXhhS1BrSFpYbVgzQTZHdzNUcndvOVlYamtmV3BmSWFFcDRqNlFDakxOb2tQaWhzWlR6VVdJbjZyQ2lhZElfMnRWemhKTzNiSVNyeHoxWTlkWDZBYm85UlVGX1FqTF8xVnVJbFlIMmhYMXRzNmZtTXR1OWJvUkhWY2VJTTViMUNxN2Vn?oc=5) — Seeking Alpha
+- [SiPearl delivers first homegrown server chips for Europe's exascale supercomputer](https://www.digitimes.com/news/a20260922VL217/processor-cpu-europe-supercomputer-manufacturing.html) — DIGITIMES
+- [Meta's AI agent Muse tops app charts, driving AMD's market cap past US$1 trillion](https://www.digitimes.com/news/a20260922VL214/meta-amd-apps-launch-apple.html) — DIGITIMES
+- [Hermes Testing sees growth opportunity in AI-driven chip demand as OTC debut expands reach](https://www.digitimes.com/news/a20260922PD233/demand-growth-equipment-testing-market.html) — DIGITIMES
+- [DeepSeek bets on Huawei chips for model training as Nvidia's China sales slip](https://www.digitimes.com/news/a20260922VL210/deepseek-chips-huawei-training-nvidia.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Samsung weighs 4nm expansion as HBM4 demand strains capacity](https://www.digitimes.com/news/a20260922VL209/samsung-4nm-hbm4-capacity-demand.html) — DIGITIMES
-- [TSMC and ASE break ground on Taiwan's first advanced packaging cluster in Kaohsiung](https://www.digitimes.com/news/a20260922PD212/packaging-tsmc-ase-kaohsiung-demand.html) — DIGITIMES
-- [Chinese AMOLED material suppliers set for revenue gains as Gen 8 fabs boost localization](https://www.digitimes.com/news/a20260922PR200/amoled-revenue-localization-growth-forecast.html) — DIGITIMES
-- [India's fifth chip plant goes live, capping Suchi Semicon's three-year buildout](https://www.digitimes.com/news/a20260922VL203/semicon-plant-production-commercial-chips.html) — DIGITIMES
+- [Watch Alibaba Unveils AI Chip to Compete With Nvidia](https://news.google.com/rss/articles/CBMiowFBVV95cUxPcGpCQ05Kb0hDSnNSQ3lXTGctQjZUUEExVldaeFBPMjE2TlMtaFRQNmNTbWhlZTl3MENlQVJsd2kyMklTTHBOZThSS2IxUENXam80aFZ1WFN2Ym1CZ2xFZm82SWJpWFZtV2dQb2V3U3AtUXdkeURVcTFtUWlzMllCWFBUVG45eXFtUkZ2VU9VeHdKbzE1YlRabWQyYnRLNFluTEdN?oc=5) — Bloomberg.com
+- [Micron Stock Rises but It Faces a Crisis at Memory-Chip Plant](https://news.google.com/rss/articles/CBMijgFBVV95cUxPSy1pVHctdWszS0J3eWJRRFU0Z19jMU5QclBoSS1wVnhKNHJLUmhvTWdsMkVJeG9pMlY4X2w5SU5pQTJ2clZFclNYSTJBUVBBQmg5WXFyNHV0Q2xvSE8yMTJPWGl5V3pVUG1sRGxMbDRHS21MSENKNDZzNTAtWlF0Q0VMLXpzOXJaVnpiTlBB?oc=5) — Barron's
+- [GUC Announces 2nm 16 Gbps HBM4E IP](https://www.eetimes.com/guc-announces-2nm-16-gbps-hbm4e-ip/) — EE Times
+- [Nvidia Stock Missed the AI Agent Rally. Here’s What Could Turn It Around.](https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ1puN0F6SWNzblBfNE9nR2VPVzc0MEl3SlUySVRUTjFuTUtzdEo4RVRYbkIzcy1SdjluYk9HUFdjTXBjekc5UG5UZUZZVHVxM1hrVlByRXp3NVJGbUswVnpmYndCLWljQmh1OGoyUzlpNHFuYUN6LUZxU3RTdGhnRjJ5ZWRXcUU?oc=5) — Barron's
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
