@@ -73,6 +73,17 @@ PRICE_SCAN_CHUNK_SIZE = 250
 PRICE_SCAN_MAX_PASSES = 2          # retry only a chunk's still-missing tickers, not the whole chunk
 PRICE_SCAN_RETRY_COOLDOWN_SECONDS = 20
 
+# Added 2026-09-22 per user request: Yahoo's feed is ~15-20 min delayed, so
+# the first few minutes of any exchange's own session can still show a
+# stale pre-open indication or a thin, unsettled first print rather than a
+# real reflection of where the stock has opened -- not a real move, just
+# noise the delayed feed hasn't caught up on yet. major_news_engine.
+# _tradeable_now() withholds qualification (not the scan itself) for this
+# many minutes after EVERY exchange's own session open (the session table
+# already covers all of them), so no new alert can fire on it, on any
+# market.
+MARKET_OPEN_GRACE_MINUTES = 15
+
 # ---------------------------------------------------------------------------
 # US pre-market -- deliberately narrow, US-only (see
 # major_news_engine.scan_premarket_moves's docstring for why not every

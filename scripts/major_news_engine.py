@@ -256,12 +256,24 @@ _EXCHANGE_SESSIONS = {
 }
 
 
-def _tradeable_now(ticker, now_utc):
+def _tradeable_now(ticker, now_utc, cfg):
     """Best-effort check: is ticker's home exchange currently inside its
-    regular Mon-Fri trading session? Unknown suffix -> assumed tradeable
+    regular Mon-Fri trading session, AND past its own MARKET_OPEN_GRACE_MINUTES
+    window since that session opened? Unknown suffix -> assumed tradeable
     (fails open, matching this module's general bias toward not silently
     dropping a real move over being maximally precise about market
-    calendars)."""
+    calendars).
+
+    The open-grace window was added 2026-09-22 per user request: Yahoo's feed
+    is ~15-20 min delayed (see the Telegram card's own disclaimer), so right
+    at a session's own open the "last" print a daily-bar download returns can
+    still be a stale pre-open indication or the first thin, unsettled trade
+    -- not a real reflection of where the stock has actually opened. Holding
+    off qualification for the first MARKET_OPEN_GRACE_MINUTES of every
+    exchange's session (this table already covers all of them uniformly, so
+    the gate applies globally, not just to the US) avoids alerting off that
+    noise while it settles; the scan itself is untouched, only whether a move
+    is allowed to QUALIFY a new alert."""
     import zoneinfo
 
     suffix = "." + ticker.rsplit(".", 1)[-1] if "." in ticker else ""
@@ -270,7 +282,11 @@ def _tradeable_now(ticker, now_utc):
         return True
     open_t, close_t, tz_name = session
     local = now_utc.astimezone(zoneinfo.ZoneInfo(tz_name))
-    return local.weekday() < 5 and open_t <= local.time() <= close_t
+    if local.weekday() >= 5:
+        return False
+    gate_open = (dt.datetime.combine(local.date(), open_t)
+                 + dt.timedelta(minutes=cfg.MARKET_OPEN_GRACE_MINUTES)).time()
+    return gate_open <= local.time() <= close_t
 
 
 # ---------------------------------------------------------------------------
@@ -859,7 +875,7 @@ def run_cycle(cfg):
     # function's docstring). scanned (unfiltered) is still used below for
     # peer DISPLAY, so a qualifying alert can still show a same-industry
     # name whose own market happens to be closed right now.
-    tradeable = {t: m for t, m in scanned.items() if _tradeable_now(t, now)}
+    tradeable = {t: m for t, m in scanned.items() if _tradeable_now(t, now, cfg)}
 
     alerts = []
 
