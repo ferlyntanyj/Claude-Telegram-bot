@@ -10676,5 +10676,51 @@
       "look_out": "Watch upcoming earnings releases and rate‑change guidance for Allstate and its peers for further direction.",
       "memory": "Allstate and other insurers have previously seen sharp drops during broader sector sell‑offs, such as rate‑cut concerns."
     }
+  },
+  {
+    "alert_utc": "2026-09-22T17:35:49.137307+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "CSCO",
+      "company": "Cisco",
+      "pct": -6.002155478519311,
+      "last": 104.7699966430664,
+      "prev": 111.45999908447266,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "ZBRA",
+        "company": "Zebra Technologies",
+        "pct": 2.5225191528597257
+      },
+      {
+        "ticker": "000063.SZ",
+        "company": "ZTE",
+        "pct": 2.1886650099465443
+      },
+      {
+        "ticker": "CIEN",
+        "company": "Ciena",
+        "pct": 1.6941776018683408
+      },
+      {
+        "ticker": "300308.SZ",
+        "company": "Zhongji Innolight",
+        "pct": 1.5727046230591624
+      }
+    ],
+    "analysis": {
+      "business_model": "Cisco designs, manufactures, and sells networking hardware, software, and services that enable data communication for enterprises and service providers.",
+      "sentiment": "Bearish - broad market sell-off pressures tech stocks",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 6% on price action alone, likely reflecting broader sector or market weakness.",
+      "read_across": "Peers like Zebra, ZTE, Ciena, and Zhongji Innolight rose modestly, suggesting a mixed sector environment where some telecom equipment names are gaining while Cisco faces selling pressure.",
+      "look_out": "Watch for Cisco's upcoming earnings release or any guidance updates that could clarify the recent downside.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
