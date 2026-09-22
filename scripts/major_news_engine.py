@@ -160,7 +160,21 @@ def _scan_chunk(chunk):
             prev, last = float(closes.iloc[-2]), float(closes.iloc[-1])
             if prev == 0:
                 continue
-            resolved[ticker] = {"last": last, "prev": prev, "pct": (last / prev - 1.0) * 100.0}
+            # asof (the LAST bar's own date) is what should_alert() dedupes
+            # on -- confirmed 2026-09-22: Mitsui Mining & Smelting (5706.T)
+            # alerted on the IDENTICAL last/prev close pair (22795.0 /
+            # 21235.0) on Sep 18, 21 AND 22, and Isu Petasys (007660.KS) kept
+            # the same stale `prev` across Sep 21/22 -- yfinance's trailing
+            # daily bar for some names simply doesn't roll forward every
+            # cycle. The 18h cooldown alone can't catch this (>18h had
+            # elapsed each time), so the SAME already-alerted move kept
+            # re-firing as if it were fresh news. Tagging the move with its
+            # own bar date lets should_alert() refuse to re-alert the same
+            # trading day's close twice, regardless of cooldown.
+            resolved[ticker] = {
+                "last": last, "prev": prev, "pct": (last / prev - 1.0) * 100.0,
+                "asof": closes.index[-1].date().isoformat(),
+            }
         except Exception:  # noqa: BLE001 -- one bad ticker must not sink the chunk
             unresolved.append(ticker)
     return resolved, unresolved
@@ -242,12 +256,24 @@ _EXCHANGE_SESSIONS = {
 }
 
 
-def _tradeable_now(ticker, now_utc):
+def _tradeable_now(ticker, now_utc, cfg):
     """Best-effort check: is ticker's home exchange currently inside its
-    regular Mon-Fri trading session? Unknown suffix -> assumed tradeable
+    regular Mon-Fri trading session, AND past its own MARKET_OPEN_GRACE_MINUTES
+    window since that session opened? Unknown suffix -> assumed tradeable
     (fails open, matching this module's general bias toward not silently
     dropping a real move over being maximally precise about market
-    calendars)."""
+    calendars).
+
+    The open-grace window was added 2026-09-22 per user request: Yahoo's feed
+    is ~15-20 min delayed (see the Telegram card's own disclaimer), so right
+    at a session's own open the "last" print a daily-bar download returns can
+    still be a stale pre-open indication or the first thin, unsettled trade
+    -- not a real reflection of where the stock has actually opened. Holding
+    off qualification for the first MARKET_OPEN_GRACE_MINUTES of every
+    exchange's session (this table already covers all of them uniformly, so
+    the gate applies globally, not just to the US) avoids alerting off that
+    noise while it settles; the scan itself is untouched, only whether a move
+    is allowed to QUALIFY a new alert."""
     import zoneinfo
 
     suffix = "." + ticker.rsplit(".", 1)[-1] if "." in ticker else ""
@@ -256,7 +282,11 @@ def _tradeable_now(ticker, now_utc):
         return True
     open_t, close_t, tz_name = session
     local = now_utc.astimezone(zoneinfo.ZoneInfo(tz_name))
-    return local.weekday() < 5 and open_t <= local.time() <= close_t
+    if local.weekday() >= 5:
+        return False
+    gate_open = (dt.datetime.combine(local.date(), open_t)
+                 + dt.timedelta(minutes=cfg.MARKET_OPEN_GRACE_MINUTES)).time()
+    return gate_open <= local.time() <= close_t
 
 
 # ---------------------------------------------------------------------------
@@ -484,6 +514,33 @@ def _extract_json_object(text):
 # first... try to find more information online" -- this is that, done with
 # the free infrastructure already in place rather than a paid search API.
 # ---------------------------------------------------------------------------
+# Segment/listicle titles that namedrop several unrelated tickers in one
+# headline carry no actual information about any ONE of those companies --
+# confirmed 2026-09-21: Datadog's alert grounded write_analysis() in
+# "Final Trade: Uber, Micron, Natera and Datadog" (a recurring CNBC
+# Halftime Report segment, not a story about Datadog at all), and the LLM
+# then fabricated "reported quarterly earnings that exceeded expectations"
+# out of thin air -- Datadog had no earnings release anywhere near that
+# date. Filtering these out here means _find_headline() falls back to its
+# "no specific news story found" placeholder instead, which is a strictly
+# more honest result than a real-looking but content-free headline the LLM
+# has to invent a reason around.
+_ROUNDUP_TITLE_RE = re.compile(
+    r"\b(final trade|stocks? to watch|market movers?|movers? to watch|"
+    r"trending tickers?|options action|halftime report|biggest movers?|"
+    r"stocks making the biggest moves|premarket movers?)\b",
+    re.I,
+)
+
+
+def _looks_like_roundup(title):
+    if _ROUNDUP_TITLE_RE.search(title):
+        return True
+    # A second, generic signal: 3+ names listed ("A, B, C and D") is the
+    # shape of a listicle/segment, not a headline about a single event.
+    return title.count(",") >= 2 and re.search(r"\band\b", title, re.I) is not None
+
+
 def gather_related_headlines(query_text, cfg, max_results=5, lookback_hours=48):
     import urllib.parse
 
@@ -516,6 +573,8 @@ def gather_related_headlines(query_text, cfg, max_results=5, lookback_hours=48):
         if weight < cfg.MIN_SOURCE_WEIGHT:
             continue
         clean_title = brief_engine._TRAIL_SOURCE_RE.sub("", title).strip()
+        if _looks_like_roundup(clean_title):
+            continue
         key = _norm(clean_title)
         if key in seen:
             continue
@@ -610,7 +669,13 @@ def write_analysis(alert, cfg):
         "a dash then a reason clause under 12 words -- for example: "
         'Bearish - investors reassessing AI capex growth assumptions",\n'
         '  "why_moved": "1-2 sentences on why the price moved, specific to this news '
-        '(use the other coverage above if given, not just the single headline)",\n'
+        '(use the other coverage above if given, not just the single headline). Only '
+        'name a specific catalyst -- an earnings release, guidance change, M&A, '
+        'downgrade/upgrade, regulatory action, etc. -- if it is explicitly stated in the '
+        'headline or coverage above. Never infer or guess one (e.g. do not say a company '
+        '\'reported earnings\' or \'beat expectations\' unless that is literally in the '
+        'text given). If no specific catalyst is stated, say so plainly and describe the '
+        'move in terms of price action / sector flows instead",\n'
         '  "read_across": "1-2 sentences on what this means for domestic/international '
         'peers, supply chain, or the wider industry",\n'
         '  "look_out": "1-2 sentences on what to watch for next -- an upcoming event, '
@@ -620,7 +685,9 @@ def write_analysis(alert, cfg):
         f'before, and how it played out, or exactly this sentence if nothing solid comes '
         f'to mind: \'{_NO_MEMORY}\' -- do not force a weak or vague analogy"\n'
         "}\n\n"
-        "Be specific and concrete, avoid generic filler, no preamble."
+        "Be specific and concrete, avoid generic filler, no preamble. Ground every claim "
+        "of fact strictly in the headline/coverage and price data given above -- do not "
+        "invent events, dates, or figures that are not present in that text."
     )
     try:
         text = _run_completion(prompt, cfg, cfg.LLM_ANALYSIS_MAX_TOKENS, json_object=True)
@@ -654,7 +721,7 @@ def save_state(state, cfg):
         json.dump(state, f, indent=2)
 
 
-def should_alert(state, key, cfg, cooldown_hours=None):
+def should_alert(state, key, cfg, cooldown_hours=None, move_asof=None):
     """One alert per story/ticker per cooldown_hours (defaults to
     cfg.COOLDOWN_HOURS), full stop -- no same-day re-alert on a deepening
     move, even a large one. Confirmed 2026-09-14: the old same-day
@@ -669,10 +736,21 @@ def should_alert(state, key, cfg, cooldown_hours=None):
     added 2026-09-18) run its own, shorter cooldown independent of that
     ticker's regular single:{ticker} cooldown -- a pre-market move and its
     later regular-session confirmation are different signals worth tracking
-    separately, not one blocking the other."""
+    separately, not one blocking the other.
+
+    move_asof (the triggering bar's own close date, from _scan_chunk) is a
+    second, independent gate added 2026-09-22: confirmed the same day that
+    Mitsui Mining & Smelting (5706.T) and Isu Petasys (007660.KS) each
+    re-alerted on the literal same last/prev close pair days apart, days
+    that a plain time-based cooldown can't catch once it has expired (18h <
+    24h between daily cycles). If this key's stored move was already for
+    this exact bar date, it is not new news -- refuse regardless of how
+    much cooldown time has passed."""
     entry = state["alerts"].get(key)
     if entry is None:
         return True
+    if move_asof is not None and entry.get("last_move_asof") == move_asof:
+        return False
     last_time = dt.datetime.fromisoformat(entry["last_alert_utc"])
     hours_since = (dt.datetime.now(UTC) - last_time).total_seconds() / 3600.0
     return hours_since >= (cfg.COOLDOWN_HOURS if cooldown_hours is None else cooldown_hours)
@@ -682,6 +760,7 @@ def _record_alert(state, alert):
     state["alerts"][alert["key"]] = {
         "last_alert_utc": dt.datetime.now(UTC).isoformat(),
         "last_move_pct": alert["metric_pct"],
+        "last_move_asof": alert.get("move_asof"),
     }
 
 
@@ -752,7 +831,7 @@ def _build_sector_alert(group_label, moves, watchlist, cfg, state, alerts, headl
     if any(a["primary"]["ticker"] == top_ticker for a in alerts):
         return
     key = f"sector:{_norm(group_label)}"
-    if not should_alert(state, key, cfg):
+    if not should_alert(state, key, cfg, move_asof=top_move.get("asof")):
         return
     peers = [
         {"ticker": t, "company": watchlist[t]["company_name"], "pct": m["pct"]}
@@ -761,7 +840,7 @@ def _build_sector_alert(group_label, moves, watchlist, cfg, state, alerts, headl
     headline = _find_headline(headline_query, cfg)
     alerts.append({
         "type": "sector", "headline": headline, "key": key,
-        "metric_pct": result["median_pct"],
+        "metric_pct": result["median_pct"], "move_asof": top_move.get("asof"),
         "market_name": market_name_for_ticker(top_ticker),
         "primary": {
             "ticker": top_ticker, "company": watchlist[top_ticker]["company_name"],
@@ -796,7 +875,7 @@ def run_cycle(cfg):
     # function's docstring). scanned (unfiltered) is still used below for
     # peer DISPLAY, so a qualifying alert can still show a same-industry
     # name whose own market happens to be closed right now.
-    tradeable = {t: m for t, m in scanned.items() if _tradeable_now(t, now)}
+    tradeable = {t: m for t, m in scanned.items() if _tradeable_now(t, now, cfg)}
 
     alerts = []
 
@@ -805,14 +884,14 @@ def run_cycle(cfg):
         if abs(move["pct"]) < cfg.SINGLE_STOCK_MOVE_PCT:
             continue
         key = f"single:{ticker}"
-        if not should_alert(state, key, cfg):
+        if not should_alert(state, key, cfg, move_asof=move.get("asof")):
             continue
         info = watchlist[ticker]
         headline = _find_headline(info["company_name"], cfg)
         peers = same_group_peers(ticker, info["industry"], watchlist, scanned, cfg.MAX_DISPLAY_PEERS)
         alerts.append({
             "type": "single_stock", "headline": headline, "key": key,
-            "metric_pct": move["pct"],
+            "metric_pct": move["pct"], "move_asof": move.get("asof"),
             "market_name": market_name_for_ticker(ticker),
             "primary": {
                 "ticker": ticker, "company": info["company_name"], "pct": move["pct"],
@@ -880,14 +959,35 @@ def run_cycle(cfg):
     # a minute reliably 429s. A quiet cycle (the common case, cooldown
     # suppresses repeats for 18h) pays nothing extra; a busy one spends time
     # here rather than silently degrading most of its write-ups.
+    #
+    # Alerts whose write_analysis() still failed after its own in-call
+    # retries are dropped here rather than sent -- confirmed 2026-09-22:
+    # 98 of the last 206 logged alerts (48%) had failed analysis, each one
+    # still sent to Telegram as a card full of "(unavailable)" lines, and
+    # each failed attempt had already burned up to
+    # 1 + LLM_RATE_LIMIT_MAX_RETRIES calls' worth of prompt tokens against
+    # the same exhausted per-minute quota for nothing. Dropping a failed
+    # alert here means should_alert()'s key never gets recorded (mark_sent
+    # is only called for what's actually returned), so it's simply
+    # re-evaluated fresh next cycle (~15-20 min later, well past a
+    # per-minute quota reset) instead of retried immediately into the same
+    # exhausted window -- cheaper AND it stops broken cards reaching the chat.
     import time as _time
+    sendable = []
     for i, alert in enumerate(alerts):
         if i > 0:
             _time.sleep(cfg.LLM_CALL_PACING_SECONDS)
         alert["analysis"] = write_analysis(alert, cfg)
+        if alert["analysis"]["why_moved"] == _ANALYSIS_UNAVAILABLE:
+            print(f"  LLM analysis failed for {alert['primary']['company']} "
+                  f"({alert['primary']['ticker']}) -- skipping send, will retry next cycle",
+                  file=sys.stderr)
+            continue
+        sendable.append(alert)
 
-    print(f"Qualifying alert(s) this cycle: {len(alerts)}")
-    return alerts, state
+    print(f"Qualifying alert(s) this cycle: {len(sendable)} "
+          f"({len(alerts) - len(sendable)} dropped for failed LLM analysis)")
+    return sendable, state
 
 
 def mark_sent(alert, state):
