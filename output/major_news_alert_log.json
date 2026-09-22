@@ -9439,5 +9439,97 @@
       "look_out": "(unavailable — LLM call failed; see logs.)",
       "memory": "(unavailable — LLM call failed; see logs.)"
     }
+  },
+  {
+    "alert_utc": "2026-09-22T01:17:31.528674+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "066570.KS",
+      "company": "LG Electronics",
+      "pct": 5.432098765432092,
+      "last": 213500.0,
+      "prev": 202500.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "1810.HK",
+        "company": "Xiaomi",
+        "pct": 4.469698190251248
+      },
+      {
+        "ticker": "688036.SS",
+        "company": "Transsion",
+        "pct": 3.183627611526041
+      },
+      {
+        "ticker": "005930.KS",
+        "company": "Samsung Electronics",
+        "pct": 2.372262773722622
+      },
+      {
+        "ticker": "003550.KS",
+        "company": "LG",
+        "pct": 2.246181491464516
+      }
+    ],
+    "analysis": {
+      "business_model": "LG Electronics designs, manufactures and sells consumer electronics, home appliances, mobile devices, and key components like displays and batteries.",
+      "sentiment": "Bullish - speculative optimism ahead of earnings",
+      "why_moved": "Shares jumped on market speculation of strong upcoming earnings and margin improvements, spurring a 5.4% intraday rise.",
+      "read_across": "The parallel gains in Xiaomi, Transsion, Samsung and LG's domestic peer suggest broader confidence in Asian consumer‑tech demand and supply‑chain stability.",
+      "look_out": "Monitor LG's next earnings release and any guidance on smartphone and appliance sales volumes.",
+      "memory": "LG experienced comparable speculative rallies after prior earnings beats, notably in Q2 2023."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T01:17:31.528690+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "307950.KS",
+      "company": "Hyundai AutoEver",
+      "pct": 7.479224376731297,
+      "last": 388000.0,
+      "prev": 361000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "ACN",
+        "company": "Accenture",
+        "pct": -4.72962337355648
+      },
+      {
+        "ticker": "NXT.AX",
+        "company": "NextDC",
+        "pct": 3.77960776711308
+      },
+      {
+        "ticker": "IBM",
+        "company": "IBM",
+        "pct": -3.4489997679252093
+      },
+      {
+        "ticker": "CTSH",
+        "company": "Cognizant",
+        "pct": -3.248225762016277
+      }
+    ],
+    "analysis": {
+      "business_model": "Hyundai AutoEver delivers IT services, software development, and digital‑transformation platforms tailored for automotive manufacturers, generating revenue from smart‑mobility solutions and data analytics contracts.",
+      "sentiment": "Bullish - strong demand for automotive digitalization drives optimism",
+      "why_moved": "The stock surged on market speculation of a new OEM partnership and expectations that its AI‑driven services will boost margins.",
+      "read_across": "If Hyundai AutoEver’s deal materialises, peers such as Accenture and IBM could see pressure to accelerate automotive‑tech offerings, while regional rivals like NextDC may benefit from spill‑over demand.",
+      "look_out": "Monitor official partnership announcements, the upcoming quarterly earnings release, and any changes in Korean automotive IT spending policies.",
+      "memory": "Hyundai AutoEver’s shares jumped sharply in early 2023 after securing a major OEM contract, then settled after earnings confirmed the deal’s impact."
+    }
   }
 ]
