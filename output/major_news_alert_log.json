@@ -9163,5 +9163,51 @@
       "look_out": "Watch LG Innotek’s upcoming earnings, order book updates and any macro data on semiconductor demand or supply constraints.",
       "memory": "A comparable rally occurred in early 2022 when smartphone component stocks surged on supply‑chain tightening."
     }
+  },
+  {
+    "alert_utc": "2026-09-22T00:47:36.811492+00:00",
+    "type": "sector",
+    "headline": "Seoul stocks open sharply higher",
+    "source": "Yonhap News Agency",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1uRXI2MzNJS3NGMElKcG8wZDQ1RVQ0U1JaNlNlbTRacUIyeDJHTXA2NHJZWWE0d3dsUTJVSEVXNFFjZllVVm1zUmFMVXoxMHhSbVJjVS1SdGhzSVRITlJ0N0ZRV2tvSlpVX1k0dlJmOFVWZm9rdE4w?oc=5",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "009150.KS",
+      "company": "Samsung Electro-Mechanics",
+      "pct": 6.4380685794261705,
+      "last": 1521000.0,
+      "prev": 1429000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "011070.KS",
+        "company": "LG Innotek",
+        "pct": 6.358381502890165
+      },
+      {
+        "ticker": "007660.KS",
+        "company": "Isu Petasys",
+        "pct": 5.530371713508608
+      },
+      {
+        "ticker": "307950.KS",
+        "company": "Hyundai AutoEver",
+        "pct": 4.84764542936289
+      },
+      {
+        "ticker": "066570.KS",
+        "company": "LG Electronics",
+        "pct": 3.2098765432098775
+      }
+    ],
+    "analysis": {
+      "business_model": "Samsung Electro-Mechanics designs and manufactures semiconductor packaging, interposers and modules that connect chips in smartphones, servers and AI hardware.",
+      "sentiment": "Bullish - AI-driven chip demand lifts component makers",
+      "why_moved": "The market cited revived AI hopes and strong chip earnings, boosting demand for Samsung Electro‑Mechanics' packaging and module products.",
+      "read_across": "Peers such as LG Innotek and Isu Petasys also rose, signalling a broader rally in Korea’s semiconductor component supply chain.",
+      "look_out": "Watch the company’s upcoming earnings and global AI server demand data for confirmation of the rally.",
+      "memory": "A similar AI‑driven rally in early 2023 lifted Korean chip component stocks before easing later."
+    }
   }
 ]
