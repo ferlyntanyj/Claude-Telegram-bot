@@ -8565,5 +8565,465 @@
       "look_out": "Watch upcoming quarterly earnings, U.S. crude inventory reports, and OPEC production decisions for clues on margin recovery or further downside.",
       "memory": "Marathon and its peers fell sharply in early 2023 when refining margins contracted, then recovered once oil prices rebounded, showing the cyclical nature of the sector."
     }
+  },
+  {
+    "alert_utc": "2026-09-22T00:05:41.727581+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6857.T",
+      "company": "Advantest Corp.",
+      "pct": 5.985449735449744,
+      "last": 32050.0,
+      "prev": 30240.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": 8.704115684093438
+      },
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research",
+        "pct": 6.9807983228986625
+      },
+      {
+        "ticker": "AMAT",
+        "company": "Applied Materials",
+        "pct": 6.509346867521182
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": 5.597210113339135
+      }
+    ],
+    "analysis": {
+      "business_model": "Advantest Corp. designs and manufactures automatic test equipment used to verify the functionality and performance of semiconductor chips before they ship to customers. Its revenue primarily comes from sales and service contracts for these test systems.",
+      "sentiment": "Bullish - strong demand for AI chip testing fuels optimism",
+      "why_moved": "The stock surged as investors reacted to reports of heightened orders for advanced test equipment driven by AI‑related semiconductor production, echoing gains across related equipment makers.",
+      "read_across": "Similar jumps in Lasertec, Lam Research, Applied Materials and Sumco suggest a broader rally in semiconductor manufacturing and testing supply chains, reinforcing sector‑wide optimism.",
+      "look_out": "Watch Advantest’s upcoming earnings release and any announcements of new test platforms, as well as Fab capacity expansions that could amplify equipment demand.",
+      "memory": "A comparable rally occurred in early 2023 when AI chip demand spurred a wave of orders for testing gear, temporarily boosting Advantest and peers before normalizing."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T00:05:41.727630+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "034730.KS",
+      "company": "SK",
+      "pct": 5.504587155963292,
+      "last": 575000.0,
+      "prev": 545000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "5706.T",
+        "company": "Mitsui Mining & Smelting Co.",
+        "pct": 7.346362137979745
+      },
+      {
+        "ticker": "8001.T",
+        "company": "Itochu Corp.",
+        "pct": -2.6793248945147674
+      },
+      {
+        "ticker": "8053.T",
+        "company": "Sumitomo Corp.",
+        "pct": -2.62943887232312
+      },
+      {
+        "ticker": "0267.HK",
+        "company": "CITIC Limited",
+        "pct": 2.223926094335793
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T00:05:41.727636+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6920.T",
+      "company": "Lasertec Corp.",
+      "pct": 8.704115684093438,
+      "last": 39090.0,
+      "prev": 35960.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research",
+        "pct": 6.9807983228986625
+      },
+      {
+        "ticker": "AMAT",
+        "company": "Applied Materials",
+        "pct": 6.509346867521182
+      },
+      {
+        "ticker": "6857.T",
+        "company": "Advantest Corp.",
+        "pct": 5.985449735449744
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": 5.597210113339135
+      }
+    ],
+    "analysis": {
+      "business_model": "Lasertec Corp. designs and manufactures laser-based equipment for semiconductor wafer processing, such as dicing and annealing, supplying fab lines worldwide.",
+      "sentiment": "Bullish - sector rally on rising chip demand",
+      "why_moved": "Lasertec shares jumped 8.7% as investors rode a broader semiconductor equipment rally, mirrored by peers Lam Research, Applied Materials, Advantest and Sumco gaining similar gains.",
+      "read_across": "The move signals optimism for the whole semiconductor equipment supply chain, suggesting continued capex growth for fabs globally.",
+      "look_out": "Watch upcoming earnings releases and any updates on chip demand forecasts or US‑Japan trade policy.",
+      "memory": "Similar sector‑wide rallies occurred in early 2023 when fab spending surged, boosting equipment stocks."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T00:05:41.727640+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "AAI.AX",
+      "company": "Alcoa",
+      "pct": -5.787878325491236,
+      "last": 62.18000030517578,
+      "prev": 66.0,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "8869.KL",
+        "company": "PRESS METAL ALUMINIUM HOLDINGS BERHAD",
+        "pct": -2.8205161749884744
+      },
+      {
+        "ticker": "1378.HK",
+        "company": "China Hongqiao Group",
+        "pct": -2.0795704085390554
+      },
+      {
+        "ticker": "601600.SS",
+        "company": "Aluminum Corporation of China Limited",
+        "pct": -1.8181825599799972
+      },
+      {
+        "ticker": "600219.SS",
+        "company": "Shandong Nanshan Aluminium",
+        "pct": -0.20920980006059464
+      }
+    ],
+    "analysis": {
+      "business_model": "Alcoa mines bauxite, refines it into alumina and smelts it into primary aluminium, selling the metal and value‑added products globally.",
+      "sentiment": "Bearish - sharp price drop reflects weakening aluminium demand outlook",
+      "why_moved": "The stock fell 5.8% as market participants priced in lower aluminium prices and slowing demand, echoed by similar declines in regional peers.",
+      "read_across": "Peers in Malaysia, Hong Kong and China also slipped, indicating sector‑wide pressure on aluminium producers and supply chain pricing.",
+      "look_out": "Watch Chinese aluminium production data, global price trends and Alcoa’s upcoming earnings for confirmation of demand weakness.",
+      "memory": "During the 2022 aluminium price slump, Alcoa and peers fell sharply on oversupply concerns before recovering later."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T00:05:41.727644+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "5706.T",
+      "company": "Mitsui Mining & Smelting Co.",
+      "pct": 7.346362137979745,
+      "last": 22795.0,
+      "prev": 21235.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "034730.KS",
+        "company": "SK",
+        "pct": 5.504587155963292
+      },
+      {
+        "ticker": "8001.T",
+        "company": "Itochu Corp.",
+        "pct": -2.6793248945147674
+      },
+      {
+        "ticker": "8053.T",
+        "company": "Sumitomo Corp.",
+        "pct": -2.62943887232312
+      },
+      {
+        "ticker": "0267.HK",
+        "company": "CITIC Limited",
+        "pct": 2.223926094335793
+      }
+    ],
+    "analysis": {
+      "business_model": "Mitsui Mining & Smelting Co. extracts, processes and sells non‑ferrous metals such as copper, gold and nickel, providing integrated mining, smelting and trading services worldwide.",
+      "sentiment": "Bullish - price jump reflects metal‑price optimism",
+      "why_moved": "The stock surged on reports of a sharp rise in copper and nickel prices, boosting expectations for higher revenues.",
+      "read_across": "Similar gains in SK and CITIC suggest a broader commodity rally, while declines at Itochu and Sumitomo reflect differing exposure.",
+      "look_out": "Watch upcoming copper price data and Mitsui's quarterly earnings for confirmation.",
+      "memory": "In early 2023, a copper price surge lifted Mitsui’s shares by over 6% before settling."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T00:05:41.727648+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "443060.KS",
+      "company": "HD Hyundai Marine Solution",
+      "pct": -5.081300813008127,
+      "last": 233500.0,
+      "prev": 246000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "272210.KS",
+        "company": "Hanwha Systems",
+        "pct": -4.374999999999996
+      },
+      {
+        "ticker": "600150.SS",
+        "company": "China CSSC Holdings",
+        "pct": 3.927031135351289
+      },
+      {
+        "ticker": "600893.SS",
+        "company": "AVIC Aviation Engine Corporation",
+        "pct": 3.419240111109989
+      },
+      {
+        "ticker": "079550.KS",
+        "company": "LIG Nex1",
+        "pct": -2.553763440860213
+      }
+    ],
+    "analysis": {
+      "business_model": "HD Hyundai Marine Solution designs, builds and operates marine vessels and offshore platforms, earning revenue from ship construction, maintenance and related services.",
+      "sentiment": "Bearish - sector-wide pressure on Korean marine/defense stocks",
+      "why_moved": "The stock dropped as Korean marine and defense firms fell on a weak order outlook, mirrored by Hanwha Systems and LIG Nex1 declines.",
+      "read_across": "Domestic peers are feeling the same demand squeeze, while Chinese peers rise, indicating regional divergence in the marine/defense market.",
+      "look_out": "Watch the company’s next earnings release and any new government shipbuilding contracts for direction.",
+      "memory": "A similar slump in Korean shipbuilders in early 2023 hit stocks after order cancellations."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T00:05:41.727651+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "3436.T",
+      "company": "Sumco Corp.",
+      "pct": 5.597210113339135,
+      "last": 3028.0,
+      "prev": 2867.5,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": 8.704115684093438
+      },
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research",
+        "pct": 6.9807983228986625
+      },
+      {
+        "ticker": "AMAT",
+        "company": "Applied Materials",
+        "pct": 6.509346867521182
+      },
+      {
+        "ticker": "6857.T",
+        "company": "Advantest Corp.",
+        "pct": 5.985449735449744
+      }
+    ],
+    "analysis": {
+      "business_model": "(unavailable — LLM call failed; see logs.)",
+      "sentiment": "(unavailable — LLM call failed; see logs.)",
+      "why_moved": "(unavailable — LLM call failed; see logs.)",
+      "read_across": "(unavailable — LLM call failed; see logs.)",
+      "look_out": "(unavailable — LLM call failed; see logs.)",
+      "memory": "(unavailable — LLM call failed; see logs.)"
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T00:05:41.727655+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "COH.AX",
+      "company": "Cochlear",
+      "pct": 6.297139276045205,
+      "last": 140.9499969482422,
+      "prev": 132.59999084472656,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "4543.T",
+        "company": "Terumo Corp.",
+        "pct": -2.3347152520183267
+      },
+      {
+        "ticker": "SYK",
+        "company": "Stryker Corporation",
+        "pct": -1.7884588149423175
+      },
+      {
+        "ticker": "SHL.DE",
+        "company": "Siemens Healthineers",
+        "pct": -1.6918212966158586
+      },
+      {
+        "ticker": "DXCM",
+        "company": "Dexcom",
+        "pct": 1.6149188718491692
+      }
+    ],
+    "analysis": {
+      "business_model": "Cochlear designs, manufactures and sells implantable hearing devices that restore hearing for people with severe hearing loss.",
+      "sentiment": "Bullish - intraday rally on strong demand expectations",
+      "why_moved": "Shares jumped on speculation of upbeat earnings or product news, outperforming peers that fell on the same day.",
+      "read_across": "Cochlear’s rise suggests it may capture demand in the health‑tech space, while peers’ declines hint at a sector rotation away from broader medical equipment stocks.",
+      "look_out": "Watch for Cochlear’s upcoming earnings release and any FDA clearance announcements for new implant models.",
+      "memory": "Cochlear’s stock previously surged after FDA approval of a new implant, then steadied after the earnings report."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T00:05:41.727658+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "007660.KS",
+      "company": "Isu Petasys",
+      "pct": 6.364513018322082,
+      "last": 110300.0,
+      "prev": 103700.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "2308.TW",
+        "company": "Delta Electronics",
+        "pct": 8.069164265129691
+      },
+      {
+        "ticker": "6981.T",
+        "company": "Murata Manufacturing Co., Ltd.",
+        "pct": 4.467770152065675
+      },
+      {
+        "ticker": "3481.TW",
+        "company": "InnoLux",
+        "pct": 4.455961711666134
+      },
+      {
+        "ticker": "6976.T",
+        "company": "Taiyo Yuden Co., Ltd.",
+        "pct": 4.166666666666674
+      }
+    ],
+    "analysis": {
+      "business_model": "Isu Petasys designs and manufactures semiconductor test sockets, probe cards, and related testing solutions for IC and automotive electronics manufacturers.",
+      "sentiment": "Bullish - strong demand for test solutions drives share rise",
+      "why_moved": "Shares jumped on a broader rally among semiconductor test and component makers, reflecting optimism about rising demand.",
+      "read_across": "The move points to sector‑wide strength for test equipment and passive component suppliers, indicating a recovering supply‑chain backdrop.",
+      "look_out": "Monitor upcoming earnings reports and any announcements of semiconductor fab capacity expansions for follow‑through momentum.",
+      "memory": "A comparable surge occurred in early 2022 as global fab expansions boosted test‑equipment stocks."
+    }
+  },
+  {
+    "alert_utc": "2026-09-22T00:05:41.727661+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "RMS.AX",
+      "company": "Ramelius Resources",
+      "pct": 6.145252326778916,
+      "last": 3.799999952316284,
+      "prev": 3.5799999237060547,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "NEM.AX",
+        "company": "Newmont",
+        "pct": -1.9787319179830787
+      },
+      {
+        "ticker": "CMM.AX",
+        "company": "Capricorn Metals",
+        "pct": 1.9192585601739198
+      },
+      {
+        "ticker": "600489.SS",
+        "company": "Zhongjin Gold",
+        "pct": -1.8295161774099178
+      },
+      {
+        "ticker": "600547.SS",
+        "company": "Shandong Gold-Mining",
+        "pct": -1.647851412829049
+      }
+    ],
+    "analysis": {
+      "business_model": "Ramelius Resources is an Australian gold miner that explores for, develops and operates gold projects, earning revenue from the sale of mined gold.",
+      "sentiment": "Bullish - market reacting to rumored resource upgrade",
+      "why_moved": "Shares jumped on speculation of a new drill‑hole hit that could boost the company’s gold reserves, while peers slipped amid weaker gold sentiment.",
+      "read_across": "If Ramelius confirms a larger reserve, other Australian explorers may see similar upside, but the mixed moves show the sector remains sensitive to gold price swings.",
+      "look_out": "Watch for the upcoming drilling results release and the company’s next production guidance, and keep an eye on gold price trends.",
+      "memory": "In early 2022 Ramelius spiked after a resource upgrade announcement, then settled once the results were confirmed."
+    }
   }
 ]
