@@ -123,7 +123,11 @@ LLM_MODEL = "openai/gpt-oss-120b"
 # more headroom than the old single-paragraph LLM_SIGNIFICANCE_MAX_TOKENS=300.
 # Sector-wide alerts' prompt also grows with related-coverage context
 # (gather_related_headlines), so this has a bit of margin beyond that.
-LLM_ANALYSIS_MAX_TOKENS = 800
+# Trimmed from 800 -> 500 on 2026-09-22: six 1-2 sentence fields plus JSON
+# punctuation don't need 800 tokens of headroom in practice, and every
+# token of this ceiling is spent against the same 8,000 TPM budget below,
+# whether or not the model actually uses it.
+LLM_ANALYSIS_MAX_TOKENS = 500
 # Free tier is 8,000 tokens/minute (verified via Groq's docs 2026-09-15) --
 # tighter than the 30 requests/minute cap once each call's ~700-token max
 # output plus its prompt is counted. Confirmed 2026-09-18: the price-first
@@ -135,7 +139,17 @@ LLM_ANALYSIS_MAX_TOKENS = 800
 # with backoff (_run_completion) together absorb that instead of silently
 # degrading most of a busy cycle's alerts.
 LLM_CALL_PACING_SECONDS = 10
-LLM_RATE_LIMIT_MAX_RETRIES = 2
+# Cut from 2 -> 1 on 2026-09-22, alongside major_news_engine.run_cycle now
+# dropping (not sending) any alert whose analysis still fails: re-hitting
+# the SAME per-minute quota window a second and third time in immediate
+# succession (previously up to 3 attempts per alert: 1 + 2 retries) was
+# pure waste whenever a burst had genuinely exhausted that window --
+# confirmed 2026-09-22, 48% of logged alerts had failed analysis despite
+# those in-call retries. A failed alert is now cheaply retried a whole
+# cycle later instead (~15-20 min, well past any per-minute reset), so one
+# immediate retry is enough to absorb a single transient blip without
+# spending extra tokens chasing a quota that's still exhausted.
+LLM_RATE_LIMIT_MAX_RETRIES = 1
 LLM_RATE_LIMIT_RETRY_SECONDS = 20
 
 # ---------------------------------------------------------------------------

@@ -943,14 +943,35 @@ def run_cycle(cfg):
     # a minute reliably 429s. A quiet cycle (the common case, cooldown
     # suppresses repeats for 18h) pays nothing extra; a busy one spends time
     # here rather than silently degrading most of its write-ups.
+    #
+    # Alerts whose write_analysis() still failed after its own in-call
+    # retries are dropped here rather than sent -- confirmed 2026-09-22:
+    # 98 of the last 206 logged alerts (48%) had failed analysis, each one
+    # still sent to Telegram as a card full of "(unavailable)" lines, and
+    # each failed attempt had already burned up to
+    # 1 + LLM_RATE_LIMIT_MAX_RETRIES calls' worth of prompt tokens against
+    # the same exhausted per-minute quota for nothing. Dropping a failed
+    # alert here means should_alert()'s key never gets recorded (mark_sent
+    # is only called for what's actually returned), so it's simply
+    # re-evaluated fresh next cycle (~15-20 min later, well past a
+    # per-minute quota reset) instead of retried immediately into the same
+    # exhausted window -- cheaper AND it stops broken cards reaching the chat.
     import time as _time
+    sendable = []
     for i, alert in enumerate(alerts):
         if i > 0:
             _time.sleep(cfg.LLM_CALL_PACING_SECONDS)
         alert["analysis"] = write_analysis(alert, cfg)
+        if alert["analysis"]["why_moved"] == _ANALYSIS_UNAVAILABLE:
+            print(f"  LLM analysis failed for {alert['primary']['company']} "
+                  f"({alert['primary']['ticker']}) -- skipping send, will retry next cycle",
+                  file=sys.stderr)
+            continue
+        sendable.append(alert)
 
-    print(f"Qualifying alert(s) this cycle: {len(alerts)}")
-    return alerts, state
+    print(f"Qualifying alert(s) this cycle: {len(sendable)} "
+          f"({len(alerts) - len(sendable)} dropped for failed LLM analysis)")
+    return sendable, state
 
 
 def mark_sent(alert, state):
