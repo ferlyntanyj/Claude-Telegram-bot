@@ -10860,5 +10860,51 @@
       "look_out": "Watch for Doosan's upcoming earnings or any regulatory news that could explain the decline.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-23T05:05:24.809584+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "096770.KS",
+      "company": "SK Innovation",
+      "pct": 6.099290780141842,
+      "last": 149600.0,
+      "prev": 141000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "MPC",
+        "company": "Marathon Petroleum",
+        "pct": -5.297843910088174
+      },
+      {
+        "ticker": "VLO",
+        "company": "Valero Energy",
+        "pct": -4.841756151937782
+      },
+      {
+        "ticker": "PSX",
+        "company": "Phillips 66",
+        "pct": -4.166515827396966
+      },
+      {
+        "ticker": "5020.T",
+        "company": "Eneos Holdings, Inc.",
+        "pct": -1.918465227817745
+      }
+    ],
+    "analysis": {
+      "business_model": "SK Innovation is a South Korean energy company that operates oil refineries and produces petrochemicals, including gasoline, diesel, and specialty chemicals, while expanding into battery materials for electric vehicles.",
+      "sentiment": "Bullish - shares climb despite sector weakness",
+      "why_moved": "No specific catalyst is mentioned; the stock rose 6.1% intraday while peers in the refining sector fell, indicating a pure price‑action move.",
+      "read_across": "The gain contrasts with declines in peers like Marathon Petroleum and Valero, suggesting SK Innovation may be attracting relative buying interest or benefitting from a rotation into Korean energy names.",
+      "look_out": "Watch for SK Innovation’s upcoming earnings or any guidance updates that could confirm whether the rally is fundamentals‑driven.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
