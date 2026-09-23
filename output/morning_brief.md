@@ -1,27 +1,27 @@
-# US Market Morning Brief -- 22 Sep 2026, 13:12 SGT
+# US Market Morning Brief -- 23 Sep 2026, 12:56 SGT
 
 ## Markets
+- [Nasdaq reaches record high close, AI stocks rally](https://news.google.com/rss/articles/CBMipwFBVV95cUxOOUI2bTZ5ZFhnZUozYjg5LXM1WHhuT24xUS0zYmRRZkViWVBreE05ZTNMWFBDSGhHTXUyQ3ZyMWhsUFdxSUlxUXVUUXVHWGRVelg3Z2RuVXo3bndwaXJfRXhEUEFERFNSUVZoaDNERnFxdnhuNkxLdVhnNDRpRGhxYndETzVJdVNnZXJESmpMNmw5QVFQODFGY2w2NzVCcFl0bXBSNjRaTQ?oc=5) — Reuters
 - [Here's who we know is going to the Trump-Xi dinner so far](https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html) — CNBC Top News
-- [Tesla makes a move on Southeast Asia's largest EV market. A homegrown giant awaits](https://www.cnbc.com/2026/09/22/tesla-vinfast-ev-vietnam.html) — CNBC Top News
-- [Stocks had a great day on the surface. But something alarming occurred not seen since 1999](https://www.cnbc.com/2026/09/21/stocks-had-a-great-day-on-the-surface-but-something-alarming-occurred-not-seen-since-1999.html) — CNBC Top News
-- [What is the White House press pool and why does it matter?](https://www.cnbc.com/2026/09/21/trump-white-house-press-pool-what-is.html) — CNBC Top News
+- [Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon](https://www.cnbc.com/2026/09/22/trump-trades-microsoft-amazon-july-financial-disclosure.html) — CNBC Top News
+- [Trump administration removes around 760,000 Obamacare enrollments, alleging fraud](https://www.cnbc.com/2026/09/22/trump-administration-removes-around-760000-obamacare-enrollments.html) — CNBC Top News
 
 ## Macro, Fed & data
-- [Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat](https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5) — Reuters
+- [See the 10-Year Treasury Yield’s Wild Ride on the Road to 5%](https://news.google.com/rss/articles/CBMiqAFBVV95cUxORHhVakp3OTRldWEyVDJqWGhDWXN5NjBpNlBmTFc0WVFNTEk2MXYxQk1Kb2lSVGJxMVlGT3lwOWRxd0RlOWJoQTlmNUxLbU1aMVJJR0ZFak5QNmJ0UHItajhXWGVmR1RvUHh0SDNaa2QwaVJPZTVJemUxS1RsOFJtckNoVEFrRTNnVjlXSzAyMmk3VUZSRHlIeWlFVUVLZVA0OTdtc1hLNzI?oc=5) — WSJ
+- [Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says](https://www.cnbc.com/2026/09/22/trump-diesel-export-ban-urkaine-russia-iran.html) — CNBC Top News
 - [Solid Economic Data Show U.S. Economy Running Hot Ahead of Fed Decision](https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUllxQzMyRkk0Q2JWXzlkS0lNS2xqZkFuRUl1c01TYlMzd0JyeFhzUkZSYlBXY0hCdllwek1MVnNDOVozY0FGZnpSa1AzWHV2eWVZbGozRWlxdEloZjJCRE1Ha1VuaFNvaU43c2pGQlVLMThvM1BBMGdYUEEyZWNLMWVGT1llUGpqUTVETVBNLVpmNHRxTTRHLXZoVTRUUEJ1TlVJTXJKUzAySUVNNEFISzZQZzFpVnZsTHo3UzRIR3o?oc=5) — WSJ
-- [Fed's Goolsbee says strong demand may be adding to US inflation](https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ0hYN2ZsV3h2enhYZkdSaVlTUFRLQnFaNnRmYVJ6LTZxdGN1SGowVDdHUUNRR3pCdXExRG9MdGFRN0dlWEdnWTVfd0NaWnRDRFo5T0pZSnZmRnJWdWxqdEljUVV3LUItRjdjbF9uUzBucjNUeWNBdlZXMDdWbE42elpySFJ6eURzTm02S0xqQWQ3bVFrVU4xLUp4MlpicnN6c19Qc1JTQzVUc1ZBVkVYV2wwS3BwRHNyZXZsZw?oc=5) — Reuters
-- [$6 trillion a year in unpaid labor isn’t counted in GDP, but keeps the ‘formal economy’ functioning](https://news.google.com/rss/articles/CBMiowFBVV95cUxPdERrYjJMVkEwZmNCSms3U2RtekUwTVJPOS1NMWlmdUR5TEJTaTBCcmY5RmlaYnllVmk5N1FyVFRuTU1leWZTSGJLdTlFUzI5Ul82bHVVSVd2TkpuejJyMzFIWFNGaUNBUDl3WjAtc3VaYjRPWnBNem1aT2tJUEo0Qi1OOC1PcEFnQmFkbTB1dmtPbEs1NzJIMHlhU3VOSXdsanhN?oc=5) — Fortune
+- [Federal Reserve Board announces approval of application by BancFirst Corporation](https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm) — Fed press releases
 
 ## Stocks & earnings
-- [Investors rush into India’s National Stock Exchange IPO at valuation multiple above Nasdaq](https://www.cnbc.com/2026/09/22/india-nse-ipo-billion-nasdaq.html) — CNBC Top News
-- [Why Did AMD, WBD, MRNA Stocks Surge To 52-Week Highs Today?](https://news.google.com/rss/articles/CBMijgFBVV95cUxPMU0wa1lwRHNSS0hxSjNPSExHYXJGRVV4QTFDQ3p4VUhkeWpfZExaMDAzbGJEY2dxR2REWGdpV2RDWDBBcGk2eDAyMHpCQkFOYnVDbk9OS2Q1MVJqb1VydlYwTEUtZG9hR09FMjFOVWktU3MwM1B2eU96bTlUR2R1bFg3OGZfcXVrVUdUZXZ3?oc=5) — Yahoo Finance
-- [BlackBerry Stock Jumps Ahead Of Earnings: Analyst Sees Potential Revenue And EPS Beats](https://news.google.com/rss/articles/CBMipAFBVV95cUxORl9CYjlkTXh6Q1EwcjBJLU5HX3lwOU5UZVFBcmlYU0RjUGM0UlIwUkMza24ybDhOSWVlVDhla2NYQzRNQWlTaWd1MHJ1bWl5aEF0WWJyaG9qQ3kxNVpoZXk2Z1djZTFyeEFIR3BabHdjcjNZaHNndk81YXNBRnVKSVdfQ2FFbUw3eXpnVXZOUnd1MmNPSkZCSTlXdlB5Uk5FLU1JNA?oc=5) — Yahoo Finance
-- [U.S.-listed Greenland stocks surge after Trump announces security deal with Denmark](https://www.cnbc.com/2026/09/21/greenland-trump-denmark-deal-stocks-mining.html) — CNBC Top News
+- [South Korean solar stocks jump as curbs on Chinese sector expected to remain in place](https://www.cnbc.com/2026/09/23/korean-solar-stocks-jump-as-curbs-on-china-expected-to-stay-in-place.html) — CNBC Top News
+- [Lennar shares pop as Berkshire builds almost a 10% stake in beleaguered homebuilder](https://www.cnbc.com/2026/09/22/lennar-shares-pop-as-berkshire-builds-almost-a-10percent-stake-in-beleaguered-homebuilder.html) — CNBC Top News
+- [Cisco stock sinks 5% after Piper Sandler cuts price target on growth concerns](https://www.cnbc.com/2026/09/22/cisco-stock-piper-sandler-price-target.html) — CNBC Top News
+- [A top chip stock analyst sees big things for Nvidia, Broadcom. How his case aligns with ours](https://www.cnbc.com/2026/09/22/a-top-chip-stock-analyst-sees-big-things-for-nvidia-broadcom-how-his-case-aligns-with-ours.html) — CNBC Top News
 
 ## Geopolitics
-- [U.S. strikes Greenland deal for 'permanent control over security,' will send forces to Danish dog-sled outpost and reopen Cold War base: report](https://www.cnbc.com/2026/09/22/trump-greenland-security-deal-military-bases-.html) — CNBC Top News
-- [Oil rises amid worries of growing Iran-U.S. tensions after Bessent issues Iranian airline shutdown warning](https://www.cnbc.com/2026/09/22/oil-iran-us-bessent-un-crude.html) — CNBC Top News
-- [Taiwan benchmark Taiex rises to record intraday high as tech stocks advance](https://www.cnbc.com/2026/09/22/taiwans-taiex-hits-record-intraday-high-as-tech-stocks-advance.html) — CNBC Top News
-- [Trump meets Xi this week. Expect small steps on trade and AI, not breakthroughs.](https://news.google.com/rss/articles/CBMizwFBVV95cUxPSzNnUTloTVNnWVZKSHhvUUVTS3FTVVIwOTE5ajhucWVMSmpGS3AxZ3Q3S3I5eW9aUXVPbG45ai15elhjNXFEUkdMTnZBOXRqZHBCZC1jOU5YTWtVbzBSSFUxcnFUX0dHVzlhRTI4Q1QtS2dTeUczQWRsenViZ3M2Q21ZOVlYQWZtMzNPc3JNd1BQTnVBZkk5Z0NOV0hneG5RVUx1WjE1ZFBrb3NmS3U5V3NOWEo2SGk0Q0tZcHlsSmUwdHBGT2FqUFRQSTRQRGs?oc=5) — Yahoo Finance
+- [Oil falls after U.S. and Iran talk for hours at UN meeting](https://www.cnbc.com/2026/09/23/iran-us-talks-crude-oil-un-wti.html) — CNBC Top News
+- [Trump slams Iran and Cuba, defends AI growth in boastful UN speech](https://www.cnbc.com/2026/09/22/trump-un-speech-today.html) — CNBC Top News
+- [Trump’s U.N. Speech and China Talks Put Tariffs, AI and Energy in Focus](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbzFtdVRUektSQ0t5ZlltWF9lLU41dVRxMVl2WHNUZnpmaHJFZXBaX2ZOUEJFTEhZelhtYVhuSXlod1dSbWluMFF5SWp5RTFXV0tycFEzb3dSY0t5cGMzVUdRM2dHVzZzZWZFSkZBR09BTk1lTkd4SE53ZFpKZjgwNmh3dXF4VTRiU01xR0ZsS0t3LWpqazdTUi1WY0xGUmE3UEVjbkFyeEJMUQ?oc=5) — WSJ
+- [Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure](https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html) — CNBC Top News
 
 _Sources: Google News + CNBC + Fed feeds (16 headlines, 20h window)._
