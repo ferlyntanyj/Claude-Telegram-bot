@@ -10814,5 +10814,51 @@
       "look_out": "Watch for any upcoming earnings releases, order book updates, or macro‑economic data affecting construction demand that could clarify the move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-23T04:07:37.815906+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "034020.KS",
+      "company": "Doosan Enerbility",
+      "pct": -5.549132947976876,
+      "last": 81700.0,
+      "prev": 86500.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "6594.T",
+        "company": "Nidec Corp.",
+        "pct": 4.8458149779735615
+      },
+      {
+        "ticker": "SPX.L",
+        "company": "Spirax Group",
+        "pct": 4.0550325850832625
+      },
+      {
+        "ticker": "SIE.DE",
+        "company": "Siemens",
+        "pct": 3.5984848484848397
+      },
+      {
+        "ticker": "OTIS",
+        "company": "Otis Worldwide",
+        "pct": -2.7437205859936475
+      }
+    ],
+    "analysis": {
+      "business_model": "Doosan Enerbility designs, builds and services large-scale power plants and industrial infrastructure, earning revenue from equipment sales and long‑term maintenance contracts.",
+      "sentiment": "Bearish - selloff on unclear fundamentals",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 5.5% on pure price action amid broader market or sector moves.",
+      "read_across": "Peers like Nidec, Spirax, Siemens and Otis moved higher, indicating a sector rotation that lifted related industrial names while Doosan lagged.",
+      "look_out": "Watch for Doosan's upcoming earnings or any regulatory news that could explain the decline.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
