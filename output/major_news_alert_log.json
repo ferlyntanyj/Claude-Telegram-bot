@@ -10768,5 +10768,51 @@
       "look_out": "Watch upcoming earnings releases or guidance updates from Advantest and its peers for confirmation of the price move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-23T01:48:42.566084+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "000720.KS",
+      "company": "Hyundai E&C",
+      "pct": -6.321401370906321,
+      "last": 123000.0,
+      "prev": 131300.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "047040.KS",
+        "company": "Daewoo E&C",
+        "pct": -6.276595744680846
+      },
+      {
+        "ticker": "028050.KS",
+        "company": "Samsung E&A",
+        "pct": -3.90625
+      },
+      {
+        "ticker": "1803.T",
+        "company": "Shimizu Corp.",
+        "pct": -2.2793203481143776
+      },
+      {
+        "ticker": "1812.T",
+        "company": "Kajima Corp.",
+        "pct": -1.7754981258630842
+      }
+    ],
+    "analysis": {
+      "business_model": "Hyundai E&C is a South Korean construction and engineering firm that builds large infrastructure projects such as highways, power plants, and civil works, generating revenue from contract execution and project management.",
+      "sentiment": "Bearish - shares fell sharply without clear catalyst",
+      "why_moved": "No specific catalyst was stated; the stock dropped 6.3% intraday on price action alone.",
+      "read_across": "The similar declines in Daewoo E&C, Samsung E&A, Shimizu and Kajima suggest a broader sell‑off in construction and engineering stocks, likely reflecting sector‑wide sentiment.",
+      "look_out": "Watch for any upcoming earnings releases, order book updates, or macro‑economic data affecting construction demand that could clarify the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
