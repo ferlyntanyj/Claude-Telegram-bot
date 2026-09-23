@@ -1,15 +1,18 @@
-# Global Semiconductor Brief -- 23 Sep 2026, 13:01 SGT
+# Global Semiconductor Brief -- 23 Sep 2026, 23:09 SGT
+
+## Policy & geopolitics
+- [COMMENTARY: What's the latest with semiconductor export controls?](https://news.google.com/rss/articles/CBMisAFBVV95cUxOVy1RZjhpbWhZNDJ3Z3FvajRGbXdwamp6c192eUpWVHlKVC15RkoxbGpVUzc4RWxLVk80TEZqd2dodkg3T0xOUF9rM2lDUzVvTjAtRGhvYkZtQ2tjdllqVXNqWHU3dVJpM1hfSzJWMnlDUGhQYUx4cVN3aGtSOXNicUhjOER0NkVOdm5MT1NFaW5weGw4RDBLbnJIc3h0ekpGYll5TlQzVURRMnZjcXRFeQ?oc=5) — Reuters
 
 ## Supply chain signals
-- [CME Group's GPU futures debut stalls as CFTC flags concerns](https://www.digitimes.com/news/a20260923VL208/gpu-cftc-economic-growth-market-infrastructure.html) — DIGITIMES
-- [Episil says AI demand marks structural shift in semiconductor epitaxy](https://www.digitimes.com/news/a20260923PD210/episil-demand-revenue-capacity-silicon.html) — DIGITIMES
-- [SK hynix's venture arm moves beyond memory into optical interconnect and system software](https://www.digitimes.com/news/a20260923VL206/software-brand-venture-capital-technology-data.html) — DIGITIMES
-- [Li Auto opens Mach chips, SiC modules to external customers](https://www.digitimes.com/news/a20260922PD204/li-auto-sic-chips-business-vehicle.html) — DIGITIMES
+- [[Insights] Memory Spot Price Update: DRAM Spot Prices Hold Cautious Tone; DDR4 2Gx8 Drops 3.6%](https://news.google.com/rss/articles/CBMizgFBVV95cUxNQWpNUWJncjNuTVNjUnZRUzRPckc0Sk1waW5FVFFpcEVDeTg1ZXRZOC1SeWY3dWhnTXVnNERFS0ZDLUJxbGQ3SUhOYzMyb3I4R096cWxXMnZLc2ctREhhVlJNcVJHUXlmRXNhckFBaGFwSUtrUGdzMDdVNUxBZ2xFWGtOQmtEY3NDelotQzRnd2kxdWVSZU5PN3NRQ1ktX1ZBd3l1dHRWRUo5T2N4RVpIZDRFYWtLcnF5WURNQ0ZqWUFXdXVETHV5TlRua1lDdw?oc=5) — TrendForce
+- [YMTC wins German injunctions against Micron in latest round of NAND patent battle](https://www.digitimes.com/news/a20260923PD226/micron-ymtc-patent-germany-europe.html) — DIGITIMES
+- [Samsung Display explores halftone black PDL tech to cut OLED production costs](https://www.digitimes.com/news/a20260923VL214/sdc-production-manufacturing-flagship-samsung.html) — DIGITIMES
+- [Samsung LPDDR6 validated by Qualcomm for next-gen Snapdragon platform](https://www.digitimes.com/news/a20260923PR200/samsung-mobile-qualcomm-snapdragon-efficiency.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Micron's Taiwan fab took 300,000 cubic meters of concrete. Its supplier sees more coming](https://www.digitimes.com/news/a20260922PD238/plant-demand-data-center-industrial-mediatek.html?chid=10) — DIGITIMES
-- [A top chip stock analyst sees big things for Nvidia, Broadcom. How his case aligns with ours](https://news.google.com/rss/articles/CBMixgFBVV95cUxQbkRTODEyMWV2N1ZEVVFFVXJva2hkQ1h0NTJaSXJKTTZqZXJXV29QalFHNmtReWpQU3V4N01ramJoSFQ4QkRNZXlIMUkwYWJpV2RwV01KQXYxOXFwUFRPVzBKUThDYUttMTQ1bnBxWnpQN3NWWkszTmVBSTZaclM1Tm5raEp6SENQMVRVWE1qU2hwbzlkTTAxekhyWV9EWW1sT1hfR1U4ZmFYY1BacDU1YTlsdDE5YTZLeXNVYkJZWllULXZTaFE?oc=5) — CNBC
-- [Samsung, SK hynix's 800 trillion won chip cluster targets mass production by 2030](https://news.google.com/rss/articles/CBMizAFBVV95cUxOZGZxWXdWZHBUOU9vNlktcEp1NGxuT1IzYVVtTlFXNFA3YjRkQ2R2UTM3aHpKQnNGMTZzb0JWc1hWdXZCbk9pT2hkZ1VuT2ZpXzVNcG9PUEFQV0I5VlVCek9IX2RmZDRVUlIxU2l4Z3BEU2t6a0QzWkQ1MXhqbDBqNUVqc2R5OUd2VTJrRS16djIwVU80NGtBZHdRZkVGTHBqLVZ5X2d6RXZURTRHTTRKeXlDN3NkS3loUXZ6VERON3FlV0dVeGxUSWdPVng?oc=5) — Korea JoongAng Daily
-- [Nvidia options are doing something unusual ahead of two catalysts. Here's how one trader is playing it](https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTzNuVkZSWTJSQy1UQ2had2tLZGQwdWs1M2FZeVJXdWdnSU9SaGo2aWNaVzFKaVI2T2tvMERfUXM4OGpSUVU3aVRmcVdENGxneFpFYUp0cUh5Skd6SDlhZUdKUHBOYkhEdHhZS0JVQUFkRF9PNUVhZUEybVhvbGdhbXM4bHlZdTRYQ0loR3I2ZjUxOVBfSlJrelRDRUdJRjQwQzZkbFlFVVA2M3Vmam5OSUg2QjkzNG9XeTUwVXdUWWxIX2ZrcnJ5RERHdjh3Q0dKUFVJWkdoeFDSAdgBQVVfeXFMUE8zblZGUlkyUkMtVENoWndrS2RkMHVrNTNhWXlSV3VnZ0lPUmhqNmljWlcxSmlSNk9rbzBEX1FzODhqUlFVN2lUZnFXRDRsZ3haRWFKdHFIeUpHekg5YWVHSlBwTmJIRHR4WUtCVUFBZERfTzVFYWVBMm1Yb2xnYW1zOGx5WXU0WENJaEdyNmY1MTlQX0pSa3pUQ0VHSUY0MEM2ZGxZRVVQNjN1ZmpuTklINkI5MzRvV3k1MFV3VFlsSF9ma3JyeURER3Y4d0NHSlBVSVpHaHhQ?oc=5) — CNBC
+- [Micron Stock: Memory Chips Prices Set to Peak Early, but the Shares Can Still Jump](https://news.google.com/rss/articles/CBMic0FVX3lxTE5fd2lDRnlpSkg3ei1YR1FOR1BDTTJ3NWtQRmlBY0ViVGpsakNDc2k0UmNTMVpVbWQ2U0NwT1V2eUM0NERFU0NXU1h5Z0lXZEQzdWtzTndFTUJPTF91MW5kSFRaTFc2REFGdU9vU3kwUW91bm8?oc=5) — Barron's
+- [Nvidia Stock Falls. It Has a Google AI Chip Conundrum.](https://news.google.com/rss/articles/CBMiggFBVV95cUxONFNKSXh1cWdKdlk1LVQ2WjZ5UUZrN0Npak92YkZRd2xfTlhZdTc3UkFNTXM1S05SMVJzdDBidmlqLTlCXy10TDZ3OUg2ckE4ZHhDT1BlVXYtWXBkaFlmNndrY2FRaWNlX0VKLWwxZE5Za0VEN19vQkROUVV5eGxzX3pB?oc=5) — Barron's
+- [SEMICON INDIA 2026: India Starts Packaging Chips as Ecosystem Takes Shape](https://www.eetimes.com/semicon-india-2026-india-starts-packaging-chips-as-ecosystem-takes-shape/) — EE Times
+- [Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO](https://news.google.com/rss/articles/CBMihAFBVV95cUxPNld4dlFSSk9hcTVZR0xMV1hRYkk5NFlLOUprcmIxcHZvbEh4cVZrLWlqM3E1dkJTbDBvYzJCQVhTajZZVG9rYy1OT05tc3dXdUxKQjA2eC13TzRsVmk5eU93Uk9hcTFRTW1CRVEzY2JnTFBkUC16RmV3Q3RkeVRPNHJWX1U?oc=5) — Financial Times
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
