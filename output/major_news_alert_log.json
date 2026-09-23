@@ -10906,5 +10906,51 @@
       "look_out": "Watch for SK Innovation’s upcoming earnings or any guidance updates that could confirm whether the rally is fundamentals‑driven.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-23T20:04:05.220863+00:00",
+    "type": "single_stock",
+    "headline": "Zebra Technologies Corp. Cl A stock outperforms competitors on strong trading day",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOYWVib2RsV3Rhc3d6N2FGUWVmalVsUVZ4SWFZZDRORXVWbXFGb2ZvODQ4TlJmQ0kzOU9DQmdXdGhXejV1bzBKUVF2bXFRcDRIQWdBb3FwRnF4XzAwaWk2Qk1iMGNkNHVHenNmeHc3a0djSENNNlZacENUMTlLNXlZRnpjbEwxX1VQMllDS0lrVXM2ZUZLc1lldG1TRUlQV1JWVEFGNHJwY0lacHJaRURLLS1ER0t4QUFsdm9FOEk1OUR5eUo0Wk1xc0hSZjY3TkpkSXhUNm9QVzQ0UTN4Ulp4RlU2c0J1WFJFMDJCblRGYw?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "ZBRA",
+      "company": "Zebra Technologies",
+      "pct": 5.871624192948621,
+      "last": 371.44000244140625,
+      "prev": 350.8399963378906,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "HPE",
+        "company": "Hewlett Packard Enterprise",
+        "pct": 2.39227089689078
+      },
+      {
+        "ticker": "CIEN",
+        "company": "Ciena",
+        "pct": -2.30079328526539
+      },
+      {
+        "ticker": "000063.SZ",
+        "company": "ZTE",
+        "pct": -1.914315013783796
+      },
+      {
+        "ticker": "2345.TW",
+        "company": "Accton",
+        "pct": -1.305483028720622
+      }
+    ],
+    "analysis": {
+      "business_model": "Zebra Technologies designs and sells enterprise‑level hardware and software for tracking assets, managing inventory and enabling mobile computing, including RFID tags, scanners and printers.",
+      "sentiment": "Bullish - strong intraday gain outpaces peers",
+      "why_moved": "No specific catalyst is stated; the stock rose 5.9% on a strong trading day, outpacing listed peers.",
+      "read_across": "Peers such as HPE, Ciena, ZTE and Accton moved modestly, indicating the rally may be limited to Zebra or a narrow sector theme rather than a broad industry surge.",
+      "look_out": "Watch for Zebra's upcoming earnings or guidance releases that could confirm the momentum or trigger a pullback.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
