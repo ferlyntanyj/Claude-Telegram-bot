@@ -10722,5 +10722,51 @@
       "look_out": "Watch for Cisco's upcoming earnings release or any guidance updates that could clarify the recent downside.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-23T00:18:11.290771+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6857.T",
+      "company": "Advantest Corp.",
+      "pct": 5.985449735449744,
+      "last": 32050.0,
+      "prev": 30240.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": 8.704115684093438
+      },
+      {
+        "ticker": "002129.SZ",
+        "company": "Tianjin Zhonghuan Semiconductor",
+        "pct": 6.541010742474529
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": 5.597210113339135
+      },
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research",
+        "pct": 4.918265297345936
+      }
+    ],
+    "analysis": {
+      "business_model": "Advantest Corp. designs and manufactures semiconductor test and measurement equipment, selling systems used to verify chips during production.",
+      "sentiment": "Bullish - sector momentum lifts test equipment stocks",
+      "why_moved": "No specific catalyst is mentioned; the stock rose 6% on price action alone, likely reflecting broader sector buying.",
+      "read_across": "The gains in peers like Lasertec, Tianjin Zhonghuan Semiconductor, Sumco and Lam Research suggest a broad rally in semiconductor equipment and materials stocks.",
+      "look_out": "Watch upcoming earnings releases or guidance updates from Advantest and its peers for confirmation of the price move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
