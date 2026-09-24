@@ -1,21 +1,23 @@
-# Asia Market Evening Brief -- 23 Sep 2026, 23:02 SGT
+# Asia Market Evening Brief -- 24 Sep 2026, 23:07 SGT
 
 ## Macro & policy
-- [Opinion | Bad money decisions are coming home to roost for the US and Japan](https://news.google.com/rss/articles/CBMisgFBVV95cUxQWXJpdGNvQWwzc3RFWGpuVGo3NzdHc1ZPdU9WMUo1dnlBMmZhTTRYSjhORG9WcnJIRDJ3TWROcDh5UTlsSi1BZTFleklDTENUM05lWHp1NU9CR2VWQ242RTIxYmhpSEwyR3diWlRBVHd2U3puUEhWUENqekxHZDh3WnY3eTB5cDFvV01EdlYwZXFkZUxSZXBRMThXQW1qRVFMdlN6VURDYWRDek5GdHJvYzV30gGyAUFVX3lxTFBZcml0Y29BbDNzdEVYam5Uajc3N0dzVk91T1YxSjV2eUEyZmFNNFhKOE5Eb1ZyckhEMndNZE5wOHlROWxKLUFlMWV6SUNMQ1QzTmVYenU1T0JHZVZDbjZFMjFiaGlITDJHd2JaVEFUd3ZTem5QSFZQQ2p6TEdkOHdadjd5MHlwMW9XTUR2VjBlcWRlTFJlcFExOFdBbWpFUUx2U3pVRENhZEN6TkZ0cm9jNXc?oc=5) — South China Morning Post
-- [Singapore’s core inflation climbs to 2.2% in August](https://www.straitstimes.com/business/economy/singapores-core-inflation-climbs-to-2-2-in-august) — The Straits Times
-- [Indonesia’s central bank holds rates steady, as expected](https://news.google.com/rss/articles/CBMipwFBVV95cUxOdWVHRzZjR2d1M3JFWHo0Qy04QmdNMU9JQ2RrekhwV1JZc3o5em1tdWZsRkF4YUNMTWNSRkQ3OFdYcks2WkRQcjdGdThVR0dpODlHMWxkd3h4TDlEXzBtTmM0QkExWUFIMHVraDMya1NRSVktOVk3WlFKSTdEa3pwRWw0S2JXR1B0ajBmeC1nSDRGOF9PZi04R3llYmcycm5qWWRRdmJ1WQ?oc=5) — The Business Times
-- [OECD raises S. Korea's 2026 growth forecast to 3.7 pct](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9JaE1JSE1CQTU4VUJoSHZIeUdxOE9DX25hcElPYkNXX2VBclgzUVFzRWNPTjdGV2p2ZXNrV01yYlhhLWVHaTcxeTdqQ0FuWFNmcGZBcDZyS0pSQQ?oc=5) — Yonhap News Agency
-- [South Korea keeps fuel cheap for holidays as fiscal cost mounts](https://www.straitstimes.com/asia/east-asia/south-korea-keeps-fuel-cheap-for-holidays-as-fiscal-cost-mounts) — The Straits Times
+- [Oil Falls, Asian Stocks Rise Ahead of Fed Rate Decision](https://news.google.com/rss/articles/CBMinwFBVV95cUxQQjdxNzdFdWVJN0FFVmR1SE13VGhpOE5OUGJKakpvOGN2cEhlcEdBVHBUTU44d0l2R0VSOFp2Ulc0UnJfTy1hbFdGOVVIRDd1MDNuQXpjdnVmOE5FY0JYNi05WDR0RFF2X19WTXdoTkhfWHl2MzB6RmJ6eG1FSGFUTjkza1ZMNkVTLTN0WjRZRU1YLUMzN0xkZmN1MEZhS1E?oc=5) — WSJ
+- [Japan's Takaichi grows cautious of setting GDP defense spending target](https://asia.nikkei.com/politics/defense/japan-s-takaichi-grows-cautious-of-setting-gdp-defense-spending-target) — Nikkei Asia
+- [BOJ could raise rates every quarter, ex-policymaker says](https://www.channelnewsasia.com/business/boj-could-raise-rates-every-quarter-ex-policymaker-says-6407371) — CNA Business
+- [Historic day for global bonds as 10-year Treasury and JGB yields hit highest in decades](https://news.google.com/rss/articles/CBMidkFVX3lxTE9MMXNQUElSUnZFZFFrdkVxMHZSNWVyNTZrMVJHR2VhZVQzX2gwZEhpZVJRRHNwUW9HdFNwY0hrVVV2TThBbTFyU19acnNhbjFwbXhidWxnYzg3WnQ4TG10am15Y2lYOWd6ZlhfUGYycXZLamRTdXfSAXtBVV95cUxQQVhsbFlqNE5aNFR1VUdWWWlXT3dYZE56M2hheVVjNF9WZUJ0UzZ5Z3FsbWpiZU5mcHU4VVhHTFZkY0tRN1NVZWZ1ZEMzNnlnMmkwVzdGVktYNHNTWFh6T3V3VGRBQVJSUzFRamd5VmRHT2pXR2FwUnY5TzA?oc=5) — CNBC
+- [Japan's Katayama says principles of Japan-US FX intervention remain in place](https://www.channelnewsasia.com/business/japans-katayama-says-principles-japan-us-fx-intervention-remain-in-place-6407236) — CNA Business
 
 ## Markets
-- [South Korean solar stocks jump as curbs on Chinese sector expected to remain in place](https://www.cnbc.com/2026/09/23/korean-solar-stocks-jump-as-curbs-on-china-expected-to-stay-in-place.html) — CNBC Asia Markets
-- [Klook and Visa Partner Across Six Southeast Asian Markets to Support the Rise of Experience-Led Travel](https://news.google.com/rss/articles/CBMi8gFBVV95cUxQY0hFcnkxLWI0dnAwVnQ5aGNVeEFwX0xSZnRyWmJyd2gzME5wWnZHdHB0Y3pERS1SNUNwcGdxN2FSOHFEUEdGVkhpdDJtLUlFME5zUFJnN0U4LXVndVlvOXFsRDhaUU0tdzZkdlhHZ1Znd3R6RUpzem41QTVCVlptc2lYbzVBLUN2S0ZVbFFfYXh4aEhxY3ZUOGExNm5mUkRoWjR0MHd5aHpOeWgzakFKaXZKdjhLQWo5aVZoLUREMlpyNl9zWU5GdU9PTG0yUFpKb0F2ZjhaSnc1LUJjNURNeXpHanBKZGNFdEhQWDFkVzItQQ?oc=5) — The Straits Times
+- [India's NSE bourse closes higher after country's biggest IPO of the year](https://asia.nikkei.com/business/markets/ipo/india-s-nse-bourse-closes-higher-after-country-s-biggest-ipo-of-the-year) — Nikkei Asia
+- [CXMT, SMIC power 620% surge in profits in China's chip industry](https://asia.nikkei.com/business/tech/semiconductors/cxmt-smic-power-620-surge-in-profits-in-china-s-chip-industry) — Nikkei Asia
+- [Japan regains 'land of gold' shine as prices surge](https://asia.nikkei.com/business/markets/commodities/japan-regains-land-of-gold-shine-as-prices-surge) — Nikkei Asia
+- [Vietnam is finally a FTSE emerging market—yet it’s the country’s banks, not its exporters, that’ll benefit most](https://news.google.com/rss/articles/CBMinAFBVV95cUxQMzVyQ2sxdm94S3R6a1A2WHZ2VHg4alJId2Q5SXpkQmJVVDRmcFpxRldmV2dRTkJLWFpia214d0pxMXk5b3JGamlQaG95NlpPUVhYdF9IQ05YV29oQVlLdXZZOU5YMnlfelBfSzZjZEdiM2Q0SEJ0bGZGZHNYc0tYWnlSQlc5bnlmRVJrcG9ISjBHbC0wdlZSMFlWVUk?oc=5) — Fortune
 
 ## Geopolitics
-- [Trump-Xi summit live: Chinese president en route to US](https://asia.nikkei.com/spotlight/trump-xi-summit/trump-xi-summit-live-chinese-president-en-route-to-us) — Nikkei Asia
+- [Trump-Xi summit live: Leaders call for US-China cooperation at White House](https://asia.nikkei.com/spotlight/trump-xi-summit/trump-xi-summit-live-leaders-call-for-us-china-cooperation-at-white-house) — Nikkei Asia
 - [Foxconn leads Taiwan tech firms in plan for AI, EV hub in Poland](https://asia.nikkei.com/business/technology/foxconn-leads-taiwan-tech-firms-in-plan-for-ai-ev-hub-in-poland) — Nikkei Asia
 - [Trump, Takaichi reaffirm alliance days before US-China summit](https://asia.nikkei.com/politics/international-relations/trump-takaichi-reaffirm-alliance-days-before-us-china-summit) — Nikkei Asia
-- [ASEAN eyes signing of digital economy pact at November Manila summit](https://asia.nikkei.com/economy/asean-eyes-signing-of-digital-economy-pact-at-november-manila-summit2) — Nikkei Asia
-- [US-China AI race speeds up as self-improving models advance](https://asia.nikkei.com/business/technology/artificial-intelligence/us-china-ai-race-speeds-up-as-self-improving-models-advance) — Nikkei Asia
+- [North Korea rejects call to halt nuclear tests](https://www.straitstimes.com/asia/north-korea-rejects-call-to-halt-nuclear-tests) — The Straits Times
+- [China has laid out its red lines, what are America’s?](https://news.google.com/rss/articles/CBMijgFBVV95cUxNM21iYzJuQ0tnTnM1OFFUTTRDNl9YNHl2UldhX21lVU0ySGdUaV9KUm41ektBaVhPcUc1S0pKcmppT1pYTmtUaGhEMjFQSFBZWW5qLThCcW56clF1UjUybTFuUnVBWHhRMTB3NS1uZE9XNEF0XzRWNDZ0bGtOTGxpTWFpSjhHTmZLMEFIV05n?oc=5) — The Straits Times
 
-_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (12 headlines, 14h window)._
+_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (14 headlines, 14h window)._
