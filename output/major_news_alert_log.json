@@ -11044,5 +11044,51 @@
       "look_out": "Watch for any forthcoming earnings release, guidance update or macro‑economic data that could confirm or reverse the sector‑wide weakness.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-24T00:48:01.045107+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "4004.T",
+      "company": "Resonac Holdings Corp.",
+      "pct": 5.757466714645565,
+      "last": 14695.0,
+      "prev": 13895.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "BRPT.JK",
+        "company": "Barito Pacific Tbk.",
+        "pct": 3.514376996805102
+      },
+      {
+        "ticker": "002493.SZ",
+        "company": "Rongsheng Petro Chemical",
+        "pct": 3.198781969788489
+      },
+      {
+        "ticker": "600989.SS",
+        "company": "Ningxia Baofeng Energy Group",
+        "pct": -2.7143437553518335
+      },
+      {
+        "ticker": "4042.T",
+        "company": "Tosoh Corp.",
+        "pct": 2.0580880938642077
+      }
+    ],
+    "analysis": {
+      "business_model": "Resonac Holdings Corp. manufactures and supplies aluminum die‑casting and automotive components, primarily for the automotive and industrial sectors.",
+      "sentiment": "Bullish - intraday buying pushes shares up",
+      "why_moved": "No specific catalyst was mentioned; the stock rose 5.8% on price action alone, possibly reflecting broader sector buying.",
+      "read_across": "Peers like Barito Pacific and Rongsheng also gained, suggesting a positive tilt in related materials and energy stocks.",
+      "look_out": "Watch for any upcoming earnings releases or guidance updates that could confirm the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
