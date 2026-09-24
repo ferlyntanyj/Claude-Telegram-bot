@@ -10952,5 +10952,97 @@
       "look_out": "Watch for Zebra's upcoming earnings or guidance releases that could confirm the momentum or trigger a pullback.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-24T00:33:34.174829+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "5802.T",
+      "company": "Sumitomo Electric Ind., Ltd.",
+      "pct": 5.743811583753899,
+      "last": 2200.0,
+      "prev": 2080.5,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "ORLY",
+        "company": "O'Reilly Automotive",
+        "pct": -2.1603138364218566
+      },
+      {
+        "ticker": "AZO",
+        "company": "AutoZone",
+        "pct": -1.823271642148372
+      },
+      {
+        "ticker": "5101.T",
+        "company": "The Yokohama Rubber Co., Ltd.",
+        "pct": 1.684981684981679
+      },
+      {
+        "ticker": "002920.SZ",
+        "company": "Huizhou Desay SV Automotive",
+        "pct": -1.416594216989131
+      }
+    ],
+    "analysis": {
+      "business_model": "Sumitomo Electric Co., Ltd. designs, manufactures and sells electric wires, cables, optical fibers and related components for telecommunications, energy and automotive applications.",
+      "sentiment": "Bullish - price spikes on unexplained buying pressure",
+      "why_moved": "No specific catalyst is mentioned; the stock simply rose 5.7% intraday with no accompanying news, suggesting a pure price move or sector flow.",
+      "read_across": "While Sumitomo surged, U.S. auto parts retailers O'Reilly and AutoZone fell, and Yokohama Rubber edged higher, indicating mixed sentiment across the broader automotive and materials supply chain.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates or any regulatory news that could explain the recent rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-09-24T00:33:34.174849+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "047040.KS",
+      "company": "Daewoo E&C",
+      "pct": -7.234042553191489,
+      "last": 17440.0,
+      "prev": 18800.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "000720.KS",
+        "company": "Hyundai E&C",
+        "pct": -7.7684691546077715
+      },
+      {
+        "ticker": "028050.KS",
+        "company": "Samsung E&A",
+        "pct": -3.61328125
+      },
+      {
+        "ticker": "BAB.L",
+        "company": "Babcock International",
+        "pct": -2.0453202240542145
+      },
+      {
+        "ticker": "600039.SS",
+        "company": "Sichuan Road&Bridge",
+        "pct": -1.2542828347766433
+      }
+    ],
+    "analysis": {
+      "business_model": "Daewoo E&C is a South Korean construction and engineering firm that generates revenue by building large‑scale infrastructure, industrial plants and civil projects.",
+      "sentiment": "Bearish - lacking any clear catalyst, price fell sharply",
+      "why_moved": "No specific catalyst was mentioned; Daewoo E&C dropped 7.2% on pure price action and appears to be part of a broader sector sell‑off.",
+      "read_across": "Similar declines in Hyundai E&C, Samsung E&A, Babcock International and Sichuan Road&Bridge suggest construction and engineering stocks are under pressure across markets.",
+      "look_out": "Watch for any forthcoming earnings release, guidance update or macro‑economic data that could confirm or reverse the sector‑wide weakness.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
