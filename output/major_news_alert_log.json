@@ -11228,5 +11228,51 @@
       "look_out": "Watch Vietnamese housing demand data, any corporate updates or policy changes that could sustain or reverse the rally.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-25T07:17:19.123354+00:00",
+    "type": "single_stock",
+    "headline": "EXCLUSIVE: Japan's SMBC in talks to increase stake in Vietnam's VPBank, sources say",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZllrR2pKM3RVdDR0Nlh4aTViSlF3YmM3ZUZpb185VEZyY1lGMlplOFpXeVlERllWX29vN0JyQ0JzREkzb0dHWE1tWWhvSkJFU3dPdTYtODZhQ1A5cDlTSG1RSnJxYklIMlc0eUFUbHdfd1BLTUc0bVNIdDRGQklCT2JoNEEwcXVyYzNmQnNUVng5MGVqcHlqVFVpTUdUWmNIX045bjFvOVFjWkdHWHpXVU4xUQ?oc=5",
+    "market_name": "Vietnam · HOSE",
+    "primary": {
+      "ticker": "VPB.VN",
+      "company": "VPBank",
+      "pct": 5.203619909502266,
+      "last": 23250.0,
+      "prev": 22100.0,
+      "currency": "VND"
+    },
+    "peers": [
+      {
+        "ticker": "8308.T",
+        "company": "Resona Holdings, Inc.",
+        "pct": 5.002066969822239
+      },
+      {
+        "ticker": "5831.T",
+        "company": "Shizuoka Financial Group, Inc.",
+        "pct": 4.739884393063587
+      },
+      {
+        "ticker": "8354.T",
+        "company": "Fukuoka Financial Group, Inc.",
+        "pct": 4.556730643687157
+      },
+      {
+        "ticker": "8411.T",
+        "company": "Mizuho Financial Group, Inc.",
+        "pct": 4.178743961352649
+      }
+    ],
+    "analysis": {
+      "business_model": "VPBank is a commercial bank in Vietnam offering retail and corporate banking services, earning fees and interest from loans, deposits, and related financial products.",
+      "sentiment": "Bullish - foreign stake boost suggests growth potential",
+      "why_moved": "Shares rose on news that Japan's SMBC is in talks to increase its stake in VPBank, indicating potential new capital and strategic partnership.",
+      "read_across": "The move highlights rising interest from Japanese regional banks in Southeast Asian assets, potentially lifting sentiment for similar cross‑border financial deals.",
+      "look_out": "Watch for a definitive agreement from SMBC, regulatory approval, and any subsequent stake increase announcements.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
