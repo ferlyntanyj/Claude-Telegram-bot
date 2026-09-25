@@ -1,19 +1,13 @@
-# Global Semiconductor Brief -- 24 Sep 2026, 23:25 SGT
+# Global Semiconductor Brief -- 25 Sep 2026, 13:14 SGT
 
 ## Policy & geopolitics
-- [ASML system sales in Europe remain at zero as EU debates Chips Act 2.0](https://www.digitimes.com/news/a20260924VL212/asml-sales-eu-europe-investment.html) — DIGITIMES
-- [Beijing Eswin heads for HK IPO as RISC-V growth shifts to autos, industrial chips](https://www.digitimes.com/news/a20260924VL209/beijing-risc-v-chips-industrial-growth.html) — DIGITIMES
+- [From ISM 1.0 to Semicon 2.0&mdash;India's chip subsidy overhaul draws early interest, raises the bar for investors](https://www.digitimes.com/news/a20260921VL213/semicon-investment-packaging-incentives-financing.html) — DIGITIMES
 
 ## Supply chain signals
-- [CXMT gains ground in DRAM as Samsung, SK Hynix shift more capacity to HBM](https://www.digitimes.com/news/a20260924VL219/dram-cxmt-samsung-hbm-capacity.html) — DIGITIMES
-- [LG sharpens focus on data centers, robotics, chip materials](https://www.digitimes.com/news/a20260923VL221/lg-data-materials-robotics-nvidia.html) — DIGITIMES
-- [Peking University Dean's rare Intel China appearance hails AI-plus edge adoption](https://www.digitimes.com/news/a20260924PD228/intel-development-industrial-manufacturing.html) — DIGITIMES
-- [Cadence, Synopsys certify TSMC A14 design flows ahead of 2028 production](https://www.digitimes.com/news/a20260924VL216/synopsys-design-tsmc-production-certification.html) — DIGITIMES
+- [Samsung, SK Hynix in the running for PS6 GDDR7 orders](https://www.digitimes.com/news/a20260924VL224/samsung-sk-hynix-sony-demand-launch.html) — DIGITIMES
+- [Interview: Intel director talks physical AI, business models, and robotics' future](https://www.digitimes.com/news/a20260923VL223/intel-business-robotics-commercial-hardware.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Qualcomm secures extension to global patent licensing pact with Apple](https://news.google.com/rss/articles/CBMimgFBVV95cUxORUFWMEMwcmhuYVJuR005cG5sLU05RFd6bFFyY0p3Tk01NnZBMVhDZW85LVJFQ0k1R2RCZGU4d29PWHdJZjZaUTFKclM1eHZlU3F6aHJ4Szc4NkFqM2NIdFNhdzNVQjV3QUJael9ZQVNrSnA5cVc4Vk5FSkdrSndEYUVWUW11Ti15cXUwQ0ZyNHU5bXRqaF9ZQ2VR?oc=5) — Reuters
-- [Inside TSMC’s Evolving Design Ecosystem: Shaping the Future of AI, with AI](https://www.eetimes.com/inside-tsmcs-evolving-design-ecosystem-shaping-the-future-of-ai-with-ai/) — EE Times
-- [After IonQ Buyout, SkyWater Reiterates Role as Quantum Foundry](https://www.eetimes.com/after-ionq-buyout-skywater-reiterates-role-as-quantum-foundry/) — EE Times
-- [Chinese foundry CanSemi seeks US$918M ChiNext listing](https://www.digitimes.com/news/a20260924VL215/cansemi-wafer-shenzhen-ipo-revenue.html) — DIGITIMES
+- [PrismML brings its tiny LLMs to Qualcomm-powered smart glasses](https://news.google.com/rss/articles/CBMingFBVV95cUxQZDk0MnR6ZFNibDRsdVNyckZDYi14UlRWUTZhME1kVkpxaHRSYW1WdFQ0OUxQUDM2V01GYWkyV2VOMUUzRVJtdEREb1luWmFBYTBvZkdBTTM0VGFUSWlub0NJbUtQVkNGWjNqdWhWTVFNVzFhZHBieFVLZ1F0dXVhVF93RXNvSzRvU2JyWTU2MFMyUWxDbWl5UjBzTndDdw?oc=5) — TechCrunch
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (10 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (4 headlines, 13h window)._
