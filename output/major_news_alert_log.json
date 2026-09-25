@@ -11412,5 +11412,51 @@
       "look_out": "Watch for Datadog's upcoming earnings or guidance releases that could confirm or reverse the move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-25T17:50:08.922209+00:00",
+    "type": "single_stock",
+    "headline": "Humana Stock Jumps. Why It Could Be a Big Winner in Next Medicare Star Ratings.",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSlphVEVybGY3RC1yY3RYM3l0dDNnMU10QVZFMHJhcUJ0TWd4ZFVQZ1d6ZnlWaFpXemx5WkgybERnNkZPMHZJbHdLdDBvaUZTRUxTVFZvZ2p6QndnT0RJN1VEWGFqUW4wMDJobXpfcVAxWXdpb0tHcElDSTRqa2o2NHNB?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "HUM",
+      "company": "Humana",
+      "pct": 6.2578847640480495,
+      "last": 404.1199951171875,
+      "prev": 380.32000732421875,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "CVS",
+        "company": "CVS Health",
+        "pct": 3.5743599965338158
+      },
+      {
+        "ticker": "CI",
+        "company": "Cigna",
+        "pct": 1.6534895097693125
+      },
+      {
+        "ticker": "UNH",
+        "company": "UnitedHealth Group",
+        "pct": 0.5759856019468268
+      },
+      {
+        "ticker": "ELV",
+        "company": "Elevance Health",
+        "pct": 0.2862560322504759
+      }
+    ],
+    "analysis": {
+      "business_model": "Humana provides health insurance and Medicare Advantage plans, earning revenue mainly from premiums and government reimbursements.",
+      "sentiment": "Bullish - rating optimism lifts shares",
+      "why_moved": "The stock jumped on the headline that Humana could be a big winner in the upcoming Medicare Star Ratings, a specific catalyst mentioned in the news.",
+      "read_across": "Peers also rose modestly, reflecting broader sector optimism about Medicare rating impacts on insurers.",
+      "look_out": "Watch the release of the next Medicare Star Ratings and Humana's reported scores for follow‑through direction.",
+      "memory": "Similar rating‑driven spikes have occurred before, with insurers rallying after favorable Medicare Star Ratings announcements."
+    }
   }
 ]
