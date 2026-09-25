@@ -11182,5 +11182,51 @@
       "look_out": "Watch for Komatsu's upcoming earnings or guidance releases and any broader construction‑equipment market data that could confirm or reverse the rally.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-25T07:03:29.307762+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Vietnam · HOSE",
+    "primary": {
+      "ticker": "VHM.VN",
+      "company": "Vinhomes",
+      "pct": 5.045871559633031,
+      "last": 68700.0,
+      "prev": 65400.0,
+      "currency": "VND"
+    },
+    "peers": [
+      {
+        "ticker": "000002.SZ",
+        "company": "China Vanke",
+        "pct": -4.081634763179798
+      },
+      {
+        "ticker": "0960.HK",
+        "company": "Longfor Properties",
+        "pct": -3.208060794596901
+      },
+      {
+        "ticker": "0688.HK",
+        "company": "China Overseas Land & Investment Limited",
+        "pct": -1.6693166885577093
+      },
+      {
+        "ticker": "1109.HK",
+        "company": "China Resources Land Limited",
+        "pct": -1.582928743724732
+      }
+    ],
+    "analysis": {
+      "business_model": "Vinhomes is Vietnam's largest residential real‑estate developer, building and selling apartments, townhouses and mixed‑use projects.",
+      "sentiment": "Bullish - shares rose 5% on unexplained price action",
+      "why_moved": "No specific catalyst is stated; the stock jumped 5% on pure price movement while peers fell, suggesting sector‑specific buying pressure.",
+      "read_across": "While Chinese peers slipped, Vinhomes' rise highlights possible domestic demand strength or investor rotation into Vietnam real‑estate relative to peers.",
+      "look_out": "Watch Vietnamese housing demand data, any corporate updates or policy changes that could sustain or reverse the rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
