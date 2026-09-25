@@ -11090,5 +11090,51 @@
       "look_out": "Watch for any upcoming earnings releases or guidance updates that could confirm the move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-25T01:33:04.760453+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "1803.T",
+      "company": "Shimizu Corp.",
+      "pct": -6.168900233992769,
+      "last": 2205.5,
+      "prev": 2350.5,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "000720.KS",
+        "company": "Hyundai E&C",
+        "pct": -7.7684691546077715
+      },
+      {
+        "ticker": "047040.KS",
+        "company": "Daewoo E&C",
+        "pct": -7.234042553191489
+      },
+      {
+        "ticker": "028050.KS",
+        "company": "Samsung E&A",
+        "pct": -3.61328125
+      },
+      {
+        "ticker": "601618.SS",
+        "company": "Metallurgical Corporation of China",
+        "pct": -2.352938976529795
+      }
+    ],
+    "analysis": {
+      "business_model": "Shimizu Corp. is a Japanese construction and engineering firm that designs, builds and manages large‑scale infrastructure projects, generating revenue mainly from civil engineering contracts.",
+      "sentiment": "Bearish - unexplained weakness triggers sell‑off",
+      "why_moved": "No specific catalyst is stated; the stock fell 6.2% intraday on price action alone, mirroring a broader sell‑off in construction peers.",
+      "read_across": "Similar declines in Hyundai E&C, Daewoo E&C, Samsung E&A and Metallurgical Corp. suggest sector‑wide pressure on construction and engineering companies.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates or macro data on construction demand that could explain the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
