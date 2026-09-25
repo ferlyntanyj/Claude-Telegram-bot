@@ -11136,5 +11136,51 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates or macro data on construction demand that could explain the move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-25T02:53:37.222265+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6301.T",
+      "company": "Komatsu Ltd.",
+      "pct": 5.063115550006936,
+      "last": 7574.0,
+      "prev": 7209.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "DE",
+        "company": "Deere & Company",
+        "pct": -2.049385243786195
+      },
+      {
+        "ticker": "6305.T",
+        "company": "Hitachi Const. Mach. Co., Ltd.",
+        "pct": 1.8423383525243642
+      },
+      {
+        "ticker": "600031.SS",
+        "company": "Sany Heavy Industry",
+        "pct": -1.770413831469031
+      },
+      {
+        "ticker": "DTG.DE",
+        "company": "Daimler Truck",
+        "pct": -1.4351826873499784
+      }
+    ],
+    "analysis": {
+      "business_model": "Komatsu Ltd. designs, manufactures and sells construction and mining equipment such as excavators, bulldozers and dump trucks, generating revenue primarily from equipment sales and after‑market services.",
+      "sentiment": "Bullish - price jumps despite peers falling",
+      "why_moved": "No specific catalyst is mentioned; the stock rose 5.1% on pure price action while sector peers showed mixed moves.",
+      "read_across": "The divergent moves suggest domestic peers like Hitachi gained modestly while international rivals such as Deere fell, indicating sector‑wide rotation rather than a unified trend.",
+      "look_out": "Watch for Komatsu's upcoming earnings or guidance releases and any broader construction‑equipment market data that could confirm or reverse the rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
