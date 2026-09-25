@@ -11274,5 +11274,51 @@
       "look_out": "Watch for a definitive agreement from SMBC, regulatory approval, and any subsequent stake increase announcements.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-25T15:18:24.629924+00:00",
+    "type": "single_stock",
+    "headline": "Qualcomm secures extension to global patent licensing pact with Apple",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORUFWMEMwcmhuYVJuR005cG5sLU05RFd6bFFyY0p3Tk01NnZBMVhDZW85LVJFQ0k1R2RCZGU4d29PWHdJZjZaUTFKclM1eHZlU3F6aHJ4Szc4NkFqM2NIdFNhdzNVQjV3QUJael9ZQVNrSnA5cVc4Vk5FSkdrSndEYUVWUW11Ti15cXUwQ0ZyNHU5bXRqaF9ZQ2VR?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "QCOM",
+      "company": "Qualcomm",
+      "pct": 5.0859699177356,
+      "last": 204.13999938964844,
+      "prev": 194.25999450683594,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "6723.T",
+        "company": "Renesas Electronics Corp.",
+        "pct": 5.469930492595942
+      },
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": 5.030891438658425
+      },
+      {
+        "ticker": "ON",
+        "company": "ON Semiconductor",
+        "pct": 4.613807149144078
+      },
+      {
+        "ticker": "300223.SZ",
+        "company": "Ingenic Semiconductor",
+        "pct": -4.531539502478554
+      }
+    ],
+    "analysis": {
+      "business_model": "Qualcomm designs and licenses wireless communication patents, earning royalties from device makers worldwide.",
+      "sentiment": "Bullish - extension boosts royalty revenue outlook",
+      "why_moved": "The stock rose after Reuters reported Qualcomm extended its global patent licensing agreement with Apple, securing continued royalty streams.",
+      "read_across": "Peers in semiconductor and licensing businesses may benefit from sector optimism as key customers reaffirm agreements.",
+      "look_out": "Watch for further Apple licensing negotiations, any regulatory review of the pact, and upcoming earnings for impact on the stock.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
