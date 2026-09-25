@@ -11320,5 +11320,51 @@
       "look_out": "Watch for further Apple licensing negotiations, any regulatory review of the pact, and upcoming earnings for impact on the stock.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-25T15:48:16.100321+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "BE",
+      "company": "Bloom Energy",
+      "pct": 6.737294861842291,
+      "last": 284.614990234375,
+      "prev": 266.6499938964844,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "DELTA.BK",
+        "company": "Delta Electronics (Thailand)",
+        "pct": 3.1372549019607954
+      },
+      {
+        "ticker": "010120.KS",
+        "company": "LS Electric",
+        "pct": -3.0660377358490587
+      },
+      {
+        "ticker": "300274.SZ",
+        "company": "Sungrow Power Supply",
+        "pct": -3.0173934024322335
+      },
+      {
+        "ticker": "6503.T",
+        "company": "Mitsubishi Electric Corp.",
+        "pct": 2.8872415138509577
+      }
+    ],
+    "analysis": {
+      "business_model": "Bloom Energy designs, manufactures and sells solid oxide fuel cell systems that generate electricity from natural gas or renewable fuels for commercial and industrial customers.",
+      "sentiment": "Bullish - intraday rally on clean-energy enthusiasm",
+      "why_moved": "No specific catalyst is mentioned; the stock simply rose 6.7% intraday on price action alone.",
+      "read_across": "Peers in the clean‑energy and industrial equipment space showed mixed moves, suggesting sector‑wide flows rather than a single driver.",
+      "look_out": "Watch for Bloom Energy's upcoming earnings or guidance releases that could confirm the price momentum.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
