@@ -11366,5 +11366,51 @@
       "look_out": "Watch for Bloom Energy's upcoming earnings or guidance releases that could confirm the price momentum.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-25T17:21:05.867985+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "DDOG",
+      "company": "Datadog",
+      "pct": 5.93958370329104,
+      "last": 272.17999267578125,
+      "prev": 256.9200134277344,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "XRO.AX",
+        "company": "Xero",
+        "pct": -2.8126056159556434
+      },
+      {
+        "ticker": "WTC.AX",
+        "company": "Wisetech Global",
+        "pct": -2.246487770651584
+      },
+      {
+        "ticker": "688111.SS",
+        "company": "Beijing Kingsoft Office Software",
+        "pct": -2.016772816030321
+      },
+      {
+        "ticker": "301269.SZ",
+        "company": "Empyrean Technology",
+        "pct": -1.9484943266525612
+      }
+    ],
+    "analysis": {
+      "business_model": "Datadog provides a SaaS platform for cloud‑based monitoring, observability and analytics of infrastructure and applications.",
+      "sentiment": "Bullish - price rally despite lack of news",
+      "why_moved": "No specific catalyst was mentioned; the stock simply rose 5.9% on price action alone.",
+      "read_across": "Datadog's gain contrasts with declines in peers like Xero and Wisetech, suggesting a rotation into US‑based cloud‑monitoring names over broader tech stocks.",
+      "look_out": "Watch for Datadog's upcoming earnings or guidance releases that could confirm or reverse the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
