@@ -1,10 +1,9 @@
-# Global Semiconductor Brief -- 27 Sep 2026, 13:36 SGT
-
-## Policy & geopolitics
-- [Why US chip controls took a back seat at the Xi-Trump summit](https://news.google.com/rss/articles/CBMinAFBVV95cUxOMWxSSjZ0MG1oaGgwOUtqanRtTnRfcUJVZzFJajFjOC1ocFlCeVc3SVprZGRkM3FuSWl2dTg3X0RJRmRSN29KMm9KYXhzY3RTUzJLa1NHQUtCb3d1ZXk1SXVTOEh1ZjJPSndpbWpibGNpQ3FBY2M1RXRsSmM2NTh1V21oS0hsQzUyUE1ybWpEaElTZHlrQW1BbEU5WjTSAZwBQVVfeXFMTjFsUko2dDBtaGhoMDlLamp0bU50X3FCVWcxSWoxYzgtaHBZQnlXN0laa2RkZDNxbklpdnU4N19ESUZkUjdvSjJvSmF4c2N0U1MyS2tTR0FLQm93dWV5NUl1UzhIdWYyT0p3aW1qYmxjaUNxQWNjNUV0bEpjNjU4dVdtaEtIbEM1MlBNcm1qRGhJU2R5a0FtQWxFOVo0?oc=5) — South China Morning Post
+# Global Semiconductor Brief -- 27 Sep 2026, 23:14 SGT
 
 ## News — M&A, capex, capacity, earnings
-- [P5, M17, Y2: What Korea’s cryptic chip factory names actually mean](https://news.google.com/rss/articles/CBMitgFBVV95cUxOWVp6Q1hiVGszYnMwWDhwZWRwcE5XdGQtNmlJYm83eDlUY2c3eEgwendhSkNCcWNXVFFsMEtGVVYxclkzWWs5akRCY1EyZG9ROE43czhWMzdINmZSdWhGYlJDQjA5VFNzbmw3UTFCb044dEZ0Y1VaQ3JKS0lHRlJULXNTR1RiVWdFMjBEeUJqOFh0Rjduajd0RC1KVGhZVkJ6Zm5DeDRqajVidkhETkdOQUt1UkNmdw?oc=5) — Korea JoongAng Daily
-- [AMD: First AI Target Hit, Likely $1,000 Up Next (NASDAQ:AMD)](https://news.google.com/rss/articles/CBMijAFBVV95cUxORGtETVJfd0Y1X0xlMlJ1QjRRTTRnTUM3NmNUV1lNTWRXc0Qwc1dORFBFZE14U1NvRGlZN1ltRklvMXE1Uko2dTNJVDJtSXhGMXNiUU13TGJmbjRwd3JWQVUxTy1UalNyVjRvUTQ2TlJIVXMtU0t1WjJmOVltQUZEbEVScDFlS0V1ZlREQQ?oc=5) — Seeking Alpha
+- [Full-Stack Semiconductor Solutions for Smart, Secure Industry and Digital Energy](https://www.eetimes.com/full-stack-semiconductor-solutions-for-industry-and-digital-energy-applications/) — EE Times
+- [Thieves steal Nvidia-labeled trailers expecting massive AI GPU payday, but score 40,000 pounds of sand instead](https://www.tomshardware.com/pc-components/gpus/thieves-steal-nvidia-labeled-trailers-expecting-massive-ai-gpu-payday-but-score-40-000-pounds-of-sand-instead-crooks-duped-by-20-tons-of-ballast-sand) — Tom's Hardware
+- [Taiwan's chip talisman snack faces production halt after 94% strike vote](https://www.tomshardware.com/tech-industry/taiwans-chip-talisman-snack-faces-production-halt-after-94-percent-strike-vote-workers-demand-share-of-usd176-million-factory-sale-to-ase) — Tom's Hardware
+- [Benchmark Electronics Sees Private AI, Chip Demand Powering Record 2026 Growth](https://news.google.com/rss/articles/CBMiowFBVV95cUxNcFNDX2tUQzJfSTd4dHY5QTBhNG16cHVPZjZpYl9iUWwzZnItNm5YZERmRnMwNlh6X2FOUW1WSVplMHVBYzFGVGJSNTVNX3JybXE5NFJaUWhVT244cmYxVWRlTVRIalVPU2VFTkVKVl9sN2tySjVHNS02QUs5YXpMQmJmQmdiNUF1ekx3ZEhTaWtsWlk5QzBoNm1BcnZ5aFJwbjBN?oc=5) — Yahoo Finance
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (3 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (4 headlines, 13h window)._
