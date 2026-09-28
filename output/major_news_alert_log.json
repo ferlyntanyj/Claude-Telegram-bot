@@ -11934,5 +11934,51 @@
       "look_out": "Watch upcoming earnings releases and any telecom equipment demand updates for direction.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-28T18:48:24.206968+00:00",
+    "type": "single_stock",
+    "headline": "Nvidia says it can keep AI models under control — plus, what to do about Boeing's dip",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWUdSOWdZQ194MmFJaUR4QTA4M0RLNFVjN2VNQi00TjU0YTlsQ3ZoQ2JLN3VqVDZuMkItUExUNFdRZGJYWlZrWm9TZ09OYU1kVG1PRzk3WDZpazhoOVhIaHhIcS11UGVnY2QzZmw3cTBkNEdhQXcybExhZUZBNTEyeVJ6bW9Wa0RRY1hIeHlZbzJOZU0yVjJCeE44RzUxbHNYR0l4NW1STQ?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "BA",
+      "company": "Boeing",
+      "pct": -6.076136324067183,
+      "last": 186.03500366210938,
+      "prev": 198.07000732421875,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "600893.SS",
+        "company": "AVIC Aviation Engine Corporation",
+        "pct": -3.2103144936216133
+      },
+      {
+        "ticker": "GE",
+        "company": "GE Aerospace",
+        "pct": -2.745425138912405
+      },
+      {
+        "ticker": "443060.KS",
+        "company": "HD Hyundai Marine Solution",
+        "pct": 2.7196652719665204
+      },
+      {
+        "ticker": "000768.SZ",
+        "company": "AVIC Aircraft",
+        "pct": -2.6860357886143604
+      }
+    ],
+    "analysis": {
+      "business_model": "Boeing designs, builds and sells commercial aircraft and provides defense, space and services solutions worldwide.",
+      "sentiment": "Bearish - investors reacting to Boeing's price dip",
+      "why_moved": "The headline reports a 6.1% intraday drop with no specific catalyst cited, so the move reflects pure price action and sector‑wide weakness.",
+      "read_across": "Peers such as AVIC Engine and GE Aerospace also fell, suggesting broader pressure on aerospace manufacturers and suppliers.",
+      "look_out": "Watch for upcoming earnings, FAA rulings or new order announcements that could reverse the sell‑off.",
+      "memory": "Boeing has seen similar sharp declines after safety concerns, notably the 737 MAX grounding, which temporarily depressed its stock."
+    }
   }
 ]
