@@ -11627,5 +11627,51 @@
       "look_out": "Watch for upcoming earnings releases, metal price trends, or any regulatory news that could trigger further moves.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-28T10:18:32.235667+00:00",
+    "type": "single_stock",
+    "headline": "UK housebuilder shares rally on plan to revive homebuyer support",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZms1S01qaFhFc2lHcXREZlV1blJKZzVRckxlaUhVTk1lTW8tb2pRQXRCLU9pRUthYmNOOU8yamtWNkJKUS1ZQWxzaUxlWTZHUTg5Tk93cFFOY1ZBSlptM3owYmh3OS1FRnBxWlZyRTF2ZnFSZmxKZFc1YUFjUDFpVjRjRlhZbVBWY0xEbUhKUnRRczZ6bm45MGozN1ByMEtRb3pwNmxVZU4?oc=5",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "BTRW.L",
+      "company": "Barratt Redrow",
+      "pct": 12.265370193037018,
+      "last": 346.8999938964844,
+      "prev": 309.0,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "PHM",
+        "company": "PulteGroup",
+        "pct": 1.4130971100295264
+      },
+      {
+        "ticker": "NVR",
+        "company": "NVR, Inc.",
+        "pct": 0.9960702518440501
+      },
+      {
+        "ticker": "LEN",
+        "company": "Lennar",
+        "pct": 0.8346634282398568
+      },
+      {
+        "ticker": "DHI",
+        "company": "D. R. Horton",
+        "pct": 0.8264968670288253
+      }
+    ],
+    "analysis": {
+      "business_model": "Barratt Redrow builds and sells residential homes in the UK, earning revenue primarily from home construction and sales.",
+      "sentiment": "Bullish - plan revives buyer support boosting demand",
+      "why_moved": "The stock jumped after the company announced a plan to revive homebuyer support, directly cited in the headline.",
+      "read_across": "The modest gains in US peers (PulteGroup, NVR, Lennar, DHI) suggest the news is lifting sentiment across the global homebuilder sector.",
+      "look_out": "Watch for details of the support plan, upcoming UK housing market data, and any regulatory commentary that could affect its impact.",
+      "memory": "Similar past UK home‑buyer support schemes, like Help to Buy, lifted builder stocks temporarily."
+    }
   }
 ]
