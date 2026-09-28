@@ -11458,5 +11458,51 @@
       "look_out": "Watch the release of the next Medicare Star Ratings and Humana's reported scores for follow‑through direction.",
       "memory": "Similar rating‑driven spikes have occurred before, with insurers rallying after favorable Medicare Star Ratings announcements."
     }
+  },
+  {
+    "alert_utc": "2026-09-28T03:06:40.823724+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "603986.SS",
+      "company": "GigaDevice",
+      "pct": -6.09218412969792,
+      "last": 360.3900146484375,
+      "prev": 383.7699890136719,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": -7.647058823529407
+      },
+      {
+        "ticker": "300782.SZ",
+        "company": "Maxscend Microelectronics",
+        "pct": -7.152280623190055
+      },
+      {
+        "ticker": "300223.SZ",
+        "company": "Ingenic Semiconductor",
+        "pct": -6.029500108533048
+      },
+      {
+        "ticker": "688256.SS",
+        "company": "Cambricon Technologies",
+        "pct": -5.92589262267984
+      }
+    ],
+    "analysis": {
+      "business_model": "GigaDevice designs and manufactures semiconductor components, primarily NOR flash memory and microcontrollers for consumer electronics and IoT devices.",
+      "sentiment": "Bearish - broad market sell‑off in Chinese chips",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 6.1% amid a broader intraday decline in peer semiconductor stocks.",
+      "read_across": "The similar drops in SK Square, Maxscend Microelectronics, Ingenic Semiconductor and Cambricon suggest a sector‑wide pullback affecting Chinese chip makers.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates, or macro‑policy news that could trigger further moves in the semiconductor sector.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
