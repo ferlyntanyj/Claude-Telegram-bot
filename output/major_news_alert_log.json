@@ -11596,5 +11596,36 @@
       "look_out": "Watch for the next earnings release, guidance updates, or any regulatory news that could reverse the sector‑wide pressure.",
       "memory": "Similar broad AI‑chip sell‑offs have occurred during market rotations, leading to short‑term declines before later recoveries."
     }
+  },
+  {
+    "alert_utc": "2026-09-28T09:04:45.636007+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "FRES.L",
+      "company": "Fresnillo plc",
+      "pct": -5.467128027681656,
+      "last": 2732.0,
+      "prev": 2890.0,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "AMMN.JK",
+        "company": "Amman Mineral Internasional Tbk.",
+        "pct": -3.8135593220338992
+      }
+    ],
+    "analysis": {
+      "business_model": "Fresnillo plc is a mining company that extracts and sells gold and silver, generating revenue primarily from metal sales.",
+      "sentiment": "Bearish - price fell without a clear catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock dropped 5.5% on pure price action with no news driving the move.",
+      "read_across": "The similar decline in Amman Mineral Internasional Tbk suggests broader pressure on mining peers and metal‑related equities.",
+      "look_out": "Watch for upcoming earnings releases, metal price trends, or any regulatory news that could trigger further moves.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
