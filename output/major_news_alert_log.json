@@ -11857,5 +11857,36 @@
       "look_out": "Watch upcoming earnings releases, guidance updates, and macro‑economic data that could confirm or reverse the current weakness.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-28T15:33:58.406396+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "CVNA",
+      "company": "Carvana",
+      "pct": -6.644480521003471,
+      "last": 60.737098693847656,
+      "prev": 65.05999755859375,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "2207.TW",
+        "company": "Hotai Motor",
+        "pct": -1.9230769230769273
+      }
+    ],
+    "analysis": {
+      "business_model": "Carvana operates an online marketplace that buys, reconditions, and sells used cars directly to consumers, earning revenue from vehicle sales and financing.",
+      "sentiment": "Bearish - price fell sharply with no news",
+      "why_moved": "No specific catalyst is mentioned; the stock dropped 6.6% on price action alone, possibly reflecting broader sector weakness.",
+      "read_across": "The decline mirrors a modest drop in peer Hotai Motor, suggesting a wider pullback in automotive‑related equities.",
+      "look_out": "Watch for Carvana's upcoming earnings or any guidance updates that could clarify the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
