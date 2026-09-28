@@ -11765,5 +11765,51 @@
       "look_out": "Watch for the appointment of the new chair, any formal investigations, and related regulatory disclosures that could further affect sentiment.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-28T14:17:26.743709+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "BE",
+      "company": "Bloom Energy",
+      "pct": -7.611709447298887,
+      "last": 266.7250061035156,
+      "prev": 288.70001220703125,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "298040.KS",
+        "company": "Hyosung Heavy Industries",
+        "pct": -4.005524861878451
+      },
+      {
+        "ticker": "300274.SZ",
+        "company": "Sungrow Power Supply",
+        "pct": -3.740650231713072
+      },
+      {
+        "ticker": "373220.KS",
+        "company": "LG Energy Solution",
+        "pct": 3.5561877667140918
+      },
+      {
+        "ticker": "003670.KS",
+        "company": "POSCO Future M",
+        "pct": 2.9460811561978772
+      }
+    ],
+    "analysis": {
+      "business_model": "Bloom Energy designs, builds, and operates solid oxide fuel cell power plants that generate electricity from natural gas or renewable hydrogen, selling electricity under long‑term service agreements.",
+      "sentiment": "Bearish - price fell 7.6% without clear catalyst",
+      "why_moved": "The move reflects a pure price action drop; no earnings, guidance, M&A, or regulatory event is mentioned in the provided coverage.",
+      "read_across": "Peers show mixed moves—Hyosung and Sungrow also declined while LG Energy and POSCO Future rose—suggesting sector‑wide volatility rather than a single company driver.",
+      "look_out": "Watch upcoming earnings releases, fuel‑cell policy news, and broader energy‑equipment market trends for potential follow‑through.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
