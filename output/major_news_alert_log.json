@@ -11719,5 +11719,51 @@
       "look_out": "Watch for upcoming metal price data, earnings releases or any macro‑economic news that could trigger further moves.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-28T13:48:14.398058+00:00",
+    "type": "single_stock",
+    "headline": "Possible Next House Intel Chair Aims to Probe ‘Nakedly Corrupt Dealings’",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORHVJLXk5TG9Ga3luXy0telFpenhSUkR5VHViUGdjNlNXUWtDYUJlQ3NpZDhtQnRjX1hrOW1kUTBLR2VfTUdXRHgtQl9fVWR4ZDFpbTVmTFQzZU56SEN2cXluSGp1Sy1MZFYwUW94V3l4bllVNVlpdm0yWUEwbFhJWk1TSVNvUk40cGpnV0NoVENnMXlvM2ZMQkZFR3BBbG5JSmpjZEZtTXBta1lhc3dTaGVnZVRvUQ?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "INTC",
+      "company": "Intel",
+      "pct": -5.065043379620803,
+      "last": 116.7699966430664,
+      "prev": 123.0,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": -7.563025210084029
+      },
+      {
+        "ticker": "300782.SZ",
+        "company": "Maxscend Microelectronics",
+        "pct": -7.297438464472073
+      },
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm",
+        "pct": -6.961428664462732
+      },
+      {
+        "ticker": "603986.SS",
+        "company": "GigaDevice",
+        "pct": -6.582062165144176
+      }
+    ],
+    "analysis": {
+      "business_model": "Intel designs and manufactures microprocessors, chipsets, and related silicon technologies for computers, data centers, and other devices.",
+      "sentiment": "Bearish - governance probe spooks investors",
+      "why_moved": "The stock fell after news that the prospective new board chair plans to investigate alleged corrupt dealings, raising governance concerns.",
+      "read_across": "Similar governance worries are dragging down peers like SK Square, Maxscend, Qualcomm, and GigaDevice, reflecting broader sector sensitivity to leadership scandals.",
+      "look_out": "Watch for the appointment of the new chair, any formal investigations, and related regulatory disclosures that could further affect sentiment.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
