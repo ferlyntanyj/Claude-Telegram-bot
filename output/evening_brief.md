@@ -1,21 +1,17 @@
-# Asia Market Evening Brief -- 25 Sep 2026, 23:16 SGT
+# Asia Market Evening Brief -- 29 Sep 2026, 02:10 SGT
 
 ## Macro & policy
-- [Japan struggles to find way to fund Takaichi budget with no new deficit bonds](https://asia.nikkei.com/business/markets/bonds/japan-struggles-to-find-way-to-fund-takaichi-budget-with-no-new-deficit-bonds) — Nikkei Asia
-- [Japan's bond 'falling knife' stalls repatriation rush](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRG1BRVp6QjNMSmVsZEcwN1pwVDZDX1RoR2tBUG1DT2hhMFBQUHFhTnZZcWlOSHJVRThKamhGRkpFeWkyTFJaUG10ZW9tWDNSRzJUN3FDQnA1Qzd1aV9sS3hlUWtlSjJ3S0NQbXFISDN0Umc4Mnp0cDJQMVRsUEZjQS1hMnR5RTVqdlYyZE5fOWZQM0xxaDBsX2QwSUJHWnRkZ3d5OXN3dVQ?oc=5) — Reuters
-- [Oracle Japan shares surge 7% after record fiscal first quarter, bucking selloff of U.S. parent](https://www.cnbc.com/2026/09/25/oracle-japan-shares-earnings.html) — CNBC Asia Markets
-
-## Markets
-- [India's NSE bourse closes higher after country's biggest IPO of the year](https://asia.nikkei.com/business/markets/ipo/india-s-nse-bourse-closes-higher-after-country-s-biggest-ipo-of-the-year) — Nikkei Asia
-- [CXMT, SMIC power 620% surge in profits in China's chip industry](https://asia.nikkei.com/business/tech/semiconductors/cxmt-smic-power-620-surge-in-profits-in-china-s-chip-industry) — Nikkei Asia
-- [Japan regains 'land of gold' shine as prices surge](https://asia.nikkei.com/business/markets/commodities/japan-regains-land-of-gold-shine-as-prices-surge) — Nikkei Asia
-- [Asian markets mixed after recent oil surge](https://www.channelnewsasia.com/asia/asian-markets-mixed-oil-surge-6410506) — CNA Business
+- [South Korea’s Central Bank Is Smart Not to Kill This Boom](https://news.google.com/rss/articles/CBMisAFBVV95cUxPcG9nWDV6c2k4NzlmMFRzNkNPRzBWVmpRYXBnWXdYUEhVMVhXSXIxdC1Tc09iT0V6OVVqRXdkQUQ3cXNyYzZBWmVvZmxiU0FQcWRnMFhXeFpsM3h2Nm8zQk9EZmF2X2laN0xxLU1INVBKX1IwV2h5R0Y1ZFI3dnhDcGpzWG5hOXJ5Yy1wUC1HUzF1bXd1RmNpTWczaktpdHo3dDhjZl92elBwSDVHLWJqZw?oc=5) — Bloomberg.com
+- [GoTo slides as Indonesia exchange removes 50 rupiah price floor](https://asia.nikkei.com/business/markets/goto-slides-as-indonesia-exchange-removes-50-rupiah-price-floor) — Nikkei Asia
+- [BOJ ups climate loans as debate swirls on how green central banks should be](https://asia.nikkei.com/business/markets/trading-asia/boj-ups-climate-loans-as-debate-swirls-on-how-green-central-banks-should-be) — Nikkei Asia
+- [Trump remarks on weak yen to Takaichi raise speculation on policy impact](https://asia.nikkei.com/business/markets/currencies/trump-remarks-on-weak-yen-to-takaichi-raise-speculation-on-policy-impact) — Nikkei Asia
+- [Surge in Chinese chemical imports puts Japan's industry on alert](https://asia.nikkei.com/business/materials/surge-in-chinese-chemical-imports-puts-japan-s-industry-on-alert) — Nikkei Asia
 
 ## Geopolitics
-- [The US needs a new Taiwan policy beyond strategic ambiguity](https://asia.nikkei.com/opinion/the-us-needs-a-new-taiwan-policy-beyond-strategic-ambiguity) — Nikkei Asia
-- [US, Japan finance chiefs discuss yen after Trump raises concerns in summit](https://asia.nikkei.com/business/markets/currencies/us-japan-finance-chiefs-discuss-yen-after-trump-raises-concerns-in-summit) — Nikkei Asia
-- [Taiwan says Xi 'distorted facts' to Trump as analysts read between lines](https://asia.nikkei.com/spotlight/trump-xi-summit/taiwan-says-xi-distorted-facts-to-trump-as-analysts-read-between-lines) — Nikkei Asia
-- [Xi urges limits on US-China rivalry, calls for human control of AI](https://asia.nikkei.com/spotlight/trump-xi-summit/xi-urges-limits-on-us-china-rivalry-calls-for-human-control-of-ai) — Nikkei Asia
-- [Chinese CEOs travel to Washington despite summit invite uncertainty](https://asia.nikkei.com/spotlight/trump-xi-summit/chinese-ceos-travel-to-washington-despite-summit-invite-uncertainty) — Nikkei Asia
+- [US and China list Christmas ornaments, lumber, camels for tariff cuts](https://asia.nikkei.com/spotlight/trump-xi-summit/us-and-china-list-christmas-ornaments-lumber-camels-for-tariff-cuts) — Nikkei Asia
+- [Taiwan doubles space workforce in resilience push: space agency chief](https://asia.nikkei.com/editor-s-picks/interview/taiwan-doubles-space-workforce-in-resilience-push-space-agency-chief) — Nikkei Asia
+- [Chinese EVs will come to US despite no summit deal, analysts say](https://asia.nikkei.com/business/automobiles/chinese-evs-will-come-to-us-despite-no-summit-deal-analysts-say) — Nikkei Asia
+- [US and China agree on tariff relief for $30bn of nonsensitive goods each](https://asia.nikkei.com/spotlight/trump-xi-summit/us-and-china-agree-on-tariff-relief-for-30bn-of-nonsensitive-goods-each) — Nikkei Asia
+- [Trump-Xi summit: How the Chinese leader's trip to Washington unfolded](https://asia.nikkei.com/spotlight/trump-xi-summit/trump-xi-summit-how-the-chinese-leader-s-trip-to-washington-unfolded) — Nikkei Asia
 
-_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (12 headlines, 14h window)._
+_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (10 headlines, 14h window)._
