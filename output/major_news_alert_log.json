@@ -11811,5 +11811,51 @@
       "look_out": "Watch upcoming earnings releases, fuel‑cell policy news, and broader energy‑equipment market trends for potential follow‑through.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-28T15:19:09.500974+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "QCOM",
+      "company": "Qualcomm",
+      "pct": -6.587615910360489,
+      "last": 188.6649932861328,
+      "prev": 201.97000122070312,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": -7.563025210084029
+      },
+      {
+        "ticker": "300782.SZ",
+        "company": "Maxscend Microelectronics",
+        "pct": -7.297438464472073
+      },
+      {
+        "ticker": "603986.SS",
+        "company": "GigaDevice",
+        "pct": -6.582062165144176
+      },
+      {
+        "ticker": "688256.SS",
+        "company": "Cambricon Technologies",
+        "pct": -6.548904400248556
+      }
+    ],
+    "analysis": {
+      "business_model": "Qualcomm designs and sells semiconductor chips, especially cellular modem and RF components, and earns licensing fees from its smartphone patents.",
+      "sentiment": "Bearish - shares fell sharply with no clear catalyst",
+      "why_moved": "No specific catalyst is stated; the stock dropped 6.6% intraday on pure price action, likely reflecting broader market or sector pressure.",
+      "read_across": "The same downtrend in Korean, Chinese and other semiconductor peers suggests a regional or industry‑wide sell‑off in chip makers.",
+      "look_out": "Watch upcoming earnings releases, guidance updates, and macro‑economic data that could confirm or reverse the current weakness.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
