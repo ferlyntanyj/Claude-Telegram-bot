@@ -11673,5 +11673,51 @@
       "look_out": "Watch for details of the support plan, upcoming UK housing market data, and any regulatory commentary that could affect its impact.",
       "memory": "Similar past UK home‑buyer support schemes, like Help to Buy, lifted builder stocks temporarily."
     }
+  },
+  {
+    "alert_utc": "2026-09-28T11:17:20.950181+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "FRES.L",
+      "company": "Fresnillo plc",
+      "pct": -6.159169550173016,
+      "last": 2712.0,
+      "prev": 2890.0,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "EDV.L",
+        "company": "Endeavour Mining",
+        "pct": -4.707182320441994
+      },
+      {
+        "ticker": "ANTO.L",
+        "company": "Antofagasta plc",
+        "pct": -2.815013404825739
+      },
+      {
+        "ticker": "AAL.L",
+        "company": "Anglo American plc",
+        "pct": -2.474022761009398
+      },
+      {
+        "ticker": "GLEN.L",
+        "company": "Glencore",
+        "pct": -2.174291873589018
+      }
+    ],
+    "analysis": {
+      "business_model": "Fresnillo plc is a Mexico‑based mining company that extracts and sells gold and silver, generating most of its revenue from its primary silver‑rich mines.",
+      "sentiment": "Bearish - shares dropped sharply without clear news",
+      "why_moved": "No specific catalyst was mentioned; the stock fell 6.2% on price action alone, likely reflecting broader sector weakness as peers also slid.",
+      "read_across": "The similar declines in Endeavour Mining, Antofagasta, Anglo American and Glencore suggest a market‑wide sell‑off in base‑metal and precious‑metal stocks.",
+      "look_out": "Watch for upcoming metal price data, earnings releases or any macro‑economic news that could trigger further moves.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
