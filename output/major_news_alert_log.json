@@ -11504,5 +11504,51 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates, or macro‑policy news that could trigger further moves in the semiconductor sector.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-28T03:35:51.330886+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "300223.SZ",
+      "company": "Ingenic Semiconductor",
+      "pct": -6.378730741909289,
+      "last": 131.36000061035156,
+      "prev": 140.30999755859375,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "300782.SZ",
+        "company": "Maxscend Microelectronics",
+        "pct": -7.1258928646937285
+      },
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": -6.974789915966384
+      },
+      {
+        "ticker": "603986.SS",
+        "company": "GigaDevice",
+        "pct": -6.126059859049926
+      },
+      {
+        "ticker": "688256.SS",
+        "company": "Cambricon Technologies",
+        "pct": -6.090810794367418
+      }
+    ],
+    "analysis": {
+      "business_model": "Ingenic Semiconductor designs and sells low‑power processor chips and AI accelerators for IoT, mobile and consumer electronics devices.",
+      "sentiment": "Bearish - sharp price drop without disclosed catalyst",
+      "why_moved": "No specific catalyst is stated; the stock fell 6.4% on price action alone, likely reflecting broader sector weakness or profit‑taking.",
+      "read_across": "The similar declines in Maxscend, SK Square, GigaDevice and Cambricon suggest a wider pullback across Chinese and regional semiconductor stocks, indicating sector‑wide sentiment pressure.",
+      "look_out": "Watch for any forthcoming earnings releases, guidance updates or regulatory announcements that could explain the move and trigger a reversal.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
