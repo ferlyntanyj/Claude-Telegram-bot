@@ -11888,5 +11888,51 @@
       "look_out": "Watch for Carvana's upcoming earnings or any guidance updates that could clarify the move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-28T15:49:25.997113+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "LITE",
+      "company": "Lumentum",
+      "pct": -5.9809914367350725,
+      "last": 885.3300170898438,
+      "prev": 941.6500244140625,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300308.SZ",
+        "company": "Zhongji Innolight",
+        "pct": -9.025962390744645
+      },
+      {
+        "ticker": "CIEN",
+        "company": "Ciena",
+        "pct": -4.045838528828893
+      },
+      {
+        "ticker": "000063.SZ",
+        "company": "ZTE",
+        "pct": -3.540097612987847
+      },
+      {
+        "ticker": "601138.SS",
+        "company": "Foxconn Industrial Internet",
+        "pct": -3.4098390673027668
+      }
+    ],
+    "analysis": {
+      "business_model": "Lumentum designs and manufactures optical components, such as lasers and photonic devices, for telecom and data‑center networking equipment.",
+      "sentiment": "Bearish - price fell 6% without any news catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock slid 6% on price action alone.",
+      "read_across": "Similar declines in peers such as Zhongji Innolight, Ciena, ZTE and Foxconn suggest broader weakness in the optical component sector.",
+      "look_out": "Watch upcoming earnings releases and any telecom equipment demand updates for direction.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
