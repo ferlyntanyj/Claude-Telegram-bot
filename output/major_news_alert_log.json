@@ -11550,5 +11550,51 @@
       "look_out": "Watch for any forthcoming earnings releases, guidance updates or regulatory announcements that could explain the move and trigger a reversal.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-28T03:50:54.109231+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "688256.SS",
+      "company": "Cambricon Technologies",
+      "pct": -5.92589262267984,
+      "last": 1026.800048828125,
+      "prev": 1091.47998046875,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": -7.394957983193273
+      },
+      {
+        "ticker": "300782.SZ",
+        "company": "Maxscend Microelectronics",
+        "pct": -7.046709453562983
+      },
+      {
+        "ticker": "300223.SZ",
+        "company": "Ingenic Semiconductor",
+        "pct": -6.164916290353517
+      },
+      {
+        "ticker": "603986.SS",
+        "company": "GigaDevice",
+        "pct": -5.961897756528134
+      }
+    ],
+    "analysis": {
+      "business_model": "Cambricon Technologies designs and sells AI processors and related hardware for deep‑learning inference, primarily serving data‑center and edge computing customers.",
+      "sentiment": "Bearish - sharp sell‑off amid sector weakness",
+      "why_moved": "No specific catalyst was mentioned; the stock fell sharply on its own, reflecting a broad decline in AI‑chip equities.",
+      "read_across": "The similar drops in SK Square, Maxscend Microelectronics, Ingenic Semiconductor and GigaDevice suggest a wider sell‑off in the AI chip supply chain and related peer group.",
+      "look_out": "Watch for the next earnings release, guidance updates, or any regulatory news that could reverse the sector‑wide pressure.",
+      "memory": "Similar broad AI‑chip sell‑offs have occurred during market rotations, leading to short‑term declines before later recoveries."
+    }
   }
 ]
