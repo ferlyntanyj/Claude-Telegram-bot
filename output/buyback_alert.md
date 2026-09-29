@@ -1,7 +1,7 @@
 # SGX Share Buy-Back Alert
 
-**Run date:** 2026-09-28
-**Latest trading day with buy-back filings:** 2026-09-28 (0 day(s) ago)
+**Run date:** 2026-09-29
+**Latest trading day with buy-back filings:** 2026-09-28 (1 day(s) ago)
 
 **Filter:** excluding 0 of 1 filer(s) whose prior buy-back was within 5 day(s) (routine daily programmes). Set `EXCLUDE_IF_PRIOR_BUYBACK_WITHIN_DAYS = 0` in `buyback_config.py` to show all.
 
