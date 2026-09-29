@@ -11980,5 +11980,51 @@
       "look_out": "Watch for upcoming earnings, FAA rulings or new order announcements that could reverse the sell‑off.",
       "memory": "Boeing has seen similar sharp declines after safety concerns, notably the 737 MAX grounding, which temporarily depressed its stock."
     }
+  },
+  {
+    "alert_utc": "2026-09-29T00:21:25.746072+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "3659.T",
+      "company": "Nexon Co., Ltd.",
+      "pct": 15.642668676969462,
+      "last": 3068.0,
+      "prev": 2653.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "9999.HK",
+        "company": "NetEase",
+        "pct": 4.864567909711148
+      },
+      {
+        "ticker": "259960.KS",
+        "company": "Krafton",
+        "pct": 2.020202020202011
+      },
+      {
+        "ticker": "002555.SZ",
+        "company": "37 Interactive Entertainment Network Technology Group",
+        "pct": -1.898733829924415
+      },
+      {
+        "ticker": "TTWO",
+        "company": "Take-Two Interactive",
+        "pct": -0.7586921462940377
+      }
+    ],
+    "analysis": {
+      "business_model": "Nexon develops, publishes, and operates online games, earning revenue from game sales, microtransactions, and subscriptions.",
+      "sentiment": "Bullish - sector rally lifts Japanese game stocks",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped intraday, likely reflecting broad market or sector buying pressure.",
+      "read_across": "Similar gains in peers like NetEase, Krafton suggest a broader upbeat sentiment for gaming companies across regions.",
+      "look_out": "Watch for Nexon's upcoming earnings release or guidance updates that could confirm or reverse the rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
