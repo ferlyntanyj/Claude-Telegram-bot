@@ -12026,5 +12026,51 @@
       "look_out": "Watch for Nexon's upcoming earnings release or guidance updates that could confirm or reverse the rally.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-29T03:13:35.386048+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "2454.TW",
+      "company": "MediaTek",
+      "pct": -6.149479659413437,
+      "last": 4960.0,
+      "prev": 5285.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm",
+        "pct": -7.174335498136719
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": -5.666667659108226
+      },
+      {
+        "ticker": "MRVL",
+        "company": "Marvell Technology",
+        "pct": -3.8329420673987147
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "pct": -3.6090908439813885
+      }
+    ],
+    "analysis": {
+      "business_model": "MediaTek designs and markets system‑on‑chip semiconductor solutions for smartphones, tablets and other connected devices, earning revenue primarily from chip sales and licensing.",
+      "sentiment": "Bearish - price slipped on unexplained sell‑off",
+      "why_moved": "No specific catalyst is mentioned; the stock fell sharply on its own, reflecting a pure price‑action move amid broader sector weakness.",
+      "read_across": "The parallel declines in Qualcomm, Intel, Marvell and AMD suggest a wider pullback in semiconductor equities, indicating sector‑wide risk aversion.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates or macro data that could clarify whether the sell‑off is temporary or part of a larger trend.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
