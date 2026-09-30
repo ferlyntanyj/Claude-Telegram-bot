@@ -792,7 +792,12 @@
       "last_alert_utc": "2026-09-30T10:17:35.342108+00:00",
       "last_move_pct": -6.2518435,
       "last_move_asof": null
+    },
+    "premarket:LNT": {
+      "last_alert_utc": "2026-09-30T11:17:54.343107+00:00",
+      "last_move_pct": 7.580825,
+      "last_move_asof": null
     }
   },
-  "last_run_utc": "2026-09-30T11:00:49.394080+00:00"
+  "last_run_utc": "2026-09-30T11:15:33.945779+00:00"
 }

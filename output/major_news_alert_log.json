@@ -12302,5 +12302,51 @@
       "look_out": "Watch for appeal rulings, settlement talks, or other patent actions that could further affect Moderna and the mRNA sector.",
       "memory": "Previous high‑profile mRNA patent disputes caused similar short‑term stock declines."
     }
+  },
+  {
+    "alert_utc": "2026-09-30T11:17:54.349173+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "LNT",
+      "company": "Alliant Energy",
+      "pct": 7.580825,
+      "last": 69.2175,
+      "prev": 64.34,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "EIX",
+        "company": "Edison International",
+        "pct": 4.0606180357874555
+      },
+      {
+        "ticker": "NG.L",
+        "company": "National Grid plc",
+        "pct": 2.7159394479074006
+      },
+      {
+        "ticker": "9503.T",
+        "company": "The Kansai Electric Power Co., Inc.",
+        "pct": 2.403482210446639
+      },
+      {
+        "ticker": "PNW",
+        "company": "Pinnacle West Capital",
+        "pct": 2.2777067871284418
+      }
+    ],
+    "analysis": {
+      "business_model": "Alliant Energy is a regulated utility that generates, transmits, and distributes electricity and natural gas to residential, commercial, and industrial customers in the Midwest.",
+      "sentiment": "Bullish - strong intraday surge outperforms peers",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 7.6% intraday, likely driven by broader utility sector buying pressure.",
+      "read_across": "Similar modest gains in peers like Edison International (+4.1%) and National Grid (+2.7%) suggest a sector‑wide positive flow rather than a company‑specific event.",
+      "look_out": "Watch for upcoming earnings reports or regulatory filings that could confirm whether the rally is fundamentals‑driven.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
