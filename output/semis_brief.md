@@ -1,15 +1,18 @@
-# Global Semiconductor Brief -- 30 Sep 2026, 13:50 SGT
+# Global Semiconductor Brief -- 1 Oct 2026, 00:29 SGT
+
+## Policy & geopolitics
+- [Jensen Huang, Lisa Su join Tsinghua University advisory board, putting AI chip leaders closer to Beijing](https://www.digitimes.com/news/a20260930VL209/jensen-huang-lisa-su-ai-chip-academia-beijing.html) — DIGITIMES
 
 ## Supply chain signals
-- [Commentary: What risks does China's DRAM capacity face amid tightening market?](https://www.digitimes.com/news/a20260930PD220/china-dram-capacity-demand-expansion.html) — DIGITIMES
-- [DeepSeek brings software tools to Huawei's Ascend 950 to take on Nvidia](https://www.digitimes.com/news/a20260930VL214/deepseek-ascend-software-huawei-nvidia.html) — DIGITIMES
-- [CXMT's US$5.2 billion buildout deepens China's push for domestic DRAM equipment](https://www.digitimes.com/news/a20260930VL212/dram-cxmt-equipment-testing-capacity.html) — DIGITIMES
-- [Linde secures Sanand land as global materials suppliers race to localize for India's first fabs](https://www.digitimes.com/news/a20260930VL205/materials-fab-packaging-supply-chain-industrial.html) — DIGITIMES
+- [Taiwan backs TSMC's US push but insists core R&amp;D stays home](https://www.digitimes.com/news/a20260930PD240/taiwan-tsmc-manufacturing-development-government.html) — DIGITIMES
+- [Netlist challenges Micron, Nvidia, Broadcom, Google over alleged HBM patent use](https://www.digitimes.com/news/a20260930VL219/micron-patent-nvidia-broadcom-hbm.html) — DIGITIMES
+- [AI boom draws display makers into semiconductors with glass core substrates and Micro LED](https://www.digitimes.com/news/a20260930PD221/display-semiconductors-packaging-growth-technology.html) — DIGITIMES
+- [Samsung SDI targets AI data centers with cylindrical LFP batteries and fire-propagation safeguards](https://www.digitimes.com/news/a20260930PD228/samsung-sdi-data-data-center-fire-lfp-battery.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia’s](https://news.google.com/rss/articles/CBMitAFBVV95cUxPdVlMbU1WWGh0VkFFanFnSF90Z3dRRGlFcEJzYnZJZExZb2VqSy11a2V2MXZHQ3JuQ3lVVU5UeS1VQTJqSVY4WTNLLUNXZl9nWlZXbzBxLUsxNktKV2dLRFNsWC14eE9SaGw4NzhDSmVRUU9FZzF0c3c5bVlSMTJ3dzU4akpnYmpleHdYeEJ2Q1JyZTY4ZlMybHhCcVUxRkxGb0pEUzdjdGVvMGZhc1l3UFhLVE4?oc=5) — Bloomberg.com
-- [DeepSeek partners with Huawei to develop chip programming tools, reducing reliance on Nvidia](https://news.google.com/rss/articles/CBMizgFBVV95cUxPdUg5OUtKZEFWWE1PU3dHYURRTThhbS1fWTM2YzdIekQyTTIwU1daMl8wSW5XNTl4aklKSWlxVHRrazlhRlNjNXZDX0ZHd3RnUldXTUZmbGNuYXJYMUV2SFVvWEZsVWRuajcxazZ5WmZ3eEg5TEMtMVVIMXB1V0ppNHA4VEIyQzN0c0hmZDNjaWFLTE81d3IxLXZQeWVJWjhzWTNrUXBzU0IwYXhaX3NqUXkwNTJmMS1yZlhiaGNPRVUxcGZ0RmNKVFhRRVZrQQ?oc=5) — Reuters
-- [VSMC bets on value over cost as Singapore fab builds next-generation R&amp;D and IP capabilities](https://www.digitimes.com/news/a20260930PD212/singapore-fab-cost-nxp-vis-joint-venture.html) — DIGITIMES
-- [Foundry 2.0 revenue hits record as growth spreads beyond TSMC](https://www.digitimes.com/news/a20260930VL211/revenue-tsmc-growth-market-capacity.html) — DIGITIMES
+- [TSMC evaluates potential Texas investment, sources say](https://news.google.com/rss/articles/CBMirAFBVV95cUxQbk5sR25ad2FWc2RmSWZua1F3Mi1OR1NtTGx5bi1lQ1I0MHlmSHNyUXRGNUd5WmtOVEFMazFUY0FnM0tHdG8zbUF4QjlsaUNJWHhaZ2RXaWtUZHZhN0QteXRiNFNzb3pWcjA0Ty14cFJPenZhV0xnWktra01NaTNYa2s0Q0pEY0FxS20wV0lleWYzWGstYllNc1c3MFFxLXY1X3F4YjI5LXBhbG1J?oc=5) — Reuters
+- [TSMC’s 3-nm Ramp Looks Different in Historical Context](https://www.eetimes.com/tsmcs-3-nm-ramp-looks-different-in-historical-context/) — EE Times
+- [Samsung, affiliates commit $1 billion to KKR-backed Helix Digital AI buildout](https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZTc4RHR0djNqMTJyMmlTMEFFZlRDeW1Fa2laZGxYVzd3SFFiOUJBN1RCRm9kbTlpYVAyY2N2ZWo4Sl9peF9ub0ZoVFJRaWZ6R1JCejVCOUhVbDZPRG5wWVA3Sm9ZQjdUMTdjNmJ0WXA3eHJmM3V1ZklDMGZjdUxfT1dBU0U3QmxCR29MMWpVQjYwb1AxOTVwY3ZFdTVTSW9PUUdlYjZQLWRuNDBZRmhMVDBKOHFnQU12NkRv?oc=5) — Reuters
+- [DeepSeek and Huawei Target a Key Source of Nvidia’s A.I. Dominance](https://news.google.com/rss/articles/CBMifkFVX3lxTFBSVnEtX2xUV3VfaDRUanAyY2Y0Q2o1WEZRM2hTVEFIRDg0SGIxYUtGR1lNbkpRaFgwS0NHSGdvOXNfaUpkMmxCTDZ0dEhuaWRjZkwxejNjTkU4LW9tMlpEUl9rUFF3MmFYZnRJY244UkFzNkZzZmtVcDZpY0JEQQ?oc=5) — The New York Times
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
