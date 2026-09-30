@@ -12118,5 +12118,51 @@
       "look_out": "Watch for any upcoming earnings releases, guidance updates, or sector‑specific news that could confirm whether the rally is sustainable or just a short‑term flow.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-30T01:51:41.404873+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "9984.T",
+      "company": "Softbank Group Corp.",
+      "pct": 5.153272576636292,
+      "last": 6346.0,
+      "prev": 6035.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "AAF.L",
+        "company": "Airtel Africa",
+        "pct": 2.336448550532211
+      },
+      {
+        "ticker": "TMUS",
+        "company": "T-Mobile US",
+        "pct": -2.084710894757258
+      },
+      {
+        "ticker": "T",
+        "company": "AT&T",
+        "pct": -1.6867473201942818
+      },
+      {
+        "ticker": "VZ",
+        "company": "Verizon",
+        "pct": -1.4995731755850894
+      }
+    ],
+    "analysis": {
+      "business_model": "SoftBank Group Corp. is a Japanese conglomerate that runs a major telecom operator and invests in technology, internet and AI companies worldwide, generating revenue from telecom services and investment returns.",
+      "sentiment": "Bullish - strong intraday rally lifts price",
+      "why_moved": "No specific catalyst mentioned; price rose on intraday buying pressure.",
+      "read_across": "Peers show mixed moves, suggesting sector‑wide rotation rather than company‑specific news.",
+      "look_out": "Watch SoftBank’s upcoming earnings release and any regulatory updates.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
