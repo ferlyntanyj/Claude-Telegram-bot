@@ -787,7 +787,12 @@
       "last_alert_utc": "2026-09-30T07:18:49.564400+00:00",
       "last_move_pct": 5.00265484589284,
       "last_move_asof": "2026-09-30"
+    },
+    "premarket:MRNA": {
+      "last_alert_utc": "2026-09-30T10:17:35.342108+00:00",
+      "last_move_pct": -6.2518435,
+      "last_move_asof": null
     }
   },
-  "last_run_utc": "2026-09-30T10:00:46.038350+00:00"
+  "last_run_utc": "2026-09-30T10:15:34.202094+00:00"
 }
