@@ -1,19 +1,15 @@
-# Global Semiconductor Brief -- 30 Sep 2026, 00:36 SGT
-
-## Policy & geopolitics
-- [Nvidia, AMD CEOs join Tsinghua advisory board as US-China chip tensions persist](https://news.google.com/rss/articles/CBMizAFBVV95cUxNM3dLSy16bkw2bVBPeFpCUEJiczI2MHh1Y2hLaUlqeWt1eDNoU1Z4NDEyQjZRanJiYzA2TGs3SVNha3BrTjlYSU5fbUNoNXdtN3p3ak1VY0RyQ1FYZ3ItdW1QNVhLMHZXVElNZHl3T3ZJMGxGVnRjb1MyUDRPODJCNzFxQ3VYUFFlQUZwRHczd1I3OFprc1YwTXJIc1pldlVfRVpDOW1uaEVGWTR3WEZMOVRETm1TX3hLWXJJb0NXazRqTnlabkNSSWJUWTLSAcwBQVVfeXFMTV8wdE9IWldVR3JDZXdmd04zZlMzeXVubkREa3A0NG1jb2ZUcGtzWEZEOEEtLW8xMnkyQ2thZEd5V2N0S1RidWk1a25KSDlKbXF6bHZOSjNhN3RNOUFQY0V3UzlsQ2NWb29UejVhd0tPbXNSaVQzNFlaWld3MUJ2b3Y1Z2RybnlJdURvTDVYaG8wZDFHRmd1T2tuaDVhTTMtbEpHU3MxaUZqejc5S1BtbTFwWmVVUUNlZEI3a1EyY1ZiR3B6aWdwNi01VzBl?oc=5) — South China Morning Post
-- [US, China eye US$60 billion in tariff relief, but chips stay off the table](https://www.digitimes.com/news/a20260929VL204/chips-technology-semiconductors.html) — DIGITIMES
+# Global Semiconductor Brief -- 30 Sep 2026, 13:50 SGT
 
 ## Supply chain signals
-- [[News] Samsung Sees HBM Taking Nearly 30% of Industry DRAM Capacity in 2027, Up From 20% Currently](https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSUFVdGhOQWRmdTJzSUM0Zzhmek5yalJ4VzFlMzBuWkkzSnZVQXE0WmR6VXZiaEpBblhNMWRxV2Y0UnFaNHpjSFNqR0o0dzN1VTBzMmhRYzhUWkxnTDAwRW5SV3V5cTFuT2xYMzZYTGdsM2dWbnFfcXUzSWpMOXIzVXJNWmRTb0VIS1ZLN0FlLXdqYndrZGpHOTd4dEJmOU9EcGtXczJkN0ZZRDVqaFRUdGZ0OTRINjNGNms3WEV0NUZxLVlmWV9wVjlFZDUtZ241M3Q4?oc=5) — TrendForce
-- [CXMT to spend US$5.2 billion on R&amp;D and testing as DRAM supply stays tight](https://www.digitimes.com/news/a20260929VL207/cxmt-testing-dram-capacity-technology.html) — DIGITIMES
-- [In global semiconductor race, Singapore bets on critical, mature technologies](https://www.digitimes.com/news/a20260929PD244/packaging-manufacturing-equipment-supply-chain-materials.html) — DIGITIMES
-- [Samsung reshuffles DRAM roadmap, prioritizing B1b hybrid bonding for D0a, HBM5](https://www.digitimes.com/news/a20260929PD238/samsung-dram-roadmap-technology-development.html) — DIGITIMES
+- [Commentary: What risks does China's DRAM capacity face amid tightening market?](https://www.digitimes.com/news/a20260930PD220/china-dram-capacity-demand-expansion.html) — DIGITIMES
+- [DeepSeek brings software tools to Huawei's Ascend 950 to take on Nvidia](https://www.digitimes.com/news/a20260930VL214/deepseek-ascend-software-huawei-nvidia.html) — DIGITIMES
+- [CXMT's US$5.2 billion buildout deepens China's push for domestic DRAM equipment](https://www.digitimes.com/news/a20260930VL212/dram-cxmt-equipment-testing-capacity.html) — DIGITIMES
+- [Linde secures Sanand land as global materials suppliers race to localize for India's first fabs](https://www.digitimes.com/news/a20260930VL205/materials-fab-packaging-supply-chain-industrial.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Chip startup Efficient Computer raises $100 million at $650 million valuation](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbTQ4YnJyU1gtN1NaVm5WYlpwTGZjNkFXTGVBcU81X003YTVfWXVXTVBVUnBhQjhDeFdLX2o3SkIzekdCUkZlQVdvV0hPYi1qVlZOVU5QU2M2R185aHF2a0V2UGF3QkVndjNtRmEtOHhvQTZ1d3k1WWdIV1J3eVNUUG1Gc3pHYUxTaVVfY2lxVGZvS0swSmdKd1gyMTgzaHpjc1hQY2todjlXempDRWlMeUdSV3RtWmhI?oc=5) — Reuters
-- [Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbm8waVZKNWVxY3ZfVUVnWS1BczZsV0R0azZEVnBfb3JfWVJ4dDlQSlBJaFp5RVhRdjZsUWJGUDllUzFtaWRvVUw1dHVUaGdXbHdnN2I2Z3JNNFpuMWIycGRiSmxGdkxsTEZkWnVMQUZVTnZEd2tVaHo0SUFxWGIwRkoyd3hzUHNZODVRRkhJZnU2eXhjWHFxRzZBLTZpbnhlYVZKZHBfcUdZZ9IBrwFBVV95cUxOTXVYSzZ4LVpyb3FtaGc4UTFXOG9GTXViRjFuWnc1eVJ6SlZ5VXFtVDZGVVhCU2lJb3Q0bXVreURvb2kwbDk4UUg3LS0zMG9RZ2NyWDdOa0RyLUE3bmswV0pjVzJhVWJXazhvcDZZZ2dVa3dlLTFaU1VDblhWbzYxQVBXcnoxWHFucktja0JyX0hKdGhQUWdXdW9naXFSZk90RlRWa0JTRE5BR2VnYWNr?oc=5) — CNBC
-- [Arm Jumps 5% as Chip Selloff Unwinds; Marvell Climbs 4%, Qualcomm Inches Higher](https://news.google.com/rss/articles/CBMikwFBVV95cUxQemNoV0wyWUwxX2ZYSWZvQWQyX3czeWUxUDY3WnA4UTUycDJDM2puWXBVOF9iMHcyQnF0RUI2TW81MlBIbjFicW9hblNOd3l5UTRWdTUtdTBUTVRIQl80VDQwQksxQjZlUHkweFR0RW5pdThxUFhfOV9WUG5vMHVOVG8xdUN5SHRTRGQzZ1d0ajRxajA?oc=5) — Yahoo Finance
-- [TSMC OIP: Chip Industry Growth Blows Past Forecast](https://news.google.com/rss/articles/CBMihAFBVV95cUxPV3hQYmxTZ1E0OTZzVUllanJZdzBLbkRoSHRRSHU3NGp4MDdOVGVpYmJCb001djljQTVONnUxeTZIbG9iZmJ3Y3poeGl4eGUtRk9BYUctSmpfZGViQi1xNVZPN2FUYkdxVXVYVnQwNWdxOUw4dy1xdlFiZ0pFWUFGbTY5WTM?oc=5) — Semiconductor Engineering
+- [DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia’s](https://news.google.com/rss/articles/CBMitAFBVV95cUxPdVlMbU1WWGh0VkFFanFnSF90Z3dRRGlFcEJzYnZJZExZb2VqSy11a2V2MXZHQ3JuQ3lVVU5UeS1VQTJqSVY4WTNLLUNXZl9nWlZXbzBxLUsxNktKV2dLRFNsWC14eE9SaGw4NzhDSmVRUU9FZzF0c3c5bVlSMTJ3dzU4akpnYmpleHdYeEJ2Q1JyZTY4ZlMybHhCcVUxRkxGb0pEUzdjdGVvMGZhc1l3UFhLVE4?oc=5) — Bloomberg.com
+- [DeepSeek partners with Huawei to develop chip programming tools, reducing reliance on Nvidia](https://news.google.com/rss/articles/CBMizgFBVV95cUxPdUg5OUtKZEFWWE1PU3dHYURRTThhbS1fWTM2YzdIekQyTTIwU1daMl8wSW5XNTl4aklKSWlxVHRrazlhRlNjNXZDX0ZHd3RnUldXTUZmbGNuYXJYMUV2SFVvWEZsVWRuajcxazZ5WmZ3eEg5TEMtMVVIMXB1V0ppNHA4VEIyQzN0c0hmZDNjaWFLTE81d3IxLXZQeWVJWjhzWTNrUXBzU0IwYXhaX3NqUXkwNTJmMS1yZlhiaGNPRVUxcGZ0RmNKVFhRRVZrQQ?oc=5) — Reuters
+- [VSMC bets on value over cost as Singapore fab builds next-generation R&amp;D and IP capabilities](https://www.digitimes.com/news/a20260930PD212/singapore-fab-cost-nxp-vis-joint-venture.html) — DIGITIMES
+- [Foundry 2.0 revenue hits record as growth spreads beyond TSMC](https://www.digitimes.com/news/a20260930VL211/revenue-tsmc-growth-market-capacity.html) — DIGITIMES
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (10 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
