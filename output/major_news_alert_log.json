@@ -12394,5 +12394,51 @@
       "look_out": "Watch for any forthcoming earnings or guidance releases from Gen Digital and its peers that could confirm or reverse the current price momentum.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-30T15:48:18.031450+00:00",
+    "type": "single_stock",
+    "headline": "HPE boosts networking growth outlook, gets $1.2 billion AI order from cloud firm Vultr",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYWJLN3pOdTRaS09KVDZueFV4TVN0eGpEX3RrRmZYXzJMYVRiVEo1Sk5TRjRlSmJJOFRnenp3M1hpZ2lIajQxSFYtZ1ByS2lBR1JTa256X2R0YUZmMkkxYUo0Y3BQemY0cWk2V1FycEp3VGt0TFpoU2lzaFVTQzA2N3JUcFNkenFuYU53UlZYZVlEaGdZdkNJVnhmSzhmblpvcUNjcGlyV2p4dWxpMW80MENIRXVUSERIeFpxZ1hwQTQ?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "HPE",
+      "company": "Hewlett Packard Enterprise",
+      "pct": 5.53000809281583,
+      "last": 64.8904037475586,
+      "prev": 61.4900016784668,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "CIEN",
+        "company": "Ciena",
+        "pct": -2.9668653163851255
+      },
+      {
+        "ticker": "LITE",
+        "company": "Lumentum",
+        "pct": -2.681405120861513
+      },
+      {
+        "ticker": "2345.TW",
+        "company": "Accton",
+        "pct": -1.9337016574585641
+      },
+      {
+        "ticker": "CSCO",
+        "company": "Cisco",
+        "pct": 1.2913752315072413
+      }
+    ],
+    "analysis": {
+      "business_model": "HPE sells enterprise IT infrastructure, including servers, storage, networking gear and hybrid‑cloud/AI services for large organizations.",
+      "sentiment": "Bullish - order and outlook lift expectations",
+      "why_moved": "The stock jumped after HPE lifted its networking growth outlook and disclosed a $1.2 billion AI order from cloud provider Vultr, a concrete catalyst in the headline.",
+      "read_across": "The move contrasts with peers such as Ciena, Lumentum and Accton, which fell, suggesting HPE’s win could pressure competing networking and AI‑related suppliers while highlighting sector divergence.",
+      "look_out": "Watch HPE’s upcoming earnings and any further AI or networking guidance, plus broader demand trends for enterprise networking equipment.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
