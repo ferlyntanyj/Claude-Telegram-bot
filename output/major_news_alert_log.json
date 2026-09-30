@@ -12348,5 +12348,51 @@
       "look_out": "Watch for upcoming earnings reports or regulatory filings that could confirm whether the rally is fundamentals‑driven.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-30T14:33:28.064253+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "GEN",
+      "company": "Gen Digital",
+      "pct": 5.415827151221642,
+      "last": 21.97920036315918,
+      "prev": 20.850000381469727,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "AKAM",
+        "company": "Akamai Technologies",
+        "pct": 3.319317852614856
+      },
+      {
+        "ticker": "PANW",
+        "company": "Palo Alto Networks",
+        "pct": 2.7329343050621624
+      },
+      {
+        "ticker": "300454.SZ",
+        "company": "Sangfor Technologies",
+        "pct": -2.3312003201417686
+      },
+      {
+        "ticker": "601360.SS",
+        "company": "360 Security Technology",
+        "pct": -1.864035947666287
+      }
+    ],
+    "analysis": {
+      "business_model": "Gen Digital provides consumer cybersecurity software and services, best known for brands like Norton and Avast, generating revenue from subscriptions and device protection solutions.",
+      "sentiment": "Bullish - strong intraday gain without clear catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock rose 5.4% on price action alone, likely reflecting broader sector optimism.",
+      "read_across": "Peers such as Akamai and Palo Alto also advanced, suggesting a favorable flow into cybersecurity stocks across both U.S. and Asian markets.",
+      "look_out": "Watch for any forthcoming earnings or guidance releases from Gen Digital and its peers that could confirm or reverse the current price momentum.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]

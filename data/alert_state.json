@@ -797,7 +797,12 @@
       "last_alert_utc": "2026-09-30T11:17:54.343107+00:00",
       "last_move_pct": 7.580825,
       "last_move_asof": null
+    },
+    "single:GEN": {
+      "last_alert_utc": "2026-09-30T14:33:28.059366+00:00",
+      "last_move_pct": 5.415827151221642,
+      "last_move_asof": "2026-09-30"
     }
   },
-  "last_run_utc": "2026-09-30T14:15:33.519709+00:00"
+  "last_run_utc": "2026-09-30T14:30:57.676157+00:00"
 }
