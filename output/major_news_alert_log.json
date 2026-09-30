@@ -12440,5 +12440,51 @@
       "look_out": "Watch HPE’s upcoming earnings and any further AI or networking guidance, plus broader demand trends for enterprise networking equipment.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-30T19:33:04.683725+00:00",
+    "type": "single_stock",
+    "headline": "Moderna Stock Has Run Too Far, Too Fast. Why Citi Just Downgraded It to Sell.",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB2Y0pZdWp3SS1Za2Vxal9JVDFySThQMllCLXBDTWpZSFZ6YzRKT2lmNnVZT2k2QXg3SkNJRTU3TE9jYm9adi0zVWxJSWJ5b253RFUyUzllNG4zQ1R2bHpmTmlmUzlXeE1nOEwyUWdSelV5YVBFWm5EQ1pn?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "pct": -5.7677185801212065,
+      "last": 191.72500610351562,
+      "prev": 203.4600067138672,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "002821.SZ",
+        "company": "Asymchem Laboratories (Tianjin)",
+        "pct": 5.30370715663806
+      },
+      {
+        "ticker": "2269.HK",
+        "company": "WuXi Biologics",
+        "pct": 4.766353714131855
+      },
+      {
+        "ticker": "300759.SZ",
+        "company": "Pharmaron Beijing",
+        "pct": 4.630064447793281
+      },
+      {
+        "ticker": "603392.SS",
+        "company": "BEIJING WANTAI BIOLOGICAL PHARMACY ENTERPRISE",
+        "pct": 3.247736500069931
+      }
+    ],
+    "analysis": {
+      "business_model": "Moderna develops and commercializes messenger RNA‑based vaccines and therapeutics, earning most revenue from its COVID‑19 vaccine.",
+      "sentiment": "Bearish - downgrade triggers profit‑taking",
+      "why_moved": "Citi downgraded Moderna to Sell, prompting a 5.8% intraday drop to $191.73.",
+      "read_across": "While Chinese biotech service peers rallied 3‑5%, Moderna fell, highlighting divergent reactions to analyst downgrades versus sector‑wide optimism.",
+      "look_out": "Watch for any forthcoming FDA updates on Moderna's pipeline and subsequent analyst commentary that could influence the stock further.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
