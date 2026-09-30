@@ -12210,5 +12210,51 @@
       "look_out": "Watch for the next earnings announcements of Sumitomo and its peers, which could confirm whether the move is fundamentals‑driven.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-30T07:18:49.569695+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Germany · XETRA",
+    "primary": {
+      "ticker": "IFX.DE",
+      "company": "Infineon Technologies",
+      "pct": 5.00265484589284,
+      "last": 59.400001525878906,
+      "prev": 56.56999969482422,
+      "currency": "EUR"
+    },
+    "peers": [
+      {
+        "ticker": "688008.SS",
+        "company": "Montage Technology",
+        "pct": -4.840079138996655
+      },
+      {
+        "ticker": "688981.SS",
+        "company": "Semiconductor Manufacturing International Corporation",
+        "pct": -4.697476105958664
+      },
+      {
+        "ticker": "MRVL",
+        "company": "Marvell Technology",
+        "pct": 4.513694082049047
+      },
+      {
+        "ticker": "300223.SZ",
+        "company": "Ingenic Semiconductor",
+        "pct": -4.049043060844926
+      }
+    ],
+    "analysis": {
+      "business_model": "Infineon Technologies designs and manufactures semiconductors, focusing on power management, automotive and industrial applications.",
+      "sentiment": "Bullish - strong intraday buying lifts stock",
+      "why_moved": "No specific catalyst is mentioned; the stock rose 5% on price action amid sector flows.",
+      "read_across": "Peers such as Marvell gained, while Chinese chipmakers fell, suggesting mixed sentiment across the semiconductor sector.",
+      "look_out": "Watch upcoming earnings releases or guidance updates for Infineon and its peers for direction.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
