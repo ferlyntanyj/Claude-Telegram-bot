@@ -12072,5 +12072,51 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates or macro data that could clarify whether the sell‑off is temporary or part of a larger trend.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-30T01:18:56.936090+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "5803.T",
+      "company": "Fujikura Ltd.",
+      "pct": 5.455282904076242,
+      "last": 5200.0,
+      "prev": 4931.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "047050.KS",
+        "company": "POSCO International",
+        "pct": 5.147058823529416
+      },
+      {
+        "ticker": "5706.T",
+        "company": "Mitsui Mining & Smelting Co.",
+        "pct": 2.2007042253521236
+      },
+      {
+        "ticker": "0267.HK",
+        "company": "CITIC Limited",
+        "pct": -2.182091517572826
+      },
+      {
+        "ticker": "078930.KS",
+        "company": "GS",
+        "pct": -1.5639374425022945
+      }
+    ],
+    "analysis": {
+      "business_model": "Fujikura Ltd. designs and manufactures fiber‑optic cables, telecom and power transmission equipment, and related electronic components for global communications and energy infrastructure.",
+      "sentiment": "Mixed - price jump absent explicit catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock rose 5.5% intraday on its own, likely driven by broader market or sector momentum rather than a disclosed event.",
+      "read_across": "Similar upticks in peers like POSCO International (+5.1%) and Mitsui Mining (+2.2%) suggest a positive swing in related industrial or commodity sectors, while weaker moves in CITIC and GS show mixed sentiment across the broader market.",
+      "look_out": "Watch for any upcoming earnings releases, guidance updates, or sector‑specific news that could confirm whether the rally is sustainable or just a short‑term flow.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
