@@ -12164,5 +12164,51 @@
       "look_out": "Watch SoftBank’s upcoming earnings release and any regulatory updates.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-09-30T05:40:08.150160+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "5802.T",
+      "company": "Sumitomo Electric Ind., Ltd.",
+      "pct": 6.096158270071306,
+      "last": 2306.0,
+      "prev": 2173.5,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "5101.T",
+        "company": "The Yokohama Rubber Co., Ltd.",
+        "pct": 4.75000000000001
+      },
+      {
+        "ticker": "161390.KS",
+        "company": "Hankook",
+        "pct": -2.1739130434782594
+      },
+      {
+        "ticker": "5108.T",
+        "company": "Bridgestone Corp.",
+        "pct": 1.758530183727025
+      },
+      {
+        "ticker": "601689.SS",
+        "company": "Ningbo Tuopu Group",
+        "pct": -1.3938751186503784
+      }
+    ],
+    "analysis": {
+      "business_model": "Sumitomo Electric manufactures and sells electric wires, cables, optical fibers and related components for automotive, telecom and energy applications, generating most of its revenue from these high‑tech infrastructure products.",
+      "sentiment": "Bullish - strong intraday gain on sector momentum",
+      "why_moved": "No specific catalyst is stated; the stock jumped 6.1% intraday, likely reflecting broad sector buying pressure rather than news.",
+      "read_across": "Peers such as Yokohama Rubber and Bridgestone also rose, suggesting a broader rally in Japan’s automotive and tire supply chain.",
+      "look_out": "Watch for the next earnings announcements of Sumitomo and its peers, which could confirm whether the move is fundamentals‑driven.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
