@@ -12808,5 +12808,51 @@
       "look_out": "Investors should watch for Coherent's next earnings report or any corporate announcement that could confirm the price rally.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-01T19:06:49.720788+00:00",
+    "type": "single_stock",
+    "headline": "Accenture rallies more than 20% after earnings beat, heads for best day ever",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWm5yS2ZOQW0xelJ4eVZxVzJST2J4eGU1SHRvd3pBNnFhbHk2QWZHM0FkeUd2S0Uzd0RabnZrWTdkcW1FYi1XUmE4dG1RYm5LSnFERXU3WGRMZVhXTEhNcVlNTHppc3diUUpjV2tZakViQ3V2N1BJVlNZWTBrVG83TEJYdmVKWXFKS0dSeEwxSDdUOHRsWDJ6d3VBWVJNZTF4RHNKTDFYeUNwbVdnMThzREpYcFJINWdBZVHSAb8BQVVfeXFMTUY4Z0RwX1RSOC1RVXVYc29laGZ4NnpXVTJiYVJYUjgxc0dGVnpkNmRMYUZKRVpKYkVsbkhDZjZlVXJlbVlnNl9MZ29UOHppZWFtRV9LeGRVYlJjdWF4NEpWbUxVV3Rxa3oxSWF0NTFoRzFmUUxnRXBCbmQxSmw0STIzWjNGSGg2SjFObmFKY2tXWkhqcjlaRjRaMUg4YkwwQTc1blBVWkkwOEJmd2F4TVQ2OThqNE1laFVxd0kydzg?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "ACN",
+      "company": "Accenture",
+      "pct": 17.096584467639087,
+      "last": 214.72000122070312,
+      "prev": 183.3699951171875,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "CTSH",
+        "company": "Cognizant",
+        "pct": 7.7646291883719964
+      },
+      {
+        "ticker": "CDW",
+        "company": "CDW Corporation",
+        "pct": 7.3287309321695915
+      },
+      {
+        "ticker": "IT",
+        "company": "Gartner",
+        "pct": 4.7844984308902605
+      },
+      {
+        "ticker": "IBM",
+        "company": "IBM",
+        "pct": 3.1009901110999216
+      }
+    ],
+    "analysis": {
+      "business_model": "Accenture is a global professional services firm that provides consulting, technology integration, and outsourcing services to enterprises, generating revenue primarily from client contracts and subscription‑based managed services.",
+      "sentiment": "Bullish - earnings beat sparked a >20% rally",
+      "why_moved": "The stock surged after an earnings beat was reported in the headline, driving a >20% intraday gain.",
+      "read_across": "Peers such as Cognizant, CDW, Gartner, and IBM also posted double‑digit gains, indicating broad strength in the tech services sector.",
+      "look_out": "Watch for Accenture's next earnings release and any guidance updates that could confirm sustained momentum.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
