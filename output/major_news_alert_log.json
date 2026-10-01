@@ -12670,5 +12670,51 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates or regulatory filings that could validate the current momentum.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-01T05:03:35.709531+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "SUN.AX",
+      "company": "Suncorp",
+      "pct": -6.2093130383281565,
+      "last": 18.729999542236328,
+      "prev": 19.969999313354492,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "8766.T",
+        "company": "Tokio Marine Holdings, Inc.",
+        "pct": -2.9767441860465094
+      },
+      {
+        "ticker": "IAG.AX",
+        "company": "Insurance Australia Group",
+        "pct": -2.7078104664794544
+      },
+      {
+        "ticker": "QBE.AX",
+        "company": "QBE Insurance",
+        "pct": -2.3972660901509624
+      },
+      {
+        "ticker": "CB",
+        "company": "Chubb Limited",
+        "pct": -2.0567293569133227
+      }
+    ],
+    "analysis": {
+      "business_model": "Suncorp is an Australian financial services group that provides banking, general insurance and life insurance products, plus wealth‑management services, generating revenue primarily from premiums and interest income.",
+      "sentiment": "Bearish - sharp intraday decline without a disclosed catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 6.2% on price action alone, mirroring a broader sell‑off in insurance peers.",
+      "read_across": "The simultaneous drops in Tokio Marine, IAG, QBE and Chubb suggest sector‑wide pressure on insurers, likely reflecting broader market risk aversion rather than company‑specific news.",
+      "look_out": "Watch for any upcoming earnings releases, regulatory updates or macro‑economic data that could trigger further moves in the insurance sector.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
