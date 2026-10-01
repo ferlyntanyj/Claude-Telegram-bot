@@ -12486,5 +12486,143 @@
       "look_out": "Watch for any forthcoming FDA updates on Moderna's pipeline and subsequent analyst commentary that could influence the stock further.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-01T01:03:35.373377+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6857.T",
+      "company": "Advantest Corp.",
+      "pct": 5.8085230589608905,
+      "last": 36250.0,
+      "prev": 34260.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": 6.491611962071486
+      },
+      {
+        "ticker": "300316.SZ",
+        "company": "Zhejiang Jingsheng Mechanical & Electrical",
+        "pct": -6.245098931436221
+      },
+      {
+        "ticker": "AMAT",
+        "company": "Applied Materials",
+        "pct": 5.187361223893028
+      },
+      {
+        "ticker": "KLAC",
+        "company": "KLA Corporation",
+        "pct": 3.890680700741167
+      }
+    ],
+    "analysis": {
+      "business_model": "Advantest Corp. designs, manufactures and sells semiconductor test equipment used to verify chip performance before they are packaged and shipped.",
+      "sentiment": "Bullish - strong intraday gain suggests positive sentiment",
+      "why_moved": "No specific catalyst is mentioned; the stock rose 5.8% intraday, likely reflecting sector‑wide buying pressure on semiconductor test equipment stocks.",
+      "read_across": "Similar gains in Lasertec, Applied Materials and KLA suggest broader optimism for the semiconductor testing and equipment supply chain.",
+      "look_out": "Watch for upcoming earnings releases or guidance updates from Advantest and its peers, which could confirm or reverse the current rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-01T01:03:35.373386+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6981.T",
+      "company": "Murata Manufacturing Co., Ltd.",
+      "pct": 5.171315755954664,
+      "last": 8257.0,
+      "prev": 7851.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "3481.TW",
+        "company": "InnoLux",
+        "pct": 9.949750277265235
+      },
+      {
+        "ticker": "GLW",
+        "company": "Corning Inc.",
+        "pct": 4.696886699638303
+      },
+      {
+        "ticker": "6976.T",
+        "company": "Taiyo Yuden Co., Ltd.",
+        "pct": 3.2925782925782965
+      },
+      {
+        "ticker": "2308.TW",
+        "company": "Delta Electronics",
+        "pct": 2.997275204359684
+      }
+    ],
+    "analysis": {
+      "business_model": "Murata Manufacturing designs and produces electronic components such as capacitors, inductors, sensors and communication modules for consumer and industrial devices.",
+      "sentiment": "Bullish - intraday rally suggests buying pressure",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 5.2% on intraday buying.",
+      "read_across": "Peers like InnoLux, Corning, Taiyo Yuden and Delta also rose, indicating broader strength in the electronic components sector.",
+      "look_out": "Watch for Murata’s upcoming earnings or any component‑supply news that could sustain the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-01T01:03:35.373390+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "COH.AX",
+      "company": "Cochlear",
+      "pct": -5.659426967360681,
+      "last": 131.69000244140625,
+      "prev": 139.58999633789062,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "MDT",
+        "company": "Medtronic",
+        "pct": -2.692741521909914
+      },
+      {
+        "ticker": "688271.SS",
+        "company": "United Imaging",
+        "pct": 2.159851860530604
+      },
+      {
+        "ticker": "300760.SZ",
+        "company": "Mindray",
+        "pct": 1.4527469323844855
+      },
+      {
+        "ticker": "EW",
+        "company": "Edwards Lifesciences",
+        "pct": 1.4395945797998744
+      }
+    ],
+    "analysis": {
+      "business_model": "Cochlear designs, manufactures and sells implantable hearing devices that restore hearing for people with severe to profound loss, generating revenue primarily from sales of these cochlear implants and related accessories.",
+      "sentiment": "Bearish - share price falls sharply intraday",
+      "why_moved": "No specific catalyst is mentioned; the stock dropped 5.7% on price action alone, likely reflecting sector rotation or broader market sentiment rather than company news.",
+      "read_across": "While Cochlear fell sharply, peers showed mixed moves—Medtronic down 2.7% and United Imaging, Mindray, Edwards Lifesciences modestly up—suggesting uneven pressure across the medical‑device space.",
+      "look_out": "Watch for Cochlear's upcoming earnings release or any regulatory updates that could explain the swing, as well as broader sector news that might reinforce the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
