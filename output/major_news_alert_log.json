@@ -12624,5 +12624,51 @@
       "look_out": "Watch for Cochlear's upcoming earnings release or any regulatory updates that could explain the swing, as well as broader sector news that might reinforce the move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-01T01:33:32.901147+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "0126Z0.KS",
+      "company": "Samsung Epis",
+      "pct": 5.924855491329484,
+      "last": 366500.0,
+      "prev": 346000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "002821.SZ",
+        "company": "Asymchem Laboratories (Tianjin)",
+        "pct": 5.30370715663806
+      },
+      {
+        "ticker": "2269.HK",
+        "company": "WuXi Biologics",
+        "pct": 4.766353714131855
+      },
+      {
+        "ticker": "300759.SZ",
+        "company": "Pharmaron Beijing",
+        "pct": 4.630064447793281
+      },
+      {
+        "ticker": "603392.SS",
+        "company": "BEIJING WANTAI BIOLOGICAL PHARMACY ENTERPRISE",
+        "pct": 3.247736500069931
+      }
+    ],
+    "analysis": {
+      "business_model": "Samsung Epis is a contract development and manufacturing organization (CDMO) that provides biopharma companies with protein, peptide and cell‑therapy production services, generating revenue from service fees.",
+      "sentiment": "Bullish - strong intraday gain without explicit news",
+      "why_moved": "No specific catalyst was mentioned; the stock rose 5.9% on pure price action amid a broader biotech rally.",
+      "read_across": "Peers such as Asymchem, WuXi Biologics, Pharmaron and Wantai also posted gains, suggesting sector‑wide buying pressure on contract‑manufacturing firms.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates or regulatory filings that could validate the current momentum.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
