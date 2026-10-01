@@ -12716,5 +12716,51 @@
       "look_out": "Watch for any upcoming earnings releases, regulatory updates or macro‑economic data that could trigger further moves in the insurance sector.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-01T15:52:38.134994+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "LITE",
+      "company": "Lumentum",
+      "pct": 9.465017679746612,
+      "last": 1063.18994140625,
+      "prev": 971.260009765625,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "2345.TW",
+        "company": "Accton",
+        "pct": 7.042253521126751
+      },
+      {
+        "ticker": "CIEN",
+        "company": "Ciena",
+        "pct": 5.684725025194215
+      },
+      {
+        "ticker": "300628.SZ",
+        "company": "Yealink Network Technology",
+        "pct": -1.1761697116466796
+      },
+      {
+        "ticker": "300308.SZ",
+        "company": "Zhongji Innolight",
+        "pct": -0.5621096012749183
+      }
+    ],
+    "analysis": {
+      "business_model": "Lumentum designs and manufactures optical and photonic components, such as lasers and modulators, for telecom, data‑center and industrial applications.",
+      "sentiment": "Bullish - intraday jump despite lack of news",
+      "why_moved": "No specific catalyst is stated; the stock surged 9.5% intraday on price action alone.",
+      "read_across": "The rise mirrors gains in peers like Accton and Ciena, suggesting broader optimism in telecom‑equipment and optical‑component sectors.",
+      "look_out": "Watch upcoming earnings releases, guidance updates, or sector news that could confirm or reverse the rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
