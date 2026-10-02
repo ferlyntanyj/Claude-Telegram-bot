@@ -13079,5 +13079,51 @@
       "look_out": "Watch for upcoming Korean renewable policy updates, Hanwha Solutions' earnings release, or guidance changes that could confirm the rally.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-02T07:37:07.770321+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "1299.HK",
+      "company": "AIA Group Limited",
+      "pct": -5.502711285771733,
+      "last": 69.55000305175781,
+      "prev": 73.5999984741211,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "2628.HK",
+        "company": "China Life",
+        "pct": -2.4182086944572023
+      },
+      {
+        "ticker": "SDLF.L",
+        "company": "Standard Life",
+        "pct": -2.3968357498056814
+      },
+      {
+        "ticker": "PRU.L",
+        "company": "Prudential plc",
+        "pct": -2.1902537985111215
+      },
+      {
+        "ticker": "601601.SS",
+        "company": "China Pacific Insurance",
+        "pct": 2.17105215688822
+      }
+    ],
+    "analysis": {
+      "business_model": "AIA Group is a pan‑Asian life insurer that sells life and health insurance policies, earning revenue mainly from premiums and investment returns on its asset portfolio.",
+      "sentiment": "Bearish - price falls 5.5% on unexplained market weakness",
+      "why_moved": "No specific catalyst is mentioned; the stock slid 5.5% intraday, likely reflecting broader sector or market pressure rather than company news.",
+      "read_across": "Similar declines in China Life, Standard Life and Prudential suggest a wider sell‑off across the insurance sector, hinting at regional or industry‑wide risk aversion.",
+      "look_out": "Watch for upcoming earnings releases, regulatory announcements or macro data affecting Asian insurers that could confirm or reverse the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
