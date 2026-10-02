@@ -12946,5 +12946,51 @@
       "look_out": "Watch upcoming SK Innovation earnings and crude‑oil price trends for confirmation of the rally’s sustainability.",
       "memory": "Similar sector-wide rallies occurred when crude prices jumped, boosting refiners."
     }
+  },
+  {
+    "alert_utc": "2026-10-02T02:07:40.020531+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Singapore · SGX",
+    "primary": {
+      "ticker": "S68.SI",
+      "company": "Singapore Exchange",
+      "pct": -5.92658167366168,
+      "last": 21.270000457763672,
+      "prev": 22.610000610351562,
+      "currency": "SGD"
+    },
+    "peers": [
+      {
+        "ticker": "FDS",
+        "company": "FactSet",
+        "pct": 2.8375524349510517
+      },
+      {
+        "ticker": "0388.HK",
+        "company": "HKEx Limited",
+        "pct": -2.6817932500906916
+      },
+      {
+        "ticker": "SPGI",
+        "company": "S&P Global",
+        "pct": -1.5996140489941468
+      },
+      {
+        "ticker": "COIN",
+        "company": "Coinbase",
+        "pct": 1.5449758958450355
+      }
+    ],
+    "analysis": {
+      "business_model": "Singapore Exchange operates the primary securities and derivatives market in Singapore, earning fees from trading, clearing, settlement and market data services.",
+      "sentiment": "Bearish - price drop without clear catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock fell sharply on its own.",
+      "read_across": "Regional exchange peers showed mixed moves, indicating broader market variance rather than a sector‑wide trend.",
+      "look_out": "Watch for SGX earnings or regulatory updates that could explain the swing.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
