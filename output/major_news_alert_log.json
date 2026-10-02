@@ -12992,5 +12992,51 @@
       "look_out": "Watch for SGX earnings or regulatory updates that could explain the swing.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-02T05:26:13.270193+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "300413.SZ",
+      "company": "Mango Excellent Media",
+      "pct": 6.060610147364853,
+      "last": 21.0,
+      "prev": 19.799999237060547,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "ZAL.DE",
+        "company": "Zalando",
+        "pct": 3.7951526833830185
+      },
+      {
+        "ticker": "4755.T",
+        "company": "Rakuten Group, Inc.",
+        "pct": -2.699138049666694
+      },
+      {
+        "ticker": "9988.HK",
+        "company": "Alibaba Group",
+        "pct": -2.2514085930888106
+      },
+      {
+        "ticker": "3690.HK",
+        "company": "Meituan",
+        "pct": -2.231518189988324
+      }
+    ],
+    "analysis": {
+      "business_model": "Mango Excellent Media is a Chinese digital media company that creates and distributes online video content and sells advertising placements to brands.",
+      "sentiment": "Bullish - strong intraday buying despite lack of news",
+      "why_moved": "No specific catalyst is mentioned; the stock rose on pure price action, likely driven by short‑term buying interest or sector flow.",
+      "read_across": "The mixed moves of peers—Zalando up, Japanese and Hong Kong e‑commerce firms down—suggest sector‑wide rotation rather than a unified trend, indicating that media‑focused stocks may be decoupling from broader e‑commerce weakness.",
+      "look_out": "Watch for the next earnings release or any regulatory announcement that could clarify the driver behind the recent buying pressure.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
