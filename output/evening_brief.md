@@ -1,23 +1,22 @@
-# Asia Market Evening Brief -- 2 Oct 2026, 01:02 SGT
+# Asia Market Evening Brief -- 3 Oct 2026, 00:16 SGT
 
 ## Macro & policy
+- [US won't 'sit there and take' overproduction from China: USTR Greer](https://asia.nikkei.com/editor-s-picks/interview/us-won-t-sit-there-and-take-overproduction-from-china-ustr-greer) — Nikkei Asia
+- [BOJ debated more rate hikes to adjust 'accommodative' conditions: opinion summary](https://asia.nikkei.com/economy/bank-of-japan/boj-debated-more-rate-hikes-to-adjust-accommodative-conditions-opinion-summary) — Nikkei Asia
 - [It's raining AI, and won't stop!](https://asia.nikkei.com/techasia/it-s-raining-ai-and-won-t-stop) — Nikkei Asia
 - [BOJ Tankan shows sixth straight rise in manufacturer sentiment](https://asia.nikkei.com/economy/bank-of-japan/boj-tankan-shows-sixth-straight-rise-in-manufacturer-sentiment) — Nikkei Asia
 - [Japan inflation wave lifts prices on 3,000 food and drink items](https://asia.nikkei.com/economy/inflation/japan-inflation-wave-lifts-prices-on-3-000-food-and-drink-items) — Nikkei Asia
-- [United, American Airlines up Japan routes to tap demand fueled by weak yen](https://asia.nikkei.com/business/transportation/united-american-airlines-up-japan-routes-to-tap-demand-fueled-by-weak-yen) — Nikkei Asia
-- [Indonesian business doldrums leave a million university graduates jobless](https://asia.nikkei.com/economy/indonesian-business-doldrums-leave-a-million-university-graduates-jobless) — Nikkei Asia
 
 ## Markets
-- [Most Japan business leaders want strict 2-year limit on food tax cut: Nikkei poll](https://asia.nikkei.com/economy/most-japan-business-leaders-want-strict-2-year-limit-on-food-tax-cut-nikkei-poll) — Nikkei Asia
-- [Shares of Indian auto companies slide as sales soften in September, after hitting record highs in August](https://www.cnbc.com/2026/10/01/india-auto-shares-bajaj-maruti-mahindra.html) — CNBC Asia Markets
-- [South Korea's Lee balances stance on dialogue as North denies mine blast](https://news.google.com/rss/articles/CBMiswFBVV95cUxQaWxSWUpXNElJenl0M0tvc2xkRVVVRGFuejUyWkI1VEZGRDRKeTV5SUVaODFyeV9zX3NOa0x3N0ZqYUtUcGFMVEZPcEsyTmlLSDhCNkZOeVpCLUs1WHpBZDJGSllGWE1qWXY3SUVZeUpQWlZRbGhyeDRUcXVzb2w0bUtKTFRJYWRINm1fbkJqbFVwMXdEVDdMMy1PeERMc3A4SlF4elVuSlk0cVQ0cGlmeU9wOA?oc=5) — Nikkei Asia
-- [ASEAN should focus on building up regional power grid, climate finance and resilience: Grace Fu](https://news.google.com/rss/articles/CBMi3AFBVV95cUxORFZsYzNCSWYwRkZUN3VveGY0eHd4ZmgzTjEycnozOXNiV0d1dU1BSHgtc3c1U3M4b3otV3NFY1hNV0s3Z0d0ZldHMDZBSWpDWVY1MUlKVlQ3cFU3OVYwVk8yNkEzUmlmeE81bm1PMjZONDZCRFY3OUZLbmFnMEZ6N09OZGxHSDJrWUJSMV9FTkVRR0hkMGtPNDhra3BvZkVIMXl1MUxYOWRIQjNsWGREeWdOaTVsNjB6eU91TEFOem0tTGF6M1poelBVeHRCLWVfeW1vUWg3TjhaNEFP?oc=5) — The Straits Times
+- [US to unveil measures against excess manufacturing in ‘weeks’: Nikkei report](https://www.straitstimes.com/business/economy/us-to-unveil-measures-against-excess-manufacturing-in-weeks-nikkei-report) — The Straits Times
+- [Asian shares fall after wild swings in bonds, currency markets before US jobs data](https://www.straitstimes.com/business/asian-shares-fall-after-wild-swings-in-bonds-currency-markets-before-us-jobs-data) — The Straits Times
+- [South Korea, Japan stocks slide as Asian shares fall, bonds in focus after rally](https://news.google.com/rss/articles/CBMi4wFBVV95cUxPU1lxV2haNzN3enFON2IxSF9UYnU5Tl9MN3hxak9tSTZ4MUNLTFlaMnpDQ19heDMwUldqLVRtcl9WSnQ1RzZ3NWNhYWpGVmJGVEFERy1zVUJEbDVYeUVyU19KS195R2oxSmV5NDNjZHdFeVI5aXB5LXRtbGMxMHpUeVB5MV9uMHM2R0c3UE5pal9NZjNaM0FIX0xDVWVTdHdIeGRtb2ZfSVJzemVRM2hVT0JyY1FLMngxcVl0LVJvbm9wTEJmVFF3Q0gxYjVzdzVsMng0Q2pHOXcybVc4aGFVQXVGaw?oc=5) — The Business Times
 
 ## Geopolitics
-- [Analysis: Donald Trump steps into Xi Jinping's Taiwan trap](https://asia.nikkei.com/editor-s-picks/china-up-close/analysis-donald-trump-steps-into-xi-jinping-s-taiwan-trap) — Nikkei Asia
-- [Taiwan taps US tech for sea drones to fend off China's vast maritime fleet](https://asia.nikkei.com/business/aerospace-defense-industries/taiwan-taps-us-tech-for-sea-drones-to-fend-off-china-s-vast-maritime-fleet) — Nikkei Asia
-- [Philippines sends largest ship, aircraft to drive away Chinese vessel in waters near Taiwan](https://www.straitstimes.com/asia/philippines-sends-largest-ship-aircraft-to-drive-away-chinese-vessel-in-waters-near-taiwan) — The Straits Times
-- [US sees Chinese invasion of Taiwan unlikely in 2027  despite 2027 timeline, sources say](https://www.straitstimes.com/asia/east-asia/us-sees-chinese-invasion-of-taiwan-unlikely-next-year-despite-2027-timeline-sources-say) — The Straits Times
-- [South Korea’s Lee urges North Korea to restore dialogue, pledges military build-up](https://www.straitstimes.com/asia/east-asia/south-koreas-lee-urges-north-korea-to-restore-dialogue-pledges-military-buildup) — The Straits Times
+- [Japan to develop low-cost cruise missile that overwhelms air defenses](https://asia.nikkei.com/politics/defense/japan-to-develop-low-cost-cruise-missile-that-overwhelms-air-defenses) — Nikkei Asia
+- [North Korea rejects South’s accusation over DMZ mine blast and won’t apologise](https://www.straitstimes.com/asia/east-asia/north-korea-rejects-souths-accusation-over-dmz-mine-blast-and-wont-apologise) — The Straits Times
+- [Why Sabah has Malaysia watching South China Sea tensions more closely](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZnJsSlB2QUJWbVloN2FpR3J5dHZqdkJJQVVCZmpTWVo3a2VJbTcyN0NGanFtOUpEcEJ1bkNyNkJkbnZ3eFRtZTZCQzNHejUzcHczQmpPNU1XUFpnTFdudEE4NjZnZktQLUZrd3VDN0NGTl9VWkdLeklpVk51UDVNekxBVWl2Y2NBVDJkb3RFejRyVEVFb1BhVUNlVEJKUTRtTlpBZXhyWVAtblg4bkJOcTJLRzk1aHBpdTdBUERCNHNMWUXSAcMBQVVfeXFMUGZybEpQdkFCVm1ZaDdhaUdyeXR2anZCSUFVQmZqU1laN2tlSW03MjdDRmpxbTlKRHBCdW5DcjZCZG52d3hUbWU2QkMzR3o1M3B3M0JqTzVNV1BaZ0xXbnRBODY2Z2ZLUC1Ga3d1QzdDRk5fVVpHS3pJaVZOdVA1TXpMQVVpdmNjQVQyZG90RXo0clRFRW9QYVVDZVRCSlE0bU5aQWV4cllQLW5YOG5CTnEyS0c5NWhwaXU3QVBEQjRzTFlF?oc=5) — South China Morning Post
+- [China widens military footprint with Laos air base](https://news.google.com/rss/articles/CBMilwFBVV95cUxOYzNKbjBMb0VkMlZ5d3FGQU94MEpHUWwyZjJRZ0RtUlpUMmNqU19mbHpDS09UdWRNU0dkWUxkZExyanpWeElRejR2ZGhaUmRTbXN5bVhYaXI1bFJWYVJBSFRrdm5ueExoNExxQzdBZjNpNUVUVFRWMVZNRExhZkhXMEZ2QWdHbHJTQkFKS0JSU0FDVmpOcGlB?oc=5) — Bangkok Post
+- [Taiwan receives first of 66 new F-16V fighter jets from US](https://news.google.com/rss/articles/CBMiywFBVV95cUxPRC05TXdHeEhEdFh3QjB0SDdhcTZMSUVFcDdaYzhHYUxZeWJSNW8wQVI3Sy1CdDRsOFh4SXl3Q1RyV09LUVllTjVYU2pHeHlGOTFocGxpQ0dCMVFUYkFEWkxfZGxHWVd3X05kcUdWX3p0SklYeTQ0V2EyRUFGcVF1X2NrTDR5SFJ2amMyXzRoT0NtbloxOEUyejB1aTNPbFRDay1iaVpUWjNtb2FOdEc1STJ5ekFzcHgtYWVqSzY1cWZHYmo2cXhGdFN0aw?oc=5) — Nikkei Asia
 
-_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (14 headlines, 14h window)._
+_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (13 headlines, 14h window)._
