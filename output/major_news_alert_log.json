@@ -12900,5 +12900,51 @@
       "look_out": "Watch for forthcoming earnings releases or guidance updates that could confirm whether the price jump reflects fundamentals.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-02T01:50:20.474646+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "096770.KS",
+      "company": "SK Innovation",
+      "pct": 5.659025787965621,
+      "last": 147500.0,
+      "prev": 139600.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "6505.TW",
+        "company": "Formosa Petrochemical",
+        "pct": 8.280258284980091
+      },
+      {
+        "ticker": "010950.KS",
+        "company": "S-Oil",
+        "pct": 6.989247311827951
+      },
+      {
+        "ticker": "MPC",
+        "company": "Marathon Petroleum",
+        "pct": 6.254104402651728
+      },
+      {
+        "ticker": "VLO",
+        "company": "Valero Energy",
+        "pct": 5.37911996374516
+      }
+    ],
+    "analysis": {
+      "business_model": "SK Innovation is a South Korean integrated energy company that produces petroleum, petrochemicals, and operates a network of fuel stations, generating most of its revenue from refining and chemical sales.",
+      "sentiment": "Bullish - Intraday rally amid broader energy sector buying",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 5.7% on pure price action, likely reflecting sector momentum.",
+      "read_across": "The move mirrors strong gains in regional and U.S. peers—Formosa, S-Oil, Marathon and Valero—suggesting a broader energy‑sector uplift.",
+      "look_out": "Watch upcoming SK Innovation earnings and crude‑oil price trends for confirmation of the rally’s sustainability.",
+      "memory": "Similar sector-wide rallies occurred when crude prices jumped, boosting refiners."
+    }
   }
 ]
