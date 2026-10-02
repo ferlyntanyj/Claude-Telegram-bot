@@ -12854,5 +12854,51 @@
       "look_out": "Watch for Accenture's next earnings release and any guidance updates that could confirm sustained momentum.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-02T00:47:45.969636+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "5706.T",
+      "company": "Mitsui Mining & Smelting Co.",
+      "pct": 6.390748630553866,
+      "last": 2622.0,
+      "prev": 2464.5,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "000150.KS",
+        "company": "Doosan",
+        "pct": -3.9017341040462394
+      },
+      {
+        "ticker": "SCC.BK",
+        "company": "Siam Cement Group",
+        "pct": -3.543307086614178
+      },
+      {
+        "ticker": "5803.T",
+        "company": "Fujikura Ltd.",
+        "pct": 3.5394932935916446
+      },
+      {
+        "ticker": "2445.KL",
+        "company": "KUALA LUMPUR KEPONG BHD",
+        "pct": -3.513516485763535
+      }
+    ],
+    "analysis": {
+      "business_model": "Mitsui Mining & Smelting Co. extracts and processes non‑ferrous metals, operating mines, smelters and trading businesses that supply raw metal materials globally.",
+      "sentiment": "Bullish - sharp intraday rally despite lack of news",
+      "why_moved": "No specific catalyst was mentioned; the stock jumped 6.4% purely on price action with no news trigger.",
+      "read_across": "While Mitsui surged, peers such as Doosan, Siam Cement and Kuala Lumpur Kepong fell, indicating the move is company‑specific rather than a sector‑wide trend.",
+      "look_out": "Watch for forthcoming earnings releases or guidance updates that could confirm whether the price jump reflects fundamentals.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
