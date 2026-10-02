@@ -13038,5 +13038,46 @@
       "look_out": "Watch for the next earnings release or any regulatory announcement that could clarify the driver behind the recent buying pressure.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-02T06:23:29.190607+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "009830.KS",
+      "company": "Hanwha Solutions",
+      "pct": 6.13138686131387,
+      "last": 36350.0,
+      "prev": 34250.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "600438.SS",
+        "company": "Tongwei Company",
+        "pct": 4.065047654426324
+      },
+      {
+        "ticker": "688223.SS",
+        "company": "Jinko Solar",
+        "pct": 2.406414811225077
+      },
+      {
+        "ticker": "FSLR",
+        "company": "First Solar",
+        "pct": -1.7412668348885108
+      }
+    ],
+    "analysis": {
+      "business_model": "Hanwha Solutions manufactures solar modules and provides renewable energy project development and EPC services, generating revenue from solar sales and large‑scale power projects.",
+      "sentiment": "Bullish - price spikes on broad renewable sector buying",
+      "why_moved": "No specific catalyst is stated; the stock jumped intraday, likely reflecting strong sector momentum or buying pressure.",
+      "read_across": "The rise mirrors modest gains in peers like Tongwei and Jinko Solar, suggesting broader optimism for the solar supply chain and renewable‑energy outlook.",
+      "look_out": "Watch for upcoming Korean renewable policy updates, Hanwha Solutions' earnings release, or guidance changes that could confirm the rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
