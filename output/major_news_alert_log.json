@@ -13125,5 +13125,51 @@
       "look_out": "Watch for upcoming earnings releases, regulatory announcements or macro data affecting Asian insurers that could confirm or reverse the move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-02T07:50:53.794463+00:00",
+    "type": "single_stock",
+    "headline": "King’s bank Coutts hit with new lawsuit after ‘debanking’",
+    "source": "Financial Times",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUVVqMWlWQVozS0l1QnZLc3gxMVlzOEl3V05LOHN3TWdsVGlfWkxYbnh2RUFhUno5X0ZNZTJ1a0l2UlhnVjZIU0hjMkRkX3hNVGl4TW15N3lYYThpSFVYaXhnY0huOFRpZDZUVEwwalhMVl9xOE5xb2tTbXp2WGtONVFKUEw?oc=5",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "NWG.L",
+      "company": "NatWest Group",
+      "pct": -5.001460268721358,
+      "last": 653.969970703125,
+      "prev": 688.4000244140625,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "BGEO.L",
+        "company": "Lion Finance Group",
+        "pct": -5.949895615866385
+      },
+      {
+        "ticker": "CBK.DE",
+        "company": "Commerzbank",
+        "pct": -4.266934165481773
+      },
+      {
+        "ticker": "LLOY.L",
+        "company": "Lloyds Banking Group",
+        "pct": -4.116932566644616
+      },
+      {
+        "ticker": "600000.SS",
+        "company": "Shanghai Pudong Development Bank",
+        "pct": 3.2679654366830846
+      }
+    ],
+    "analysis": {
+      "business_model": "NatWest Group is a UK‑based banking group offering retail, commercial and corporate banking services, earning fees and interest on loans and deposits.",
+      "sentiment": "Bearish - lawsuit raises risk and potential penalties",
+      "why_moved": "The shares fell after a new lawsuit was filed over the bank's alleged debanking of customers, as noted in the headline.",
+      "read_across": "The legal action adds pressure to peer banks, suggesting heightened scrutiny and possible sell‑offs across the sector both domestically and internationally.",
+      "look_out": "Watch for further court developments, regulatory comments and any impact on related banking stocks or sector indices.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
