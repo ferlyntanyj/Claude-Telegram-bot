@@ -1,9 +1,6 @@
-# Global Semiconductor Brief -- 3 Oct 2026, 22:49 SGT
+# Global Semiconductor Brief -- 4 Oct 2026, 14:12 SGT
 
 ## News — M&A, capex, capacity, earnings
-- [Musk confirms talks with TSMC over his Texas chip factory project](https://www.digitimes.com/news/a20261003VL200/tsmc-texas-elon-musk-spacex-investment.html) — DIGITIMES
-- [This week on Tom's Hardware Premium: October 3, 2026 — AI Chip Design week, OpenAI Interview, and AI agent safety](https://news.google.com/rss/articles/CBMigwJBVV95cUxNbnFud3ZkaFRSOERYZ1pDM0dMZ05tbjhkY3VyZ3VBSndURHVkVDk0dkhrSDFFWmpxeEw4N291eXVLaFJDT28wb2RNY1JlczhhZTJvTHBuYktJYUc1U2lPTGJna2JBUTV0em54M0dBRHNjaDZuckxwTjFKX09lNDJ2ZjN3UkllbUd0bGdKbmh3a2NpcWlIYUo5VWs3S3kyZVl6VWNneERLOXR3MW9YbjJpWFZhUlFEYkNhbzdVMGlXekJkX2U1bUVkQnpzM3dydUFyM1RfSVFxS1c0QXRnckpJc3E5VE9CSjlOSGVJUGcyb2JZM1ZWa0l6dVVxMGVGOGdKTG1V?oc=5) — Tom's Hardware
-- [AMD’s secret Zen 3 gaming CPU had 128MB of game-boosting L3 cache but never saw the light of day — canceled Ryzen 9 5900X3D breaks free from the chipmaker's vault](https://news.google.com/rss/articles/CBMinAJBVV95cUxNd0JpMjZQSHhJS0F3VkN6ZE92NzE4ZnJUSlFLYUY4UmZFOW55TTNWWHdyMGdhcUpKVjVvWkMteGF0d0xfTGFzMDd4ZzFJbklkTjBKTUZuS2xtQUdudDhLc1Bhb0Rndjh0bThnMC0ybzR1X24tX3B3NXNYWER3VHF1N0tZeHFMN19idkRERGszQ2tMeWlNU25WeVY3LW9ndGJBYlp2bjljYjM0RjNiRV90QWVDR09IbWZudGtQdDBTYmpBSmMwMk0zTEd4bHRRY3ExU3ZpekI0c1hCNnI5aUlybE1JZGFtZllXN1hXRkpTMFVIM0c0Z3NSOG9sUnBJSXNjc2JsN3hRYUVjcW41MW9BTGNndWNfY3YtcU1DSA?oc=5) — Tom's Hardware
-- [AMD’s secret Zen 3 gaming CPU had 128MB of game-boosting L3 cache but never saw the light of day](https://www.tomshardware.com/pc-components/cpus/amds-secret-zen-3-gaming-cpu-had-128mb-of-l3-cache-but-never-saw-the-light-of-day-canceled-ryzen-9-5900x3d-breaks-free-from-the-chipmakers-vault) — Tom's Hardware
+- [Nvidia (NVDA) Is At The Center Of An $8 Billion AI Financing Shift](https://news.google.com/rss/articles/CBMilwFBVV95cUxNNEF2TDF2MklBbFNFSDRIOFpmS3pmWUsyTFVmZ1VmNzczUzRMNlBLWHNXaFJ5Vi1MNFd3Zzl4Qngxb0RKX0FBMlNVZld2WU5UMnREa2lHTURQa2NIUkZ1MWV1bDBKYnJFZU1qV0pEdy05X0JtZVVXWjNqY0VKSGFaUHUxOFptMk0xcWdCbHUxMWNCcjN3M2tJ?oc=5) — Yahoo Finance
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (4 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (1 headlines, 13h window)._
