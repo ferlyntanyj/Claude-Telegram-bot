@@ -13759,5 +13759,51 @@
       "look_out": "Watch for antitrust clearance, closing timelines and any guidance from Schneider on integration benefits.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-05T14:03:55.511251+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "WDC",
+      "company": "Western Digital",
+      "pct": 6.051194193393217,
+      "last": 440.4200134277344,
+      "prev": 415.2900085449219,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "2301.TW",
+        "company": "Lite-On",
+        "pct": 5.861456483126104
+      },
+      {
+        "ticker": "STX",
+        "company": "Seagate Technology",
+        "pct": 5.760377608618694
+      },
+      {
+        "ticker": "0992.HK",
+        "company": "Lenovo",
+        "pct": 4.6620002574253805
+      },
+      {
+        "ticker": "688041.SS",
+        "company": "Hygon Information Technology",
+        "pct": -3.8494156533385393
+      }
+    ],
+    "analysis": {
+      "business_model": "Western Digital designs, manufactures and sells data storage devices such as hard‑disk drives and solid‑state drives, and provides enterprise storage solutions.",
+      "sentiment": "Bullish - strong intraday price rally",
+      "why_moved": "No specific catalyst is stated; the stock jumped 6.1% on price action, likely reflecting broader sector buying pressure.",
+      "read_across": "Peers like Lite‑On, Seagate, Lenovo and Hygon also rose, indicating momentum across the storage and hardware supply chain.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates, or macro data on data‑center demand that could sustain or reverse the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
