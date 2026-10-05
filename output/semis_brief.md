@@ -1,15 +1,18 @@
-# Global Semiconductor Brief -- 5 Oct 2026, 14:04 SGT
+# Global Semiconductor Brief -- 6 Oct 2026, 03:21 SGT
+
+## Policy & geopolitics
+- [China stockpiled 343 immersion DUV tools for advanced chipmaking — report claims 270 ASML scanners can produce 7nm processors without sanctioned EUV tools](https://news.google.com/rss/articles/CBMitAJBVV95cUxNV2RXMXR5Z1RuX1h3Vm1xNzFvOWZ3YlZhUVV5cW1LZ3RRTkw4RGl1WVRhUktFYlh3ZHF1Q1ZYZFhKbkNvaEg1ZENjM1VvMjM3bnNpaDg1bWxkWDFjTXZWRVVWWXUzY19ENlVLeENVby13dXFGZUFmYXhoa1dmNkpJRDZIZ0pQNFJWT240bTA4VWx6LU9MWU84X2VRMjFtX2NiMjZUMWtDNnQxamJRQXJwV2gycUJGY2VtcVJTeW9JdWZraVlHdHpudlN6MUtMMUZFQk91c091dGRYZG5PTGRiR0kwYjZ5dXFZRE05bDcxRkxUT1ZrQl9XSlo4M1YyNE1uMFhJQVotYTFRRU82MkNzM2hqQ1kyRzhVeVczdGI1Nmsxa0lTYUMza1pPaFZqcHFrNzF2Nw?oc=5) — Tom's Hardware
 
 ## Supply chain signals
-- [TSMC, Intel named as Musk's Terafab ambitions face reality check](https://www.digitimes.com/news/a20261005PD219/elon-musk-fab-ic-manufacturing-intel-tsmc.html) — DIGITIMES
-- [Chipmakers turn balance sheets into AI sales tools: How customer financing is becoming the new industry norm](https://www.digitimes.com/news/a20261005PD220/financing-anthropic-broadcom-ipo-supplier.html) — DIGITIMES
-- [[News] AI, HBM Drive Memory Testing Demand: How China’s Suppliers Are Challenging an 80%-Import Market](https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbEN2Q19GYlFITHpQcDQxcmRLMVJBb0tFSTVBQ2ppSlJ4YmZQaW9fZk5ERWpHSHhIam1oUkhkb1gyeUl3RVFpMEtINmoyd0pVbUdnRVFWYnBKLTZiWEd0ejJfZnlxQ254eFRuWE12dGNHRzR3X0lMMkZQbFlaTW5BOG9memFQYmZ0eXMzaVN1QnlFVWhNLTFFY1pNVGUwekV1dC1sQzFoZlpDNlZrT19aYW9XZDZBV0E4Q19kNEM0a1ZTZTdqRlR1SW9EX0pDZWg0REJFOElrSQ?oc=5) — TrendForce
-- [Japan's strategic push to reclaim silicon supremacy with Rapidus](https://www.digitimes.com/news/a20261005VL205/rapidus-silicon-design-manufacturing-automation.html) — DIGITIMES
+- [[News] IC Designers Reportedly Eye 5% to Double-Digit Price Hikes in Late 2026–Early 2027 as Foundry Costs Rise](https://news.google.com/rss/articles/CBMi5wFBVV95cUxPajJaUi1GNlkzMXlpRm5LSHhacVVoS2U4XzRYeW9XWXRvMHhlQW0zS3ZlZ2lfT0pzVEV5LThIblpydzYwOFNHcW1JTzNFbEZXNE11NnBSVVNSUXBVb0hnV1NMYVJqUm92cmptN25laTNSTmNJd19SQXh6STlRUDdleWdEOURCaThqM0pzYjY2VEptZXBwc3hUeGRBNlpLdGIyM0RBMnFmRW02QnBpOEs0Q3NHSDB0OVprZjUxRmZWdFBRa24xRlJ0MWJXZWU2N0ZnQmZjR3VyR2wyT3hET1pEelhNQTdfa28?oc=5) — TrendForce
+- [Kyushu's chip expo expands as Japan adds a chip design focus](https://www.digitimes.com/news/a20261005PD244/design-2026-taiwan-nikkei-growth.html) — DIGITIMES
+- [AMD's Lisa Su back in Taiwan as AI capacity crunch spreads beyond TSMC](https://www.digitimes.com/news/a20261005PD238/amd-taiwan-ceo-capacity-packaging.html) — DIGITIMES
+- [Taiwan teams accelerate 2D semiconductor transfer with published research in Nature](https://www.digitimes.com/news/a20261005PD229/semiconductors-academia-materials-taiwan-tsmc.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [[News] China Reportedly Spent $13B+ Stockpiling ASML DUV Tools in 2024–25 as Advanced Chip Push Continues](https://news.google.com/rss/articles/CBMi3gFBVV95cUxPd1pBOC13M1Njbml5dFRabjVlT2VzRkpoU2FTb0ozSXJfcG4yWDc1N0RUbXlNaHcxQzVaTmQ3aC1PUmI1VWFyUFZ3RlN5WUhFSXpuYURBbk9FZWtkSld2RmYxQ05hU0NKOEgzbUZzWmFtTF9lZG11QkxQZDFNellwek96Tm1BTjZnWFdFcW9LWjh2TkFTS3BSMVg4aFB0Z1RCNWRSejIxQ1FVc1lDbWczVjU4ZmZaMS1mbE5YM2NIell3ZW1ZUXlnWUo5SEFYS1JtUlU5dDl0SnJHS08yUlE?oc=5) — TrendForce
-- [Micronex plans Sanand lead-frame plant as India expands chip packaging supply chain](https://www.digitimes.com/news/a20261005VL202/packaging-plant-micron-materials-semicon.html) — DIGITIMES
-- [Applied Materials, Besi broaden packaging partnership for AI chip integration](https://www.digitimes.com/news/a20261005VL201/applied-materials-partnership-packaging-development-manufacturing.html) — DIGITIMES
-- [Weekly news roundup: Musk looms large as AI chip boom drives capacity expansion and geopolitical risks](https://www.digitimes.com/news/a20261005VL200/capacity-tsmc-demand-financing-anthropic.html) — DIGITIMES
+- [Qualcomm and Arm kick off trial, potential for huge damages in focus](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS1VVb0RTQ1NhSkFHMXd2RENIQ0xsSjVyTkFKYlVSUmRrOXdCRjVwR0psNEdzdjdEa1Y2bkNDcW9WUkIxampaT3JFSm9NaWJBcXF0ZkFsOUtjcjRfWmNZOU8zaXBQWDdlS2U3c1FyQklSM2NVN3N5Z1BxMjRJVjczcGE3MzdjbmtIMWk1S0s5aXE1c0xrVm5wN2FpY25laTlvSGhsbHdRM1FvODB5ZW52YjZtcjgzM3pj?oc=5) — Reuters
+- [Nvidia, Broadcom shielded as AI power crunch hits chip supply chain, says Morgan Stanley](https://news.google.com/rss/articles/CBMivAFBVV95cUxOMF9lcTkxVU5OWUp5THhibUJWc3U0MWo5c2dreS02dFk3TGt4SlBXLVdpX0htOV85SnVsc3RUZjZJZDJac3p3bFgzS05uU2hjVXh5N0RjcFVtQml0TnBRSllwREVDdUVFOTBoTTRMT01RMnVUNGQtZk1ZY0ZIdUZHWHNBbjlaMk10dEpJZ3J5eTZHYjlDQW9JdEg4STBBLVNYNlFRb1J1aUJudHJkS2lmT0otSUJHdE5wVnJaXw?oc=5) — Reuters
+- [Qualcomm Licenses Patents on Huawei’s LogicFolding Chip Tech](https://news.google.com/rss/articles/CBMisAFBVV95cUxOaWpQZndsUS1QSlBNUnlLRzVHbDZtVGdRSldxZ0hKa01Nb2VCRFUxeEd5eVdSdVBHcmNPTjYwaXR2NmxZdk45aEVyS2pINGFNUmlBVXJnTTdhVDRMcWFwQkJta2o1QVhtQWxUY2Jod09DQkcyLXJMX2pEQ05HWEUzbHdzbm12QWctbVAzTG12ZEludm10LWNjTkFsRjFONDcxNmNhQm14TEpocFE1UzVNeA?oc=5) — Bloomberg.com
+- [Nvidia’s $20bn licensing deal with Groq faces lawsuit from jilted engineers](https://news.google.com/rss/articles/CBMihAFBVV95cUxQM3NDOW1Ua3hoR2xRZnF4WVl2d1ZCRi1UM1I0S1BPUEJQOE1DQ2Zmdmc3UmVDVHc4TVJwOUNXVE1JdXk1WFRyU19zVXA0ZzdRRGxuN21qdFVtQ1FWUHpwaE5Sei1VRXNobHJpUndPb2pxMUpmd1F0TzBTU3RFNFZRSEFZbHQ?oc=5) — Financial Times
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 62h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
