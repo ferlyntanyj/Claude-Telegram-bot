@@ -13355,5 +13355,97 @@
       "look_out": "Watch for upcoming earnings releases or defense contract announcements that could sustain or reverse the move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-05T03:05:21.792270+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "2308.TW",
+      "company": "Delta Electronics",
+      "pct": 6.10079575596818,
+      "last": 2000.0,
+      "prev": 1885.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "6762.T",
+        "company": "Tdk Corp.",
+        "pct": 8.03627267041902
+      },
+      {
+        "ticker": "3008.TW",
+        "company": "Largan",
+        "pct": 7.551669316375209
+      },
+      {
+        "ticker": "6976.T",
+        "company": "Taiyo Yuden Co., Ltd.",
+        "pct": 5.844477464091136
+      },
+      {
+        "ticker": "6479.T",
+        "company": "Minebea Mitsumi Inc.",
+        "pct": 5.006518904823998
+      }
+    ],
+    "analysis": {
+      "business_model": "Delta Electronics designs and manufactures power management, thermal solutions, and industrial automation components for consumer and industrial markets.",
+      "sentiment": "Bullish - price rallied on sector momentum",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped on pure price action and broader component‑sector buying.",
+      "read_across": "Peers such as TDK, Largan, Taiyo Yuden and Minebea also rose, suggesting a sector‑wide uplift in demand or investor optimism for electronic components.",
+      "look_out": "Monitor upcoming earnings releases or guidance updates for Delta and peers to see if the rally is supported by fundamentals.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-05T03:05:21.792290+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6479.T",
+      "company": "Minebea Mitsumi Inc.",
+      "pct": 5.006518904823998,
+      "last": 4027.0,
+      "prev": 3835.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "6762.T",
+        "company": "Tdk Corp.",
+        "pct": 8.03627267041902
+      },
+      {
+        "ticker": "3008.TW",
+        "company": "Largan",
+        "pct": 7.551669316375209
+      },
+      {
+        "ticker": "2308.TW",
+        "company": "Delta Electronics",
+        "pct": 6.10079575596818
+      },
+      {
+        "ticker": "6976.T",
+        "company": "Taiyo Yuden Co., Ltd.",
+        "pct": 5.844477464091136
+      }
+    ],
+    "analysis": {
+      "business_model": "Minebea Mitsumi Inc. designs and manufactures precision mechanical components such as bearings, as well as electronic devices like sensors and switches for automotive, industrial and consumer markets.",
+      "sentiment": "Bullish - price surge without disclosed catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 5% on pure price action, likely reflecting broader sector buying pressure.",
+      "read_across": "Similar gains in peers TDK, Largan, Delta Electronics and Taiyo Yuden suggest a market‑wide rally in high‑precision component makers.",
+      "look_out": "Watch for upcoming earnings releases or guidance updates that could confirm whether the rally is fundamentals‑driven.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
