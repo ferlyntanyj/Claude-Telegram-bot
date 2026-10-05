@@ -13943,5 +13943,51 @@
       "look_out": "Watch for Moderna’s upcoming earnings report and any regulatory updates on its mRNA pipeline.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-05T18:21:39.997274+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "NUE",
+      "company": "Nucor",
+      "pct": 5.4744389099058655,
+      "last": 253.5500030517578,
+      "prev": 240.38999938964844,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "STLD",
+        "company": "Steel Dynamics",
+        "pct": 5.51963117917964
+      },
+      {
+        "ticker": "000708.SZ",
+        "company": "CITIC Pacific Special Steel Group",
+        "pct": 2.421870791586178
+      },
+      {
+        "ticker": "5411.T",
+        "company": "Jfe Holdings, Inc.",
+        "pct": -1.7231476163124593
+      },
+      {
+        "ticker": "005490.KS",
+        "company": "POSCO",
+        "pct": 1.4681892332789603
+      }
+    ],
+    "analysis": {
+      "business_model": "Nucor is a U.S. steelmaker that produces carbon steel and steel products using electric‑arc furnaces, earning revenue primarily from steel fabrication and recycling.",
+      "sentiment": "Bullish - strong sector rally lifts steel stocks",
+      "why_moved": "No specific catalyst is mentioned; the stock surged intraday, likely driven by broad steel‑sector buying pressure.",
+      "read_across": "Peers such as Steel Dynamics and POSCO also rose, indicating a positive momentum across the global steel industry and related supply‑chain participants.",
+      "look_out": "Watch upcoming steel demand data, Nucor earnings releases, and any macro‑economic shifts affecting construction and manufacturing sectors.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
