@@ -13171,5 +13171,97 @@
       "look_out": "Watch for further court developments, regulatory comments and any impact on related banking stocks or sector indices.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-05T02:20:43.460101+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "1303.TW",
+      "company": "Nan Ya Plastics",
+      "pct": 6.153846153846154,
+      "last": 276.0,
+      "prev": 260.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "4188.T",
+        "company": "Mitsubishi Chemical Group Corp.",
+        "pct": 2.8871391076115582
+      },
+      {
+        "ticker": "002648.SZ",
+        "company": "SATELLITE CHEMICAL",
+        "pct": 2.355214746471024
+      },
+      {
+        "ticker": "LIN",
+        "company": "Linde plc",
+        "pct": 2.136542447223011
+      },
+      {
+        "ticker": "600309.SS",
+        "company": "Wanhua Chemical Group",
+        "pct": 1.8326896196488862
+      }
+    ],
+    "analysis": {
+      "business_model": "Nan Ya Plastics manufactures and sells plastic and petrochemical products, including PVC, acrylic fibers, and specialty resins, serving construction, automotive, and consumer markets.",
+      "sentiment": "Bullish - price surged on unexplained buying",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 6.2% on pure price action without accompanying news.",
+      "read_across": "Peers such as Mitsubishi Chemical and Linde also rose, suggesting broader buying in the chemicals sector rather than a company‑specific event.",
+      "look_out": "Watch for upcoming earnings, guidance updates, or macro‑level commodity moves that could explain the rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-05T02:20:43.460114+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6971.T",
+      "company": "Kyocera Corp.",
+      "pct": 5.561613958560518,
+      "last": 3872.0,
+      "prev": 3668.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "5706.T",
+        "company": "Mitsui Mining & Smelting Co.",
+        "pct": 4.58194634814959
+      },
+      {
+        "ticker": "078930.KS",
+        "company": "GS",
+        "pct": 4.109589041095885
+      },
+      {
+        "ticker": "HLMA.L",
+        "company": "Halma plc",
+        "pct": 3.9260969976905313
+      },
+      {
+        "ticker": "000880.KS",
+        "company": "Hanwha",
+        "pct": 3.7842190016103006
+      }
+    ],
+    "analysis": {
+      "business_model": "Kyocera Corp. designs and manufactures advanced ceramics, electronic components, and industrial equipment, supplying products for telecom, automotive and consumer markets.",
+      "sentiment": "Bullish - strong intraday buying pressure",
+      "why_moved": "No specific catalyst is mentioned; the stock rose 5.6% intraday on price‑action and broader sector momentum.",
+      "read_across": "Similar gains in peers such as Mitsui Mining, GS, Halma and Hanwha suggest a broader uplift in industrial and materials stocks across Japan and Korea.",
+      "look_out": "Watch for upcoming earnings releases or guidance updates that could confirm or reverse the current rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
