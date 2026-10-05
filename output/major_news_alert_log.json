@@ -13539,5 +13539,51 @@
       "look_out": "Watch for upcoming earnings releases, defense procurement announcements or policy updates that could sustain or reverse the current rally.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-05T03:35:08.539899+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "2345.TW",
+      "company": "Accton",
+      "pct": 6.361323155216292,
+      "last": 2090.0,
+      "prev": 1965.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "HPE",
+        "company": "Hewlett Packard Enterprise",
+        "pct": 7.355218125304952
+      },
+      {
+        "ticker": "LITE",
+        "company": "Lumentum",
+        "pct": 3.790473477973122
+      },
+      {
+        "ticker": "CSCO",
+        "company": "Cisco",
+        "pct": 3.562851061111849
+      },
+      {
+        "ticker": "CIEN",
+        "company": "Ciena",
+        "pct": 3.21780377119143
+      }
+    ],
+    "analysis": {
+      "business_model": "Accton designs and manufactures networking hardware and solutions for global telecom and data‑center customers, serving as an original equipment manufacturer for major brands.",
+      "sentiment": "Bullish - notable intraday gain without disclosed catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock rose 6.4% on pure price action amid broader sector upticks.",
+      "read_across": "Peers such as HPE, Lumentum, Cisco and Ciena also posted gains, suggesting a broader positive flow in networking and communications equipment stocks.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates, or any corporate announcements that could justify the price move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
