@@ -13263,5 +13263,97 @@
       "look_out": "Watch for upcoming earnings releases or guidance updates that could confirm or reverse the current rally.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-05T02:50:09.097744+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "3008.TW",
+      "company": "Largan",
+      "pct": 7.551669316375209,
+      "last": 6765.0,
+      "prev": 6290.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "6762.T",
+        "company": "Tdk Corp.",
+        "pct": 8.03627267041902
+      },
+      {
+        "ticker": "6976.T",
+        "company": "Taiyo Yuden Co., Ltd.",
+        "pct": 5.844477464091136
+      },
+      {
+        "ticker": "2308.TW",
+        "company": "Delta Electronics",
+        "pct": 5.039787798408479
+      },
+      {
+        "ticker": "6479.T",
+        "company": "Minebea Mitsumi Inc.",
+        "pct": 5.006518904823998
+      }
+    ],
+    "analysis": {
+      "business_model": "Largan designs and manufactures camera lenses and optical components primarily for smartphones, supplying major device makers.",
+      "sentiment": "Bullish - optics sector rally lifts component stocks",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped intraday on broader sector buying and price momentum.",
+      "read_across": "Peers such as TDK, Taiyo Yuden, Delta Electronics and Minebea Mitsumi also rose, indicating a wider rally in optical and electronic component stocks.",
+      "look_out": "Watch for Largan's upcoming earnings release or guidance update to confirm if the rally has fundamentals behind it.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-05T02:50:09.097762+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "272210.KS",
+      "company": "Hanwha Systems",
+      "pct": 5.069708491761715,
+      "last": 82900.0,
+      "prev": 78900.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "079550.KS",
+        "company": "LIG Nex1",
+        "pct": 5.248618784530379
+      },
+      {
+        "ticker": "047810.KS",
+        "company": "Korea Aerospace",
+        "pct": 5.0354051927615995
+      },
+      {
+        "ticker": "012450.KS",
+        "company": "Hanwha Aerospace",
+        "pct": 3.675048355899424
+      },
+      {
+        "ticker": "000768.SZ",
+        "company": "AVIC Aircraft",
+        "pct": 2.755559285481768
+      }
+    ],
+    "analysis": {
+      "business_model": "Hanwha Systems provides defense electronics, aerospace and IT solutions, earning most revenue from military‑grade hardware and integrated smart‑defense systems.",
+      "sentiment": "Bullish - strong intraday price gain",
+      "why_moved": "No specific catalyst; price rose 5.1% amid broad sector gains reflected in peer movements.",
+      "read_across": "Peers such as LIG Nex1, Korea Aerospace and Hanwha Aerospace also advanced, suggesting a wider defense‑sector rally.",
+      "look_out": "Watch for upcoming earnings releases or defense contract announcements that could sustain or reverse the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
