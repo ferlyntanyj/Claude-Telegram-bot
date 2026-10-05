@@ -13447,5 +13447,97 @@
       "look_out": "Watch for upcoming earnings releases or guidance updates that could confirm whether the rally is fundamentals‑driven.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-05T03:19:54.425738+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "2301.TW",
+      "company": "Lite-On",
+      "pct": 6.216696269982247,
+      "last": 299.0,
+      "prev": 281.5,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "WDC",
+        "company": "Western Digital",
+        "pct": -10.21921248338904
+      },
+      {
+        "ticker": "STX",
+        "company": "Seagate Technology",
+        "pct": -10.213946756110282
+      },
+      {
+        "ticker": "0992.HK",
+        "company": "Lenovo",
+        "pct": 6.060611449738351
+      },
+      {
+        "ticker": "P",
+        "company": "Everpure",
+        "pct": 4.480723393760244
+      }
+    ],
+    "analysis": {
+      "business_model": "Lite-On is a Taiwanese manufacturer that designs and produces optoelectronic components, LEDs and consumer electronics such as computer peripherals, generating most revenue from these hardware sales.",
+      "sentiment": "Bullish - intraday price rally without clear catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 6.2% on pure price action amid broader sector moves.",
+      "read_across": "The rise in Lite-On contrasts with storage peers Western Digital and Seagate falling, suggesting investors may be favoring consumer‑electronics exposure over data‑storage stocks.",
+      "look_out": "Watch for Lite-On's upcoming earnings or any guidance updates that could justify the move, as well as broader electronics sector sentiment.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-05T03:19:54.425747+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "047810.KS",
+      "company": "Korea Aerospace",
+      "pct": 5.0354051927615995,
+      "last": 133500.0,
+      "prev": 127100.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "079550.KS",
+        "company": "LIG Nex1",
+        "pct": 5.248618784530379
+      },
+      {
+        "ticker": "272210.KS",
+        "company": "Hanwha Systems",
+        "pct": 5.069708491761715
+      },
+      {
+        "ticker": "012450.KS",
+        "company": "Hanwha Aerospace",
+        "pct": 3.675048355899424
+      },
+      {
+        "ticker": "000768.SZ",
+        "company": "AVIC Aircraft",
+        "pct": 2.755559285481768
+      }
+    ],
+    "analysis": {
+      "business_model": "Korea Aerospace designs, manufactures and services aerospace and defense systems, including aircraft components, satellites and launch vehicles, generating revenue from defense contracts and commercial space projects.",
+      "sentiment": "Bullish - price rise without news suggests sector momentum",
+      "why_moved": "No specific catalyst is mentioned; the stock simply jumped 5% on price action while peers in the aerospace and defense sector also gained.",
+      "read_across": "The similar gains in LIG Nex1, Hanwha Systems, Hanwha Aerospace and AVIC Aircraft indicate broader enthusiasm for defense and aerospace firms, possibly reflecting sector‑wide buying or optimism on defense spending.",
+      "look_out": "Watch for upcoming earnings releases, defense procurement announcements or policy updates that could sustain or reverse the current rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
