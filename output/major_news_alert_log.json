@@ -13713,5 +13713,51 @@
       "look_out": "Watch upcoming earnings releases and any guidance updates from TDK and its peers for confirmation of the trend.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-05T08:17:42.343604+00:00",
+    "type": "single_stock",
+    "headline": "Schneider Electric to buy PTC for $22.6 billion in all-cash deal",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeExJYlhManRON3VrYTRCN2theEpVWGZZWVQ2OW8xZF9ES2N4WGN1XzN6QjRVVEloSnlXUEpuUENaMkdXVDFBRWRrakt0T0h4Tnpwc1YtQ005NkRUMDdjcE9WcjAyb0M5SHdQdVFESm04WFZpM2tpNkRPV1NKQjZXM01YdFdHVnVJZjBhUThYMXBIQW5aYlU4dUk5aU5PNGUzbDJ1OHdoSUZaXzgz?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "PTC",
+      "company": "PTC Inc.",
+      "pct": 34.38173,
+      "last": 193.55,
+      "prev": 144.03,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "NOW",
+        "company": "ServiceNow",
+        "pct": -2.4535349584786093
+      },
+      {
+        "ticker": "ADP",
+        "company": "Automatic Data Processing",
+        "pct": -2.379147970371731
+      },
+      {
+        "ticker": "301269.SZ",
+        "company": "Empyrean Technology",
+        "pct": -2.330406825051423
+      },
+      {
+        "ticker": "XRO.AX",
+        "company": "Xero",
+        "pct": -2.3163356749047015
+      }
+    ],
+    "analysis": {
+      "business_model": "PTC provides product lifecycle management (PLM) software and an industrial Internet of Things (IoT) platform that help manufacturers design, manage, and service complex products.",
+      "sentiment": "Bullish - premium cash deal lifts price",
+      "why_moved": "The stock surged after Schneider Electric announced a $22.6 billion all‑cash acquisition of PTC, delivering a substantial premium to shareholders.",
+      "read_across": "The announcement sparked a sell‑off in related software peers such as ServiceNow, ADP, Empyrean Technology and Xero, suggesting sector rotation away from comparable tech names.",
+      "look_out": "Watch for antitrust clearance, closing timelines and any guidance from Schneider on integration benefits.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
