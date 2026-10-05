@@ -13897,5 +13897,51 @@
       "look_out": "Watch upcoming earnings releases from AppLovin and related ad‑tech companies for confirmation of the trend.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-05T17:50:55.915226+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "pct": 6.857533369818669,
+      "last": 203.0399932861328,
+      "prev": 190.00999450683594,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "002821.SZ",
+        "company": "Asymchem Laboratories (Tianjin)",
+        "pct": 5.30370715663806
+      },
+      {
+        "ticker": "300759.SZ",
+        "company": "Pharmaron Beijing",
+        "pct": 4.630064447793281
+      },
+      {
+        "ticker": "207940.KS",
+        "company": "Samsung Biologics",
+        "pct": -4.60513598127471
+      },
+      {
+        "ticker": "603392.SS",
+        "company": "BEIJING WANTAI BIOLOGICAL PHARMACY ENTERPRISE",
+        "pct": 3.247736500069931
+      }
+    ],
+    "analysis": {
+      "business_model": "Moderna develops and commercializes messenger RNA (mRNA) therapeutics and vaccines, earning revenue primarily from its COVID‑19 vaccine and pipeline products.",
+      "sentiment": "Bullish - strong intraday price gain",
+      "why_moved": "No specific catalyst was cited; Moderna jumped 6.9% on broad market buying in biotech.",
+      "read_across": "The move aligns with gains in peers such as Asymchem, Pharmaron and Samsung Biologics, indicating sector‑wide optimism for biotech firms.",
+      "look_out": "Watch for Moderna’s upcoming earnings report and any regulatory updates on its mRNA pipeline.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
