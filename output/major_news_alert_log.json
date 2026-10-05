@@ -13851,5 +13851,51 @@
       "look_out": "Watch for Autodesk's upcoming earnings or any guidance updates that could confirm whether the move has fundamentals behind it.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-05T16:49:47.539792+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "APP",
+      "company": "AppLovin",
+      "pct": 6.129297728202854,
+      "last": 284.6600036621094,
+      "prev": 268.2200012207031,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "002027.SZ",
+        "company": "Focus Media Information Technology",
+        "pct": 1.7204284315123886
+      },
+      {
+        "ticker": "OMC",
+        "company": "Omnicom Group",
+        "pct": 1.3621066964887074
+      },
+      {
+        "ticker": "4324.T",
+        "company": "Dentsu Group Inc.",
+        "pct": -0.22446689113355678
+      },
+      {
+        "ticker": "WPP.L",
+        "company": "WPP",
+        "pct": -0.08049860496924799
+      }
+    ],
+    "analysis": {
+      "business_model": "AppLovin provides a mobile advertising platform that helps developers acquire users and monetize apps through targeted ads and marketing services.",
+      "sentiment": "Bullish - strong intraday buying lifts price",
+      "why_moved": "No specific catalyst was mentioned; the stock rose 6.1% on intraday momentum.",
+      "read_across": "Peers such as Focus Media and Omnicom also posted gains, indicating broader optimism in the ad‑tech and marketing services space.",
+      "look_out": "Watch upcoming earnings releases from AppLovin and related ad‑tech companies for confirmation of the trend.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
