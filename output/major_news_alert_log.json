@@ -13667,5 +13667,51 @@
       "look_out": "Watch for upcoming earnings releases or policy announcements affecting renewable energy incentives that could sustain or reverse the rally.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-05T04:48:59.420508+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6762.T",
+      "company": "Tdk Corp.",
+      "pct": 7.035647279549728,
+      "last": 3423.0,
+      "prev": 3198.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "3008.TW",
+        "company": "Largan",
+        "pct": 8.187599364069943
+      },
+      {
+        "ticker": "2308.TW",
+        "company": "Delta Electronics",
+        "pct": 6.366047745358094
+      },
+      {
+        "ticker": "6479.T",
+        "company": "Minebea Mitsumi Inc.",
+        "pct": 3.7027379400260685
+      },
+      {
+        "ticker": "FLEX",
+        "company": "Flex Ltd.",
+        "pct": 3.3959938575187865
+      }
+    ],
+    "analysis": {
+      "business_model": "TDK Corp. designs, manufactures and sells electronic components such as capacitors, inductors, sensors and magnetic materials for consumer, automotive and industrial devices.",
+      "sentiment": "Bullish - intraday rally on sector momentum",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 7% amid broad gains in related electronics component stocks.",
+      "read_across": "The similar upside in peers like Largan, Delta Electronics, Minebea Mitsumi and Flex points to a broader market‑wide boost for the electronics component sector.",
+      "look_out": "Watch upcoming earnings releases and any guidance updates from TDK and its peers for confirmation of the trend.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
