@@ -13585,5 +13585,51 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates, or any corporate announcements that could justify the price move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-05T04:06:16.342744+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "0992.HK",
+      "company": "Lenovo",
+      "pct": 5.652676701513948,
+      "last": 36.2599983215332,
+      "prev": 34.31999969482422,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "WDC",
+        "company": "Western Digital",
+        "pct": -10.21921248338904
+      },
+      {
+        "ticker": "STX",
+        "company": "Seagate Technology",
+        "pct": -10.213946756110282
+      },
+      {
+        "ticker": "2301.TW",
+        "company": "Lite-On",
+        "pct": 6.216696269982247
+      },
+      {
+        "ticker": "P",
+        "company": "Everpure",
+        "pct": 4.480723393760244
+      }
+    ],
+    "analysis": {
+      "business_model": "Lenovo designs, manufactures and sells personal computers, smartphones, data centre servers and related services, generating most revenue from its PC and smart device businesses.",
+      "sentiment": "Bullish - price jumps despite lack of news",
+      "why_moved": "No specific catalyst is stated; Lenovo shares rose 5.7% intraday on price action alone, likely reflecting broader market or sector flows.",
+      "read_across": "While Lenovo surged, peers Western Digital and Seagate fell sharply, whereas Lite-On and Everpure rose, indicating mixed sentiment across the storage and electronics supply chain.",
+      "look_out": "Watch for Lenovo's upcoming earnings, guidance updates or any sector news that could explain the rally, and monitor how the broader storage hardware stocks move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
