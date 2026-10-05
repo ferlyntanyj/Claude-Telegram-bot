@@ -13805,5 +13805,51 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates, or macro data on data‑center demand that could sustain or reverse the move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-05T15:19:34.593011+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "ADSK",
+      "company": "Autodesk",
+      "pct": 5.3490548763635015,
+      "last": 223.33999633789062,
+      "prev": 212.0,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "PTC",
+        "company": "PTC Inc.",
+        "pct": 34.28452773819677
+      },
+      {
+        "ticker": "FICO",
+        "company": "Fair Isaac",
+        "pct": 3.7640853910680505
+      },
+      {
+        "ticker": "CRM",
+        "company": "Salesforce",
+        "pct": -2.6034345505948853
+      },
+      {
+        "ticker": "UBER",
+        "company": "Uber",
+        "pct": 2.36382410207594
+      }
+    ],
+    "analysis": {
+      "business_model": "Autodesk provides design software and services, most notably its flagship AutoCAD and Revit platforms, sold on subscription to architects, engineers, and construction professionals.",
+      "sentiment": "Neutral - price rise lacks disclosed catalyst",
+      "why_moved": "No specific catalyst is stated; the 5.3% gain appears to be pure price action possibly driven by broader sector flows.",
+      "read_across": "The strong jump in peer PTC and modest gains in other tech firms suggest a broader enthusiasm for CAD and enterprise software stocks, which may be lifting Autodesk as well.",
+      "look_out": "Watch for Autodesk's upcoming earnings or any guidance updates that could confirm whether the move has fundamentals behind it.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
