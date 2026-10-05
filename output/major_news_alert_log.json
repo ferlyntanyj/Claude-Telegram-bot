@@ -13631,5 +13631,41 @@
       "look_out": "Watch for Lenovo's upcoming earnings, guidance updates or any sector news that could explain the rally, and monitor how the broader storage hardware stocks move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-05T04:34:28.248462+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "009830.KS",
+      "company": "Hanwha Solutions",
+      "pct": 5.40145985401459,
+      "last": 36100.0,
+      "prev": 34250.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "600438.SS",
+        "company": "Tongwei Company",
+        "pct": 4.065047654426324
+      },
+      {
+        "ticker": "688223.SS",
+        "company": "Jinko Solar",
+        "pct": 2.406414811225077
+      }
+    ],
+    "analysis": {
+      "business_model": "Hanwha Solutions manufactures and sells photovoltaic panels, solar power systems, and related energy‑storage solutions, generating revenue primarily from solar equipment sales and project development.",
+      "sentiment": "Bullish - strong intraday rally without evident negative news",
+      "why_moved": "No specific catalyst is mentioned; the stock rose 5.4% on pure price action, likely reflecting broader bullish sentiment in the solar sector as peers also advanced.",
+      "read_across": "Similar gains in Chinese solar peers Tongwei and Jinko Solar suggest a sector‑wide optimism that could boost demand for solar components and reinforce supply‑chain confidence.",
+      "look_out": "Watch for upcoming earnings releases or policy announcements affecting renewable energy incentives that could sustain or reverse the rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
