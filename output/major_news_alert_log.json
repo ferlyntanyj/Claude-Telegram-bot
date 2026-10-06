@@ -14265,5 +14265,51 @@
       "look_out": "Watch for upcoming earnings or guidance releases that could confirm whether the buying surge reflects sustainable demand.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-06T18:55:13.915601+00:00",
+    "type": "single_stock",
+    "headline": "Marvell raises 2028 revenue forecast on strong AI data center demand",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcDJISmlqQ09tSDQ4NnNJNElrbWtnQlpVZGlrd3NCQjlvVktSMm00UE1JZDBHZGFqOUVUWjUxbU1KcTM4NXBCMDdGSUY4UW9kd202NzFXT0NBTzdFQU5xbmdqMWFYelRYVmNRTnhDNmlpdlJRODVCMHVpZ21XWnRldHVDd3p6RjJlQjRTMWZiMnE3LTVJM1FMZW1yaktxNHNDQnBTc2ZnZ3JZYjVsZnhj?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "MRVL",
+      "company": "Marvell Technology",
+      "pct": 5.751154323876717,
+      "last": 286.8500061035156,
+      "prev": 271.25,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "688008.SS",
+        "company": "Montage Technology",
+        "pct": -4.840079138996655
+      },
+      {
+        "ticker": "2454.TW",
+        "company": "MediaTek",
+        "pct": -4.7434656340755055
+      },
+      {
+        "ticker": "688981.SS",
+        "company": "Semiconductor Manufacturing International Corporation",
+        "pct": -4.697476105958664
+      },
+      {
+        "ticker": "AVGO",
+        "company": "Broadcom",
+        "pct": 4.320454176575139
+      }
+    ],
+    "analysis": {
+      "business_model": "Marvell designs and sells semiconductor solutions, focusing on data‑center, networking and storage chips that enable AI and cloud services.",
+      "sentiment": "Bullish - raised forecast fuels optimism",
+      "why_moved": "Shares jumped after Marvell raised its 2028 revenue forecast, citing strong AI data‑center demand, a direct guidance upgrade in the headline.",
+      "read_across": "The AI‑driven data‑center chip theme lifts peers like Broadcom, while other Asian chipmakers lag, reflecting divergent exposure to AI demand.",
+      "look_out": "Watch upcoming quarterly results and any further guidance tweaks as AI spending trends become clearer.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
