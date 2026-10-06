@@ -14173,5 +14173,51 @@
       "look_out": "Watch for Henry Schein's upcoming earnings release or any sector‑wide news that could confirm the price move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-06T14:05:21.493091+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "VST",
+      "company": "Vistra Corp.",
+      "pct": 10.21464774249643,
+      "last": 159.69000244140625,
+      "prev": 144.88999938964844,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "CEG",
+        "company": "Constellation Energy",
+        "pct": 14.640124743254134
+      },
+      {
+        "ticker": "NRG",
+        "company": "NRG Energy",
+        "pct": 7.561462731433499
+      },
+      {
+        "ticker": "600011.SS",
+        "company": "Huaneng Power International",
+        "pct": 1.294966259825081
+      },
+      {
+        "ticker": "CNA.L",
+        "company": "Centrica",
+        "pct": -1.1467095772291325
+      }
+    ],
+    "analysis": {
+      "business_model": "Vistra Corp. owns and operates a portfolio of power generation assets and sells electricity and natural gas to retail and wholesale customers.",
+      "sentiment": "Bullish - strong intraday buying despite no news",
+      "why_moved": "No specific catalyst was mentioned; the stock jumped 10% on pure price action, mirrored by peers in the power generation sector.",
+      "read_across": "Similar gains in Constellation, NRG, Huaneng and Centrica suggest broader momentum for energy generators and utilities.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates, or regulatory announcements that could sustain or reverse the rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
