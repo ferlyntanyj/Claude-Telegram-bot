@@ -14081,5 +14081,51 @@
       "look_out": "Watch for upcoming earnings releases or policy news that could confirm or reverse the current rally.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-06T04:22:40.746036+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "006400.KS",
+      "company": "Samsung SDI",
+      "pct": 7.372400756143671,
+      "last": 568000.0,
+      "prev": 529000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "003670.KS",
+        "company": "POSCO Future M",
+        "pct": 5.350454788657033
+      },
+      {
+        "ticker": "373220.KS",
+        "company": "LG Energy Solution",
+        "pct": 4.716981132075482
+      },
+      {
+        "ticker": "002074.SZ",
+        "company": "GUOXUAN HIGH-TECH",
+        "pct": 2.859134191418522
+      },
+      {
+        "ticker": "300014.SZ",
+        "company": "Eve Energy",
+        "pct": 2.5108071966905454
+      }
+    ],
+    "analysis": {
+      "business_model": "Samsung SDI designs and manufactures rechargeable batteries and energy storage solutions for mobile devices, electric vehicles and industrial applications.",
+      "sentiment": "Bullish - broad battery sector rally lifts peers",
+      "why_moved": "No specific catalyst was mentioned; the stock surged on intraday price action alongside similar moves in peer battery manufacturers.",
+      "read_across": "The gains in POSCO Future M, LG Energy Solution and Chinese peers suggest a wider positive sentiment for the battery and energy‑storage sector.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates or policy news that could confirm the rally’s sustainability.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
