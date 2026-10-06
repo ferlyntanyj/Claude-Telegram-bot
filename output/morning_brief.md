@@ -1,27 +1,26 @@
-# US Market Morning Brief -- 5 Oct 2026, 13:59 SGT
+# US Market Morning Brief -- 6 Oct 2026, 14:37 SGT
 
 ## Markets
-- [Trump tells South Korea to sign on to Alaska LNG deal or 'I'll just charge them more'](https://www.cnbc.com/2026/10/05/trump-alaska-lng-south-korea-pay.html) — CNBC Top News
-- [Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom](https://www.cnbc.com/2026/10/04/trump-5000-checks-cash-payments-midterms.html) — CNBC Top News
-- [It's time for us to put cash to work in this ugly market. Here's where we will do our buying](https://www.cnbc.com/investingclub/2026/10/04/its-time-for-us-to-put-cash-to-work-in-this-ugly-market-heres-where-we-will-do-our-buying.html) — CNBC Top News
-- [Top Wall Street analysts are upbeat about the prospects for these 3 stocks](https://news.google.com/rss/articles/CBMioAFBVV95cUxQLWt1eVM2N2hzdTRfemxDRGhwZFdXSUpDQktQcFRmT3lLWlVzQ3pYRnRsamlka3B6bXJrbUdsTEpxd1JGZnUtQVMxd2dXR21qei02UnJQZlNuSzdSdEhCWXItZ29vWHVKd2d3Y3FOUzg1T09YMXBGMzVSc3htVUpLZDF0Nzc0a3g0c2RNemF5SVNlNTVmV25YRVAxRnBCMl9W0gGmAUFVX3lxTE9pX0NpZEhJWHlXckZ5WjA2RUx0Mm9LWTZvbEtWSUFOYVNkNlk2Xy1yZ201UlRiTFpvZ0VfZTloTDRWZkNscGFDNWNRYXdUT210cEN4V01EcmdlWU1NclZHTC1VVENzVmN4cllIRk1BVFh5RWxtLVJHOUx5WnVhZUppblV1Q2o1RHItQzdZX0hrNXE4bkRlS3RDRDNkcHZCU3BwQ2FfUUE?oc=5) — CNBC
+- [S&P 500 Closes In on Record High as Tech Rallies: Markets Wrap](https://news.google.com/rss/articles/CBMisgFBVV95cUxOLWVFclV0QWRGOVVacHFPSXhOLTNLOG9lN3liRjJ4LVdMMDhoMVFZSzVRb1RYZWNvclVCTVYySDlfNWg0bTJjdzVneGNVUElpc2lLNzdqRW1mYVpMNWROZGVCTnNQaExVcDNpbTA2UGszTGRnLUY2MmtCaWY0WWpSSE1DWldVaWwwejZEYnlReUxtbmJYS0pTRmNZWFhreDBOQmVGUEh3c3BxSzJyZTBvZ1lR?oc=5) — Bloomberg.com
+- [Little room for ‘giving and taking’: India’s finance minister confirms trade impasse with the U.S.](https://www.cnbc.com/2026/10/06/india-us-trade-deal-deal-sitharaman.html) — CNBC Top News
+- [Pentagon says Trump approves Army firing squad execution of Fort Hood killer Nidal Hasan](https://www.cnbc.com/2026/10/06/trump-execution-nidal-hasan-firing-squad-fort-hood.html) — CNBC Top News
+- [Trump says MAGA Inc. PAC will pay for controversial TV ads that government funded](https://www.cnbc.com/2026/10/05/trump-ads-election.html) — CNBC Top News
 
 ## Macro, Fed & data
-- [U.S. Stocks Pare Losses After Comments From Fed’s Williams](https://news.google.com/rss/articles/CBMimAFBVV95cUxPTFJEWUpuTldVdUVyQ1hEajlmMXJ6T2JfQnJjZkplSW03Y2ZENlhTYjRuczh4cU9kX2lobzc3dU1ENENfS0R2U0VWR3lwVUNCaFh4Tm14YTBjOWJCbDFhZ0VZWUdSQUx5NnQzQlkzTmVJS0xoNGVMaW80bGhCRTU1UU0zSjdGQ1Y5dFNlRTdlMlFrM2NCdkNqdA?oc=5) — WSJ
-- [Treasury Yields Push To Fresh Highs](https://news.google.com/rss/articles/CBMipAFBVV95cUxPT05aOHdJS2k3TXNtTkY4MGUxRFFBZjV6bGNHM21EbjRCaHhSR0dYbjVqTmx2azdNVXRoRkh5b3RxbS1pVXNUYmJ0R25UWkxvTV8zUHhfSEQtMTdpUHZWTFVtZHJESDdqb0FkRWRoWDRTTWlPTm5mbmc3UWpzbVJpSDBOMmtDWmZGb1FfVkJjek1wVWdnVDhmXzB6MEhPdFJlMFVSRA?oc=5) — WSJ
-- [U.S. Treasury Selloff Resumes After Brief Respite](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPamtQaHhNY0lFbDE5MEVzdjBhZnQxcTJxZUV0bFNod045dHNNWVpDOWt1ZEw2U0FVT1h3SWJmYTRiNmtaX0ZSS1Fjb0lKazlUeDdTR0YtS2RYeXNZbEFtYVpZcHpwdkc2aHh6RmV5OUVEbGJYNWh2QWpFbVFDYUF3SXJDQmRWVGRwaktR?oc=5) — WSJ
-- [What can revive the battered government bond market?](https://news.google.com/rss/articles/CBMihAFBVV95cUxQY1hHSjFqUGgxdG5rd1ZweTR3YnlieUxveWpfc2RPM2kxUHAwdS0zQlpoYjk1SHRkVThnbVo5dnhOZGdiQXlfTGRFMHlUeDZlYWNDNFVhSzV3dXcwZEctdEJ3elNuVThzenlXa3I2SjVLdFZvcDdpQkYxSW04WDZhSGhQRVU?oc=5) — Financial Times
+- [U.S., European Bond Yields Rise](https://news.google.com/rss/articles/CBMiogFBVV95cUxPeHhVOE91SFdPWGdUVzQxTkZFbUZmc2FoSTAwRHZGR1FKMUNFeGl1eENZRThsUTllZ3VQNDNFeWl4cFp6UEFmZzFVMDNSbkhCLVR1NC1DaWJ4ckdRbDZySjI2VmwwUWlTUHJYbnl2a1REc0tzeEo5aVlmN2RqWnp5T0xLeGg3MXlOQ2ZuUFpRZGVSdktqZEdPMG1qNlQ0Z0w3dmc?oc=5) — WSJ
+- [Federal Reserve Board announces approval of application by Isabella Bank Corporation](https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm) — Fed press releases
+- [Global bond sell-off spreads as yields rise amid 'collection of shocks'](https://news.google.com/rss/articles/CBMixAFBVV95cUxQTXl4YkZydmhUeHptTzRJMzJaQ0JtakZNcUsyTFQwMUpXWGdKQXZGd3dIZkx4VnBlTkhMaXNrMzZURVEzRzRJbmZBNjR5Y3d0NVpQVXdoenlueDROXzA4SW5zVHJZanlTNVJvQ1poQXJabEtIazRyWHVqaFdtSmpKOVpkMDF1Q3E3S095YXo2UzBaNGRyX0NqX0MybVhXV0V2T2RPVTJaNlhXUV94amVJNWxyNExLWDBrVzJYNUtweGRfSWVn?oc=5) — Yahoo Finance
+- [AI Will Kill Us in 10 Years, but Bond Market Will Do It 'Next Week,' Says Strategist As Treasury Yields Hit 24-Year Highs](https://news.google.com/rss/articles/CBMikgFBVV95cUxPV0Y2WGJNSE43NHpTeTR4VG5Za1dULUxSWG5NUzNpSmFfR2ZXVVJhRTJvbGt3R0pXNjk5MDhidTkwb0EyMWJ5cFo0Y2dEVzlSUl9idmpheXhYemsyQkhaVVNod0JqZEhPYUNVcnh6SVBTNGhTbGNBbE9pSkpmeWU4YnotMWdzMzBZMzlJTVktT284QQ?oc=5) — Yahoo Finance
 
 ## Stocks & earnings
-- [A 'weird' IPO pull, a tainted reputation and the stalled breakout moment for AI wearables](https://www.cnbc.com/2026/10/04/ai-wearables-oura-ipo-privacy.html) — CNBC Top News
-- [Berkshire buys more Lennar shares, but pace of purchases slows](https://www.cnbc.com/2026/10/03/berkshire-buys-more-lennar-shares-but-pace-of-purchases-slows.html) — CNBC Top News
-- [Netflix’s Own Co-CEO Just Warned of Slowing Growth](https://news.google.com/rss/articles/CBMilgFBVV95cUxNQk1GU1REcWpXT2tjSDBIVTVKbmsyelp4SXlJM2VHbHBhdWswSmsyeklCaHV2RHQ5Sm5feFhpbVNxVG1Ya2QtZUNzeURSME1PQnRpdmlNbFlpY3YzYkRrdXo2QjdxTkU1TTNJNnN0ZS1zNjR0cGVVakdXbG5JZlZ5bWM1c05JYUJrT0xGYWIwVTYwVmRDZ2c?oc=5) — Yahoo Finance
-- [Rivian tops Q3 delivery expectations, reconfirms 2026 guidance](https://www.cnbc.com/2026/10/02/q3-vehicle-deliveries.html) — CNBC Markets
+- [Surge in borrowing costs hits corporate America](https://news.google.com/rss/articles/CBMihAFBVV95cUxOWENILTVDQkJJdHJJODAzSk5vdXdQNndwMHMxSE1pNVI0RnpQT3M3Q21NMXdQOURwR0ExeV9xVHExMjhKa3ItRXZRLVhCTVRjT3hJc3dvYlBwQ1phWEx6R3B1RDlnTHVLRzVIMDQ2cGFLdFZKRlVjdFJVQjFfYXdFR01lNnc?oc=5) — Financial Times
+- [Nasdaq notches record high close as investors focus on earnings](https://news.google.com/rss/articles/CBMimgFBVV95cUxQV09jSm4zWHp2ODd2SmNPRHdJcUhDcjNzZ3dwYkwzZ3NSVHdyVUdUVEI0TWltb3RKQUZucVVNa2l1UzAxWmtSd0hQSWFjVXV0WVZiUjJFNGJDeEZQVlhoWDJ5WWpxLWxuc3ZVYXBLR0QxSzdZMVFjSklpUTB2Q2YwdE12VFl0bUw2RGRjZ3VoUmFlMkp4UUstYy1R?oc=5) — Reuters
+- [Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency](https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html) — CNBC Finance
+- [SpaceX stock climbs to highest since June, returning Musk to trillionaire status](https://www.cnbc.com/2026/10/05/spacex-stock-climbs-highest-since-june-returning-musk-to-trillionaire.html) — CNBC Top News
 
 ## Geopolitics
-- [OPEC, Allies Hold Oil Output Steady Amid Middle East Tensions](https://news.google.com/rss/articles/CBMirgFBVV95cUxOYmFlX3pxTllubHhKWkgycEVOdlZ3c2F3TzA5OUU4RmFmWmQ2dWlaY3B1TlFfek85dHhZakt3aFJHZjlEUEJ2Zk9MVldfeTdUVkxoUzN1MU9wUWlUdGhFd3M4T3dNamMxbGprT1A3R3g4UGI0Q2RyU3hrczI0WExYWlpNa3N4RjlNRzFGN0U5d1NPN3p4VlN2R2MzRkc4WXlyV3Z4Z21ZZHVtY3FzYmc?oc=5) — WSJ
+- [Trump offers U.S. help to Russia after plague death; WHO assesses the situation as low risk](https://www.cnbc.com/2026/10/06/russia-plague-death-trump-offers-us-help.html) — CNBC Top News
 - [Why It’s Taking Nine Months to Get Back $164,000 in Tariff Refunds](https://news.google.com/rss/articles/CBMisgFBVV95cUxPQkJ2YktFNXBZSmJucURhWDhKNnIxWDZ5NjdmR1pCNnpselRTdmxuVkpnTDJNT0laZHdmTzdaMHczNS1ISmRURWhfeVcydjZYTGEwX09QTEhEUEtmMnZidTI5VEhnaWVQRGdOc0JjRXRLWGZXMDQ5VlBOQVpsU0JEemhsNks1Rng3V1owVEJwVGYyNGwzTE8tYlhpRkxlMktHVUY1Q0FHR3c3VnBUWXkzMHNR?oc=5) — WSJ
-- [All U.S. bombers leave UK air base on concerns of suspected terror plots; more tankers struck near Iran in the Middle East](https://www.cnbc.com/2026/10/04/more-tankers-struck-in-gulf-waters-as-iran-reiterates-conditions.html) — CNBC Top News
-- [India, US have reached a plateau in trade talks, Indian finance minister says](https://news.google.com/rss/articles/CBMimwFBVV95cUxNZVdLTTBFY3NvNWJYRy03WllweHNyRXJmaFE1U094N1BSRk9sOWdEX2Q2U21TejBZOU9nVzkwSE9ETENaLVNQYVFtZERrV3NaREgtVkhIQ1YzYlh1bnpwMXYyaUhWTklkeFRCaGZkaFd6WHBzWGV0V2VIRnZnZkh5cWlGT0tWeklWSldRRVAySWVsUUxMVXEzNWgyTQ?oc=5) — Yahoo Finance
+- [OPEC+ holds November oil output targets steady amid Iran war](https://news.google.com/rss/articles/CBMikAFBVV95cUxPU2Jjb1VJNjlLTUdQaUxTY0tEY24zVVVSZ3A0LURqTFJOTTV3dXNabHJyd3EyQW5GeHROYm9HNXlVV3UwWndmUzhZOV9CVXpEYldybDdEb05LaHFzZ0xJODRKd0xXWmFMUEZPRXdXS3RzNGpTZEIzSTZEZi1Ubk85dG41NkdVcUdBVUlTM01Nalg?oc=5) — Yahoo Finance
 
-_Sources: Google News + CNBC + Fed feeds (16 headlines, 72h window)._
+_Sources: Google News + CNBC + Fed feeds (15 headlines, 20h window)._
