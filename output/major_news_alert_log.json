@@ -14035,5 +14035,51 @@
       "look_out": "Watch upcoming earnings releases or guidance updates from Samsung Electro‑Mechanics and its peers for the next driver of price momentum.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-06T02:22:08.466443+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "000596.SZ",
+      "company": "Anhui Gujing Distillery",
+      "pct": 5.076945225693996,
+      "last": 93.55000305175781,
+      "prev": 89.02999877929688,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "000568.SZ",
+        "company": "Luzhou Lao Jiao",
+        "pct": 4.1798812924225714
+      },
+      {
+        "ticker": "600809.SS",
+        "company": "Shanxi Xinghuacun Fen Wine Factory",
+        "pct": 3.6771286763417788
+      },
+      {
+        "ticker": "603369.SS",
+        "company": "Jiangsu King's Luck Brewery Joint-Stock",
+        "pct": 3.5385220107546855
+      },
+      {
+        "ticker": "000858.SZ",
+        "company": "Wuliangye Yibin",
+        "pct": 1.8758193667258283
+      }
+    ],
+    "analysis": {
+      "business_model": "Anhui Gujing Distillery produces and sells Baijiu, a traditional Chinese distilled spirit, generating revenue primarily from domestic liquor sales.",
+      "sentiment": "Bullish - price gains reflect sector momentum",
+      "why_moved": "No specific catalyst was mentioned; the stock rose on pure price action amid broader Baijiu sector gains.",
+      "read_across": "The similar upticks in peers like Luzhou Lao Jiao and Wuliangye suggest a market‑wide boost for Chinese liquor makers.",
+      "look_out": "Watch for upcoming earnings releases or policy news that could confirm or reverse the current rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
