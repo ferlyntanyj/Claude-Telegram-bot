@@ -14127,5 +14127,51 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates or policy news that could confirm the rally’s sustainability.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-06T08:55:00.365413+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "HSIC",
+      "company": "Henry Schein",
+      "pct": 5.5443406,
+      "last": 88.9,
+      "prev": 84.23,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "CAH",
+        "company": "Cardinal Health",
+        "pct": 2.1112536141039584
+      },
+      {
+        "ticker": "COR",
+        "company": "Cencora",
+        "pct": 1.9026064116046681
+      },
+      {
+        "ticker": "MCK",
+        "company": "McKesson Corporation",
+        "pct": 1.4596336483718053
+      },
+      {
+        "ticker": "1099.HK",
+        "company": "Sinopharm Group",
+        "pct": 1.4276005275485115
+      }
+    ],
+    "analysis": {
+      "business_model": "Henry Schein distributes medical, dental, and eye health products and services, supplying consumables, equipment, and practice‑management solutions to healthcare providers.",
+      "sentiment": "Bullish - price surge on unexplained market momentum",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 5.5% intraday on pure price action without news.",
+      "read_across": "Peers such as Cardinal Health and McKesson also rose, indicating broader buying interest in healthcare distribution stocks.",
+      "look_out": "Watch for Henry Schein's upcoming earnings release or any sector‑wide news that could confirm the price move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
