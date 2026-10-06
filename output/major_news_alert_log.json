@@ -13989,5 +13989,51 @@
       "look_out": "Watch upcoming steel demand data, Nucor earnings releases, and any macro‑economic shifts affecting construction and manufacturing sectors.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-06T01:03:40.899318+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "009150.KS",
+      "company": "Samsung Electro-Mechanics",
+      "pct": 6.135357368753946,
+      "last": 1678000.0,
+      "prev": 1581000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "007660.KS",
+        "company": "Isu Petasys",
+        "pct": 9.570957095709565
+      },
+      {
+        "ticker": "011070.KS",
+        "company": "LG Innotek",
+        "pct": 7.491289198606266
+      },
+      {
+        "ticker": "3008.TW",
+        "company": "Largan",
+        "pct": 6.995230524642282
+      },
+      {
+        "ticker": "2308.TW",
+        "company": "Delta Electronics",
+        "pct": 6.366047745358094
+      }
+    ],
+    "analysis": {
+      "business_model": "Samsung Electro-Mechanics designs and manufactures semiconductor packaging, interconnects and camera modules for smartphones and other electronics, generating most revenue from component sales to device makers.",
+      "sentiment": "Bullish - strong intraday gain despite no news",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 6.1% on price action alone, likely driven by broader sector buying.",
+      "read_across": "Peers such as Isu Petasys, LG Innotek, Largan and Delta Electronics also posted double‑digit gains, indicating a wider rally in the semiconductor component and camera module space.",
+      "look_out": "Watch upcoming earnings releases or guidance updates from Samsung Electro‑Mechanics and its peers for the next driver of price momentum.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
