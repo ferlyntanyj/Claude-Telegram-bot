@@ -1,15 +1,18 @@
-# Global Semiconductor Brief -- 7 Oct 2026, 14:19 SGT
+# Global Semiconductor Brief -- 8 Oct 2026, 01:30 SGT
+
+## Policy & geopolitics
+- [Taiwan indicts 10 for alleged resale of US chips to China](https://news.google.com/rss/articles/CBMiowFBVV95cUxNQk4xdTFWTy0wWXk1UGtCb2V1amtDbGtBaFVRY2pOem5RZWk3ekl6RHhKTTRRRTdYRkFtMC14amNKczd3SDVGcHRTY0lwZ3ZnSU9ldXJpR01nMjJKeEh4T0ZiMERPV2I5UmV1R1RNalZRM0dUWnduRHdhSTdqQnpNUV9naUI0dXZzSXByaGQ0N2doWWhiX1cwanNRb0hlMDFyQzlz?oc=5) — The Straits Times
 
 ## Supply chain signals
-- [Samsung arms for memory price surge with AI, services, N-1 phone push](https://www.digitimes.com/news/a20261007PD225/samsung-smartphone-price-cost-2026.html) — DIGITIMES
-- [Micron licenses Netlist's memory tech for US$600M to settle patent dispute](https://www.digitimes.com/news/a20261007VL212/micron-patent-hbm-technology-demand.html) — DIGITIMES
-- [[Insights] Memory Spot Price Update: DRAM Spot Largely Sideways as Holidays, Month-End Effects Weigh](https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcDR3SWxWbUEyQnl6amN4cHAwVU9mcElCdzBlZXhwbng1cHlsVGM0UXo0eFZiV2hOakpUWjFxTGxTV01DU2t4NXBjczlVY2w4amZmNjRhMGZOeGxIcUQ4MFB0NGRaZjlPcHlMbjR6N0t5aU1BNkNpUzQxeVc1VzN5VVY2Rll6V1BJT1hBbk5tbHYwVm13aHFYd2tqZklzSzJnNGl2SnM5R2JMRnF6NEZjVnNVWDhrYm1EaDVkRkNIYXg4WVloTVdvYV8tUGtNVkpqYUJ0d3g2dw?oc=5) — TrendForce
-- [Chip price hikes loom as Taiwan IC designers brace to pass on costs through 2027](https://www.digitimes.com/news/a20261007PD224/2027-price-ic-design-2026-design.html) — DIGITIMES
+- [Micron's Taiwan union wins strike vote with 99% support](https://www.digitimes.com/news/a20261007PD252/micron-taiwan-strike-labor-ceo.html) — DIGITIMES
+- [Samsung SDI builds dual-track battery strategy with LFP supply deal, solid-state push](https://www.digitimes.com/news/a20261007VL211/samsung-sdi-materials-technology-supply-chain-demand.html) — DIGITIMES
+- [Musk limits TSMC to possible Terafab sublease; Intel says it will stay involved](https://www.digitimes.com/news/a20261007VL217/intel-spacex-tesla-tsmc-elon-musk.html) — DIGITIMES
+- [Commentary: Qualcomm patent deal puts spotlight on Huawei's broader IP push](https://www.digitimes.com/news/a20261007PD211/huawei-qualcomm-patent-ip-licensing.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Intel to keep working on Musk's Terafab chipmaking venture, Bloomberg News reports](https://news.google.com/rss/articles/CBMizgFBVV95cUxQdXV3b1VldjdSN0dMQlNTZm9JYmRscDY2UllLUnlaTEJoU21xVzRpVXhucnlxbFhsOUFLUmlYU1EzejBIRWQzYm0zeTdVdE1lckU4V01RZ2pneE9nbkI1UHJHTGM2UkIwaUI4WWltR1pocHpmcHZraExfVHB4dld0N1pGX2ZRTWw5Zjc2V0FhTEg5Y29DN0hYMmdmVV9YVWNnZjlQRmNlNF9sMGozVVFOOWNOc2FDWlBZbVRzaTJxcmFrUU1UT1c2T1NSR0JzQQ?oc=5) — Reuters
-- [Intel to Keep Working on Elon Musk’s Terafab Chipmaking Venture](https://news.google.com/rss/articles/CBMitAFBVV95cUxOWVJPdWphUVo4R0pVNVctMFJfakJrdXpNRURNZXEzQUhTOGRWcENxcEl2MF81TFR1VUJ4VXFFVUF0ck1rTmZCa0lkM2puVWJQTE5CaW5YWUFFbXVTbHNIalQ4TUVjdUtjaVpUTy1ZRnFNSVkwZHl4UDN5SXZocHJsZ05LUXhPcEc5eWJGVzJlLUhTLTExVDRaRGxkTkNNM084VzZobkxpVG1fZ05LNDRSQ084Ulc?oc=5) — Bloomberg.com
-- [AMD’s Su to Meet Samsung’s Chip Head as Memory Crunch Persists](https://news.google.com/rss/articles/CBMiswFBVV95cUxQRXplOTdNMVNZdG1HblRYUVZHYl9KMWVwT2JpeDVaek05dHhDUkRqZGlqZGJaVS1oNXc4T0VsSndZMXNSaFZXZjBuc2hMQUdOdXptVkhQU05kV19BVDVJc0QzOHJSRXUwZnk4d1NtamU4VlB6LXpTcFVJSmY5aDVUcVdEX1c4OEpIQTFGNkVPR01tR2F4SDhXZnVCcGgzdGxTUV90OEl4YnIzcHRzbE1hY2JxNA?oc=5) — Bloomberg.com
-- [Samsung Investors Want Evidence Profit Boom Has Staying Power](https://news.google.com/rss/articles/CBMisgFBVV95cUxOVEpGUkoyWkZKWHFHTmdieHBlY0FrVDc4Z2ZGanlCdEViZ3IxQUJZRmhfX0JfbHVEdGZQbVNpWll4Z1BTdEZNb3VQNEJqTzlZV29VVnRvUWdwelRfdXlyWm01ajR1V0R3MDBKeG1iWjRFMlQ4eEdZa2NGVDB6ektvanp0amlJSjUzcWRyVW9EZ004dDl0cXZsYWFObW5PZTFpWHpaMExsdFhNZ0kwV0VTUzJB?oc=5) — Bloomberg.com
+- [Micron Tech chipmaker union in Taiwan gets OK to strike](https://news.google.com/rss/articles/CBMitwFBVV95cUxNblR1QUoxNkY4VjEtRFVHbFhKQXB3THZidHU5MGtCUjFsUV9laUFSS2JDbndvS3Z1R2Uxa0NsSGpwcGhLb1R0bzlvdFllUktfNXZmei14YXZicTNTNFh4UWdpeDlCM2lCLUpaajhGUlNVbC1oQTdyZ20yTlZmc0JCYTRmQ3BCMVhGVVl4RzRXWWNkRmxua01NV0NhSm94UkpqdVhZOGg5S0ZxLXFMZkJCTlNWS2FCT0E?oc=5) — Reuters
+- [Micron Stock Falls as Memory Plant Threat Adds to Chip-Sector Gloom](https://news.google.com/rss/articles/CBMihwFBVV95cUxPQjZ6d3hJMkg1aldVUnJGOEtadDBmel9iQUtNLWJUVUtjcjk2SnFRdHV6eTRkN2d4bmZuU2dqZVhoekpORzhTbmo2bG13TjBySWE1NmlXRzlXT1ZTVTRIUS10MjkzalluNGo4OVFmWWlXOGliTm4wWDFwY1FPMVl5TlJSU0Q2b28?oc=5) — Barron's
+- [AMD’s Mark Papermaster: Exclusive Video Interview at World Summit AI](https://www.eetimes.com/amds-mark-papermaster-exclusive-video-interview-at-world-summit-ai/) — EE Times
+- [AMD CEO says continues to explore foundry partnership with Samsung Electronics](https://news.google.com/rss/articles/CBMiygFBVV95cUxOVnpmbEtsYzhNazY0T25QU3BtdW9qVUdFQVk0UFVaUkhPN3VZdXJjUk1fU2U3Y3pleVR2TUxxd05ObHVpNEVLLVZiZmZsUkJtU05GbUJGZmtHeVM0MXc3dE9WTEZIajh6OEdVZWk5OXlDVkJkam1VUTdSWHI5ZmZEakthTTVZN29JSm1XbHNxMXVmUzk1YjhpakE0R3BRS3NMUG5LX3ZzSkhCQWJQbmdQcmpnRF9sWnFHbFVwNV9rclhWWUFXd3l4UWpB?oc=5) — Reuters
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
