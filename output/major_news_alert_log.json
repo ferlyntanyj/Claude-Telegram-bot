@@ -14393,5 +14393,51 @@
       "look_out": "Monitor upcoming earnings, guidance updates or any regulatory announcements that could explain the decline.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-07T16:05:57.476255+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "FIX",
+      "company": "Comfort Systems USA",
+      "pct": -6.315310398470986,
+      "last": 1703.150146484375,
+      "prev": 1817.9599609375,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "EME",
+        "company": "Emcor",
+        "pct": -6.168442873665258
+      },
+      {
+        "ticker": "PWR",
+        "company": "Quanta Services",
+        "pct": -3.834291365428788
+      },
+      {
+        "ticker": "BBY.L",
+        "company": "Balfour Beatty",
+        "pct": -2.833333333333332
+      },
+      {
+        "ticker": "J",
+        "company": "Jacobs Solutions",
+        "pct": -2.5533238417517867
+      }
+    ],
+    "analysis": {
+      "business_model": "Comfort Systems USA provides design‑build, installation and maintenance services for mechanical, electrical and plumbing systems in commercial and industrial buildings.",
+      "sentiment": "Bearish - price fell sharply on sector weakness",
+      "why_moved": "No specific catalyst is mentioned; the stock dropped as part of a broader intraday sell‑off in the construction services sector.",
+      "read_across": "The similar declines in Emcor, Quanta Services, Balfour Beatty and Jacobs Solutions suggest sector‑wide pressure on building‑systems contractors.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates or macro‑economic data that could confirm or reverse the current downtrend.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
