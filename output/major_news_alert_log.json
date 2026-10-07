@@ -14357,5 +14357,41 @@
       "look_out": "Watch for upcoming earnings reports and any regulatory news affecting petrochemicals.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-07T14:03:57.174649+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "ALLE",
+      "company": "Allegion",
+      "pct": -7.197163910170956,
+      "last": 144.02999877929688,
+      "prev": 155.1999969482422,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "002236.SZ",
+        "company": "Zhejiang Dahua Technology",
+        "pct": 0.5909399559619111
+      },
+      {
+        "ticker": "9735.T",
+        "company": "Secom Co., Ltd.",
+        "pct": -0.23915816326530726
+      }
+    ],
+    "analysis": {
+      "business_model": "Allegion designs, manufactures and sells commercial and residential security hardware such as electronic locks, access control systems and related services.",
+      "sentiment": "Bearish - steep intraday decline without clear catalyst",
+      "why_moved": "The headline notes no specific news; the stock fell 7.2% intraday, indicating a price‑only move likely driven by broader market or sector sentiment.",
+      "read_across": "Peers Zhejiang Dahua and Secom showed minimal movement, suggesting the drop is isolated to Allegion rather than a sector‑wide selloff.",
+      "look_out": "Monitor upcoming earnings, guidance updates or any regulatory announcements that could explain the decline.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
