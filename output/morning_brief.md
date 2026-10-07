@@ -1,26 +1,27 @@
-# US Market Morning Brief -- 6 Oct 2026, 14:37 SGT
+# US Market Morning Brief -- 7 Oct 2026, 14:15 SGT
 
 ## Markets
-- [S&P 500 Closes In on Record High as Tech Rallies: Markets Wrap](https://news.google.com/rss/articles/CBMisgFBVV95cUxOLWVFclV0QWRGOVVacHFPSXhOLTNLOG9lN3liRjJ4LVdMMDhoMVFZSzVRb1RYZWNvclVCTVYySDlfNWg0bTJjdzVneGNVUElpc2lLNzdqRW1mYVpMNWROZGVCTnNQaExVcDNpbTA2UGszTGRnLUY2MmtCaWY0WWpSSE1DWldVaWwwejZEYnlReUxtbmJYS0pTRmNZWFhreDBOQmVGUEh3c3BxSzJyZTBvZ1lR?oc=5) — Bloomberg.com
-- [Little room for ‘giving and taking’: India’s finance minister confirms trade impasse with the U.S.](https://www.cnbc.com/2026/10/06/india-us-trade-deal-deal-sitharaman.html) — CNBC Top News
-- [Pentagon says Trump approves Army firing squad execution of Fort Hood killer Nidal Hasan](https://www.cnbc.com/2026/10/06/trump-execution-nidal-hasan-firing-squad-fort-hood.html) — CNBC Top News
-- [Trump says MAGA Inc. PAC will pay for controversial TV ads that government funded](https://www.cnbc.com/2026/10/05/trump-ads-election.html) — CNBC Top News
+- [Trump isn't ‘completely wrong’: Hormuz disruption is Asia’s problem, says Singapore's foreign minister](https://www.cnbc.com/2026/10/07/hormuz-iran-war-singapore-vivian-balakrishnan.html) — CNBC Top News
+- [Chart: A look at the S&P 500's remarkable and defiant trip to a new record](https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html) — CNBC Finance
+- [Trump hedges on paying back government for ads that already aired](https://www.cnbc.com/2026/10/05/trump-ads-election.html) — CNBC Top News
+- [Meta joins with group of companies to tame ‘chaos’ of doing business with AI bots](https://www.cnbc.com/2026/10/06/meta-joins-companies-to-tame-chaos-of-doing-business-with-ai-bots.html) — CNBC Top News
 
 ## Macro, Fed & data
-- [U.S., European Bond Yields Rise](https://news.google.com/rss/articles/CBMiogFBVV95cUxPeHhVOE91SFdPWGdUVzQxTkZFbUZmc2FoSTAwRHZGR1FKMUNFeGl1eENZRThsUTllZ3VQNDNFeWl4cFp6UEFmZzFVMDNSbkhCLVR1NC1DaWJ4ckdRbDZySjI2VmwwUWlTUHJYbnl2a1REc0tzeEo5aVlmN2RqWnp5T0xLeGg3MXlOQ2ZuUFpRZGVSdktqZEdPMG1qNlQ0Z0w3dmc?oc=5) — WSJ
-- [Federal Reserve Board announces approval of application by Isabella Bank Corporation](https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm) — Fed press releases
-- [Global bond sell-off spreads as yields rise amid 'collection of shocks'](https://news.google.com/rss/articles/CBMixAFBVV95cUxQTXl4YkZydmhUeHptTzRJMzJaQ0JtakZNcUsyTFQwMUpXWGdKQXZGd3dIZkx4VnBlTkhMaXNrMzZURVEzRzRJbmZBNjR5Y3d0NVpQVXdoenlueDROXzA4SW5zVHJZanlTNVJvQ1poQXJabEtIazRyWHVqaFdtSmpKOVpkMDF1Q3E3S095YXo2UzBaNGRyX0NqX0MybVhXV0V2T2RPVTJaNlhXUV94amVJNWxyNExLWDBrVzJYNUtweGRfSWVn?oc=5) — Yahoo Finance
-- [AI Will Kill Us in 10 Years, but Bond Market Will Do It 'Next Week,' Says Strategist As Treasury Yields Hit 24-Year Highs](https://news.google.com/rss/articles/CBMikgFBVV95cUxPV0Y2WGJNSE43NHpTeTR4VG5Za1dULUxSWG5NUzNpSmFfR2ZXVVJhRTJvbGt3R0pXNjk5MDhidTkwb0EyMWJ5cFo0Y2dEVzlSUl9idmpheXhYemsyQkhaVVNod0JqZEhPYUNVcnh6SVBTNGhTbGNBbE9pSkpmeWU4YnotMWdzMzBZMzlJTVktT284QQ?oc=5) — Yahoo Finance
+- [India’s central bank hikes rates for the first time since 2023 as inflation risks build](https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html) — CNBC Top News
+- [Global Bond Yields Turn Lower](https://news.google.com/rss/articles/CBMiugFBVV95cUxPTFpfSFJVQXNZSERFMG4yaFVObVdNdkZZay1Td0VpbE14enhKd1g2dW5NNldSWU5VR3FFWHFHRXowZmlmSjNya256OUVMOXVFbFVpRGstSlNWbVpaX2NESWF1QUYyTXBfWldfZVhlcUFxN2NSZG16MW42RkhxOUthMFhzYXFUV2hibENLazMyX19pTVNydXNkMExveWxsWktCQUtFZGcyQWJZcmZNb3RtTkQ3M3lKTkpxcXc?oc=5) — WSJ
+- [Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year](https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html) — CNBC Economy
+- [Trump's economic tightrope messaging of strong economy, high prices](https://news.google.com/rss/articles/CBMickFVX3lxTE9vZXV2U01OeTkzalktTjZTdnZzOEN1TWRRUHRJZHA1cEZvOU1IbkZoSkRybHlFX09CaWRBdWVGbDZVTFBYQTQ5M0tkRV9MQVRwbmZTN3Q1a2ozd2dkLVZqTXFNVnNHNXlBc1dpVEtpOFVjUQ?oc=5) — Axios
 
 ## Stocks & earnings
-- [Surge in borrowing costs hits corporate America](https://news.google.com/rss/articles/CBMihAFBVV95cUxOWENILTVDQkJJdHJJODAzSk5vdXdQNndwMHMxSE1pNVI0RnpQT3M3Q21NMXdQOURwR0ExeV9xVHExMjhKa3ItRXZRLVhCTVRjT3hJc3dvYlBwQ1phWEx6R3B1RDlnTHVLRzVIMDQ2cGFLdFZKRlVjdFJVQjFfYXdFR01lNnc?oc=5) — Financial Times
-- [Nasdaq notches record high close as investors focus on earnings](https://news.google.com/rss/articles/CBMimgFBVV95cUxQV09jSm4zWHp2ODd2SmNPRHdJcUhDcjNzZ3dwYkwzZ3NSVHdyVUdUVEI0TWltb3RKQUZucVVNa2l1UzAxWmtSd0hQSWFjVXV0WVZiUjJFNGJDeEZQVlhoWDJ5WWpxLWxuc3ZVYXBLR0QxSzdZMVFjSklpUTB2Q2YwdE12VFl0bUw2RGRjZ3VoUmFlMkp4UUstYy1R?oc=5) — Reuters
-- [Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency](https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html) — CNBC Finance
-- [SpaceX stock climbs to highest since June, returning Musk to trillionaire status](https://www.cnbc.com/2026/10/05/spacex-stock-climbs-highest-since-june-returning-musk-to-trillionaire.html) — CNBC Top News
+- [Meta Muse popularity lifts AMD stock to fresh highs as AI agents juice CPU sales](https://www.cnbc.com/2026/10/06/meta-muse-gives-amd-a-boost-as-ai-momentum-shifts-to-personal-agents-.html) — CNBC Top News
+- [A new analyst call on Home Depot reflects our feeling on what to do with the stock](https://www.cnbc.com/investingclub/2026/10/06/a-new-analyst-call-on-home-depot-reflects-our-feeling-on-what-to-do-with-the-stock.html) — CNBC Top News
+- [S&P 500, Nasdaq reach record closing highs as focus pivots to earnings](https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ0p5VWxQQ0ZmUUI0Vk5wRUVjTUJhZjZGUlZjU2tWU1AtOEdqYjZ0OFRtRXNrUVdrTFlNZjVWdzluRjUyaWhHTlYxMG5Yc21pMHFubTdiX1RIRTRUSnB4UTZPckRMZTlzTHBEbkZKU1ROMTZpWE9lMXhPQkhyQmhBV3JNdkFrQVk?oc=5) — Reuters
+- [SPCX Stock Slips After-Hours As SpaceX Reportedly Seeks $40B For Nvidia Chips](https://news.google.com/rss/articles/CBMimgFBVV95cUxQVXBBWFdGdERkRHZ5WHRaU3I0S3NYaWVzejBJYWtaU1Z4UjJiVl8tdm05cU5tSzVLUzRETGtVZ2oxbHdVa3l6QmtrVG1ZczMycmZhc0NUV1pMbnQ4WVBTTXk2NlExVjRLQzhTZGFheHZ5YzRBck4xT3djVTRoenhOaGoyOFE0WWlYbUU0djI3VEoxYXdjVXBDMWtR?oc=5) — Yahoo Finance
 
 ## Geopolitics
-- [Trump offers U.S. help to Russia after plague death; WHO assesses the situation as low risk](https://www.cnbc.com/2026/10/06/russia-plague-death-trump-offers-us-help.html) — CNBC Top News
-- [Why It’s Taking Nine Months to Get Back $164,000 in Tariff Refunds](https://news.google.com/rss/articles/CBMisgFBVV95cUxPQkJ2YktFNXBZSmJucURhWDhKNnIxWDZ5NjdmR1pCNnpselRTdmxuVkpnTDJNT0laZHdmTzdaMHczNS1ISmRURWhfeVcydjZYTGEwX09QTEhEUEtmMnZidTI5VEhnaWVQRGdOc0JjRXRLWGZXMDQ5VlBOQVpsU0JEemhsNks1Rng3V1owVEJwVGYyNGwzTE8tYlhpRkxlMktHVUY1Q0FHR3c3VnBUWXkzMHNR?oc=5) — WSJ
-- [OPEC+ holds November oil output targets steady amid Iran war](https://news.google.com/rss/articles/CBMikAFBVV95cUxPU2Jjb1VJNjlLTUdQaUxTY0tEY24zVVVSZ3A0LURqTFJOTTV3dXNabHJyd3EyQW5GeHROYm9HNXlVV3UwWndmUzhZOV9CVXpEYldybDdEb05LaHFzZ0xJODRKd0xXWmFMUEZPRXdXS3RzNGpTZEIzSTZEZi1Ubk85dG41NkdVcUdBVUlTM01Nalg?oc=5) — Yahoo Finance
+- [Trump set to talk to Russia's Putin 'very soon' about plague-related death in Siberia](https://www.cnbc.com/2026/10/07/trump-putin-russian-plague-death-cdc-pneumonic-.html) — CNBC Top News
+- [How Trump’s Tariff War With Canada Ensnared the Can-Am Spyder](https://news.google.com/rss/articles/CBMigwFBVV95cUxORE9YNnVpTFVHUm4xWlpJV09KLWdBZHRCUmhNQmtQdjhtR2dFcWg1aVM2S21HOWxYemhGNlU3WXZqejVTTFc3N1NvSVlvemF1dWhQRHhFNFdTWllDQURCSjB6V1lvMjFYQ0RjWlF2MFJnQnhHbjR3RTgzY1QyTHBhSV9PTQ?oc=5) — The New York Times
+- [U.S. Trade Deficit Widens to Largest Level in More Than a Year](https://news.google.com/rss/articles/CBMipwFBVV95cUxNNEUtLUY2c0Y5WlRnaG5xYTk3T0pXQU9SWVo3OGdEWnBKOFJSSWlORGxreEZoTTJnc0R2TWUtN3BWM3hzVTluQW9VaURTUGp6cTFjNHd1MU5PVXNLOW5xQkJNMkZHSXhEN01Ud1k0UWZfNmRub1hFWlp6bGl0b0VCa080d1VwdHRHeGY5aENEZ1QxVXlmQll0emRIZGQ5Y1dXVWlJYklhUQ?oc=5) — WSJ
+- [Yellen Says Trump ‘Appalling’ on US Allies, Backs Retaliation](https://news.google.com/rss/articles/CBMirgFBVV95cUxQU3k4dVlrRG9WeENKdlJoMUVyR1BRTWlrV0dMYm9SYWJERXk5cUhUSjlDMURGM3IyNndwUl9wWVR6UGVSaDgwUElVRS1WNkJCZUlGZXVyQWN3dTZNcHdWc29HUEMxM2hTbGxhZkZJWXVMZnA5Qkl1OUkySUp0ZnBkY3BYRHZQcmYwVjFGM2xibFRNdnJGdUJfREgwc21Ca0p5RFNlRk55NUhWVGdWVHc?oc=5) — Bloomberg.com
 
-_Sources: Google News + CNBC + Fed feeds (15 headlines, 20h window)._
+_Sources: Google News + CNBC + Fed feeds (16 headlines, 20h window)._
