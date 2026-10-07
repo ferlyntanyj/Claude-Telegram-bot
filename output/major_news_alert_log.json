@@ -14311,5 +14311,51 @@
       "look_out": "Watch upcoming quarterly results and any further guidance tweaks as AI spending trends become clearer.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-07T03:10:32.608922+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "1303.TW",
+      "company": "Nan Ya Plastics",
+      "pct": 8.361774744027306,
+      "last": 317.5,
+      "prev": 293.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "1301.TW",
+        "company": "Formosa Plastics",
+        "pct": 4.8105001824493065
+      },
+      {
+        "ticker": "002648.SZ",
+        "company": "SATELLITE CHEMICAL",
+        "pct": 2.355214746471024
+      },
+      {
+        "ticker": "DD",
+        "company": "DuPont",
+        "pct": 1.981786127100138
+      },
+      {
+        "ticker": "ALB",
+        "company": "Albemarle Corporation",
+        "pct": 1.8970927234203794
+      }
+    ],
+    "analysis": {
+      "business_model": "Nan Ya Plastics produces and sells petrochemical resin, plastics and related products, serving manufacturers in Taiwan and abroad.",
+      "sentiment": "Bullish - strong intraday buying pressure",
+      "why_moved": "No specific catalyst was mentioned; the stock rose 8.4% on price action and sector momentum.",
+      "read_across": "Peers like Formosa Plastics and DuPont also gained, indicating broader optimism in the chemicals industry.",
+      "look_out": "Watch for upcoming earnings reports and any regulatory news affecting petrochemicals.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
