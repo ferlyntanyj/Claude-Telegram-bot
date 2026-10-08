@@ -1,18 +1,20 @@
-# Global Semiconductor Brief -- 8 Oct 2026, 01:30 SGT
+# Global Semiconductor Brief -- 8 Oct 2026, 14:30 SGT
 
 ## Policy & geopolitics
-- [Taiwan indicts 10 for alleged resale of US chips to China](https://news.google.com/rss/articles/CBMiowFBVV95cUxNQk4xdTFWTy0wWXk1UGtCb2V1amtDbGtBaFVRY2pOem5RZWk3ekl6RHhKTTRRRTdYRkFtMC14amNKczd3SDVGcHRTY0lwZ3ZnSU9ldXJpR01nMjJKeEh4T0ZiMERPV2I5UmV1R1RNalZRM0dUWnduRHdhSTdqQnpNUV9naUI0dXZzSXByaGQ0N2doWWhiX1cwanNRb0hlMDFyQzlz?oc=5) — The Straits Times
+- [India's chip packaging plants start exporting, but scale, skills, and subsidies test the next phase](https://www.digitimes.com/news/a20261007VL204/india-government-osat-packaging-plant.html) — DIGITIMES
+- [Malaysia's chip push: a new island and pressure from Washington and Beijing](https://www.digitimes.com/news/a20261008VL209/2025-edge-packaging-chips.html) — DIGITIMES
+- [Planned U.S. chip tariffs to tie exemptions to local production, pressure Korea to invest more](https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTHdaT1Nrb2wwVGJROFRIM3ZxdnFyczIyMFVRUFFvdVoxemwtaXpxZi1pLVhUa0UwblFTLTlfekwyeGttR1g0TExIZ2phME81Mk56eFQ5aVU5RmxaZ1VFUlRUVEgwb1ZMbTAzOHIzRnBYek1EeDBhTkUwVHpvWV9rN0ZLc3ZFZ3JvRm9tVU9UQnAyYUNRSkVVS2pWckFWVlZjaUMwMjFVTEcxTG84bWpNT3htZ0hwV1BJaUVJVGxtUFFvNXp1eUZmYWxsZXJReXVUUE15akRHTUdwcXZl?oc=5) — Korea JoongAng Daily
 
 ## Supply chain signals
-- [Micron's Taiwan union wins strike vote with 99% support](https://www.digitimes.com/news/a20261007PD252/micron-taiwan-strike-labor-ceo.html) — DIGITIMES
-- [Samsung SDI builds dual-track battery strategy with LFP supply deal, solid-state push](https://www.digitimes.com/news/a20261007VL211/samsung-sdi-materials-technology-supply-chain-demand.html) — DIGITIMES
-- [Musk limits TSMC to possible Terafab sublease; Intel says it will stay involved](https://www.digitimes.com/news/a20261007VL217/intel-spacex-tesla-tsmc-elon-musk.html) — DIGITIMES
-- [Commentary: Qualcomm patent deal puts spotlight on Huawei's broader IP push](https://www.digitimes.com/news/a20261007PD211/huawei-qualcomm-patent-ip-licensing.html) — DIGITIMES
+- [AUO subsidiary Darwin shifts toward high-end manufacturing, explores CPO and semiconductor opportunities](https://www.digitimes.com/news/a20261008PD220/auo-cpo-subsidiary-manufacturing-optics.html) — DIGITIMES
+- [Sasken eyes reusable chip IP as India pushes beyond semiconductor design services](https://www.digitimes.com/news/a20261008VL210/ip-design-technology-chips-security.html) — DIGITIMES
+- [Samsung to exit in-house automotive AP, focus on high-margin chips](https://www.digitimes.com/news/a20261007PD249/samsung-lsi-automotive-ap-exynos.html) — DIGITIMES
+- [Marvell's custom AI chip upgrade points to a broader fight over peripherals](https://www.digitimes.com/news/a20261008PD236/marvell-ai-chip-market-chips-revenue.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Micron Tech chipmaker union in Taiwan gets OK to strike](https://news.google.com/rss/articles/CBMitwFBVV95cUxNblR1QUoxNkY4VjEtRFVHbFhKQXB3THZidHU5MGtCUjFsUV9laUFSS2JDbndvS3Z1R2Uxa0NsSGpwcGhLb1R0bzlvdFllUktfNXZmei14YXZicTNTNFh4UWdpeDlCM2lCLUpaajhGUlNVbC1oQTdyZ20yTlZmc0JCYTRmQ3BCMVhGVVl4RzRXWWNkRmxua01NV0NhSm94UkpqdVhZOGg5S0ZxLXFMZkJCTlNWS2FCT0E?oc=5) — Reuters
-- [Micron Stock Falls as Memory Plant Threat Adds to Chip-Sector Gloom](https://news.google.com/rss/articles/CBMihwFBVV95cUxPQjZ6d3hJMkg1aldVUnJGOEtadDBmel9iQUtNLWJUVUtjcjk2SnFRdHV6eTRkN2d4bmZuU2dqZVhoekpORzhTbmo2bG13TjBySWE1NmlXRzlXT1ZTVTRIUS10MjkzalluNGo4OVFmWWlXOGliTm4wWDFwY1FPMVl5TlJSU0Q2b28?oc=5) — Barron's
-- [AMD’s Mark Papermaster: Exclusive Video Interview at World Summit AI](https://www.eetimes.com/amds-mark-papermaster-exclusive-video-interview-at-world-summit-ai/) — EE Times
-- [AMD CEO says continues to explore foundry partnership with Samsung Electronics](https://news.google.com/rss/articles/CBMiygFBVV95cUxOVnpmbEtsYzhNazY0T25QU3BtdW9qVUdFQVk0UFVaUkhPN3VZdXJjUk1fU2U3Y3pleVR2TUxxd05ObHVpNEVLLVZiZmZsUkJtU05GbUJGZmtHeVM0MXc3dE9WTEZIajh6OEdVZWk5OXlDVkJkam1VUTdSWHI5ZmZEakthTTVZN29JSm1XbHNxMXVmUzk1YjhpakE0R3BRS3NMUG5LX3ZzSkhCQWJQbmdQcmpnRF9sWnFHbFVwNV9rclhWWUFXd3l4UWpB?oc=5) — Reuters
+- [Breakingviews - COMMENTARY: Samsung's AI riches lag Nvidia's money machine](https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYUI2a1hBLXE5bUZyeDFhTmNWczFrV1drNFoxSEx4UzJ6X0dVb1YwRE9KZkMwUEpSSjhQMDlnbkp6aVRsMjZ1WURDYmJrMnM0WU9UckpqTkZGempLenJSYmFkUGxlRWJvSHd0TTRPOFBDMVZXQkJwLTNvMTZfUW9yenZ2eF9LT3g5dXVPTUtWajE1bnhHM0FoVzNqUUhuTjgtNzBYOXlSbDk?oc=5) — Reuters
+- [Samsung profit surges ninefold to $80bn on AI chip demand](https://news.google.com/rss/articles/CBMihAFBVV95cUxOQkdBN3lQTkJTdW4yZWNHenpWcERwUUViQl9qUUVqemJFb28yN3dEUnhMSVBoaHNKbGRaX0sxaFdMS3cyR282WmkwU21BN3FsZ3dLWGdJVnhsSnd3c1hFYVlNRVB5WFNQUHQyYWRLNGdwdmFHR2lHMkQ1c0tSX3AyUFBzcm8?oc=5) — Financial Times
+- [TSMC's third-quarter revenue rises 51% to NT$1.49 trillion as September sales stay near record](https://www.digitimes.com/news/a20261008VL218/tsmc-revenue-2026-2025-digitimes.html) — DIGITIMES
+- [Samsung Profit Up Almost Nine-Fold With Memory Chip Windfall](https://news.google.com/rss/articles/CBMirwFBVV95cUxOZTlUTm1fc3RuU0tKTXQ2U1VJOVVSOUVkNkF5Z0VmQ3pxWFppaG84NXVYRHkwWm0zVmRhNkZqbWxtTS1teDFSalNUNEFRd0RfazR1NG9GV3F4ekdkeElDTVdfT0UyQW9Ca3VUNlFHVmF1elVhVnZfUEV0Wi1CSGl6U1hGcHY3NWV3Yk5tQTFRUEgweEVVdmg3NmlhclU1Vlh5YUhVWWFqM3NOaU1RQTNV?oc=5) — Bloomberg.com
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (11 headlines, 13h window)._
