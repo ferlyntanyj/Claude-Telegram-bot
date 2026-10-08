@@ -1,27 +1,27 @@
-# US Market Morning Brief -- 7 Oct 2026, 14:15 SGT
+# US Market Morning Brief -- 8 Oct 2026, 14:23 SGT
 
 ## Markets
-- [Trump isn't ‘completely wrong’: Hormuz disruption is Asia’s problem, says Singapore's foreign minister](https://www.cnbc.com/2026/10/07/hormuz-iran-war-singapore-vivian-balakrishnan.html) — CNBC Top News
-- [Chart: A look at the S&P 500's remarkable and defiant trip to a new record](https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html) — CNBC Finance
-- [Trump hedges on paying back government for ads that already aired](https://www.cnbc.com/2026/10/05/trump-ads-election.html) — CNBC Top News
-- [Meta joins with group of companies to tame ‘chaos’ of doing business with AI bots](https://www.cnbc.com/2026/10/06/meta-joins-companies-to-tame-chaos-of-doing-business-with-ai-bots.html) — CNBC Top News
+- [America shut out Chinese EVs. Britain welcomed them — and now faces a difficult choice](https://www.cnbc.com/2026/10/08/autos-china-evs-uk-tariffs-hybrid-cars.html) — CNBC Top News
+- [Trump trade chief Greer reports higher cash holdings as law firm pay topped $650K](https://www.cnbc.com/2026/10/07/jamieson-greer-financial-disclosure-coupang.html) — CNBC Top News
+- [Trump awarding medals to Musk, Dell, Nadella and other tech execs at science summit](https://www.cnbc.com/2026/10/07/trump-awarding-medals-to-musk-dell-nadella-at-science-summit.html) — CNBC Top News
+- [Trump’s diesel order exposes White House limits to counter surging fuel prices](https://www.cnbc.com/2026/10/07/trump-red-dye-offroad-diesel-price-iran-ukraine-war-midterm.html) — CNBC Top News
 
 ## Macro, Fed & data
-- [India’s central bank hikes rates for the first time since 2023 as inflation risks build](https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html) — CNBC Top News
-- [Global Bond Yields Turn Lower](https://news.google.com/rss/articles/CBMiugFBVV95cUxPTFpfSFJVQXNZSERFMG4yaFVObVdNdkZZay1Td0VpbE14enhKd1g2dW5NNldSWU5VR3FFWHFHRXowZmlmSjNya256OUVMOXVFbFVpRGstSlNWbVpaX2NESWF1QUYyTXBfWldfZVhlcUFxN2NSZG16MW42RkhxOUthMFhzYXFUV2hibENLazMyX19pTVNydXNkMExveWxsWktCQUtFZGcyQWJZcmZNb3RtTkQ3M3lKTkpxcXc?oc=5) — WSJ
-- [Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year](https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html) — CNBC Economy
-- [Trump's economic tightrope messaging of strong economy, high prices](https://news.google.com/rss/articles/CBMickFVX3lxTE9vZXV2U01OeTkzalktTjZTdnZzOEN1TWRRUHRJZHA1cEZvOU1IbkZoSkRybHlFX09CaWRBdWVGbDZVTFBYQTQ5M0tkRV9MQVRwbmZTN3Q1a2ozd2dkLVZqTXFNVnNHNXlBc1dpVEtpOFVjUQ?oc=5) — Axios
+- [Wall Street ends lower, off record highs, as Treasury yields climb](https://news.google.com/rss/articles/CBMipAFBVV95cUxOYlBxMHUzb2ZDaHpMY3JBZUl2Rk9XSE94bjQ2aFVndHhYeU4zS1Rwb2I1SlFJWjVpaE9sS0V4c2ZiQ2JsMzd0R0lydzlFejhJVkNYbU5ZTGVjeW9tWUJtTmUzX2VwY0N1SnpLVmdvQWRvM20xS25hRmhXRDdHVUppRk9hS2JhVExxdVUtX0hfQlNqWnd0OUhHWEpaa2w1Z3hXNVRkaw?oc=5) — Reuters
+- [US bonds selloff eases, yields off highs, after strong 10-year note auction](https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0RvVl9ubDN1ZkRqRFJ1Z21yUUdrSHFGUG5jRmU5N2FUU0dPeHlGcjlBY0hQZjltWjFVc3hJNEtSVEtKNUF1T0RZV3dnWFEzbWJ6Yi1jbk1QajNDMzFMTzlTUUtkNExTdWJIYXZHZ3FMTXgycVJVd056RFhwYkRYM0tYa3I3eElsVGdnMHUxQWh6blZK?oc=5) — Reuters
+- [10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears](https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html) — CNBC Top News
+- [Americans grow more pessimistic about their finances, New York Fed finds — expert warns of ‘tough choices’ ahead](https://www.cnbc.com/2026/10/07/new-york-fed-financial-outlook-inflation.html) — CNBC Top News
 
 ## Stocks & earnings
-- [Meta Muse popularity lifts AMD stock to fresh highs as AI agents juice CPU sales](https://www.cnbc.com/2026/10/06/meta-muse-gives-amd-a-boost-as-ai-momentum-shifts-to-personal-agents-.html) — CNBC Top News
-- [A new analyst call on Home Depot reflects our feeling on what to do with the stock](https://www.cnbc.com/investingclub/2026/10/06/a-new-analyst-call-on-home-depot-reflects-our-feeling-on-what-to-do-with-the-stock.html) — CNBC Top News
-- [S&P 500, Nasdaq reach record closing highs as focus pivots to earnings](https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ0p5VWxQQ0ZmUUI0Vk5wRUVjTUJhZjZGUlZjU2tWU1AtOEdqYjZ0OFRtRXNrUVdrTFlNZjVWdzluRjUyaWhHTlYxMG5Yc21pMHFubTdiX1RIRTRUSnB4UTZPckRMZTlzTHBEbkZKU1ROMTZpWE9lMXhPQkhyQmhBV3JNdkFrQVk?oc=5) — Reuters
-- [SPCX Stock Slips After-Hours As SpaceX Reportedly Seeks $40B For Nvidia Chips](https://news.google.com/rss/articles/CBMimgFBVV95cUxQVXBBWFdGdERkRHZ5WHRaU3I0S3NYaWVzejBJYWtaU1Z4UjJiVl8tdm05cU5tSzVLUzRETGtVZ2oxbHdVa3l6QmtrVG1ZczMycmZhc0NUV1pMbnQ4WVBTTXk2NlExVjRLQzhTZGFheHZ5YzRBck4xT3djVTRoenhOaGoyOFE0WWlYbUU0djI3VEoxYXdjVXBDMWtR?oc=5) — Yahoo Finance
+- [Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand](https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html) — CNBC Top News
+- [Anthropic will be 'most ridiculous IPO' of year, analyst says](https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html) — CNBC Top News
+- [Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights](https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html) — CNBC Markets
+- [Trading platform Webull's China ties create national security risk, congressional panel finds; stock drops 18%](https://www.cnbc.com/2026/10/07/webull-china-national-security-risk-congress.html) — CNBC Top News
 
 ## Geopolitics
-- [Trump set to talk to Russia's Putin 'very soon' about plague-related death in Siberia](https://www.cnbc.com/2026/10/07/trump-putin-russian-plague-death-cdc-pneumonic-.html) — CNBC Top News
-- [How Trump’s Tariff War With Canada Ensnared the Can-Am Spyder](https://news.google.com/rss/articles/CBMigwFBVV95cUxORE9YNnVpTFVHUm4xWlpJV09KLWdBZHRCUmhNQmtQdjhtR2dFcWg1aVM2S21HOWxYemhGNlU3WXZqejVTTFc3N1NvSVlvemF1dWhQRHhFNFdTWllDQURCSjB6V1lvMjFYQ0RjWlF2MFJnQnhHbjR3RTgzY1QyTHBhSV9PTQ?oc=5) — The New York Times
-- [U.S. Trade Deficit Widens to Largest Level in More Than a Year](https://news.google.com/rss/articles/CBMipwFBVV95cUxNNEUtLUY2c0Y5WlRnaG5xYTk3T0pXQU9SWVo3OGdEWnBKOFJSSWlORGxreEZoTTJnc0R2TWUtN3BWM3hzVTluQW9VaURTUGp6cTFjNHd1MU5PVXNLOW5xQkJNMkZHSXhEN01Ud1k0UWZfNmRub1hFWlp6bGl0b0VCa080d1VwdHRHeGY5aENEZ1QxVXlmQll0emRIZGQ5Y1dXVWlJYklhUQ?oc=5) — WSJ
-- [Yellen Says Trump ‘Appalling’ on US Allies, Backs Retaliation](https://news.google.com/rss/articles/CBMirgFBVV95cUxQU3k4dVlrRG9WeENKdlJoMUVyR1BRTWlrV0dMYm9SYWJERXk5cUhUSjlDMURGM3IyNndwUl9wWVR6UGVSaDgwUElVRS1WNkJCZUlGZXVyQWN3dTZNcHdWc29HUEMxM2hTbGxhZkZJWXVMZnA5Qkl1OUkySUp0ZnBkY3BYRHZQcmYwVjFGM2xibFRNdnJGdUJfREgwc21Ca0p5RFNlRk55NUhWVGdWVHc?oc=5) — Bloomberg.com
+- [Trump says he is not keen on a deal with Iran as U.S. reportedly prepares for 'massive bombing'](https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html) — CNBC Top News
+- [Trump’s Tariffs Put a Spotlight on Forced Labor. It Isn’t Going Away.](https://news.google.com/rss/articles/CBMirAFBVV95cUxNLTd1YThtaDdsOEtGUlQ2R3VsX2ZGNDRDT0hjNzFWZ2JkMXA5WnN0aHhkM2gzaC1BWGpFOHN1YUlFQ2J4V1Q2djhNbGdDUENWZXZzYjVJMGdjR3NhbzA0X2xSODhibWpyNHotNHVzdTU0SEVNbmpGRDRKU3pzZG5TRGp3RGdaemltc293WURWTFg2dEhmS19BMzFPaUZGcnoxYUYzWF9DaEZwWDFW?oc=5) — WSJ
+- [Levi Strauss hikes profit guidance after tariff refunds, but its sales outlook is less optimistic](https://www.cnbc.com/2026/10/07/levi-strauss-levi-q3-2026-earnings.html) — CNBC Markets
+- [Trump doesn't think Russia plague incident is bioweapon, plans Putin call Wednesday](https://www.cnbc.com/2026/10/07/trump-russia-plague-bioweapon-putin.html) — CNBC Top News
 
 _Sources: Google News + CNBC + Fed feeds (16 headlines, 20h window)._
