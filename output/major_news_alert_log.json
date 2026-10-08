@@ -14439,5 +14439,51 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates or macro‑economic data that could confirm or reverse the current downtrend.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-08T01:03:33.488945+00:00",
+    "type": "single_stock",
+    "headline": "LG Energy Solution flags 26% rise in Q3 operating profit",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd01PMXdyM3dWV1VlUmdfXzlYUHBHSlVQMDEyRjRBaWZ1c2REMk5HTV81ME9KYTRCeTVkYS10UE5kV0J3VHNXSWtVWXNxbTJFTldQc0kwQWdaTWtNdTRfQ19aT3FQTTgzSWI3cVRZVVdaOHFyQVFGVEh0S0c5a1EtVHFYdExYMWFFRThhbDNta2tFa290X01SUVNGRERtWGpQUVJvY1cyaDZzQms?oc=5",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "373220.KS",
+      "company": "LG Energy Solution",
+      "pct": 6.010230179028131,
+      "last": 414500.0,
+      "prev": 391000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "5801.T",
+        "company": "Furukawa Electric Co., Ltd.",
+        "pct": -4.725472547254728
+      },
+      {
+        "ticker": "006400.KS",
+        "company": "Samsung SDI",
+        "pct": 3.736654804270456
+      },
+      {
+        "ticker": "003670.KS",
+        "company": "POSCO Future M",
+        "pct": 3.6572622779519337
+      },
+      {
+        "ticker": "267260.KS",
+        "company": "HD Hyundai Electric",
+        "pct": -3.5031847133757954
+      }
+    ],
+    "analysis": {
+      "business_model": "LG Energy Solution manufactures lithium‑ion batteries for electric vehicles and stationary energy storage, supplying automakers and utility projects worldwide.",
+      "sentiment": "Bullish - profit surge signals strong demand and pricing power",
+      "why_moved": "The stock rose 6% after the company flagged a 26% increase in Q3 operating profit, a clear earnings‑related catalyst.",
+      "read_across": "Peers such as Samsung SDI and POSCO Future M may see similar investor optimism as battery demand and pricing remain robust across the sector.",
+      "look_out": "Watch for Q4 guidance, EV sales trends, and any changes in raw‑material costs that could affect margins.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
