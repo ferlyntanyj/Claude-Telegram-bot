@@ -1,21 +1,21 @@
-# Asia Market Evening Brief -- 9 Oct 2026, 01:24 SGT
+# Asia Market Evening Brief -- 10 Oct 2026, 00:59 SGT
 
 ## Macro & policy
-- [Australia will buy Japan frigates despite budget cuts: finance chief](https://asia.nikkei.com/politics/defense/australia-will-buy-japan-frigates-despite-budget-cuts-finance-chief) — Nikkei Asia
-- [India's central bank delivers first rate hike since 2023 as inflation bites](https://asia.nikkei.com/business/markets/india-s-central-bank-delivers-first-rate-hike-since-2023-as-inflation-bites) — Nikkei Asia
-- [Bank of Japan sees broadening inflationary pressure](https://news.google.com/rss/articles/CBMipgFBVV95cUxQUXI2b2hNU0J1U3U3UU9ra0tmWlB4aFdsbkR4QmIxeFFKM042dDR2RUhDeFRpYnRhbWNOYVF3eE9PQmlvaTg2bGg2UjktYWE3NzhqLVhlamZmNzFhQS15SEtqVEJTZzViLXZKTkh0UEdoMTYxbUExSGE2eG1JWlJ3eTc1TjNiWGFpcFpic19PNWtzWlB0TnV6TVFJeC1YbVFvX05ZX29R?oc=5) — Reuters
-- [Why Korea’s won stays weak despite export boom](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV0RhQWNLNzk2Uk81aHlQanZmZEdhYi1DdGR2TlJxUFlIc0RWcFJTd3dWY09NVmM0Umc5TUFNUDBVT2ZTY21nSVhVNHRFeFJlSUhHcDdIQWxXcTFjQnk5OUdick93RDg3bDZxWUFpMVQ5ZU5KRmd4ekdhZTVLZmFCSjJQdEMxRm82STBNbFdaZ2xvQjBvR25zSjM3Vm5mRjlFNDRycjd1YXU1b00?oc=5) — Korea JoongAng Daily
-- [(LEAD) Seoul shares down for 3rd day amid inflation worries](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTSXY1bTJoMEdMdFJGLTM3VHVLQTVvUWlESVBPaS0xekZSU00wVGp1VTVURWdBT2FPWVpxUy02M085c0tTekJ5YWducl9iN3I1cVZ5d1FlZ2R2dw?oc=5) — Yonhap News Agency
+- [China and Europe agree to cut Chinese hybrid vehicle exports by half](https://www.cnbc.com/2026/10/09/china-europe-hybrid-vehicle-exports-deal.html) — CNBC Asia Markets
+- [Malaysia budget 2027: Anwar courts urban voters and small businesses with tax cuts, reliefs](https://www.straitstimes.com/asia/se-asia/malaysia-budget-2027-anwar-courts-urban-voters-and-small-businesses-with-tax-cuts-reliefs) — The Straits Times
+- [Malaysian budget 2027: PM Anwar tables record spending as he enters final stretch before next GE](https://www.straitstimes.com/asia/se-asia/malaysia-budget-2027-pm-anwar-spends-as-he-enters-final-stretch-before-general-election) — The Straits Times
+- [Trump complained about the weak yen. Days later, Japan PM Takaichi signals the end of reflation](https://www.straitstimes.com/asia/east-asia/trump-complained-about-the-weak-yen-days-later-japan-pm-takaichi-signals-the-end-of-reflation) — The Straits Times
 
 ## Markets
-- [CNA Explains: Why are Singapore bank shares falling after a record run?](https://www.channelnewsasia.com/singapore/bank-shares-decline-ocbc-uob-dbs-citi-report-6441941) — CNA Business
-- [Japan's Topix stock index revamp: 5 things to know](https://asia.nikkei.com/business/markets/japan-s-topix-stock-index-revamp-5-things-to-know) — Nikkei Asia
+- [Global cyberattacks leak data on at least 320m people since Sept.: Nikkei research](https://asia.nikkei.com/spotlight/cybersecurity/global-cyberattacks-leak-data-on-at-least-320m-people-since-sept.-nikkei-research) — Nikkei Asia
+- [Japan's tourist spending windfall shrinks as Chinese visitors plunge](https://asia.nikkei.com/business/travel-leisure/japan-s-tourist-spending-windfall-shrinks-as-chinese-visitors-plunge) — Nikkei Asia
+- [China Golden Week spending per trip hits four-year low amid overseas travel jump](https://www.straitstimes.com/asia/east-asia/china-golden-week-spending-per-trip-hits-four-year-low-amid-overseas-travel-jump) — The Straits Times
 
 ## Geopolitics
-- [Vietnam offshore energy rush draws Japan, US, Russia to South China Sea](https://asia.nikkei.com/business/energy/vietnam-offshore-energy-rush-draws-japan-us-russia-to-south-china-sea) — Nikkei Asia
+- [Tariffs targeting China's Temu, Shein shrink US small parcel deliveries](https://asia.nikkei.com/economy/trade-war/trump-tariffs/tariffs-targeting-china-s-temu-shein-shrink-us-small-parcel-deliveries) — Nikkei Asia
+- [China-EU trade talks yield prospect of Chinese hybrid exports halving](https://asia.nikkei.com/economy/trade/china-eu-trade-talks-yield-prospect-of-chinese-hybrid-exports-halving) — Nikkei Asia
+- [Taiwan's KMT shows signs of power struggle tracked by US and China](https://asia.nikkei.com/politics/taiwan-s-kmt-shows-signs-of-power-struggle-tracked-by-us-and-china) — Nikkei Asia
+- [Vietnam offshore oil and gas draw Japan, US, Russia to South China Sea](https://asia.nikkei.com/business/energy/vietnam-offshore-oil-and-gas-draw-japan-us-russia-to-south-china-sea) — Nikkei Asia
 - [Malaysia's Anwar backs Myanmar's ASEAN return after repatriation talks](https://asia.nikkei.com/spotlight/myanmar-crisis/malaysia-s-anwar-backs-myanmar-s-asean-return-after-repatriation-talks) — Nikkei Asia
-- [UK universities review China ties after MI5 espionage alert](https://asia.nikkei.com/politics/international-relations/uk-universities-review-china-ties-after-mi5-espionage-alert) — Nikkei Asia
-- [TSMC and other Taiwan players boost AI spending in US, Southeast Asia](https://asia.nikkei.com/business/business-trends/tsmc-and-other-taiwan-players-boost-ai-spending-in-us-southeast-asia) — Nikkei Asia
-- [Washington’s transactional Taiwan policy puts Indo-Pacific at risk, ex-US officials warn](https://news.google.com/rss/articles/CBMixwFBVV95cUxQcTdSUVdFTFhOZ3JXZEJFRmV2ckFjQ3pES2JIcU1RcHZHd1hmMVRMdkdlQ0M3SkpvM0dqcFQ4X2Nod29UT1R1Q1ptR21fVlNPSVhxeEFNTVFBbGJyMVNxMFRxQldvTUJHSGFlWjRwY1lMN3lVdXBtZjk2NHp2MXMwWXg3N2taM1FvQlRaTG54ZVJSaDRuVHdIYllMUGhCdzBmS0F0eXlkeWJJeGRFNlliOUtocUZGXzZ0YldUejJMS2cxZm1HNGRR0gHHAUFVX3lxTFBxN1JRV0VMWE5ncldkQkVGZXZyQWNDekRLYkhxTVFwdkd3WGYxVEx2R2VDQzdKSm8zR2pwVDhfY2h3b1RPVHVDWm1HbV9WU09JWHF4QU1NUUFsYnIxU3EwVHFCV29NQkdIYWVaNHBjWUw3eVV1cG1mOTY0enYxczBZeDc3a1ozUW9CVFpMbnhlUlJoNG5Ud0hiWUxQaEJ3MGZLQXR5eWR5Ykl4ZEU2WWI5S2hxRkZfNnRiV1R6MkxLZzFmbUc0ZFE?oc=5) — South China Morning Post
 
 _Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (12 headlines, 14h window)._
