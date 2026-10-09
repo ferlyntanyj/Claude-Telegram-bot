@@ -1,27 +1,27 @@
-# US Market Morning Brief -- 8 Oct 2026, 14:23 SGT
+# US Market Morning Brief -- 9 Oct 2026, 14:25 SGT
 
 ## Markets
+- [US bonds rally after 30-year auction finds solid demand](https://news.google.com/rss/articles/CBMitwFBVV95cUxOMWpmVzQ1VWEzZnlPUWhiTld5WmYxSVZWTzlnem9razg4eFdjWVItTDJpTWx5X0FZTW1VdkdjV1RKVHdVMjJaTDBleXVqX2JKSFNFUmxlQXdaelR4cXJTdm9URy1ac2E0RVhMRzE3ZU1rNVJaakstdE9xTTNDTHkzZ3JQVEd0aHh3U2w2emtNbTVlelNqX0I2VEZ3NXZndWZKcnhoRmRSbGozdGhjNTRkVmV0U25NY1U?oc=5) — Reuters
+- [Tokenization could unleash tens of billions of dollars in trapped capital, Nasdaq CEO says](https://www.cnbc.com/2026/10/09/nasdaq-ceo-tokenization-could-unleash-billions-in-trapped-capital-.html) — CNBC Top News
 - [America shut out Chinese EVs. Britain welcomed them — and now faces a difficult choice](https://www.cnbc.com/2026/10/08/autos-china-evs-uk-tariffs-hybrid-cars.html) — CNBC Top News
-- [Trump trade chief Greer reports higher cash holdings as law firm pay topped $650K](https://www.cnbc.com/2026/10/07/jamieson-greer-financial-disclosure-coupang.html) — CNBC Top News
-- [Trump awarding medals to Musk, Dell, Nadella and other tech execs at science summit](https://www.cnbc.com/2026/10/07/trump-awarding-medals-to-musk-dell-nadella-at-science-summit.html) — CNBC Top News
-- [Trump’s diesel order exposes White House limits to counter surging fuel prices](https://www.cnbc.com/2026/10/07/trump-red-dye-offroad-diesel-price-iran-ukraine-war-midterm.html) — CNBC Top News
+- [Amazon overhauls aging devices lineup with higher-priced Alexa tablet, dumping the budget Fire](https://www.cnbc.com/2026/10/08/amazon-alexa-tablet-release.html) — CNBC Top News
 
 ## Macro, Fed & data
-- [Wall Street ends lower, off record highs, as Treasury yields climb](https://news.google.com/rss/articles/CBMipAFBVV95cUxOYlBxMHUzb2ZDaHpMY3JBZUl2Rk9XSE94bjQ2aFVndHhYeU4zS1Rwb2I1SlFJWjVpaE9sS0V4c2ZiQ2JsMzd0R0lydzlFejhJVkNYbU5ZTGVjeW9tWUJtTmUzX2VwY0N1SnpLVmdvQWRvM20xS25hRmhXRDdHVUppRk9hS2JhVExxdVUtX0hfQlNqWnd0OUhHWEpaa2w1Z3hXNVRkaw?oc=5) — Reuters
-- [US bonds selloff eases, yields off highs, after strong 10-year note auction](https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0RvVl9ubDN1ZkRqRFJ1Z21yUUdrSHFGUG5jRmU5N2FUU0dPeHlGcjlBY0hQZjltWjFVc3hJNEtSVEtKNUF1T0RZV3dnWFEzbWJ6Yi1jbk1QajNDMzFMTzlTUUtkNExTdWJIYXZHZ3FMTXgycVJVd056RFhwYkRYM0tYa3I3eElsVGdnMHUxQWh6blZK?oc=5) — Reuters
-- [10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears](https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html) — CNBC Top News
-- [Americans grow more pessimistic about their finances, New York Fed finds — expert warns of ‘tough choices’ ahead](https://www.cnbc.com/2026/10/07/new-york-fed-financial-outlook-inflation.html) — CNBC Top News
+- [Ray Dalio warns the stock market's cushion against rising bond yields is shrinking](https://www.cnbc.com/2026/10/08/ray-dalio-stocks-bond-yields.html) — CNBC Top News
+- [Why the Battered Bond Market Is Finally Getting a Reprieve](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc0c5eF95UGxQS012LXpVZkUtd2tjNlNtb3BKSnB6bHlJRjZBRGJKSVRoVFRHZDRYTWx3QUEwNng5R3BRMjNEVldfZk1XdGRFX0NEdzd1SHhuM0hqMjNNM2pMYlRlYUx6TG4zR1RDUEQ4UTNiQURkZDhfUWtZY1drZDJXNU43dlREcERkT08wbkNtTDI0SzdmZjJ6SmpvR1cyTnpIUy1ELV8?oc=5) — WSJ
+- [US jobless claims hover near 57-year low for fourth consecutive week](https://news.google.com/rss/articles/CBMimAFBVV95cUxPMWFoUC1DSlZwckJETlF2WXdjTnhwSkt5UlIxVzBMQVoxVXJ0UjNTdjBDdmlwUmR3V2hQWDBGaTNnLTd1X2VIQVhBcVFmZGJHNGtCODU3RE55eHk2Y0FBbVBEUXF1S2lDaW42Y2VnUk9aRExvMXM1TGFIYjNpcnhTSUc5S1V3Nk1KWkZrSDlyTUFpNTZqYWxraw?oc=5) — Reuters
+- [Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm) — Fed press releases
 
 ## Stocks & earnings
-- [Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand](https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html) — CNBC Top News
-- [Anthropic will be 'most ridiculous IPO' of year, analyst says](https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html) — CNBC Top News
-- [Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights](https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html) — CNBC Markets
-- [Trading platform Webull's China ties create national security risk, congressional panel finds; stock drops 18%](https://www.cnbc.com/2026/10/07/webull-china-national-security-risk-congress.html) — CNBC Top News
+- [S&P 500, Nasdaq end lower as crude prices jump, chip stocks weigh](https://news.google.com/rss/articles/CBMinAFBVV95cUxPLTluWFV5cWFfM2xBV243NUduZW80Q3dmYnFLa1Y4Nmhha2RNNHVGTS1sM2NYZ0ZCeWJlazZpSndKOWM0OVUxTmx2M3luSDdpbVgzNnYtanQtb2VkWV9tU2NQaU03ejAxZy1NU1JhWkMwLXRNbmJUY2pWaTBrVE9XbGRXa2VFekh1LTVZbVNGUVRKTVhIU0NnSUZqdXI?oc=5) — Reuters
+- [Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility](https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html) — CNBC Top News
+- [SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile](https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html) — CNBC Top News
+- [U.S. cell tower stocks rise on SpaceX spectrum buy](https://news.google.com/rss/articles/CBMikwFBVV95cUxNTGFmYU9kaEhFZ3MxWjA2RjE0eUF1MzZ3UGxsLVhPMDlqdHB5eXMtc3RRa0pUNk1zUjl3NjMyeE1vLTI1WXJsa1UzS25jcUJpdnFCVnVJZzR3UVhoOEMtSG9CWEppakJrVkpic1JiYW9VWkZySGV0YnVqZklHNTZBSngtUmJLajEzblVRRmg3MDlFcjg?oc=5) — Yahoo Finance
 
 ## Geopolitics
-- [Trump says he is not keen on a deal with Iran as U.S. reportedly prepares for 'massive bombing'](https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html) — CNBC Top News
-- [Trump’s Tariffs Put a Spotlight on Forced Labor. It Isn’t Going Away.](https://news.google.com/rss/articles/CBMirAFBVV95cUxNLTd1YThtaDdsOEtGUlQ2R3VsX2ZGNDRDT0hjNzFWZ2JkMXA5WnN0aHhkM2gzaC1BWGpFOHN1YUlFQ2J4V1Q2djhNbGdDUENWZXZzYjVJMGdjR3NhbzA0X2xSODhibWpyNHotNHVzdTU0SEVNbmpGRDRKU3pzZG5TRGp3RGdaemltc293WURWTFg2dEhmS19BMzFPaUZGcnoxYUYzWF9DaEZwWDFW?oc=5) — WSJ
-- [Levi Strauss hikes profit guidance after tariff refunds, but its sales outlook is less optimistic](https://www.cnbc.com/2026/10/07/levi-strauss-levi-q3-2026-earnings.html) — CNBC Markets
-- [Trump doesn't think Russia plague incident is bioweapon, plans Putin call Wednesday](https://www.cnbc.com/2026/10/07/trump-russia-plague-bioweapon-putin.html) — CNBC Top News
+- [U.S. East Asian envoy says investors are overpricing Taiwan conflict risk](https://www.cnbc.com/2026/10/09/taiwan-trump-china-militia-boat-tsmc-.html) — CNBC Top News
+- [Oil prices jump as Iran steps up tanker attacks, hurricane threatens U.S. Gulf production](https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html) — CNBC Top News
+- [Trump says U.S. will not attack Iran before midterm election](https://www.cnbc.com/2026/10/08/iran-war-trump-midterm-election.html) — CNBC Top News
+- [Treasury sanctions 17 tankers linked to Iran's 'shadow fleet' in economic pressure campaign](https://www.cnbc.com/2026/10/08/iran-treasury-sanctions-shadow-fleet.html) — CNBC Top News
 
 _Sources: Google News + CNBC + Fed feeds (16 headlines, 20h window)._
