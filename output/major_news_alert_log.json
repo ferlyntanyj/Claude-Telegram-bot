@@ -14531,5 +14531,51 @@
       "look_out": "Watch upcoming quarterly earnings releases and any macro data on construction spending for signs of reversal or further pressure.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-09T00:35:23.334827+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "018260.KS",
+      "company": "Samsung SDS",
+      "pct": -5.6521739130434785,
+      "last": 195300.0,
+      "prev": 207000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "307950.KS",
+        "company": "Hyundai AutoEver",
+        "pct": -3.609625668449201
+      },
+      {
+        "ticker": "LDOS",
+        "company": "Leidos",
+        "pct": -2.690889813996822
+      },
+      {
+        "ticker": "064400.KS",
+        "company": "LG CNS",
+        "pct": -2.315484804630974
+      },
+      {
+        "ticker": "ACN",
+        "company": "Accenture",
+        "pct": 1.6752872778777128
+      }
+    ],
+    "analysis": {
+      "business_model": "Samsung SDS delivers IT consulting, system integration, cloud and digital transformation services to enterprise clients, primarily in South Korea and globally.",
+      "sentiment": "Bearish - stock fell sharply on undefined market pressure",
+      "why_moved": "No specific catalyst is mentioned; the share dropped 5.7% on pure price action amid broader sector weakness.",
+      "read_across": "The declines in Hyundai AutoEver, Leidos, LG CNS and the modest gain in Accenture suggest a mixed sentiment across global IT services, with Korean peers under pressure.",
+      "look_out": "Watch for the next earnings release or any guidance update from Samsung SDS that could explain the price move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
