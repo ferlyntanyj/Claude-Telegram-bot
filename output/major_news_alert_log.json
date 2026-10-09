@@ -14715,5 +14715,51 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates, or regulatory news that could confirm or reverse the current upside.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-09T18:29:09.371212+00:00",
+    "type": "single_stock",
+    "headline": "Verizon stock heads for worst day since 2002 as SpaceX U.S. network plans whack telcos",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVS1tWG42dF8wYy04V3E2Mkg2ZXNwT19wZ0lJZ0hWb3Z1WE1HSHZpcE9kYzZxWjd0MVdXWkQzQTU2ZkYwaDM5Z2ZBeWI4WVBvOGh3ZGQwd2FmdHJmaUxNeG03NERZSENmQXB5OGdQNlhtMW51VWhMdDlzZ2stUk5pODdLeUbSAYoBQVVfeXFMTmEtZWlCcTZSUFNpRzBrUTJsWW1idkpGV0RiQjRVZGtuZUZ6ZG5aeW9iYzdtR2pqZThrRVl6Mk5RaTg4U2k0b01OM3JfaV9HSmhGLUN0ek9RXzV6UDdSaXR3RHhGZXo2RHRaUGFST2JiRmx0M0x6bV85TDVydWtYLWMwVGNVbExPNE9n?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "VZ",
+      "company": "Verizon",
+      "pct": -10.453069181244956,
+      "last": 41.505001068115234,
+      "prev": 46.349998474121094,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "TMUS",
+        "company": "T-Mobile US",
+        "pct": -12.623314639067418
+      },
+      {
+        "ticker": "T",
+        "company": "AT&T",
+        "pct": -10.876557428332735
+      },
+      {
+        "ticker": "DTE.DE",
+        "company": "Deutsche Telekom",
+        "pct": -7.938871288943272
+      },
+      {
+        "ticker": "AAF.L",
+        "company": "Airtel Africa",
+        "pct": -6.266147775849184
+      }
+    ],
+    "analysis": {
+      "business_model": "Verizon provides wireless voice, data and broadband services to consumers and businesses, earning most revenue from wireless subscriptions and internet access.",
+      "sentiment": "Bearish - investors fear SpaceX network competition",
+      "why_moved": "The price fell sharply after news that SpaceX's planned U.S. network could undercut telco revenues, prompting a sector sell‑off.",
+      "read_across": "The drop mirrors similar declines at T‑Mobile, AT&T, Deutsche Telekom and Airtel Africa, suggesting broader telco concerns over the SpaceX threat.",
+      "look_out": "Watch for Verizon's response to the SpaceX plan, any regulatory filings, and upcoming earnings guidance for signs of impact.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
