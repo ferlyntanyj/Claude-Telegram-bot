@@ -14623,5 +14623,51 @@
       "look_out": "Watch Wisetech's upcoming earnings release and any guidance updates for confirmation of the trend.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-09T04:39:04.357317+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "688256.SS",
+      "company": "Cambricon Technologies",
+      "pct": -5.91233435270132,
+      "last": 923.0,
+      "prev": 981.0,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": -8.056042031523647
+      },
+      {
+        "ticker": "300223.SZ",
+        "company": "Ingenic Semiconductor",
+        "pct": -6.355437402804709
+      },
+      {
+        "ticker": "603986.SS",
+        "company": "GigaDevice",
+        "pct": -6.052628769078394
+      },
+      {
+        "ticker": "IFX.DE",
+        "company": "Infineon Technologies",
+        "pct": -5.766851460478195
+      }
+    ],
+    "analysis": {
+      "business_model": "Cambricon Technologies designs and sells AI-focused processors and related hardware for data‑center, cloud, and edge computing applications, generating revenue from chip sales and licensing.",
+      "sentiment": "Bearish - price fell on weak sentiment, no catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock dropped 5.9% intraday amid broader declines in AI‑chip peers, suggesting sector‑wide pressure or profit‑taking.",
+      "read_across": "The similar declines in SK Square, Ingenic Semiconductor, GigaDevice and Infineon indicate a broader pull‑back in AI‑chip valuations across both domestic and international markets.",
+      "look_out": "Watch for upcoming earnings releases, AI‑chip demand data, or regulatory signals that could confirm whether the sell‑off is temporary or part of a longer trend.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
