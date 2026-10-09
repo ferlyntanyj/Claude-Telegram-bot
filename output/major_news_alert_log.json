@@ -14577,5 +14577,51 @@
       "look_out": "Watch for the next earnings release or any guidance update from Samsung SDS that could explain the price move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-09T02:31:03.050316+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "WTC.AX",
+      "company": "Wisetech Global",
+      "pct": 5.083705175678888,
+      "last": 33.900001525878906,
+      "prev": 32.2599983215332,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "XRO.AX",
+        "company": "Xero",
+        "pct": 4.905691364526232
+      },
+      {
+        "ticker": "FICO",
+        "company": "Fair Isaac",
+        "pct": 3.7637285902031525
+      },
+      {
+        "ticker": "ADBE",
+        "company": "Adobe Inc.",
+        "pct": 3.557158838045571
+      },
+      {
+        "ticker": "PAYX",
+        "company": "Paychex",
+        "pct": 2.865579463578838
+      }
+    ],
+    "analysis": {
+      "business_model": "Wisetech Global provides cloud‑based software that digitises and automates freight forwarding, supply‑chain and logistics operations, charging customers subscription fees.",
+      "sentiment": "Bullish - price gains on sector momentum",
+      "why_moved": "No specific catalyst was mentioned; the stock jumped 5.1% intraday, likely reflecting broader logistics‑software buying pressure.",
+      "read_across": "The move parallels gains in peers such as Xero, FICO, Adobe and Paychex, indicating a wider rally in SaaS and technology‑focused companies.",
+      "look_out": "Watch Wisetech's upcoming earnings release and any guidance updates for confirmation of the trend.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
