@@ -1,16 +1,16 @@
-# Global Semiconductor Brief -- 9 Oct 2026, 14:32 SGT
+# Global Semiconductor Brief -- 10 Oct 2026, 01:08 SGT
 
 ## Policy & geopolitics
-- [Synopsys looks to work with Chinese AI labs to speed up chip design](https://news.google.com/rss/articles/CBMivAFBVV95cUxPMlRhMzNhUERSSUFaeEhNQV9BajFMUnlmMGg1QmFfMVE0dGNkdlBYQUZaNDBFbEc2ZkhpNFI3THJqaDhiMDNZbmRoV0J0cnZpei1QRFFSQ3ZUYmVRZDB5Q3BCVEhGQnE3U0MwalJybXZadDJKN3p2c1k4bHJYb0JzbXNYZlRVUXAtUmFQUDJWX0Z0UDB3Q3d0NmJRTzJFbFV0Z2pWXzRUWE9LNkZhSXFzU3RhdFdBeVY0eE9fXw?oc=5) — Nikkei Asia
+- [China state funds double down on Hua Hong in legacy chip push](https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGw2YUlTR1lWbmlPOU54ZGdGc2dlRl93NUNya1I3Y0Q2YVBza1I3cWxDSDNCTGtVRDU1YU1FSWZROFM5QmlzaVBqNDdSa0lnWHQ4QzJYbDZUNFo5TE5LTlpxemRIYXJDbkFIaFFCM3I3Szh4cmxrd3BvakZOSVBiZUV3Q292U2NsSmJTbDVvMHRMTk5ZSHlxc3JlOUE4YThNVkxMaHB5ZmhLQdIBqgFBVV95cUxOaGw2YUlTR1lWbmlPOU54ZGdGc2dlRl93NUNya1I3Y0Q2YVBza1I3cWxDSDNCTGtVRDU1YU1FSWZROFM5QmlzaVBqNDdSa0lnWHQ4QzJYbDZUNFo5TE5LTlpxemRIYXJDbkFIaFFCM3I3Szh4cmxrd3BvakZOSVBiZUV3Q292U2NsSmJTbDVvMHRMTk5ZSHlxc3JlOUE4YThNVkxMaHB5ZmhLQQ?oc=5) — South China Morning Post
+- [Chip Industry Week In Review](https://news.google.com/rss/articles/CBMibkFVX3lxTE1pQW9IZy1lMkp3Wm5YbjNpa04wMXVBU0xyNjd6WUxvYjc4RVIzQjJSRVRzc3ZjM3BLRzh6WHpuQUVNRUtTYVpZYlB6N2o1dk02V2xyTnphcDlQcTZWbUhDVEcwVDN6VnNKWHdtWmNn?oc=5) — Semiconductor Engineering
 
 ## Supply chain signals
-- [Samsung HBM4E wins NVIDIA nod for AI accelerator push](https://www.digitimes.com/news/a20261008PD231/samsung-hbm-production-data-data-center.html) — DIGITIMES
-- [Applied Materials, Intel target AI chip bottlenecks with interconnect scaling and Foveros 3D](https://www.digitimes.com/news/a20261007PD242/applied-materials-intel-ai-chip-manufacturing-development.html) — DIGITIMES
+- [PC shipments tumble over 20% in 3Q26 as chip shortages bite](https://www.tomshardware.com/tech-industry/pc-shipments-tumble-over-20-percent-in-3q26-as-chip-shortages-bite-top-three-pc-vendors-ship-11-6-million-fewer-units-year-over-year) — Tom's Hardware
 
 ## News — M&A, capex, capacity, earnings
-- [Stick with Nvidia, not memory chip stocks, says investor](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96U1JHaXZjc1dKa0dudjFCZHZ0U2ZqV0VOYWhodlBueUxMX0NMRDBoQVJwYm1MTjBMNnF3bEo5OWlmazFILXdGTDVqamFNaGJrN1kzVWs2Sk9qMVFHOXJQSThzUmdYVms?oc=5) — Reuters
-- [GlobalFoundries wins US$2 billion TSMC interposer deal, closing a US packaging gap](https://www.digitimes.com/news/a20261009VL200/tsmc-globalfoundries-packaging-cowos-silicon.html) — DIGITIMES
-- [Samsung, TSMC Fail to Excite Investors Used to Torrid AI Growth](https://news.google.com/rss/articles/CBMitwFBVV95cUxPaW5SVUlnNC1ZMURXRTBxXzNqNWFNQ2FWRWs5NWM1YU5jV3RIZUFnZ2Fmdm80NzN1a3VYNS1jamRaQi1Ud012U3d1eHVlT3MzNmk1TXdNVGp0eWJ5VTdnTnhZSXlJa1VaZjVoeHpld09FUlhWOTBFUHVqUWp5NXExSlFhbTdPZTVQZFM0Y1ZHVHJMOW40Z1VEcXFnbmw4aC1qbHlLV3hJeGNydUZlQmFyRXQ1S2w5RUE?oc=5) — Bloomberg.com
-- [[News] Samsung Reportedly Plans Exynos Auto Exit, Prioritizes Mobile APs, Image Sensors for 2027 System LSI Turnaround](https://news.google.com/rss/articles/CBMi7wFBVV95cUxOODBTNUlEX1lwWi1qZmEzbDNIc3I5bld3cHdjODgxQTd6bkw1MmcyRkxkUHlCU0kzbGh4YVEtRXdsOUtDZGtPWGpQSTB6VjZCNEVydW5FR1piaVA4czZOd08yYmZrbDlCRGhUVkRYTmktS051MFNMWGdhTEoxVi1VQ3oxeldFU2FQS1pRdTF6N0ljUnJ0TVdrRlpUQjQ1bVFyRFRtQkhnZmdrX2lpMDkwNDhCUlFaWmVWSkJubTJuQ1BhWHBJeFMwVkFtMTMtN1BMZU1CVTZ2YWNyNnBQallXZGJmbnlHTUZVNlNVNHM0WQ?oc=5) — TrendForce
+- [Qualcomm and Arm set for jury verdict in contract breach feud](https://news.google.com/rss/articles/CBMirgFBVV95cUxNWnN4TkxuZW5GVFJLOEc3UW10R0FPUUgtaUVRSzRjWWR3R2tUSTNyNkxwdDhULXJnMTA3VXFwUFdtbHlteW84WDBEM0YxdjUtbGxrRzhjXzJNeG5yNlp1NE14MkxfX1BidU1vMXZ2ZEpqSF9Hb2R3UExlZGpjRUJVRzU1bVluLVk0U3lIT3ZmdnJOeHN0R0xFd3BmZGRndUtNSzRvck5iYkZyN21vaXc?oc=5) — Reuters
+- [Connecting Chiplets Isn’t Enough – Solving the Data Movement Challenge in Multi-Die Systems](https://www.eetimes.com/connecting-chiplets-isnt-enough-solving-the-data-movement-challenge-in-multi-die-systems/) — EE Times
+- [Manfred Horstmann: GlobalFoundries Bets on FDX Fusion for Physical AI](https://www.eetimes.com/manfred-horstmann-globalfoundries-bets-on-fdx-fusion-for-physical-ai/) — EE Times
+- [Worlds First Single Chip Multiturn Position Sensor in Smaller Form Factor](https://www.eetimes.com/worlds-first-single-chip-multiturn-position-sensor-in-smaller-form-factor/) — EE Times
 
 _Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (7 headlines, 13h window)._
