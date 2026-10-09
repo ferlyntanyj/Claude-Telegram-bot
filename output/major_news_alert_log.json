@@ -14669,5 +14669,51 @@
       "look_out": "Watch for upcoming earnings releases, AI‑chip demand data, or regulatory signals that could confirm whether the sell‑off is temporary or part of a longer trend.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-09T07:35:44.294910+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "2899.HK",
+      "company": "Zijin Mining",
+      "pct": 5.498718911757616,
+      "last": 33.0,
+      "prev": 31.280000686645508,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "600489.SS",
+        "company": "Zhongjin Gold",
+        "pct": 6.843581247814501
+      },
+      {
+        "ticker": "601899.SS",
+        "company": "Zijin Mining Group",
+        "pct": 4.868908263417238
+      },
+      {
+        "ticker": "GMD.AX",
+        "company": "Genesis Minerals",
+        "pct": 3.9492204082532956
+      },
+      {
+        "ticker": "600547.SS",
+        "company": "Shandong Gold-Mining",
+        "pct": 2.799847758508167
+      }
+    ],
+    "analysis": {
+      "business_model": "Zijin Mining extracts and processes gold and copper, selling the metals and related products worldwide.",
+      "sentiment": "Bullish - price rally without explicit catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 5.5% on pure price action, likely reflecting broader buying in the mining sector.",
+      "read_across": "Peers such as Zhongjin Gold and Shandong Gold also rose, suggesting a sector‑wide optimism for Chinese miners and related commodity exposure.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates, or regulatory news that could confirm or reverse the current upside.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
