@@ -14945,5 +14945,51 @@
       "look_out": "Watch for upcoming earnings releases, policy guidance or any regulatory changes affecting Chinese developers that could reverse or deepen the move.",
       "memory": "Similar steep declines occurred in 2021‑2022 when financing constraints hit Chinese developers, leading to sharp sell‑offs."
     }
+  },
+  {
+    "alert_utc": "2026-10-12T02:20:37.376950+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "601872.SS",
+      "company": "China Merchants Energy Shipping",
+      "pct": -6.841867919173361,
+      "last": 20.559999465942383,
+      "prev": 22.06999969482422,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "KMI",
+        "company": "Kinder Morgan",
+        "pct": 0.7441912510598447
+      },
+      {
+        "ticker": "TRGP",
+        "company": "Targa Resources",
+        "pct": -0.6204645179853641
+      },
+      {
+        "ticker": "OKE",
+        "company": "Oneok",
+        "pct": -0.5426933866441774
+      },
+      {
+        "ticker": "WMB",
+        "company": "Williams Companies",
+        "pct": 0.4561817082672892
+      }
+    ],
+    "analysis": {
+      "business_model": "China Merchants Energy Shipping operates a fleet of oil tankers, earning revenue by transporting crude oil and petroleum products for customers worldwide.",
+      "sentiment": "Bearish - price dropped sharply without news",
+      "why_moved": "No specific catalyst is stated; the stock fell 6.8% intraday on its own, reflecting pure price action or broader market/sector sentiment.",
+      "read_across": "Peers show mixed moves—some up, some down—suggesting the shipping sector is experiencing divergent pressures rather than a uniform trend.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates, or regulatory developments that could explain the recent volatility.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
