@@ -15083,5 +15083,51 @@
       "look_out": "Watch for any forthcoming earnings release, guidance update or corporate announcement that could explain the move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-12T15:19:15.750311+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "SNDK",
+      "company": "Sandisk",
+      "pct": -6.4236125982567565,
+      "last": 1480.2099609375,
+      "prev": 1581.8199462890625,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "4938.TW",
+        "company": "Pegatron",
+        "pct": 9.921964134529793
+      },
+      {
+        "ticker": "SMCI",
+        "company": "Supermicro",
+        "pct": -5.0883923484427935
+      },
+      {
+        "ticker": "000977.SZ",
+        "company": "Inspur Electronic Information Industry",
+        "pct": -4.0810064997863
+      },
+      {
+        "ticker": "STX",
+        "company": "Seagate Technology",
+        "pct": -3.3818621288314143
+      }
+    ],
+    "analysis": {
+      "business_model": "Sandisk designs and sells flash memory and storage solutions, primarily solid‑state drives and memory cards for consumer and enterprise devices.",
+      "sentiment": "Bearish - shares slump on unexplained price pressure",
+      "why_moved": "No specific catalyst is cited; the stock fell 6.4% on price‑only movement amid broader tech volatility.",
+      "read_across": "The mixed moves among peers (Pegatron up, Supermicro down) suggest sector‑wide rotation rather than a company‑specific shock, hinting at supply‑chain or demand shifts affecting storage‑related firms.",
+      "look_out": "Watch for Sandisk’s upcoming earnings or any guidance updates that could explain the sell‑off, as well as broader semiconductor sector trends.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
