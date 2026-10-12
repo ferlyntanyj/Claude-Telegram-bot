@@ -14807,5 +14807,51 @@
       "look_out": "Watch for the company’s upcoming earnings release or any regulatory updates on New Zealand renewable subsidies that could confirm the move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-12T00:33:33.635156+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "011070.KS",
+      "company": "LG Innotek",
+      "pct": -8.216783216783218,
+      "last": 525000.0,
+      "prev": 572000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "600183.SS",
+        "company": "Shengyi Technology",
+        "pct": -5.854695271476496
+      },
+      {
+        "ticker": "002916.SZ",
+        "company": "Shennan Circuits",
+        "pct": -5.643712198714368
+      },
+      {
+        "ticker": "300433.SZ",
+        "company": "Lens Technology",
+        "pct": -5.426101925558546
+      },
+      {
+        "ticker": "0285.HK",
+        "company": "BYD Electronics",
+        "pct": 4.607048265053582
+      }
+    ],
+    "analysis": {
+      "business_model": "LG Innotek designs and manufactures electronic components such as camera modules, display modules and automotive parts, supplying them to smartphone makers and car manufacturers.",
+      "sentiment": "Bearish - sharp intraday drop without news",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 8.2% on price action alone, likely reflecting broader market or sector weakness.",
+      "read_across": "The simultaneous declines in Chinese component makers suggest a regional pullback in electronics‑component stocks, hinting at wider supply‑chain or demand concerns.",
+      "look_out": "Watch for LG Innotek’s upcoming earnings release or any guidance updates that could confirm or reverse the current sell‑off.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
