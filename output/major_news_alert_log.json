@@ -14899,5 +14899,51 @@
       "look_out": "Watch for upcoming earnings releases or any regulatory news that could justify the rally.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-12T02:06:54.743535+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "000002.SZ",
+      "company": "China Vanke",
+      "pct": -6.403940742059633,
+      "last": 3.799999952316284,
+      "prev": 4.059999942779541,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "001979.SZ",
+        "company": "China Merchants Shekou Industrial Zone Holdings",
+        "pct": -1.943000292834851
+      },
+      {
+        "ticker": "1113.HK",
+        "company": "CK Asset Holdings",
+        "pct": -1.5486742281504595
+      },
+      {
+        "ticker": "600048.SS",
+        "company": "Poly Real Estate Group",
+        "pct": -1.4159278293047861
+      },
+      {
+        "ticker": "0688.HK",
+        "company": "China Overseas Land & Investment Limited",
+        "pct": -0.6782226788487833
+      }
+    ],
+    "analysis": {
+      "business_model": "China Vanke is a large Chinese developer that builds, sells and manages residential real‑estate projects, deriving most revenue from property sales and related services.",
+      "sentiment": "Bearish - intraday drop of over 6% signals negative sentiment",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 6.4% intraday, likely reflecting broader weakness in Chinese real‑estate stocks.",
+      "read_across": "Peers such as China Merchants Shekou, CK Asset, Poly and China Overseas also declined, suggesting sector‑wide pressure on property developers.",
+      "look_out": "Watch for upcoming earnings releases, policy guidance or any regulatory changes affecting Chinese developers that could reverse or deepen the move.",
+      "memory": "Similar steep declines occurred in 2021‑2022 when financing constraints hit Chinese developers, leading to sharp sell‑offs."
+    }
   }
 ]
