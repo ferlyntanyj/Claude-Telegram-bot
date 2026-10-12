@@ -14991,5 +14991,51 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates, or regulatory developments that could explain the recent volatility.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-12T02:51:23.319966+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "011200.KS",
+      "company": "HMM",
+      "pct": 5.288461538461542,
+      "last": 21900.0,
+      "prev": 20800.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "2603.TW",
+        "company": "Evergreen Marine",
+        "pct": 9.892473118279565
+      },
+      {
+        "ticker": "0316.HK",
+        "company": "Orient Overseas (International) Limited",
+        "pct": 3.4640542821946507
+      },
+      {
+        "ticker": "9107.T",
+        "company": "Kawasaki Kisen Kaisha, Ltd.",
+        "pct": 2.7447392497712775
+      },
+      {
+        "ticker": "3816.KL",
+        "company": "MISC BHD",
+        "pct": 2.6350435473567746
+      }
+    ],
+    "analysis": {
+      "business_model": "HMM is a South Korean container shipping and logistics company that operates a fleet of vessels to transport goods worldwide, earning revenue primarily from freight rates and ancillary logistics services.",
+      "sentiment": "Bullish - price rally amid sector-wide shipping gains",
+      "why_moved": "No specific catalyst is mentioned; the stock rose 5.3% on pure price action, likely reflecting broader sector momentum.",
+      "read_across": "The gains in peers such as Evergreen Marine (+9.9%) and OOIL (+3.5%) suggest a wider uplift in global shipping stocks, indicating improving market sentiment for container carriers.",
+      "look_out": "Watch for upcoming freight‑rate trends, global trade data releases, and any earnings or guidance updates from HMM and its peers.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
