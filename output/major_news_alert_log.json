@@ -15129,5 +15129,51 @@
       "look_out": "Watch for Sandisk’s upcoming earnings or any guidance updates that could explain the sell‑off, as well as broader semiconductor sector trends.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-12T16:03:53.827732+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "LITE",
+      "company": "Lumentum",
+      "pct": -8.948614643459162,
+      "last": 1004.6199951171875,
+      "prev": 1103.35498046875,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "CIEN",
+        "company": "Ciena",
+        "pct": -9.231382712911461
+      },
+      {
+        "ticker": "HPE",
+        "company": "Hewlett Packard Enterprise",
+        "pct": -4.723660854818313
+      },
+      {
+        "ticker": "2345.TW",
+        "company": "Accton",
+        "pct": 2.7295285359801413
+      },
+      {
+        "ticker": "CSCO",
+        "company": "Cisco",
+        "pct": -2.635360049554014
+      }
+    ],
+    "analysis": {
+      "business_model": "Lumentum designs and manufactures optical and photonic components such as lasers, modulators, and transceivers for telecom, data‑center and industrial applications, generating revenue primarily from selling these hardware solutions.",
+      "sentiment": "Bearish - sharp intraday decline without clear catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 8.9% intraday, likely reflecting broader sector weakness or market sentiment rather than a news event.",
+      "read_across": "The move mirrors declines in peers like Ciena and HPE, suggesting broader pressure on networking and optical‑component manufacturers.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates, or any regulatory or macro‑economic news that could explain the sector‑wide sell‑off.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
