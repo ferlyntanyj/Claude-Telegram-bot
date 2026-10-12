@@ -15175,5 +15175,51 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates, or any regulatory or macro‑economic news that could explain the sector‑wide sell‑off.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-12T16:19:04.820075+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "LITE",
+      "company": "Lumentum",
+      "pct": -9.776998509960077,
+      "last": 995.47998046875,
+      "prev": 1103.35498046875,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "CIEN",
+        "company": "Ciena",
+        "pct": -9.178024276324503
+      },
+      {
+        "ticker": "HPE",
+        "company": "Hewlett Packard Enterprise",
+        "pct": -4.641976688283977
+      },
+      {
+        "ticker": "CSCO",
+        "company": "Cisco",
+        "pct": -2.7451643016767946
+      },
+      {
+        "ticker": "MSI",
+        "company": "Motorola Solutions",
+        "pct": 0.6146181798694528
+      }
+    ],
+    "analysis": {
+      "business_model": "Lumentum designs and manufactures optical components, lasers and photonic products for telecom, data‑center and industrial applications, generating revenue primarily from selling these hardware solutions.",
+      "sentiment": "Bearish - steep intraday sell‑off lacking clear catalyst",
+      "why_moved": "No specific catalyst is stated; the stock fell sharply on price action amid broader sector weakness.",
+      "read_across": "Peers such as Ciena, HPE and Cisco also slid, suggesting a broader pullback in networking and communications equipment markets.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates, or sector news that could explain the price move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
