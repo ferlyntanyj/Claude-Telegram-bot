@@ -14853,5 +14853,51 @@
       "look_out": "Watch for LG Innotek’s upcoming earnings release or any guidance updates that could confirm or reverse the current sell‑off.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-12T01:19:07.898213+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "1301.TW",
+      "company": "Formosa Plastics",
+      "pct": 7.824935552360568,
+      "last": 81.30000305175781,
+      "prev": 75.4000015258789,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "002709.SZ",
+        "company": "Guangzhou Tinci Materials Technology",
+        "pct": 9.146533508948673
+      },
+      {
+        "ticker": "002812.SZ",
+        "company": "Yunnan Energy New Material",
+        "pct": 4.384813077754157
+      },
+      {
+        "ticker": "688303.SS",
+        "company": "XinJiang Daqo New Energy",
+        "pct": 3.4329366258237792
+      },
+      {
+        "ticker": "6988.T",
+        "company": "Nitto Denko Corp.",
+        "pct": 2.524106636415202
+      }
+    ],
+    "analysis": {
+      "business_model": "Formosa Plastics is a Taiwan‑based integrated petrochemical firm that manufactures plastics, chemicals and related products for industrial and consumer use.",
+      "sentiment": "Bullish - strong price gain despite no news",
+      "why_moved": "No specific catalyst was mentioned; the stock rose 7.8% on intraday buying pressure, mirrored by peers.",
+      "read_across": "Peers in chemicals and materials also jumped, suggesting broader sector buying.",
+      "look_out": "Watch for upcoming earnings releases or any regulatory news that could justify the rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
