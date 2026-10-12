@@ -1,18 +1,18 @@
-# Global Semiconductor Brief -- 12 Oct 2026, 14:21 SGT
+# Global Semiconductor Brief -- 13 Oct 2026, 03:57 SGT
 
 ## Policy & geopolitics
-- [Super Micro smuggling co-conspirator pleads guilty to sending AI chips to China](https://www.tomshardware.com/tech-industry/artificial-intelligence/super-micro-smuggling-co-conspirator-pleads-guilty-to-sending-ai-chips-to-china-broker-admits-breaking-export-control-rules-as-company-co-founder-denies-charges) — Tom's Hardware
+- [Biren's BR20X GPU targets 1,024-chip AI systems, but US curbs cloud mass production](https://www.digitimes.com/news/a20261012VL214/gpu-biren-production-manufacturing-software.html) — DIGITIMES
 
 ## Supply chain signals
-- [Taiwan semiconductor industry eyes landmark geothermal power deal exceeding 20MW](https://www.digitimes.com/news/a20261012PD211/geothermal-taiwan-electricity-development-market.html) — DIGITIMES
-- [Rapidus targets customers underserved by TSMC, but can it convince them to take the risk?](https://www.digitimes.com/news/a20261012PD209/rapidus-government-tsmc-funding-alliance.html) — DIGITIMES
-- [Samsung, SK Hynix accept ASML's 10% price hike in parts, report says](https://www.digitimes.com/news/a20261012VL211/samsung-sk-hynix-asml-equipment-revenue.html) — DIGITIMES
-- [Nvidia, Reflection AI, the strategic pivot to open-weight ecosystems](https://www.digitimes.com/news/a20261012VL213/nvidia-investment-performance.html) — DIGITIMES
+- [Interview: Microsoft's Maia GM on Maia 300, Taiwan and HBM supply](https://www.digitimes.com/news/a20261012VL216/microsoft-taiwan-hbm-chips-copilot.html) — DIGITIMES
+- [Weekly Radar 005: AI Demand Pulls DRAM Supply Toward Servers](https://news.google.com/rss/articles/CBMiX0FVX3lxTE0wTG5DV3A3c1RlRDZkMGJQSklZeTRmTGFwUEQ5YkhYaE04dERpSFZ2VkNjQnFERnJMTGxoT2J3NXAtZy1lb1NVOE5vdmxnWHdhX1Z5RE5lM05udE0wT0NV?oc=5) — TrendForce
+- [Samsung reportedly secures long-term contracts covering up to 80% of 2027 memory supply](https://www.digitimes.com/news/a20261012VL226/samsung-2027-2026-hbm-data-center.html) — DIGITIMES
+- [Nanya gross margin hits 85.7% as low-priced DRAM contracts roll off](https://www.digitimes.com/news/a20261012PD236/nanya-technology-low-priced-dram-gross-margin-2026.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [TSMC expected to report sixth straight quarter of record profit thanks to AI boom](https://news.google.com/rss/articles/CBMivAFBVV95cUxOLVdZdVEzd2xJRXc2ZDVpOTJESklKcDlSSERrelBfdXdxVmNaek9lLTV1RlZxVGpBa3RmakZ3N3V6al9BTlFtWGl1dEV6dVJ6X2J6MDlEZThzQlQydXZ3NTY3LTRSZzFfVUpGZk5uaGl4VllRdmgwSkUxeGxHOVA5VE5NY3BmeXlVaFlQRHJmelpMZDNZQ3NUUzRaem5UTlB6bXk2N3o4YjhtczVnWTBEaVN5MVJhY1A0ajhuRA?oc=5) — Reuters
-- [SK Hynix's US$299 billion chip plan faces military base hurdle](https://www.digitimes.com/news/a20261012VL212/sk-hynix-expansion-manufacturing-development.html) — DIGITIMES
-- [Former iPhone display plant in Japan reportedly to enter AI chip supply chain](https://www.digitimes.com/news/a20261012VL206/iphone-display-supply-chain-ai-chip-plant.html) — DIGITIMES
-- [Booked before launch, Tata's Dholera fab faces test of turning commitments into wafer volume](https://www.digitimes.com/news/a20261011VL201/fab-wafer-production-capacity-demand.html) — DIGITIMES
+- [Microsoft plans huge deployment of its own AI chips, with an eye on saving costs](https://news.google.com/rss/articles/CBMiugFBVV95cUxPWHVSM1ltUmRIUHVldm04ZU5JX2hLc0lhYjZVaDMzMDlkVkxXNUM3OTFFVU1kdlM1R3BneGN5cXp3Ui1Yc211TFF0VUU3ZlpRWjhBRy0yOGJjdlZxR3FmdmFHdFNMRDM3Rnh3WjJMd0d1MHNINEdvdWpBVEc5TTJNMjk1Xy1JNEY2b1g5RkYzWXYtakQ0SmNnMHdoUlRnbjFMSWVBUm9QaVBXbkFNUVgwSDVLdURleTBwMHc?oc=5) — Reuters
+- [Applied Materials Bets $5B on a New Model for Chip Innovation](https://www.eetimes.com/applied-materials-bets-5b-on-a-new-model-for-chip-innovation/) — EE Times
+- [Micron Stock Drops as Chinese Rival CXMT Advances New Chip](https://news.google.com/rss/articles/CBMihAFBVV95cUxPYjZjZW1lY0MxOFF6RHhzOTJqSTN4VzZIYlJIaXNsbVdZR2YxdjlaSVJOUjl2LTd3dHNyMW9HYVM1T2ZUM1duSFZiaVBfSmJmSlhwcjhzU0ZMaWxhUHhUY2FhZk4yMlVWOUZqMmZKU3JfYW5kajRHOHh4bzRFdk0xZElHeU0?oc=5) — Barron's
+- [Microsoft to rely more on homegrown AI chips, reducing dependence on Nvidia](https://news.google.com/rss/articles/CBMimgFBVV95cUxQbXdvdGREcjRPNHptRzBRc0U2a3ZSZXQ5cHdDRG5HVkpyYnZCTmJKcVdJVnpGUnhua09PbmR4bXdXM0diYVptTWNmcHFaY3FTRmlJV2N6d2Vma183QnA3UnFjUTVNRjhEWWRFZDJNQTdGNkkzbFNNSzFvLTloQ25kQmlYRXFfcmRCSzVvdU9VdXhSUEx5d1ZqU3VB0gGfAUFVX3lxTFBYNlVqUHRKWk9zYWtJU1hCWEpKM2tRUDgxdDltRlV1aU52dmlieFIyWTNwOEt2VndRT01ERnVmVG1xaEt6YnptRDhJNW42bFgwQWM4QXJMTTE5SllPZFc5dUtoclhJamluZENjdXdzeGdDNDFzejZlSHRwbjBVX0VTbHh0ZDRPVlNfQVgyelJVUl9KZi1LQllkR29uRlg4NA?oc=5) — CNBC
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 62h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
