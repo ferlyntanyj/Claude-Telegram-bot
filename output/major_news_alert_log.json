@@ -14761,5 +14761,51 @@
       "look_out": "Watch for Verizon's response to the SpaceX plan, any regulatory filings, and upcoming earnings guidance for signs of impact.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-12T00:02:46.797111+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "MCY.AX",
+      "company": "Mercury NZ",
+      "pct": 5.26315270557125,
+      "last": 5.599999904632568,
+      "prev": 5.320000171661377,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "MEZ.AX",
+        "company": "Meridian Energy",
+        "pct": 2.0737251748036645
+      },
+      {
+        "ticker": "9501.T",
+        "company": "Tokyo Electric Power Company Holdings, I",
+        "pct": 1.204821706408321
+      },
+      {
+        "ticker": "600886.SS",
+        "company": "SDIC Power Holdings",
+        "pct": 0.8951367428083667
+      },
+      {
+        "ticker": "600905.SS",
+        "company": "China Three Gorges Renewables (Group)",
+        "pct": 0.5665717022269368
+      }
+    ],
+    "analysis": {
+      "business_model": "Mercury NZ owns and operates hydro, wind and solar power assets in New Zealand, selling electricity to retailers and large customers.",
+      "sentiment": "Bullish - strong intraday rally without news",
+      "why_moved": "No specific catalyst was mentioned; the stock jumped 5.3% on price action alone, likely reflecting broader renewable‑energy buying pressure.",
+      "read_across": "Peers such as Meridian Energy, TEPCO Holdings, SDIC Power and China Three Gorges also posted modest gains, suggesting sector‑wide optimism for clean‑energy assets.",
+      "look_out": "Watch for the company’s upcoming earnings release or any regulatory updates on New Zealand renewable subsidies that could confirm the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
