@@ -15405,5 +15405,51 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates, or regulatory news that could explain the sector’s momentum and trigger a reversal or further decline.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-13T07:19:59.408549+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "0992.HK",
+      "company": "Lenovo",
+      "pct": -6.394641813983792,
+      "last": 30.739999771118164,
+      "prev": 32.84000015258789,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "4938.TW",
+        "company": "Pegatron",
+        "pct": 14.269792070498678
+      },
+      {
+        "ticker": "2301.TW",
+        "company": "Lite-On",
+        "pct": -7.2268907563025175
+      },
+      {
+        "ticker": "SNDK",
+        "company": "Sandisk",
+        "pct": -5.973498466500427
+      },
+      {
+        "ticker": "000977.SZ",
+        "company": "Inspur Electronic Information Industry",
+        "pct": -4.69933652928961
+      }
+    ],
+    "analysis": {
+      "business_model": "Lenovo designs, manufactures and sells personal computers, laptops, tablets and related enterprise services, generating most revenue from its PC business.",
+      "sentiment": "Bearish - shares fell sharply on unexplained price drop",
+      "why_moved": "No specific catalyst was mentioned; the stock slid 6.4% intraday on pure price action, possibly reflecting broader sector weakness.",
+      "read_across": "Peers such as Pegatron and Lite‑On moved sharply, suggesting a wider sell‑off in the Asian hardware and component space that could pressure Lenovo's supply chain and market sentiment.",
+      "look_out": "Watch for Lenovo's upcoming earnings release or any guidance updates that could confirm whether the decline is fundamentals‑driven.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
