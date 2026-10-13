@@ -15451,5 +15451,51 @@
       "look_out": "Watch for Lenovo's upcoming earnings release or any guidance updates that could confirm whether the decline is fundamentals‑driven.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-13T09:33:28.731621+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "NWG.L",
+      "company": "NatWest Group",
+      "pct": 5.135387683435533,
+      "last": 675.5999755859375,
+      "prev": 642.5999755859375,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "2880.TW",
+        "company": "Hua Nan Financial",
+        "pct": 7.75109016636828
+      },
+      {
+        "ticker": "2891.TW",
+        "company": "CTBC Financial",
+        "pct": 6.389294542908597
+      },
+      {
+        "ticker": "2388.HK",
+        "company": "BOC Hong Kong (Holdings) Ltd",
+        "pct": 5.173107244438713
+      },
+      {
+        "ticker": "2887.TW",
+        "company": "Taishin Financial",
+        "pct": 4.878048780487809
+      }
+    ],
+    "analysis": {
+      "business_model": "NatWest Group is a British bank providing retail, commercial and corporate banking services along with wealth management and investment products.",
+      "sentiment": "Bullish - shares rally on sector‑wide momentum",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 5.1% on price action amid broader financial‑sector gains.",
+      "read_across": "The similar gains in Asian banks like Hua Nan Financial and CTBC suggest a wider upbeat sentiment toward financial stocks globally.",
+      "look_out": "Monitor upcoming NatWest earnings, guidance releases or regulatory news that could sustain or reverse the rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
