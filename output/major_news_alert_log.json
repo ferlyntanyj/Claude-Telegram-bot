@@ -15543,5 +15543,51 @@
       "look_out": "Watch for any upcoming earnings release, guidance update or regulatory news that could confirm the price move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-13T11:03:31.842036+00:00",
+    "type": "single_stock",
+    "headline": "Melrose Industries Says GKN Aerospace Reaches $125 Million Settlement in Chemicals Case",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQOHNrTVlfU0Vna1FBWThlc1E1WlRmT1A4ZlVReEdXY2RCRGZSYTNsYkh6ZzJKSG9zRnQyZnA0MW00VXFsSTUxa3NUOXZVNUFiaVNIbTdfLUd1NXRhaHl0dE1oVWhadmFzajBvRHhMN0x0TmxGclhhOUNfWVozSS1YZEt2SmFIa0xpRmVfUHhXMG5NUko5NGhFRmlQOWZuQ1JnY1FmcHFSUHVSNnR6dkp5Y1NqMUk3UUF0NnVSbmpHdEJpYUM1T3V5cm52amI?oc=5",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "MRO.L",
+      "company": "Melrose Industries",
+      "pct": 5.475141870693889,
+      "last": 468.8370056152344,
+      "prev": 444.5,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "034020.KS",
+        "company": "Doosan Enerbility",
+        "pct": -9.999999999999998
+      },
+      {
+        "ticker": "300450.SZ",
+        "company": "WUXI LEAD INTELLIGENT EQUIPMENT",
+        "pct": -6.751972701182707
+      },
+      {
+        "ticker": "6594.T",
+        "company": "Nidec Corp.",
+        "pct": -6.616915422885572
+      },
+      {
+        "ticker": "6361.T",
+        "company": "Ebara Corp.",
+        "pct": -3.4482758620689613
+      }
+    ],
+    "analysis": {
+      "business_model": "Melrose Industries is a specialist investor that acquires, restructures and grows engineering and manufacturing businesses, generating cash through operational improvements and asset sales.",
+      "sentiment": "Bullish - settlement resolves liability boosting confidence",
+      "why_moved": "The stock rose on news that GKN Aerospace, a Melrose subsidiary, reached a $125 million settlement in a chemicals lawsuit, removing a material legal risk.",
+      "read_across": "The settlement may ease perceived legal exposure for other industrial peers, suggesting less sector‑wide litigation risk and supporting confidence in related manufacturers.",
+      "look_out": "Watch for details on the settlement’s impact on Melrose’s cash flow, any further legal disclosures, and upcoming earnings guidance.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
