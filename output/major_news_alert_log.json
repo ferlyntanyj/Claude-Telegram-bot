@@ -15221,5 +15221,97 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates, or sector news that could explain the price move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-13T00:57:20.117562+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "005490.KS",
+      "company": "POSCO",
+      "pct": -6.8515497553017894,
+      "last": 285500.0,
+      "prev": 306500.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "BSL.AX",
+        "company": "BlueScope",
+        "pct": 2.6711159154642727
+      },
+      {
+        "ticker": "STLD",
+        "company": "Steel Dynamics",
+        "pct": 1.7978420578155463
+      },
+      {
+        "ticker": "NUE",
+        "company": "Nucor",
+        "pct": 1.7022842495312274
+      },
+      {
+        "ticker": "600019.SS",
+        "company": "Baoshan Iron and Steel",
+        "pct": -1.6750403374697242
+      }
+    ],
+    "analysis": {
+      "business_model": "POSCO is a South Korean steelmaker that produces flat and long steel products for construction, automotive, and shipbuilding sectors, generating most revenue from steel sales.",
+      "sentiment": "Bearish - shares slump on unspecified catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock fell sharply on its own, reflecting a price‑only move rather than news-driven activity.",
+      "read_across": "While POSCO dropped, peers like BlueScope, Steel Dynamics, and Nucor rose, indicating divergent pressure on domestic steel versus international peers and broader sector flows.",
+      "look_out": "Watch upcoming earnings releases, steel demand data, and any policy changes affecting the Korean steel industry for potential direction.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-13T00:57:20.117578+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "009540.KS",
+      "company": "HD KSOE",
+      "pct": -7.718696397941683,
+      "last": 269000.0,
+      "prev": 291500.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "042660.KS",
+        "company": "Hanwha Ocean",
+        "pct": -10.972222222222229
+      },
+      {
+        "ticker": "047810.KS",
+        "company": "Korea Aerospace",
+        "pct": -9.225700164744644
+      },
+      {
+        "ticker": "329180.KS",
+        "company": "HD Hyundai Heavy Industries",
+        "pct": -8.723958333333337
+      },
+      {
+        "ticker": "079550.KS",
+        "company": "LIG Nex1",
+        "pct": -7.467532467532467
+      }
+    ],
+    "analysis": {
+      "business_model": "HD KSOE manufactures and supplies offshore and onshore drilling equipment, services and parts for the oil and gas industry.",
+      "sentiment": "Bearish - significant intraday selloff without clear news",
+      "why_moved": "No specific catalyst is mentioned; the stock fell sharply on its own, mirroring a broader sector pullback.",
+      "read_across": "The same negative pressure hit peers like Hanwha Ocean and Korea Aerospace, suggesting a market‑wide selloff in Korean heavy‑industry and defense stocks.",
+      "look_out": "Watch for upcoming earnings reports, regulatory announcements or macro‑economic data that could confirm or reverse the sector‑wide weakness.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
