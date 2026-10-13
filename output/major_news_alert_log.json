@@ -15497,5 +15497,51 @@
       "look_out": "Monitor upcoming NatWest earnings, guidance releases or regulatory news that could sustain or reverse the rally.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-13T10:18:14.305369+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "CTEC.L",
+      "company": "Convatec",
+      "pct": 6.636366410688921,
+      "last": 234.60000610351562,
+      "prev": 220.0,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "BDX",
+        "company": "Becton Dickinson",
+        "pct": 2.7972785794005084
+      },
+      {
+        "ticker": "SOLV",
+        "company": "Solventum",
+        "pct": -2.26830488734866
+      },
+      {
+        "ticker": "COO",
+        "company": "Cooper Companies (The)",
+        "pct": 2.1703151156101663
+      },
+      {
+        "ticker": "RMD",
+        "company": "ResMed|",
+        "pct": 1.977832206650354
+      }
+    ],
+    "analysis": {
+      "business_model": "Convatec designs, manufactures and sells medical devices and supplies for wound care, ostomy, continence and infusion therapy.",
+      "sentiment": "Bullish - significant intraday gain without clear catalyst",
+      "why_moved": "No specific catalyst is stated; the stock jumped 6.6% intraday, likely reflecting broader sector buying pressure.",
+      "read_across": "The gains in peers such as Becton Dickinson and ResMed suggest a broader upbeat sentiment toward healthcare‑equipment companies, possibly driven by supply‑chain stability or investor rotation into the sector.",
+      "look_out": "Watch for any upcoming earnings release, guidance update or regulatory news that could confirm the price move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
