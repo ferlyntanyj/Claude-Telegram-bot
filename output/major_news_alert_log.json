@@ -15313,5 +15313,51 @@
       "look_out": "Watch for upcoming earnings reports, regulatory announcements or macro‑economic data that could confirm or reverse the sector‑wide weakness.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-13T02:10:20.854295+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "079550.KS",
+      "company": "LIG Nex1",
+      "pct": -7.3051948051948035,
+      "last": 571000.0,
+      "prev": 616000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "042660.KS",
+        "company": "Hanwha Ocean",
+        "pct": -10.416666666666663
+      },
+      {
+        "ticker": "047810.KS",
+        "company": "Korea Aerospace",
+        "pct": -7.825370675453048
+      },
+      {
+        "ticker": "009540.KS",
+        "company": "HD KSOE",
+        "pct": -7.718696397941683
+      },
+      {
+        "ticker": "012450.KS",
+        "company": "Hanwha Aerospace",
+        "pct": -7.4074074074074066
+      }
+    ],
+    "analysis": {
+      "business_model": "LIG Nex1 designs, manufactures and sells defense and aerospace systems such as missiles, radars and avionics, supplying the Korean military and export markets.",
+      "sentiment": "Bearish - sharp intraday selloff amid defense sector weakness",
+      "why_moved": "No specific catalyst was mentioned; the stock fell 7.3% in a broad intraday decline with peers also dropping sharply.",
+      "read_across": "The similar declines in Hanwha Ocean, Korea Aerospace, HD KSOE and Hanwha Aerospace suggest a sector‑wide selloff affecting Korean defense and aerospace companies.",
+      "look_out": "Watch for upcoming defense contract awards, earnings releases or policy statements that could reverse the pressure.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
