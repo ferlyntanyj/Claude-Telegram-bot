@@ -15681,5 +15681,51 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates, or macro‑economic data that could trigger further moves, as well as any news affecting the electronics contract‑manufacturing industry.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-13T23:18:58.298296+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Australia · ASX",
+    "primary": {
+      "ticker": "MIN.AX",
+      "company": "Mineral Resources",
+      "pct": -6.662592371165365,
+      "last": 45.810001373291016,
+      "prev": 49.08000183105469,
+      "currency": "AUD"
+    },
+    "peers": [
+      {
+        "ticker": "PLS.AX",
+        "company": "PLS Group",
+        "pct": -8.60534040655958
+      },
+      {
+        "ticker": "S32.AX",
+        "company": "South32",
+        "pct": -3.5928202984524593
+      },
+      {
+        "ticker": "600111.SS",
+        "company": "China Northern Rare Earth Group",
+        "pct": 3.5007210161259295
+      },
+      {
+        "ticker": "FMG.AX",
+        "company": "Fortescue",
+        "pct": -2.9150826738344904
+      }
+    ],
+    "analysis": {
+      "business_model": "Mineral Resources is an Australian integrated mining services firm that extracts, processes and markets bulk commodities such as iron ore, lithium and copper.",
+      "sentiment": "Bearish - broad market sell‑off in mining stocks",
+      "why_moved": "No specific catalyst was mentioned; the shares fell sharply intraday, likely reflecting sector‑wide pressure on Australian miners.",
+      "read_across": "The decline mirrors moves in peers like PLS Group and South32, suggesting broader sentiment stress across domestic mining and related supply chains.",
+      "look_out": "Watch upcoming earnings releases, commodity price trends and any macro‑economic data that could trigger further sector rotation.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
