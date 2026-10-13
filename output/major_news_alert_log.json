@@ -15589,5 +15589,51 @@
       "look_out": "Watch for details on the settlement’s impact on Melrose’s cash flow, any further legal disclosures, and upcoming earnings guidance.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-13T11:33:16.951638+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Germany · XETRA",
+    "primary": {
+      "ticker": "IFX.DE",
+      "company": "Infineon Technologies",
+      "pct": -5.045873581219096,
+      "last": 55.88999938964844,
+      "prev": 58.86000061035156,
+      "currency": "EUR"
+    },
+    "peers": [
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": -18.380952380952376
+      },
+      {
+        "ticker": "000660.KS",
+        "company": "SK Hynix",
+        "pct": -14.158239143367046
+      },
+      {
+        "ticker": "2408.TW",
+        "company": "Nanya Technology",
+        "pct": -8.270676691729328
+      },
+      {
+        "ticker": "300223.SZ",
+        "company": "Ingenic Semiconductor",
+        "pct": -6.67007308679497
+      }
+    ],
+    "analysis": {
+      "business_model": "Infineon Technologies designs and manufactures semiconductors, focusing on power management, automotive and industrial applications.",
+      "sentiment": "Bearish - 5% intraday drop without clear catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 5% intraday, likely reflecting broader semiconductor sector weakness.",
+      "read_across": "Peers SK Square, SK Hynix, Nanya and Ingenic also slid sharply, suggesting regional semiconductor sell‑off.",
+      "look_out": "Watch upcoming earnings releases and guidance from major chip makers for direction.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
