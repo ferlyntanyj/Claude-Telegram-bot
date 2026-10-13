@@ -1,27 +1,25 @@
-# US Market Morning Brief -- 12 Oct 2026, 14:14 SGT
+# US Market Morning Brief -- 13 Oct 2026, 14:56 SGT
 
 ## Markets
-- [U.S. Stocks Rise as AI Momentum Builds](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVjh2amtZeXZZbWFMVnVFOWFGaVBQOGtGWU1NVmE1WEhWeWgtakFIdEFzVGlQTDN1cjg3UXdOeVdxVDM2UG5GbGxzMFJCZ2pvT3A3eDZsZW9zcmRsbDlwTHB1QXRFMzFIdXpYNVVnSC1xZ1l2RTRhb19NcnZRbExxY2hxcjk4RnV0?oc=5) — WSJ
-- [Judge orders Trump administration to immediately stop taxpayer-funded TV ads](https://www.cnbc.com/2026/10/11/trump-ads-dhs-judge-order.html) — CNBC Top News
-- [Trump Media advisor Katie Zacharia named White House press secretary](https://www.cnbc.com/2026/10/11/trump-katie-zacharia-white-house-press-secretary.html) — CNBC Top News
-- [Justice Department investigates TV networks as White House press-access fight escalates](https://www.cnbc.com/2026/10/11/trump-doj-white-house-tv-press-pool-antitrust.html) — CNBC Top News
+- [Trump 'not happy' with Kimberly Guilfoyle, weighs firing her as ambassador to Greece](https://www.cnbc.com/2026/10/12/trump-kimberly-guilfoyle-ambassador.html) — CNBC Top News
+- [Meta debuts Muse Wonder AI model in latest test of users' willingness to pay](https://www.cnbc.com/2026/10/12/meta-muse-wonder-ai-model-agent.html) — CNBC Top News
+- [FAA warns U.S. airlines of safety risks over Saudi Arabia after attacks](https://www.cnbc.com/2026/10/12/faa-saudi-arabia-flight-risks.html) — CNBC Top News
+- [Microsoft to rely more on homegrown AI chips, reducing dependence on Nvidia](https://www.cnbc.com/2026/10/12/microsoft-will-mainly-use-its-maia-chips-for-ai-inference.html) — CNBC Top News
 
 ## Macro, Fed & data
-- [US Bond Traders Await CPI, Warsh For Insight on Fed’s Rate Path](https://news.google.com/rss/articles/CBMiswFBVV95cUxPM3lYa092MnRSV0FXYUtRRjVRSHN2akl0ZzM3UWlJcjh6bXNpbVE4dHJQUDM0bS1iWklWekQ0aENwMDRCdWhZbUZMTHFOMmVrZzZzYmFIMG5BamMzSTFfTE0wVjZsWjFBZ2ZQTmFWM0h4NUZkZlVseDlCM05QSFNyczJfdk5BV1IzVmd1NXlnaTdVVnNyOXV0TmxjSW9IRFZWWkEtZlZ1c25jcXU4WXQ1QmRNbw?oc=5) — Bloomberg.com
-- [Trump is failing to arrest decline in popularity, FT poll shows](https://news.google.com/rss/articles/CBMicEFVX3lxTE1YQmFzTTAtcGhoaTIzRFplR29fV2dadzFPa3pJUi1La3hUN0k3Qmd5ZlhKWW90cXBfekhZNER5OXd6Vm80WGI1U2RFd3J3Q1p3OGNzdGFyV0ZBWGc2SS1FRlVCdmJfTWdwV1lmV25qQnk?oc=5) — Financial Times
-- [The bull market is turning 4 years old — but yields could crash the party](https://news.google.com/rss/articles/CBMitAFBVV95cUxQcjA4VGRyQXhXVTlzMTNnQmJqOTBvZHdxOGhJbm1MQVFpSTJSSy1ndHpPa2R1VEF0S0xwOHBMMHl3VGhOYWlJTXhYdHJTekZqejQ4SFJ5RWY2NzdkdlVxUFFOc09Iek0wTmlkQTdxY1RhWjQ1YlZfR3hOcGxOM3FaMkhUNEc1ekVpRDRCS3hhUTF5TEpjTlZ2OE00SlFOMDkwYmhteWNUdnJQSkJwZUpsRE5ybmw?oc=5) — MarketWatch
-- [Bank earnings to shed the first light on how higher yields are affecting the economy](https://news.google.com/rss/articles/CBMixgFBVV95cUxNNUhOYmI2amdlN3dmWWhNQWFEVmNUQTh4YWcydGNTcUJ0ZWRGNllpeUE5OXhtcXgxYzlONkI2QXpld2MwdjYwSWV0WGx3YlVUV3NaT0Zac20xdFc5Qk5yNmoxTmRxOGcyb3BJSWxYZWQtdmdsa1luQUhqU2tiYXZSdjI1UlFBYTBnNHBrX1dQc2p6d0dBTGF2a3RYZ2tTNFU3RldsZzhfaUlGS0pndnBxREktYVdlMmxZTzltbUJqVXhmZHByNnc?oc=5) — MarketWatch
+- [IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen](https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html) — CNBC Economy
+- [Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack](https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html) — CNBC Top News
+- [Global Bond Yields Edge Higher on Slowing Bond Selloff](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXFheWdiVEtRYmd1ZEtRVXBWRzJZS05pR3Vmcm4xXy05SnlxZ0F1ZkNOUjFTMkppSklPMUh4b1NObWE3ZFdad3U2dnJndXhCYm1qRko3LUMyTU5nelExdFV1UnBtRkRxcG82NkdYWnd6N2JHSDBUTGFqMHhaeEdpajFja0tlek5aR191WXFIV01wdHQ5d25MMURSYlZwamk2RFZTeUl6d3Y3MUE?oc=5) — WSJ
+- [US yield surge triggers mortgage hedging, adds to bond market pressure](https://news.google.com/rss/articles/CBMisAFBVV95cUxOSDF3em5PS0NkZ3ZlcnJlQktDOFBTQjlhZmhpYWJ1WHRyRWlyX1dQbTJRd0FqMk52WU1zZGNvVDdJcnNCUFllLUlnUVBPVzREd3VESXpXU1dLWFpZeVQweW1RYUlqRmtfbk1DYVJ2UWt0dDVrcGUtM282UXNyR0IxejBkLWZFdHg0VF9TenZDMUc4bDZldkk0Uk82WVFObDVST2NsWE9wT0RxZF9jY1RVQg?oc=5) — Reuters
 
 ## Stocks & earnings
-- [TMUS Stock Climbs Overnight After Worst Session On Record: Retail Is Buying The Dip](https://news.google.com/rss/articles/CBMinwFBVV95cUxNSkoxUWoyaG82MlZBWlhxN1Nyb0Rob0pCRUsta3U1TFliV3gwNktVUG95TnE5SDB4dzZobjd0UEFDLTZPVTcyNnBvRm9hMktsTW5ydXg2V2k5V0M5SXhpREt2WFRWMTBRcmo3ZXNiS25qSlJPb21QeDFyaFNTQmNVZzRvVXZ6ZllaYnE2N1BmSVh1N3Z4aUJ0TXUtZUxRXzg?oc=5) — Yahoo Finance
-- [SPCX, TSM, APLD, AMZN, TSLA: Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week](https://news.google.com/rss/articles/CBMikgFBVV95cUxQVUVXOWhZVTN4cXNVdHNIOTd3NHNnNFNrdFlwWUNMcjV2S0pOOW1TLWQtQUZ2OU1BSll0QVpwalBxc0xhQlQ3U3NJVFhPcjN2aEMzWktOVUpuYXRFWENmWTZwSmlXMk43ZGZPY3ZpcmVQakdfU2RHWnZ5M3BUR0FOSTJTS29weUNnc0ZmazZXTVE4QQ?oc=5) — Yahoo Finance
-- [US stock futures rise tracking oil price decline; Q3 earnings on tap](https://news.google.com/rss/articles/CBMimwFBVV95cUxNUVdVdTZSZEJNVk5Lc3Jkd3Q3R1djY25jeEd3WW5SQVBuNzUxNmM5a2Q1R1pKZ0NZeWt4Ump4SUxIUlZNTUNxdVphTEdJNUZxWlRmeHNMdmM5U0xLN0FnTUxEYWlPbnh5bnhON0txLUh0VHgtM19aRjA2a3BjOHdwdXI2eGc5cVpEQzdESWx1T0lIc2cyMVh2QmZrMA?oc=5) — Yahoo Finance
-- [Is the stock market open on Columbus Day, Indigenous Peoples' Day?](https://news.google.com/rss/articles/CBMimwFBVV95cUxONy1ZdF81VzgxYXZwQThwT0xwbDlMZkhCX1ZBZ0ozTmNuNDZrcE9sQ0hoSHQwM3VoVDNlX1Ewb01JQkp4Z0x6YmtjaGZtTWZjSElaYWwwWUstdWd6QUJSWEVFRkxZMm1Ja19DenZVWWdkNHE5dlZLY3JCWUFnVVRlYUlzRHE3bFRYbjVpRDV4OFQtX1p4TUlOWmhYTQ?oc=5) — Yahoo Finance
+- [SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off](https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html) — CNBC Top News
+- [Nasdaq falls ahead of earnings, economic data while oil rallies](https://news.google.com/rss/articles/CBMipAFBVV95cUxOck00LVRZX0lQNUw5SGlYU09FOWw1dUVTNjZTQ0p6YklVVUlRSms1eVZRcDd6VjRySF9rOEptM3Nrd19mSURMa1dmbTdIOE1VZjJKdThIR0tabGRTdjBiX0JCWkVndjJFNkZrT0w4NzZ2VWVibjlyeVZHRmszeXRraWRfT0p2SDhSQnFTY3QycG05eHpjQVVLYk9yRF9UYzZ0VmZ6Sw?oc=5) — Reuters
+- [Six Flags shares plunge after-hours following report of deadly roller coaster incident](https://www.cnbc.com/2026/10/13/six-flags-shares-plunge-after-hours-deadly-roller-coaster-incident-goliath-georgia.html) — CNBC Top News
+- [Earnings beats are now the norm. What the stock market needs to keep rallying](https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html) — CNBC Top News
 
 ## Geopolitics
-- [Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine](https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html) — CNBC Top News
-- [Trump says he is 'going to look at' joining Saudi Arabia in the fight against Iran-backed Houthis after deadly airport strike](https://www.cnbc.com/2026/10/11/trump-saudi-arabia-iran-houthis.html) — CNBC Top News
-- [Trump declares 'energy ceasefire' between Russia and Ukraine; Zelenskyy is waiting for details](https://www.cnbc.com/2026/10/11/trump-energy-ceasefire-russia-ukraine-zelenskyy.html) — CNBC Top News
-- [Trump sticks with tariffs even as US voters turn against them before the midterms](https://news.google.com/rss/articles/CBMikgFBVV95cUxNNFBDSzJpbUl2N2QtTDloNXlVMjBXSzJsMWxRbDktaXl5MmxvMm0zUWg2VEEycnlxaThkSE1STTJYSWl2UUQyYTA5UEl1eVZ5ZUFoVmR0eGdGaUVON21TczBSMjZncWg1SFlPTVRpaXA5QnpUWXRtQ2VuUkVlWDV5ZTg4U25FSUxFZmlWUFVYV0tJdw?oc=5) — AP News
+- [Oil prices fall as traders assess Russian diesel supply prospects and Saudi-Houthi conflict](https://www.cnbc.com/2026/10/13/oil-prices-today-brent-wti-hormuz.html) — CNBC Top News
+- [Trump defends Russia diesel deal after bipartisan pushback: 'I made the right choice'](https://www.cnbc.com/2026/10/12/trump-russia-diesel-putin.html) — CNBC Top News
 
-_Sources: Google News + CNBC + Fed feeds (16 headlines, 72h window)._
+_Sources: Google News + CNBC + Fed feeds (14 headlines, 20h window)._
