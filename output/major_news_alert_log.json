@@ -15635,5 +15635,51 @@
       "look_out": "Watch upcoming earnings releases and guidance from major chip makers for direction.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-13T17:06:57.352217+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "FLEX",
+      "company": "Flex Ltd.",
+      "pct": -7.096553946113071,
+      "last": 108.91999816894531,
+      "prev": 117.23999786376953,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "600183.SS",
+        "company": "Shengyi Technology",
+        "pct": -5.854695271476496
+      },
+      {
+        "ticker": "002916.SZ",
+        "company": "Shennan Circuits",
+        "pct": -5.643712198714368
+      },
+      {
+        "ticker": "300433.SZ",
+        "company": "Lens Technology",
+        "pct": -5.426101925558546
+      },
+      {
+        "ticker": "0285.HK",
+        "company": "BYD Electronics",
+        "pct": 4.607048265053582
+      }
+    ],
+    "analysis": {
+      "business_model": "Flex Ltd. is a global contract manufacturer that designs, engineers and produces electronic products for a wide range of customers, earning most revenue from electronics manufacturing services.",
+      "sentiment": "Bearish - significant intraday drop without clear catalyst",
+      "why_moved": "No specific catalyst was disclosed; Flex slid 7.1% on pure price action, likely reflecting broader market or sector pressure.",
+      "read_across": "Peers such as Shengyi Technology, Shennan Circuits, and Lens Technology also fell 5‑6%, suggesting a wider weakness in the electronics manufacturing and supply‑chain sector.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates, or macro‑economic data that could trigger further moves, as well as any news affecting the electronics contract‑manufacturing industry.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
