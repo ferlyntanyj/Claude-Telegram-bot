@@ -15359,5 +15359,51 @@
       "look_out": "Watch for upcoming defense contract awards, earnings releases or policy statements that could reverse the pressure.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-13T06:41:04.113284+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "0126Z0.KS",
+      "company": "Samsung Epis",
+      "pct": -8.66372980910426,
+      "last": 311000.0,
+      "prev": 340500.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "300759.SZ",
+        "company": "Pharmaron Beijing",
+        "pct": -5.9614930606312955
+      },
+      {
+        "ticker": "2269.HK",
+        "company": "WuXi Biologics",
+        "pct": -5.385325521550954
+      },
+      {
+        "ticker": "MRNA",
+        "company": "Moderna",
+        "pct": -5.004442003038189
+      },
+      {
+        "ticker": "002821.SZ",
+        "company": "Asymchem Laboratories (Tianjin)",
+        "pct": -3.405832522927199
+      }
+    ],
+    "analysis": {
+      "business_model": "Samsung Epis provides contract manufacturing and development services for biopharmaceuticals, producing active ingredients and finished drug products for global pharma companies.",
+      "sentiment": "Bearish - sharp intraday sell‑off without clear catalyst",
+      "why_moved": "No specific catalyst was mentioned; the stock fell 8.7% on price action, likely reflecting broader weakness in biotech contract‑manufacturing stocks.",
+      "read_across": "The move mirrors declines in peers such as Pharmaron Beijing, WuXi Biologics, Moderna and Asymchem, suggesting sector‑wide pressure on contract‑manufacturing and biotech firms.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates, or regulatory news that could explain the sector’s momentum and trigger a reversal or further decline.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
