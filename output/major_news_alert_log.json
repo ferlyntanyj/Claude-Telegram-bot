@@ -15763,5 +15763,51 @@
       "look_out": "Watch upcoming earnings releases and any guidance changes from major senior‑housing REITs for confirmation of the trend.",
       "memory": "Similar analyst‑driven spikes have occurred when REITs receive favorable coverage, prompting short‑term price surges."
     }
+  },
+  {
+    "alert_utc": "2026-10-14T17:25:49.737727+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "NTAP",
+      "company": "NetApp",
+      "pct": -6.631518015567018,
+      "last": 223.16000366210938,
+      "prev": 239.00999450683594,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "AKAM",
+        "company": "Akamai Technologies",
+        "pct": -7.615331319034735
+      },
+      {
+        "ticker": "ORCL",
+        "company": "Oracle Corporation",
+        "pct": -7.29398902795012
+      },
+      {
+        "ticker": "PANW",
+        "company": "Palo Alto Networks",
+        "pct": -4.824572157819452
+      },
+      {
+        "ticker": "CRWD",
+        "company": "CrowdStrike",
+        "pct": -3.642657035382091
+      }
+    ],
+    "analysis": {
+      "business_model": "NetApp sells data storage hardware, software and cloud data management solutions, focusing on flash storage and enterprise data services.",
+      "sentiment": "Bearish - significant intraday drop without clear catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 6.6% on price action, reflecting a broad tech‑infrastructure sell‑off.",
+      "read_across": "Similar declines in Akamai, Oracle, Palo Alto Networks and CrowdStrike indicate sector‑wide pressure on infrastructure and cybersecurity firms.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates or analyst revisions that could clarify the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
