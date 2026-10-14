@@ -15727,5 +15727,41 @@
       "look_out": "Watch upcoming earnings releases, commodity price trends and any macro‑economic data that could trigger further sector rotation.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-14T08:08:01.436565+00:00",
+    "type": "single_stock",
+    "headline": "Welltower Inc. Research & Ratings | WELL",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTnppbGpHV2dvRmVfR1g2bGU3X1pDWXBLb3ZnTTdaYTZ2b0w0LTJuaEdDUEhfc3ZjRTNhY085SHZjbXh6REJkNHRjS25oMWFNYmFVaFF2LW5IX3lHV2NtXzl3Wnp2VU5nRE84bEpzX3Bkb0JGNVU5cTE0dUlaLUEyRk1Ub2dnNHFWc2VKeVBZaW9iYzMy?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "WELL",
+      "company": "Welltower",
+      "pct": 6.5097275,
+      "last": 245.2067,
+      "prev": 230.14,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "VTR",
+        "company": "Ventas",
+        "pct": 0.3710767957821881
+      },
+      {
+        "ticker": "DOC",
+        "company": "Healthpeak Properties",
+        "pct": 0.15830489756782917
+      }
+    ],
+    "analysis": {
+      "business_model": "Welltower owns, operates and finances senior housing and post‑acute care properties, earning rent and service fees from residents and providers.",
+      "sentiment": "Bullish - shares rallied on analyst coverage",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped intraday, likely reflecting positive analyst research and sector buying pressure.",
+      "read_across": "Peers Ventas and Healthpeak saw modest gains, suggesting broader investor optimism in the senior‑housing REIT space.",
+      "look_out": "Watch upcoming earnings releases and any guidance changes from major senior‑housing REITs for confirmation of the trend.",
+      "memory": "Similar analyst‑driven spikes have occurred when REITs receive favorable coverage, prompting short‑term price surges."
+    }
   }
 ]

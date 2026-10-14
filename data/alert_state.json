@@ -1026,7 +1026,12 @@
       "last_alert_utc": "2026-10-13T23:18:58.289286+00:00",
       "last_move_pct": -6.662592371165365,
       "last_move_asof": "2026-10-13"
+    },
+    "premarket:WELL": {
+      "last_alert_utc": "2026-10-14T08:08:01.356598+00:00",
+      "last_move_pct": 6.5097275,
+      "last_move_asof": null
     }
   },
-  "last_run_utc": "2026-10-14T07:45:34.474278+00:00"
+  "last_run_utc": "2026-10-14T08:01:01.242402+00:00"
 }
