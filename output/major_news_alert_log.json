@@ -15901,5 +15901,51 @@
       "look_out": "Watch for upcoming earnings, guidance updates or macro data that could confirm if the downward pressure persists.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-15T07:00:41.125036+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "600176.SS",
+      "company": "CHINA JUSHI",
+      "pct": -5.435985456572611,
+      "last": 34.27000045776367,
+      "prev": 36.2400016784668,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "CRH",
+        "company": "CRH plc",
+        "pct": -1.1729503975110744
+      },
+      {
+        "ticker": "1101.TW",
+        "company": "Taiwan Cement",
+        "pct": -0.924214443812188
+      },
+      {
+        "ticker": "VMC",
+        "company": "Vulcan Materials Company",
+        "pct": -0.7267755040102686
+      },
+      {
+        "ticker": "600585.SS",
+        "company": "Anhui Conch Cement",
+        "pct": -0.5131137279942632
+      }
+    ],
+    "analysis": {
+      "business_model": "China Jushi is a leading Chinese cement producer, manufacturing and selling Portland cement, clinker and related building materials primarily for domestic construction projects.",
+      "sentiment": "Bearish - sharp intraday drop without clear catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock slid 5.4% intraday, reflecting a broad sell‑off in the cement sector.",
+      "read_across": "Peers such as CRH, Taiwan Cement and Vulcan also fell, indicating sector‑wide pressure on cement makers worldwide.",
+      "look_out": "Watch for upcoming Chinese construction activity data, policy shifts affecting building demand, or the company’s next earnings release.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
