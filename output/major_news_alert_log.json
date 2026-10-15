@@ -16085,5 +16085,51 @@
       "look_out": "Watch upcoming earnings releases or analyst commentary for Scout24 and broader German market trends.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-15T15:41:26.109890+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "RDDT",
+      "company": "Reddit",
+      "pct": 5.565268286672187,
+      "last": 156.8699951171875,
+      "prev": 148.60000610351562,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "G24.DE",
+        "company": "Scout24",
+        "pct": 7.181565315988214
+      },
+      {
+        "ticker": "9888.HK",
+        "company": "Baidu",
+        "pct": -4.509450871443265
+      },
+      {
+        "ticker": "AUTO.L",
+        "company": "Autotrader Group",
+        "pct": 4.137382935552636
+      },
+      {
+        "ticker": "1024.HK",
+        "company": "Kuaishou",
+        "pct": -3.1842836025783305
+      }
+    ],
+    "analysis": {
+      "business_model": "Reddit operates a social media platform where users create and participate in community forums, monetizing through advertising and a premium membership service.",
+      "sentiment": "Bullish - intraday buying pushes price higher",
+      "why_moved": "No specific catalyst is mentioned; Reddit rose 5.6% intraday on price action alone.",
+      "read_across": "Peers like Scout24 and Autotrader also advanced, indicating broader enthusiasm for online community and marketplace platforms, while Chinese tech stocks fell, reflecting regional divergence.",
+      "look_out": "Watch for Reddit's upcoming earnings or user‑growth reports that could confirm the price move’s sustainability.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
