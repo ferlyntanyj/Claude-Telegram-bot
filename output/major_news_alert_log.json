@@ -15947,5 +15947,51 @@
       "look_out": "Watch for upcoming Chinese construction activity data, policy shifts affecting building demand, or the company’s next earnings release.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-15T09:04:53.075613+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Germany · XETRA",
+    "primary": {
+      "ticker": "IFX.DE",
+      "company": "Infineon Technologies",
+      "pct": -7.9855434341373766,
+      "last": 50.93000030517578,
+      "prev": 55.349998474121094,
+      "currency": "EUR"
+    },
+    "peers": [
+      {
+        "ticker": "000660.KS",
+        "company": "SK Hynix",
+        "pct": -11.064129668780831
+      },
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": -10.2112676056338
+      },
+      {
+        "ticker": "6723.T",
+        "company": "Renesas Electronics Corp.",
+        "pct": -10.002985965959986
+      },
+      {
+        "ticker": "3711.TW",
+        "company": "ASE Group",
+        "pct": -9.906291834002678
+      }
+    ],
+    "analysis": {
+      "business_model": "Infineon designs and manufactures semiconductors, focusing on power, automotive and industrial chips that generate most of its revenue.",
+      "sentiment": "Bearish - significant intraday sell‑off across semiconductor peers",
+      "why_moved": "No specific catalyst is mentioned; the stock fell sharply intraday, mirroring a broader drop in related semiconductor stocks.",
+      "read_across": "The similar steep declines in SK Hynix, SK Square, Renesas and ASE suggest sector‑wide pressure on semiconductor makers and supply‑chain concerns.",
+      "look_out": "Watch for any upcoming earnings releases, guidance updates, or macro‑economic data that could explain the sector sell‑off.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
