@@ -15809,5 +15809,51 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates or analyst revisions that could clarify the move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-15T00:47:40.799894+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "402340.KS",
+      "company": "SK Square",
+      "pct": -7.68779342723005,
+      "last": 786500.0,
+      "prev": 852000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "000660.KS",
+        "company": "SK Hynix",
+        "pct": -7.188160676532773
+      },
+      {
+        "ticker": "688008.SS",
+        "company": "Montage Technology",
+        "pct": -5.952380854084282
+      },
+      {
+        "ticker": "6723.T",
+        "company": "Renesas Electronics Corp.",
+        "pct": -5.5538966855777865
+      },
+      {
+        "ticker": "688256.SS",
+        "company": "Cambricon Technologies",
+        "pct": -4.863336102705629
+      }
+    ],
+    "analysis": {
+      "business_model": "SK Square operates a fintech platform that provides payment processing, digital wallet services, and financial technology solutions for merchants and consumers in South Korea.",
+      "sentiment": "Bearish - sharp decline without any disclosed catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 7.7% on intraday price action alone, likely reflecting broader market or sector pressure.",
+      "read_across": "Similar drops in SK Hynix, Montage Technology, Renesas and Cambricon suggest a wider sell‑off across Asian technology and semiconductor‑related equities.",
+      "look_out": "Monitor upcoming earnings releases, guidance updates, or regulatory developments that could explain the sell‑off and drive a reversal.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
