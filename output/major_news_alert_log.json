@@ -15855,5 +15855,51 @@
       "look_out": "Monitor upcoming earnings releases, guidance updates, or regulatory developments that could explain the sell‑off and drive a reversal.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-15T05:56:46.690410+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6723.T",
+      "company": "Renesas Electronics Corp.",
+      "pct": -8.360704687966559,
+      "last": 3069.0,
+      "prev": 3349.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "000660.KS",
+        "company": "SK Hynix",
+        "pct": -10.077519379844958
+      },
+      {
+        "ticker": "3711.TW",
+        "company": "ASE Group",
+        "pct": -9.504685408299862
+      },
+      {
+        "ticker": "MRVL",
+        "company": "Marvell Technology",
+        "pct": -8.726234975007795
+      },
+      {
+        "ticker": "402340.KS",
+        "company": "SK Square",
+        "pct": -8.685446009389675
+      }
+    ],
+    "analysis": {
+      "business_model": "Renesas Electronics designs and manufactures microcontrollers, system‑on‑chips and analog semiconductors for automotive, industrial and consumer electronics.",
+      "sentiment": "Bearish - steep intraday selloff without clear catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock dropped sharply on intraday market pressure, mirroring a broader sector‑wide selloff.",
+      "read_across": "The parallel declines in SK Hynix, ASE Group, Marvell and SK Square indicate wider weakness in the semiconductor supply chain and peer valuations.",
+      "look_out": "Watch for upcoming earnings, guidance updates or macro data that could confirm if the downward pressure persists.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
