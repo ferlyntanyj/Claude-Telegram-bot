@@ -16223,5 +16223,51 @@
       "look_out": "Watch upcoming earnings releases, regulatory filings for biosimilar approvals, and any macro biotech sentiment shifts that could sustain or reverse the rally.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-16T10:33:17.812685+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Germany · XETRA",
+    "primary": {
+      "ticker": "RHM.DE",
+      "company": "Rheinmetall",
+      "pct": 5.146203589485876,
+      "last": 1078.800048828125,
+      "prev": 1026.0,
+      "currency": "EUR"
+    },
+    "peers": [
+      {
+        "ticker": "012450.KS",
+        "company": "Hanwha Aerospace",
+        "pct": 7.7669902912621325
+      },
+      {
+        "ticker": "272210.KS",
+        "company": "Hanwha Systems",
+        "pct": 5.193075898801602
+      },
+      {
+        "ticker": "079550.KS",
+        "company": "LIG Nex1",
+        "pct": 4.3636363636363695
+      },
+      {
+        "ticker": "042660.KS",
+        "company": "Hanwha Ocean",
+        "pct": 4.166666666666674
+      }
+    ],
+    "analysis": {
+      "business_model": "Rheinmetall is a German defense company that designs and manufactures weapons, military vehicles and ammunition, and also supplies automotive components.",
+      "sentiment": "Bullish - price rise on market momentum, no news",
+      "why_moved": "No specific catalyst is stated; the stock jumped 5.1% on pure price action amid broader sector moves.",
+      "read_across": "The rally mirrors gains in Korean defence peers, suggesting a broader defence‑sector buying wave or investor rotation into similar stocks.",
+      "look_out": "Watch for upcoming defence procurement news, earnings releases or guidance updates that could confirm the price move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
