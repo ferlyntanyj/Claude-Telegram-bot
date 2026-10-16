@@ -1,21 +1,15 @@
-# Global Semiconductor Brief -- 15 Oct 2026, 23:15 SGT
-
-## Policy & geopolitics
-- [EU seeks China deal to lift ASML supplier sanctions amid rare-earth crisis](https://www.digitimes.com/news/a20261015PD246/eu-asml-russia-business-beijing.html) — DIGITIMES
-- [EU negotiates sanction swap with China to rescue critical ASML supplier — German coatings firm faces shutdown without Chinese rare earths](https://news.google.com/rss/articles/CBMingJBVV95cUxNMlppQ2IxaVpXWjQ3WUhzUjFQdVZkOXh6WjJ5SXA1aThzSzNnODhPM3hOQ3BhYW1fQldiSUcxSmZDYzRnT1hjb212czZfOGliaEVYQWl4NS00NjJhMWdlNTlVUm9GeXEzQ2RkeEU5anZNRzZwdUtWWmJ3WTZHQXdXM0NCRnAzY1RCYk0xMVdkQWFIMWxmbFBzM0pkT3JWQi1OYXpwd3lYX1dYTV9yai1LNVNzbldLaC1sYmJKQk1XVTlJR25JSE1zUExLVl9icFlTUmZiYVNQQnd6OU5wNlc5eDF3aXMxODdNTnBwcW1JaTR6V1E2Nno1QzJSbEl3VHh4d3BJd21lYUszeDh5ay13TEhMSnhnaFpkQlE1N3F3?oc=5) — Tom's Hardware
-- [EU negotiates sanction swap with China to rescue critical ASML supplier](https://www.tomshardware.com/tech-industry/semiconductors/eu-negotiates-sanction-swap-with-china-to-rescue-critical-asml-supplier-german-coatings-firm-faces-shutdown-without-chinese-rare-earths) — Tom's Hardware
-- [Column: 3D memory could redraw chip competition, weaken US sanctions on China](https://www.digitimes.com/news/a20261014PD245/3d-2022-nand-dram-competition.html) — DIGITIMES
+# Global Semiconductor Brief -- 16 Oct 2026, 12:51 SGT
 
 ## Supply chain signals
-- [TSMC bars capacity resale, aims to leave no AI money on the table](https://www.digitimes.com/news/a20261015PD244/tsmc-capacity-demand-wafer-technology.html) — DIGITIMES
-- [TSMC CEO says profitability has no ceiling, plans High-NA EUV adoption in 2030](https://www.digitimes.com/news/a20261015PD240/tsmc-high-na-euv-adoption-2030.html) — DIGITIMES
-- [SK Hynix reportedly ties US NAND fab plan to approval for chip equipment exports to China](https://www.digitimes.com/news/a20261015VL222/sk-hynix-equipment-nand-exports-solidigm.html) — DIGITIMES
-- [Applied Materials CEO says agentic AI drives wafer demand](https://www.digitimes.com/news/a20261015PD231/applied-materials-demand-wafer-ceo-equipment.html) — DIGITIMES
+- [Charts: YMTC bets on premium eSSDs to take on Samsung](https://www.digitimes.com/news/a20261016PD206/demand-nand-market-ymtc-samsung.html) — DIGITIMES
+- [China's chip earnings boom masks a widening gap between AI processor demand, fading DRAM, NAND price gains](https://www.digitimes.com/news/a20261016VL209/demand-earnings-price-dram-profit.html) — DIGITIMES
+- [Nvidia-backed CoreWeave bond spike highlights debt risks in the AI infrastructure boom](https://www.digitimes.com/news/a20261016VL208/infrastructure-market-nvidia-demand-business.html) — DIGITIMES
+- [Samsung's India chip research arm opens quantum lab at IISc](https://www.digitimes.com/news/a20261016VL204/samsung-india-quantum-workforce.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [US chip stocks set to wipe out $2 trillion after latest selloff](https://news.google.com/rss/articles/CBMipwFBVV95cUxNVDZEYU5ySFdLYUlmY29XeGxBbzZ1Nk92dHprTE44dzd5V19Yd09NdmUxUFpXMHhxdzYwenJiUjJQRFhPOXhBcHptTW9rY2J2Y01kM1loR3VQMVBXRG9mR2hQbkdWVnNGQVpCN01KelozT1h4aGx0RjRYeUZHRVRCYnlLWlpXWmpwbFRmRG4tSFR1RkNpRHNTb0lueU1VdWlpSjVFVGljZw?oc=5) — Reuters
-- [Why there’s an ‘extremely fierce’ battle for TSMC's limited chip manufacturing capacity](https://news.google.com/rss/articles/CBMipgFBVV95cUxOM1JWVlV1cHBxMXFDSVdYV3Z1bmpESng4cHpGV0duTG1MVWtRTC1SSHZTRUpHcFNrM3pFdmxzRGFmZWZvQ1lJWXRwaVBST2hJbkRjVHM3Vmc5RFNoekRiUF9QMXNpclpqdjBhbHAyWV9OaVpJZHFtVnpUSGN6Mm5oU0t2Z2VTU0VmRVBFWWZ6UTZ4Q3hkU1BoekIzRElLakNQcVhjdmpn?oc=5) — CNBC
-- [Chipmaker TSMC profits surge amid relentless AI demand](https://news.google.com/rss/articles/CBMihAFBVV95cUxPS3dVb21CbHNmNVNOLUI1aXJGRGoyRWtsSEs0bDMwbi13YkVYMUVacDRtZXRnYXowSXhTLV9lN3hZeFgzUUI0UVRjNUhjTXJxbTVjMHZLV1NRUjhuQ1VjdmdpUkxqMWUwU3FwNzBjZ2x3XzZReVhXekdiQkJDX1p4cEY2ZnU?oc=5) — Financial Times
-- [Nvidia Stock Slips as the Chip Leader Can’t Escape the AI Selloff](https://news.google.com/rss/articles/CBMic0FVX3lxTFA5QUx6M3FGYWk0Sng4U3NGRW1tVGhpYmZic2pXTm03VHZ2ZEp6a215OFdVaXVETDFMVWtYZUtrbXNlVVdvT05CcDVaaE5uUWpUdEhjMFBFWm1TcUZHYWp5UUZubTdSMlR1ZnNuaUxuQVpwQ2c?oc=5) — Barron's
+- [Chip-Machine Supplier ASML Boosts Guidance for Third Time on Surging AI Demand](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWHp0Zks1SnAwS1Y3RWhMSHNRUlVtTGJhb3duY1o0NWFycWQyUkNad2NIMm01aUlUM1lVX1lSS0lNYzQtVnBWTGZlc3RvcDZYQzUzNGRqZFRWOVNUSDJ1MVRnR19nZ280Tl80eERkdXJydU9DakFsbUVYYlIybnh4ZUY0YmJnV1lVTmhFRHZKNjlSR3o4S3lfeVc3akVEUm5vRnpodTZCUFB6MDExeXhyRWRmQXItVzlFVzBxTkJyMWtQV28?oc=5) — WSJ
+- [Analysis: TSMC-GF deal moves mature nodes into AI packaging: What it means for China](https://www.digitimes.com/news/a20261016PD220/capacity-globalfoundries-packaging-tsmc-wafer.html) — DIGITIMES
+- [BOE's 24-layer glass substrates reach AI chip packaging trials, with mass production still ahead](https://www.digitimes.com/news/a20261016PD228/boe-packaging-production-display-ai-chip.html) — DIGITIMES
+- [[News] Samsung May End UMC’s Galaxy DDI Exclusivity by Adding GlobalFoundries as Mature-Node Capacity Tightens](https://news.google.com/rss/articles/CBMi5gFBVV95cUxQOF82akVzVFNwS3ExTWpValNaVHUtY2J0Wlp4T0tHa2w1ejRUXzlIUWU5Q0VIREVuOTRxZDlVbFVCMlh5VnJRMklmZGNzRmV6Vjk1cWlwSmpwU3RrZFg1NFdvVDlBUFRvWlp2V253eUpFUnJlRWdKS01tMG5qdFBNYTNRMkRPYlRnYV9VSHg2NWJUemNTd3dicnNyTHR0QmNVa0NnZjhwbThZdzJUYVZYQnVTZTcxN1ZPVGdIMGJzRDJmV0dJWHNTS1ZHcGtiZ0RLVzhxaGFpc0FsUUlCbHJOTElFQUlsQQ?oc=5) — TrendForce
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (12 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
