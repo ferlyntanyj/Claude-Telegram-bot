@@ -16131,5 +16131,51 @@
       "look_out": "Watch for Reddit's upcoming earnings or user‑growth reports that could confirm the price move’s sustainability.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-16T04:09:14.079394+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "1024.HK",
+      "company": "Kuaishou",
+      "pct": 5.528341245359858,
+      "last": 30.15999984741211,
+      "prev": 28.579999923706055,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "RDDT",
+        "company": "Reddit",
+        "pct": 7.240911214593404
+      },
+      {
+        "ticker": "035420.KS",
+        "company": "Naver",
+        "pct": 5.241935483870974
+      },
+      {
+        "ticker": "035720.KS",
+        "company": "Kakao",
+        "pct": 4.8387096774193505
+      },
+      {
+        "ticker": "CAR.AX",
+        "company": "CAR Group",
+        "pct": 3.611836119407008
+      }
+    ],
+    "analysis": {
+      "business_model": "Kuaishou operates a short‑video and live‑streaming platform in China, monetizing through advertising, virtual gifting and e‑commerce services.",
+      "sentiment": "Bullish - sector momentum lifts short video stocks",
+      "why_moved": "No specific catalyst is mentioned; Kuaishou rose 5.5% intraday on price action.",
+      "read_across": "Similar gains in Reddit, Naver, Kakao and CAR Group suggest a broader tech‑media rally across peers.",
+      "look_out": "Watch upcoming earnings releases in the short‑form video sector for confirmation of the trend.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
