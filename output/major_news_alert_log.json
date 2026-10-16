@@ -16315,5 +16315,51 @@
       "look_out": "Watch for the company’s upcoming earnings release or any detailed AI‑security roadmap that could clarify the speed‑up promise.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-16T16:40:03.686770+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "HPE",
+      "company": "Hewlett Packard Enterprise",
+      "pct": -5.57735015894788,
+      "last": 55.36000061035156,
+      "prev": 58.630001068115234,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300308.SZ",
+        "company": "Zhongji Innolight",
+        "pct": -5.189785063590547
+      },
+      {
+        "ticker": "2345.TW",
+        "company": "Accton",
+        "pct": -4.878048780487809
+      },
+      {
+        "ticker": "CIEN",
+        "company": "Ciena",
+        "pct": -4.874894788737327
+      },
+      {
+        "ticker": "LITE",
+        "company": "Lumentum",
+        "pct": -3.9768103742781724
+      }
+    ],
+    "analysis": {
+      "business_model": "Hewlett Packard Enterprise provides enterprise‑grade IT infrastructure, focusing on hybrid‑cloud solutions, servers, storage, and networking services for large businesses.",
+      "sentiment": "Bearish - sharp intraday decline without news",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 5.6% on price action alone, reflecting broader sector weakness.",
+      "read_across": "The similar declines in peers such as Zhongji Innolight, Accton, Ciena and Lumentum suggest a broader pullback in the networking and telecom equipment market.",
+      "look_out": "Watch for HPE's upcoming earnings or guidance releases, and any sector‑wide news that could explain the sell‑off.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
