@@ -16177,5 +16177,51 @@
       "look_out": "Watch upcoming earnings releases in the short‑form video sector for confirmation of the trend.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-16T06:17:48.248390+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "068270.KS",
+      "company": "Celltrion",
+      "pct": 7.029104887424498,
+      "last": 194900.0,
+      "prev": 182100.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "0126Z0.KS",
+        "company": "Samsung Epis",
+        "pct": 10.163934426229515
+      },
+      {
+        "ticker": "207940.KS",
+        "company": "Samsung Biologics",
+        "pct": 6.976744186046502
+      },
+      {
+        "ticker": "MRNA",
+        "company": "Moderna",
+        "pct": 4.5072897970351855
+      },
+      {
+        "ticker": "CSL.AX",
+        "company": "CSL",
+        "pct": 2.8357427634231325
+      }
+    ],
+    "analysis": {
+      "business_model": "Celltrion is a South Korean biopharma firm that develops and sells biosimilar drugs and other biologics, generating revenue mainly from product sales and licensing.",
+      "sentiment": "Bullish - strong intraday buying on market momentum",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 7% on pure price action, likely driven by broader biotech buying and peer rally.",
+      "read_across": "The simultaneous gains in Samsung Epis, Samsung Biologics, Moderna and CSL suggest a sector‑wide bullish flow in biotech and biosimilar stocks, both domestically and internationally.",
+      "look_out": "Watch upcoming earnings releases, regulatory filings for biosimilar approvals, and any macro biotech sentiment shifts that could sustain or reverse the rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
