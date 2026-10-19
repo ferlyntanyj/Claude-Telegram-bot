@@ -16775,5 +16775,51 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates, or macroeconomic data that could confirm or reverse the current momentum.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-19T07:18:01.520081+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Indonesia · IDX",
+    "primary": {
+      "ticker": "BBRI.JK",
+      "company": "Bank Rakyat Indonesia (Persero) Tbk.",
+      "pct": -6.818181818181824,
+      "last": 2460.0,
+      "prev": 2640.0,
+      "currency": "IDR"
+    },
+    "peers": [
+      {
+        "ticker": "BBCA.JK",
+        "company": "Bank Central Asia Tbk.",
+        "pct": -6.859903381642507
+      },
+      {
+        "ticker": "VPB.VN",
+        "company": "VPBank",
+        "pct": -3.6734693877551017
+      },
+      {
+        "ticker": "BBNI.JK",
+        "company": "Bank Negara Indonesia (Persero) Tbk.",
+        "pct": -3.367003367003363
+      },
+      {
+        "ticker": "601658.SS",
+        "company": "Postal Savings Bank of China",
+        "pct": 3.0852920579875542
+      }
+    ],
+    "analysis": {
+      "business_model": "Bank Rakyat Indonesia (BRI) is Indonesia's largest retail bank, focusing on micro‑finance, savings deposits and loans to small‑ and medium‑size enterprises.",
+      "sentiment": "Bearish - shares dropped sharply without a disclosed catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock slid 6.8% amid a broader sell‑off of Indonesian banks evident from peer declines.",
+      "read_across": "The simultaneous drops in BBCA, VPB, and BBNI suggest sector‑wide pressure on regional banking stocks, while the rise in China's Postal Savings Bank shows divergent moves in Asian financial institutions.",
+      "look_out": "Watch for upcoming macroeconomic data, central‑bank policy signals, or any earnings/ guidance releases that could reverse or deepen the sell‑off.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
