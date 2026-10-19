@@ -16867,5 +16867,51 @@
       "look_out": "Watch for Marvell’s upcoming earnings or guidance releases and any macro‑data on chip demand that could confirm or reverse the current rally.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-19T18:48:05.318107+00:00",
+    "type": "single_stock",
+    "headline": "Calls of the Day: Cleveland-Cliffs and Datadog",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN1BETThfS1JleGFEODM5TGNIdE5lNW9mbllVVUQ3WU4wMWtFdDVtZjJ3RUZwTUNvSUZxWENqa2tFWFI0bnEtbWJldEUzeC1fZzAyaTZLeDh4R0NWc1hXdm9SU1JKLWVtZzJMamZLblBkRnpaZy1yR2RiNjBoNVBZTmJwMTlrMHRFYThWbA?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "DDOG",
+      "company": "Datadog",
+      "pct": 6.321075770869555,
+      "last": 262.7300109863281,
+      "prev": 247.11000061035156,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "XRO.AX",
+        "company": "Xero",
+        "pct": -2.379027672637124
+      },
+      {
+        "ticker": "NOW",
+        "company": "ServiceNow",
+        "pct": 2.2892160118725524
+      },
+      {
+        "ticker": "CDNS",
+        "company": "Cadence Design Systems",
+        "pct": 2.075053888820544
+      },
+      {
+        "ticker": "TNE.AX",
+        "company": "TechnologyOne",
+        "pct": -1.911628371258156
+      }
+    ],
+    "analysis": {
+      "business_model": "Datadog provides a SaaS platform for cloud‑based monitoring, security and analytics of IT infrastructure and applications.",
+      "sentiment": "Bullish - investors reacting to positive momentum in tech sector",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 6.3% on intraday buying pressure, likely reflecting broader tech enthusiasm.",
+      "read_across": "While Datadog surged, peers showed mixed moves (ServiceNow and Cadence up, Xero and TechnologyOne down), suggesting divergent reactions within the cloud‑software space.",
+      "look_out": "Watch for Datadog's upcoming earnings release or any guidance updates that could confirm the rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
