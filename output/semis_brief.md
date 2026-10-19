@@ -1,15 +1,15 @@
-# Global Semiconductor Brief -- 19 Oct 2026, 13:06 SGT
+# Global Semiconductor Brief -- 20 Oct 2026, 01:06 SGT
 
 ## Supply chain signals
-- [Exclusive: Wooptix targets leading chipmakers with wafer metrology technology, eyes production adoption within 3-5 years](https://www.digitimes.com/news/a20261019PD220/interview-wafer-metrology-startup-adoption-spain.html) — DIGITIMES
-- [Terafab exposes Tesla's growing tensions with Samsung and TSMC](https://www.digitimes.com/news/a20261019PD222/tesla-samsung-tsmc-production-fab.html) — DIGITIMES
-- [Interview: Zeiss SMO president says High-NA EUV ready for mass production, orders booked through 2027](https://www.digitimes.com/news/a20261019PD219/demand-production-president-2027-high-na-euv.html) — DIGITIMES
-- [SK Hynix advances chip inspection technology as 3D memory pushes conventional metrology to its limits](https://www.digitimes.com/news/a20261019PD223/inspection-metrology-3d-technology-wafer.html) — DIGITIMES
+- [OCP 2026 shifts AI competition from chips to rack-scale systems](https://www.digitimes.com/news/a20261019PD241/ocp-2026-chips-infrastructure-competition-cooling.html) — DIGITIMES
+- [Solution Finders Part 2 of 2: TSMC's first CTO said no to Intel twice but still wonders what if](https://www.digitimes.com/news/a20261019PD218/intel-taiwan-academia-sinica-tsmc-electronics.html) — DIGITIMES
+- [Elon Musk points to China's 2028 DRAM supply surge to challenge Samsung, SK Hynix pricing power](https://www.digitimes.com/news/a20261019VL210/elon-musk-dram-tesla-2028-samsung.html) — DIGITIMES
+- [Solution Finders Part 1 of 2: the DARPA challenge behind TSMC's success](https://www.digitimes.com/news/a20261019PD236/tsmc-launch-finfet-technology-patent.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports](https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLVd3RU5QdzNwZHd0cUNCbUQxM3B6M2JOTXZZbEE4b3Y4czkxSjBuNklIRXU2S1VyRld6WTlRQUdlZkN3TGNRcng5cjR6ZEViNXNqcHh2RnlRU2hWVXRPUVFjVXRvd2FaaTVkd002aUk4WHlEQ2wxTGk3alF5S0FUTGNMUXF2dV9QUjk4eThjcWVPaVBLYzc2c0NUaUN4UUVMcVZTSERiMDE5VXp0NDdoVFpuS2E0TGZoUnBrRTExcnZDRlJia1VNcU40SUxQcE1y?oc=5) — Reuters
-- [[News] NVIDIA Reportedly Pushes TSMC 3nm NVHBM Base Dies for Samsung, SK hynix, Micron, Uniting Foundry Rivals](https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdWc0aFpWb0cxaFdWRi14V2NsbzlzRUtJaXVqcEYtWmxyN1h6aGxCX2VJakZxT2FjQlhDdDhoUjZ3bG01QV9sR1lZbUR2TldyVnB0NGxPZ2lma2tTVEoyVGVZaGxHWC1ZaVlueVNXai0yaDVWdHlDaVZ6MWduQW5La1BYOU5aaEJQeDZJM3NEZnNsZHZwZnA2LTJQQUw0SExteU16MzZfdjN1Y21QVXpFVWlJVnBkMUJIY25jbGZyNEZCOGVkVVEzZnZDTkE2ckRaNkN6bEUwVThIazlfNzdXWmlGQnJUV1Nk?oc=5) — TrendForce
-- [Hanmi targets 2027 Wide TC Bonder launch, expands 2.5D AI chip packaging lineup](https://www.digitimes.com/news/a20261019PD215/equipment-packaging-hanmi-ai-chip-hbm.html) — DIGITIMES
-- [Malaysia unveils six locally designed chips, but commercial adoption is the real test](https://www.digitimes.com/news/a20261019VL205/chips-commercial-adoption-sales-government.html) — DIGITIMES
+- [Amazon says its AI chips will work with popular coding language, challenging Nvidia](https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUGVNVWtyU1BHU0pGZFJTZk9RV3NHOXBoSHVqaHVEeXN1TEJveTNIVzQ4eGkxZ2RWbER1clItSk16ODNaVnBFbWhKamR1RURGdG90X3F0ZEF2bko3SW5mUGxjZzBKVm50UFI5eUp2ampsV08ySWlMUEZyQmRUd1M1NF91UGJoZWxiVmR5NGRCMmNNM0V2R3pLMVhBT05EbmRjY0dxMXlSNklIVE9xeG5DQWNPcjVXY1ZBRTBrVU9RMTNPaVJOUHpjS2RrZ3huLXlZa2c?oc=5) — Reuters
+- [US chip stocks rise after steepest weekly selloff in months](https://news.google.com/rss/articles/CBMisAFBVV95cUxQQnRpUlhFSVItYXlyM2JtRDAxZFNzc1owV1VBSFM4VERhS3dYOW1wVWtOeERTaDRrWlZyQVJTVVdvNFktdG5oSGpjY0ZwY1hBbnllN2d6Qkg4aExFcWdNT3F3dWlxdTFtbU92WV9WTC1NVEw0QmlWb201cXB6NGJCajVtbmZjYnJ4MWZ3TDZYR1l3ZmZFRFJORzhlNE1Yb0QtNDlyc3ZnY2tuenV1OFgwVQ?oc=5) — Reuters
+- [Qualcomm Wins Key Claims Against Arm, but Damages Total Just $2](https://news.google.com/rss/articles/CBMijwFBVV95cUxOY2Nlb1gyTzBvZUlQNFcwb19DQ0ppcExEZ3lqQlViemQ4M3ZYNWVQUU5iUkd6N3hRemRsUmdWQ1BkWXp1UnNhVHBIeXZfYmhYb3hGMDdMUmFWNHM1NnM1N0VhZ0NjelFzWlNxYUY2aFZkTE5NT3JENFFxWWN3LWhXQkpLR2x2TFJzcDJTNTNPSQ?oc=5) — EE Times
+- [Nvidia, Intel, Micron, Monolithic Power Are Buys Ahead of Tech Earnings.](https://news.google.com/rss/articles/CBMijAFBVV95cUxNOUdZbkIzLXZ5YW0wMkVnUjFGR09FSERGOTRJUXI4Ql9aR1lWRmZwMXZYYzVqamNsSmR2VDdnMV9faFJrTXhKd3dYT20wemE3d0FUNWlvSENUVTdrSS1SazRFdnh3WU5vWkxVQU0xcDk5ajlrcjc5YmlpWk5FMWY1MWdBbEx2VVMxLWZfaA?oc=5) — Barron's
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 62h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
