@@ -16545,5 +16545,51 @@
       "look_out": "Watch upcoming earnings releases or guidance updates from these equipment makers and any macro data on chip demand.",
       "memory": "Sector‑wide equipment sell‑offs have recurred during demand downturns, leading to temporary price declines before recovery."
     }
+  },
+  {
+    "alert_utc": "2026-10-19T03:05:47.995660+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "2408.TW",
+      "company": "Nanya Technology",
+      "pct": -5.698324022346368,
+      "last": 422.0,
+      "prev": 447.5,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "pct": -5.954855064974762
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": -5.787987955844709
+      },
+      {
+        "ticker": "MU",
+        "company": "Micron Technology",
+        "pct": -5.626902187235128
+      },
+      {
+        "ticker": "MRVL",
+        "company": "Marvell Technology",
+        "pct": -5.5587810299935425
+      }
+    ],
+    "analysis": {
+      "business_model": "Nanya Technology manufactures and sells DRAM memory chips for computers and mobile devices.",
+      "sentiment": "Bearish - price fell sharply with no disclosed catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock slipped 5.7% amid a broader sell‑off in semiconductor peers.",
+      "read_across": "The similar declines in AMD, Intel, Micron and Marvell suggest sector‑wide pressure on chip makers.",
+      "look_out": "Watch upcoming earnings reports or macro‑economic data that could confirm or reverse the current sell‑off.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
