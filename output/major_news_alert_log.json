@@ -16591,5 +16591,97 @@
       "look_out": "Watch upcoming earnings reports or macro‑economic data that could confirm or reverse the current sell‑off.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-19T03:36:08.132817+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "0992.HK",
+      "company": "Lenovo",
+      "pct": 8.006158430928934,
+      "last": 28.059999465942383,
+      "prev": 25.979999542236328,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "SMCI",
+        "company": "Supermicro",
+        "pct": -9.860361860289457
+      },
+      {
+        "ticker": "STX",
+        "company": "Seagate Technology",
+        "pct": -7.498442115203341
+      },
+      {
+        "ticker": "P",
+        "company": "Everpure",
+        "pct": -7.038974655081576
+      },
+      {
+        "ticker": "WDC",
+        "company": "Western Digital",
+        "pct": -6.859310245395733
+      }
+    ],
+    "analysis": {
+      "business_model": "Lenovo designs, manufactures and sells personal computers, smartphones, servers and data‑center solutions, earning most revenue from PC and enterprise hardware sales.",
+      "sentiment": "Bullish - strong intraday buying lifts Lenovo",
+      "why_moved": "No specific catalyst is stated; the stock jumped 8% on price action alone, while peers fell, suggesting a sector‑specific flow into Lenovo.",
+      "read_across": "Lenovo's rise against falling peers like Supermicro and Western Digital may indicate investors are rotating into companies with stronger PC or data‑center exposure, hinting at divergent views on the broader hardware sector.",
+      "look_out": "Watch for Lenovo's upcoming earnings release, guidance updates, or any news on product launches that could confirm whether the rally has fundamentals behind it.",
+      "memory": "Lenovo has previously experienced sharp intraday gains during new product launch cycles, which later moderated after earnings clarified performance."
+    }
+  },
+  {
+    "alert_utc": "2026-10-19T03:36:08.132832+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Indonesia · IDX",
+    "primary": {
+      "ticker": "TLKM.JK",
+      "company": "Telkom Indonesia (Persero) Tbk.",
+      "pct": -6.842105263157894,
+      "last": 1770.0,
+      "prev": 1900.0,
+      "currency": "IDR"
+    },
+    "peers": [
+      {
+        "ticker": "9984.T",
+        "company": "Softbank Group Corp.",
+        "pct": -4.915048543689315
+      },
+      {
+        "ticker": "6947.KL",
+        "company": "CELCOMDIGI BERHAD",
+        "pct": -1.960782480441492
+      },
+      {
+        "ticker": "601698.SS",
+        "company": "China Satellite Communications",
+        "pct": 1.8610977513979332
+      },
+      {
+        "ticker": "600050.SS",
+        "company": "China United Network Communications",
+        "pct": 1.8264822286715
+      }
+    ],
+    "analysis": {
+      "business_model": "Telkom Indonesia provides fixed‑line, mobile, and broadband telecommunications services across Indonesia, generating revenue mainly from voice, data, and internet subscriptions.",
+      "sentiment": "Bearish - sharp intraday selloff lacking clear catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 6.8% on intraday selling pressure, reflecting broader sector weakness.",
+      "read_across": "The move aligns with regional telecom weakness, as peers Softbank and CelcomDigi also declined, suggesting sector‑wide sentiment pressure.",
+      "look_out": "Watch for Telkom's upcoming earnings release or any regulatory announcements that could affect the stock.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
