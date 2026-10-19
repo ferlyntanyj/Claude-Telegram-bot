@@ -16821,5 +16821,51 @@
       "look_out": "Watch for upcoming macroeconomic data, central‑bank policy signals, or any earnings/ guidance releases that could reverse or deepen the sell‑off.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-19T15:35:48.256247+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "MRVL",
+      "company": "Marvell Technology",
+      "pct": 7.3826940834168076,
+      "last": 244.64999389648438,
+      "prev": 227.8300018310547,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": 5.67612527627368
+      },
+      {
+        "ticker": "MU",
+        "company": "Micron Technology",
+        "pct": 5.185237915495722
+      },
+      {
+        "ticker": "MPWR",
+        "company": "Monolithic Power Systems",
+        "pct": 4.789984036276507
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "pct": 4.347988696808502
+      }
+    ],
+    "analysis": {
+      "business_model": "Marvell Technology designs and sells semiconductor chips for data‑center networking, storage and compute infrastructure, licensing its silicon IP to OEMs.",
+      "sentiment": "Neutral - price jump likely reflects broader semiconductor momentum",
+      "why_moved": "No specific catalyst is mentioned; the stock surged on pure price action and sector‑wide buying pressure.",
+      "read_across": "The similar gains in Intel, Micron, Monolithic Power and AMD suggest a wide‑range rally across the semiconductor industry, likely driven by investor optimism on the sector’s supply‑chain outlook.",
+      "look_out": "Watch for Marvell’s upcoming earnings or guidance releases and any macro‑data on chip demand that could confirm or reverse the current rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
