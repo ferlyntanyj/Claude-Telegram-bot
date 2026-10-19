@@ -16499,5 +16499,51 @@
       "look_out": "Watch for upcoming earnings releases or any regulatory/defense procurement news that could explain the recent selloff.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-19T01:04:15.064022+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6920.T",
+      "company": "Lasertec Corp.",
+      "pct": -5.16990291262136,
+      "last": 39070.0,
+      "prev": 41200.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "TER",
+        "company": "Teradyne",
+        "pct": -5.305787100741089
+      },
+      {
+        "ticker": "KLAC",
+        "company": "KLA Corporation",
+        "pct": -4.998280915467834
+      },
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research",
+        "pct": -4.87277064443391
+      },
+      {
+        "ticker": "AMAT",
+        "company": "Applied Materials",
+        "pct": -4.818492767644289
+      }
+    ],
+    "analysis": {
+      "business_model": "Lasertec Corp. designs, manufactures and sells laser‑based equipment for industrial processing, such as laser cutting and welding systems.",
+      "sentiment": "Bearish - sharp intraday drop without clear catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 5.2% intraday, likely reflecting broader semiconductor equipment sell‑off.",
+      "read_across": "Peers like Teradyne, KLA, Lam Research and Applied Materials fell similarly, indicating sector‑wide pressure on semiconductor manufacturing tools.",
+      "look_out": "Watch upcoming earnings releases or guidance updates from these equipment makers and any macro data on chip demand.",
+      "memory": "Sector‑wide equipment sell‑offs have recurred during demand downturns, leading to temporary price declines before recovery."
+    }
   }
 ]
