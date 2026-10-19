@@ -16361,5 +16361,143 @@
       "look_out": "Watch for HPE's upcoming earnings or guidance releases, and any sector‑wide news that could explain the sell‑off.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-19T00:49:55.628444+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "009150.KS",
+      "company": "Samsung Electro-Mechanics",
+      "pct": -5.387205387205385,
+      "last": 1124000.0,
+      "prev": 1188000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "FLEX",
+        "company": "Flex Ltd.",
+        "pct": -8.16243747769273
+      },
+      {
+        "ticker": "6976.T",
+        "company": "Taiyo Yuden Co., Ltd.",
+        "pct": -7.030784508440913
+      },
+      {
+        "ticker": "007660.KS",
+        "company": "Isu Petasys",
+        "pct": -5.935613682092555
+      },
+      {
+        "ticker": "GLW",
+        "company": "Corning Inc.",
+        "pct": -4.644941859414109
+      }
+    ],
+    "analysis": {
+      "business_model": "Samsung Electro-Mechanics designs and manufactures semiconductor components such as MLCCs, camera modules and other electronic packaging for mobile and consumer devices.",
+      "sentiment": "Bearish - broad component sector sell‑off",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 5.4% amid a broader intraday decline in related component makers.",
+      "read_across": "Peers like Flex, Taiyo Yuden, Isu Petasys and Corning also dropped, indicating sector‑wide pressure on electronic component suppliers.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates or macro‑economic news that could trigger further moves in the component space.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-19T00:49:55.628456+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "4004.T",
+      "company": "Resonac Holdings Corp.",
+      "pct": -5.186170212765962,
+      "last": 14260.0,
+      "prev": 15040.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "BRPT.JK",
+        "company": "Barito Pacific Tbk.",
+        "pct": -14.7887323943662
+      },
+      {
+        "ticker": "600426.SS",
+        "company": "Shandong Hualu-Hengsheng Chemical",
+        "pct": 3.1028833357854335
+      },
+      {
+        "ticker": "PTTGC.BK",
+        "company": "PTT Global Chemical",
+        "pct": -2.8169014084507005
+      },
+      {
+        "ticker": "1326.TW",
+        "company": "Formosa Chemicals & Fibre",
+        "pct": 2.2077882444703656
+      }
+    ],
+    "analysis": {
+      "business_model": "Resonac Holdings Corp. manufactures automotive and industrial aluminum castings and provides metal‑processing services for various manufacturers.",
+      "sentiment": "Bearish - price fell sharply without clear catalyst",
+      "why_moved": "No specific catalyst is stated; the stock slipped 5.2% intraday, likely reflecting broader sector or market pressure.",
+      "read_across": "Peers such as Barito Pacific and PTT Global Chemical also fell, suggesting wider stress in industrial and chemical markets that could affect supply chains and demand for aluminum products.",
+      "look_out": "Watch for Resonac’s next earnings release, guidance updates, or any sector news on aluminum demand that could confirm or reverse the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-19T00:49:55.628460+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "272210.KS",
+      "company": "Hanwha Systems",
+      "pct": -6.075949367088606,
+      "last": 74200.0,
+      "prev": 79000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "AXON",
+        "company": "Axon Enterprise",
+        "pct": -6.447899935057155
+      },
+      {
+        "ticker": "RHM.DE",
+        "company": "Rheinmetall",
+        "pct": 6.257305182443962
+      },
+      {
+        "ticker": "042660.KS",
+        "company": "Hanwha Ocean",
+        "pct": -5.076923076923078
+      },
+      {
+        "ticker": "329180.KS",
+        "company": "HD Hyundai Heavy Industries",
+        "pct": -4.125177809388337
+      }
+    ],
+    "analysis": {
+      "business_model": "Hanwha Systems provides defense, aerospace, and smart ICT solutions, earning most revenue from government contracts for weapons and surveillance systems.",
+      "sentiment": "Bearish - investors reacting to unexplained selloff",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 6.1% intraday without a disclosed news trigger, reflecting a pure price move.",
+      "read_across": "Similar declines in peers like Axon Enterprise and Hyundai Heavy Industries suggest a broader weakness in defense and heavy‑industry stocks.",
+      "look_out": "Watch for upcoming earnings releases or any regulatory/defense procurement news that could explain the recent selloff.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
