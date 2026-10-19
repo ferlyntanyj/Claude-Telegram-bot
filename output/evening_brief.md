@@ -1,24 +1,22 @@
-# Asia Market Evening Brief -- 16 Oct 2026, 22:51 SGT
+# Asia Market Evening Brief -- 20 Oct 2026, 00:59 SGT
 
 ## Macro & policy
-- [BOJ chief vows to keep raising rates, anchor inflation around target](https://news.google.com/rss/articles/CBMisgFBVV95cUxNOW5LS2JnMk04Z3BqMmlWRi1ia2NxUXJaR21PSnY1d080cXkxMTNjS3N1QmhHXzQwc3B6Y01mc0ZfX1lkRGZ4Sl9rVkVzc3NkTGlzb0FDb2lxRDJDZFgyWmRNdl9jT2pVMnZmRi1QUUlvN1Uybl9salRydEw0U0R1RE52T1RicVBTMTNJSHBzRVc4bG1FaTk0NGJwcmNvSlAtWkYzSnFKaTZOZG44aDdNWVJR?oc=5) — Reuters
-- [Bank of Japan Must Ensure Underlying Inflation Doesn’t Go Above 2%, Ueda Says](https://news.google.com/rss/articles/CBMixgFBVV95cUxQSWZaejJENjlkZjR2dmxXVmdKNGdpNk94S1laVWQtbEo1ajU1R1pxR21WU0Y3c3BFc1BKODZvNmxNdnVXeGd0bl9hZGg1NXRnWElSVHI0V0ZmdkdzSk9zU1NNSGZzNDNpNlRaRlRfTjJyc3M4dWlSc0RiR01OTGN2OEVWbkNNZy1RTDRIUGNaZWs1T2JDRktWM2NKODRMSnNoZmplSTdHbWFpMkJIOEZLTUNjMzBtdEVmTWcwNDIyMmtnT2tKMUE?oc=5) — WSJ
-- [BOJ's Ueda says inflation can't be allowed to rise further](https://asia.nikkei.com/economy/bank-of-japan/boj-s-ueda-says-inflation-can-t-be-allowed-to-rise-further) — Nikkei Asia
-- [Asian stocks plummet as AI debt and inflation fears bite](https://asia.nikkei.com/business/markets/asian-stocks-plummet-as-ai-debt-and-inflation-fears-bite) — Nikkei Asia
-- [Brokerages expect next BOJ rate hike in Dec, further tightening in 2027](https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUElySk5JSnlvU3U3NkdyRGdHQzFxSVpDdG91SlRPNW91SEhkQUlVSmJHWG9BMFpYV3EtaHFMYlRwclpIVFNzeWRfbWtBRWJsX202NDNfblpqdm5YbHdjYWI0c092bHJTS2w0WWhCLURTOGtYanN0RG1pMVA1ZkVxM1NhSUM5cE9RR1cwVFVFakVlVDRoTmswWGZoaVJGZWtLZjZvY0h1Q2xBZjJka1pnVzNTbzNtTXk1VThr?oc=5) — Reuters
+- [China's Q3 GDP narrowly beats forecasts as strong exports buoy growth](https://asia.nikkei.com/economy/china-s-q3-gdp-narrowly-beats-forecasts-as-strong-exports-buoy-growth) — Nikkei Asia
+- [Japan to prohibit untraced gold exports, clamping down on tax evasion](https://asia.nikkei.com/economy/trade/japan-to-prohibit-untraced-gold-exports-clamping-down-on-tax-evasion) — Nikkei Asia
+- [China's central bank studies making overnight rate its main policy rate](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQkZxcExIWnlGa1B2TFhUcjFWNDlzOWxQUUJnZkp3NlpJX3lwZXBvN05BN0xoRzhucmFJTWZwTUpDWUVPTzhpTWNnSGxYMDNCRjdYT0RacU1DWFEyclZHS3I2SDFUdWRkRE0wS0M2N1ZuZ3B6YjBENGlDU2R1R1FrMTdTWnJ1Z2pCUnVnM0FHWVh5X0dpRWxhbjJYS2J4X29CaEtLQWJaNFVWbEdRUG1fMEFRWlp4YmFOM0NDRkRlM0NjaE0?oc=5) — Reuters
+- [China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates](https://www.cnbc.com/2026/10/19/chinas-economic-growth-quickens-to-4point6percent-as-exports-surge-stimulus-rolls-out.html) — CNBC Asia Markets
+- [Japan PM Takaichi denies she’s driving weak yen, high rates](https://www.straitstimes.com/business/japan-pm-takaichi-denies-shes-driving-weak-yen-high-rates) — The Straits Times
 
 ## Markets
-- [Samsung remains top brand in Asia for third year: Nikkei Research poll](https://asia.nikkei.com/business/business-trends/samsung-remains-top-brand-in-asia-for-third-year-nikkei-research-poll) — Nikkei Asia
-- [Indonesia Stocks Log Worst Day Since 1998 on MSCI Downgrade Warning](https://news.google.com/rss/articles/CBMitgFBVV95cUxPRmY4bFlVY09zSkdQc0ItXzJqT2pmcFBSUkpwVVd6aUNuTU1waDNUcHY3UHJfYkRNby1kOTBPWHdEcklJLXlHVWpfMThubmtmU3JGZjNPWFdjNHJXZ29vVzJ6Z2tienRzc2d6V3pyVFNGQzdFZVphWTRNazZiRVRMeWpoSTE5ZEJ1aVRRUTZ6eC1XSE1scE9RNUx6MnhMbUxHRTc4ek9hOWlqTldkRlpxTzcxYjJQQQ?oc=5) — WSJ
-- [Millions of personal records in Japan, South Korea exposed amid surge in AI-powered cyberattacks](https://www.straitstimes.com/asia/east-asia/millions-of-personal-records-in-japan-south-korea-exposed-amid-surge-in-ai-powered-cyberattacks) — The Straits Times
-- [Fed's Warsh warns of financial stability risk as investment rises](https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcXRUUmRFemdQQ2xtQWthOExhVm1OU003UktodDBYcmpnNnBoUWdqdmlidDBWYUxVcmpBWnlDQm9EcnBQN2J4MmhabVNVZjBtZU0wU3VUZ0p4X3BKSmxLT2NpUVVrRE9nR3BQV2FSenlNTktBdkZvRkpkQjdVRmlYXzc1S2RPV1N1ZENZNzIxN1hXRHdnS1oyRXdtLVF5akhKa1BzT25XSTluZw?oc=5) — Nikkei Asia
-- [Marco Rubio to visit Indian billionaire Ambani's refinery in Gujarat as U.S. diesel prices surge](https://www.cnbc.com/2026/10/16/marco-rubio-reliance-jamnagar-refinery.html) — CNBC Asia Markets
+- [Indonesian stocks continue to plunge as MSCI downgrade fears deepen](https://asia.nikkei.com/business/markets/indonesian-stocks-continue-to-plunge-as-msci-downgrade-fears-deepen) — Nikkei Asia
+- [China's CXMT shares fall nearly 8% as investors look past chipmaker's profit turnaround](https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html) — CNBC Asia Markets
+- [Ruijie Cybrey Brings "Professional but Easy" SME Networking Solutions to Seven Asia-Pacific Markets](https://news.google.com/rss/articles/CBMipgFBVV95cUxQLThDdFFfdzRmbWJtUUVqRzVuR0J5dTJNcU9DTFNydmtxc0tYX092aWFyTlVYT2dacTB2Tng3VElRaFRNZzhEX3ZFOFZjenJ6b0gxdGI4YVZCb0U5S2ZYVUNiNGdETDVOYjRNRmR3dUJ4dEQxQkI2MUdSb1RsM2RncmhOdjRFSEdNQWNXT3Y3ZkJNR3BrclZQbkRGQ2JSMFRnVzV5OXRB?oc=5) — Yahoo Finance
 
 ## Geopolitics
-- [China to add AI, biopharma and solar tech to export control list](https://asia.nikkei.com/business/technology/artificial-intelligence/china-to-add-ai-biopharma-and-solar-tech-to-export-control-list) — Nikkei Asia
-- [Asian countries should consider sanctions on the Houthis](https://asia.nikkei.com/opinion/asian-countries-should-consider-sanctions-on-the-houthis) — Nikkei Asia
-- [North Korea's pact with Russia built to outlast Ukraine war](https://asia.nikkei.com/spotlight/policy-asia/north-korea-s-pact-with-russia-built-to-outlast-ukraine-war) — Nikkei Asia
-- [China-North Korea traffic to increase with new bridge opening](https://asia.nikkei.com/politics/international-relations/china-north-korea-traffic-to-increase-with-new-bridge-opening) — Nikkei Asia
-- [Taiwan to curb AI chip exports to China as part of US trade deal](https://www.straitstimes.com/asia/east-asia/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal) — The Straits Times
+- [Taiwan, Philippines kindle maritime cooperation in face of Chinese pressure](https://asia.nikkei.com/politics/international-relations/taiwan-tensions/taiwan-philippines-kindle-maritime-cooperation-in-face-of-chinese-pressure) — Nikkei Asia
+- [Japan to allow 'Taiwan' as place of origin in some national records](https://asia.nikkei.com/politics/international-relations/japan-to-allow-taiwan-as-place-of-origin-in-some-national-records) — Nikkei Asia
+- [The US-China grand bargain remains out of reach](https://asia.nikkei.com/spotlight/comment/the-us-china-grand-bargain-remains-out-of-reach) — Nikkei Asia
+- [AI and US-China rivalry put universities to the test: Vanderbilt head](https://asia.nikkei.com/editor-s-picks/interview/ai-and-us-china-rivalry-put-universities-to-the-test-vanderbilt-head) — Nikkei Asia
+- [Taiwan bulks up on protein-packed bentos as obesity rates rise](https://asia.nikkei.com/business/food-beverage/taiwan-bulks-up-on-protein-packed-bentos-as-obesity-rates-rise) — Nikkei Asia
 
-_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (15 headlines, 14h window)._
+_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (13 headlines, 14h window)._
