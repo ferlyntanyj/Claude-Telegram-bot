@@ -17092,5 +17092,51 @@
       "look_out": "Watch for Hanwha Solutions' upcoming earnings, guidance updates, or any policy announcements that could reverse the sell‑off, as well as broader solar‑industry sentiment.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-20T07:52:07.452523+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Indonesia · IDX",
+    "primary": {
+      "ticker": "BMRI.JK",
+      "company": "Bank Mandiri (Persero) Tbk.",
+      "pct": 8.333333333333325,
+      "last": 3640.0,
+      "prev": 3360.0,
+      "currency": "IDR"
+    },
+    "peers": [
+      {
+        "ticker": "BBRI.JK",
+        "company": "Bank Rakyat Indonesia (Persero) Tbk.",
+        "pct": 7.48031496062993
+      },
+      {
+        "ticker": "BBNI.JK",
+        "company": "Bank Negara Indonesia (Persero) Tbk.",
+        "pct": 7.432432432432434
+      },
+      {
+        "ticker": "8308.T",
+        "company": "Resona Holdings, Inc.",
+        "pct": -5.5638775946929115
+      },
+      {
+        "ticker": "8411.T",
+        "company": "Mizuho Financial Group, Inc.",
+        "pct": -5.040770941438099
+      }
+    ],
+    "analysis": {
+      "business_model": "Bank Mandiri is Indonesia’s largest commercial bank, providing retail, corporate and treasury banking services that generate revenue primarily from interest spreads and fee‑based products.",
+      "sentiment": "Bullish - strong intraday buying despite no news",
+      "why_moved": "No specific catalyst is stated; the stock surged 8.3% on pure price action amid broader sector buying pressure.",
+      "read_across": "The rally mirrors gains in fellow Indonesian banks BBRI and BBNI, suggesting a domestic banking tailwind, while Japanese peers fell, highlighting divergent regional sentiment.",
+      "look_out": "Watch for upcoming earnings releases, monetary policy updates, or regulatory guidance that could confirm or reverse the current momentum.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
