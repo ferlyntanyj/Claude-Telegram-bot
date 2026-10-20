@@ -16959,5 +16959,97 @@
       "look_out": "Watch for details of the offer, shareholder vote and regulatory approval.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-20T01:06:14.440157+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "012450.KS",
+      "company": "Hanwha Aerospace",
+      "pct": -8.066298342541433,
+      "last": 832000.0,
+      "prev": 905000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "272210.KS",
+        "company": "Hanwha Systems",
+        "pct": -9.14634146341463
+      },
+      {
+        "ticker": "AXON",
+        "company": "Axon Enterprise",
+        "pct": -6.447899935057155
+      },
+      {
+        "ticker": "RHM.DE",
+        "company": "Rheinmetall",
+        "pct": 6.257305182443962
+      },
+      {
+        "ticker": "079550.KS",
+        "company": "LIG Nex1",
+        "pct": -5.695142378559459
+      }
+    ],
+    "analysis": {
+      "business_model": "Hanwha Aerospace designs, manufactures, and services aircraft engines, propulsion systems and defense aerospace equipment, generating revenue primarily from aerospace and defense contracts.",
+      "sentiment": "Bearish - sharp intraday selloff amid sector weakness",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 8.1% in intraday trading without a disclosed news event.",
+      "read_across": "The decline mirrors losses at Korean peers Hanwha Systems and LIG Nex1 and U.S. defense firm Axon, suggesting broader pressure on aerospace and defense stocks, while Rheinmetall’s gain shows mixed regional dynamics.",
+      "look_out": "Watch for upcoming earnings releases, defense contract announcements, or regulatory updates that could reverse the selloff.",
+      "memory": "Similar sharp drops have occurred when Korean defense procurement policies faced scrutiny, leading to temporary sector weakness."
+    }
+  },
+  {
+    "alert_utc": "2026-10-20T01:06:14.440172+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "272210.KS",
+      "company": "Hanwha Systems",
+      "pct": -9.14634146341463,
+      "last": 74500.0,
+      "prev": 82000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "012450.KS",
+        "company": "Hanwha Aerospace",
+        "pct": -8.066298342541433
+      },
+      {
+        "ticker": "AXON",
+        "company": "Axon Enterprise",
+        "pct": -6.447899935057155
+      },
+      {
+        "ticker": "RHM.DE",
+        "company": "Rheinmetall",
+        "pct": 6.257305182443962
+      },
+      {
+        "ticker": "079550.KS",
+        "company": "LIG Nex1",
+        "pct": -5.695142378559459
+      }
+    ],
+    "analysis": {
+      "business_model": "Hanwha Systems designs, builds and integrates defense and aerospace systems, supplying weapons, radars and smart combat platforms primarily to the Korean military and international clients.",
+      "sentiment": "Bearish - sharp intraday decline without clear catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock fell sharply on its own, likely reflecting broader sector pressure or profit‑taking after recent gains.",
+      "read_across": "The similar drops in Hanwha Aerospace and LIG Nex1 suggest a wider sell‑off in Korean defense and aerospace stocks, while the modest rise in Rheinmetall hints at divergent regional sentiment.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates, or any Korean defense procurement announcements that could reverse the downside.",
+      "memory": "Similar sharp declines have occurred during broader Korean defense sector sell‑offs, but no exact parallel is evident."
+    }
   }
 ]
