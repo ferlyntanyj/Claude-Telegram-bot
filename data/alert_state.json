@@ -1105,7 +1105,12 @@
       "last_alert_utc": "2026-10-20T07:52:07.444682+00:00",
       "last_move_pct": 8.333333333333325,
       "last_move_asof": "2026-10-20"
+    },
+    "premarket:MSCI": {
+      "last_alert_utc": "2026-10-20T12:34:12.309529+00:00",
+      "last_move_pct": 6.156563,
+      "last_move_asof": null
     }
   },
-  "last_run_utc": "2026-10-20T12:15:28.687769+00:00"
+  "last_run_utc": "2026-10-20T12:30:45.351838+00:00"
 }

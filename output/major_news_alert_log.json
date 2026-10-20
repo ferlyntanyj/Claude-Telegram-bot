@@ -17138,5 +17138,51 @@
       "look_out": "Watch for upcoming earnings releases, monetary policy updates, or regulatory guidance that could confirm or reverse the current momentum.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-20T12:34:12.318045+00:00",
+    "type": "single_stock",
+    "headline": "Indonesia battles to stabilise market after MSCI expulsion threat",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcWs3WmMyWFdwWmZpeTY4RTJudHB3TEpoNWxCT2RuZENNdWhiZU5YVkxuel9zOFhXQ3VlQWswWEdfY3J0Q3RNeC0tMFBYaEgzN185eC1BS0YzS3RmbWg5Yk9LclY3YURMQ2VfdFg1ZFRRendBRi1QRk5BWFBHdl9Uc25HNHJjVTBraHJhRHlwLXdYVWg4VHpnck9RTkR6RFpHWUlPaXZjcFFlczRBNERiaUd3YmhOSGZiSjBfdkU0ZTBad2U0eEJ4cnRmTmtKNEFl?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "MSCI",
+      "company": "MSCI",
+      "pct": 6.156563,
+      "last": 601.43,
+      "prev": 563.49,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "8697.T",
+        "company": "Japan Exchange Group, Inc.",
+        "pct": -3.500557413600891
+      },
+      {
+        "ticker": "COIN",
+        "company": "Coinbase",
+        "pct": -2.7200315397647556
+      },
+      {
+        "ticker": "CBOE",
+        "company": "Cboe Global Markets",
+        "pct": -2.701761847990536
+      },
+      {
+        "ticker": "300033.SZ",
+        "company": "Hithink RoyalFlush Information Network",
+        "pct": -2.5345256454696097
+      }
+    ],
+    "analysis": {
+      "business_model": "MSCI provides investment research, indices and analytics that fund managers use to benchmark and construct portfolios, earning fees from licensing its index data and related services.",
+      "sentiment": "Bullish - MSCI shares surge on index expulsion news",
+      "why_moved": "The stock rose 6.2% on the specific catalyst of Indonesia facing a possible MSCI index expulsion, which highlighted MSCI's role and market relevance.",
+      "read_across": "The move pressures regional peers like Japan Exchange Group and other market‑structure firms, pulling them lower as investors rotate away from emerging‑market exposure.",
+      "look_out": "Watch Indonesia's regulatory response and any MSCI index methodology updates that could confirm or reverse the expulsion threat.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
