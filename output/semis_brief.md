@@ -1,15 +1,18 @@
-# Global Semiconductor Brief -- 20 Oct 2026, 01:06 SGT
+# Global Semiconductor Brief -- 20 Oct 2026, 13:08 SGT
+
+## Policy & geopolitics
+- [Analysis: China's proposed AI export controls reach beyond chips to design IP, computing infrastructure](https://www.digitimes.com/news/a20261020PD214/design-ip-chips-technology-training.html) — DIGITIMES
 
 ## Supply chain signals
-- [OCP 2026 shifts AI competition from chips to rack-scale systems](https://www.digitimes.com/news/a20261019PD241/ocp-2026-chips-infrastructure-competition-cooling.html) — DIGITIMES
-- [Solution Finders Part 2 of 2: TSMC's first CTO said no to Intel twice but still wonders what if](https://www.digitimes.com/news/a20261019PD218/intel-taiwan-academia-sinica-tsmc-electronics.html) — DIGITIMES
-- [Elon Musk points to China's 2028 DRAM supply surge to challenge Samsung, SK Hynix pricing power](https://www.digitimes.com/news/a20261019VL210/elon-musk-dram-tesla-2028-samsung.html) — DIGITIMES
-- [Solution Finders Part 1 of 2: the DARPA challenge behind TSMC's success](https://www.digitimes.com/news/a20261019PD236/tsmc-launch-finfet-technology-patent.html) — DIGITIMES
+- [DeepSeek-Huawei chip co-design could shift AI training away from Nvidia](https://www.digitimes.com/news/a20261020VL214/deepseek-huawei-ascend-ai-chip-training.html) — DIGITIMES
+- [Kioxia targets higher-value AI storage with Nvidia partnership, advanced NAND technology](https://www.digitimes.com/news/a20261020VL207/kioxia-nand-nvidia-partnership.html) — DIGITIMES
+- [Yale develops fluidic memory chip using water flow, microfibers](https://www.digitimes.com/news/a20261020PD206/water-chips-development.html) — DIGITIMES
+- [Nvidia seeks Taiwan government affairs director amid deeper local push](https://www.digitimes.com/news/a20261020PD201/nvidia-government-taiwan-policy-investment.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Amazon says its AI chips will work with popular coding language, challenging Nvidia](https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUGVNVWtyU1BHU0pGZFJTZk9RV3NHOXBoSHVqaHVEeXN1TEJveTNIVzQ4eGkxZ2RWbER1clItSk16ODNaVnBFbWhKamR1RURGdG90X3F0ZEF2bko3SW5mUGxjZzBKVm50UFI5eUp2ampsV08ySWlMUEZyQmRUd1M1NF91UGJoZWxiVmR5NGRCMmNNM0V2R3pLMVhBT05EbmRjY0dxMXlSNklIVE9xeG5DQWNPcjVXY1ZBRTBrVU9RMTNPaVJOUHpjS2RrZ3huLXlZa2c?oc=5) — Reuters
-- [US chip stocks rise after steepest weekly selloff in months](https://news.google.com/rss/articles/CBMisAFBVV95cUxQQnRpUlhFSVItYXlyM2JtRDAxZFNzc1owV1VBSFM4VERhS3dYOW1wVWtOeERTaDRrWlZyQVJTVVdvNFktdG5oSGpjY0ZwY1hBbnllN2d6Qkg4aExFcWdNT3F3dWlxdTFtbU92WV9WTC1NVEw0QmlWb201cXB6NGJCajVtbmZjYnJ4MWZ3TDZYR1l3ZmZFRFJORzhlNE1Yb0QtNDlyc3ZnY2tuenV1OFgwVQ?oc=5) — Reuters
-- [Qualcomm Wins Key Claims Against Arm, but Damages Total Just $2](https://news.google.com/rss/articles/CBMijwFBVV95cUxOY2Nlb1gyTzBvZUlQNFcwb19DQ0ppcExEZ3lqQlViemQ4M3ZYNWVQUU5iUkd6N3hRemRsUmdWQ1BkWXp1UnNhVHBIeXZfYmhYb3hGMDdMUmFWNHM1NnM1N0VhZ0NjelFzWlNxYUY2aFZkTE5NT3JENFFxWWN3LWhXQkpLR2x2TFJzcDJTNTNPSQ?oc=5) — EE Times
-- [Nvidia, Intel, Micron, Monolithic Power Are Buys Ahead of Tech Earnings.](https://news.google.com/rss/articles/CBMijAFBVV95cUxNOUdZbkIzLXZ5YW0wMkVnUjFGR09FSERGOTRJUXI4Ql9aR1lWRmZwMXZYYzVqamNsSmR2VDdnMV9faFJrTXhKd3dYT20wemE3d0FUNWlvSENUVTdrSS1SazRFdnh3WU5vWkxVQU0xcDk5ajlrcjc5YmlpWk5FMWY1MWdBbEx2VVMxLWZfaA?oc=5) — Barron's
+- [Nvidia says South Korea has Vera CPU customers, LG robot results ahead](https://www.digitimes.com/news/a20261020PD223/nvidia-cpu-robot-software-lg-electronics.html) — DIGITIMES
+- [Intel says it is the only high-volume fab for 12-inch InP silicon photonics as co-packaged optics nears deployment](https://www.digitimes.com/news/a20261020VL204/intel-12-inch-inp-siph-cpo-ocp.html) — DIGITIMES
+- [Intel Asks FCC to Allow Upgrades for Banned Foreign Robots](https://news.google.com/rss/articles/CBMiswFBVV95cUxPenc1LTJmaE1GRHozaXBzcWlXV3M0UFMtcHFWa05JN1Z2a1JUMW9Mby1McWpsd1BKcU1NNTNqVktJNHlYcjJrRFRxZDhhU1RVOU1GeE9NYk1wR01XU2lmWjJkaHRyYjB1SXdWU0lqbXNfRHpNQTdGY1ZyR0h5R191OWVuMlFOUVB4RmM3UHVwWi1NMmwyeXZfM0RxMUZya3BXTXUxamdlSDdENmUyR1NpUnY4QQ?oc=5) — Bloomberg.com
+- [Alibaba's XuanTie tops 6 billion RISC-V chip shipments, expands into AI servers with C950](https://www.digitimes.com/news/a20261020VL210/alibaba-risc-v-shipments-processor-performance.html) — DIGITIMES
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
