@@ -17230,5 +17230,51 @@
       "look_out": "Watch upcoming earnings releases, guidance updates, or macro aerospace demand data for a clearer direction.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-20T17:38:11.692748+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "DVA",
+      "company": "DaVita",
+      "pct": -5.759360573508521,
+      "last": 176.22999572753906,
+      "prev": 187.0,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "HCA",
+        "company": "HCA Healthcare",
+        "pct": 1.9224638301492236
+      },
+      {
+        "ticker": "300015.SZ",
+        "company": "Aier Eye Hospital",
+        "pct": 1.666661979805828
+      },
+      {
+        "ticker": "RHC.AX",
+        "company": "Ramsay Health Care",
+        "pct": -1.6363664106889164
+      },
+      {
+        "ticker": "UHS",
+        "company": "Universal Health Services",
+        "pct": 1.4893914623267612
+      }
+    ],
+    "analysis": {
+      "business_model": "DaVita provides outpatient dialysis services to patients with chronic kidney failure, earning revenue primarily from treatment fees and related care.",
+      "sentiment": "Bearish - shares fell sharply on unexplained price pressure",
+      "why_moved": "No specific catalyst was mentioned; DaVita dropped 5.8% on price action alone.",
+      "read_across": "Peers showed mixed moves, suggesting broader health‑care sector dynamics may be influencing valuations.",
+      "look_out": "Watch for upcoming earnings release or any regulatory updates that could affect the dialysis market.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
