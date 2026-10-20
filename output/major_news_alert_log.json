@@ -17051,5 +17051,46 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates, or any Korean defense procurement announcements that could reverse the downside.",
       "memory": "Similar sharp declines have occurred during broader Korean defense sector sell‑offs, but no exact parallel is evident."
     }
+  },
+  {
+    "alert_utc": "2026-10-20T03:36:16.775965+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "009830.KS",
+      "company": "Hanwha Solutions",
+      "pct": -7.511045655375548,
+      "last": 31400.0,
+      "prev": 33950.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "600438.SS",
+        "company": "Tongwei Company",
+        "pct": -1.558444174920215
+      },
+      {
+        "ticker": "688223.SS",
+        "company": "Jinko Solar",
+        "pct": -1.3123347261734364
+      },
+      {
+        "ticker": "FSLR",
+        "company": "First Solar",
+        "pct": -0.4865595116197552
+      }
+    ],
+    "analysis": {
+      "business_model": "Hanwha Solutions develops and manufactures solar panels, energy storage systems, and related renewable‑energy solutions, earning most revenue from its solar EPC and module businesses.",
+      "sentiment": "Bearish - sharp intraday sell‑off without disclosed catalyst",
+      "why_moved": "No specific catalyst is stated; the stock fell 7.5% on price action, likely reflecting broader sector weakness or market sentiment.",
+      "read_across": "The modest declines in peers such as Tongwei, Jinko Solar and First Solar suggest a wider pull‑back in solar‑related equities, indicating sector‑wide pressure rather than a company‑specific issue.",
+      "look_out": "Watch for Hanwha Solutions' upcoming earnings, guidance updates, or any policy announcements that could reverse the sell‑off, as well as broader solar‑industry sentiment.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
