@@ -17322,5 +17322,51 @@
       "look_out": "Watch for upcoming Moderna earnings, regulatory updates, or data releases that could confirm the price move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-20T19:37:05.590894+00:00",
+    "type": "single_stock",
+    "headline": "GM Plans $20 Billion in Buybacks, but Warns of Bumpy 2027",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcGZSd2xXLXlQSjl1UTNEUGRUSlhfdWg3dHBlMkNXS2p1US1JSG9KU1dnbS15SlBjV0Q5YUg5Z0xXZDlLdm5uOEpMQVhzSlg4MlMwNGhxQnoyYmFzcnNrNnowVjktdXlxamtxQ0VnOU5YdmtWSUQyVHRZTzZLdllxcTFvVXA5NkFUbnp6TFEtNk9mVE9vN0QxbzRyNmJ0cFdBVElfYWFMUzRJVkNkVlk3cg?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "GM",
+      "company": "General Motors",
+      "pct": -6.996979958341198,
+      "last": 76.95999908447266,
+      "prev": 82.75,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "005380.KS",
+        "company": "Hyundai Motor",
+        "pct": -4.907975460122705
+      },
+      {
+        "ticker": "000270.KS",
+        "company": "Kia",
+        "pct": -3.103448275862064
+      },
+      {
+        "ticker": "7272.T",
+        "company": "Yamaha Motor Co., Ltd.",
+        "pct": -2.732683982683981
+      },
+      {
+        "ticker": "2015.HK",
+        "company": "Li Auto",
+        "pct": 1.9660435681738697
+      }
+    ],
+    "analysis": {
+      "business_model": "General Motors designs, manufactures, and sells automobiles and related services worldwide, earning revenue primarily from vehicle sales and financing.",
+      "sentiment": "Bearish - buyback offset by 2027 outlook concerns",
+      "why_moved": "The stock fell after GM announced a $20 billion buyback but warned of a bumpy 2027, prompting a mixed reaction that outweighed the buyback enthusiasm.",
+      "read_across": "Regional peers Hyundai and Kia also slipped, reflecting broader auto‑sector pressure, while Li Auto’s rise shows divergent sentiment for EV players.",
+      "look_out": "Watch GM’s upcoming earnings and any revised 2027 guidance, as well as macro‑economic data affecting auto demand.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
