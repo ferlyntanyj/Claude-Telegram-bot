@@ -1,18 +1,15 @@
-# Global Semiconductor Brief -- 20 Oct 2026, 13:08 SGT
-
-## Policy & geopolitics
-- [Analysis: China's proposed AI export controls reach beyond chips to design IP, computing infrastructure](https://www.digitimes.com/news/a20261020PD214/design-ip-chips-technology-training.html) — DIGITIMES
+# Global Semiconductor Brief -- 20 Oct 2026, 23:17 SGT
 
 ## Supply chain signals
-- [DeepSeek-Huawei chip co-design could shift AI training away from Nvidia](https://www.digitimes.com/news/a20261020VL214/deepseek-huawei-ascend-ai-chip-training.html) — DIGITIMES
-- [Kioxia targets higher-value AI storage with Nvidia partnership, advanced NAND technology](https://www.digitimes.com/news/a20261020VL207/kioxia-nand-nvidia-partnership.html) — DIGITIMES
-- [Yale develops fluidic memory chip using water flow, microfibers](https://www.digitimes.com/news/a20261020PD206/water-chips-development.html) — DIGITIMES
-- [Nvidia seeks Taiwan government affairs director amid deeper local push](https://www.digitimes.com/news/a20261020PD201/nvidia-government-taiwan-policy-investment.html) — DIGITIMES
+- [Samsung eyes six foldables for 2027, including a rollable phone](https://www.digitimes.com/news/a20261020PD245/samsung-galaxy-2027-foldable-smartphone-foldable.html) — DIGITIMES
+- [Intel requests FCC waiver from US foreign robot ban, citing impact on US chipmaking](https://www.digitimes.com/news/a20261020VL221/intel-ban-fcc-robot-security.html) — DIGITIMES
+- [AUO selects glass substrate specs for semiconductor processes, not size rivalry](https://www.digitimes.com/news/a20261020PD237/auo-substrate-lcd-packaging-osat.html) — DIGITIMES
+- [Taiwan anchors US chip revival, SEMICON West spotlights trusted partners](https://www.digitimes.com/news/a20261020PD231/taiwan-semicon-west-2026-investment-equipment.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Nvidia says South Korea has Vera CPU customers, LG robot results ahead](https://www.digitimes.com/news/a20261020PD223/nvidia-cpu-robot-software-lg-electronics.html) — DIGITIMES
-- [Intel says it is the only high-volume fab for 12-inch InP silicon photonics as co-packaged optics nears deployment](https://www.digitimes.com/news/a20261020VL204/intel-12-inch-inp-siph-cpo-ocp.html) — DIGITIMES
-- [Intel Asks FCC to Allow Upgrades for Banned Foreign Robots](https://news.google.com/rss/articles/CBMiswFBVV95cUxPenc1LTJmaE1GRHozaXBzcWlXV3M0UFMtcHFWa05JN1Z2a1JUMW9Mby1McWpsd1BKcU1NNTNqVktJNHlYcjJrRFRxZDhhU1RVOU1GeE9NYk1wR01XU2lmWjJkaHRyYjB1SXdWU0lqbXNfRHpNQTdGY1ZyR0h5R191OWVuMlFOUVB4RmM3UHVwWi1NMmwyeXZfM0RxMUZya3BXTXUxamdlSDdENmUyR1NpUnY4QQ?oc=5) — Bloomberg.com
-- [Alibaba's XuanTie tops 6 billion RISC-V chip shipments, expands into AI servers with C950](https://www.digitimes.com/news/a20261020VL210/alibaba-risc-v-shipments-processor-performance.html) — DIGITIMES
+- [EXCLUSIVE: Qualcomm to cut jobs worldwide in performance-focused layoffs, internal memo shows](https://news.google.com/rss/articles/CBMivAFBVV95cUxNUndSd0N2Um9RWGtEUDU1MHBGUm1LU3RkT2RpRFVDbVNzRHdNTGVGYnk1MU1pSUFCQklWMnZERzc0bEJ0VDVUWUp5N3JHV3M0eVFMaGRFOEdwcjU0WlUxOG55enFWb09Id3AySlhLenVTT0k4Zk51WUhuQ05oVlBSWmg3d3NmLTFzOVBJTHVsc3RSN21WaGdwYjNCa19RSTRGWUhIXzQ1a25mSDhxQ0JwdzNJRUZiaHdXZTREOQ?oc=5) — Reuters
+- [Micron union in Taiwan to launch one-day strike as bonus dispute escalates](https://news.google.com/rss/articles/CBMixgFBVV95cUxNblZWS3g1V20wekttZmRfQnZVdklYQzJwNjRxXzVFRlNia2JVdUxXSWpjVm5fWHBEa1RpTXVRa0JyWHhhLWFrSDU1SlpnT3RnU3d1YTg2Uk9NVXl2OXlfanIwZkUzd1JJT3p5eFM2YU5nNndJbzBsb2NpMlY3c1g5MjQ3N191ZDgtbnFldFoxNmxad1FNREpTN2pUaHc1WTFSaEVCdlUyUlQzbjlfSTI0UVR5aFZ6aGpIcUJGTnpWVzFXRmtRWEE?oc=5) — Nikkei Asia
+- [EXCLUSIVE: ByteDance, Alibaba, Tencent place over $35 billion worth of Nvidia chip orders](https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXBuUld1bXhxNWlQNktuUmYxOWpVRFlnN0dialpvZlhYM1JLVzE1N0VBSUVNbUlCNmwtN2RVWXRkd1VUV3BRSV9aMGJGMkpxQUk4VWZ1dUt5YjZpdmthQVZ3REFHUzBmV3B0SFJwOFFsMl9fb3l0Y3F0Z1FXbDAxSFhTbV9peVVDQ3FKRnp3NjVDdEpRVHdIOG04SjctLWRRTzN2bDM1a2QxaGdZMHlJV0hGS1FObHFKTVNiS3hvXzZsUzdvMktteFBvSGNEZw?oc=5) — Reuters
+- [Not Even Rumors of a Big China Chip Purchase Can Lift Nvidia Stock](https://news.google.com/rss/articles/CBMifEFVX3lxTE1oeXdGdlJLZWg4QWFrdDdoTFI5WWs1b1A4R1R0U2NCNmR2RkNSMnJZb2RBZVprejQwSmV3OHRVOFhmTGxTa3R0b1A2bE5Yb1VTbVB2QmJYajNZQWNPZWlsdVdhSXVQRW1abl82WEtBMGpJaFI3LTR1S1dSTlY?oc=5) — Barron's
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
