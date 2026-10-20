@@ -17276,5 +17276,51 @@
       "look_out": "Watch for upcoming earnings release or any regulatory updates that could affect the dialysis market.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-20T17:51:25.443514+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "pct": 6.254267554921111,
+      "last": 241.08030700683594,
+      "prev": 226.88999938964844,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "207940.KS",
+        "company": "Samsung Biologics",
+        "pct": 9.938366718027725
+      },
+      {
+        "ticker": "300759.SZ",
+        "company": "Pharmaron Beijing",
+        "pct": 5.798298009732239
+      },
+      {
+        "ticker": "0126Z0.KS",
+        "company": "Samsung Epis",
+        "pct": 5.731523378582204
+      },
+      {
+        "ticker": "002821.SZ",
+        "company": "Asymchem Laboratories (Tianjin)",
+        "pct": 3.00469184718124
+      }
+    ],
+    "analysis": {
+      "business_model": "Moderna develops and commercializes messenger RNA (mRNA) vaccines and therapeutics, generating revenue primarily from product sales and licensing of its mRNA technology.",
+      "sentiment": "Bullish - price surged despite no news catalyst",
+      "why_moved": "No specific catalyst is stated; the stock jumped 6.3% on price action and broader biotech sector flows.",
+      "read_across": "The gains in peers such as Samsung Biologics and Pharmaron Beijing suggest broader momentum in the biotech and contract manufacturing space, boosting sector sentiment.",
+      "look_out": "Watch for upcoming Moderna earnings, regulatory updates, or data releases that could confirm the price move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
