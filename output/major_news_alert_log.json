@@ -17184,5 +17184,51 @@
       "look_out": "Watch Indonesia's regulatory response and any MSCI index methodology updates that could confirm or reverse the expulsion threat.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-20T17:06:40.226914+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "HWM",
+      "company": "Howmet Aerospace",
+      "pct": -5.403808324143478,
+      "last": 208.13999938964844,
+      "prev": 220.02999877929688,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "047810.KS",
+        "company": "Korea Aerospace",
+        "pct": 7.564575645756455
+      },
+      {
+        "ticker": "NOC",
+        "company": "Northrop Grumman",
+        "pct": 5.365709238026306
+      },
+      {
+        "ticker": "GE",
+        "company": "GE Aerospace",
+        "pct": -4.275892319066344
+      },
+      {
+        "ticker": "079550.KS",
+        "company": "LIG Nex1",
+        "pct": 4.006968641114983
+      }
+    ],
+    "analysis": {
+      "business_model": "Howmet Aerospace designs, manufactures and sells high‑performance metal components, such as castings and fasteners, for aircraft and aerospace engines, generating revenue primarily from aerospace OEM contracts.",
+      "sentiment": "Bearish - shares slipped 5.4% on unclear catalyst",
+      "why_moved": "No specific catalyst is stated; the stock fell 5.4% intraday with no obvious news trigger.",
+      "read_across": "The mixed moves of peers—Korea Aerospace up 7.6%, Northrop Grumman up 5.4%, GE Aerospace down 4.3%—suggest sector‑wide rotation rather than a single company issue, reflecting broader aerospace supply‑chain dynamics.",
+      "look_out": "Watch upcoming earnings releases, guidance updates, or macro aerospace demand data for a clearer direction.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
