@@ -17414,5 +17414,51 @@
       "look_out": "Watch for upcoming earnings releases, order bookings or any guidance updates that could confirm whether the rally is fundamentals‑driven.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-21T12:21:29.509641+00:00",
+    "type": "single_stock",
+    "headline": "Netflix co-CEO Sarandos says 'we could do better' after weak forecast",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQmJuWl84Zk9TanlERndybWRsaTVoaF95bUgzbldjVzJKNzcwZEFEUFh4Z0xVa2o0aGFSSEVJT3d2WENIeURzMWV3VUFTY2NxRWF2WHBjTVRjZURraFVHMkZ6M0pkOXJOb01FYW5OWTdkcmM3WkVFcXR5UC1QbDVqOFRIYWpsc1VxaUdhMENKa0I1S1ZWSk1BZ3BrYmRYVVQ5Q1FpRHBlY1NZbndHMVZnYjBfRnQ3cGktWkcwZ28tVDVQSFNqR1dZaFJGSTJ0b0U?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "NFLX",
+      "company": "Netflix",
+      "pct": -6.565733,
+      "last": 64.18,
+      "prev": 68.69,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "SKYD",
+        "company": "Skydance Corporation",
+        "pct": 4.411760374749107
+      },
+      {
+        "ticker": "TKO",
+        "company": "TKO Group Holdings",
+        "pct": 3.0991699530773076
+      },
+      {
+        "ticker": "FOXA",
+        "company": "Fox Corporation (Class A)",
+        "pct": 2.6505338530875777
+      },
+      {
+        "ticker": "FOX",
+        "company": "Fox Corporation (Class B)",
+        "pct": 2.434421608725734
+      }
+    ],
+    "analysis": {
+      "business_model": "Netflix streams subscription‑based video on demand, earning revenue from monthly member fees.",
+      "sentiment": "Bearish - weak guidance dampens growth expectations",
+      "why_moved": "The co‑CEO’s comment on a weak forecast triggered a 6.6% intraday drop.",
+      "read_across": "Peers such as Skydance, TKO and Fox rose, showing broader content‑sector strength despite Netflix’s pullback.",
+      "look_out": "Watch upcoming subscriber growth reports and the next earnings release for guidance clarity.",
+      "memory": "In 2022 a weaker‑than‑expected subscriber outlook led to a sharp share decline."
+    }
   }
 ]
