@@ -1128,7 +1128,12 @@
       "last_alert_utc": "2026-10-21T12:50:19.221920+00:00",
       "last_move_pct": -6.53196,
       "last_move_asof": null
+    },
+    "single:ECHO": {
+      "last_alert_utc": "2026-10-21T14:03:50.763370+00:00",
+      "last_move_pct": 6.939463814026103,
+      "last_move_asof": "2026-10-21"
     }
   },
-  "last_run_utc": "2026-10-21T13:45:37.472586+00:00"
+  "last_run_utc": "2026-10-21T14:01:01.979898+00:00"
 }

@@ -17506,5 +17506,51 @@
       "look_out": "Watch for details of the settlement, any impact on future guidance, and upcoming earnings or regulatory filings that could confirm the financial effect.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-21T14:03:50.772133+00:00",
+    "type": "single_stock",
+    "headline": "EchoStar’s Hughes Network Wins Interim Approval to Keep Control of Bankruptcy",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQd2hUNUZ0OXIxM3hST29SaFhPQlpvdGNkMDZfRlBJNXNMNGY3YlpIUU1FVThkekFveHRJVkJsTFZOcnlYRG9HM05WZXhnVHZkU3JFX3Z3eTA5anpJVm83RnZGa21PWUQ5dlUwdHBHVHBWTm4zT0U5M0JpRk10bGljZXl4a2lpSWN6WE95RVhLUmRmUUxSVUlGejliQl9HMWwtSmtmaVBOSENsdU5OZmxseDNrQWVWSEpoOTMtSg?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "ECHO",
+      "company": "EchoStar",
+      "pct": 6.939463814026103,
+      "last": 92.38500213623047,
+      "prev": 86.38999938964844,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "600941.SS",
+        "company": "China Mobile",
+        "pct": -5.089909085232048
+      },
+      {
+        "ticker": "T",
+        "company": "AT&T",
+        "pct": -4.355253861831243
+      },
+      {
+        "ticker": "601728.SS",
+        "company": "China Telecom Corporation",
+        "pct": -3.779073031352176
+      },
+      {
+        "ticker": "0941.HK",
+        "company": "China Mobile Ltd",
+        "pct": -3.6645924822884313
+      }
+    ],
+    "analysis": {
+      "business_model": "EchoStar provides satellite broadband and video distribution services, chiefly through its HughesNet network, generating revenue from subscription fees and wholesale satellite capacity.",
+      "sentiment": "Bullish - approval eases bankruptcy concerns",
+      "why_moved": "The stock rose after the Hughes Network received interim court approval to retain control of its bankruptcy process, directly addressing investor concerns.",
+      "read_across": "While major telecom peers fell, EchoStar's positive news highlights how regulatory relief in the satellite broadband niche can diverge from broader telecom sector weakness.",
+      "look_out": "Watch for final bankruptcy court rulings, the detailed restructuring plan for HughesNet, and any subsequent earnings guidance updates.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
