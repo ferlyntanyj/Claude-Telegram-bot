@@ -17368,5 +17368,51 @@
       "look_out": "Watch GM’s upcoming earnings and any revised 2027 guidance, as well as macro‑economic data affecting auto demand.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-21T02:11:05.548991+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Taiwan · TWSE",
+    "primary": {
+      "ticker": "3037.TW",
+      "company": "Unimicron",
+      "pct": 8.530805687203792,
+      "last": 1145.0,
+      "prev": 1055.0,
+      "currency": "TWD"
+    },
+    "peers": [
+      {
+        "ticker": "2327.TW",
+        "company": "Yageo",
+        "pct": 5.736137667304009
+      },
+      {
+        "ticker": "3008.TW",
+        "company": "Largan",
+        "pct": 5.439330543933063
+      },
+      {
+        "ticker": "6976.T",
+        "company": "Taiyo Yuden Co., Ltd.",
+        "pct": 4.387025838372738
+      },
+      {
+        "ticker": "6981.T",
+        "company": "Murata Manufacturing Co., Ltd.",
+        "pct": 3.73325304832155
+      }
+    ],
+    "analysis": {
+      "business_model": "Unimicron designs and manufactures high‑density printed circuit boards (PCBs) for electronics such as smartphones, servers, and automotive systems.",
+      "sentiment": "Bullish - sector-wide PCB demand surge",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 8.5% amid broader gains in PCB and component makers.",
+      "read_across": "The similar price lifts in Yageo, Largan, Taiyo Yuden and Murata suggest a broader rally in the semiconductor and PCB supply chain, likely reflecting heightened demand or optimism for the sector.",
+      "look_out": "Watch for upcoming earnings releases, order bookings or any guidance updates that could confirm whether the rally is fundamentals‑driven.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
