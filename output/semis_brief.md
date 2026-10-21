@@ -1,15 +1,18 @@
-# Global Semiconductor Brief -- 20 Oct 2026, 23:17 SGT
+# Global Semiconductor Brief -- 21 Oct 2026, 13:10 SGT
+
+## Policy & geopolitics
+- [How ByteDance, Alibaba, Tencent are testing the boundaries of US AI chip restrictions](https://www.digitimes.com/news/a20261021VL208/alibaba-bytedance-tencent-nvidia-chips.html) — DIGITIMES
 
 ## Supply chain signals
-- [Samsung eyes six foldables for 2027, including a rollable phone](https://www.digitimes.com/news/a20261020PD245/samsung-galaxy-2027-foldable-smartphone-foldable.html) — DIGITIMES
-- [Intel requests FCC waiver from US foreign robot ban, citing impact on US chipmaking](https://www.digitimes.com/news/a20261020VL221/intel-ban-fcc-robot-security.html) — DIGITIMES
-- [AUO selects glass substrate specs for semiconductor processes, not size rivalry](https://www.digitimes.com/news/a20261020PD237/auo-substrate-lcd-packaging-osat.html) — DIGITIMES
-- [Taiwan anchors US chip revival, SEMICON West spotlights trusted partners](https://www.digitimes.com/news/a20261020PD231/taiwan-semicon-west-2026-investment-equipment.html) — DIGITIMES
+- [CXMT's next DRAM milestone: 4F&sup2; server memory with hybrid bonding by end-2026](https://www.digitimes.com/news/a20261021PD220/cxmt-dram-manufacturing-management-transistor.html) — DIGITIMES
+- [AMD: Physical AI demands more than TOPS](https://www.digitimes.com/news/a20261021PD207/physical-ai-performance-amd-president-data.html) — DIGITIMES
+- [Axcelis plans US$35 million semiconductor facility in South Korea](https://www.digitimes.com/news/a20261021PR201/axcelis-manufacturing-apple-ion-implantation-equipment.html) — DIGITIMES
+- [Analysis: From rockets to fabs, SpaceX's TerraFab bet pushes vertical integration into the semiconductor era](https://www.digitimes.com/news/a20261021VL206/spacex-vertical-integration-hardware-manufacturing-tsmc.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [EXCLUSIVE: Qualcomm to cut jobs worldwide in performance-focused layoffs, internal memo shows](https://news.google.com/rss/articles/CBMivAFBVV95cUxNUndSd0N2Um9RWGtEUDU1MHBGUm1LU3RkT2RpRFVDbVNzRHdNTGVGYnk1MU1pSUFCQklWMnZERzc0bEJ0VDVUWUp5N3JHV3M0eVFMaGRFOEdwcjU0WlUxOG55enFWb09Id3AySlhLenVTT0k4Zk51WUhuQ05oVlBSWmg3d3NmLTFzOVBJTHVsc3RSN21WaGdwYjNCa19RSTRGWUhIXzQ1a25mSDhxQ0JwdzNJRUZiaHdXZTREOQ?oc=5) — Reuters
-- [Micron union in Taiwan to launch one-day strike as bonus dispute escalates](https://news.google.com/rss/articles/CBMixgFBVV95cUxNblZWS3g1V20wekttZmRfQnZVdklYQzJwNjRxXzVFRlNia2JVdUxXSWpjVm5fWHBEa1RpTXVRa0JyWHhhLWFrSDU1SlpnT3RnU3d1YTg2Uk9NVXl2OXlfanIwZkUzd1JJT3p5eFM2YU5nNndJbzBsb2NpMlY3c1g5MjQ3N191ZDgtbnFldFoxNmxad1FNREpTN2pUaHc1WTFSaEVCdlUyUlQzbjlfSTI0UVR5aFZ6aGpIcUJGTnpWVzFXRmtRWEE?oc=5) — Nikkei Asia
-- [EXCLUSIVE: ByteDance, Alibaba, Tencent place over $35 billion worth of Nvidia chip orders](https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXBuUld1bXhxNWlQNktuUmYxOWpVRFlnN0dialpvZlhYM1JLVzE1N0VBSUVNbUlCNmwtN2RVWXRkd1VUV3BRSV9aMGJGMkpxQUk4VWZ1dUt5YjZpdmthQVZ3REFHUzBmV3B0SFJwOFFsMl9fb3l0Y3F0Z1FXbDAxSFhTbV9peVVDQ3FKRnp3NjVDdEpRVHdIOG04SjctLWRRTzN2bDM1a2QxaGdZMHlJV0hGS1FObHFKTVNiS3hvXzZsUzdvMktteFBvSGNEZw?oc=5) — Reuters
-- [Not Even Rumors of a Big China Chip Purchase Can Lift Nvidia Stock](https://news.google.com/rss/articles/CBMifEFVX3lxTE1oeXdGdlJLZWg4QWFrdDdoTFI5WWs1b1A4R1R0U2NCNmR2RkNSMnJZb2RBZVprejQwSmV3OHRVOFhmTGxTa3R0b1A2bE5Yb1VTbVB2QmJYajNZQWNPZWlsdVdhSXVQRW1abl82WEtBMGpJaFI3LTR1S1dSTlY?oc=5) — Barron's
+- [EXCLUSIVE: Samsung, SK Hynix upgrading China plants to make more advanced chips, people say](https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNmZxYjhQQjhXcUZzRnh3dHJIMWQzWUxyNDFMLTM1b1R3d3NFMEFycFpkQkx5NW5sQjBNdVJldDNhakRYcUMxRERYRnR3ZWdoVDBZUmljM2VENTdmRzFVdVY4eUMxTDk3VmtCWk1jQ1dvZmY0cnVCQ1FpTl9uZ3lrWWU4MGp0aDRsbG9jNTBvUDBadXpoZVAwOUFYRUlITXVUMUMxakpMVGc3QXJmQjJxeWZoWWJlTHNDSHNmZGprUVY?oc=5) — Reuters
+- [Vietnam security ministry seeks Samsung's help on AI and chips](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOb2Fmb1BEUHY4Ty1RelFqanAtUjB6aGxweFFpc3dHNjNnRFJ0cEhkRzlaVm9VR3AwemFRS2dPXzRFU2RxMnBJZzIyWG9MVWZXclRiMmxfaHlObmE5OC1DZEVjano4bGNJa2x3Z1MxR0pReDVwVkVOV2JZWFpyREdBelBJNjUwY0J5NVJIa2R2VG5GTmlucGlhbnpzVlQ5TXRwRS1waUFaWVlIWVU?oc=5) — Nikkei Asia
+- [TSMC and others turn LCD plants into AI assets as LG Innotek weighs acquisition](https://www.digitimes.com/news/a20261021PD232/lcd-acquisition-packaging-plant-demand.html) — DIGITIMES
+- [Judge Reluctant to Intervene in Qualcomm-Arm Licensing Talks](https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ3huYUZURzVULUQ0Y1A0eFExUHY3YVlEQU1LUWJ3SHlLTXZGampscGMtR2l6cEJGTGtTWk9LcDc4eEhwWmZvTU5yNDhrR0pIQlQ5T1BDX2dPUUlXSmRqemliVUtMQkVXeUdJOG90cFZPY3FFazNjQ1Q5dEhCeU9teEVQTVdOc3IzVVRSNk16clY5YW11RWFJeVB6VEk5bTM5N2lzUTZCRDljYkhibWVUMA?oc=5) — Bloomberg.com
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
