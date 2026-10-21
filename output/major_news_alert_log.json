@@ -17598,5 +17598,51 @@
       "look_out": "Watch upcoming subscriber growth reports, guidance on new releases, and any earnings update for signs of recovery or further pressure.",
       "memory": "In early 2022 Netflix faced a similar subscriber‑growth slowdown after weaker content performance, which led to a sharp share decline before a rebound when new hits arrived."
     }
+  },
+  {
+    "alert_utc": "2026-10-21T18:56:08.024315+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "SKYD",
+      "company": "Skydance Corporation",
+      "pct": 9.636623888104712,
+      "last": 7.784200191497803,
+      "prev": 7.099999904632568,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "NFLX",
+        "company": "Netflix",
+        "pct": -4.200032076999016
+      },
+      {
+        "ticker": "9602.T",
+        "company": "Toho Co., Ltd",
+        "pct": -2.1878646441073513
+      },
+      {
+        "ticker": "FOX",
+        "company": "Fox Corporation (Class B)",
+        "pct": -1.3054372875261455
+      },
+      {
+        "ticker": "FOXA",
+        "company": "Fox Corporation (Class A)",
+        "pct": -1.2313387287196775
+      }
+    ],
+    "analysis": {
+      "business_model": "Skydance Corporation creates, produces, and distributes film, television and streaming content, earning revenue from theatrical releases, licensing, and digital platforms.",
+      "sentiment": "Bullish - price surged on unexplained buying pressure",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 9.6% on pure price action while peers fell, suggesting isolated buying interest.",
+      "read_across": "Skydance’s rise contrasts with declines at Netflix, Fox and Toho, indicating the move is company‑specific rather than a broad media‑sector rally.",
+      "look_out": "Watch for any forthcoming earnings release, guidance update, or corporate announcement that could explain the surge.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
