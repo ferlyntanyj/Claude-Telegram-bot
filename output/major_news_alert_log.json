@@ -17460,5 +17460,51 @@
       "look_out": "Watch upcoming subscriber growth reports and the next earnings release for guidance clarity.",
       "memory": "In 2022 a weaker‑than‑expected subscriber outlook led to a sharp share decline."
     }
+  },
+  {
+    "alert_utc": "2026-10-21T12:50:19.228511+00:00",
+    "type": "single_stock",
+    "headline": "Intuitive Surgical Stock Slides Despite Earnings Beat as Company Discloses Settlement",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc3RHTVVTcl9rNTlEb2t2R3Z0czF3YVJQdXZPYTZoSnFTUEszSzhXODFHQUV0bjN5LV9EbEpQSHlxZHJhTGhtOHYyTndsZkpLM1RvNWVTdXRTM25Gd1JOUXJvWFdrVzJaLUx5RXlDYzd1VkJDRjdYVjRsUVZ0ZXRueHFWUVJ2WnZL?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "ISRG",
+      "company": "Intuitive Surgical",
+      "pct": -6.53196,
+      "last": 409.39,
+      "prev": 438.0,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "RMD",
+        "company": "ResMed|",
+        "pct": 2.3897883911399687
+      },
+      {
+        "ticker": "RMD.AX",
+        "company": "ResMed",
+        "pct": 2.017539799170698
+      },
+      {
+        "ticker": "7741.T",
+        "company": "Hoya Corp.",
+        "pct": 1.9815313582147054
+      },
+      {
+        "ticker": "BAX",
+        "company": "Baxter International",
+        "pct": -1.9207664931277013
+      }
+    ],
+    "analysis": {
+      "business_model": "Intuitive Surgical designs, manufactures, and sells the da Vinci robotic surgery systems and related instruments, generating revenue primarily from sales and recurring instrument usage fees.",
+      "sentiment": "Bearish - settlement overshadows earnings beat",
+      "why_moved": "The stock fell because the company disclosed a settlement, which outweighed the positive impact of an earnings beat mentioned in the headline.",
+      "read_across": "The settlement news could pressure other med‑tech peers such as ResMed, Hoya and Baxter, highlighting broader industry concerns over legal and regulatory exposures.",
+      "look_out": "Watch for details of the settlement, any impact on future guidance, and upcoming earnings or regulatory filings that could confirm the financial effect.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
