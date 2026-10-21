@@ -17552,5 +17552,51 @@
       "look_out": "Watch for final bankruptcy court rulings, the detailed restructuring plan for HughesNet, and any subsequent earnings guidance updates.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-21T16:21:20.440568+00:00",
+    "type": "single_stock",
+    "headline": "Netflix’s $300bn problem: lack of hits piles pressure on streaming giant",
+    "source": "Financial Times",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWTVGdG1qTXZsQnpWbXVLNWQxWUlJSnIyZkQzQUVfb2tOLUpRTDVRYnAyNHlBWld5MW42OVF4RTQtUWdvUE1WaUpQODhQTVFaN0pCUnpHaW9CRUE1NExNd0h3VU5uUFZSem90ODlQR1RQRFc4a0dFcHpYT0sySnJ0OURSNjY?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "NFLX",
+      "company": "Netflix",
+      "pct": -5.124622695409786,
+      "last": 65.1698989868164,
+      "prev": 68.69000244140625,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "9602.T",
+        "company": "Toho Co., Ltd",
+        "pct": 4.9280685644321975
+      },
+      {
+        "ticker": "352820.KS",
+        "company": "Hybe",
+        "pct": -2.0689655172413834
+      },
+      {
+        "ticker": "SKYD",
+        "company": "Skydance Corporation",
+        "pct": 1.9014116999318764
+      },
+      {
+        "ticker": "FOXA",
+        "company": "Fox Corporation (Class A)",
+        "pct": -1.5671687339668838
+      }
+    ],
+    "analysis": {
+      "business_model": "Netflix streams subscription video on demand, earning revenue from monthly fees for its library of licensed and original TV shows and movies.",
+      "sentiment": "Bearish - investors worry about content hit shortfall",
+      "why_moved": "The headline flags a lack of hits pressuring Netflix, prompting a 5.1% intraday drop as investors reassess its content pipeline.",
+      "read_across": "Peers show mixed moves, indicating broader streaming and entertainment sector volatility as content performance concerns spread across domestic and international players.",
+      "look_out": "Watch upcoming subscriber growth reports, guidance on new releases, and any earnings update for signs of recovery or further pressure.",
+      "memory": "In early 2022 Netflix faced a similar subscriber‑growth slowdown after weaker content performance, which led to a sharp share decline before a rebound when new hits arrived."
+    }
   }
 ]
