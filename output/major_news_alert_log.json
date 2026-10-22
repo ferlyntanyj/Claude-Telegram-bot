@@ -17807,5 +17807,51 @@
       "look_out": "Watch for Rollins' upcoming earnings release and any regulatory or industry developments that could impact pest‑control demand.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-22T19:34:11.739250+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "EME",
+      "company": "Emcor",
+      "pct": -5.81689487596071,
+      "last": 658.5,
+      "prev": 699.1699829101562,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "028050.KS",
+        "company": "Samsung E&A",
+        "pct": 16.142557651991616
+      },
+      {
+        "ticker": "FIX",
+        "company": "Comfort Systems USA",
+        "pct": -9.0325252517509
+      },
+      {
+        "ticker": "PWR",
+        "company": "Quanta Services",
+        "pct": -8.767511029966457
+      },
+      {
+        "ticker": "J",
+        "company": "Jacobs Solutions",
+        "pct": 2.751068859445982
+      }
+    ],
+    "analysis": {
+      "business_model": "Emcor provides construction, engineering, and facilities‑maintenance services, focusing on mechanical, electrical, and industrial projects for commercial and industrial customers.",
+      "sentiment": "Bearish - intraday decline suggests market selling pressure",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 5.8% on price action alone, likely reflecting broader sector or market selling.",
+      "read_across": "The mixed moves of peers—Samsung E&A up, Comfort Systems and Quanta down—indicate sector rotation rather than a uniform trend across the engineering‑construction space.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates, or any macro‑economic news that could trigger further sector moves.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
