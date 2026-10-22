@@ -17690,5 +17690,51 @@
       "look_out": "Watch Korean defense procurement announcements, LIG Nex1 earnings or any regulatory news that could trigger further moves.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-22T03:45:06.546291+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "096770.KS",
+      "company": "SK Innovation",
+      "pct": -5.962410887880754,
+      "last": 145100.0,
+      "prev": 154300.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "010950.KS",
+        "company": "S-Oil",
+        "pct": -5.003380662609869
+      },
+      {
+        "ticker": "6505.TW",
+        "company": "Formosa Petrochemical",
+        "pct": -3.1963470319634757
+      },
+      {
+        "ticker": "267250.KS",
+        "company": "HD Hyundai",
+        "pct": -1.4884979702300405
+      },
+      {
+        "ticker": "MPC",
+        "company": "Marathon Petroleum",
+        "pct": -1.4861900959077023
+      }
+    ],
+    "analysis": {
+      "business_model": "SK Innovation is a South Korean integrated energy group that operates refineries, petrochemical plants, and a growing battery business, generating revenue mainly from fuel and chemical sales.",
+      "sentiment": "Bearish - investors reacting to broader energy sell‑off",
+      "why_moved": "No specific catalyst is stated; the stock fell 6% on pure price action amid a sector‑wide decline.",
+      "read_across": "The drop mirrors similar declines in regional peers S‑Oil, Formosa Petrochemical, HD Hyundai and Marathon Petroleum, suggesting a wider energy‑industry sell‑off.",
+      "look_out": "Watch oil price trends, upcoming earnings releases, and any regulatory news that could affect refinery margins.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
