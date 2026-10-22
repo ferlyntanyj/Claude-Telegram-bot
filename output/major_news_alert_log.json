@@ -17644,5 +17644,51 @@
       "look_out": "Watch for any forthcoming earnings release, guidance update, or corporate announcement that could explain the surge.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-22T00:18:58.160206+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "079550.KS",
+      "company": "LIG Nex1",
+      "pct": -9.032846715328468,
+      "last": 498500.0,
+      "prev": 548000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "272210.KS",
+        "company": "Hanwha Systems",
+        "pct": 5.240793201133154
+      },
+      {
+        "ticker": "NOC",
+        "company": "Northrop Grumman",
+        "pct": 4.572604794400337
+      },
+      {
+        "ticker": "HWM",
+        "company": "Howmet Aerospace",
+        "pct": -3.8176584752473097
+      },
+      {
+        "ticker": "GE",
+        "company": "GE Aerospace",
+        "pct": -3.6655113424744257
+      }
+    ],
+    "analysis": {
+      "business_model": "LIG Nex1 designs, manufactures and sells defense systems such as missiles, artillery, radars and avionics, earning most revenue from Korean military contracts.",
+      "sentiment": "Bearish - 9% intraday drop without clear catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 9% on intraday trading, likely reflecting profit‑taking or sector‑wide defensive sentiment.",
+      "read_across": "Domestic peers like Hanwha Systems rose, while U.S. defense stocks also gained, indicating the sell‑off may be isolated to LIG Nex1 rather than a broad defense‑industry trend.",
+      "look_out": "Watch Korean defense procurement announcements, LIG Nex1 earnings or any regulatory news that could trigger further moves.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
