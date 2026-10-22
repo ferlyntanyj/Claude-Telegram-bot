@@ -17736,5 +17736,51 @@
       "look_out": "Watch oil price trends, upcoming earnings releases, and any regulatory news that could affect refinery margins.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-22T12:38:57.044680+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "RTO.L",
+      "company": "Rentokil Initial",
+      "pct": 5.94216109440473,
+      "last": 333.3999938964844,
+      "prev": 314.70001220703125,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "BXB.AX",
+        "company": "Brambles",
+        "pct": 3.1584043777451054
+      },
+      {
+        "ticker": "GPN",
+        "company": "Global Payments",
+        "pct": -1.5208688047260832
+      },
+      {
+        "ticker": "CTAS",
+        "company": "Cintas",
+        "pct": 1.4375870316251982
+      },
+      {
+        "ticker": "CPRT",
+        "company": "Copart",
+        "pct": -0.862377907927081
+      }
+    ],
+    "analysis": {
+      "business_model": "Rentokil Initial provides pest control and hygiene services to commercial and residential customers, earning revenue from recurring service contracts.",
+      "sentiment": "Bullish - investors reacting to price momentum",
+      "why_moved": "No specific catalyst is mentioned; the stock simply jumped 5.9% on price action alone.",
+      "read_across": "Peers like Brambles and Cintas also rose, suggesting broader sector optimism in service‑related equities.",
+      "look_out": "Watch for Rentokil's upcoming earnings or guidance releases that could confirm the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
