@@ -1,26 +1,25 @@
-# US Market Morning Brief -- 22 Oct 2026, 13:07 SGT
+# US Market Morning Brief -- 23 Oct 2026, 13:07 SGT
 
 ## Markets
-- [Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment](https://news.google.com/rss/articles/CBMivwFBVV95cUxQZUJTOXdaa0JmVzZubm12MGt4VnNSemsyOW1fQXpCMnhEc25HSVJRZk93d2NYUXQ3eHBuQklaNE1FT1QyQ1NqdTFkdExDbmoxY2JtOWhLQkVtYXczMHh3a3VsZmhub1JFc0FIZHN1eEcwc3FRZVZWQnBoSjFjekFYTUN6X2d5WHJUWGpDU2paekhhU24zenhNbWpXUmtfdmo5cTFIZVZwTXdiRzZoeUtiazhHWkJEWEVZLTVmQmRMcw?oc=5) — Reuters
-- [Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond](https://www.cnbc.com/2026/10/22/php-google-openai-and-amazon-cyber.html) — CNBC Top News
-- [Meta put out an ambitious roadmap to Muse monetization after strong quarter and guide](https://www.cnbc.com/investingclub/2026/10/21/meta-put-out-an-ambitious-roadmap-to-muse-monetization-after-strong-quarter-and-guide.html) — CNBC Top News
-- [Trump-aligned super PACs pour millions into once-safe GOP House seats](https://www.cnbc.com/2026/10/21/trump-pac-spending-midterm-election-house-republicans.html) — CNBC Top News
+- [Asian Stocks to Slide on Tech Rout, Bonds Rally: Markets Wrap](https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGVVVVZBVjRRcTNYSXJlNS0tV0E5MkEwOVlGcTh3anZ1eC16ZEdSYmp5ODRIcUo1T3BkU01vNkpTTmJxOUFELVFUUG9SS0o2SDNSWHQ5bE9PVGp3a29vLUROenZwc2FBTnhMQ3VOR1B4SVJiZjFvaDV6TjMwUlg3dUlQcmlkdUJXZU5PbXE2YWtrZXN1?oc=5) — Bloomberg.com
+- [Wealthy Chinese move offshore money to U.S. banks as Beijing’s tax net widens](https://www.cnbc.com/2026/10/23/wealthy-chinese-tax-offshore-trusts-capital-control-.html) — CNBC Top News
+- [S&P 500, Nasdaq end sharply lower as revived AI doubts ignite tech selloff](https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWxDZDg5X0padGNvb2k2V2ZkX2tEWW9YWkdjeVdMZHNUTlg1MXY4TmUyTDZHdUhNTHFRNWRPRjc2VFlEN3RXTDhNSjhDYmRfTWZGXzdKYXdLejRHNGgwRVdNbmZRUkFhSm9GakxMek56UUZ2OUtqajd6NVkzRkR1VzBNWlo5VWp5NUFkX2phUjlSSFlndUlNNGxvUXlHSm1wMlpTbkRR?oc=5) — Reuters
+- [U.S. Stocks Fall as Tech Selloff Deepens](https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdDB3cDByVmVJQWQ4bzhobm83ZDVVN3MtYXh0VjlYT0xtakhpVkNrUFFHbVpWZEp2UHdpeWIwX0h2eVJqSzdod0t1Y3JxcVBaTzZlUFRKTFNkMDE4LVYxMHNjRGlYb0FsOVdqMnJuVzdHMk0xNVVxWXh4Y0tidlFtbXBUa1lXTVJGOXc1c0VvbjJ6eGVINVY0cEpFZHEtakM1UkFwdVZLVW4ySWlxV0RwNHpnNkpKcUsyRXU4RXN2Zm03QTQ?oc=5) — WSJ
 
 ## Macro, Fed & data
-- [CoreWeave’s market confidence erodes as bond yields spike and stock sinks](https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html) — CNBC Top News
-- [The Treasury Market’s New Power Brokers Are Pickier Than Ever](https://news.google.com/rss/articles/CBMisgFBVV95cUxQc2JFVWRUN1NCRmxtalJTV0h6SG1oZlYwd3JWVEZGdWIzQjRUMlQ3aU1sMjJtWm5lYWhFM0I5ZmZTWEQ5TVVSZnM4T2k4bzJBZThRY3djamNEX2FSRW03VGttVFJMQi0xaWpNNDdxUV9TN2x2dExMYkwxRzJHRjBpVXdidEFVelpqUUI3NVdJMk1SbG1FWGtIM3NKS2w1VkVyTnNVMU4wUHpWYVRfTWNzN1RB?oc=5) — Bloomberg.com
-- [RBI Turns Away All Bids at Treasury Bill Sale Amid Bond Selloff](https://news.google.com/rss/articles/CBMitAFBVV95cUxNOFptdjh1cVp2TVpqVWhJMnBWZERveXQteEx0eUFrTkVWQTNoZ1o0VDdGOVgyWGM5eURkQ1E0ZkJ0Z0VwMVdxQzA4cWZ4eDZRTDFzQmNoT2NSZWRpOUNNNEVvV1hycXo3MEsxa2xjeV9SdUVaSHNQR2VaWjdOQ3hDSXJKaFdWdm9VVGhHSk93X0cxLWZJcmEwSlVjc2xzTEFKLUktNGFzUFAzWnlLMERwOEVaaEk?oc=5) — Bloomberg.com
-- [Housing is flashing warning signs just as the Fed weighs more interest rate hikes](https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html) — CNBC Economy
+- [Japanese Bond Yields Fall as AI Jitters Spur Haven Demand](https://news.google.com/rss/articles/CBMirAFBVV95cUxQX0ItMTJyMGZaRmVnakhGLTNid3MwZVpKRnpPanVwbFRZMTlVNU15ZEgtcmlvSWM1UWJ1YlF2NXJrZEJSNHN6TDFkcHFCRHdXRXdqLXVCQ2VtWHlBZkMzVldYd21CcHZtb0RPbzdEaENlSERHMU0xQVBOV2tRQjFqaDBJb0YxTEtMamZVUUh3aEoxeFZqa0Fpb0IzZk1oZGZQc2psX3lRTUVYV0l2?oc=5) — Bloomberg.com
+- [U.S. 10-Year Treasury Yield Falls Under 5% as French Turmoil Fuels Flight for Safety](https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaG1kb1dxekJabUk3czhacmlCWC1GV1N5WlkyaFZVekxHaUhsbUVIU0lLMXFHRk91ZnVBRUZCMkNWWmVMZGppbDJ1QXZTX05OdkJpNy1nVlQ0MzVyb3dONjNQcjVoU1ZsdDVwc1BuVnpUTk9TX1dMNnBJdVNtVHpkbjZCSDBrZTZlOEo5MFo5QV9WTnAxV2JySkVpWGh5alBYVTNBRlBJTUVYVjJ1Q2hwdDlyY2tJUmFJYjg4?oc=5) — WSJ
+- [Japan core inflation in September surges to its highest this year at 2.1%](https://www.cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html) — CNBC Top News
+- [US weekly jobless claims near 57-year lows, underscore labor market stability](https://news.google.com/rss/articles/CBMikAFBVV95cUxPY1lNaWxpcFZmNGx5cEFsQ25QUUNuM0ZkVzJXaGdxdDRFdXNpNGVyYlhhV3JLcnpoMHJKLTZhMWduY0hQYXFPM2xBRjl5TF8xaXAyNU40UUtnTl94TDl3eUVjSHlleXBtenZHVDNpUmw5LUxRMDJNNzF2VVlxYmVodVpWUE5PWEdtVHRSZmdzR2w?oc=5) — Reuters
 
 ## Stocks & earnings
-- [China's stock market sinks into bear territory as CSI 300 extends 10-week rout](https://www.cnbc.com/2026/10/22/chinas-stock-market-csi-300-bear-market.html) — CNBC Top News
-- [Stocks Climb as SpaceX Results Reignite AI Trade: Markets Wrap](https://news.google.com/rss/articles/CBMilAFBVV95cUxNRDhCbnUwbzFqRTZQb2ZQWmtIWGtBam9ENEc4ak5nNEktMm16NlA0TXJQalJpb1I0X1BDVG9rbVh1d0k1TGU0ZjRabE1IVVNCTmhRM19QQlYtdk9JYkVaQ0xRNXJXSldPenRydmpsczhmX3V6elA2Tmo4MWJrTXphQ0wyNnlDRVM2eGUzeF94MlZBN1NN?oc=5) — Bloomberg.com
-- [Moody’s Earnings Fall Short of Estimates, Shares Decline](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcTV2Uy1ldThSQjFtcFo4Z19sZE1jQ09GeW1UU296aWhVOWNva0Iwa0JNcjhBczYtSGVHYkxmcGRPMzgyNThtSTBhUklKMW5mYk9kWW1nZk5iR09Hem9sdGlBMDJjWXhxYm1LSGZpR0kyd3F2VXF0akozUjJhcnRSU213anBvUlBmdXFMcEVmU1hvWFZKd1R6REpGRk5SM2U2S1pzcWxRSWtNUQ?oc=5) — Bloomberg.com
-- [Tesla beats on earnings and sales even as auto revenue declines](https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html) — CNBC Top News
+- [SK Hynix shares rebound after initial drop on scrapped Solidigm IPO plans](https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html) — CNBC Top News
+- [Moderna shares plunge after cancer vaccine data leaks — despite positive results](https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html) — CNBC Top News
+- [A lesson from poker tells us not to fold on Meta after its earnings sell-off. Here’s why](https://www.cnbc.com/investingclub/2026/10/22/meta-stock-why-were-staying-bullish-after-the-post-earnings-sell-off.html) — CNBC Top News
+- [Comcast beats earnings expectations as media revenue offsets weakness in connectivity](https://www.cnbc.com/2026/10/22/comcast-cmcsa-earnings-q3-2026.html) — CNBC Markets
 
 ## Geopolitics
-- [U.S. pulls diplomats from Saudi Arabia as it reportedly readies Iran strikes after midterms](https://www.cnbc.com/2026/10/22/us-iran-trump-hormuz-.html) — CNBC Top News
-- [OPEC Cuts Demand Growth Forecast Again as Gulf Supply Risks Mount](https://news.google.com/rss/articles/CBMitAFBVV95cUxPUEt1NmxaOWtwZ2RBbVh1Q01nZjU2TlZCR1gtRm5sOElDQXFOaVJuTWRQVkhKcGxwNG5KYkhITnJsamhoV1JxVDlxc3p6RlJNR0FCUEtoWm1NQlpNcHN5TXh0RFZJYkhqUFlVdnBXQm5IUFMzdzBqNHRNSk9BelFWbEkwOEJ3bVJLLTZLUjU3Slo3UXVUZjk2YkpySnN5Sl83LWN6Mzdka0MyZzBfTUEtVldmU0Q?oc=5) — WSJ
-- [Trump denies ordering Starlink slowdown in Ukraine, says he doesn't know who did](https://www.cnbc.com/2026/10/21/trump-starlink-ukraine-elon-musk.html) — CNBC Top News
+- [Trump Punts on Wind Turbine Tariffs, Allows 180 Days for Talks](https://news.google.com/rss/articles/CBMisgFBVV95cUxPOGpoQklQcElFSEt1c2t3S0NibFRHRFZsanBOU1VRU3JNcmNQREJXZVNEd0JVMWEzNXVKdHJybnFVbEtfRW9pWURBQ19uQTBIOTBzQUdpSzJRYV9rMFF3Uk1wN2NBUmpJMnBValJ2OW81QlV1Qm5xcWtBTkpBd3BFenlwUEpWUjFpVFNYTXBaMG96VUpKU0w0RVJaSm5OUERVS1RYZVRTU29VUGJCVUFhQlp3?oc=5) — Bloomberg.com
+- [Trump’s tariffs loom over Maine Senate race between Collins and Jackson](https://news.google.com/rss/articles/CBMifEFVX3lxTE8zQy1vM2xpZlhpcVU1ZmtRNEhhTGtNZENvSTk3WDdxWWxOYjN6UVJuVlhvTl9faDAxZGR4cEZ1cThZOVJBd1JKVEIydllROEU4MXhFWG02R0RlSXlqaWZmNXhMU3FWLWFWQjFHQy1MOTY1anBBRXpyV0RNVTfSAYIBQVVfeXFMTzFyOW45TzR6WU44QjhRN3VORHpNWElzazRkUHQ0NXJwVXZ3d2VoMUpET0RxSjR1LThUU3hrN2NMcS1EOXhfN3FjU0VvNWYxVmp2V3BvRzdlakQxUzh0dllzdjJKR29ZWXZaQzNBbGM2QVI1TWRLa1YwSHZac25KMFB6QQ?oc=5) — CNBC
 
-_Sources: Google News + CNBC + Fed feeds (15 headlines, 20h window)._
+_Sources: Google News + CNBC + Fed feeds (14 headlines, 20h window)._
