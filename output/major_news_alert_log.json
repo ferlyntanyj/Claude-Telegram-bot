@@ -17991,5 +17991,51 @@
       "look_out": "Watch for upcoming earnings releases or macro data that could confirm whether the sell‑off is temporary or signals deeper demand weakness.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-23T19:26:42.508636+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "APA",
+      "company": "APA Corporation",
+      "pct": 5.117319304752876,
+      "last": 51.970001220703125,
+      "prev": 49.439998626708984,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "FANG",
+        "company": "Diamondback Energy",
+        "pct": 4.595717554349088
+      },
+      {
+        "ticker": "DVN",
+        "company": "Devon Energy",
+        "pct": 4.463195773085871
+      },
+      {
+        "ticker": "ITH.L",
+        "company": "Ithaca Energy",
+        "pct": 3.8673969107064776
+      },
+      {
+        "ticker": "COP",
+        "company": "ConocoPhillips",
+        "pct": 3.8590914844161883
+      }
+    ],
+    "analysis": {
+      "business_model": "APA Corporation is an upstream oil and gas company that explores, develops and produces crude oil, natural gas, and natural gas liquids primarily in the United States and internationally.",
+      "sentiment": "Neutral - price jump lacks explicit catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock rose intraday on its own, likely reflecting broader energy sector buying or momentum trading.",
+      "read_across": "Peers such as Diamondback, Devon, Ithaca and Conoco also posted gains, suggesting a sector‑wide bullish flow in oil and gas equities.",
+      "look_out": "Watch upcoming earnings releases, oil price trends and any guidance updates that could confirm or reverse the current rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
