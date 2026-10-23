@@ -17853,5 +17853,97 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates, or any macro‑economic news that could trigger further sector moves.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-23T00:22:12.876712+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6976.T",
+      "company": "Taiyo Yuden Co., Ltd.",
+      "pct": -5.976440073489675,
+      "last": 8700.0,
+      "prev": 9253.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "600183.SS",
+        "company": "Shengyi Technology",
+        "pct": -7.336747528589715
+      },
+      {
+        "ticker": "002916.SZ",
+        "company": "Shennan Circuits",
+        "pct": -6.969901140424694
+      },
+      {
+        "ticker": "2327.TW",
+        "company": "Yageo",
+        "pct": -6.457564575645758
+      },
+      {
+        "ticker": "007660.KS",
+        "company": "Isu Petasys",
+        "pct": -5.735140771637126
+      }
+    ],
+    "analysis": {
+      "business_model": "Taiyo Yuden designs and manufactures passive electronic components such as capacitors, inductors and filters for consumer and automotive electronics.",
+      "sentiment": "Bearish - broad sector sell‑off hits component makers",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 6% on intraday price action amid a broader decline in similar component makers.",
+      "read_across": "The similar drops in Shengyi Technology, Shennan Circuits, Yageo and Isu Petasys suggest a sector‑wide pressure on passive component suppliers across Asia.",
+      "look_out": "Watch upcoming earnings releases or guidance from Taiyo Yuden and its peers for any change in market sentiment.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-23T00:22:12.876805+00:00",
+    "type": "single_stock",
+    "headline": "(2nd LD) Samsung E&A Q3 net rises 37.7 pct on project growth, improved profitability",
+    "source": "Yonhap News Agency",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zb3REbEpOb29sVHAybEQzWHdCbmcwRGVZeGZMUU9VWVVQMklnMWNONjNkTFRaMGFOcEZYSjA2anlmcDN1UGxoQ1ZIMllMRW9zNVpBcTFHN0h1UQ?oc=5",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "028050.KS",
+      "company": "Samsung E&A",
+      "pct": 16.142557651991616,
+      "last": 55400.0,
+      "prev": 47700.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "600039.SS",
+        "company": "Sichuan Road&Bridge",
+        "pct": -2.204171495426621
+      },
+      {
+        "ticker": "J",
+        "company": "Jacobs Solutions",
+        "pct": 2.0190501619450574
+      },
+      {
+        "ticker": "601868.SS",
+        "company": "China Energy Engineering Corporation",
+        "pct": -1.2820501064172207
+      },
+      {
+        "ticker": "601390.SS",
+        "company": "China Railway Group Limited",
+        "pct": -1.1820376006952182
+      }
+    ],
+    "analysis": {
+      "business_model": "Samsung Engineering & Construction designs, builds and operates large‑scale infrastructure and plant projects, earning fees and contracts worldwide.",
+      "sentiment": "Bullish - earnings show strong project growth and profit boost",
+      "why_moved": "The stock jumped after Samsung E&A reported Q3 net profit up 37.7% on project growth and better profitability, as highlighted in the headline.",
+      "read_across": "The positive earnings signal could lift sentiment for regional construction peers like Jacobs Solutions and China Railway, suggesting broader sector momentum.",
+      "look_out": "Watch upcoming Q4 guidance and any new project announcements for confirmation of continued growth.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
