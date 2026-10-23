@@ -1,18 +1,21 @@
-# Global Semiconductor Brief -- 23 Oct 2026, 13:12 SGT
+# Global Semiconductor Brief -- 23 Oct 2026, 23:23 SGT
 
 ## Policy & geopolitics
+- [Chip Industry Week In Review](https://news.google.com/rss/articles/CBMibkFVX3lxTE5DNG45YTd6ZXpFUmRKR3VYQWpaOFY4MEV6aWNta29Ib2JkdXZFeko3UFVtV05WZkttZ0lia3l6UXB0TEd0ekFtX1dHUW1fT1Y2MG02Y0g4NzBrSVN2TFVseTZUbzVhVF9WZmZlVmRR?oc=5) — Semiconductor Engineering
+- [China can make advanced chips without EUV, but the bill keeps growing](https://news.google.com/rss/articles/CBMitwJBVV95cUxOTG1OME9pdHNkRnFJRTdoTTVNVWlheV95WGtJR3ZLaXQ2SVJ2cy1kS2Q2RmJDMTZmTEpPdUtoRGxCUHplRVJlalJZQVJnVFFuWGVBNURpRjF2aHdQQU5ESTQydEVJelVjT2l0ZUZPajlsSkZhUkNOcGFYT0p4X2N2U3N1N19LNkNscUY3MDNBUWRwaU5wRmFyY2p5d2tEaWNubHRGOUpIbjBLcWVac1l3N20xTl8xVHB4alEtTURTbl9kMnEzdnROT2Uzc1FEMTBRSlBPSWtRdTgzbkgtai03S01VcTZyem8yYWhfS2V6anNJQ2NLWHl2TG1IWmdHa1lMM192UkNUNk1UeVc1ZFZOREQ0aGN6UVZUMndZRjc0c1A3Q1QzMnFRNmtaYllycUJuUlVIMEtYRQ?oc=5) — Tom's Hardware
+- [Illegal Nvidia Blackwell Ultra B300 GPUs found inside state-owned China Telecom's network — Nvidia says chip smuggling 'a drop in the bucket,' insists smuggling remains a nonfactor](https://news.google.com/rss/articles/CBMizwJBVV95cUxOOXl4bHBDVENMOE1PYWJZUEJXeEJfdUlzUjhNTVZoeFE3SERZMktlOHBqUDItMFhWcVdjLXZPOVB1RG9hNzhrMmd3ZWNlYVFDbzhab2V4dVA3aEVqSENLM1ZfQzNiNmx6R0VaTVUwRU9FUUFnMV9kcDluWEJTOE10OWx3N0RhRHNZZ1VZZzJLVTFzdW5ndXpkQjI0SU5TaExsclZaUEM5cnhSQTZhYlhEM3lpTUk5aFZkRFk4bzZPaENrVTRrbnBQMzhUSHMxSzRCNFFGSHhaRi1TMWNNamlQU0Jzc2tXTDBmRUxFQUljMlFGSkJlOTFwQnZXckNibC1zTFVXUm9MTGhuY1RPZHVscE5YUmFzRU9aZ1doSUtuSGF1dEVxNlpjWkl1SWRzOEJBNHAyY0dtZFJxUE41a3JRWURuZE1LUFVacUgyb2UxWQ?oc=5) — Tom's Hardware
 - [FCC grants Intel a waiver to foreign robot ban to prevent chip disruptions](https://www.digitimes.com/news/a20261023VL218/fcc-intel-ban-robot-mobile.html) — DIGITIMES
 
 ## Supply chain signals
-- [Chinese phone brands beat Samsung, Apple to high-refresh OLED](https://www.digitimes.com/news/a20261023PD203/smartphone-samsung-apple-panel-visionox.html) — DIGITIMES
-- [Analysis: Nvidia's Vera CPU takes on Intel and AMD with a platform play](https://www.digitimes.com/news/a20261023PD219/nvidia-cpu-intel-amd-infrastructure.html) — DIGITIMES
-- [US signs up to US$389 million in CHIPS R&amp;D deals for power chips and fusion](https://www.digitimes.com/news/a20261023PR201/materials-electronics-semiconductors-development-quartz.html) — DIGITIMES
-- [DIGITIMES Insight: BCI grasping reaches market; implant stability and chip heat keep advanced uses beyond 2030](https://www.digitimes.com/news/a20261023PD212/digitimes-2030-market-commercial-chips.html) — DIGITIMES
+- [Doosan Robotics targets automakers, chipmakers as Chinese rivals cut prices](https://www.digitimes.com/news/a20261023VL222/doosan-sales-robot-2026-automotive.html) — DIGITIMES
+- [Taiwan's inaugural semiconductor strike pauses as nearly 70% of Micron Taoyuan Union rejects new bonus offer](https://www.digitimes.com/news/a20261023PD239/strike-taiwan-micron-management-2026.html) — DIGITIMES
+- [Nvidia B300 chips reportedly surface on China Telecom-linked network, raising export-control questions](https://www.digitimes.com/news/a20261023VL220/nvidia-chips-security-blackwell-china-telecom.html) — DIGITIMES
+- [First chip-level device on the list: US FCC bans two devices with Huawei HiSilicon chips under new rule](https://www.digitimes.com/news/a20261023PD231/fcc-hisilicon-huawei-surveillance-market.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [SK Hynix shares pare losses in choppy trade as chipmaker halts Solidigm IPO review](https://news.google.com/rss/articles/CBMia0FVX3lxTE1KdzNWdWhnSURIVm1od1FoWG5sa05neWxtbHp3T1Myd19NNS13R0ZxdFJ4SWhFYkdWa0hJN0QxSnhKd05NUmlNYVB1bUtrUlVlT1BYeXYtd0cwRVl3MmpIVUo5aFpXVVhqUVdJ0gFwQVVfeXFMTnpSVllodEFiTU9IZThoRkY0ODVOYWo2Z3B6Y3gzaFJtdmJjR2E1anUyWnZMNFprOVBLYUI1U0R3T1oyVExleGliU09VVzZlT2huRTVSZWwzRU4tQmhNTjJRVzQ2OF9MUVBaUmRBdDFSdQ?oc=5) — CNBC
-- [JCET's AI profit surge sets up US$2.73 billion advanced packaging expansion](https://www.digitimes.com/news/a20261023VL213/jcet-advanced-packaging-expansion-revenue-profit.html) — DIGITIMES
-- [Tesla, Nvidia reportedly invest KRW3.7 trillion to secure Samsung Electro-Mechanics ABF capacity](https://www.digitimes.com/news/a20261023PD226/tesla-nvidia-semco-production-abf-substrate.html) — DIGITIMES
-- [Analysis: Nvidia's DSX POD reshapes AI factory supply chains](https://www.digitimes.com/news/a20261023PD217/nvidia-ai-server-equipment-cooling.html) — DIGITIMES
+- [Why Nvidia Needs CoreWeave](https://news.google.com/rss/articles/CBMicEFVX3lxTFA3SFFrQkZQazVtd2tRMURid2JEVVNGTHltNEFjZThqcHFCWHZtczZ1eG9nbVRsMVJhaE9haWlxSXJQUmFndXpXb3gySWMyeWpxcHZ6RHM5X0RBQWhhaFdpUkFHbWxhSmtabzNsc2tHeGY?oc=5) — WSJ
+- [Blackstone Bet on Chips Drove a Debt Boom That’s Upending Credit](https://news.google.com/rss/articles/CBMitgFBVV95cUxPZHFXZTdkTnBxc0t4ZG5oMnVYVEpicDJLQUYxVEMxNXJ3bjFhWEhXcTR1R2Zsa3lIUkQ3R2JUNEZwTGg5cF9ZZERhR0V3MmxubFRCTmdlWmUwSGZKV19vbkY2bzg4b2EtaW5RalJTcm1IYWR6TklwdE9OMkVXVDBuRE9SQ2RMeC1kZG5QMldmUTdUTjdkckZneU1VNmJWY2l2R256OHFjWTFuN0NoV3dEcDlva2NyQQ?oc=5) — Bloomberg.com
+- [Micron Stock Leads Chip Rebound. Dip Buyers Must Buckle Up as AI Chaos Swirls.](https://news.google.com/rss/articles/CBMijAFBVV95cUxOZWx0RHQwYjBxYWVxYkpnVmNTQ1NpYXJadnR2TzRMREozN3dBWmpUSVdyOUFYRDIwOFRiM056SVF0Xy1yaXZVUjJSTERxLW8xcG04R3VGRGxNQjh3a2JiM0p6RWR0TXAwUXI5MDZIZ1d6dy1ocWZkSEdEcE9pLUV4OXdXbXI5MEU1VXFhNQ?oc=5) — Barron's
+- [Cambricon’s third quarter profit surges 148% amid push to replace Nvidia](https://news.google.com/rss/articles/CBMizwFBVV95cUxQVTRwUXNaR29qUlZONjU0cm1CUW9sOVFjUjBSM0pMd3ZldlBSQWRCakx3dUJUU1A3cjRNYnA1aU4xMXVDaFJ0d281MTVkbm1kM0dXTlZ6Z0g3bEhIZktZT1JZRGhJUEFZWUxzdGwzdVI3MnBOUW5Pb2VoLUg2WlNnRVlMRzVZR2ZCY2kzUUJwWE5aVGF5c2t1SkROb2R3UUlIME9YWWNhQnduaE5IaUZ2bUJ1T001UnlodmswZHRqQnRTZG1PbVZPSjdEOVdyNW_SAc8BQVVfeXFMUFU0cFFzWkdvalJWTjY1NHJtQlFvbDlRY1IwUjNKTHd2ZXZQUkFkQmpMd3VCVFNQN3I0TWJwNWlOMTF1Q2hSdHdvNTE1ZG5tZDNHV05WemdIN2xISGZLWU9SWURoSVBBWVlMc3RsM3VSNzJwTlFuT29laC1INlpTZ0VZTEc1WUdmQmNpM1FCcFhOWlRheXNrdUpETm9kd1FJSDBPWFljYUJ3bmhOSGlGdm1CdU9NNVJ5aHZrMGR0akJ0U2RtT21WT0o3RDlXcjVv?oc=5) — South China Morning Post
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (12 headlines, 13h window)._
