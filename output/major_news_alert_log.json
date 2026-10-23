@@ -17945,5 +17945,51 @@
       "look_out": "Watch upcoming Q4 guidance and any new project announcements for confirmation of continued growth.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-23T02:16:29.392205+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6361.T",
+      "company": "Ebara Corp.",
+      "pct": -5.487326887901755,
+      "last": 3617.0,
+      "prev": 3827.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "GEV",
+        "company": "GE Vernova",
+        "pct": -10.638068279984147
+      },
+      {
+        "ticker": "GNRC",
+        "company": "Generac",
+        "pct": -7.443140278929228
+      },
+      {
+        "ticker": "PH",
+        "company": "Parker Hannifin",
+        "pct": -6.784449366335544
+      },
+      {
+        "ticker": "ETN",
+        "company": "Eaton Corporation",
+        "pct": -6.333454854141718
+      }
+    ],
+    "analysis": {
+      "business_model": "Ebara Corp. designs, manufactures and sells pumps, compressors and other fluid‑handling equipment for industrial, infrastructure and environmental applications, generating most revenue from its fluid‑technology segment.",
+      "sentiment": "Bearish - price drops amid broader industrial sell‑off",
+      "why_moved": "No specific catalyst is stated; the stock fell sharply on its own, reflecting a sector‑wide sell‑off in industrial equipment equities.",
+      "read_across": "The similar declines in GE Vernova, Generac, Parker Hannifin and Eaton suggest a broader pressure on global industrial equipment and power‑systems makers, possibly driven by macro‑economic or supply‑chain concerns.",
+      "look_out": "Watch for upcoming earnings releases or macro data that could confirm whether the sell‑off is temporary or signals deeper demand weakness.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
