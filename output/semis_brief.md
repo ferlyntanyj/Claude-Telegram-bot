@@ -1,11 +1,14 @@
-# Global Semiconductor Brief -- 24 Oct 2026, 22:05 SGT
+# Global Semiconductor Brief -- 25 Oct 2026, 13:07 SGT
 
 ## Supply chain signals
-- [Nvidia rejects near-term memory glut fears, leaves CXMT cooperation open](https://www.digitimes.com/news/a20261023PD243/nvidia-cxmt-demand-technology-market.html) — DIGITIMES
+- [Namuga expands beyond Samsung with humanoid robot camera modules](https://www.digitimes.com/news/a20261023PD237/robot-camera-samsung-production-revenue.html) — DIGITIMES
+- [Texas Instruments sees up to $1,000 in chip content per humanoid robot as analog supply tightens](https://www.digitimes.com/news/a20261023PD218/texas-instruments-robot-earnings-2026-revenue.html) — DIGITIMES
+- [Magnate Technology sees aerospace, semiconductor growth opportunities](https://www.digitimes.com/news/a20261023PD207/growth-revenue-aircraft-demand-equipment.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Here's the AI Chip Stock That Hedge Funds Are Loading Up On](https://news.google.com/rss/articles/CBMilAFBVV95cUxNcjdCYkUwdFpFV0ZhVnpOTE9YNk82WnpXdTJLdDhGamQ0WGs2X2JLZlFnSEptOGpMUk5wWUMtVDVxVERuVkFmT0lNWFNibHhEdFRrcm5vR2dQVEljU05lNTlFNFlMNWJTS3UxeVFRUGNBLUhpZUE3OXZCZjZSbmpaa1QyTHdKVzFZMXlHNWs0YVhwQ05P?oc=5) — Yahoo Finance
-- [Tower Semiconductor: The Silicon Photonics Opportunity Is Taking Shape (NASDAQ:TSEM)](https://news.google.com/rss/articles/CBMirwFBVV95cUxOdkdPMlZzcGphbFEtR2xQREh6a3YzMU9oSDhTaDJ2YmVqYlZqUTNLLUVtbkpZM1BsaHJYQXd4bGMwVkJQUjQ3UDNUeE1NVE03MnRRZktHNm5DSjVqd1RqY1JGWVFwLWJLOC1rb0pvZFI0UHNBN2cxT3RMRDFQcGI5VXFFcExGUy0ybm43WG1Tbi1kYm5lQUZhbk5wNEd5YU9id0JmOG41SjItVjRINHZF?oc=5) — Seeking Alpha
-- [Applied Materials Stock: Buy The Engineering Powerhouse Behind AI (NASDAQ:AMAT)](https://news.google.com/rss/articles/CBMimwFBVV95cUxNTWRzTk5udUdOTE8yMFpwQV9rZzItM1VYMmMtTXF5SEE4bzZJeUNPZTlpLUFNR2lDNjgwcWtLTElOdFkwemdZR2ZGQzRGaVc2c3MxcE9NU0xTbnhiSTFQSVNtdVRRVlphZ3pTNnVRTEhGYXAwT1V1ejMxNWpwQXVtT2ZZelc2Yzl6UTBockcyeENDb25EVnZ0MFd1RQ?oc=5) — Seeking Alpha
+- [Nvidia unveils OOI CPO prototype for post-2028 AI needs](https://www.digitimes.com/news/a20261023PD240/nvidia-cpo-interposer-technology-2026.html) — DIGITIMES
+- [Samsung Electronics, SK hynix set to report Q3 earnings this week](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HZ0FnTkx3cGlrVzF4VzA4dk9CbktkdEVnaW5RaVNjTERPaFV0SzJtamp4bUFKQU8yRFJGaWItRFFLdl93NkE5WWsxTnlyQWQ5VDhoSnlnNEh0Zw?oc=5) — Yonhap News Agency
+- [AI bear slams Nvidia's GPU pitch: 'There's not scarcity other than that which is created by Jensen Huang'](https://news.google.com/rss/articles/CBMi8gFBVV95cUxOQ296eGZsT0J4ZXhoWnJrcmlOaC0wUEx5QlNQN2R6b3luMklwSTkxOHpsZ3d6aEtPbTVOaWFpSjZPUlRMOW5YOEQ5d04zU0VtQ1JiWUtSM1ZHV0dfUGpsUGlLQmFQVmtDRk5URkpRcmd3ZG5YcUZGOFV1SkJLd1RST1VjTkt2YkRNaDdPcjJMZ2hGT0tPaVYwSG1XdC1Nc0JEQjdJSzVsendNZ1dtdHlXQWRzQm5kaF83TFNsUFYtY2RTaE1qd2dJVTBkNkI0ZEYxUG5wX3VtdjNMREJpR05WcjhvYnhJeFp4b1lwR2FUbFJtUQ?oc=5) — Yahoo Finance
+- [SK hynix: Don't Bet On The Slower Boat In A Fast Tide (NASDAQ:SKHY)](https://news.google.com/rss/articles/CBMilwFBVV95cUxNMmhMcjhkUERPUFhaX0k4aHdtbXRMaGUxVEVhT1pfV2F5WnhQbEpKLTJxMEJlUEpNQVRhSFIwWFdyVUcxR051alVQMnBoNTh2YkZjTG9ZbUV4Q2lVVzZVUXo0SG00bkoxc2kzN1BVb0Y4UkJZc2doWmJBU2V5YnFCQ21JTmxkN0lXSW5Gb01pbHJJWGpCOXdv?oc=5) — Seeking Alpha
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (4 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (7 headlines, 13h window)._
