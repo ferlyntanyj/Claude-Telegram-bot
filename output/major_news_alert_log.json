@@ -18405,5 +18405,51 @@
       "look_out": "Watch for Computacenter’s upcoming earnings release or any guidance updates that could confirm whether the price gain is sustainable.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-26T18:12:38.768141+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "LITE",
+      "company": "Lumentum",
+      "pct": 10.647078247641929,
+      "last": 836.6799926757812,
+      "prev": 756.1699829101562,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "CIEN",
+        "company": "Ciena",
+        "pct": 7.390082978536872
+      },
+      {
+        "ticker": "HPE",
+        "company": "Hewlett Packard Enterprise",
+        "pct": 4.72746581424881
+      },
+      {
+        "ticker": "300308.SZ",
+        "company": "Zhongji Innolight",
+        "pct": 3.816241055103231
+      },
+      {
+        "ticker": "CSCO",
+        "company": "Cisco",
+        "pct": 3.708917322293126
+      }
+    ],
+    "analysis": {
+      "business_model": "Lumentum designs and manufactures optical components, such as lasers and modulators, used in telecom and data‑center networking equipment.",
+      "sentiment": "Bullish - sector momentum lifts optics stocks",
+      "why_moved": "No specific catalyst mentioned; price surged on intraday buying pressure.",
+      "read_across": "Peers such as Ciena, HPE, Cisco and Zhongji Innolight also rose, indicating broader optimism in networking and optical‑component markets.",
+      "look_out": "Watch upcoming quarterly results and any guidance on telecom demand.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
