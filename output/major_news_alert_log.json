@@ -18313,5 +18313,51 @@
       "look_out": "Monitor upcoming earnings releases, policy updates on chip subsidies, and any macro‑economic data that could influence investor sentiment toward Chinese tech stocks.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-26T04:54:12.700999+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "002916.SZ",
+      "company": "Shennan Circuits",
+      "pct": -5.781332685696672,
+      "last": 266.6199951171875,
+      "prev": 282.9800109863281,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "300408.SZ",
+        "company": "Chaozhou Three-Circle",
+        "pct": -10.650063553937484
+      },
+      {
+        "ticker": "600183.SS",
+        "company": "Shengyi Technology",
+        "pct": -8.356641738882331
+      },
+      {
+        "ticker": "002938.SZ",
+        "company": "Avary Holding (Shenzhen) Co",
+        "pct": -3.863019383434352
+      },
+      {
+        "ticker": "007660.KS",
+        "company": "Isu Petasys",
+        "pct": -3.67816091954023
+      }
+    ],
+    "analysis": {
+      "business_model": "Shennan Circuits designs, manufactures and sells printed circuit boards for electronic devices, earning revenue primarily from PCB sales.",
+      "sentiment": "Bearish - price drops without news",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 5.8% likely due to broad market or sector‑wide selling pressure.",
+      "read_across": "Peers also slipped, indicating a wider pullback in Chinese PCB makers and related supply‑chain segments.",
+      "look_out": "Watch upcoming earnings releases, guidance updates, or macro data that could affect electronics demand.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
