@@ -18175,5 +18175,51 @@
       "look_out": "Watch upcoming earnings releases, defense spending updates, or any guidance changes from Korean aerospace firms for a potential reversal.",
       "memory": "Similar unexplained drops in Korean aerospace stocks have coincided with broader sector sell‑offs in the past."
     }
+  },
+  {
+    "alert_utc": "2026-10-26T03:50:44.488412+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "2899.HK",
+      "company": "Zijin Mining",
+      "pct": -5.634758652409588,
+      "last": 27.799999237060547,
+      "prev": 29.459999084472656,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "601899.SS",
+        "company": "Zijin Mining Group",
+        "pct": -4.793334575307206
+      },
+      {
+        "ticker": "NEM",
+        "company": "Newmont",
+        "pct": -4.592058396058041
+      },
+      {
+        "ticker": "GMD.AX",
+        "company": "Genesis Minerals",
+        "pct": 2.6785708756526416
+      },
+      {
+        "ticker": "600489.SS",
+        "company": "Zhongjin Gold",
+        "pct": -2.588690794473769
+      }
+    ],
+    "analysis": {
+      "business_model": "Zijin Mining is a Chinese gold producer that mines, processes and sells gold and other precious metals.",
+      "sentiment": "Bearish - shares fell sharply without clear catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock dropped 5.6% on price action alone.",
+      "read_across": "Peers such as Newmont, Genesis Minerals and Zhongjin Gold also moved, indicating broader sector weakness or regional sentiment affecting miners.",
+      "look_out": "Watch for upcoming earnings releases, Chinese mining policy updates, or any new guidance that could reverse the sell‑off.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
