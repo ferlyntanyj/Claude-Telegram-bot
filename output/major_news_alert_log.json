@@ -18083,5 +18083,51 @@
       "look_out": "Watch for further guidance from cybersecurity firms and any new disclosures about the scope of the PHP flaws that could sustain or dampen the rally.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-26T01:33:57.506392+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "012450.KS",
+      "company": "Hanwha Aerospace",
+      "pct": -5.17676767676768,
+      "last": 751000.0,
+      "prev": 792000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "079550.KS",
+        "company": "LIG Nex1",
+        "pct": -9.674027339642477
+      },
+      {
+        "ticker": "272210.KS",
+        "company": "Hanwha Systems",
+        "pct": -8.898944193061842
+      },
+      {
+        "ticker": "RR.L",
+        "company": "Rolls-Royce Holdings",
+        "pct": -7.573835047883715
+      },
+      {
+        "ticker": "047810.KS",
+        "company": "Korea Aerospace",
+        "pct": -5.088062622309197
+      }
+    ],
+    "analysis": {
+      "business_model": "Hanwha Aerospace designs, manufactures and services aircraft engines and other aerospace and defence systems, earning most revenue from engine production and maintenance contracts.",
+      "sentiment": "Bearish - broad sector sell‑off pulling aerospace stocks",
+      "why_moved": "No specific catalyst is stated; the stock fell 5.2% amid a general price decline in aerospace equities.",
+      "read_across": "The simultaneous drops in LIG Nex1, Hanwha Systems, Rolls‑Royce and Korea Aerospace suggest a wider negative sentiment affecting both domestic and international aerospace and defence suppliers.",
+      "look_out": "Watch for upcoming earnings releases, defense procurement news, or macro‑economic data that could confirm or reverse the current sell‑off.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
