@@ -18221,5 +18221,97 @@
       "look_out": "Watch for upcoming earnings releases, Chinese mining policy updates, or any new guidance that could reverse the sell‑off.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-26T04:05:37.430110+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "688012.SS",
+      "company": "Advanced Micro-Fabrication Equipment",
+      "pct": -5.140609706168487,
+      "last": 252.99000549316406,
+      "prev": 266.70001220703125,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "7735.T",
+        "company": "Screen Holdings Co., Ltd.",
+        "pct": -3.8693035253654307
+      },
+      {
+        "ticker": "300751.SZ",
+        "company": "Suzhou Maxwell Technologies",
+        "pct": -3.80779569803561
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": -3.599574014909479
+      },
+      {
+        "ticker": "042700.KS",
+        "company": "Hanmi Semiconductor",
+        "pct": -3.350785340314133
+      }
+    ],
+    "analysis": {
+      "business_model": "It designs and manufactures equipment for semiconductor wafer processing, enabling chip production for integrated circuits.",
+      "sentiment": "Bearish - significant intraday drop suggests negative sentiment",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 5.1% intraday, likely reflecting broader sector pressure or sell‑off.",
+      "read_across": "Peers such as Screen Holdings, Suzhou Maxwell, Sumco and Hanmi also slipped 3‑4%, indicating a broader pullback in semiconductor equipment and materials stocks.",
+      "look_out": "Watch for upcoming earnings releases or policy announcements that could affect demand for semiconductor manufacturing equipment.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-26T04:05:37.430125+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shanghai",
+    "primary": {
+      "ticker": "688008.SS",
+      "company": "Montage Technology",
+      "pct": -5.794440375434029,
+      "last": 169.57000732421875,
+      "prev": 180.0,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "300223.SZ",
+        "company": "Ingenic Semiconductor",
+        "pct": -4.364324864826163
+      },
+      {
+        "ticker": "603986.SS",
+        "company": "GigaDevice",
+        "pct": -4.321916136023118
+      },
+      {
+        "ticker": "600460.SS",
+        "company": "Hangzhou Silan Microelectronics",
+        "pct": -3.9193327995950766
+      },
+      {
+        "ticker": "688396.SS",
+        "company": "China Resources Microelectronics",
+        "pct": -3.888262346338367
+      }
+    ],
+    "analysis": {
+      "business_model": "Montage Technology designs and manufactures advanced semiconductor packaging and testing services, primarily for integrated circuit manufacturers in China.",
+      "sentiment": "Bearish - shares dropped sharply without clear news",
+      "why_moved": "No specific catalyst is mentioned; the 5.8% intraday decline appears driven by broad sector selling pressure on Chinese semiconductor stocks.",
+      "read_across": "Similar declines in peers such as Ingenic, GigaDevice, Hangzhou Silan and China Resources Microelectronics suggest a broader pullback in the domestic semiconductor equipment and packaging market.",
+      "look_out": "Monitor upcoming earnings releases, policy updates on chip subsidies, and any macro‑economic data that could influence investor sentiment toward Chinese tech stocks.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
