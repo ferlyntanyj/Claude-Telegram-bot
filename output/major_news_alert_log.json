@@ -18129,5 +18129,51 @@
       "look_out": "Watch for upcoming earnings releases, defense procurement news, or macro‑economic data that could confirm or reverse the current sell‑off.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-26T03:06:48.904014+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "047810.KS",
+      "company": "Korea Aerospace",
+      "pct": -5.185909980430525,
+      "last": 96900.0,
+      "prev": 102200.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "079550.KS",
+        "company": "LIG Nex1",
+        "pct": -11.461619348054676
+      },
+      {
+        "ticker": "RR.L",
+        "company": "Rolls-Royce Holdings",
+        "pct": -7.573835047883715
+      },
+      {
+        "ticker": "012450.KS",
+        "company": "Hanwha Aerospace",
+        "pct": -6.313131313131315
+      },
+      {
+        "ticker": "272210.KS",
+        "company": "Hanwha Systems",
+        "pct": -5.128205128205132
+      }
+    ],
+    "analysis": {
+      "business_model": "Korea Aerospace designs, manufactures and services aerospace components and aircraft systems, earning revenue primarily from defense and commercial aviation contracts.",
+      "sentiment": "Bearish - price drops on lack of catalyst",
+      "why_moved": "No specific catalyst was mentioned; the stock fell 5.2% on price action alone, likely reflecting broader aerospace sector weakness.",
+      "read_across": "The similar declines in LIG Nex1, Rolls‑Royce, Hanwha Aerospace and Hanwha Systems suggest sector‑wide pressure on aerospace and defense suppliers.",
+      "look_out": "Watch upcoming earnings releases, defense spending updates, or any guidance changes from Korean aerospace firms for a potential reversal.",
+      "memory": "Similar unexplained drops in Korean aerospace stocks have coincided with broader sector sell‑offs in the past."
+    }
   }
 ]
