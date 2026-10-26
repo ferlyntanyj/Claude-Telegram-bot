@@ -18359,5 +18359,51 @@
       "look_out": "Watch upcoming earnings releases, guidance updates, or macro data that could affect electronics demand.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-26T09:03:48.482320+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "CCC.L",
+      "company": "Computacenter",
+      "pct": 6.951199533632901,
+      "last": 4909.06005859375,
+      "prev": 4590.0,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "CTSH",
+        "company": "Cognizant",
+        "pct": -4.313619441833005
+      },
+      {
+        "ticker": "307950.KS",
+        "company": "Hyundai AutoEver",
+        "pct": -3.6979969183358996
+      },
+      {
+        "ticker": "ACN",
+        "company": "Accenture",
+        "pct": -3.621394245512588
+      },
+      {
+        "ticker": "FIS",
+        "company": "Fidelity National Information Services",
+        "pct": -1.9848579735141092
+      }
+    ],
+    "analysis": {
+      "business_model": "Computacenter provides IT infrastructure services, sourcing, integrating and managing technology solutions for large enterprises, generating revenue from hardware procurement, software licensing and managed services contracts.",
+      "sentiment": "Neutral - price rose without disclosed catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock surged about 7% intraday on price action alone, likely reflecting broader market or sector flow rather than company news.",
+      "read_across": "While Computacenter jumped, peers like Cognizant, Hyundai AutoEver, Accenture and FIS fell, indicating the move may be isolated to the UK IT services space rather than a sector‑wide rally.",
+      "look_out": "Watch for Computacenter’s upcoming earnings release or any guidance updates that could confirm whether the price gain is sustainable.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
