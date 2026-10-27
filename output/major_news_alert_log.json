@@ -18543,5 +18543,51 @@
       "look_out": "Watch for upcoming earnings releases or guidance updates that could confirm the rally’s durability.",
       "memory": "Advantest and peers have previously rallied on sector‑wide optimism without a single news item."
     }
+  },
+  {
+    "alert_utc": "2026-10-27T07:47:27.957672+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Indonesia · IDX",
+    "primary": {
+      "ticker": "TLKM.JK",
+      "company": "Telkom Indonesia (Persero) Tbk.",
+      "pct": -5.333333333333334,
+      "last": 2130.0,
+      "prev": 2250.0,
+      "currency": "IDR"
+    },
+    "peers": [
+      {
+        "ticker": "CHTR",
+        "company": "Charter Communications",
+        "pct": -5.92026541666637
+      },
+      {
+        "ticker": "9984.T",
+        "company": "Softbank Group Corp.",
+        "pct": 4.949566033309871
+      },
+      {
+        "ticker": "601698.SS",
+        "company": "China Satellite Communications",
+        "pct": -3.8461564708250684
+      },
+      {
+        "ticker": "VZ",
+        "company": "Verizon",
+        "pct": -3.49306175239813
+      }
+    ],
+    "analysis": {
+      "business_model": "Telkom Indonesia provides fixed‑line, mobile, broadband and digital services across Indonesia, earning revenue primarily from telecom subscriptions and data services.",
+      "sentiment": "Bearish - shares fell over 5% without a clear catalyst",
+      "why_moved": "No specific catalyst was mentioned; the stock dropped on intraday price action while peers in telecom and media also declined.",
+      "read_across": "The similar declines in Charter, Softbank, China Satellite and Verizon suggest a broader sector‑wide pullback affecting telecom and communications stocks.",
+      "look_out": "Watch for Telkom's upcoming earnings release, any regulatory announcements, or guidance updates that could explain the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
