@@ -18497,5 +18497,51 @@
       "look_out": "Watch upcoming earnings reports or defense contract announcements for Hanwha and its peers to see if the rally can be sustained.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-27T00:50:03.666064+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6857.T",
+      "company": "Advantest Corp.",
+      "pct": 8.432571612487937,
+      "last": 33690.0,
+      "prev": 31070.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": 6.467991169977916
+      },
+      {
+        "ticker": "042700.KS",
+        "company": "Hanmi Semiconductor",
+        "pct": 6.304347826086953
+      },
+      {
+        "ticker": "688012.SS",
+        "company": "Advanced Micro-Fabrication Equipment",
+        "pct": -5.680543105304747
+      },
+      {
+        "ticker": "7735.T",
+        "company": "Screen Holdings Co., Ltd.",
+        "pct": 4.808988764044941
+      }
+    ],
+    "analysis": {
+      "business_model": "Advantest Corp designs and sells semiconductor test equipment used to validate chips during manufacturing.",
+      "sentiment": "Bullish - broad sector rally lifts test‑equipment stocks",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 8.4% on pure price action alongside peers.",
+      "read_across": "Peers such as Sumco, Hanmi Semiconductor and Screen Holdings also rose, suggesting a broader optimism for semiconductor supply‑chain components.",
+      "look_out": "Watch for upcoming earnings releases or guidance updates that could confirm the rally’s durability.",
+      "memory": "Advantest and peers have previously rallied on sector‑wide optimism without a single news item."
+    }
   }
 ]
