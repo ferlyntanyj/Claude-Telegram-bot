@@ -18451,5 +18451,51 @@
       "look_out": "Watch upcoming quarterly results and any guidance on telecom demand.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-27T00:36:00.249329+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "272210.KS",
+      "company": "Hanwha Systems",
+      "pct": 5.80847723704867,
+      "last": 67400.0,
+      "prev": 63700.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "443060.KS",
+        "company": "HD Hyundai Marine Solution",
+        "pct": 8.19575471698113
+      },
+      {
+        "ticker": "RR.L",
+        "company": "Rolls-Royce Holdings",
+        "pct": -7.573835047883715
+      },
+      {
+        "ticker": "079550.KS",
+        "company": "LIG Nex1",
+        "pct": 6.526806526806528
+      },
+      {
+        "ticker": "MTX.DE",
+        "company": "MTU Aero Engines",
+        "pct": -4.8377332261061
+      }
+    ],
+    "analysis": {
+      "business_model": "Hanwha Systems designs and integrates defense, aerospace and smart technology solutions, earning revenue from contracts for weapons systems, surveillance and digital platforms.",
+      "sentiment": "Bullish - intraday gain reflects positive sector momentum",
+      "why_moved": "No specific catalyst is stated; the stock rose 5.8% on price action, likely driven by broader defense/technology sector flows.",
+      "read_across": "Strong moves in Korean peers HD Hyundai Marine (+8.2%) and LIG Nex1 (+6.5%) indicate upward pressure on domestic defense and industrial stocks, while Western peers fell, highlighting divergent regional sentiment.",
+      "look_out": "Watch upcoming earnings reports or defense contract announcements for Hanwha and its peers to see if the rally can be sustained.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
