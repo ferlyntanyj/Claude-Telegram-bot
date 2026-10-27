@@ -140,27 +140,32 @@ so the listing call shells out to `curl` (identical headers, not blocked).
 every run), `history/` is committed by the scheduled run, so the log accumulates across days
 instead of resetting to the 14-day lookback window each time.
 
-## Weekly earnings calendar (S&P 500 + SOX)
+## Weekly earnings calendar (top 100 S&P 500 + SOX)
 
-Standalone weekly pipeline, unrelated to SGX, that tells you which S&P 500 and PHLX
-Semiconductor Sector Index (SOX) companies report earnings in the coming trading week.
-Delivered to the same Telegram chat as everything else. Deterministic, no LLM.
+Standalone weekly pipeline, unrelated to SGX, that tells you which large-cap S&P 500 names and
+PHLX Semiconductor Sector Index (SOX) companies report earnings in the coming trading week, with
+each company's industry. Delivered to the same Telegram chat as everything else. Deterministic,
+no LLM.
 
-- `earnings_calendar.py` — builds the universe (S&P 500 fetched live from Wikipedia via
-  `global_watchlist_build.fetch_sp500()`, union SOX's ~30 constituents from the hand-maintained
-  `SOX_CONSTITUENTS` seed list in `earnings_calendar_config.py` — the PHLX Semiconductor Sector
-  index has no scrapable constituents table on Wikipedia, unlike the S&P 500), deduped by
-  ticker (~514 unique names; ~19 tickers sit in both indices). For every ticker, pulls the next
-  scheduled earnings date via `yfinance`'s `.calendar` (multi-pass `ThreadPoolExecutor` with
-  rate-limit retry/cooldown, same shape as `global_watchlist_build.enrich_with_sector_industry`),
-  then keeps only companies reporting within the coming Monday–Friday (the week on/after
-  whatever day it runs, so a manual `workflow_dispatch` on any weekday still gives a sensible
-  window, not just the Saturday schedule) → `output/earnings_calendar.csv`
-  (`report_date, ticker, company_name, index_membership`). Not committed to the repo — Telegram
-  is the only delivery channel for this alert.
+- `earnings_calendar.py` — builds the universe: S&P 500 fetched live from Wikipedia via
+  `global_watchlist_build.fetch_sp500()`, ranked by market cap (`yfinance` `fast_info`) and
+  trimmed to the `SP500_TOP_N` largest (100 by default, set in `earnings_calendar_config.py` —
+  the full ~500 names made the weekly alert too noisy), union SOX's ~30 constituents from the
+  hand-maintained `SOX_CONSTITUENTS` seed list (**not** subject to the top-N cap — all SOX names
+  are always included; the PHLX Semiconductor Sector index has no scrapable constituents table on
+  Wikipedia, unlike the S&P 500), deduped by ticker. For every ticker in that (now much smaller)
+  universe, pulls the next scheduled earnings date and industry via `yfinance`'s `.calendar` /
+  `.info` (shared multi-pass `ThreadPoolExecutor` with rate-limit retry/cooldown, same shape as
+  `global_watchlist_build.enrich_with_sector_industry`), then keeps only companies reporting
+  within the coming Monday–Friday (the week on/after whatever day it runs, so a manual
+  `workflow_dispatch` on any weekday still gives a sensible window, not just the Saturday
+  schedule) → `output/earnings_calendar.csv`
+  (`report_date, ticker, company_name, industry, index_membership`). Not committed to the repo —
+  Telegram is the only delivery channel for this alert.
 - `send_earnings_calendar_telegram.py` — reads that CSV and sends one Telegram message (grouped
-  by day, auto-split at Telegram's 4096-char limit), reusing the same
-  `SGX_SCREENER_TELEGRAM_BOT_TOKEN` / `SGX_SCREENER_TELEGRAM_CHAT_ID` as the other pipelines.
+  by day, each line "Company (TICKER) — Industry", auto-split at Telegram's 4096-char limit),
+  reusing the same `SGX_SCREENER_TELEGRAM_BOT_TOKEN` / `SGX_SCREENER_TELEGRAM_CHAT_ID` as the
+  other pipelines.
 
 No free data source flags an upcoming earnings date as "confirmed" vs. "estimated" —
 `yfinance`'s own `.calendar` and `get_earnings_dates()` can disagree by a day on the same ticker

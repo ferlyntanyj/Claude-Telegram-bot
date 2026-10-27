@@ -1,9 +1,10 @@
 """
-Send the weekly S&P 500 + SOX earnings calendar to Telegram, via a Telegram
-bot. Run after earnings_calendar.py.
+Send the weekly top-100-S&P-500 + SOX earnings calendar to Telegram, via a
+Telegram bot. Run after earnings_calendar.py.
 
 Reads output/earnings_calendar.csv and groups companies by report date
-(Monday -> Friday), one line per company within each day.
+(Monday -> Friday), one line per company within each day: company name,
+ticker, and industry (where yfinance has one on record).
 
 Auth: reads SGX_SCREENER_TELEGRAM_BOT_TOKEN and SGX_SCREENER_TELEGRAM_CHAT_ID
 from environment variables (same bot/chat as the other briefs/alerts in this
@@ -21,7 +22,7 @@ CHAT_ID_ENV_VAR = "SGX_SCREENER_TELEGRAM_CHAT_ID"
 
 CALENDAR_CSV_PATH = "../output/earnings_calendar.csv"
 CHUNK_CHAR_BUDGET = 3800  # stay under Telegram's 4096-char per-message limit
-TITLE = "\U0001F4C5 <b>Weekly Earnings Calendar — S&P 500 + SOX</b>"  # 📅
+TITLE = "\U0001F4C5 <b>Weekly Earnings Calendar — Top 100 S&P 500 + SOX</b>"  # 📅
 
 
 def _fmt_day(d):
@@ -54,7 +55,9 @@ def build_messages(calendar):
         for _, r in group.sort_values("ticker").iterrows():
             name = html.escape(str(r["company_name"]))
             ticker = html.escape(str(r["ticker"]))
-            lines.append(f"• {name} ({ticker})")
+            industry = r.get("industry")
+            tail = f" — {html.escape(str(industry))}" if pd.notna(industry) and str(industry).strip() else ""
+            lines.append(f"• {name} ({ticker}){tail}")
         day_blocks.append("\n".join(lines))
 
     # Pack header + day blocks into as few messages as fit the char budget.

@@ -51,3 +51,8 @@ SOX_CONSTITUENTS = [
 ]
 
 OUT_CSV_PATH = "../output/earnings_calendar.csv"
+
+# Only the N largest S&P 500 names by market cap are included (full index is
+# too noisy for a weekly alert). SOX is unaffected -- all ~30 constituents
+# are always included regardless of this cap.
+SP500_TOP_N = 100
