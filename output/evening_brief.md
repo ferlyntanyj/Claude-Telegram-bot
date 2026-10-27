@@ -1,16 +1,24 @@
-# Asia Market Evening Brief -- 27 Oct 2026, 00:47 SGT
+# Asia Market Evening Brief -- 27 Oct 2026, 23:53 SGT
 
 ## Macro & policy
+- [Impeaching Sara Duterte won't end her family's political ambitions](https://asia.nikkei.com/opinion/impeaching-sara-duterte-won-t-end-her-family-s-political-ambitions) — Nikkei Asia
 - [Black Sea attacks cut Ukraine wheat exports to Indonesia, Bangladesh](https://asia.nikkei.com/politics/ukraine-war/black-sea-attacks-cut-ukraine-wheat-exports-to-indonesia-bangladesh) — Nikkei Asia
 - [Indonesia free university plan to attract AI risks more fiscal strain](https://asia.nikkei.com/politics/indonesia-free-university-plan-to-attract-ai-risks-more-fiscal-strain) — Nikkei Asia
 - [China's fifth plenum, Jio listing on Indian bourses, BOJ meeting](https://asia.nikkei.com/spotlight/your-week-in-asia/china-s-fifth-plenum-jio-listing-on-indian-bourses-boj-meeting) — Nikkei Asia
-- [As Muse personal AI agent debuts in Japan, Meta exec says it won't have ads](https://asia.nikkei.com/editor-s-picks/interview/as-muse-personal-ai-agent-debuts-in-japan-meta-exec-says-it-won-t-have-ads) — Nikkei Asia
-- [Malaysia Budget 2027: Will record allocations satisfy Sabah and Sarawak?](https://www.straitstimes.com/asia/budget-2027-will-record-allocations-satisfy-sabah-and-sarawak) — The Straits Times
+- [No pressure from US to cut Russian oil imports, Indian oil minister says](https://www.straitstimes.com/asia/no-pressure-from-us-to-cut-russian-oil-imports-indian-oil-minister-says) — The Straits Times
 
 ## Markets
-- [Hang Seng investment arm to merge with HSBC’s asset business, sources say](https://www.straitstimes.com/business/hang-seng-investment-arm-to-merge-with-hsbcs-asset-business-sources-say) — The Straits Times
+- [Nikkei Asia wins gold at WAN-IFRA Asian Media Awards](https://asia.nikkei.com/announcements/nikkei-asia-wins-gold-at-wan-ifra-asian-media-awards) — Nikkei Asia
+- [Thailand sets new rules for data centres as applications surge](https://www.straitstimes.com/asia/se-asia/thailand-sets-new-rules-for-data-centres-as-applications-surge) — The Straits Times
+- [ASEAN labour statistician network launched ahead of Singapore’s 2027 chairmanship](https://news.google.com/rss/articles/CBMiyAFBVV95cUxNellNLXE0V1Fsa2l3aTdZcGllVVl0cFpMMGtEd1k5dkVZVS1HT3dTNHVwVFNYSUc3c005SDV2cy1CNUFpd2ZUYzB6MVdzc3BaTTI1QUpTQUMzTEVvMVZqRTN3cWp0bkdwUURMTHBDVU5hVzlFMmw1cnNydVJBUzBodlRzVTZPRGNDU3Y3eDVqZlJ4a082QW92UnY2UFh2bWY1QWJXakFuRllramxoWnh5U0IyOUxxb3pnbjNxNnJpQU52c3h0UlFMQg?oc=5) — The Straits Times
+- [ASEAN Labour Statisticians Network launched ahead of Singapore’s 2027 chairmanship of grouping](https://news.google.com/rss/articles/CBMiugFBVV95cUxQVzVuNm5jUlBpVEhxa2ZWYUUydzZGM0hEQmZtRjdyRXZGUjh2czZHM2pLYUNpa290VFRCVEE1Q2M1M3ItN0hVWGRMQk1sWGxqQWlHOUIyWnRibkd4NTdaUjJhSzV2YndWV1NMQ3VvN19maWt1OHVPaF9MSkgtLW41bFMzQVB5WTYyU1lHaWRrelZRblhaNm5Oak02MVVTalFYMXR3NEFic0ZJalR6ajBCSC1hWVgtbi0zQ0E?oc=5) — The Straits Times
+- [Asian stocks surge as Anthropic IPO lifts sentiment ahead of earnings, central banks](https://www.straitstimes.com/business/asian-stocks-surge-as-anthropic-ipo-lifts-sentiment-ahead-of-earnings-central-banks) — The Straits Times
 
 ## Geopolitics
-- [US lawmaker to press Trump to expedite Taiwan arms sales](https://asia.nikkei.com/politics/defense/us-lawmaker-to-press-trump-to-expedite-taiwan-arms-sales2) — Nikkei Asia
+- [AI and oil worries rattle Asian currencies from Taiwan to Philippines](https://asia.nikkei.com/business/markets/currencies/ai-and-oil-worries-rattle-asian-currencies-from-taiwan-to-philippines) — Nikkei Asia
+- [Opinion | With diesel deal, Trump is teaching Reagan’s lesson to a larger class](https://news.google.com/rss/articles/CBMiswFBVV95cUxOLUdENzRMdWRpSjBsR1BONVlYWXN0dzU0YmY0eUt6TUg5X3lOT0JST2ZzR3ZGc2huaG10TVBTS0I4TEFDamJ5aU8ya254Z2R1QWpUU2VzTXdVeEFiZ3o0bk1URFFDQ2pmU1RBS0NFNlFfTXJvd0o0QlhBb3NIZmJnVGl3QzJIaklnN21LaXRWM1FvbHRFNkc4Q0NtbWNmazR3LUVyaHNVXzQxcEg1clQzTmRwNNIBswFBVV95cUxOLUdENzRMdWRpSjBsR1BONVlYWXN0dzU0YmY0eUt6TUg5X3lOT0JST2ZzR3ZGc2huaG10TVBTS0I4TEFDamJ5aU8ya254Z2R1QWpUU2VzTXdVeEFiZ3o0bk1URFFDQ2pmU1RBS0NFNlFfTXJvd0o0QlhBb3NIZmJnVGl3QzJIaklnN21LaXRWM1FvbHRFNkc4Q0NtbWNmazR3LUVyaHNVXzQxcEg1clQzTmRwNA?oc=5) — South China Morning Post
+- [US, Japan rehearse strikes to challenge PLA control of waters near Taiwan](https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa1F3bml2cFNBcXpEeVJIQU9UMFRuVkNTRmRnaldyelVHb29rN3RaakIwTkhGM0RWU3hCU3Y2WE1YZExtd2pBLVhwMWY4QXcyakxIY2JiaTBrZUxBcS1wZVFMR3EzV19oVktWOGFBd3ktSHYyNE9kY204WFl2akFPN3daRU0zaGl2ZWxOS2lOcGNuTVFqVnRZQkJocE0zQlV5dmhDWEhyR0pYYTc2Ui1rX2lxZGtPcXZUSkN2TU1IbGphaEtGQjlfVkxwVF9PZkRF0gHQAUFVX3lxTE1zQlk4Z25vUVpSSmplQ0h4R1dacmtqOWUzQU5IMTNpRFl6MVhxTGl2TXhockdNZzFOdk1YLWhqRUF3Z0JDNi1HQnJPOW9kZHM1czdya3ZVN1FfMDhUS1A1eGJIOTcybE5lNlZZZWd2QnE2YzFMdkdOS0lMUjNjeU04R3JXY0t4cU1DTFAydDBqdUpxVkZSbnBUSS1tbVRZUUdRYUVYenZ5Q2Jad0NBYTdfOTYtNU00cnFPVzBVTFczSW9JTnBHN0h5djd0WE5lbUw?oc=5) — South China Morning Post
+- [Hegseth heads to Manila to shore up US ties with Asia-Pacific partners](https://news.google.com/rss/articles/CBMitwFBVV95cUxNVVc3aTlQcHpVV3gybzZKdHliOERmckxPRVM2NTgxbzhIQTl6RlRZWlZneEhRNGJLcTlhU0hMajBWbDVXWVpaM1l6bXJmcTQycXZ2Rkg4eUhoMC1VcHZjM3JHN3MxV29tR0tLNUhSSTkwdlJGVWFFMENsYnhIMlJoMmRhRDJxWVk0UEROUHp3UWJWUVJLTVZrTFJXV3hLbzB5bFN3dDgzTjVYN3dwWDBSR25iMXdRTDjSAbcBQVVfeXFMTVVXN2k5UHB6VVd4Mm82SnR5YjhEZnJMT0VTNjU4MW84SEE5ekZUWVpWZ3hIUTRiS3E5YVNITGowVmw1V1laWjNZem1yZnE0MnF2dkZIOHlIaDAtVXB2YzNyRzdzMVdvbUdLSzVIUkk5MHZSRlVhRTBDbGJ4SDJSaDJkYUQycVlZNFBETlB6d1FiVlFSS01Wa0xSV1d4S28weWxTd3Q4M041WDd3cFgwUkduYjF3UUw4?oc=5) — Al Jazeera
+- [Taiwan rebuffs China’s commemorations for post-World War II ‘restoration’ of island](https://www.straitstimes.com/asia/east-asia/taiwan-rebuffs-chinas-commemorations-for-post-world-war-two-restoration-of-island) — The Straits Times
 
-_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (7 headlines, 14h window)._
+_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (15 headlines, 14h window)._
