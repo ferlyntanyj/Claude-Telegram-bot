@@ -1,18 +1,15 @@
-# Global Semiconductor Brief -- 27 Oct 2026, 13:24 SGT
-
-## Policy & geopolitics
-- [Tamil Nadu adds independent chip subsidy route as Indian states vie for investment](https://www.digitimes.com/news/a20261025VL200/india-semiconductors-incentives-investment-packaging.html) — DIGITIMES
+# Global Semiconductor Brief -- 27 Oct 2026, 23:58 SGT
 
 ## Supply chain signals
-- [Kazakhstan positions AI infrastructure as a potential export industry after Nvidia CEO's visit](https://www.digitimes.com/news/a20261027PD214/nvidia-infrastructure-ceo-technology-jensen-huang.html) — DIGITIMES
-- [Fujifilm expands South Korean capacity to meet AI chip demand](https://www.digitimes.com/news/a20261027PD205/fujifilm-capacity-demand-materials-production.html) — DIGITIMES
-- [Nvidia says GPUs last 8 years, unlocking AI financing](https://www.digitimes.com/news/a20261027PD203/nvidia-financing-gtc-berlin-ceo.html) — DIGITIMES
-- [Memory Chip Giants Worth $2 Trillion Face Test to Prove AI Isn't a Bubble](https://news.google.com/rss/articles/CBMitgFBVV95cUxQR1NNS1ZjY0QxRUJaLXBTSkNHenBNQU8ySk1rT0FhbmItdVEyZFJhamF3OFdFb2kzZ0EtUW1ZV0g2SDM1cVI2TXdTMjJSNFJRZjM0NXZKbEs5OUFNZjgtSGN0RUpRemdKM2FVbzJxTm1rQkVGdldVdDdORFl0UWRDRzhNeURmWWlBUmpveXNOZk95TjBGa1dSYVB6VHJYUkdxVXptYjRtWVVfX1hTa01vTHhwa2c3QQ?oc=5) — Bloomberg.com
+- [Jensen and Musk both think aging GPUs are worth more than the books show](https://www.digitimes.com/news/a20261027PD237/nvidia-gtc-gpu-tesla-berlin.html) — DIGITIMES
+- [Nvidia DSX POD challenges traditional AI data center construction](https://www.digitimes.com/news/a20261027PD235/nvidia-gtc-berlin-data-center-investment.html) — DIGITIMES
+- [Infineon and ASMedia team up on end-to-end USB 20Gbps setup for AI cameras](https://www.digitimes.com/news/a20261027VL225/asmedia-usb-infineon-partnership-adoption.html) — DIGITIMES
+- [TSMC reportedly weighs 20% CoWoS price increase as Nvidia Blackwell and Rubin chips put pressure on packaging capacity — equipment lead times stretch to eight months](https://news.google.com/rss/articles/CBMizAJBVV95cUxNeC1ucXhWbmlMd2ZsUDZzZ1FxUTBkTXhUTUphc0FtbVo3aFo2WkpsQ2pTZ3V1eGNnVkNhTzE4bXlGcmJFd3FDLVc3bXRON0huRVJoSjBianhnOHhxLXh1cmJSeUl1Vk9uamoyYjhmNzEyVkJCeGotdW5HSW55WnVXUl9XMzcxOFEwMUdDblQwN1hYMHVEWS1oR0xqOEVwUGtPdlpuNlJ5SlVMSjk5ZVdLWG9kb05jU2lvNGdlZTdVc1JHVlFPX19wM3FteTh5NmxZUkRILVpUVW54eVdoVk44eTk1X3ZBNVhIRTBZU0RWdi1wSDEtX1VQTjJzcllzQkN0OTJOMFFBTlZlWE9DR0R0aThKWDNrNVBTeklpZ0s4WnNoNEZtNHRwb0tjSmFaOG5ZXzVRTTdfckNwc1M5NkUyTFB0NjdycW9sNVpVaw?oc=5) — Tom's Hardware
 
 ## News — M&A, capex, capacity, earnings
-- [Breakingviews - COMMENTARY: Palliser’s Samsung buyback bet puts a hat on a hat](https://news.google.com/rss/articles/CBMipgFBVV95cUxNMU80SF96QWl6MzJEeHRSUXRHeDRwWFJ3eEFlMk5nNEFJb2VkUENSaXJpQkVmM1lZanNCQTEzTm5sSWJuQkN1MTdTQmlqM211NzJJazhZQjZneHcwZm5nUk9JczBSU1ZNdUpyNVpXbVZSVHc2M0tEaDZvZkZhMkVVR2tzY1FOMXU5ZTZoaG55NU1raGF0aUJXa0NYSF9nMWVfenBsdVN3?oc=5) — Reuters
-- [Exclusive | Broadcom CEO Intervened to Seal $63 Billion Anthropic Debt Deal](https://news.google.com/rss/articles/CBMioAFBVV95cUxNbkxxMllvRjN2M1VzSVJVSU5xNnJmamxXSTA3a3dWU2VLeW1sZjhLbDhLcXoyakFIYjFCVktFMFNfM3JaenA5UjFMRTE2cEVVTXdlN3l0eUpQN2d3cXM4VUhZc3owSGdUTDF2N01pT0U2WTVIXy12bDBtRS1ZUjNob3YtYUVkUU5hVEdxVVFjaEpHMVdfVHNHY1ktOEtLa2c5?oc=5) — WSJ
-- [Applied Materials to raise BESI stake to about 20%](https://news.google.com/rss/articles/CBMikgFBVV95cUxPR2dSZnVyS01aVkZORzdYTW1QY2VlWDl5aWVOd29uNUJBR0NhVGwwdUU0WG1WZEZJNkFndF9yb1JBMzRYRWpuYXJPYVpOaTV3RzczRVRlSXdtT1lZaTFLcmFPM1YycXZ5SmNoYlU1eVBUMHdQVkVlYjZpMU5TTjJRU3BDUW5SSVEwTWR2STJVa2NjUQ?oc=5) — Reuters
-- [AMD, Nvidia target substrate capacity amid 4x expansion constraints](https://www.digitimes.com/news/a20261027PD218/amd-nvidia-capacity-substrate-expansion.html) — DIGITIMES
+- [Anduril and Qualcomm Plan to Build Laptop With US Supply Chain](https://news.google.com/rss/articles/CBMiswFBVV95cUxOMVUzaDFhNEF3eklOdGxCUWJaXzQweU0za1RsUWFvMkhIMUQ2akRCMldjM2xXdURyMWhfaHB6emFLdWhreDI3Ym1sNE5Zdk1LQS1CbXp5UWtrbENuQUI3amtIZXk3d1BWbWF4cUJBUVdNOS1LVlZrTzhpaDJmMlhDUWJLX3hsSTc3dmhNRzdscTRoQS1qbmtOVFFRTmJJamh2SE91SDlkVHd1d1RDdjNTVTBVWQ?oc=5) — Bloomberg.com
+- [Intel to Buy Quantum Startup Classiq for About $2.3 Billion](https://news.google.com/rss/articles/CBMiswFBVV95cUxNNnJjaGVYODVacVE0QlNxazBqMEZRMVhScmV5ME9yLVJRYkZ1dDhBRDhjNm85NU0xeGpFYlVJTm1ybFNTMmxMNEVRZkpyellvMGpEN3VaNzRxWkowT2ZfS19NNlp5WU0tYjhqbmpXZWZjdDRhQWE2blp4VVpQUkUtZ0FJMTBSUVlSVkZ6cHZWTmwyV1B2cjNFQU54YXRDdEthb0NwVV9jNUZMUURZejh5VkpzMA?oc=5) — Bloomberg.com
+- [BE Semiconductor Shares Jump After Applied Materials Increases Stake](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSEFudEdCd3FyTGs4Wm9wUW9PQXpfWTRmbW1JLXh6UWtzWW94eFgtRE9oTW1tVkRaclNoQThNRUxyQVExeFE4N3ZNVUt2X2dpS2NuaWk1aHo5RVI2RXdFeElvakRmUWhuaEJWbnI0aHhKVkl6WnBUUGJpZ3NOcDhiQ0pXQWtLMTNfRFdlUTI2c1NaN21lcFluWUkza2tWdWJzZHhybUd4bkZ0UQ?oc=5) — WSJ
+- [Wall Street sees this chip stock as the big winner from the Anthropic IPO](https://news.google.com/rss/articles/CBMidEFVX3lxTE5mVjV4Nzg4VW91WldSdHJmc0ZHclRDdjd3bWlOTTMwV0EwR0x1VXdPNENxMmZ2UG1TdkdfZWNVNndoSEthTUFLQmh0aFVNVWJYLXNvWTZGS054TndvOEM1ellxUXJnNlBxaXIza05YYTR1Wm51?oc=5) — CNBC
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
