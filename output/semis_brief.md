@@ -1,12 +1,18 @@
-# Global Semiconductor Brief -- 27 Oct 2026, 00:53 SGT
+# Global Semiconductor Brief -- 27 Oct 2026, 13:24 SGT
+
+## Policy & geopolitics
+- [Tamil Nadu adds independent chip subsidy route as Indian states vie for investment](https://www.digitimes.com/news/a20261025VL200/india-semiconductors-incentives-investment-packaging.html) — DIGITIMES
 
 ## Supply chain signals
-- [Micron plans to use wafer bonding and High-NA EUV for next-gen DRAM](https://www.tomshardware.com/pc-components/dram/micron-plans-to-use-wafer-bonding-and-high-na-euv-for-next-gen-dram-company-also-developing-vertical-high-bandwidth-memory-and-vertical-edge-inference-memory-integrated-directly-on-top-of-processors) — Tom's Hardware
+- [Kazakhstan positions AI infrastructure as a potential export industry after Nvidia CEO's visit](https://www.digitimes.com/news/a20261027PD214/nvidia-infrastructure-ceo-technology-jensen-huang.html) — DIGITIMES
+- [Fujifilm expands South Korean capacity to meet AI chip demand](https://www.digitimes.com/news/a20261027PD205/fujifilm-capacity-demand-materials-production.html) — DIGITIMES
+- [Nvidia says GPUs last 8 years, unlocking AI financing](https://www.digitimes.com/news/a20261027PD203/nvidia-financing-gtc-berlin-ceo.html) — DIGITIMES
+- [Memory Chip Giants Worth $2 Trillion Face Test to Prove AI Isn't a Bubble](https://news.google.com/rss/articles/CBMitgFBVV95cUxQR1NNS1ZjY0QxRUJaLXBTSkNHenBNQU8ySk1rT0FhbmItdVEyZFJhamF3OFdFb2kzZ0EtUW1ZV0g2SDM1cVI2TXdTMjJSNFJRZjM0NXZKbEs5OUFNZjgtSGN0RUpRemdKM2FVbzJxTm1rQkVGdldVdDdORFl0UWRDRzhNeURmWWlBUmpveXNOZk95TjBGa1dSYVB6VHJYUkdxVXptYjRtWVVfX1hTa01vTHhwa2c3QQ?oc=5) — Bloomberg.com
 
 ## News — M&A, capex, capacity, earnings
-- [Anthropic Highlights Disruptions to TSMC Operations as a Risk](https://news.google.com/rss/articles/CBMisgFBVV95cUxQUHlyOHJuRjlUbFJuWVVISkpvR0lBZEVkR3lacVgzQjROMHhsVExJTHJzVXNua09xT0hVT2lVelgzN29QWk5sUkNDakMtVjZIbjZJSTZtYnVJaHpTbHVrblNDa1hYSWVFbmJfVTZULTBOcXBKT3NvMkNiTTNIcnowdmlOdHpLV3JjMlEyam9HaXN2N2NTRGFpREFaM1dPQUtiSWxaSEF5aFR4eGZrV0xkeEtR?oc=5) — Bloomberg.com
-- [Cadence unveils Nvidia-backed AI models that chipmakers can run in-house](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSXZrWlJVYTllelhNczNoX2dHZ2pQYk1FTUZtLVNPYUdZUEdEVElSZGpLR0QzWTJZS25DOUNHdXdvakRCcHBLVmxKbFBwVmNXWUhtZllwZ2p5ZzdjdnBUb3ZkOWRmT3VzbUNLQ09YRVVJQk5WSWtncHVkRjZUWlJYbDJ2TzRFM0hEM1YtOHd0c05XaW1GRFJhMU1aZEpzOVJZaU5UQTZCMi1EMExhNnRKRmRmR2gyaGZq?oc=5) — Reuters
-- [EXCLUSIVE: Vietnam's first chip plant unlikely to meet 2027 target, sources say no deal yet with ASML](https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUWx2akllRU5PaXFQc1RpYXNpX0g1czVlak9RcmVyenpqeUstcklpemh0M3RzRWhBdGVFd3VFU0w0aGZtUjI2NXdJRlF3dkwxX1ctUUxjSXpnSGh0bG05UG1iMmQ0OG05cHVpWFV4VGdsTlFBQzJoTGk4QlhuQkpWRzh0NjZGa1JIVzJGUE40QnZRMl9JQ3Y4aEl6eFFFRXVSTDIwSWRwQlBhSkphN0ZTNF8yMkl5d2VNeVpnVmFScENpMm9GQkpKVjhRdGxPNm1T?oc=5) — Reuters
-- [Leaked 256-core Zen 6c EPYC CPU destroys Zen 5 in early single-threaded benchmarks hints at 24% IPC gain](https://www.tomshardware.com/pc-components/cpus/leaked-256-core-zen-6c-epyc-cpu-destroys-zen-5-in-early-single-threaded-benchmarks-hints-at-24-percent-ipc-gain-early-single-threaded-benchmarks-point-to-huge-amd-zen-6-improvements) — Tom's Hardware
+- [Breakingviews - COMMENTARY: Palliser’s Samsung buyback bet puts a hat on a hat](https://news.google.com/rss/articles/CBMipgFBVV95cUxNMU80SF96QWl6MzJEeHRSUXRHeDRwWFJ3eEFlMk5nNEFJb2VkUENSaXJpQkVmM1lZanNCQTEzTm5sSWJuQkN1MTdTQmlqM211NzJJazhZQjZneHcwZm5nUk9JczBSU1ZNdUpyNVpXbVZSVHc2M0tEaDZvZkZhMkVVR2tzY1FOMXU5ZTZoaG55NU1raGF0aUJXa0NYSF9nMWVfenBsdVN3?oc=5) — Reuters
+- [Exclusive | Broadcom CEO Intervened to Seal $63 Billion Anthropic Debt Deal](https://news.google.com/rss/articles/CBMioAFBVV95cUxNbkxxMllvRjN2M1VzSVJVSU5xNnJmamxXSTA3a3dWU2VLeW1sZjhLbDhLcXoyakFIYjFCVktFMFNfM3JaenA5UjFMRTE2cEVVTXdlN3l0eUpQN2d3cXM4VUhZc3owSGdUTDF2N01pT0U2WTVIXy12bDBtRS1ZUjNob3YtYUVkUU5hVEdxVVFjaEpHMVdfVHNHY1ktOEtLa2c5?oc=5) — WSJ
+- [Applied Materials to raise BESI stake to about 20%](https://news.google.com/rss/articles/CBMikgFBVV95cUxPR2dSZnVyS01aVkZORzdYTW1QY2VlWDl5aWVOd29uNUJBR0NhVGwwdUU0WG1WZEZJNkFndF9yb1JBMzRYRWpuYXJPYVpOaTV3RzczRVRlSXdtT1lZaTFLcmFPM1YycXZ5SmNoYlU1eVBUMHdQVkVlYjZpMU5TTjJRU3BDUW5SSVEwTWR2STJVa2NjUQ?oc=5) — Reuters
+- [AMD, Nvidia target substrate capacity amid 4x expansion constraints](https://www.digitimes.com/news/a20261027PD218/amd-nvidia-capacity-substrate-expansion.html) — DIGITIMES
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (5 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
