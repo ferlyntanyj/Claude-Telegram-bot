@@ -56,7 +56,7 @@ def build_messages(calendar):
             name = html.escape(str(r["company_name"]))
             ticker = html.escape(str(r["ticker"]))
             industry = r.get("industry")
-            tail = f" — {html.escape(str(industry))}" if pd.notna(industry) and str(industry).strip() else ""
+            tail = f" — <i>{html.escape(str(industry))}</i>" if pd.notna(industry) and str(industry).strip() else ""
             lines.append(f"• {name} ({ticker}){tail}")
         day_blocks.append("\n".join(lines))
 
