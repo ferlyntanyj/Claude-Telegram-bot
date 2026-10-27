@@ -1,0 +1,36 @@
+name: Weekly Earnings Calendar (S&P 500 + SOX)
+
+on:
+  schedule:
+    # 00:30 UTC Saturday = 08:30 Asia/Singapore Saturday
+    - cron: "30 0 * * 6"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  earnings-calendar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build the earnings calendar
+        working-directory: scripts
+        run: python earnings_calendar.py
+
+      - name: Send Telegram message
+        working-directory: scripts
+        env:
+          SGX_SCREENER_TELEGRAM_BOT_TOKEN: ${{ secrets.SGX_SCREENER_TELEGRAM_BOT_TOKEN }}
+          SGX_SCREENER_TELEGRAM_CHAT_ID: ${{ secrets.SGX_SCREENER_TELEGRAM_CHAT_ID }}
+        run: python send_earnings_calendar_telegram.py
