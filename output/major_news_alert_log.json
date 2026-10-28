@@ -18589,5 +18589,51 @@
       "look_out": "Watch for Telkom's upcoming earnings release, any regulatory announcements, or guidance updates that could explain the move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-28T04:49:37.330788+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6920.T",
+      "company": "Lasertec Corp.",
+      "pct": 5.225773718924409,
+      "last": 41480.0,
+      "prev": 39420.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": 6.779661016949157
+      },
+      {
+        "ticker": "042700.KS",
+        "company": "Hanmi Semiconductor",
+        "pct": 5.799373040752354
+      },
+      {
+        "ticker": "TER",
+        "company": "Teradyne",
+        "pct": 4.750806691191345
+      },
+      {
+        "ticker": "8035.T",
+        "company": "Tokyo Electron Ltd.",
+        "pct": 4.74973375931842
+      }
+    ],
+    "analysis": {
+      "business_model": "Lasertec Corp designs, manufactures and sells laser processing equipment used for wafer dicing and other semiconductor and display manufacturing steps, generating revenue primarily from equipment sales and service contracts.",
+      "sentiment": "Bullish - price rally despite no news",
+      "why_moved": "No specific catalyst is mentioned; the stock rose intraday on broad sector momentum and price action alone.",
+      "read_across": "Similar gains in Sumco, Hanmi Semiconductor, Teradyne and Tokyo Electron suggest a wider upbeat sentiment in the semiconductor equipment and materials sector.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates, or macro‑tech sector news that could confirm or reverse the current rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
