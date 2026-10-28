@@ -1,19 +1,15 @@
-# Global Semiconductor Brief -- 28 Oct 2026, 14:05 SGT
-
-## Policy & geopolitics
-- [AI chips worth $12.1 million seized at Malaysia airport, customs authority says](https://news.google.com/rss/articles/CBMivgFBVV95cUxPVU14ajJqOUhlTEt4cEJzR0o0Ry1kVGc4bmRmTW9zSWVYb1pjZ042X2ZlLVBVZ1l3dV95WDFjUTFodnF6eTF6OVAtX0hCdG1jZzA3ZkNmb09jNDhFd1JUcnc5QkJrN3poemVSVDQ1OGxBdkJEZkFmSmgzWnZGT2Z5ZGdHaWF1ZlFEbXl6M0VRQklfU3hydktmMnRFSUNuZGFwdjJrS05qUF9rUlVxXzNfeU9ZN2hKeHgwV1c2aHV3?oc=5) — Reuters
-- [AI chips worth $15.5 million seized at Malaysia airport, customs authority says](https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQWFUU0FVV3RZQWJ3NzV3Y0JCajEzVDdjZ3hoZy1NNDk4WjcxcW8wLWV0OVZDTjVNekRkcG01QWpHYVR3OC1xMTV4dVQwRFltY2xiS2FEOVExTHVaZ0FQYmV6NjNxcHJqcjdobmtTNDd5REJ2cTJKNkhydlZmSVo0YUJJODlGNHRnMEZtRXZSbi1jcjBSLXUtRExoQ2ljS3AxWTNoMEh3MkVPal8zamZCaXVuTTl5eGVOMTFZ?oc=5) — The Straits Times
+# Global Semiconductor Brief -- 29 Oct 2026, 00:46 SGT
 
 ## Supply chain signals
-- [SK Hynix bets on EUV to extend 6F-squared DRAM as CXMT pushes 4F-squared](https://www.digitimes.com/news/a20261028VL220/sk-hynix-dram-cxmt-euv-technology.html) — DIGITIMES
-- [SK Hynix's Solidigm ties US$45B US NAND fab to Washington nod on China tool upgrade](https://www.digitimes.com/news/a20261028VL210/solidigm-sk-hynix-equipment-nand-fab.html) — DIGITIMES
-- [SK Hynix's next bet goes beyond memory chips](https://www.digitimes.com/news/a20261027PD248/sk-hynix-chips-hbm-supplier-investment.html) — DIGITIMES
-- [SK Hynix bets on high-bandwidth flash to tackle AI memory bottlenecks](https://www.digitimes.com/news/a20261028VL212/sk-hynix-flash-data-hbm-nand.html) — DIGITIMES
+- [SK Hynix says customers want more than twice the HBM it can supply](https://www.digitimes.com/news/a20261028VL222/sk-hynix-hbm-dram-hbm4-manufacturing.html) — DIGITIMES
+- [UMC utilization tops 90% in 2H26 as AI demand drives expansion](https://www.digitimes.com/news/a20261028PD247/umc-demand-expansion-capacity-wafer.html) — DIGITIMES
+- [Ex-TSMC CTO says Taiwan's research institutes get too much funding and train too little talent](https://www.digitimes.com/news/a20261028PD226/taiwan-tsmc-funding-academia-sinica-technology.html) — DIGITIMES
+- [Oracle accelerates AI chip diversification with Cerebras, Google, and SambaNova deals](https://www.digitimes.com/news/a20261028VL226/oracle-cerebras-chips-nvidia-infrastructure.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Nvidia-Backed Firm Launches $3.1 Billion GPU Loan into Market](https://news.google.com/rss/articles/CBMisAFBVV95cUxNWG4yWWNoTk85a0VzNWR5dnhLNTZUU3RmTVJWSnNJWmZta1FURTYxdXExMmR3ekxwVmRiUU9LaW40ellxb0JFWDJ1RHQ0c3JCSFlxSEF5UmZWNWJ5d2cyaVR5Vl9LMG1EODd2TjhuNnloRXotNzJDZGp5U3V0TXBLYTdhVW44TTlfdVFZUXRPS0ZWRVBQaDFHWVJZWkpqbE1MNUcydEZPckVqU1VBOWs4Tw?oc=5) — Bloomberg
-- [SK Hynix Profit Jumps Seven-Fold to Soothe Doubts Over AI Rush](https://news.google.com/rss/articles/CBMiswFBVV95cUxNSzhINFhrV3VnOG40ZnJlUGZjVW0zemZlb3l3QVFWdmhBREp4Y2hhTVJ1bU5ETnJlN3VHdnd1V2d1cWo3SGlWeVlqZzV6ZFlJQlVuOXBNYi1wNDc2dXpqT1FRU2k2ajY2M0hXeF82S1lBekhMOEctUnRyTlg1MGY4dHVrT2dJM0FkM1NRY015c0NJLVNhYUFFNkJIenNyLVRnYVFVT3I2VUg4cnhUcUZsdkVYQQ?oc=5) — Bloomberg
-- [OpenAI plans to buy Google's AI chips, The Information reports](https://news.google.com/rss/articles/CBMinwFBVV95cUxPNElvX2Y3Ym5FZFdxRGVFMHpwNTRIc3lQUXRzNFNST0xVY2FjR2xoMmFCaDNMWFhtQnZuSXlSSF9zamY1aUY1a2JIX3hBWUFhQ19hb2w4a0JIQmtKRmJoNjRadWJnWmprNE50V2ZQSFRQWTI5aUhXRzkwMlhRNktVOWJwbjJnUk9EVVpiVEo1UjhwMWpvek9EYWpFNkRMTzA?oc=5) — Reuters
-- [Banks Eye $21 Billion of Bonds for Broadcom Chip-Financing Deal](https://news.google.com/rss/articles/CBMiswFBVV95cUxObENDd2ZaNmE1VUlBR0d6Q1YydGNyX1dNZUV1YVVoTlpfb1hJckdOV1VKTDJqLXZhbzNWdnpUOWNwc2huLVBXWUF5ZFZzUU1meXhPTzlGMmc4cUt5VzBCeEJwb0NLQ3p3d2xhc0NVb0tuOFRHS3JmbjRHMXp4UDd5WEZiUUJKbHBrTFNJLVVMSnFLZmU1ZHRhMzVVZnBFS2xjY05LQzdDSTFPSGMxVzVQNkFocw?oc=5) — Bloomberg
+- [SK Hynix Reports Record Q3 Results Driven by AI Memory Surge](https://www.eetimes.com/sk-hynix-reports-record-q3-results-driven-by-ai-memory-surge/) — EE Times
+- [Google alters its cloud playbook, enlisting partners to sell more AI chips](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUUR4ZTBBTHlNVnF1OTExeDhvT0NkSG9uamZQc3NXaVc4R0VkVHdGZ295cGFHVmhNSjRPVWY0Rm9BaDRxNG5vS3dId2VtMnpfS2VqTWtzODZuSEJSUXB4T194ajlRbTZqc3FVNVN6UUxXY0wxSnpQNUFjT0l5NGl5TDhEbWdjSGgzNDRwNTdfelUyV0pwTHhjN3hubXRKNnNqNlBxRTlvRjduUjDSAbABQVVfeXFMT2kxR0E5NTByTkZwcHdqaHlCaFpnMFRvWE16dzV1SGl1NGVBLXVSbFd2VGQ1cGVvS1g2b2NRRUEtTHJFbTJSY0hxOXhHS25qUHQzT0tqWWhHeFdvM3djWHBqd1c0SXN6anRUZXdCYW93TVZmTzE3WHdRbG5uUlNJMnVzdEFBdm9oYTlYbjloWE9mVnVXYUtzR1pjUHM1TjFWTVcxRUxQTHMxVzZnVU81WkY?oc=5) — CNBC
+- [Full-Stack Semiconductor Solutions for Embodied AI & Robotics](https://www.eetimes.com/full-stack-semiconductor-solutions-for-embodied-ai-robotics/) — EE Times
+- [Micron’s stock rises after SK Hynix earnings. Here’s its next major test.](https://news.google.com/rss/articles/CBMisgFBVV95cUxPRGJmRUdxYS1sS0lsX3JvX1FCZ1NRUmV6NmJzWXQ1dkRhamRSY0JhcEhzQ0k5WnczdmNzZXVPNjV4YXZ2U1Zpc1JMMDZ3RmluNnJfbnFBekR3S2RjWXBtZ09qMVpqR191aGY5eG81U0pvYWx6Qlc0ZG5GdVpDM2VjSkt0bEJIMTdnNXlNY0hDYW5sNEEzYTl5Ml9RT1FLaUJIdS1XdUc0OElILUdWRGZ3MWx3?oc=5) — MarketWatch
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (10 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
