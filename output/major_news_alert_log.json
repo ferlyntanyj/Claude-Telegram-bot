@@ -18727,5 +18727,51 @@
       "look_out": "Watch for F5’s upcoming earnings release or any guidance updates that could clarify the move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-28T14:25:51.538086+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "LH",
+      "company": "Labcorp",
+      "pct": 9.11917760212404,
+      "last": 361.3699951171875,
+      "prev": 331.1700134277344,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "CRL",
+        "company": "Charles River Laboratories",
+        "pct": 4.612088529552616
+      },
+      {
+        "ticker": "RVTY",
+        "company": "Revvity",
+        "pct": 3.827376771326607
+      },
+      {
+        "ticker": "ILMN",
+        "company": "Illumina, Inc.",
+        "pct": 3.1273446867998045
+      },
+      {
+        "ticker": "IQV",
+        "company": "IQVIA",
+        "pct": 2.7214196209324415
+      }
+    ],
+    "analysis": {
+      "business_model": "Labcorp provides clinical laboratory testing services and related diagnostic information to physicians, hospitals, and health systems, generating revenue primarily from test fees.",
+      "sentiment": "Bullish - price surge despite no news",
+      "why_moved": "No specific catalyst is mentioned; the stock jumped 9.1% on pure price action, likely driven by broader diagnostic/health‑care sector momentum.",
+      "read_across": "Peers such as Charles River, Revvity, Illumina, and IQVIA also rose, suggesting a sector‑wide rally in laboratory and biotech services.",
+      "look_out": "Watch for Labcorp's upcoming earnings release or any guidance updates that could confirm or reverse the current price gain.",
+      "memory": "Similar sharp moves have occurred before when diagnostic stocks rallied on sector sentiment alone, without a concrete news trigger."
+    }
   }
 ]
