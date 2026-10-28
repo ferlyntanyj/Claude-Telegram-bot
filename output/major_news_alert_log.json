@@ -18635,5 +18635,51 @@
       "look_out": "Watch for upcoming earnings releases, guidance updates, or macro‑tech sector news that could confirm or reverse the current rally.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-28T06:03:38.085464+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "China · Shenzhen",
+    "primary": {
+      "ticker": "300124.SZ",
+      "company": "Shenzhen Inovance Technology",
+      "pct": 6.8092237101997855,
+      "last": 56.939998626708984,
+      "prev": 53.310001373291016,
+      "currency": "CNY"
+    },
+    "peers": [
+      {
+        "ticker": "BE",
+        "company": "Bloom Energy",
+        "pct": 7.149863653380062
+      },
+      {
+        "ticker": "HUBB",
+        "company": "Hubbell Incorporated",
+        "pct": -5.46800075118149
+      },
+      {
+        "ticker": "298040.KS",
+        "company": "Hyosung Heavy Industries",
+        "pct": 5.0156739811912265
+      },
+      {
+        "ticker": "003670.KS",
+        "company": "POSCO Future M",
+        "pct": 4.9221183800623125
+      }
+    ],
+    "analysis": {
+      "business_model": "Shenzhen Inovance Technology designs and manufactures industrial automation products such as servo drives, inverters and control systems for factories and equipment manufacturers in China.",
+      "sentiment": "Bullish - strong intraday gain without clear catalyst",
+      "why_moved": "No explicit catalyst is mentioned; the stock jumped 6.8% intraday on price momentum alone.",
+      "read_across": "Similar gains in Bloom Energy and other peers suggest broader optimism in automation and clean‑energy equipment sectors, potentially spilling over to related suppliers.",
+      "look_out": "Watch for upcoming earnings releases, any regulatory updates on industrial automation, and whether the rally sustains on sector flow.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
