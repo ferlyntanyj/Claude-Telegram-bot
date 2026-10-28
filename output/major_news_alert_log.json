@@ -18681,5 +18681,51 @@
       "look_out": "Watch for upcoming earnings releases, any regulatory updates on industrial automation, and whether the rally sustains on sector flow.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-28T11:54:28.203271+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "FFIV",
+      "company": "F5, Inc.",
+      "pct": -7.479969,
+      "last": 425.0,
+      "prev": 459.36,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "SNPS",
+        "company": "Synopsys",
+        "pct": 4.4219020203882575
+      },
+      {
+        "ticker": "ORCL",
+        "company": "Oracle Corporation",
+        "pct": 3.5459315463062913
+      },
+      {
+        "ticker": "TWLO",
+        "company": "Twilio",
+        "pct": -3.4477513932579806
+      },
+      {
+        "ticker": "GDDY",
+        "company": "GoDaddy",
+        "pct": -3.2871977967431243
+      }
+    ],
+    "analysis": {
+      "business_model": "F5 provides application delivery networking and security solutions, selling hardware and software that manage and protect traffic for enterprise and cloud applications.",
+      "sentiment": "Bearish - intraday drop of 7.5% without news",
+      "why_moved": "No specific catalyst was cited; the stock fell sharply on price action alone, possibly reflecting broader sector rotation.",
+      "read_across": "Peers like Synopsys and Oracle rose while other tech names fell, indicating mixed sentiment across the software and cloud infrastructure space.",
+      "look_out": "Watch for F5’s upcoming earnings release or any guidance updates that could clarify the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
