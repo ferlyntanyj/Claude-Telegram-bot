@@ -18773,5 +18773,51 @@
       "look_out": "Watch for Labcorp's upcoming earnings release or any guidance updates that could confirm or reverse the current price gain.",
       "memory": "Similar sharp moves have occurred before when diagnostic stocks rallied on sector sentiment alone, without a concrete news trigger."
     }
+  },
+  {
+    "alert_utc": "2026-10-28T14:56:24.318466+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "CRL",
+      "company": "Charles River Laboratories",
+      "pct": 5.127631837103963,
+      "last": 377.239990234375,
+      "prev": 358.8399963378906,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "LH",
+        "company": "Labcorp",
+        "pct": 10.559531298969516
+      },
+      {
+        "ticker": "RVTY",
+        "company": "Revvity",
+        "pct": 3.7668355980967405
+      },
+      {
+        "ticker": "IQV",
+        "company": "IQVIA",
+        "pct": 3.060209144597481
+      },
+      {
+        "ticker": "2359.HK",
+        "company": "WuXi AppTec",
+        "pct": 2.6939654286494585
+      }
+    ],
+    "analysis": {
+      "business_model": "Charles River Laboratories provides contract research services, including preclinical testing and discovery, to pharmaceutical and biotech companies.",
+      "sentiment": "Bullish - broad biotech sector gains lift stocks",
+      "why_moved": "No specific catalyst is mentioned; the stock simply rose 5.1% on price action amid sector momentum.",
+      "read_across": "Peers such as Labcorp, Revvity, IQVIA and WuXi AppTec also advanced, suggesting a broader biotech/contract‑research rally.",
+      "look_out": "Watch for upcoming earnings, guidance updates or any regulatory news that could confirm the price move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
