@@ -1,15 +1,19 @@
-# Global Semiconductor Brief -- 27 Oct 2026, 23:58 SGT
+# Global Semiconductor Brief -- 28 Oct 2026, 14:05 SGT
+
+## Policy & geopolitics
+- [AI chips worth $12.1 million seized at Malaysia airport, customs authority says](https://news.google.com/rss/articles/CBMivgFBVV95cUxPVU14ajJqOUhlTEt4cEJzR0o0Ry1kVGc4bmRmTW9zSWVYb1pjZ042X2ZlLVBVZ1l3dV95WDFjUTFodnF6eTF6OVAtX0hCdG1jZzA3ZkNmb09jNDhFd1JUcnc5QkJrN3poemVSVDQ1OGxBdkJEZkFmSmgzWnZGT2Z5ZGdHaWF1ZlFEbXl6M0VRQklfU3hydktmMnRFSUNuZGFwdjJrS05qUF9rUlVxXzNfeU9ZN2hKeHgwV1c2aHV3?oc=5) — Reuters
+- [AI chips worth $15.5 million seized at Malaysia airport, customs authority says](https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQWFUU0FVV3RZQWJ3NzV3Y0JCajEzVDdjZ3hoZy1NNDk4WjcxcW8wLWV0OVZDTjVNekRkcG01QWpHYVR3OC1xMTV4dVQwRFltY2xiS2FEOVExTHVaZ0FQYmV6NjNxcHJqcjdobmtTNDd5REJ2cTJKNkhydlZmSVo0YUJJODlGNHRnMEZtRXZSbi1jcjBSLXUtRExoQ2ljS3AxWTNoMEh3MkVPal8zamZCaXVuTTl5eGVOMTFZ?oc=5) — The Straits Times
 
 ## Supply chain signals
-- [Jensen and Musk both think aging GPUs are worth more than the books show](https://www.digitimes.com/news/a20261027PD237/nvidia-gtc-gpu-tesla-berlin.html) — DIGITIMES
-- [Nvidia DSX POD challenges traditional AI data center construction](https://www.digitimes.com/news/a20261027PD235/nvidia-gtc-berlin-data-center-investment.html) — DIGITIMES
-- [Infineon and ASMedia team up on end-to-end USB 20Gbps setup for AI cameras](https://www.digitimes.com/news/a20261027VL225/asmedia-usb-infineon-partnership-adoption.html) — DIGITIMES
-- [TSMC reportedly weighs 20% CoWoS price increase as Nvidia Blackwell and Rubin chips put pressure on packaging capacity — equipment lead times stretch to eight months](https://news.google.com/rss/articles/CBMizAJBVV95cUxNeC1ucXhWbmlMd2ZsUDZzZ1FxUTBkTXhUTUphc0FtbVo3aFo2WkpsQ2pTZ3V1eGNnVkNhTzE4bXlGcmJFd3FDLVc3bXRON0huRVJoSjBianhnOHhxLXh1cmJSeUl1Vk9uamoyYjhmNzEyVkJCeGotdW5HSW55WnVXUl9XMzcxOFEwMUdDblQwN1hYMHVEWS1oR0xqOEVwUGtPdlpuNlJ5SlVMSjk5ZVdLWG9kb05jU2lvNGdlZTdVc1JHVlFPX19wM3FteTh5NmxZUkRILVpUVW54eVdoVk44eTk1X3ZBNVhIRTBZU0RWdi1wSDEtX1VQTjJzcllzQkN0OTJOMFFBTlZlWE9DR0R0aThKWDNrNVBTeklpZ0s4WnNoNEZtNHRwb0tjSmFaOG5ZXzVRTTdfckNwc1M5NkUyTFB0NjdycW9sNVpVaw?oc=5) — Tom's Hardware
+- [SK Hynix bets on EUV to extend 6F-squared DRAM as CXMT pushes 4F-squared](https://www.digitimes.com/news/a20261028VL220/sk-hynix-dram-cxmt-euv-technology.html) — DIGITIMES
+- [SK Hynix's Solidigm ties US$45B US NAND fab to Washington nod on China tool upgrade](https://www.digitimes.com/news/a20261028VL210/solidigm-sk-hynix-equipment-nand-fab.html) — DIGITIMES
+- [SK Hynix's next bet goes beyond memory chips](https://www.digitimes.com/news/a20261027PD248/sk-hynix-chips-hbm-supplier-investment.html) — DIGITIMES
+- [SK Hynix bets on high-bandwidth flash to tackle AI memory bottlenecks](https://www.digitimes.com/news/a20261028VL212/sk-hynix-flash-data-hbm-nand.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Anduril and Qualcomm Plan to Build Laptop With US Supply Chain](https://news.google.com/rss/articles/CBMiswFBVV95cUxOMVUzaDFhNEF3eklOdGxCUWJaXzQweU0za1RsUWFvMkhIMUQ2akRCMldjM2xXdURyMWhfaHB6emFLdWhreDI3Ym1sNE5Zdk1LQS1CbXp5UWtrbENuQUI3amtIZXk3d1BWbWF4cUJBUVdNOS1LVlZrTzhpaDJmMlhDUWJLX3hsSTc3dmhNRzdscTRoQS1qbmtOVFFRTmJJamh2SE91SDlkVHd1d1RDdjNTVTBVWQ?oc=5) — Bloomberg.com
-- [Intel to Buy Quantum Startup Classiq for About $2.3 Billion](https://news.google.com/rss/articles/CBMiswFBVV95cUxNNnJjaGVYODVacVE0QlNxazBqMEZRMVhScmV5ME9yLVJRYkZ1dDhBRDhjNm85NU0xeGpFYlVJTm1ybFNTMmxMNEVRZkpyellvMGpEN3VaNzRxWkowT2ZfS19NNlp5WU0tYjhqbmpXZWZjdDRhQWE2blp4VVpQUkUtZ0FJMTBSUVlSVkZ6cHZWTmwyV1B2cjNFQU54YXRDdEthb0NwVV9jNUZMUURZejh5VkpzMA?oc=5) — Bloomberg.com
-- [BE Semiconductor Shares Jump After Applied Materials Increases Stake](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSEFudEdCd3FyTGs4Wm9wUW9PQXpfWTRmbW1JLXh6UWtzWW94eFgtRE9oTW1tVkRaclNoQThNRUxyQVExeFE4N3ZNVUt2X2dpS2NuaWk1aHo5RVI2RXdFeElvakRmUWhuaEJWbnI0aHhKVkl6WnBUUGJpZ3NOcDhiQ0pXQWtLMTNfRFdlUTI2c1NaN21lcFluWUkza2tWdWJzZHhybUd4bkZ0UQ?oc=5) — WSJ
-- [Wall Street sees this chip stock as the big winner from the Anthropic IPO](https://news.google.com/rss/articles/CBMidEFVX3lxTE5mVjV4Nzg4VW91WldSdHJmc0ZHclRDdjd3bWlOTTMwV0EwR0x1VXdPNENxMmZ2UG1TdkdfZWNVNndoSEthTUFLQmh0aFVNVWJYLXNvWTZGS054TndvOEM1ellxUXJnNlBxaXIza05YYTR1Wm51?oc=5) — CNBC
+- [Nvidia-Backed Firm Launches $3.1 Billion GPU Loan into Market](https://news.google.com/rss/articles/CBMisAFBVV95cUxNWG4yWWNoTk85a0VzNWR5dnhLNTZUU3RmTVJWSnNJWmZta1FURTYxdXExMmR3ekxwVmRiUU9LaW40ellxb0JFWDJ1RHQ0c3JCSFlxSEF5UmZWNWJ5d2cyaVR5Vl9LMG1EODd2TjhuNnloRXotNzJDZGp5U3V0TXBLYTdhVW44TTlfdVFZUXRPS0ZWRVBQaDFHWVJZWkpqbE1MNUcydEZPckVqU1VBOWs4Tw?oc=5) — Bloomberg
+- [SK Hynix Profit Jumps Seven-Fold to Soothe Doubts Over AI Rush](https://news.google.com/rss/articles/CBMiswFBVV95cUxNSzhINFhrV3VnOG40ZnJlUGZjVW0zemZlb3l3QVFWdmhBREp4Y2hhTVJ1bU5ETnJlN3VHdnd1V2d1cWo3SGlWeVlqZzV6ZFlJQlVuOXBNYi1wNDc2dXpqT1FRU2k2ajY2M0hXeF82S1lBekhMOEctUnRyTlg1MGY4dHVrT2dJM0FkM1NRY015c0NJLVNhYUFFNkJIenNyLVRnYVFVT3I2VUg4cnhUcUZsdkVYQQ?oc=5) — Bloomberg
+- [OpenAI plans to buy Google's AI chips, The Information reports](https://news.google.com/rss/articles/CBMinwFBVV95cUxPNElvX2Y3Ym5FZFdxRGVFMHpwNTRIc3lQUXRzNFNST0xVY2FjR2xoMmFCaDNMWFhtQnZuSXlSSF9zamY1aUY1a2JIX3hBWUFhQ19hb2w4a0JIQmtKRmJoNjRadWJnWmprNE50V2ZQSFRQWTI5aUhXRzkwMlhRNktVOWJwbjJnUk9EVVpiVEo1UjhwMWpvek9EYWpFNkRMTzA?oc=5) — Reuters
+- [Banks Eye $21 Billion of Bonds for Broadcom Chip-Financing Deal](https://news.google.com/rss/articles/CBMiswFBVV95cUxObENDd2ZaNmE1VUlBR0d6Q1YydGNyX1dNZUV1YVVoTlpfb1hJckdOV1VKTDJqLXZhbzNWdnpUOWNwc2huLVBXWUF5ZFZzUU1meXhPTzlGMmc4cUt5VzBCeEJwb0NLQ3p3d2xhc0NVb0tuOFRHS3JmbjRHMXp4UDd5WEZiUUJKbHBrTFNJLVVMSnFLZmU1ZHRhMzVVZnBFS2xjY05LQzdDSTFPSGMxVzVQNkFocw?oc=5) — Bloomberg
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (10 headlines, 13h window)._
