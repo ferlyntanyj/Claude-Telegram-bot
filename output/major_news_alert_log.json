@@ -18819,5 +18819,51 @@
       "look_out": "Watch for upcoming earnings, guidance updates or any regulatory news that could confirm the price move.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-29T03:43:19.009837+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "018260.KS",
+      "company": "Samsung SDS",
+      "pct": -9.438202247191008,
+      "last": 201500.0,
+      "prev": 222500.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "6701.T",
+        "company": "Nec Corp.",
+        "pct": -7.577475434618297
+      },
+      {
+        "ticker": "307950.KS",
+        "company": "Hyundai AutoEver",
+        "pct": -6.857142857142861
+      },
+      {
+        "ticker": "ACN",
+        "company": "Accenture",
+        "pct": 3.503993071123901
+      },
+      {
+        "ticker": "FIS",
+        "company": "Fidelity National Information Services",
+        "pct": 2.443130909781188
+      }
+    ],
+    "analysis": {
+      "business_model": "Samsung SDS provides IT services, including system integration, cloud, and digital transformation solutions for enterprises.",
+      "sentiment": "Bearish - sharp intraday drop on unknown catalyst",
+      "why_moved": "No specific catalyst is mentioned; the stock fell 9.4% on price action alone, possibly reflecting broader sector weakness.",
+      "read_across": "Peers such as Nec, Hyundai AutoEver also fell, suggesting a regional tech services sell‑off.",
+      "look_out": "Watch for upcoming earnings releases or guidance updates that could confirm the direction.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
