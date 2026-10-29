@@ -18865,5 +18865,51 @@
       "look_out": "Watch for upcoming earnings releases or guidance updates that could confirm the direction.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-29T16:17:03.884922+00:00",
+    "type": "single_stock",
+    "headline": "Chipotle shares rise 7% after CEO says same-store sales growth will continue",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWHUzaE81RUpUZm5MY3RnRFhJcUl3bDN4SVRKbEVicVk4V2FaTDhVQjhMZE1OalFrN3NkWVZmaWdGelJpQlFKQktHMGZrMjhYdGozQ1ZiRHZGM0EtWlJrNnFjalU1NjBZUGNNcml5SzNHWFBnTTlqamRxRDNEYjh0UTJOWG1fMGPSAYwBQVVfeXFMTmFwSlJyX0xXV2VyLXdKb0JXRUd5ZVFwbkpvTjg4YXlseEZoaGwxckxsaU9kLTdyN3ZCSzd4elJ0Q2swM2NTdkZiSTYtcWJkcnZoVldkSHdCaU1kYVhGLWlrcm9leWtzZ2xkcndfT29GbXBneXFPdktrZTR5VmFQSDJSZzMxSkZvQ19nRko?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "CMG",
+      "company": "Chipotle Mexican Grill",
+      "pct": 8.475466105425067,
+      "last": 31.165000915527344,
+      "prev": 28.729999542236328,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "MCD",
+        "company": "McDonald's",
+        "pct": 1.7125721701128915
+      },
+      {
+        "ticker": "YUM",
+        "company": "Yum! Brands",
+        "pct": 1.5816462054331293
+      },
+      {
+        "ticker": "DRI",
+        "company": "Darden Restaurants",
+        "pct": 1.4960743988575276
+      },
+      {
+        "ticker": "SBUX",
+        "company": "Starbucks",
+        "pct": 1.414831336408251
+      }
+    ],
+    "analysis": {
+      "business_model": "Chipotle Mexican Grill runs fast‑casual restaurants serving customizable Mexican‑style dishes like burritos, bowls, tacos and salads, earning revenue mainly from food sales at company‑owned and franchised locations.",
+      "sentiment": "Bullish - shares up on CEO reaffirming sales growth outlook",
+      "why_moved": "Price jumped because the CEO said same‑store sales growth will continue, prompting investor optimism.",
+      "read_across": "The positive guidance may lift peers such as McDonald’s, Yum!, Darden and Starbucks as quick‑serve food demand appears strong.",
+      "look_out": "Watch upcoming same‑store sales reports and any guidance revisions from Chipotle and its peers.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
