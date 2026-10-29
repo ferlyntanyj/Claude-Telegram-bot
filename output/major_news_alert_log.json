@@ -18911,5 +18911,51 @@
       "look_out": "Watch upcoming same‑store sales reports and any guidance revisions from Chipotle and its peers.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-29T16:56:42.745426+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "TSCO",
+      "company": "Tractor Supply",
+      "pct": 5.378047232250727,
+      "last": 33.310001373291016,
+      "prev": 31.610000610351562,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "WSM",
+        "company": "Williams-Sonoma, Inc.",
+        "pct": 3.4547621955914654
+      },
+      {
+        "ticker": "ULTA",
+        "company": "Ulta Beauty",
+        "pct": 3.2878989846661044
+      },
+      {
+        "ticker": "JBH.AX",
+        "company": "JB Hi-Fi",
+        "pct": -2.887065963486879
+      },
+      {
+        "ticker": "BBY",
+        "company": "Best Buy",
+        "pct": 2.2122569025523564
+      }
+    ],
+    "analysis": {
+      "business_model": "Tractor Supply is a retail chain that sells farm, ranch, pet, and home products to rural and suburban customers, generating revenue primarily from merchandise sales.",
+      "sentiment": "Neutral - price rise without identifiable news catalyst",
+      "why_moved": "No specific catalyst is mentioned; the 5.4% gain reflects pure price action or sector‑wide buying momentum rather than a disclosed event.",
+      "read_across": "Peers such as Williams‑Sonoma, Ulta Beauty and Best Buy also rose, suggesting a broader upbeat sentiment in consumer‑discretionary retail stocks.",
+      "look_out": "Watch for Tractor Supply's upcoming earnings release or guidance updates, which could confirm or reverse the current rally.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
