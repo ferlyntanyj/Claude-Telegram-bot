@@ -232,8 +232,9 @@
       "last_move_pct": -5.953488372093019
     },
     "sector:semiconductors": {
-      "last_alert_utc": "2026-09-21T19:39:56.560375+00:00",
-      "last_move_pct": 2.430924563271153
+      "last_alert_utc": "2026-10-30T14:04:10.654052+00:00",
+      "last_move_pct": -3.2795542977497982,
+      "last_move_asof": "2026-10-30"
     },
     "sector:semiconductor equipment materials": {
       "last_alert_utc": "2026-09-21T19:03:12.080415+00:00",
@@ -447,8 +448,9 @@
       "last_move_pct": 6.250004656612851
     },
     "sector:biotechnology": {
-      "last_alert_utc": "2026-09-21T06:32:12.245717+00:00",
-      "last_move_pct": 4.799021264482938
+      "last_alert_utc": "2026-10-30T14:04:13.271973+00:00",
+      "last_move_pct": 3.45461980076045,
+      "last_move_asof": "2026-10-30"
     },
     "single:MTLN.L": {
       "last_alert_utc": "2026-09-21T07:03:20.502819+00:00",
@@ -588,8 +590,9 @@
       "last_move_pct": 5.022536225237184
     },
     "sector:computer hardware": {
-      "last_alert_utc": "2026-09-21T18:32:53.912396+00:00",
-      "last_move_pct": 2.4487428745757045
+      "last_alert_utc": "2026-10-30T14:04:11.893611+00:00",
+      "last_move_pct": -5.9320405556852025,
+      "last_move_asof": "2026-10-30"
     },
     "single:CRWD": {
       "last_alert_utc": "2026-09-21T19:03:11.012121+00:00",
@@ -1014,9 +1017,9 @@
       "last_move_asof": "2026-10-12"
     },
     "sector:communication equipment": {
-      "last_alert_utc": "2026-10-12T16:19:04.811959+00:00",
-      "last_move_pct": -3.693570494980386,
-      "last_move_asof": "2026-10-12"
+      "last_alert_utc": "2026-10-30T14:04:11.323148+00:00",
+      "last_move_pct": -5.616352015881532,
+      "last_move_asof": "2026-10-30"
     },
     "single:005490.KS": {
       "last_alert_utc": "2026-10-13T00:57:19.605282+00:00",
@@ -1457,7 +1460,17 @@
       "last_alert_utc": "2026-10-30T13:55:31.044080+00:00",
       "last_move_pct": 14.253800855905506,
       "last_move_asof": "2026-10-30"
+    },
+    "single:AZN.L": {
+      "last_alert_utc": "2026-10-30T14:04:10.104404+00:00",
+      "last_move_pct": 6.543058535090407,
+      "last_move_asof": "2026-10-30"
+    },
+    "sector:capital markets": {
+      "last_alert_utc": "2026-10-30T14:04:12.662071+00:00",
+      "last_move_pct": -3.0079764935936004,
+      "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-10-30T13:45:38.100155+00:00"
+  "last_run_utc": "2026-10-30T14:00:54.998861+00:00"
 }

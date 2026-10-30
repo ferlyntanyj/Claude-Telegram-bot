@@ -21862,5 +21862,251 @@
       "look_out": "Monitor if the stock continues to disregard the positive earnings surprise against the backdrop of rising peer values.",
       "memory": "This ticker has triggered this alert 3x in the last 180 days, most recently on 2026-10-30 with a -6.6% move."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T14:04:13.283400+00:00",
+    "type": "single_stock",
+    "headline": "AstraZeneca targets $1.5 billion in annual savings, beats quarterly forecasts",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjliTEJ2NUNVUGNMMWFBZ3ViOTNiQU0xNWxxV0o1ZEUzQzhQNGtiazctZXNXdkw0ODFjdTFDOGw0bzUyaGNtNjhjWXFCcnVjUVBkU3dMZVpkUlQyanNnNno0dk13QkRSdDV3M2ZfVTJmR2tvalhBYjBCdG5wcFBKZG82dXE2UXluRFZaRFJwLTUwa0Z1dnIzS2hyYkN5M2xCdjFwbUd6cHh2YVU1dU9qQ2JhMzlFQ21qVEJGVkp3?oc=5",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "AZN.L",
+      "company": "AstraZeneca",
+      "pct": 6.543058535090407,
+      "last": 13906.0,
+      "prev": 13052.0,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "4568.T",
+        "company": "Daiichi Sankyo Co., Ltd.",
+        "pct": 5.214899713467047
+      },
+      {
+        "ticker": "BAYN.DE",
+        "company": "Bayer",
+        "pct": 4.336951356882124
+      },
+      {
+        "ticker": "GILD",
+        "company": "Gilead Sciences",
+        "pct": 3.773926681339157
+      }
+    ],
+    "analysis": {
+      "business_model": "AstraZeneca is a pharmaceutical company that develops, manufactures, and sells medicines across major therapeutic areas.",
+      "sentiment": "Bullish - investors rewarded earnings beat and savings target",
+      "why_moved": "The stock rose after reported earnings showed EPS of 2.79 versus an estimate of 2.59, a 7.9% surprise. The movement also followed news that the company targets $1.5 billion in annual savings.",
+      "read_across": "International pharmaceutical peers including Daiichi Sankyo, Bayer, and Gilead Sciences also posted significant gains, suggesting a positive sector-wide sentiment shift.",
+      "look_out": "Watch for follow-through in peer stocks to confirm if the rally extends beyond a single-quarter surprise. Monitor if the stated savings target translates to sustained margin improvement in future reports.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T14:04:13.283413+00:00",
+    "type": "sector",
+    "headline": "Intel Plunges After PC Slump and Supply Snags Hurt Outlook",
+    "source": "Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaURpSDFJSVlDdjY1d0wtcmQxOVpjYmowVTBSaEZCelVCWGNoVGI2VVR2UWNVcVZDVHVyUjFIMWdvQ0FfQ1dDdkpXWmdKUXRuNG9wVnlJRjNPTzFvcTB1TFV0QjdIVHhUZEZhOHFrdGJfSGNHbF9La09hYVhrempMWm5mTHZWMlJKUElqXzNYbjJKa3ZpZ0dZTE5Kb3JHb212eEtyNUQzNkltOUhnTlVNNWlR?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "INTC",
+      "company": "Intel",
+      "pct": -28.999670942480893,
+      "last": 65.37000274658203,
+      "prev": 92.06999969482422,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "pct": -8.517530555563035
+      },
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm",
+        "pct": -8.020069080563541
+      },
+      {
+        "ticker": "MRVL",
+        "company": "Marvell Technology",
+        "pct": -6.283778259055584
+      }
+    ],
+    "analysis": {
+      "business_model": "Intel designs and manufactures semiconductors, with personal computer processors remaining a core component of its revenue base.",
+      "sentiment": "Bearish - PC slump and supply snags hurt outlook",
+      "why_moved": "The headline explicitly cites a PC slump and supply snags hurting the outlook as the cause of the plunge. No specific earnings event or date is stated in the provided text to serve as a distinct additional catalyst.",
+      "read_across": "Peers AMD, Qualcomm, and Marvell experienced simultaneous declines of 8.5%, 8.0%, and 6.3% respectively, indicating a broad negative sentiment across the semiconductor sector rather than an Intel-specific failure.",
+      "look_out": "Investors should monitor whether the reported supply snags persist or if the PC slump deepens, given that 19 other semiconductor names have triggered similar alerts recently.",
+      "memory": "Tracking data shows Intel has triggered this alert nine times in the last 180 days, with the most recent occurring on 2026-10-30 with a 29.0% drop. This indicates a pattern of recurring, sharp negative volatility for this ticker within a similar timeframe."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T14:04:13.283419+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "LITE",
+      "company": "Lumentum",
+      "pct": -8.392879663444752,
+      "last": 842.35498046875,
+      "prev": 919.530029296875,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "HPE",
+        "company": "Hewlett Packard Enterprise",
+        "pct": -6.709700755234904
+      },
+      {
+        "ticker": "CIEN",
+        "company": "Ciena",
+        "pct": -6.337106526735559
+      },
+      {
+        "ticker": "ZBRA",
+        "company": "Zebra Technologies",
+        "pct": -4.895597505027505
+      }
+    ],
+    "analysis": {
+      "business_model": "Lumentum is a Communication Equipment company that supplies optical components and systems used in data centers and telecommunications networks.",
+      "sentiment": "Bearish - broad sector decline with no specific fundamental catalyst provided",
+      "why_moved": "No specific catalyst such as earnings or guidance is stated in the provided data; the move is described as an intraday price action of -8.4%.",
+      "read_across": "Peers in the Communication Equipment group, including HPE, Ciena, and Zebra Technologies, also exhibited significant intraday declines ranging from -4.9% to -6.7%.",
+      "look_out": "Watch for follow-through in the wider Communication Equipment group, where five other names have triggered similar alerts in the last 180 days.",
+      "memory": "This ticker has triggered this alert 8 times in our tracking over the last 180 days, with the most recent occurrence on 2026-10-30 at -8.5%."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T14:04:13.283423+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "HPQ",
+      "company": "HP Inc.",
+      "pct": -9.535029389527994,
+      "last": 28.795000076293945,
+      "prev": 31.829999923706055,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies",
+        "pct": -7.861810843517625
+      },
+      {
+        "ticker": "SNDK",
+        "company": "Sandisk",
+        "pct": -7.76662870086281
+      },
+      {
+        "ticker": "ANET",
+        "company": "Arista Networks",
+        "pct": -6.215392939078656
+      }
+    ],
+    "analysis": {
+      "business_model": "HP Inc. designs, manufactures, and sells consumer and commercial personal computers, printers, and related services.",
+      "sentiment": "Bearish - broad computer hardware sector decline",
+      "why_moved": "No specific catalyst such as earnings or guidance is stated in the provided text, only a significant intraday price move. The drop appears driven by a wider sell-off in the Computer Hardware group rather than a singular company-specific event.",
+      "read_across": "Peers including Dell Technologies, Sandisk, and Arista Networks are also down significantly, indicating a negative flow across the entire computer hardware sector. This suggests a macro or sector-wide sentiment shift rather than isolated firm-specific issues.",
+      "look_out": "Investors should monitor whether the decline in peers like Dell and Arista persists to confirm a sector-wide trend. Attention should be paid to follow-through price action as no specific upcoming event is cited.",
+      "memory": "Our historical tracking shows this ticker triggered a similar alert four times in the last 180 days, most recently on 2026-10-30. Ten other names in the Computer Hardware group have also triggered this alert during the same period, suggesting recurring volatility in this peer group."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T14:04:13.283427+00:00",
+    "type": "sector",
+    "headline": "London’s Stock Market Among Those Feeling Left Out of UK Budget",
+    "source": "Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeF9XU3k5UUNGTlp6TXlKMWZLUWZLUFd0a01YdWdrMmtEQXpqeEctdDlwVEtjckhsVkd5enZ3LWtuVml1UFBoYUJEYjEzcE5zd2ZYVkh1Sk5NR3phTklvOXQ1SExwMS1td0YtTFpaWi1CbVdfYUZlODhoazNNMThraWhtYmlIQmp5LTcxdThaeFp3enRnSElycEM3SktwQkJmRk0zQlE0NU0wV1hDR3d0YUFMUEc?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "HOOD",
+      "company": "Robinhood Markets",
+      "pct": -8.15012456596832,
+      "last": 84.12529754638672,
+      "prev": 91.58999633789062,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "IBKR",
+        "company": "Interactive Brokers",
+        "pct": -5.7357150381371795
+      },
+      {
+        "ticker": "GS",
+        "company": "Goldman Sachs",
+        "pct": -3.1501596586510194
+      },
+      {
+        "ticker": "MS",
+        "company": "Morgan Stanley",
+        "pct": -2.8657933285361814
+      }
+    ],
+    "analysis": {
+      "business_model": "Robinhood Markets operates a digital brokerage platform generating revenue primarily through transaction fees and net interest income on customer cash balances.",
+      "sentiment": "Bearish - earnings missed estimates by 8.1%",
+      "why_moved": "The stock declined following reported earnings where EPS of 0.51 came in below the 0.55 estimate, resulting in an 8.1% negative surprise.",
+      "read_across": "Peer companies including Interactive Brokers, Goldman Sachs, and Morgan Stanley also declined, suggesting broader sector pressure rather than an isolated company-specific issue.",
+      "look_out": "Investors should monitor if the negative earnings surprise triggers further sell-offs in other financial services peers that are currently trading down.",
+      "memory": "This specific ticker has triggered this alert four times in the last 180 days, most recently on 2026-10-30 with a -7.9% move, indicating a pattern of repeated sharp declines."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T14:04:13.283431+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "REGN",
+      "company": "Regeneron Pharmaceuticals",
+      "pct": 12.049778422641143,
+      "last": 917.4299926757812,
+      "prev": 818.77001953125,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "VRTX",
+        "company": "Vertex Pharmaceuticals",
+        "pct": 3.4666612413194464
+      },
+      {
+        "ticker": "INCY",
+        "company": "Incyte",
+        "pct": 3.45461980076045
+      },
+      {
+        "ticker": "MRNA",
+        "company": "Moderna",
+        "pct": -0.27383759444868927
+      }
+    ],
+    "analysis": {
+      "business_model": "Regeneron Pharmaceuticals develops and commercializes biologic medicines and antibody research platforms, with revenue driven by sales of specialized therapeutics.",
+      "sentiment": "Bullish - strong earnings surprise and positive peer sentiment",
+      "why_moved": "The stock moved following reported earnings on 2026-10-30 where EPS of 20.07 exceeded the 16.25 estimate, illustrating a 23.5% surprise.",
+      "read_across": "Peer Vertex Pharmaceuticals and Incyte rose 3.5% each, suggesting a positive sentiment shift in the broader biotechnology sector despite Moderna's slight decline.",
+      "look_out": "Watch for sustained volume to confirm the +12.0% intraday move holds above the prior close of 818.77.",
+      "memory": "This ticker triggered this alert twice in the last 180 days, most recently on 2026-10-30 with a +13.3% move, pattern consistent with current actions."
+    }
   }
 ]
