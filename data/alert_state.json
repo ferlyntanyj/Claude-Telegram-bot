@@ -1330,7 +1330,17 @@
       "last_alert_utc": "2026-10-30T10:48:42.278982+00:00",
       "last_move_pct": -2.8583085541702413,
       "last_move_asof": "2026-10-30"
+    },
+    "premarket:TER": {
+      "last_alert_utc": "2026-10-30T11:03:27.406502+00:00",
+      "last_move_pct": -6.116877,
+      "last_move_asof": null
+    },
+    "premarket:SMCI": {
+      "last_alert_utc": "2026-10-30T11:03:27.886052+00:00",
+      "last_move_pct": -6.0543113,
+      "last_move_asof": null
     }
   },
-  "last_run_utc": "2026-10-30T10:45:36.135234+00:00"
+  "last_run_utc": "2026-10-30T11:00:50.507934+00:00"
 }
