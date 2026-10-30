@@ -22682,5 +22682,169 @@
       "look_out": "Monitor whether the reported intraday gain of 6.3% contradicts the \"falls\" headline or indicates a rapid reversal not detailed in the source text.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T15:17:53.372314+00:00",
+    "type": "single_stock",
+    "headline": "Cramer's lightning round: Sell AMC",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1CUG9RVV9mcVZ0dEFacXlELWVlUDdfTXcxUV83bU5mRWRGd0ZUdGtyNS1OYUF0MnY2Y0VWaGVpZEV4UHR5cnozS2pISkwtdVpFMl9obXpIelZ2cmk3Zm1ad2tBWnoxM1VSdlVvOWd6NktwZlpmQkZLONIBfkFVX3lxTE5MS0c3TVY1dlBBTDItTmpPMjlRWkZyX3ZLQVlUWTlRLUo3UW12RjY5UXZpOE1KaEU2LVdfYXdpRm9pZzQtS1ZJNTJnNllLYkF2ak41STlaZ0dzSDhXLXBfcmxiazRJVmlJRTV2TjRoRGJWeVVqUTgwMGVFenV1dw?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "LRCX",
+      "company": "Lam Research",
+      "pct": -6.419278222506719,
+      "last": 238.05999755859375,
+      "prev": 254.38999938964844,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300751.SZ",
+        "company": "Suzhou Maxwell Technologies",
+        "pct": -12.751919593728168
+      },
+      {
+        "ticker": "TER",
+        "company": "Teradyne",
+        "pct": -7.838503986611533
+      },
+      {
+        "ticker": "AMAT",
+        "company": "Applied Materials",
+        "pct": -7.069676350541776
+      }
+    ],
+    "analysis": {
+      "business_model": "Lam Research develops and manufactures semiconductor manufacturing equipment, primarily etching tools used in chip fabrication. Its revenue is driven by selling these capital goods to semiconductor foundries and memory makers.",
+      "sentiment": "Bearish - multiple semicap peers falling sharply on headline",
+      "why_moved": "Lam Research fell 6.4% intraday without a specific catalyst explicitly stated in the provided text. The move coincides with a sector-wide sell-off where peers like Teradyne and Applied Materials also declined sharply.",
+      "read_across": "Peers in the semiconductor equipment sector show significant distress, with Teradyne down 7.8%, Applied Materials down 7.1%, and international peer Suzhou Maxwell Technologies down 12.8%. This indicates a broad-based decline across global semicap equipment names rather than an isolated issue.",
+      "look_out": "Monitor whether the sector-wide weakness in semiconductor equipment names continues in subsequent sessions. Watch for further follow-through from peers like Applied Materials and Teradyne to confirm if this is a sustained trend.",
+      "memory": "Lam Research has triggered this alert 4 times in our tracking over the last 180 days, most recently on 2026-10-30 with a -6.4% drop. Additionally, 9 other names in the Semiconductor Equipment & Materials group have triggered similar alerts in the same period."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T15:17:53.372336+00:00",
+    "type": "single_stock",
+    "headline": "Not Your Keys, Not Your DAT",
+    "source": "Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOGtvdmdzbDdqN3FaZkhfNFZoRzdnZG1Ca3JSQjNOd2pyWE1CaXU0bHpyc2FvbWQ0c2hHYkF2Z2Vkc3I1VS1UalFtTEhjWnlWZzBhNzctUzJGRkJ2bGRlQlpFSXNkOElpcUxfNjBzZnZSWDh1RXIzenVuNDl4LU9ZV0laM3EwUzl3cXRJ?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "KEYS",
+      "company": "Keysight Technologies",
+      "pct": -6.033226448407625,
+      "last": 309.94000244140625,
+      "prev": 329.8399963378906,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "COHR",
+        "company": "Coherent Corp.",
+        "pct": -12.410421671828619
+      },
+      {
+        "ticker": "6861.T",
+        "company": "Keyence Corp.",
+        "pct": -3.573683545902262
+      },
+      {
+        "ticker": "TDY",
+        "company": "Teledyne Technologies",
+        "pct": -2.7455548693387732
+      }
+    ],
+    "analysis": {
+      "business_model": "Keysight Technologies manufactures electronic measurement instruments and software used to design, build, and test complex electronics such as semiconductors and communications equipment.",
+      "sentiment": "Bearish - broad weakness across optical and test measurement peer group",
+      "why_moved": "No specific catalyst such as earnings or guidance is stated in the provided text. The price movement reflects a 6.0% intraday decline alongside significant drops in peer companies like Coherent and Keyence.",
+      "read_across": "Peers Coherent Corp. and Keyence Corp. faced even sharper declines of 12.4% and 3.6% respectively, indicating broad sentiment deterioration across the optical and precision measurement sectors.",
+      "look_out": "Investors should monitor whether the sector-wide decline in optical and test equipment manufacturers continues or stabilizes in subsequent trading sessions.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T15:17:53.372342+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "FLEX",
+      "company": "Flex Ltd.",
+      "pct": -6.446760523986194,
+      "last": 87.06999969482422,
+      "prev": 93.06999969482422,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "2308.TW",
+        "company": "Delta Electronics",
+        "pct": -9.797297297297302
+      },
+      {
+        "ticker": "002938.SZ",
+        "company": "Avary Holding (Shenzhen) Co",
+        "pct": -9.165170224246367
+      },
+      {
+        "ticker": "002916.SZ",
+        "company": "Shennan Circuits",
+        "pct": -8.195430575907459
+      }
+    ],
+    "analysis": {
+      "business_model": "Flex Ltd. is a global electronics manufacturing services (EMS) company that designs, engineers, and manufactures electronic products for various industries.",
+      "sentiment": "Bearish - broad peer losses signaling sector-wide weakness",
+      "why_moved": "No specific news story was provided, though the stock moved -6.4% intraday coinciding with a reported 11.5% EPS earnings surprise. The price action aligns with significant declines across global electronics manufacturing peers.",
+      "read_across": "Peers such as Delta Electronics, Avary Holding, and Shennan Circuits are down 8-10%, indicating a synchronized negative flow in the Electronic Components group.",
+      "look_out": "Monitor whether the sharp declines in key EMS players continue beyond the intraday move, given 12 other group names have triggered similar alerts recently.",
+      "memory": "Flex triggered this alert twice in the last 180 days, most recently on 2026-10-30 with a -6.3% move, indicating a recurring pattern of sharp volatility for this name."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T15:17:53.372346+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "ILMN",
+      "company": "Illumina, Inc.",
+      "pct": -16.56364029279873,
+      "last": 242.0155029296875,
+      "prev": 290.05999755859375,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "RVTY",
+        "company": "Revvity",
+        "pct": -5.072990544116019
+      },
+      {
+        "ticker": "CRL",
+        "company": "Charles River Laboratories",
+        "pct": -4.451606595074908
+      },
+      {
+        "ticker": "A",
+        "company": "Agilent Technologies",
+        "pct": -3.544023397877638
+      }
+    ],
+    "analysis": {
+      "business_model": "Illumina develops DNA sequencing instruments and software systems that enable high-throughput genomic analysis for research and clinical diagnostics.",
+      "sentiment": "Bearish - significant intraday drop amid weak peer performance",
+      "why_moved": "No specific news catalyst is explicitly provided in the text, only a reported earnings date of 2026-10-29. The stock fell 16.6% intraday to 242.02 USD from a prior close of 290.06 USD.",
+      "read_across": "Peers Revvity, Charles River Laboratories, and Agilent Technologies also declined, ranging from -3.5% to -5.1%. This suggests broader weakness or a sector-specific sell-off in the life sciences and diagnostics space.",
+      "look_out": "Monitor whether the pre-2026-10-29 earnings event drove this recent move or if the current decline reflects post-earnings reaction. Watch for further consolidation in peer stocks to confirm industry-wide pressure.",
+      "memory": "This specific alert has triggered twice in our tracking history over the last 180 days, most recently on 2026-10-30 with a -14.3% move."
+    }
   }
 ]
