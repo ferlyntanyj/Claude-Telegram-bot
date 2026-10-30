@@ -20607,5 +20607,46 @@
       "look_out": "Monitors should watch how the market digests the quality of earnings driven by volatile crypto asset gains versus core operational performance in the coming sessions.",
       "memory": "COIN has triggered this alert three times in the last 180 days, with the prior most recent instance on 2026-09-21 showing a +5.5% move, indicating repeated high-volatility alerts for this ticker."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T12:18:13.684431+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "Q",
+      "company": "Qnity Electronics",
+      "pct": -8.705575,
+      "last": 112.0,
+      "prev": 122.66,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300751.SZ",
+        "company": "Suzhou Maxwell Technologies",
+        "pct": -12.751919593728168
+      },
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": -8.805031446540879
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": -7.931786634939519
+      }
+    ],
+    "analysis": {
+      "business_model": "Qnity Electronics is a semiconductor materials supplier, primarily providing test contactors and other components used in the testing phase of semiconductor manufacturing.",
+      "sentiment": "Bearish - broad sector sell-off in semiconductor equipment and materials",
+      "why_moved": "No specific corporate catalyst is stated in the provided data; the price movement reflects a broad decline where Qnity fell 8.7% alongside significant drops in peers. The headline explicitly notes this is a price move only with no specific news story found.",
+      "read_across": "The decline is mirrored across the global Semiconductor Equipment & Materials group, with peers like Suzhou Maxwell (-12.8%) and Lasertec (-8.8%) experiencing similar sharp intraday losses. This indicates a synchronized negative sentiment or risk-off flow affecting the entire supply chain rather than an isolated company issue.",
+      "look_out": "Watch for broader sector stabilization as this appears to be a group-level flow rather than an idiosyncratic event. Monitor if the nine other tracked names in the group continue to decline or if the move isolates specific sub-sectors.",
+      "memory": "Our historical tracking data shows that 9 other names in the Semiconductor Equipment & Materials group have triggered this same alert within the last 180 days. This suggests frequent episodic volatility is common in this specific group over the recent half-year period."
+    }
   }
 ]

@@ -1382,7 +1382,12 @@
       "last_alert_utc": "2026-10-30T11:48:29.420603+00:00",
       "last_move_pct": -6.4428635,
       "last_move_asof": null
+    },
+    "premarket:Q": {
+      "last_alert_utc": "2026-10-30T12:18:13.676390+00:00",
+      "last_move_pct": -8.705575,
+      "last_move_asof": null
     }
   },
-  "last_run_utc": "2026-10-30T12:00:58.746702+00:00"
+  "last_run_utc": "2026-10-30T12:15:35.560242+00:00"
 }
