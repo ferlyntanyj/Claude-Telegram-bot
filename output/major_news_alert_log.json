@@ -22518,5 +22518,46 @@
       "look_out": "Watch for further price action in peer companies like AMAT and LRCX to confirm if this is a sustained sector rotation. Monitor for any subsequent analyst commentary explaining the divergence between the EPS beat and the stock price decline.",
       "memory": "This name has triggered this alert twice in the last 180 days, most recently on 2026-10-30 with a -7.1% move. Nine other names in the Semiconductor Equipment & Materials group have also triggered this alert in the same period."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T14:47:41.018217+00:00",
+    "type": "single_stock",
+    "headline": "T-Mobile Profit, Revenue Rise on Postpaid Growth",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdmtrQUNoZWtQVnEzR3JZQ2J1ZHd5Q3VQOERQVnI3VTlGdEFfUnlySHh5aUh3UTM1OGRQOGxaZDNJQUNUWURERWNCTUVTcEZhbzc4S01RMDlINlZQQWg5TFRyTW1NQWFPWm5aVFBocEZ1dHFSN2ppRzBpR0xVTXhac1dndnJfdGs5akVoSUhGNXFWNF9BaTJicjVR?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "TMUS",
+      "company": "T-Mobile US",
+      "pct": 6.117190696126729,
+      "last": 156.3000030517578,
+      "prev": 147.2899932861328,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "9984.T",
+        "company": "Softbank Group Corp.",
+        "pct": -5.960125918153203
+      },
+      {
+        "ticker": "601698.SS",
+        "company": "China Satellite Communications",
+        "pct": -4.935070468273894
+      },
+      {
+        "ticker": "AAF.L",
+        "company": "Airtel Africa",
+        "pct": -3.5397606629548495
+      }
+    ],
+    "analysis": {
+      "business_model": "T-Mobile US is a major mobile network operator that generates revenue primarily through postpaid wireless service subscriptions and related telecommunications fees.",
+      "sentiment": "Bullish - postpaid growth driving rising profit and revenue",
+      "why_moved": "The stock surged on T-Mobile reporting earnings on 2026-10-28, where EPS of 3.22 beat estimates (2.91) by 10.6%, coinciding with headline news of rising profit and revenue on postpaid growth.",
+      "read_across": "T-Mobile's strength contrasts sharply with international telecom peers like Softbank Group (-6.0%) and China Satellite Communications (-4.9%), suggesting a U.S.-specific positive divergence rather than a broad sector rally.",
+      "look_out": "Investors should watch for follow-through in postpaid subscriber growth to validate the earnings surprise and assess why peers are moving in the opposite direction.",
+      "memory": "Historical tracking shows this ticker triggered a similar alert once in the last 180 days (2026-09-18), when it fell 5.6% despite 7 other Telecom names also triggering the alert."
+    }
   }
 ]
