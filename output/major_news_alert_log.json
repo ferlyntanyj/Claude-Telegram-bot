@@ -19049,5 +19049,51 @@
       "look_out": "Watch for any forthcoming Hybe earnings, guidance updates, or regulatory news that could reverse the sell‑off, as well as broader Korean market sentiment.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T03:20:11.341206+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Hong Kong · HKEX",
+    "primary": {
+      "ticker": "9961.HK",
+      "company": "Trip.com Group",
+      "pct": 5.418064283288038,
+      "last": 315.20001220703125,
+      "prev": 299.0,
+      "currency": "HKD"
+    },
+    "peers": [
+      {
+        "ticker": "NCLH",
+        "company": "Norwegian Cruise Line Holdings",
+        "pct": 13.449563631634675
+      },
+      {
+        "ticker": "RCL",
+        "company": "Royal Caribbean Group",
+        "pct": 4.103258884625949
+      },
+      {
+        "ticker": "CCL",
+        "company": "Carnival Corporation",
+        "pct": 2.779760162120559
+      },
+      {
+        "ticker": "EXPE",
+        "company": "Expedia Group",
+        "pct": 2.6131500159438437
+      }
+    ],
+    "analysis": {
+      "business_model": "Trip.com Group operates an online travel platform offering hotel bookings, flights, and other travel services, earning revenue mainly from commissions and service fees.",
+      "sentiment": "Bullish - travel stocks rally on broader demand optimism",
+      "why_moved": "No specific catalyst is mentioned; the stock rose 5.4% on intraday price action amid sector‑wide gains in travel and leisure stocks.",
+      "read_across": "The move mirrors gains in peers such as Norwegian Cruise Line (+13.4%), Royal Caribbean (+4.1%), Carnival (+2.8%) and Expedia (+2.6%), suggesting a broader upbeat sentiment for travel‑related companies.",
+      "look_out": "Watch upcoming earnings releases or guidance updates from major travel operators for confirmation of the rally's sustainability.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
