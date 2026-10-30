@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-10-30T18:45:34.727875+00:00",
+  "last_run_utc": "2026-10-30T19:00:55.668841+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1566,16 +1566,16 @@
       "last_attempt_utc": "2026-10-30T18:48:11.914419+00:00"
     },
     "single:ORCL": {
-      "last_attempt_utc": "2026-10-30T17:03:19.764287+00:00"
+      "last_attempt_utc": "2026-10-30T19:03:57.034397+00:00"
     },
     "single:ETN": {
-      "last_attempt_utc": "2026-10-30T17:03:30.763608+00:00"
+      "last_attempt_utc": "2026-10-30T19:04:08.166405+00:00"
     },
     "single:VRT": {
-      "last_attempt_utc": "2026-10-30T17:03:41.756397+00:00"
+      "last_attempt_utc": "2026-10-30T19:04:19.230330+00:00"
     },
     "single:Q": {
-      "last_attempt_utc": "2026-10-30T17:03:52.695501+00:00"
+      "last_attempt_utc": "2026-10-30T19:04:30.168678+00:00"
     },
     "single:AVGO": {
       "last_attempt_utc": "2026-10-30T17:18:25.039286+00:00"
@@ -1615,6 +1615,9 @@
     },
     "sector:internet content information": {
       "last_attempt_utc": "2026-10-30T18:48:23.166905+00:00"
+    },
+    "single:CRL": {
+      "last_attempt_utc": "2026-10-30T19:04:41.031578+00:00"
     }
   }
 }
