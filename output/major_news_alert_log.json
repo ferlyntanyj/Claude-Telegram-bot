@@ -19951,5 +19951,169 @@
       "look_out": "Watch for confirmation if the 'logged in experience first' strategy successfully retains user engagement or if further traffic loss to Google AI tools materializes.",
       "memory": "This ticker triggered this alert twice in the last 180 days, most recently on 2026-10-15 with a similar 5.6% move, and four other Internet Content & Information names triggered the same alert recently."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T10:48:42.291712+00:00",
+    "type": "single_stock",
+    "headline": "Marvell Technology in advanced talks to buy optics maker Lumentum, source says",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNR2xWTFdaYmFQNV9rVnZVcmltcTJqWGoyUVBzUlVPcDJaZm4xLXVCMmt4Szk2YnF1VjVXUEdjV0xDbGxRdjc2WjBzQjVnTnU0SWpSWkJmdlg0WS15eGNhc09ZNWpHUVc2Znk0aE9haUpPVlZOeUdqNl9CSzdHaUtITm1BTWh1d0tKTWtCYWM1M183ekZkSGptb3B4MUthVzhiM1hUOEhR?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "MRVL",
+      "company": "Marvell Technology",
+      "pct": -6.077672,
+      "last": 205.07,
+      "prev": 218.34,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": -8.082172173713541
+      },
+      {
+        "ticker": "688396.SS",
+        "company": "China Resources Microelectronics",
+        "pct": -7.2177710449030545
+      },
+      {
+        "ticker": "000660.KS",
+        "company": "SK Hynix",
+        "pct": -7.077326343381385
+      }
+    ],
+    "analysis": {
+      "business_model": "Marvell Technology is a semiconductor company that designs custom silicon and data infrastructure solutions for data centers and telecommunications networks.",
+      "sentiment": "Bearish - M&A uncertainty triggering immediate sector-wide sell-off",
+      "why_moved": "The headline reports that Marvell Technology is in advanced talks to buy optics maker Lumentum, which correlates with the intraday decline. No other specific catalysts like earnings or guidance are stated in the provided text.",
+      "read_across": "Peers such as SG Micro, China Resources Microelectronics, and SK Hynix also declined significantly, suggesting the M&A news or related sector sentiment is pressuring the broader semiconductor group.",
+      "look_out": "Monitor for official confirmation or denial of the Lumentum acquisition talks, as the current move is based on a source report from Reuters.",
+      "memory": "Our tracking data shows this name triggered this alert 3 times in the last 180 days, most recently on 2026-10-19 with a +7.4% gain, alongside 19 other semiconductors names."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T10:48:42.291727+00:00",
+    "type": "single_stock",
+    "headline": "Corning Inc. stock underperforms Thursday when compared to competitors",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORE4yc3NzM1dYem1BeHRPUnhvbVB2em4zQ3U2MC0td1pPdzdZeldGWG95NzFVZlNBUlViSzdfVmpERGpOTFU4U3ZqVi1xWEtZYVQzYWpHTkotOTlXaGxINzdEeDVkVmcySDkxRGVFcEpVUkg4RC1fanVuSXdYOFlSSE54TWxrWlNiTjNMeER5T0pKSzJQS0Rpd1N5ZDFYYUE2dzFHRWQtNFJLQURpcFJnM2FBRUZVeE84TnRYLXY3QmJHMWZDTkpZNzNrSTNjTVltYm51QmpfazRuYjU5RlJOQg?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "GLW",
+      "company": "Corning Inc.",
+      "pct": -6.431842,
+      "last": 120.6,
+      "prev": 128.88,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "2308.TW",
+        "company": "Delta Electronics",
+        "pct": -9.797297297297302
+      },
+      {
+        "ticker": "002938.SZ",
+        "company": "Avary Holding (Shenzhen) Co",
+        "pct": -9.165170224246367
+      },
+      {
+        "ticker": "002916.SZ",
+        "company": "Shennan Circuits",
+        "pct": -8.195430575907459
+      }
+    ],
+    "analysis": {
+      "business_model": "Corning Inc. is a manufacturer of specialty glass and advanced ceramics, with core revenue driven by glass materials for telecommunications, consumer electronics, and aerospace/automotive applications.",
+      "sentiment": "Bearish, traders penalizing despite modest EPS surprise",
+      "why_moved": "The stock fell 6.4% intraday following reported earnings of 0.91 EPS versus an estimate of 0.88, indicating the market discounted the beat or reacted to broader sector pressures not detailed in the source.",
+      "read_across": "The decline mirrors weakness in international electronic components peers, which also suffered significant losses such as Delta Electronics -9.8% and Shennan Circuits -8.2%.",
+      "look_out": "Watch for continued divergence between EPS beats and share price performance within the Electronic Components group amid current sector-wide selling pressure.",
+      "memory": "GLW triggered this underperformance alert twice in the last 180 days, most recently on 2026-09-21 with a +5.2% move, while 12 other electronic components names also triggered similar alerts."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T10:48:42.291733+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "CIEN",
+      "company": "Ciena",
+      "pct": -6.4871817,
+      "last": 326.5,
+      "prev": 349.45,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "2345.TW",
+        "company": "Accton",
+        "pct": -7.9772079772079785
+      },
+      {
+        "ticker": "300308.SZ",
+        "company": "Zhongji Innolight",
+        "pct": -4.990978163769267
+      },
+      {
+        "ticker": "HPE",
+        "company": "Hewlett Packard Enterprise",
+        "pct": -2.4200279377720624
+      }
+    ],
+    "analysis": {
+      "business_model": "Ciena designs and sells network management systems and packet transport equipment, providing the optical infrastructure necessary for high-bandwidth data communication.",
+      "sentiment": "Bearish - broad decline across communication equipment peers",
+      "why_moved": "No specific catalyst such as earnings or guidance is explicitly stated in the provided text. The move is driven by a broad sector sell-off with peers like Accton and HPE also declining.",
+      "read_across": "The drop coincides with significant losses among international peers, including Accton at -8.0% and Zhongji Innolight at -5.0%. HPE also fell 2.4%, indicating a negative sentiment wave across the Communication Equipment group.",
+      "look_out": "Watch for potential stabilization or further downside in other Communication Equipment names that have recently triggered alerts. Monitor if the sector-wide weakness continues beyond Ciena and its listed peers.",
+      "memory": "Ciena has triggered this alert once in the last 180 days, most recently on 2026-09-21 with a +6.1% move. Five other names in the Communication Equipment group have also triggered this alert in the same period."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T10:48:42.291737+00:00",
+    "type": "sector",
+    "headline": "Gulf bourses retreat as bank stocks ease on Yemen, Iran war worries",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOEFpSW82MC1hdTF2YkRtNFgxU21jWHhvNUpoOWtNMXpKYWw3ZnUtNWNpUXNDdUFrRzdsWnUxb0VrbndDY0xLakc1Q05YdWpCeENJVjVFNTU0NUoydTYxS1BqaHpnck9ROGVSRGJWUDBkUXFVU29tSmkzX250dkIyZVl5VThPY3FLZlBLQUo2aDBRTUU3VE9DRzFVZ0tOOTFMMGdxNnNQZEQ?oc=5",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "NWG.L",
+      "company": "NatWest Group",
+      "pct": -7.304789597349581,
+      "last": 588.7999877929688,
+      "prev": 635.2000122070312,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "BGEO.L",
+        "company": "Lion Finance Group",
+        "pct": -2.9909913644850628
+      },
+      {
+        "ticker": "LLOY.L",
+        "company": "Lloyds Banking Group",
+        "pct": -2.8583085541702413
+      },
+      {
+        "ticker": "DBK.DE",
+        "company": "Deutsche Bank",
+        "pct": -2.55175753096587
+      }
+    ],
+    "analysis": {
+      "business_model": "NatWest Group is a leading UK-centric financial services and banking group, deriving its core revenue from retail banking relationships in the UK and Ireland, as well as its international asset and wealth management operations.",
+      "sentiment": "Bearish - regional conflict fears driving broad safe-haven rotation",
+      "why_moved": "The stock declined significantly 7.3% alongside a broader retreat in Gulf bourses driven by bank stocks easing amid concerns over war in Yemen and Iran. No specific corporate catalyst was cited, so the move is attributed to these geopolitical market flows.",
+      "read_across": "Domestic peers like Lloyds Banking Group and Lion Finance Group, along with international peers like Deutsche Bank, also fell 2.6% to 3.0%, confirming a coordinated sector-wide sell-off rather than an isolated company-specific issue.",
+      "look_out": "Watch for further escalation in Yemen and Iran that could sustain the negative sentiment across bank equities in the Gulf and Europe.",
+      "memory": "This specific ticker has triggered this alert three times in the last 180 days, with the most recent instance on 2026-10-30 showing a 7.7% decline, indicating a pattern of repeated bearish movements for this name."
+    }
   }
 ]
