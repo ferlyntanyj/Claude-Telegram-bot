@@ -15,6 +15,10 @@ on:
         description: "Dry run: detect newly-reported tickers only, no API calls, no state changes"
         type: boolean
         default: false
+      test_ticker:
+        description: "Diagnostic: force the full pipeline for one ticker (e.g. NVDA), ignoring dry_run. Prints the report + Telegram-format preview in the log; never touches state.json or Telegram."
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -44,7 +48,12 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           SGX_SCREENER_TELEGRAM_BOT_TOKEN: ${{ secrets.SGX_SCREENER_TELEGRAM_BOT_TOKEN }}
           SGX_SCREENER_TELEGRAM_CHAT_ID: ${{ secrets.SGX_SCREENER_TELEGRAM_CHAT_ID }}
-        run: python earnings_analysis.py ${{ inputs.dry_run && '--dry-run' || '' }}
+        run: |
+          if [ -n "${{ inputs.test_ticker }}" ]; then
+            python earnings_analysis.py --test-ticker "${{ inputs.test_ticker }}"
+          else
+            python earnings_analysis.py ${{ inputs.dry_run && '--dry-run' || '' }}
+          fi
 
       # data/earnings_analysis_state.json changes on every non-dry-run run
       # (last_run_utc, plus any newly-baselined/advanced tickers), and the
