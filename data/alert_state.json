@@ -1545,13 +1545,22 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-10-30T16:15:38.481009+00:00",
+  "last_run_utc": "2026-10-30T16:30:40.910105+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T16:03:02.496192+00:00"
     },
     "single:ON": {
       "last_attempt_utc": "2026-10-30T16:17:53.114219+00:00"
+    },
+    "single:GPN": {
+      "last_attempt_utc": "2026-10-30T16:32:55.279157+00:00"
+    },
+    "sector:telecom services": {
+      "last_attempt_utc": "2026-10-30T16:33:06.525615+00:00"
+    },
+    "sector:medical instruments supplies": {
+      "last_attempt_utc": "2026-10-30T16:33:17.741341+00:00"
     }
   }
 }
