@@ -138,56 +138,50 @@ EARNINGS_KEYWORDS_RE = (
 )
 
 # Telegram HTML message hard limit is 4096 chars; leave headroom for the
-# "full report in repo" footer line added in earnings_analysis.py.
+# "full report in repo" footer line added in earnings_analysis.py. The
+# verify stage is told to keep the whole report under this, since (as of
+# 2026-10-31) the report IS the Telegram message -- see ANALYSIS_
+# INSTRUCTIONS's own FORMAT section and earnings_analysis_engine.py's
+# module docstring.
 TELEGRAM_DIGEST_MAX_CHARS = 3500
 
-# Marker the verify stage is instructed to print on its own line, separating
-# the corrected full report (saved to OUTPUT_DIR) from the short digest
-# (sent to Telegram) -- avoids a second LLM call just to re-summarize.
-DIGEST_MARKER = "===TELEGRAM DIGEST==="
-
-# The analyst brief. Originally pasted verbatim from the user's "quarterly
-# earnings analysis" Claude Project, then deliberately stripped of every
-# judgment/opinion call (management tone, credibility, agree-or-disagree,
-# strengthened/unchanged/weakened labels, counter-arguments) at the user's
-# request, keeping only what's comparison or calculation -- a smaller free
-# model (Groq) grounded in thin material (news headlines, not always full
-# transcripts) is far more likely to hold up on "compute this delta" than
-# on "read whether management was credible this quarter." Edit this
-# directly to change what every report covers -- it's the single source
-# of truth for the write-up stage.
+# The analyst brief. Reworked 2026-10-31 to match the exact Telegram format
+# the user confirmed in chat -- two short sections (Results Analysis,
+# Financial Statement Analysis), numbers only (no quotes), one short line
+# per item. The report produced here now goes essentially as-is to
+# Telegram (see earnings_analysis_engine.py's module docstring -- the
+# write/verify stages no longer produce a separate, differently-shaped
+# "ultra-compact digest"), so brevity is a hard requirement, not a nice-
+# to-have: this whole report must fit comfortably under Telegram's 4096-
+# char limit. Edit this directly to change what every report covers --
+# it's the single source of truth for the write-up stage.
 ANALYSIS_INSTRUCTIONS = """\
 ROLE
-You are preparing a factual quarterly results brief for the company whose earnings release triggered this run, comparing the quarter against prior guidance, the street, and history (prior quarter and prior year). State figures and direct quotes; do not offer opinions, predictions, interpretations of tone, or judgment calls on what any of it means.
+You are preparing a factual quarterly results brief for the company whose earnings release triggered this run, comparing the quarter against prior guidance, the street, and history (prior quarter and prior year).
 
 FORMAT
-Plain text only, throughout the entire report. Never use a markdown table, a pipe character (|), or any other tabular/grid layout -- state every figure as its own line or short sentence instead. Headers and bullet dashes are fine for structure, but no tables anywhere.
+Plain text only. Never use a markdown table, a pipe character (|), or any tabular/grid layout. Numbers only -- no quotes from management, no opinions, no predictions. Two sections, exactly as named below. Every item is its own short line (not a long sentence) -- this is read as a Telegram message, not a report, so the whole thing must stay short. The only bullet dashes allowed are the two named sub-points under Revenue (crown jewel, growth engine) -- every other item is a plain line, not a bulleted list. Skip any line entirely if the release has no information for it -- don't speculate to fill a gap, and don't explain away deterioration.
 
 SOURCE DISCIPLINE
 Use the released earnings information and this company's prior transcripts, presentations, and reports (if any) for guidance history and year-ago figures.
 
-SECTION 1: RESULTS ANALYSIS
-Revenue -- one line: "Revenue: <value>, <yoy delta> yoy, <qoq delta> qoq." Then the segment breakdown if the company reports one, each segment's revenue and growth on its own line. Don't infer which segment "drove" the growth beyond what the breakdown itself shows.
-Gross profit margin (GPM) and operating profit margin (OPM) -- state BOTH (not just whichever the company highlights), each its own line: "GPM: <value>, vs. <value> in <prior quarter label> and <value> in <prior-year quarter label>." / "OPM: <value>, vs. <value> in <prior quarter label> and <value> in <prior-year quarter label>." Add the move in bps if the company itself states it. State the company's own stated driver ONLY if explicitly given (quote it) -- do not infer a reason.
-Net income -- one line: "Net income: <value>, <yoy delta> yoy, <qoq delta> qoq." alongside the revenue growth above for comparison. No explanation of any gap between them unless explicitly quoted from the company.
-Key operating metric(s) the company reports (ASP, volume, AUM, GMV, take-rate, margins, etc.) -- state the figures and their yoy/qoq change, then one sentence on what that figure means for the company based strictly on the numbers themselves (e.g. "ASP rose while volume was flat, so growth was entirely price-driven this quarter") -- a calculation-based reading of the numbers, never a subjective call on management, credibility, or outlook.
-Capital allocation: buybacks, dividends, divestment, acquisition plans announced this quarter -- state the figures (amounts, dates, rates), each compared explicitly against the prior quarter's and prior year's equivalent figures, so any change in capital allocation strategy is visible from the numbers themselves.
+RESULTS ANALYSIS
+Revenue: one line, "Revenue: <value>, <yoy delta> yoy, <qoq delta> qoq." Then one line naming which segment(s) drove it, each segment's own value and yoy change, e.g. "Drivers: <segment> <value> <delta>% yoy; <segment> <value> <delta>% yoy."
+- Crown jewel (name the segment): the main cash-generating segment -- one short line on whether it's growing, flat, or shrinking, purely from the numbers.
+- Growth engine (name the segment): the segment management points to as the future -- one short line with its growth rate.
+GPM: one line, "<value>, vs. <value> yoy" (add non-GAAP too if the company reports it separately).
+OPM: one line, same shape as GPM.
+Net profit: one line, "<value>, <yoy delta> yoy" (GAAP and non-GAAP if both reported; flag in a few words if a one-off is distorting the yoy comparison, e.g. a divestiture gain).
+EPS: one line, GAAP and non-GAAP, each vs. yoy.
+Capital allocation: one line -- buybacks/dividends/capex this quarter, compared to the prior quarter/year's equivalent figures.
+vs. guidance: one line -- beat/met/missed, quantified where possible.
+New guidance from management: one line -- next quarter's guided revenue/EPS/margin figures, plus any one-line assumption given (e.g. a cited market condition), numbers only.
 
-SECTION 2: GUIDANCE vs REALITY vs STREET
-Prior guidance (quote) vs actual (quote) vs consensus: Beat / Met / Missed against each, quantified. If consensus is not available, put "NA".
-(If any) NEW guidance: raised / cut / held (quote), and the assumptions given (quote).
-
-SECTION 3: MARKET REACTION
-If the price move is available: state it (%), and whether EPS/revenue beat or missed consensus (cross-reference Section 2).
-If not available at run time: write "Reaction not yet available".
-
-SECTION 4: FINANCIAL METRICS
-For each component below, state the numbers found. Skip a component entirely if there's no information for it -- don't speculate to fill the gap.
-
-Revenue quality: break down volume vs price vs mix (if reported); identify any one-off/non-recurring items this quarter (quote them) with $ amount; recurring/underlying revenue and net profit with one-offs stripped out, plus their own yoy/qoq growth; customer concentration % or churn figures if reported.
-Pricing power: price changes made this quarter (amount/%, quote) and volume change over the same period -- state both figures side by side.
-Operating leverage: revenue growth rate vs operating cost growth rate (or opex ratio change) this quarter -- state whether revenue grew faster than costs purely from the numbers, with the actual growth rates/margin change in bps.
-Cash conversion and capital intensity: operating cash flow vs net income (cash conversion ratio) this quarter and prior quarter/year; capex amount and capex/revenue ratio vs prior quarter/year.
-
-Keep facts quoted. Do not explain away deterioration.
+FINANCIAL STATEMENT ANALYSIS
+Revenue quality: one line -- mix/volume/price shift if visible from the numbers given; skip if not disclosed.
+Pricing power: one line; write "not disclosed" if the release gives no price/ASP data.
+Operating leverage: one line -- margin change vs revenue growth, numbers only.
+Cash conversion: one line -- operating cash flow value and yoy change, vs. net income growth.
+Capital intensity: one line -- capex value and yoy change.
+Competitive position: one line; write "not addressed in the release" if there's no share-gain/loss evidence given -- never infer this.
 """

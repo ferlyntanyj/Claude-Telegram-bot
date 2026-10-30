@@ -184,14 +184,15 @@ Asia/Singapore). Also has `workflow_dispatch` enabled for manual runs.
 Deep-dive companion to the weekly calendar above: when a company on your own watchlist
 (`data/earnings_watchlist_*.csv` — one CSV per group, currently AI Capex, SGX, Bursa, Thailand;
 edit these files directly to add/remove names, no code changes needed) actually reports earnings,
-this writes a factual quarterly results brief (results vs guidance vs street, price reaction,
-revenue quality/one-offs/operating leverage with the underlying numbers) and pushes a short digest
-to Telegram, with the full report committed under `output/earnings_analysis/`. Deliberately
-figures-and-quotes only — `earnings_analysis_config.ANALYSIS_INSTRUCTIONS` was stripped of every
-judgment/opinion call (management tone, credibility, agree-or-disagree, strengthened/unchanged/
-weakened labels, counter-arguments) at the user's request, since a smaller free model grounded in
-thin material is far more likely to hold up on "compute this delta" than on "read whether
-management was credible." **Entirely
+this writes a short, Telegram-sized results brief — two sections, Results Analysis (revenue
+yoy/qoq + segment drivers, crown-jewel/growth-engine read on the two named segments, margins, net
+profit, EPS, capital allocation, vs. guidance, new guidance) and Financial Statement Analysis
+(revenue quality, pricing power, operating leverage, cash conversion, capital intensity,
+competitive position) — and sends that report AS the Telegram message (no separate digest step),
+with a copy committed under `output/earnings_analysis/`. Reworked 2026-10-31 to match an exact
+format the user confirmed in chat: numbers only, no management quotes, one short line per item.
+`earnings_analysis_config.ANALYSIS_INSTRUCTIONS` is the single source of truth for this — edit it
+directly to change what every report covers. **Entirely
 free infrastructure** — Groq's free-tier chat completions (same account `major_news_alert.py`
 already uses, by choice, to keep setup to one key, but its own model — `openai/gpt-oss-120b` here
 vs `qwen/qwen3.8-27b` for `major_news_alert.py` — since Groq's free-tier limits are tracked per
@@ -233,17 +234,15 @@ pipeline.
      articles' text. Not the primary filing for non-US names — the closest free source available,
      since no other exchange here offers a free developer feed.
   2. **Write** (Groq) — turns the grounding material, plus a `yfinance` quantitative snapshot
-     (revenue/margin/net income QoQ and YoY, price move around the report date), into the full
-     4-section report using `earnings_analysis_config.ANALYSIS_INSTRUCTIONS` as the fixed brief —
-     originally pasted from the "quarterly earnings analysis" Claude Project, then stripped of
-     every judgment/opinion call at the user's request (see above). Edit that constant directly
-     to change what every report covers.
-  3. **Verify** (Groq) — independent fact-check pass: cross-checks every quote/figure in the draft
+     (revenue/margin/net income QoQ and YoY, price move around the report date), into the report
+     using `earnings_analysis_config.ANALYSIS_INSTRUCTIONS` as the fixed brief (see above). Edit
+     that constant directly to change what every report covers.
+  3. **Verify** (Groq) — independent fact-check pass: cross-checks every figure in the draft
      against what grounding actually found, flags anything unverifiable rather than silently
-     dropping it, and appends a short Telegram digest after a marker so no third call is needed
-     just to summarize.
-- `earnings_analysis.py` — thin wrapper: runs a cycle, renders each digest (grouped by
-  watchlist with a flag emoji, with a pointer to the full report's path), and sends it to the same
+     dropping it, and keeps the whole thing under Telegram's char limit. Its output is the final
+     report — no separate digest-generation call.
+- `earnings_analysis.py` — thin wrapper: runs a cycle, renders each report (grouped by
+  watchlist with a flag emoji, with a pointer to the saved copy's path), and sends it to the same
   Telegram chat as everything else. A single bad ticker (bad data, a failed fetch/API call) is
   logged and skipped, never drops the rest of the run.
 
@@ -257,8 +256,9 @@ ones found only via the Google News fallback).
 
 `python earnings_analysis.py --test-ticker NVDA`, or the `test_ticker` input on
 `workflow_dispatch`, forces the full grounding + Groq pipeline for one ticker, prints the result,
-AND sends the digest to Telegram tagged `🧪 TEST — not a real alert` so it's distinguishable from
-a real one — never touches `state.json`, so it's safe to run repeatedly. Since the very first real
+saves it under `output/earnings_analysis/` with a `TEST_` filename prefix, AND sends it to
+Telegram tagged `🧪 TEST — not a real alert` so it's distinguishable from a real one — never
+touches `state.json`, so it's safe to run repeatedly. Since the very first real
 run only baselines all watchlist tickers (nothing to analyze yet, by design — see above), this is
 the way to sanity-check report quality/formatting before trusting the daily cron.
 
@@ -324,7 +324,7 @@ truth.)
 **`.github/workflows/earnings_analysis.yml`** is the source of truth for the daily earnings
 analysis alert. Runs every day at 23:00 UTC (07:00 Asia/Singapore): checks out the repo, runs
 `earnings_analysis.py`, commits/pushes `data/earnings_analysis_state.json` and any new files
-under `output/earnings_analysis/` if changed (rebasing first), then sends a Telegram digest for
+under `output/earnings_analysis/` if changed (rebasing first), then sends a Telegram report for
 each watchlist name that newly reported — zero, one, or several messages depending on the day.
 `workflow_dispatch` enabled, with a `dry_run` input for a free test run (Actions -> Daily
 Earnings Analysis -> Run workflow).

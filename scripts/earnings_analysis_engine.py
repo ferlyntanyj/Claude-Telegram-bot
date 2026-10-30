@@ -35,12 +35,18 @@ Per newly-reported ticker:
      measures (api.sgx.com returns a flat "Access Denied" to datacenter
      traffic, confirmed by testing).
   2. write (Groq, config.LLM_MODEL) -- turns the grounding material plus a
-     yfinance quantitative snapshot into the full 5-section report using
-     config.ANALYSIS_INSTRUCTIONS verbatim as the brief.
+     yfinance quantitative snapshot into the report using
+     config.ANALYSIS_INSTRUCTIONS verbatim as the brief. That brief is
+     itself written to be Telegram-sized (short, numbers-only lines) --
+     reworked 2026-10-31 at the user's request to match a specific format
+     confirmed in chat, so the report produced here is sent to Telegram
+     essentially as-is. There is no longer a separate, differently-shaped
+     "ultra-compact digest" step -- that used to mean condensing a longer
+     report into unrelated short lines via a second instruction set, which
+     was wasted effort now that the brief itself is already short.
   3. verify (Groq) -- independent fact-check pass over the draft: cross-
-     checks every quote/figure against what grounding actually found,
-     flags anything unverifiable, and appends a short Telegram digest after
-     config.DIGEST_MARKER so no third call is needed just to summarize.
+     checks every figure against what grounding actually found and flags
+     anything unverifiable.
 
 A failure at any stage, for any one ticker, is caught and logged -- it does
 not stop the rest of the watchlist from being checked, matching how the
@@ -717,64 +723,47 @@ def _run_write_stage(item, snapshot_text, grounding_text, source_label):
         f"{cfg.ANALYSIS_INSTRUCTIONS}\n\n"
         f"--- QUANTITATIVE SNAPSHOT (yfinance) ---\n{snapshot_text}\n\n"
         f"--- SOURCED MATERIAL ({source_label}) ---\n{grounding_text}\n\n"
-        f"Write the full report now, following the ROLE/SECTION structure above exactly, "
-        f"including the FORMAT rule -- plain text only, no markdown tables, no pipe (|) "
-        f"characters anywhere. Use the quantitative snapshot for the hard numbers and the "
-        f"sourced material for quotes/guidance/tone/reaction. Ground every claim strictly in "
-        f"the material given above -- do not invent quotes, dates, or figures that are not "
-        f"present in it. If the sourced material says something is unavailable, follow the "
-        f"instructions' fallback for that case (e.g. Section 3)."
+        f"Write the report now, following the ROLE/FORMAT/sections above exactly -- short, "
+        f"numbers-only lines, no markdown tables, no pipe (|) characters anywhere. Use the "
+        f"quantitative snapshot for the hard numbers and the sourced material for guidance/"
+        f"segment detail. Ground every figure strictly in the material given above -- do not "
+        f"invent dates or figures that are not present in it. If the sourced material doesn't "
+        f"cover something the instructions ask for, skip that line rather than guessing."
     )
     return _run_completion(prompt, cfg.LLM_WRITE_MAX_TOKENS)
 
 
 def _run_verify_stage(item, grounding_text, draft_text):
     prompt = (
-        f"You are fact-checking an equity analysis draft before it ships. Below is the sourced "
-        f"material it was supposed to be grounded in, and the draft itself.\n\n"
+        f"You are fact-checking a Telegram-ready earnings brief before it ships. Below is the "
+        f"sourced material it was supposed to be grounded in, and the draft itself.\n\n"
         f"--- SOURCED MATERIAL ---\n{grounding_text}\n\n"
         f"--- DRAFT ---\n{draft_text}\n\n"
-        f"Cross-check every quote and figure in the draft against the sourced material. If "
-        f"something in the draft is not actually supported by the sourced material, correct it "
-        f"or strike it (don't invent a fix) -- flag it inline as [UNVERIFIED: ...] rather than "
-        f"silently deleting it, so the reader knows what to double check. Do not soften any "
-        f"flagged deterioration while correcting. If the draft used a markdown table or any "
-        f"pipe (|) characters anywhere, rewrite that part as plain text lines instead -- the "
-        f"corrected report must have none.\n\n"
-        f"Output the corrected full report, then on its own line write exactly "
-        f"'{cfg.DIGEST_MARKER}' followed by a Telegram-ready digest. Figures only, no opinions "
-        f"or judgment calls, ultra-compact -- one line per metric, in this exact shape: "
-        f"\"<Metric>: <value>, <yoy delta> yoy, <qoq delta> qoq\" and ONLY append "
-        f"\"; <driver>\" when the company itself explicitly stated that driver (briefly quote "
-        f"or paraphrase it) -- never infer or guess a driver. Example line: "
-        f"\"Revenue: $14.2B, +30% yoy, +20% qoq; driven by data center demand\". Cover, in this "
-        f"order: revenue, net profit, the key operating metric vs street (beat/met/missed, "
-        f"quantified), price reaction (or 'Reaction: not yet available'), and one standout "
-        f"figure from the Financial Metrics section (e.g. the one-off-adjusted growth rate or "
-        f"the operating leverage numbers) -- 5-6 lines total. Keep the whole digest under "
-        f"{cfg.TELEGRAM_DIGEST_MAX_CHARS} characters. Plain text only -- no markdown at all: no "
-        f"** or * for bold/italic, no # headers, no - or * bullet markers."
+        f"Cross-check every figure in the draft against the sourced material. If something in "
+        f"the draft is not actually supported by the sourced material, correct it or strike it "
+        f"(don't invent a fix) -- flag it inline as [UNVERIFIED: ...] rather than silently "
+        f"deleting it. Do not soften any flagged deterioration while correcting. If the draft "
+        f"used a markdown table or any pipe (|) characters anywhere, rewrite that part as plain "
+        f"text lines instead -- the corrected version must have none. Keep every line short -- "
+        f"this is read as a Telegram message, not a report -- and keep the whole thing under "
+        f"{cfg.TELEGRAM_DIGEST_MAX_CHARS} characters total.\n\n"
+        f"Output ONLY the corrected brief -- no preamble, no closing remarks."
     )
-    text = _run_completion(prompt, cfg.LLM_VERIFY_MAX_TOKENS)
-    if cfg.DIGEST_MARKER in text:
-        full_report, digest = text.split(cfg.DIGEST_MARKER, 1)
-    else:
-        full_report, digest = text, text[:cfg.TELEGRAM_DIGEST_MAX_CHARS]
-    return full_report.strip(), digest.strip()
+    return _run_completion(prompt, cfg.LLM_VERIFY_MAX_TOKENS).strip()
 
 
 def analyze_ticker(item):
     """Runs the free grounding + 2-call Groq pipeline for one
-    newly-reported ticker. Returns (full_report_text, digest_text) or None
-    if any stage failed (logged, not raised -- a bad ticker must not sink
-    the rest of the cycle)."""
+    newly-reported ticker. Returns the corrected report text (already
+    Telegram-sized, per cfg.ANALYSIS_INSTRUCTIONS) or None if any stage
+    failed (logged, not raised -- a bad ticker must not sink the rest of
+    the cycle)."""
     try:
         snapshot = gather_financial_snapshot(item["ticker"], item["report_date"])
         snapshot_text = _snapshot_to_text(item, snapshot)
         grounding_text, source_label = _gather_grounding(item)
         draft_text = _run_write_stage(item, snapshot_text, grounding_text, source_label)
-        full_report, digest = _run_verify_stage(item, grounding_text, draft_text)
-        return full_report, digest
+        return _run_verify_stage(item, grounding_text, draft_text)
     except Exception:  # noqa: BLE001 -- one bad ticker must not sink the run
         print(f"ERROR analyzing {item['ticker']}:")
         traceback.print_exc()
@@ -805,15 +794,15 @@ def run_test_ticker(ticker, company=None, group="Test"):
     """Diagnostic only: forces the full grounding + Groq pipeline for one
     ticker, bypassing detection and state entirely -- lets you see real
     report quality before trusting the daily cron. Never touches
-    state.json; DOES save the full report (see save_report's test=True
-    path -- a "TEST_" filename prefix plus a note in the file itself keep
-    it clearly distinct from a real daily detection), since the whole
-    point of this mode is reviewing the report as a quality template, not
-    just the short Telegram digest. The caller (earnings_analysis.py
-    --test-ticker) prints what comes back and also sends the digest to
-    Telegram. report_date is whatever yfinance's most recent
-    reported-earnings row says (today, if that's unavailable too) -- it's
-    only prompt context here, not compared against anything."""
+    state.json; DOES save the report (see save_report's test=True path --
+    a "TEST_" filename prefix plus a note in the file itself keep it
+    clearly distinct from a real daily detection). The caller
+    (earnings_analysis.py --test-ticker) prints what comes back and also
+    sends it to Telegram -- the report IS the Telegram message now (see
+    analyze_ticker's docstring), not a separately-generated digest.
+    report_date is whatever yfinance's most recent reported-earnings row
+    says (today, if that's unavailable too) -- it's only prompt context
+    here, not compared against anything."""
     latest = _latest_reported_row(ticker)
     report_date = latest[0] if latest else dt.date.today()
     eps_est, reported_eps, surprise_pct = latest[1:] if latest else (None, None, None)
@@ -822,16 +811,15 @@ def run_test_ticker(ticker, company=None, group="Test"):
         "report_date": report_date, "eps_estimate": eps_est,
         "reported_eps": reported_eps, "surprise_pct": surprise_pct,
     }
-    outcome = analyze_ticker(item)
-    if outcome is None:
+    full_report = analyze_ticker(item)
+    if full_report is None:
         return None
-    full_report, digest = outcome
     report_path = save_report(item, full_report, test=True)
-    return item, full_report, digest, report_path
+    return item, full_report, report_path
 
 
 def run_cycle(dry_run=False):
-    """Returns a list of {"item", "digest", "report_path"} for every ticker
+    """Returns a list of {"item", "report", "report_path"} for every ticker
     successfully analyzed this cycle (empty if nothing new reported, or
     dry_run). Both detection paths (yfinance and the Google News fallback)
     are free, so both always run, even during --dry-run -- only the Groq
@@ -864,14 +852,13 @@ def run_cycle(dry_run=False):
     tickers_state = state.setdefault("tickers", {})
     for item in new_reports:
         print(f"Analyzing {item['ticker']} ({item['company']})...")
-        outcome = analyze_ticker(item)
-        if outcome is None:
+        full_report = analyze_ticker(item)
+        if full_report is None:
             print(f"  {item['ticker']} failed -- will retry next run (last_analyzed_date not "
                   f"advanced).")
             continue
-        full_report, digest = outcome
         report_path = save_report(item, full_report)
-        results.append({"item": item, "digest": digest, "report_path": report_path})
+        results.append({"item": item, "report": full_report, "report_path": report_path})
         # Only a SUCCESSFUL analysis advances last_analyzed_date -- see
         # _apply_detection's docstring for why a failure must not.
         tickers_state[item["ticker"]]["last_analyzed_date"] = item["report_date"].isoformat()
