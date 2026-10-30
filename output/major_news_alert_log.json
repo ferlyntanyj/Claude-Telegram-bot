@@ -20197,5 +20197,128 @@
       "look_out": "Monitor whether the 9 other Computer Hardware stocks that recently triggered similar alerts continue to decline, indicating persistent sector weakness.",
       "memory": "This ticker triggered this specific alert twice in the last 180 days, most recently on 2026-09-21 with a +5.0% move, while 9 other names in the group also triggered alerts in the same period."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T11:18:36.958262+00:00",
+    "type": "single_stock",
+    "headline": "Robinhood to rally on prediction markets and new offerings, Bernstein says",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdGhpNWJFTW9NUzdhQ1VPcDZ4RmlCVWRYY29jclozeGFLcVdCUHpLVkY3dk9EV3h2WnhSNnhaaTVIcktUQjl0RmpYd1JUZjBJeFdFeXE1SzVZQkZ3TUZqcGpmQlNpeHhMcE8tOE80N1lHVkhUbk1YZTY3STBfNzJhMXY4UHVVa19IOXo1MlVaaG1vRVdpTzdj?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "HOOD",
+      "company": "Robinhood Markets",
+      "pct": -6.1032825,
+      "last": 86.0,
+      "prev": 91.59,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "071050.KS",
+        "company": "Korea Investment",
+        "pct": -4.8749999999999964
+      },
+      {
+        "ticker": "016360.KS",
+        "company": "Samsung Securities",
+        "pct": -3.7125748502993994
+      },
+      {
+        "ticker": "006800.KS",
+        "company": "Mirae Asset Securities",
+        "pct": -3.5916824196597363
+      }
+    ],
+    "analysis": {
+      "business_model": "Robinhood Markets operates a retail-focused financial platform that generates revenue primarily by providing brokerage and prediction market services to individual investors.",
+      "sentiment": "Bearish - earnings miss and negative intraday move",
+      "why_moved": "The stock is down 6.1% intraday following a reported earnings event on 2026-10-27 where EPS of 0.51 came in below the 0.55 estimate, despite a concurrent article predicting a rally on new offerings.",
+      "read_across": "Peers including Korea Investment, Samsung Securities, and Mirae Asset Securities are also down significantly, ranging from -3.6% to -4.9%, suggesting broader sector weakness.",
+      "look_out": "Watch whether the stock rallies as predicted by Bernstein on prediction markets or if the earnings miss continues to drive price action.",
+      "memory": "This ticker has triggered this alert twice in the last 180 days, with the most recent occurrence on 2026-09-21 resulting in a +5.2% move."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T11:18:36.958280+00:00",
+    "type": "single_stock",
+    "headline": "NetApp Inc. stock outperforms competitors despite losses on the day",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSVFYdzVKaWRHbGJzVjQzSXhfR3VvM1F1UTc4d2ZOYXI3R3lLT0ZhVXJCaFhhakJOemV2eXhpNWMzWDFKM0N5c3BzYUxiblhhUjhvVmdGdlJZRnBLcHc2WlJoRzZlV0JEaFlYMkt4MnlWRWlPc2ZyMVN6Mks1Z0ZLWnZuT0g1NE91Wm8xMlZvMHVfOGxzLTRRXzBhR3JYNkVEMXl6M180Q2V4MU1MOGdLbkw2eXAtUGJKZVdBS0otZXVGY2tqUmpnTTNjUFNNZF9KclEtdFZSZHctTGpL?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "NTAP",
+      "company": "NetApp",
+      "pct": -6.8308754,
+      "last": 203.5,
+      "prev": 218.42,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "FTNT",
+        "company": "Fortinet",
+        "pct": -20.094206893154375
+      },
+      {
+        "ticker": "GEN",
+        "company": "Gen Digital",
+        "pct": 15.811089614600427
+      },
+      {
+        "ticker": "TWLO",
+        "company": "Twilio",
+        "pct": -4.67746785519706
+      }
+    ],
+    "analysis": {
+      "business_model": "NetApp provides data storage and management solutions, offering cloud-native and hybrid IT infrastructure for handling and securing critical data.",
+      "sentiment": "Mixed - peers show extreme divergence with Fortinet down 20.1%",
+      "why_moved": "No specific catalyst is stated in the provided text; the stock fell 6.8% intraday while outperforming competitors despite daily losses.",
+      "read_across": "The Software - Infrastructure group is experiencing significant dispersion, with Fortinet down 20.1% and Gen Digital up 15.8%.",
+      "look_out": "Watch for further divergence within the Software - Infrastructure group to determine if NetApp's relative outperformance is sustainable.",
+      "memory": "This ticker has triggered this alert 1x over the last 180 days, most recently on 2026-10-14 with a -6.6% move."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T11:18:36.958283+00:00",
+    "type": "single_stock",
+    "headline": "Flex Stock Rises on Earnings. Its Upcoming AI Infrastructure Spinoff May Be the Real Winner.",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0xcjRhenU1MTcyQnk3SWtLdUg4dHZENHl2OXctSzVlMXFxMXJhRnNMUFVhZndYT2VvN1JWblZpNm9UR3ZEejhFTjRmU1BMOE8tYU54ZHRVWC1FaWJSNnFnMmtrdjFBMDFUeGdEQjdJanR6enZYbl9GVUNB?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "FLEX",
+      "company": "Flex Ltd.",
+      "pct": -6.330504,
+      "last": 87.1782,
+      "prev": 93.07,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "2308.TW",
+        "company": "Delta Electronics",
+        "pct": -9.797297297297302
+      },
+      {
+        "ticker": "002938.SZ",
+        "company": "Avary Holding (Shenzhen) Co",
+        "pct": -9.165170224246367
+      },
+      {
+        "ticker": "002916.SZ",
+        "company": "Shennan Circuits",
+        "pct": -8.195430575907459
+      }
+    ],
+    "analysis": {
+      "business_model": "Flex Ltd. is a leader in industrial engineering and electronics manufacturing services, providing design, development, and manufacturing solutions for complex electronic systems.",
+      "sentiment": "Mixed - earnings beat estimates, yet stock fell despite spinoff talk",
+      "why_moved": "The stock fell following a reported earnings date of 2026-10-28 where EPS was 1.18 versus 1.06 estimated, an 11.5% surprise. The headline suggests an upcoming AI infrastructure spinoff may be the real winner, implying the parent stock's move reflects that specific narrative.",
+      "read_across": "International peers like Delta Electronics fell 9.8% and Chinese manufacturers like Avary Holding and Shennan Circuits dropped over 8%, indicating a broad correction across the electronic components group.",
+      "look_out": "Watch for details on the upcoming AI infrastructure spinoff mentioned in the headline, which is claimed to be the real winner of the earnings event.",
+      "memory": "This ticker triggered this alert once in our own tracking over the last 180 days, most recently on 2026-10-13 with a -7.1% move, and 12 other Electronic Components names have also triggered this alert recently."
+    }
   }
 ]
