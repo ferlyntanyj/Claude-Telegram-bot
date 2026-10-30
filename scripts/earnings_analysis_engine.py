@@ -706,12 +706,13 @@ def _run_verify_stage(item, grounding_text, draft_text):
         f"silently deleting it, so the reader knows what to double check. Do not soften any "
         f"flagged deterioration while correcting.\n\n"
         f"Output the corrected full report, then on its own line write exactly "
-        f"'{cfg.DIGEST_MARKER}' followed by a Telegram-ready digest in 4-6 short lines: "
-        f"ticker/company, beat/met/missed vs street (quantified), the one-line management-"
-        f"credibility judgement, the Section 4 agree/disagree verdict (or 'reaction not yet "
-        f"available' per the draft), and the single strongest counter-argument/risk flag. "
-        f"Keep the digest under {cfg.TELEGRAM_DIGEST_MAX_CHARS} characters total, plain text, "
-        f"no markdown headers."
+        f"'{cfg.DIGEST_MARKER}' followed by a Telegram-ready digest in 4-6 short lines, "
+        f"figures only, no opinions or judgment calls: ticker/company, revenue and net profit "
+        f"growth (yoy, quantified), beat/met/missed vs street (quantified), the price reaction "
+        f"if available (or 'reaction not yet available'), and one standout figure from the "
+        f"Financial Metrics section (e.g. the one-off-adjusted growth rate, or the operating "
+        f"leverage numbers). Keep the digest under {cfg.TELEGRAM_DIGEST_MAX_CHARS} characters "
+        f"total, plain text, no markdown headers."
     )
     text = _run_completion(prompt, cfg.LLM_VERIFY_MAX_TOKENS)
     if cfg.DIGEST_MARKER in text:

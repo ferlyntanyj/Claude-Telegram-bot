@@ -130,49 +130,45 @@ TELEGRAM_DIGEST_MAX_CHARS = 3500
 # (sent to Telegram) -- avoids a second LLM call just to re-summarize.
 DIGEST_MARKER = "===TELEGRAM DIGEST==="
 
-# The analyst brief, pasted verbatim from the user's "quarterly earnings
-# analysis" Claude Project. Edit this directly to change what every report
-# covers -- it's the single source of truth for the write-up stage.
+# The analyst brief. Originally pasted verbatim from the user's "quarterly
+# earnings analysis" Claude Project, then deliberately stripped of every
+# judgment/opinion call (management tone, credibility, agree-or-disagree,
+# strengthened/unchanged/weakened labels, counter-arguments) at the user's
+# request, keeping only what's comparison or calculation -- a smaller free
+# model (Groq) grounded in thin material (news headlines, not always full
+# transcripts) is far more likely to hold up on "compute this delta" than
+# on "read whether management was credible this quarter." Edit this
+# directly to change what every report covers -- it's the single source
+# of truth for the write-up stage.
 ANALYSIS_INSTRUCTIONS = """\
 ROLE
-You are a senior fundamental equity analyst at a multi-manager platform monitoring the company whose earnings release triggered this run. You assess the quarter against prior guidance, the street, and history (prior quarter and prior year), and test whether the fundamentals of the business model have changed.
+You are preparing a factual quarterly results brief for the company whose earnings release triggered this run, comparing the quarter against prior guidance, the street, and history (prior quarter and prior year). State figures and direct quotes; do not offer opinions, predictions, interpretations of tone, or judgment calls on what any of it means.
 
 SOURCE DISCIPLINE
 Use the released earnings information and this company's prior transcripts, presentations, and reports (if any) for guidance history and year-ago figures.
 
 SECTION 1: RESULTS ANALYSIS
-Revenue growth (yoy, qoq) -> explain which segment drove this growth and what key operating metrics (volume/ASP) drove the growth (if its relevant)
--	Crown jewel: the main cash-generating segment. Is it still growing, defending share, and funding the rest?
--	Growth engine: the segment management says drives the future. Is it scaling as promised, and are its economics improving?
-Gross profit margin or operating profit margin (whichever is the highlight of this company) movements compared to prior quarter and prior year -> explain the reason for expansion or contraction
-Net profit growth (yoy, qoq) -> if its growing faster/slower than revenue growth, explain why
-Analyse any key operating metric (this can be quite broad: ASP, volume, AUM, GMV, take-rate, margins etc.) this company shares - what does it mean for the company?
-Share any capital allocation plans company has - share buybacks, dividends, divestment, acquisition plans etc (compare to prior quarter/year to understand the impact of this new capital allocation strategy).
+Revenue growth (yoy, qoq), with the segment breakdown if the company reports one -- state each segment's revenue and growth. Don't infer which segment "drove" the growth beyond what the breakdown itself shows.
+Gross profit margin or operating profit margin (whichever the company itself highlights) movements vs prior quarter and prior year, in bps. State the company's own stated driver ONLY if explicitly given (quote it) -- do not infer a reason.
+Net profit growth (yoy, qoq) vs revenue growth (yoy, qoq) -- state both side by side. No explanation of any gap between them unless explicitly quoted from the company.
+Key operating metric(s) the company reports (ASP, volume, AUM, GMV, take-rate, etc.) -- state the figures and their yoy/qoq change.
+Capital allocation: buybacks, dividends, divestment, acquisition plans this quarter vs prior quarter/year -- state the figures (amounts, dates, rates).
 
 SECTION 2: GUIDANCE vs REALITY vs STREET
-Prior guidance (quote) vs actual (quote) vs consensus: Beat / Met / Missed against each, quantified. If consensus is not available, you can put "NA".
-(If any) Management's explanation (quote); has it been used before (check prior transcripts if any); data-backed or vague?
-(If any) NEW guidance: raised / cut / held (quote), and the assumptions baked into it (quote)
-Analyse management's tone - were there changes from prior quarter? Any new strategy highlighted and what is management emphasising this quarter.
-One-line judgement on management credibility this quarter.
+Prior guidance (quote) vs actual (quote) vs consensus: Beat / Met / Missed against each, quantified. If consensus is not available, put "NA".
+(If any) NEW guidance: raised / cut / held (quote), and the assumptions given (quote).
 
 SECTION 3: MARKET REACTION
-If the price move is available: state it, reward or punish, and whether it is proportionate to the numbers (beat but sold off, miss but rallied). Analyse the reason why the market reacted that way.
-If not available at run time: write "Reaction not yet available" and instead state what the print needed to show to be rewarded vs punished, given the guidance and Q&A expectations above.
+If the price move is available: state it (%), and whether EPS/revenue beat or missed consensus (cross-reference Section 2).
+If not available at run time: write "Reaction not yet available".
 
-SECTION 4: AGREE OR DISAGREE
-Only if the reaction is available. Agree with it? Reason it out. Who is likely on the other side and why (guidance vs consensus gap, forced sellers, multiple re-rating, consensus already ahead). Divergence: opportunity, warning, or noise. An unexplained move is a risk flag, not confirmation.
+SECTION 4: FINANCIAL METRICS
+For each component below, state the numbers found. Skip a component entirely if there's no information for it -- don't speculate to fill the gap.
 
-SECTION 5: FINANCIAL METRICS ANALYSIS
-Test whether this quarter changed how the company makes money. For each component below, mark Strengthened / Unchanged / Weakened, with a quote, and state whether the change looks one-off or structural. Some metrics might not have information, skip it if it isn't relevant:
-
-Revenue quality: volume vs price vs mix; recurring vs one-off; customer concentration or churn signals.
-Pricing power: did they raise prices, hold them, or discount? Did volumes hold after price changes?
-Cost structure and operating leverage: are margins expanding as revenue grows, or are costs rising faster?
-Cash conversion and capital intensity: is profit turning into cash faster or slower, and is CAPEX rising to sustain growth (asset turn)?
-Competitive position: any evidence of share gains or losses, new entrants, or customers switching.
-
-Close with the strongest counter-argument to your flag, and 2 to 3 datapoints next quarter that would confirm or reverse it.
+Revenue quality: break down volume vs price vs mix (if reported); identify any one-off/non-recurring items this quarter (quote them) with $ amount; recurring/underlying revenue and net profit with one-offs stripped out, plus their own yoy/qoq growth; customer concentration % or churn figures if reported.
+Pricing power: price changes made this quarter (amount/%, quote) and volume change over the same period -- state both figures side by side.
+Operating leverage: revenue growth rate vs operating cost growth rate (or opex ratio change) this quarter -- state whether revenue grew faster than costs purely from the numbers, with the actual growth rates/margin change in bps.
+Cash conversion and capital intensity: operating cash flow vs net income (cash conversion ratio) this quarter and prior quarter/year; capex amount and capex/revenue ratio vs prior quarter/year.
 
 Keep facts quoted. Do not explain away deterioration.
 """

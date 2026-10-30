@@ -184,9 +184,14 @@ Asia/Singapore). Also has `workflow_dispatch` enabled for manual runs.
 Deep-dive companion to the weekly calendar above: when a company on your own watchlist
 (`data/earnings_watchlist_*.csv` — one CSV per group, currently AI Capex, SGX, Bursa, Thailand;
 edit these files directly to add/remove names, no code changes needed) actually reports earnings,
-this writes a full analyst-grade report (results vs guidance vs street, management tone, market
-reaction, a structural strengthened/unchanged/weakened read on the business) and pushes a short
-digest to Telegram, with the full report committed under `output/earnings_analysis/`. **Entirely
+this writes a factual quarterly results brief (results vs guidance vs street, price reaction,
+revenue quality/one-offs/operating leverage with the underlying numbers) and pushes a short digest
+to Telegram, with the full report committed under `output/earnings_analysis/`. Deliberately
+figures-and-quotes only — `earnings_analysis_config.ANALYSIS_INSTRUCTIONS` was stripped of every
+judgment/opinion call (management tone, credibility, agree-or-disagree, strengthened/unchanged/
+weakened labels, counter-arguments) at the user's request, since a smaller free model grounded in
+thin material is far more likely to hold up on "compute this delta" than on "read whether
+management was credible." **Entirely
 free infrastructure** — Groq's free-tier chat completions (same model `major_news_alert.py` uses,
 but its own separate account/key, `GROQ_API_KEY_EARNINGS` — confirmed necessary by a real 429
 during testing: sharing one account's 200k tokens/day free-tier cap with that much more frequent
@@ -228,9 +233,10 @@ pipeline.
      since no other exchange here offers a free developer feed.
   2. **Write** (Groq) — turns the grounding material, plus a `yfinance` quantitative snapshot
      (revenue/margin/net income QoQ and YoY, price move around the report date), into the full
-     5-section report using `earnings_analysis_config.ANALYSIS_INSTRUCTIONS` — the analyst brief,
-     pasted verbatim from the "quarterly earnings analysis" Claude Project — as the fixed brief.
-     Edit that constant directly to change what every report covers.
+     4-section report using `earnings_analysis_config.ANALYSIS_INSTRUCTIONS` as the fixed brief —
+     originally pasted from the "quarterly earnings analysis" Claude Project, then stripped of
+     every judgment/opinion call at the user's request (see above). Edit that constant directly
+     to change what every report covers.
   3. **Verify** (Groq) — independent fact-check pass: cross-checks every quote/figure in the draft
      against what grounding actually found, flags anything unverifiable rather than silently
      dropping it, and appends a short Telegram digest after a marker so no third call is needed
