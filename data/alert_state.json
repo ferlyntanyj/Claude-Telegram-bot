@@ -1545,6 +1545,10 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-10-30T15:45:37.013005+00:00",
-  "failed_analysis": {}
+  "last_run_utc": "2026-10-30T16:00:56.624049+00:00",
+  "failed_analysis": {
+    "single:GDDY": {
+      "last_attempt_utc": "2026-10-30T16:03:02.496192+00:00"
+    }
+  }
 }
