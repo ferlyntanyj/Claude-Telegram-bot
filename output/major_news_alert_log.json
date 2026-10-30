@@ -20648,5 +20648,46 @@
       "look_out": "Watch for broader sector stabilization as this appears to be a group-level flow rather than an idiosyncratic event. Monitor if the nine other tracked names in the group continue to decline or if the move isolates specific sub-sectors.",
       "memory": "Our historical tracking data shows that 9 other names in the Semiconductor Equipment & Materials group have triggered this same alert within the last 180 days. This suggests frequent episodic volatility is common in this specific group over the recent half-year period."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T13:03:19.278997+00:00",
+    "type": "single_stock",
+    "headline": "DaVita Inc. stock outperforms competitors on strong trading day",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTDFIak9nS244ZFJlbkdLVm9KamhEMTd3TTZpa2ZIR1dzdDd0UFpkUjhhQXpoWUZ0TFBJejhoTTVnem5vT0ZrZ1R3cUpEX3VURjduNThNcFEyNzlWQVpCRFpDVElXQ0Z6ZWpjeFNDcHNndUFOSTAteTZZakF5ZkEzTnJfTFFrc3hGVGNOcHY0eDRLQ2VicXI2WDd2YTNIYXJFNGlUZTUzdjRncU5FX3RKb1g5TC1IcS0ybDAwbFBhWQ?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "DVA",
+      "company": "DaVita",
+      "pct": -6.626661,
+      "last": 180.5,
+      "prev": 193.31,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300015.SZ",
+        "company": "Aier Eye Hospital",
+        "pct": 3.64963723831242
+      },
+      {
+        "ticker": "HCA",
+        "company": "HCA Healthcare",
+        "pct": 3.207975759337378
+      },
+      {
+        "ticker": "UHS",
+        "company": "Universal Health Services",
+        "pct": 2.5728935550090926
+      }
+    ],
+    "analysis": {
+      "business_model": "DaVita provides affordable chronic kidney disease care to underserved populations, with its core revenue driven by dialysis and kidney transplant services.",
+      "sentiment": "Mixed, - strong peer performance contrasts with significant intraday price weakness",
+      "why_moved": "The stock experienced a 6.6% intraday decline despite a stated catalyst of reported earnings on 2026-10-29 showing an EPS beat, indicating potential divergence from analyst estimates or technical factors.",
+      "read_across": "While DaVita softened, healthcare peers including HCA Healthcare and Universal Health Services posted gains, suggesting a specific company-specific issue rather than a broad sector sell-off.",
+      "look_out": "Traders should monitor whether the intraday decline causes the stock to lose key support levels or if it reclaims the prior close in the face of positive peer momentum.",
+      "memory": "Tracking data shows this ticker triggered a similar alert 18 days prior on 2026-10-20 with a -5.8% move, indicating recent high volatility and repeated pressure on the name."
+    }
   }
 ]
