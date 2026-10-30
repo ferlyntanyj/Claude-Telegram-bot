@@ -771,7 +771,11 @@ def write_analysis(alert, cfg):
     context_block = ""
     if alert["type"] == "sector":
         locale = _locale_for_ticker(primary["ticker"], cfg)
-        related = gather_related_headlines(headline["title"], cfg, locale=locale)
+        # max_results cut 5 -> 3 on 2026-10-30: trims this block's own
+        # contribution to the prompt (and hence token use) a bit; 3 other
+        # datapoints is still enough for write_analysis() to triangulate a
+        # sector story from, same reasoning as MAX_DISPLAY_PEERS below.
+        related = gather_related_headlines(headline["title"], cfg, max_results=3, locale=locale)
         if related:
             lines = "\n".join(f'- "{r["title"]}" ({r["source"]})' for r in related)
             context_block = f"\nOther recent coverage of this story:\n{lines}\n"
@@ -789,45 +793,44 @@ def write_analysis(alert, cfg):
             f"{alert['memory_fact']}\n"
         )
 
+    # Instruction text below trimmed ~35% on 2026-10-30 (reworded, not
+    # re-scoped -- every behavioral rule it enforced, especially the
+    # anti-hallucination constraint on why_moved and the
+    # prefer-real-data-over-invented-analogy rule on memory, is still here
+    # verbatim in substance) per user request to cut token use: this fixed
+    # instruction block is repeated on EVERY call regardless of alert
+    # content, so shaving it is pure savings with no behavior change.
     prompt = (
         f'Headline: "{headline["title"]}" (source: {headline["source"]})\n'
         f"{context_block}{facts_block}\n"
         f'Primary mover: {primary["company"]} ({primary["ticker"]}) {primary["pct"]:+.1f}% '
         f'intraday (last {primary["last"]:.2f} {primary.get("currency") or ""}, '
         f'prior close {primary["prev"]:.2f}).\n'
-        f"Peer/read-across candidates and their moves: {peer_desc}\n\n"
-        "Respond with ONLY a JSON object, no other text, with exactly these six "
-        "string keys:\n"
+        f"Peers: {peer_desc}\n\n"
+        "Return ONLY a JSON object with exactly these six string keys. Be specific, no "
+        "preamble or filler. Ground every claim strictly in the text above -- never invent "
+        "events, dates, or figures not present in it.\n"
         "{\n"
-        f'  "business_model": "1-2 plain-English sentences on what {primary["company"]} '
-        'actually does -- its core business/revenue driver, not history or stock '
-        'performance -- for a reader who has never heard of the company",\n'
-        '  "sentiment": "One word, either Bullish, Bearish, Mixed, or Neutral, then '
-        "a dash then a reason clause under 12 words -- for example: "
-        'Bearish - investors reassessing AI capex growth assumptions",\n'
-        '  "why_moved": "1-2 sentences on why the price moved, specific to this news '
-        '(use the other coverage above if given, not just the single headline). Only '
-        'name a specific catalyst -- an earnings release, guidance change, M&A, '
-        'downgrade/upgrade, regulatory action, etc. -- if it is explicitly stated in the '
-        'headline or coverage above, OR given below as a known recent corporate event. '
-        'Never infer or guess one (e.g. do not say a company \'reported earnings\' or '
-        '\'beat expectations\' unless that is literally in the text given or in the known '
-        'corporate event below). If no specific catalyst is stated or given, say so plainly '
-        'and describe the move in terms of price action / sector flows instead",\n'
-        '  "read_across": "1-2 sentences on what this means for domestic/international '
-        'peers, supply chain, or the wider industry",\n'
-        '  "look_out": "1-2 sentences on what to watch for next -- an upcoming event, '
-        'data point, or follow-through risk",\n'
-        '  "memory": "1-2 sentences on whether something like this -- this kind of '
-        'shock, or this specific company/sector under similar pressure -- has happened '
-        'before, and how it played out. If our own historical tracking data is given '
-        'below, lead with that (it is real, not a guess) rather than a general market '
-        f'analogy. Otherwise, use exactly this sentence if nothing solid comes to mind: '
-        f'\'{_NO_MEMORY}\' -- do not force a weak or vague analogy"\n'
-        "}\n\n"
-        "Be specific and concrete, avoid generic filler, no preamble. Ground every claim "
-        "of fact strictly in the headline/coverage and price data given above -- do not "
-        "invent events, dates, or figures that are not present in that text."
+        f'  "business_model": "1-2 sentences: what {primary["company"]} actually does -- '
+        'core business/revenue driver, not history or stock performance -- for someone who '
+        'has never heard of it",\n'
+        '  "sentiment": "One word (Bullish/Bearish/Mixed/Neutral), dash, reason clause under '
+        '12 words, e.g. Bearish - investors reassessing AI capex growth assumptions",\n'
+        '  "why_moved": "1-2 sentences on why the price moved. Name a specific catalyst '
+        '(earnings, guidance, M&A, up/downgrade, regulatory action) ONLY if explicitly stated '
+        'above (headline, coverage, or known corporate event) -- never say \'reported '
+        'earnings\'/\'beat expectations\' unless literally stated there. If none is given, '
+        'say so plainly and describe price action/sector flows instead",\n'
+        '  "read_across": "1-2 sentences on the read-across for domestic/international peers, '
+        'supply chain, or the wider industry",\n'
+        '  "look_out": "1-2 sentences on what to watch next -- an upcoming event, data point, '
+        'or follow-through risk",\n'
+        '  "memory": "1-2 sentences: has something like this -- this kind of shock, or this '
+        'company/sector under similar pressure -- happened before, and how did it play out. '
+        'Lead with the historical tracking data above if given (it\'s real, not a guess) '
+        f'rather than inventing a general analogy; otherwise use exactly \'{_NO_MEMORY}\' if '
+        'nothing solid comes to mind -- no weak/forced analogies"\n'
+        "}"
     )
     try:
         text = _run_completion(prompt, cfg, cfg.LLM_ANALYSIS_MAX_TOKENS, json_object=True)

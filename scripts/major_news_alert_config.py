@@ -95,8 +95,11 @@ GOOGLE_NEWS_LOCALE_BY_SUFFIX = {
 # Peers shown in the Telegram message's "Peers movement" section, for BOTH
 # alert types (see major_news_engine.same_group_peers / the sector-group
 # ranking in run_cycle) -- not the same as SECTOR_MIN_PEERS below, which
-# gates qualification, not display.
-MAX_DISPLAY_PEERS = 4
+# gates qualification, not display. Cut 4 -> 3 on 2026-10-30 (alongside the
+# move-threshold tightening above) purely to shave a few tokens off
+# write_analysis()'s peer_desc line in every single prompt -- a small,
+# no-downside trim, unlike the threshold change which actually drops coverage.
+MAX_DISPLAY_PEERS = 3
 
 # ---------------------------------------------------------------------------
 # Price scan -- chunked yf.download() batching over the full watchlist every
@@ -139,13 +142,21 @@ PREMARKET_SCAN_MAX_WORKERS = 8
 PREMARKET_COOLDOWN_HOURS = 12.0
 
 # ---------------------------------------------------------------------------
-# Move thresholds
+# Move thresholds -- SINGLE_STOCK_MOVE_PCT raised 5.0 -> 6.0 and
+# SECTOR_MEDIAN_MOVE_PCT/SECTOR_MIN_PEERS tightened 2026-10-30 per user
+# request to cut total Groq token use (each qualifying alert = one
+# write_analysis() call). Checked against the real 428-entry alert log
+# before picking 6.0: raising the single-stock bar from 5% to 6% would have
+# dropped ~48% of logged alerts (423 of 428 cleared 5%, only 222 cleared
+# 6%) -- roughly halves call volume for a one-point move in the bar, a much
+# bigger lever than trimming any one prompt. Go higher (7.0 drops ~72% of
+# the same set) if the free-tier budget is still tight after this.
 # ---------------------------------------------------------------------------
-SINGLE_STOCK_MOVE_PCT = 5.0
-SECTOR_MEDIAN_MOVE_PCT = 3.0
+SINGLE_STOCK_MOVE_PCT = 6.0
+SECTOR_MEDIAN_MOVE_PCT = 3.5
 SECTOR_BREADTH_MOVE_PCT = 2.0     # per-peer bar used for the breadth check
 SECTOR_BREADTH_SHARE_PCT = 60.0   # % of the industry group that must clear it
-SECTOR_MIN_PEERS = 3              # fewer than this and "median"/"breadth" isn't meaningful
+SECTOR_MIN_PEERS = 4              # fewer than this and "median"/"breadth" isn't meaningful
 
 # Cooldown: one alert per story/ticker per this many hours, full stop -- even
 # a further-deepening move doesn't re-trigger within the window (that used to
@@ -174,11 +185,14 @@ LLM_MODEL = "openai/gpt-oss-120b"
 # more headroom than the old single-paragraph LLM_SIGNIFICANCE_MAX_TOKENS=300.
 # Sector-wide alerts' prompt also grows with related-coverage context
 # (gather_related_headlines), so this has a bit of margin beyond that.
-# Trimmed from 800 -> 500 on 2026-09-22: six 1-2 sentence fields plus JSON
-# punctuation don't need 800 tokens of headroom in practice, and every
-# token of this ceiling is spent against the same 8,000 TPM budget below,
-# whether or not the model actually uses it.
-LLM_ANALYSIS_MAX_TOKENS = 500
+# Trimmed from 800 -> 500 on 2026-09-22, then 500 -> 350 on 2026-10-30: six
+# short fields plus JSON punctuation realistically run ~200-300 tokens:
+# this is a ceiling against a runaway response, not the normal length, so
+# the cut mainly shrinks the worst case rather than typical usage -- the
+# real per-call lever is the prompt's own instruction text (trimmed
+# alongside this in write_analysis) and, far more, the number of calls
+# made at all (see SINGLE_STOCK_MOVE_PCT above).
+LLM_ANALYSIS_MAX_TOKENS = 350
 # Free tier is 8,000 tokens/minute (verified via Groq's docs 2026-09-15) --
 # tighter than the 30 requests/minute cap once each call's ~700-token max
 # output plus its prompt is counted. Confirmed 2026-09-18: the price-first
