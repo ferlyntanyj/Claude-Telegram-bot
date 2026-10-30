@@ -20689,5 +20689,1178 @@
       "look_out": "Traders should monitor whether the intraday decline causes the stock to lose key support levels or if it reclaims the prior close in the face of positive peer momentum.",
       "memory": "Tracking data shows this ticker triggered a similar alert 18 days prior on 2026-10-20 with a -5.8% move, indicating recent high volatility and repeated pressure on the name."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725466+00:00",
+    "type": "single_stock",
+    "headline": "AMD’s stock slides after Intel earnings reveal two big issues",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSG1ER3NBSmVWMHJlelZ0akVNa1FTVDFlM1J3b2ZMOWZXanV1cVdDblB6dDlHRmJYZDRVZ2JKWTRfRDIyTkZaNENTZVQ2MGFJUjk2X0ZfU2ZTVjZEcm02VlJZXzQyYmlVdHY2Mm5BaEVvUmN0Tm1rQUF2NWlIQTdLMFpWNVl3QUNvX05MRlg0cmw5d1JQWjAxeUtDeHpVandzY2tDZGxn?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "AMD",
+      "company": "Advanced Micro Devices",
+      "pct": -9.388791758820503,
+      "last": 513.239990234375,
+      "prev": 566.4199829101562,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": -29.021398185369186
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": -8.082172173713541
+      },
+      {
+        "ticker": "688396.SS",
+        "company": "China Resources Microelectronics",
+        "pct": -7.2177710449030545
+      }
+    ],
+    "analysis": {
+      "business_model": "Advanced Micro Designs high-performance microprocessors and graphics processing units for computers and servers.",
+      "sentiment": "Bearish - Intel's earnings reveal structural issues impacting sector",
+      "why_moved": "AMD fell 9.4% as Intel's earnings revealed two significant issues, triggering a negative sentiment shift in the sector.",
+      "read_across": "The move follows Intel's massive 29% drop and negative performances among international peers like SG Micro and China Resources Microelectronics.",
+      "look_out": "Watch for follow-through on whether the specific issues revealed by Intel's earnings spread across the broader semiconductor group of 19 other affected names.",
+      "memory": "AMD has triggered this alert 3 times in the last 180 days, most recently on 2026-10-30 with an 8.1% drop."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725493+00:00",
+    "type": "single_stock",
+    "headline": "Amazon falls 7%, Intel plunges 25% in premarket trading, as pressure mounts after earnings",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWUNkbFdtOFpFalJSNEk4SnFjbVI0c3ZzbjFvVU50WGpoZURxeURhajJET1RmQzVrcW8tbzJKMGpYRjhKTndfeVI4YnhaSV9NXzFHYlc0OEwtZVhOYTFNa3B4Wks3OGRxcmVBenA5MnI0LVdCQW5hYnBEMU5FVEN4ZVBUbUtiaGNGUmFrZERIcUYzZ9IBlwFBVV95cUxNYTZPZTVqb0NZbTNWc1VacjRLODhlUmpUekNhaUtlbkx2SkJXQ2VNbFdMSlNENUR5UXVtR0VTeUU1LUVSS09JY0NOVWhFWHE1RWVFeGpiLWF6b1VWWmp6QUdHZXJwX1NodjI1WFlSRTRmYWF2NEwyZlJxdWRVVlhjUFZLQWwweW5SOEdHcWVNTzhJRm5UY3ZR?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "INTC",
+      "company": "Intel",
+      "pct": -29.021398185369186,
+      "last": 65.3499984741211,
+      "prev": 92.06999969482422,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "pct": -9.388791758820503
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": -8.082172173713541
+      },
+      {
+        "ticker": "688396.SS",
+        "company": "China Resources Microelectronics",
+        "pct": -7.2177710449030545
+      }
+    ],
+    "analysis": {
+      "business_model": "Intel designs and manufactures microprocessors and chips for computers and data centers, serving as the dominant provider of central processing units (CPUs).",
+      "sentiment": "Bearish - large premarket drop across semiconductor peers",
+      "why_moved": "Amazon and Intel fell sharply in premarket trading as pressure mounted after earnings. No specific earnings figures or guidance details are provided in the text to confirm the reaction to reported results.",
+      "read_across": "AMD, SG Micro, and China Resources Microelectronics also declined in premarket trading. The broader Semiconductors group shows significant negative momentum with multiple names triggering alerts.",
+      "look_out": "Monitor follow-through risk in semiconductor peers like AMD and SG Micro during regular trading hours. Watch for broader sector confirmation given the 19 other names in this group triggering similar alerts recently.",
+      "memory": "Intel has triggered this alert 8 times in the last 180 days, most recently on 2026-10-30 with a -25.1% move. 19 other Semiconductors names have also triggered this alert in the same period."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725500+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "DELL",
+      "company": "Dell Technologies",
+      "pct": -8.190155101764196,
+      "last": 436.56500244140625,
+      "prev": 475.510009765625,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "HPQ",
+        "company": "HP Inc.",
+        "pct": -9.927740669137208
+      },
+      {
+        "ticker": "SNDK",
+        "company": "Sandisk",
+        "pct": -9.061314620260886
+      },
+      {
+        "ticker": "688041.SS",
+        "company": "Hygon Information Technology",
+        "pct": -8.43555386414786
+      }
+    ],
+    "analysis": {
+      "business_model": "Dell Technologies designs and sells personal computers, servers, storage systems, and networking equipment to businesses and consumers. Its core revenue driver is the delivery of enterprise hardware solutions and client devices.",
+      "sentiment": "Bearish - broad sector weakness hitting computer hardware peers",
+      "why_moved": "No specific fundamental catalyst such as earnings or guidance is cited in the provided text. The move appears to be a price adjustment accompanied by significant declines across the computer hardware sector.",
+      "read_across": "Peer companies including HP Inc., Sandisk, and Hygon Information Technology experienced comparable losses between -8.4% and -9.9%. This indicates a systemic de-rating or negative flow hitting the broader computer hardware group rather than an isolated corporate event.",
+      "look_out": "Monitor whether other names in the Computer Hardware group continue to trigger similar negative alerts. Watch for any specific industry catalysts that may clarify if this is a sector-wide correction or individual earnings reactions.",
+      "memory": "Dell Technologies triggered this alert once in the last 180 days, most recently on 2026-10-30 with a -9.8% decline. Nine other names in the Computer Hardware group have also triggered this alert in our tracking over the same period."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725504+00:00",
+    "type": "single_stock",
+    "headline": "Arista Networks Inc. stock underperforms Thursday when compared to competitors",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQci02cVBGY1VUbmhBM19vTE10TnFvVVZ3bTBSNy1kOFB5SUtVUGx0M1JITFhXUVhaemVRb1liU0RuS0RJLWhrclFfTVBLOGgtOE9rUC04S19aVkM0MEE3ODNDU0FneXdjNm1KSmpJYThxalpnazNJU2ZIM1NDaC1EWHdaUXBUbDhwUWgyRmtFRXpxa1kxX2tNeDAyRWl3VmJTRTNMTWEycmJCbkdRckRtUXFTWHF6c3VyNDNubWwyekFvZmRISUpaMkRzR3dVUnlwVGFFdThheVpZVF9DdEo3VnJSMTd2bmZjdVc4?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "ANET",
+      "company": "Arista Networks",
+      "pct": -6.812508396806704,
+      "last": 171.6699981689453,
+      "prev": 184.22000122070312,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "HPQ",
+        "company": "HP Inc.",
+        "pct": -9.927740669137208
+      },
+      {
+        "ticker": "SNDK",
+        "company": "Sandisk",
+        "pct": -9.061314620260886
+      },
+      {
+        "ticker": "688041.SS",
+        "company": "Hygon Information Technology",
+        "pct": -8.43555386414786
+      }
+    ],
+    "analysis": {
+      "business_model": "Arista Networks provides high-performance networking solutions and systems for data centers, with revenue driven by sales to cloud service providers and enterprises.",
+      "sentiment": "Bearish - peers also down sharply intraday",
+      "why_moved": "No specific catalyst is stated in the provided text, which attributes the movement to underperformance compared to competitors.",
+      "read_across": "Peers HP Inc. and Sandisk also dropped significantly, alongside Hygon Information Technology, suggesting a broader weakness in the computer hardware sector.",
+      "look_out": "Investors should watch for continued sector-wide declines among other computer hardware names or specific fundamental updates for ANET.",
+      "memory": "Historical tracking shows 10 other names in the Computer Hardware group triggered this alert over the last 180 days."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725508+00:00",
+    "type": "single_stock",
+    "headline": "Marvell Is Taking an Audacious $80+ Billion Run at Lumentum",
+    "source": "Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWFRadW4zejhscVB6R3duRmZnTFBMXzJCdzhpR3JqV0J1T29hVlROTXkyZnFYYnFSelhPc3YxVnpxdERpZGRFNmJuT0NBcURyMEN2aDVOOHliSncyY3NMY1lZVzY1TjBTcmxEc0ZvUmplMC12R0JRV3QxNmtnMzI5eUtZMDNzc0dBcUVXSHdvcHp3b0d0M3JaQjhLRjF1NEFsUWR0NlpoVjA4dDFIZG9DVg?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "MRVL",
+      "company": "Marvell Technology",
+      "pct": -7.071541037086115,
+      "last": 202.89999389648438,
+      "prev": 218.33999633789062,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": -29.021398185369186
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "pct": -9.388791758820503
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": -8.082172173713541
+      }
+    ],
+    "analysis": {
+      "business_model": "Marvell Technology designs custom semiconductors and interconnect technologies for data center and enterprise infrastructure. Its core revenue driver is the sale of advanced chips that enable high-speed data transmission and processing in AI and cloud environments.",
+      "sentiment": "Bearish - auditors flagging audacious takeover attempt and valuation concerns",
+      "why_moved": "The price movement coincides with reports that Marvell is attempting an acquisition of Lumentum valued at over $80 billion. No specific catalyst like earnings or guidance is explicitly stated in the provided text, so the move is attributed to this M&A headline and potential risk flags.",
+      "read_across": "The broader semiconductor group is under pressure, with Intel down 29.0% and AMD down 9.4% alongside the 19 other peers triggering alerts. This suggests a sector-wide reassessment of valuations or strategic positions rather than an isolated incident.",
+      "look_out": "Investors should watch for regulatory feedback or deal confirmation regarding the $80+ billion Lumentum bid. Continued weakness in peers like Intel and AMD will indicate if this is a sector-wide sentiment shift or specific to Marvell's M&A risks.",
+      "memory": "Marvell has triggered this alert four times in the last 180 days, most recently on 2026-10-30 with a -6.1% drop. This recurring volatility suggests the stock is prone to significant drawdowns under recent market conditions or specific news shocks."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725512+00:00",
+    "type": "single_stock",
+    "headline": "Qualcomm Inc. stock outperforms competitors on strong trading day",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSUt4djE5OUdSclRHMzQxeEI4XzFwOGVxaW4xNk4wS0VxZ0wxSmlyOU1wTE5mdEpUY0owLVhUTnJ2a0s1LVdJdGN0TEhFbTBIaWZScG53MDJRcUt1bzNKV0lvbm51RUdqSUJ2RVhBcVRNOXZjQmtTd1R2Z3VUYUZOUDNnWDdrR2Z1V0ZPOV9XQS1yWllHNUJ0S2I0SEJ3VXliMXA4SkxDMU0yN003VnpYR3RZN0RfdGhZX2VCcmR6a3RGVEk2QlItVGZKQnVBU2VyR0w2azhvT3FPZw?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "QCOM",
+      "company": "Qualcomm",
+      "pct": -6.531470994639966,
+      "last": 173.3000030517578,
+      "prev": 185.41000366210938,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": -29.021398185369186
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "pct": -9.388791758820503
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": -8.082172173713541
+      }
+    ],
+    "analysis": {
+      "business_model": "Qualcomm designs and sells high-performance technologies, including chips and software, for mobile devices, automotive, and other connected platforms. Its core revenue driver is licensing its semiconductor and patented technology to device manufacturers.",
+      "sentiment": "Bearish - significant intraday drop outpacing major industry peers",
+      "why_moved": "The headline describes strong trading day outperformance which contradicts the provided price data showing a -6.5% decline. No specific catalyst such as earnings or guidance is stated in the provided text, so the move appears driven by general selling pressure described as a strong trading day.",
+      "read_across": "Peers in the Semiconductors group, particularly Intel and AMD, are experiencing even sharper declines, suggesting a broad sector-wide negative flow rather than an isolated corporate event affecting only Qualcomm.",
+      "look_out": "Monitor whether the widespread downgrades across semiconductor peers, including Intel's 29% drop, signal a sustained industry correction or if sector rotation continues to impact the group.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725516+00:00",
+    "type": "single_stock",
+    "headline": "Sandisk Reports Another Big Earnings Beat. Investors May Have Wanted More.",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1pay11Qk1IcUV6czFMVGFZeEo0WU10UmZhRHMzbldDc3Zfc3A3TEFNN1hqakJfOUZQbUJsbmhZVG56UzNlX09pVlA3MlRqWlBMNDZxX1NqeW5FcmIwN1FLeExPWjEweHdRUzh4Zmp6WXU0Y3hsQWxkOFBn?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "SNDK",
+      "company": "Sandisk",
+      "pct": -9.061314620260886,
+      "last": 1209.530029296875,
+      "prev": 1330.050048828125,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "HPQ",
+        "company": "HP Inc.",
+        "pct": -9.927740669137208
+      },
+      {
+        "ticker": "688041.SS",
+        "company": "Hygon Information Technology",
+        "pct": -8.43555386414786
+      },
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies",
+        "pct": -8.190155101764196
+      }
+    ],
+    "analysis": {
+      "business_model": "Sandisk is a major global manufacturer and supplier of flash memory and storage products, including solid-state drives and flash memory components for consumer electronics and data centers.",
+      "sentiment": "Bearish - strong earnings beat failed to excite investors much",
+      "why_moved": "The stock dropped 9.1% despite reporting an EPS of 49.51 against an estimate of 46.41, a 6.7% surprise. The headline indicates investors may have wanted more from this earnings beat.",
+      "read_across": "The decline coincided with significant drops among Computer Hardware peers, including HP Inc. at -9.9% and Dell Technologies at -8.2%. This suggests a broader sector-wide selloff or reassessment within the hardware group.",
+      "look_out": "Monitor whether the weakness in peer names like HP and Dell continues or reverses to gauge sector sentiment. Watch for any further updates on Sandisk's guidance or analyst impressions regarding the breadth of the earnings beat.",
+      "memory": "Sandisk has triggered this alert three times in the last 180 days, most recently on 2026-10-30 with an 8.0% decline. Nine other names in the Computer Hardware group have also triggered similar alerts during this period."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725519+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "WDC",
+      "company": "Western Digital",
+      "pct": -6.43636022642945,
+      "last": 369.9599914550781,
+      "prev": 395.4100036621094,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "HPQ",
+        "company": "HP Inc.",
+        "pct": -9.927740669137208
+      },
+      {
+        "ticker": "SNDK",
+        "company": "Sandisk",
+        "pct": -9.061314620260886
+      },
+      {
+        "ticker": "688041.SS",
+        "company": "Hygon Information Technology",
+        "pct": -8.43555386414786
+      }
+    ],
+    "analysis": {
+      "business_model": "Western Digital designs and sells mass storage products, primarily hard disk drives and flash memory solutions, for data center and consumer electronics markets.",
+      "sentiment": "Bearish - broad storage sector decline with peers dropping significantly",
+      "why_moved": "No specific catalyst such as earnings or guidance was stated in the provided text; the price move reflects a broader intraday drop of 6.4% aligned with significant declines across the computer hardware group.",
+      "read_across": "Peers in the computer hardware sector including HP, Sandisk, and Hygon are experiencing similar sharp declines, suggesting a sector-wide sentiment shift or flow issue rather than company-specific news.",
+      "look_out": "Monitor if the widespread 8-10% drop in hardware peers holds, indicating a persistent industry correction, or if it reverses as a market-wide volatility spike.",
+      "memory": "Our own tracking data shows WDC has triggered this alert twice in the last 180 days, most recently on 2026-10-30 with a -6.8% move, while nine other names in the group have also triggered similar alerts."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725523+00:00",
+    "type": "single_stock",
+    "headline": "Stryker Cuts Outlook as Cyberattack Impact on Supply Lingers",
+    "source": "Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRy1udGNlNUV5THgzMTVNd1RkUnMyRE9xS09fajE5M0hwZnMyOXh4enpSOUZJcUtQVkdiNUdqdlhnY1d6OXk4MzU3TmpBTW1HVG1qd25uLWlNeW1uQlZQV2dJNHpValZLdkRza3VYUUVzdlFhYk1qbjBrZWcyZHRydzVsUDRDRmt6N1dCWUtDcjFZc2gwbWxDWnZ2YUp5TW9Yc3ZJcXJUbnJ4eXV0MkZFbw?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "SYK",
+      "company": "Stryker Corporation",
+      "pct": -6.951879824077789,
+      "last": 290.0775146484375,
+      "prev": 311.75,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "DXCM",
+        "company": "Dexcom",
+        "pct": 5.091955059783326
+      },
+      {
+        "ticker": "GEHC",
+        "company": "GE HealthCare",
+        "pct": 1.917042662113655
+      },
+      {
+        "ticker": "ZBH",
+        "company": "Zimmer Biomet",
+        "pct": -1.790297245026995
+      }
+    ],
+    "analysis": {
+      "business_model": "Stryker Corporation is a global medical technology company that designs, manufactures, and sells a broad range of medical products for surgical, orthopedic, and cardiovascular procedures.",
+      "sentiment": "Bearish - cyberattack impacts supply and cuts outlook",
+      "why_moved": "The stock declined after Stryker cut its outlook due to lingering supply chain impacts from a cyberattack. This guidance cut aligns with recent earnings where EPS of 3.52 slightly missed the 3.55 estimate.",
+      "read_across": "Peers in the medical technology sector show divergent reactions, with Zimmer Biomet also falling -1.8%, while Dexcom rose 5.1% and GE HealthCare gained 1.9%, suggesting the move is specific to Stryker's supply chain issues rather than a broad sector rotation.",
+      "look_out": "Investors should monitor for signs that the supply chain disruptions caused by the cyberattack are resolving and whether the reduced outlook will be a one-time shock or indicative of prolonged operational friction.",
+      "memory": "This name triggered a similar alert on 2026-10-30, seeing an -11.1% drop, indicating recurring volatility around recent events for this ticker."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725526+00:00",
+    "type": "single_stock",
+    "headline": "These software stocks could be winners as earnings season kicks into high gear",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRThDZ3VDQkRmdHhLNGtDaHUzMzc2YXppTXI4czdMVXdUX0ZRZVJjUFJXNzRWWXBXNVVycF90eHBvdFhJLXZyTW9LeDJ5NTJmZC1PZXhqdE5RdzNKbWdQTWExVGVVTWdES291RjRNbURHUE5nMElLU0xOdlZRS3lWa1BQYUxqZFFmM0JVMVFrQWFGMzdBa0lPYlRUcWowMlhjMUZCTUFkUTNIYWx5SWxFVWJPSXQ1Y21HdWRkZlN3?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "DDOG",
+      "company": "Datadog",
+      "pct": -8.380980697493811,
+      "last": 243.55999755859375,
+      "prev": 265.8399963378906,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "301269.SZ",
+        "company": "Empyrean Technology",
+        "pct": -11.801432077224161
+      },
+      {
+        "ticker": "688111.SS",
+        "company": "Beijing Kingsoft Office Software",
+        "pct": -6.624998365129741
+      },
+      {
+        "ticker": "600845.SS",
+        "company": "Baosight Software",
+        "pct": -5.2662686966725385
+      }
+    ],
+    "analysis": {
+      "business_model": "Datadog provides cloud-based monitoring, security, and analytics platforms that help engineering teams manage and secure their software applications and infrastructure.",
+      "sentiment": "Bearish - heavy intraday losses across a range of software peers",
+      "why_moved": "The specific catalyst for Datadog's -8.4% move is not explicitly stated, though the headline links the movement to the start of a high-gear earnings season. Price action shows broad weakness in the sector as investors apparently recalibrate valuations ahead of results.",
+      "read_across": "Peer software names are experiencing significant simultaneous declines, with international counterparts like Empyrean Technology dropping -11.8% and Beijing Kingsoft Office Software falling -6.6%, indicating a sector-wide risk-off flow.",
+      "look_out": "Monitor continued price action in the Software-Application group as the sector remains volatile with five other names triggering similar alerts recently. Watch for further repricing in domestic and international software titles during this earnings window.",
+      "memory": "Our tracking data indicates this ticker has triggered this alert three times in the last 180 days, most recently on 2026-10-19 with a +6.3% move, suggesting repeated volatility in this sector. Five other names in the Software - Application group have also triggered this alert in the same period, highlighting consistent sector-wide stress."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725529+00:00",
+    "type": "single_stock",
+    "headline": "Killer App — Pavel Durov and the story of Telegram",
+    "source": "Financial Times",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUXJvemRac1hqTjFiRnlqeXNCa2dPZ3k3dzI3YzZZZXMwQWJTSEs1bENPRVY4V29GQzVFU0FmTXplX0NkUGFrVWJsbHZyNTVobnlpNXVqR0JNVEtpMlZBQm5acjlReUhLbFlfY0xldEMxX2lBNS1iY3ZDX1JjZEJ5Q0pwcnY?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "APP",
+      "company": "AppLovin",
+      "pct": -6.884783962821972,
+      "last": 237.36000061035156,
+      "prev": 254.91000366210938,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "4324.T",
+        "company": "Dentsu Group Inc.",
+        "pct": 3.979143798024154
+      },
+      {
+        "ticker": "WPP.L",
+        "company": "WPP",
+        "pct": 3.5564322335272402
+      },
+      {
+        "ticker": "OMC",
+        "company": "Omnicom Group",
+        "pct": 1.3708788361333824
+      }
+    ],
+    "analysis": {
+      "business_model": "AppLovin is a mobile app discovery and monetization platform that connects developers with users through ad-tech infrastructure and game studios",
+      "sentiment": "Bearish - intraday decline of 6.9% contrasts with rising ad-tech peers",
+      "why_moved": "The source does not specify a catalyst such as earnings or guidance for the decline; the price action shows a 6.9% drop while peers rose, suggesting idiosyncratic pressure or mispricing rather than a stated fundamental event",
+      "read_across": "The divergence between AppLovin and peers like Dentsu (+4.0%) and WPP (+3.6%) suggests the rally in the advertising sector is not broad-based, with capital potentially rotating away from high-valuation growth names in ad-tech",
+      "look_out": "Watch for follow-through in the 237.36 USD price level to confirm if the decline is a standalone event or the start of a broader correction in AppLovin's valuation relative to its peers",
+      "memory": "This specific ticker has triggered this alert twice in the last 180 days, most recently on 2026-10-05 with a +6.1% move, indicating recent high volatility and repeated investor reassessment."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725533+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "HOOD",
+      "company": "Robinhood Markets",
+      "pct": -7.8720377473035175,
+      "last": 84.37999725341797,
+      "prev": 91.58999633789062,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "IBKR",
+        "company": "Interactive Brokers",
+        "pct": -6.530508202415863
+      },
+      {
+        "ticker": "071050.KS",
+        "company": "Korea Investment",
+        "pct": -4.8749999999999964
+      },
+      {
+        "ticker": "016360.KS",
+        "company": "Samsung Securities",
+        "pct": -3.7125748502993994
+      }
+    ],
+    "analysis": {
+      "business_model": "Robinhood Markets operates a zero-commission trading platform that connects retail investors to exchange-traded stocks, ETFs, options, and cryptocurrencies, generating revenue primarily through net interest income and interest on customer cash balances.",
+      "sentiment": "Bearish - earnings miss driven fundamental growth expectations",
+      "why_moved": "The share price dropped 7.9% following a reported EPS of 0.51, which was an 8.1% surprise below the 0.55 estimate. The move aligns with a negative reaction to the stated earnings deficit.",
+      "read_across": "Peer Interactive Brokers fell 6.5%, while Korea Investment and Samsung Securities also declined between 3.7% and 4.9%, suggesting a broader negative sentiment across retail brokerage and trading platforms.",
+      "look_out": "Investors should monitor further tracking in the past 180 days, specifically noting the previous alert on 2026-10-30 where the stock fell 6.1%.",
+      "memory": "This ticker has triggered this alert three times over the last 180 days, with the most recent instance occurring on 2026-10-30 alongside a 6.1% drop."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725536+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "REGN",
+      "company": "Regeneron Pharmaceuticals",
+      "pct": 13.34684534788928,
+      "last": 928.0499877929688,
+      "prev": 818.77001953125,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "207940.KS",
+        "company": "Samsung Biologics",
+        "pct": 8.857979502196201
+      },
+      {
+        "ticker": "INCY",
+        "company": "Incyte",
+        "pct": 4.212327089379531
+      },
+      {
+        "ticker": "VRTX",
+        "company": "Vertex Pharmaceuticals",
+        "pct": 3.549996835214131
+      }
+    ],
+    "analysis": {
+      "business_model": "Regeneron Pharmaceuticals is a biotechnology company that develops, manufactures, and markets therapeutic antibodies, gene therapies, and ophthalmic products.",
+      "sentiment": "Bullish - strong earnings surprise drove significant intraday gains",
+      "why_moved": "The stock reacted to reported earnings on 2026-10-30, where EPS of 20.07 exceeded the estimate of 16.25 by 23.5%.",
+      "read_across": "Positive momentum spread across the biotechnology sector, with peers like Samsung Biologics, Incyte, and Vertex Pharmaceuticals also posting gains.",
+      "look_out": "Monitor for follow-through from the 7 other biotechnology names that recently triggered similar alerts in our tracking data.",
+      "memory": "This ticker triggered this alert once in the last 180 days, most recently on 2026-10-30 with a 7.5% move."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725540+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "HPE",
+      "company": "Hewlett Packard Enterprise",
+      "pct": -6.5780493100983435,
+      "last": 54.997501373291016,
+      "prev": 58.869998931884766,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "LITE",
+        "company": "Lumentum",
+        "pct": -8.533710617181677
+      },
+      {
+        "ticker": "2345.TW",
+        "company": "Accton",
+        "pct": -7.9772079772079785
+      },
+      {
+        "ticker": "CIEN",
+        "company": "Ciena",
+        "pct": -7.569040287044249
+      }
+    ],
+    "analysis": {
+      "business_model": "Hewlett Packard Enterprise designs, develops, and delivers computing, software, and related services, including servers, storage, and networking infrastructure for enterprise data centers.",
+      "sentiment": "Bearish - broad sector-wide decline signaling risk-off sentiment",
+      "why_moved": "No specific corporate event, earnings, or news catalyst is identified in the provided text for this price move; the decline appears to be a sector-wide sell-off accompanied by significant drops in peers like Lumentum and Ciena.",
+      "read_across": "The decline is not isolated to HPE, with key communication equipment peers Lumentum (-8.5%), Accton (-8.0%), and Ciena (-7.6%) experiencing similar large intraday losses, indicating broader risk-off flows or negative sentiment across the entire communication equipment group.",
+      "look_out": "Monitor whether the other five names in the Communication Equipment group that have triggered this alert in the last 180 days continue to show weakness, which would validate a persistent sector-wide trend rather than an idiosyncratic event.",
+      "memory": "Our tracking data shows HPE has triggered this alert four times in the last 180 days, most recently on 2026-10-30 with a -6.1% move, while five other names in the Communication Equipment group have also triggered this alert in the same period."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725543+00:00",
+    "type": "single_stock",
+    "headline": "Marvell in advanced talks to buy Lumentum: Report",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbGw4aWVQSE9DR18zUDg1Mm1veE92S2k2c0hqdFZPTDl5NUpvTDB6ZzRpREdhb2JXQzBGVk8ycUVCSHdPdmpjbnViLThVeHRtbElpeHU5NG9fWFNKbWxnUnBWcHpLVkUxRFhPVVRpT0tGbTF6WmpqUmw0VHNMUUxoV05fNHB0UEU2U3Axd3Z4b21iRTFOU1E?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "LITE",
+      "company": "Lumentum",
+      "pct": -8.533710617181677,
+      "last": 841.0599975585938,
+      "prev": 919.530029296875,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "2345.TW",
+        "company": "Accton",
+        "pct": -7.9772079772079785
+      },
+      {
+        "ticker": "CIEN",
+        "company": "Ciena",
+        "pct": -7.569040287044249
+      },
+      {
+        "ticker": "HPE",
+        "company": "Hewlett Packard Enterprise",
+        "pct": -6.5780493100983435
+      }
+    ],
+    "analysis": {
+      "business_model": "Lumentum manufactures critical optical and electro-optical components that enable high-speed data transmission in telecommunications and data center infrastructure, including transceivers used for cloud and AI workloads.",
+      "sentiment": "Bearish - sector-wide sold-off amid M&A uncertainty and peer declines",
+      "why_moved": "The stock declined 8.5% intraday following CNBC reports of advanced talks for Marvell to buy the company, with no other specific catalyst explicitly stated in the provided text.",
+      "read_across": "Peers in the Communication Equipment group, including Accton, Ciena, and Hewlett Packard Enterprise, also traded down between 6.6% and 8.0%, suggesting a broad sectoral pullback rather than an isolated company-specific event.",
+      "look_out": "Investors should monitor the outcome of the reported advanced talks between Marvell and Lumentum and watch for potential contagion to other Communication Equipment names that have already triggered alerts.",
+      "memory": "Our tracking data shows LITE has triggered this alert 7 times in the last 180 days, most recently on 2026-10-30 with a -6.7% drop, indicating a pattern of recent volatility. Additionally, 5 other names in the Communication Equipment group have triggered similar alerts in the same period."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725546+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "CIEN",
+      "company": "Ciena",
+      "pct": -7.569040287044249,
+      "last": 323.0,
+      "prev": 349.45001220703125,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "LITE",
+        "company": "Lumentum",
+        "pct": -8.533710617181677
+      },
+      {
+        "ticker": "2345.TW",
+        "company": "Accton",
+        "pct": -7.9772079772079785
+      },
+      {
+        "ticker": "HPE",
+        "company": "Hewlett Packard Enterprise",
+        "pct": -6.5780493100983435
+      }
+    ],
+    "analysis": {
+      "business_model": "Ciena designs and supplies optical networking equipment and services that enable high-speed data transmission for telecommunications and enterprise providers.",
+      "sentiment": "Bearish - significant intraday drop across Communication Equipment peers",
+      "why_moved": "No specific catalyst such as earnings or guidance is provided; the price action reflects a broad sector-wide decline with CIEN down 7.6% alongside peers like Lumentum and Accton.",
+      "read_across": "The move suggests negative sentiment or flow issues within the Communication Equipment group, evidenced by similar deep declines in Lumentum (-8.5%), Accton (-8.0%), and HPE (-6.6%).",
+      "look_out": "Watch for follow-through in other Communication Equipment names to determine if this is an isolated price move or a sustained sector correction.",
+      "memory": "CIEN has triggered this alert twice in the last 180 days, most recently on 2026-10-30 with a -6.5% move, indicating recent volatility. Five other names in the Communication Equipment group have also triggered this alert in the same period."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725549+00:00",
+    "type": "single_stock",
+    "headline": "Coinbase net income surges 66% in third quarter, benefiting from bitcoin investment gains",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1DQWNxa2JydjlYazNWN1EtQTRLS2NQTm9uRl9BRTIzbkwzRm5Wa3hCM1NWWVN5V2ZLSFNnbkJQeTc0ZGhtZ0c1WlZNLXd5bTRtTnpGRkhSWVdBTEpyZ1hxU1p1N3R4anhsSkNhVmRqT241bXV1WVU00gF8QVVfeXFMTWcxSDVOZC1xSnZUdDlPWjlNVHYydlVIblgzZ0kwOVUtM0EyX0QwN0hMczRLbUx1UExIM2E0ZWpNTUJQV2pubHR6Mmw0THJ1QlBjOElwc3dfTENPN21rUVVseG51LWNCUXhJS2NaOFhXN2dEWjdHMzRkOGYwdg?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "COIN",
+      "company": "Coinbase",
+      "pct": -11.98081491570182,
+      "last": 141.35000610351562,
+      "prev": 160.58999633789062,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "CBOE",
+        "company": "Cboe Global Markets",
+        "pct": 6.623708016358387
+      },
+      {
+        "ticker": "300033.SZ",
+        "company": "Hithink RoyalFlush Information Network",
+        "pct": -4.878174510850474
+      },
+      {
+        "ticker": "ICE",
+        "company": "Intercontinental Exchange",
+        "pct": 2.7530678786847673
+      }
+    ],
+    "analysis": {
+      "business_model": "Coinbase operates as a leading digital asset exchange and custodial custody provider, generating revenue primarily from trading commissions and asset custody services.",
+      "sentiment": "Bearish - profit-taking follows significant earnings surprise",
+      "why_moved": "The stock declined 12.0% intraday despite a reported EPS of 2.51, marking a 2976.0% surprise against estimates of 0.08. Headlines attribute recent gains to bitcoin investment profits, suggesting the current drop may reflect sell-side reaction to this specific driver despite the headline beat.",
+      "read_across": "Peers moved in opposite directions, with Cboe Global Markets rising 6.6% and Intercontinental Exchange gaining 2.8%, while Hithink RoyalFlush Information Network fell 4.9%, indicating divergence in sentiment for exchange-based platforms.",
+      "look_out": "Monitor whether the 12.0% drop outperforms or lags the broader market and if peers like CBOE continue their positive divergence in the coming sessions.",
+      "memory": "This ticker has triggered this alert 4 times in our tracking over the last 180 days, with the most recent occurrence on 2026-10-30 showing a 6.2% decline."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725553+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "COHR",
+      "company": "Coherent Corp.",
+      "pct": -8.987440862704988,
+      "last": 215.89999389648438,
+      "prev": 237.22000122070312,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "KEYS",
+        "company": "Keysight Technologies",
+        "pct": -4.162627679713838
+      },
+      {
+        "ticker": "6861.T",
+        "company": "Keyence Corp.",
+        "pct": 2.1477213200628675
+      },
+      {
+        "ticker": "GRMN",
+        "company": "Garmin",
+        "pct": 1.589630695228239
+      }
+    ],
+    "analysis": {
+      "business_model": "Coherent Corporation is a global technology company that manufactures, markets, and supplies advanced laser and photonic solutions, components, and subassemblies for industrial, datacom, and telecom applications.",
+      "sentiment": "Bearish - significant single-day intraday decline overshadowing peer stability.",
+      "why_moved": "No specific catalyst such as earnings or regulatory action is stated in the provided text; the price action is characterized as a -9.0% intraday move with last price at 215.90 USD.",
+      "read_across": "Peers showed mixed results, with Keysight Technologies down -4.2%, Keyence Corp. up +2.1%, and Garmin up +1.6%, suggesting the drop is specific to Coherent rather than a broad sector-wide sell-off.",
+      "look_out": "Monitor for any subsequent corporate announcements or volume spikes that might explain the deviation from peer performance, given the lack of stated news catalyst.",
+      "memory": "Our historical tracking indicates this ticker triggered this alert five times in the last 180 days, with the most recent occurrence on 2026-10-30 involving an -8.1% move."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725557+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "P",
+      "company": "Everpure",
+      "pct": -6.271862914680126,
+      "last": 128.59500122070312,
+      "prev": 137.1999969482422,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "HPQ",
+        "company": "HP Inc.",
+        "pct": -9.927740669137208
+      },
+      {
+        "ticker": "SNDK",
+        "company": "Sandisk",
+        "pct": -9.061314620260886
+      },
+      {
+        "ticker": "688041.SS",
+        "company": "Hygon Information Technology",
+        "pct": -8.43555386414786
+      }
+    ],
+    "analysis": {
+      "business_model": "Everpure is a leading global water technologies company that designs, manufactures, and markets water purification and related solutions for residential, commercial, and industrial applications.",
+      "sentiment": "Bearish - sector-wide price decline and repeated alert triggers",
+      "why_moved": "No specific fundamental catalyst such as earnings or guidance is stated in the provided text; the price action is characterized purely as an intraday drop of 6.3%.",
+      "read_across": "Computer Hardware peers including HP Inc., Sandisk, and Hygon Information Technology also experienced significant declines ranging from 8.4% to 9.9%.",
+      "look_out": "Monitor whether the broader Computer Hardware group continues to exhibit coordinated price drops or if specific sector-driven flows persist.",
+      "memory": "This specific ticker has triggered this alert three times in the last 180 days, most recently on 2026-10-30 with a -6.3% move, amid similar alerts from nine other group names."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725560+00:00",
+    "type": "single_stock",
+    "headline": "Illumina Inc. stock underperforms Wednesday when compared to competitors despite daily gains",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObmsxajIzT2kxNHhvWVdvRy14VHhqaUJoNVNiR0tyTmJWb0lpY0l6ZTkyWklENU9IWUVWVVJWc3lOWHJMOS1TOTdzLVFzNGNoUm5MZ0wyYUlBQ0hYbHRuZEhHOW1oSUZRcFY4YllTdFdBSlV0T25kWGJHNmt5QWNjODE4blIxUGVfQ1MxallsMnlGT3JnYldrTnQxVWlxZERWZTYwc0lxOGR5aEd1eE9EUzdjS0xKOVI1R3A0NFAycEJtNHhQUzFWaTNzMlJVemY1X2djN0t1Qmo3M3YyTGE1ZDUyX3hRQQ?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "ILMN",
+      "company": "Illumina, Inc.",
+      "pct": -14.331515002178929,
+      "last": 248.49000549316406,
+      "prev": 290.05999755859375,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300347.SZ",
+        "company": "Hangzhou Tigermed Consulting",
+        "pct": 3.071175730260456
+      },
+      {
+        "ticker": "2359.HK",
+        "company": "WuXi AppTec",
+        "pct": -2.982737846666339
+      },
+      {
+        "ticker": "RVTY",
+        "company": "Revvity",
+        "pct": -2.636020719848886
+      }
+    ],
+    "analysis": {
+      "business_model": "Illumina provides DNA sequencing and genomics solutions to research and clinical laboratories.",
+      "sentiment": "Bearish - significant underperformance despite daily gains",
+      "why_moved": "The stock fell 14.3% intraday while competitors gained or declined less severely. No specific catalyst like earnings or guidance is explicitly stated in the headline or text to explain this divergence.",
+      "read_across": "Peers showed mixed reactions, with Hangzhou Tigermed Consulting rising 3.1%, WuXi AppTec falling 3.0%, and Revvity dropping 2.6%.",
+      "look_out": "Watch for further sector-specific news or regulatory updates that may explain the stark underperformance relative to the broader biotech group.",
+      "memory": "This ticker has triggered this alert once in the last 180 days, most recently on 2026-10-30 with a -13.1% move."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725563+00:00",
+    "type": "single_stock",
+    "headline": "Twilio Stock Sinks as Slowing Growth Throws ‘Cold Water’ on Benefits From AI",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBVLTFBQ1FJQWJ3QUROdlJsOV9JQVdyNkI5OEVMVkJraDcxMjJ6SzVXRWx6UkdNZUs1Mzk5SWxaQlhWLUJkWkxSMUVUejhzNEZTVVJlaEU4UDI0UnloTG9sYzBRSkd2VkxaU3FsTjg1WGxzR09yVWxIQVZxZWg?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "TWLO",
+      "company": "Twilio",
+      "pct": -20.990322559076247,
+      "last": 191.12440490722656,
+      "prev": 241.89999389648438,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "NTAP",
+        "company": "NetApp",
+        "pct": -5.6862916734110485
+      },
+      {
+        "ticker": "FFIV",
+        "company": "F5, Inc.",
+        "pct": -4.413134431420962
+      },
+      {
+        "ticker": "ORCL",
+        "company": "Oracle Corporation",
+        "pct": -3.8442177760303564
+      }
+    ],
+    "analysis": {
+      "business_model": "Twilio provides cloud communications and application development platforms that allow businesses to add messaging, voice, and other customer engagement features to their software.",
+      "sentiment": "Bearish - slowing growth undermining AI benefits narrative",
+      "why_moved": "The stock sank as reported slowing growth threw cold water on the benefits from AI, despite the company reporting EPS of 1.65 versus 1.47 estimated on 2026-10-29.",
+      "read_across": "Peer stocks in the Software – Infrastructure group, including NetApp, F5 Inc, and Oracle Corporation, also declined between 3.8% and 5.7% alongside Twilio.",
+      "look_out": "Watch for follow-through in the broader Software – Infrastructure group, where 9 other names have triggered similar alerts in the last 180 days.",
+      "memory": "Twilio has triggered this specific alert once in our tracking over the last 180 days, most recently on 2026-10-30 with a 16.7% drop."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725566+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "IBKR",
+      "company": "Interactive Brokers",
+      "pct": -6.530508202415863,
+      "last": 76.43000030517578,
+      "prev": 81.7699966430664,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "HOOD",
+        "company": "Robinhood Markets",
+        "pct": -7.8720377473035175
+      },
+      {
+        "ticker": "071050.KS",
+        "company": "Korea Investment",
+        "pct": -4.8749999999999964
+      },
+      {
+        "ticker": "016360.KS",
+        "company": "Samsung Securities",
+        "pct": -3.7125748502993994
+      }
+    ],
+    "analysis": {
+      "business_model": "Interactive Brokers is a global online brokerage that provides investment and trading services, generating revenue primarily from commissions and interest on client balances.",
+      "sentiment": "Bearish - significant intraday drop across brokerage peers",
+      "why_moved": "No specific corporate catalyst such as earnings or guidance is stated in the provided text; the move is described strictly as a price action event.",
+      "read_across": "Peers Robinhood Markets, Korea Investment, and Samsung Securities also declined, suggesting a broader negative sentiment flowing through the global brokerage sector.",
+      "look_out": "Monitor whether the intraday price declines in IBKR and its named international peers stabilize or continue to widen in subsequent trading sessions.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725569+00:00",
+    "type": "single_stock",
+    "headline": "Cboe Global Markets Inc. stock underperforms Thursday when compared to competitors",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQLVR5dzViclNHTE1ZTUFJdnB6WWkxQWc2ckd6bTdjZXd3Y2FkdGhfdzhNT010czlEN0FHS0NIN3lrdndqbEFmWHFYd1RvRFAwSG5nQlcxbzB3anVGWkpoZDNZY2EwSHF3cXhHZkNBUGFiRmVTSFd2NC1FX1JZR25VeFZzczd4a3NMZkZQaE5udmxyaDNWdUVhN00wM2dYSVUxcHRLS0ozcjlmSDRId1lSVXllX3hTYl9LVzZMdk9PVUhqOXp5Tnh3YmMyNzU0UXVXM185RVBVYmw?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "CBOE",
+      "company": "Cboe Global Markets",
+      "pct": 6.623708016358387,
+      "last": 335.06500244140625,
+      "prev": 314.25,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "COIN",
+        "company": "Coinbase",
+        "pct": -11.98081491570182
+      },
+      {
+        "ticker": "300033.SZ",
+        "company": "Hithink RoyalFlush Information Network",
+        "pct": -4.878174510850474
+      },
+      {
+        "ticker": "ICE",
+        "company": "Intercontinental Exchange",
+        "pct": 2.7530678786847673
+      }
+    ],
+    "analysis": {
+      "business_model": "Cboe Global Markets operates as a global exchange operator, primarily generating revenue by providing electronic trading platforms for derivatives, stock index futures, and other financial products.",
+      "sentiment": "Bullish - strong intraday gain amid peer weakness",
+      "why_moved": "The stock rallied 6.6% to 335.07 USD, significantly outperforming its peer Coinbase which dropped 12.0%. No explicit catalyst was stated in the provided text to explain this divergence.",
+      "read_across": "Cboe's outperformance contrasts with Coinbase's 12.0% decline and ICE's 2.8% gain, suggesting specific idiosyncratic pressure on crypto-related assets. This divergence implies Cboe decoupled from broader fintech volatility during this session.",
+      "look_out": "Watch for clarification on the specific driver behind Cboe's divergence from Coinbase, as no catalyst was provided in the source. Monitor if peer performance aligns or continues to diverge in subsequent sessions.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725573+00:00",
+    "type": "single_stock",
+    "headline": "HP Inc. stock underperforms Wednesday when compared to competitors",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOGZKa1JjUXBFSkFJelU0cFY1Vy1uaTNMLXFOOExMcHB5eVl4Tm9Fb0c5ZUdnemkwdGZzaDBBR3JhUnhjRGV5WmNmNzdNSFBqTER6Y0U0MmlHV056Rm5LMWY1X21jR0lRWjhfM2hCRXBiN01UWEl1UWpXTkxKVEZCekNrN1JRVlJ6VTBjeEpWN1NITlJGUW5nY2pYejk2cXpKTk40aVk1X2l2aHlnNkUtNlUyWDVPNDg4U21QMmM3aTNsbUpxQndqMjJlak9jTEc5eU50TVFLendad0E?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "HPQ",
+      "company": "HP Inc.",
+      "pct": -9.927740669137208,
+      "last": 28.670000076293945,
+      "prev": 31.829999923706055,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "SNDK",
+        "company": "Sandisk",
+        "pct": -9.061314620260886
+      },
+      {
+        "ticker": "688041.SS",
+        "company": "Hygon Information Technology",
+        "pct": -8.43555386414786
+      },
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies",
+        "pct": -8.190155101764196
+      }
+    ],
+    "analysis": {
+      "business_model": "HP Inc. is a global technology company that manufactures and sells personal computers, printers, and related accessories to consumers and businesses.",
+      "sentiment": "Bearish - sector-wide weakness hits hardware peers",
+      "why_moved": "The headline indicates underperformance compared to competitors but does not specify a company-specific catalyst such as earnings or guidance. The 9.9% intraday drop appears driven by broad sector flows affecting multiple hardware names.",
+      "read_across": "Peers in the Computer Hardware group, including Sandisk, Hygon Information Technology, and Dell Technologies, experienced similar double-digit or near-double-digit declines. This suggests a synchronized negative sentiment sweep across the hardware sector rather than an isolated corporate event.",
+      "look_out": "Monitor whether the Computer Hardware group continues to trigger relative underperformance alerts, as 9 other names have done so recently. Watch for stabilization in peer stocks like Dell and Sandisk to determine if this is a standalone day or a persistent trend.",
+      "memory": "HP Inc. has triggered this specific underperformance alert three times in the last 180 days, most recently on 2026-10-30 with a -7.7% move. This indicates a recurring pattern of relative weakness for this ticker against its peer group over the past half-year."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725577+00:00",
+    "type": "single_stock",
+    "headline": "Reddit plunges as Google AI search squeezes traffic",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQks1Z3lNdGwyQnFsQ3NQTU1jWTMwNGRGV002QW5RaDhIOGRIRG9xZmFWTUpsYnpYWVhvbUE1N0ZRTXNlOVRJMjdIVE5nOU5tWEhWRGNORVZPUWxNZ2otUF9zUEQ1QkRlWjNNRm1keF95MFlJOUo3bXBmRTZJQ3ppdWxmOVlQbENUVXE3dXUwcTItTUNQTTJEQmJCdGJXeXNwckE?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "RDDT",
+      "company": "Reddit",
+      "pct": -25.91049990663411,
+      "last": 96.0199966430664,
+      "prev": 129.60000610351562,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "G24.DE",
+        "company": "Scout24",
+        "pct": 2.4758397908292817
+      },
+      {
+        "ticker": "AUTO.L",
+        "company": "Autotrader Group",
+        "pct": 2.3863590124881595
+      },
+      {
+        "ticker": "6098.T",
+        "company": "Recruit Holdings Co., Ltd.",
+        "pct": 1.6410799364743323
+      }
+    ],
+    "analysis": {
+      "business_model": "Reddit operates a social news aggregation and discussion platform that monetizes through advertising, data licensing, and premium content subscriptions.",
+      "sentiment": "Bearish - AI search reducing essential discovery traffic",
+      "why_moved": "The price plunged as the headline reports Google AI search is squeezing Reddit’s traffic. No specific earnings catalyst is cited for the move, despite a recent earnings report mentioned in background data.",
+      "read_across": "Peers Scout24, Autotrader Group, and Recruit Holdings have all risen slightly, suggesting the price weakness is specific to Reddit rather than a broad sector sell-off.",
+      "look_out": "Monitor whether peers in the Internet Content & Information group face similar AI-driven traffic compression or if the impact remains isolated to Reddit.",
+      "memory": "This ticker has triggered this alert 3 times in the last 180 days, with the most recent drop of 22.0% occurring on 2026-10-30. Four other names in the group have also triggered the same alert recently."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725580+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "VLTO",
+      "company": "Veralto",
+      "pct": 8.596002214767973,
+      "last": 113.00499725341797,
+      "prev": 104.05999755859375,
+      "currency": "USD"
+    },
+    "peers": [],
+    "analysis": {
+      "business_model": "No information is provided in the text regarding Veralto's core business, revenue drivers, or operational activities.",
+      "sentiment": "Bullish - strong positive price momentum following earnings surprise",
+      "why_moved": "Veralto moved up +8.6% intraday following a reported 8.3% EPS surprise relative to estimates included in the recent corporate event data.",
+      "read_across": "No peers or sector dynamics are identified in the provided text to determine any read-across impact.",
+      "look_out": "No upcoming events, data points, or specific follow-through risks are mentioned in the provided source material.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725583+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "CDW",
+      "company": "CDW Corporation",
+      "pct": -6.717617352975058,
+      "last": 154.1024932861328,
+      "prev": 165.1999969482422,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "6702.T",
+        "company": "Fujitsu Ltd.",
+        "pct": -16.19620546043499
+      },
+      {
+        "ticker": "307950.KS",
+        "company": "Hyundai AutoEver",
+        "pct": -13.082706766917296
+      },
+      {
+        "ticker": "064400.KS",
+        "company": "LG CNS",
+        "pct": -6.476683937823835
+      }
+    ],
+    "analysis": {
+      "business_model": "CDW Corporation is a technology supply line, retail, and services company that serves customers across the globe, primarily through the sale of technology products and related services. Its core revenue driver is the distribution and retail of IT hardware and software to businesses and consumers.",
+      "sentiment": "Bearish - significant intraday decline suggesting negative sentiment",
+      "why_moved": "The provided text does not state a specific catalyst such as earnings, guidance, or news events; the move is described solely as a -6.7% intraday price drop from $165.20 to $154.10. This suggests a reaction to broader market flows or sector-specific pressures rather than a company-specific announcement in this dataset.",
+      "read_across": "Peers in the Information Technology Services group including Fujitsu Ltd., Hyundai AutoEver, and LG CNS also experienced significant declines, ranging from -6.5% to -16.2%. This indicates a sector-wide negative flow hitting international IT services and technology supply firms.",
+      "look_out": "Monitor whether the IT Services sector sees continued broad-based selling versus a standalone event for CDW. Watch for follow-through price action in the listed Korean and Japanese peers to confirm if this is a systemic sector rotation.",
+      "memory": "Our own historical tracking data shows that 6 other names in the Information Technology Services group have triggered this same alert within the last 180 days. This indicates that such significant intraday price moves are not uncommon for this specific group recently."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725586+00:00",
+    "type": "single_stock",
+    "headline": "FedEx Freight delivers a much-needed quarterly beat. Where we stand on shares now",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQc3VkNTRKb0tsUmlndXU4RnZQZTdMVWFOWl9MUVV4M3VFV25ZRUlWbWNLX1FQaHNUai0yOFRUTXlRS3hXV01OUmd2c3kteHRJVGxGTHJHSHN6ZER0WC1ER21SUGY1ZnZ5Tm5Tdk5oT2E2WDFnQklzaFRXSkJRQy1FNEV5YXBEQ3g3RkZQMWdtQjdBWWdSeFpmVURrRDcyckE5ZGczLURuMGRuREZnQTRGZTJhZ0g4YXNLbHRlNWVqNDBpSUpFQ1ZOT1YyYw?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "FDXF",
+      "company": "FedEx Freight",
+      "pct": 14.253800855905506,
+      "last": 125.32499694824219,
+      "prev": 109.69000244140625,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "086280.KS",
+        "company": "Hyundai Glovis",
+        "pct": -2.648305084745761
+      },
+      {
+        "ticker": "FDX",
+        "company": "FedEx",
+        "pct": 2.4608477386834027
+      },
+      {
+        "ticker": "9147.T",
+        "company": "Nippon Express Holdings, Inc.",
+        "pct": 2.114855570839058
+      }
+    ],
+    "analysis": {
+      "business_model": "FedEx Freight is a logistics company that transports large shipments without assuming ownership of the goods, focusing on delivering cargo for third parties. It generates revenue by moving freight across its network, distinct from same-day parcel delivery.",
+      "sentiment": "Bullish - strong positive reaction to a significant quarterly earnings beat",
+      "why_moved": "Shares surged 14.3% on the news that FedEx Freight delivered a much-needed quarterly beat, specifically reporting EPS of 1.49 against an estimated 1.39. This 7.2% positive surprise served as the primary catalyst for the intraday rise.",
+      "read_across": "Peers in the transportation sector showed mixed to positive moves, with FedEx up 2.5% and Nippon Express up 2.1%, while Hyundai Glovis fell 2.6%. The movement suggests a targeted strength in US freight rather than a uniform global logistics rally.",
+      "look_out": "Investors should monitor whether the +14.3% gain is sustained or if it faces mean reversion following the sharp post-earnings pop. The divergence in peer performance, particularly Hyundai Glovis's decline, highlights the need to track sector-specific fundamentals.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T13:55:31.725590+00:00",
+    "type": "single_stock",
+    "headline": "DaVita Inc. stock outperforms competitors on strong trading day",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTDFIak9nS244ZFJlbkdLVm9KamhEMTd3TTZpa2ZIR1dzdDd0UFpkUjhhQXpoWUZ0TFBJejhoTTVnem5vT0ZrZ1R3cUpEX3VURjduNThNcFEyNzlWQVpCRFpDVElXQ0Z6ZWpjeFNDcHNndUFOSTAteTZZakF5ZkEzTnJfTFFrc3hGVGNOcHY0eDRLQ2VicXI2WDd2YTNIYXJFNGlUZTUzdjRncU5FX3RKb1g5TC1IcS0ybDAwbFBhWQ?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "DVA",
+      "company": "DaVita",
+      "pct": -6.339560828507029,
+      "last": 181.05499267578125,
+      "prev": 193.30999755859375,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300015.SZ",
+        "company": "Aier Eye Hospital",
+        "pct": 3.64963723831242
+      },
+      {
+        "ticker": "FRE.DE",
+        "company": "Fresenius",
+        "pct": 1.553190515396441
+      },
+      {
+        "ticker": "HCA",
+        "company": "HCA Healthcare",
+        "pct": 1.403535425267588
+      }
+    ],
+    "analysis": {
+      "business_model": "DaVita is a leading provider of kidney care solutions, primarily generating revenue through dialysis and renal therapies managed by its US Kidney Care business.",
+      "sentiment": "Bearish - price drop contradicts headline claiming outperformance",
+      "why_moved": "The stock fell 6.3% despite a headline claiming it outperformed competitors, creating a discrepancy with the known earnings catalyst of a +6.9% EPS surprise reported on 2026-10-29.",
+      "read_across": "Peers Aier Eye Hospital (+3.6%), Fresenius (+1.6%), and HCA Healthcare (+1.4%) all moved positively, indicating DVA's decline was idiosyncratic rather than sector-wide.",
+      "look_out": "Monitor if the stock continues to disregard the positive earnings surprise against the backdrop of rising peer values.",
+      "memory": "This ticker has triggered this alert 3x in the last 180 days, most recently on 2026-10-30 with a -6.6% move."
+    }
   }
 ]
