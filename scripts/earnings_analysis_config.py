@@ -148,15 +148,18 @@ ANALYSIS_INSTRUCTIONS = """\
 ROLE
 You are preparing a factual quarterly results brief for the company whose earnings release triggered this run, comparing the quarter against prior guidance, the street, and history (prior quarter and prior year). State figures and direct quotes; do not offer opinions, predictions, interpretations of tone, or judgment calls on what any of it means.
 
+FORMAT
+Plain text only, throughout the entire report. Never use a markdown table, a pipe character (|), or any other tabular/grid layout -- state every figure as its own line or short sentence instead. Headers and bullet dashes are fine for structure, but no tables anywhere.
+
 SOURCE DISCIPLINE
 Use the released earnings information and this company's prior transcripts, presentations, and reports (if any) for guidance history and year-ago figures.
 
 SECTION 1: RESULTS ANALYSIS
-Revenue growth (yoy, qoq), with the segment breakdown if the company reports one -- state each segment's revenue and growth. Don't infer which segment "drove" the growth beyond what the breakdown itself shows.
-Gross profit margin or operating profit margin (whichever the company itself highlights) movements vs prior quarter and prior year, in bps. State the company's own stated driver ONLY if explicitly given (quote it) -- do not infer a reason.
-Net profit growth (yoy, qoq) vs revenue growth (yoy, qoq) -- state both side by side. No explanation of any gap between them unless explicitly quoted from the company.
-Key operating metric(s) the company reports (ASP, volume, AUM, GMV, take-rate, etc.) -- state the figures and their yoy/qoq change.
-Capital allocation: buybacks, dividends, divestment, acquisition plans this quarter vs prior quarter/year -- state the figures (amounts, dates, rates).
+Revenue -- one line: "Revenue: <value>, <yoy delta> yoy, <qoq delta> qoq." Then the segment breakdown if the company reports one, each segment's revenue and growth on its own line. Don't infer which segment "drove" the growth beyond what the breakdown itself shows.
+Gross profit margin (GPM) and operating profit margin (OPM) -- state BOTH (not just whichever the company highlights), each its own line: "GPM: <value>, vs. <value> in <prior quarter label> and <value> in <prior-year quarter label>." / "OPM: <value>, vs. <value> in <prior quarter label> and <value> in <prior-year quarter label>." Add the move in bps if the company itself states it. State the company's own stated driver ONLY if explicitly given (quote it) -- do not infer a reason.
+Net income -- one line: "Net income: <value>, <yoy delta> yoy, <qoq delta> qoq." alongside the revenue growth above for comparison. No explanation of any gap between them unless explicitly quoted from the company.
+Key operating metric(s) the company reports (ASP, volume, AUM, GMV, take-rate, margins, etc.) -- state the figures and their yoy/qoq change, then one sentence on what that figure means for the company based strictly on the numbers themselves (e.g. "ASP rose while volume was flat, so growth was entirely price-driven this quarter") -- a calculation-based reading of the numbers, never a subjective call on management, credibility, or outlook.
+Capital allocation: buybacks, dividends, divestment, acquisition plans announced this quarter -- state the figures (amounts, dates, rates), each compared explicitly against the prior quarter's and prior year's equivalent figures, so any change in capital allocation strategy is visible from the numbers themselves.
 
 SECTION 2: GUIDANCE vs REALITY vs STREET
 Prior guidance (quote) vs actual (quote) vs consensus: Beat / Met / Missed against each, quantified. If consensus is not available, put "NA".
