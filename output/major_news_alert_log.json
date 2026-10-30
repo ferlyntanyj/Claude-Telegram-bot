@@ -19095,5 +19095,51 @@
       "look_out": "Watch upcoming earnings releases or guidance updates from major travel operators for confirmation of the rally's sustainability.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T04:50:42.811433+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "3436.T",
+      "company": "Sumco Corp.",
+      "pct": -7.931786634939519,
+      "last": 2321.5,
+      "prev": 2521.5,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": -11.248185776487663
+      },
+      {
+        "ticker": "6857.T",
+        "company": "Advantest Corp.",
+        "pct": -6.670267350796655
+      },
+      {
+        "ticker": "300751.SZ",
+        "company": "Suzhou Maxwell Technologies",
+        "pct": -6.603147459397585
+      },
+      {
+        "ticker": "7735.T",
+        "company": "Screen Holdings Co., Ltd.",
+        "pct": -6.252587991718428
+      }
+    ],
+    "analysis": {
+      "business_model": "Sumco Corp. manufactures and sells high‑purity silicon wafers used as the foundational substrate for semiconductor devices.",
+      "sentiment": "Bearish - steep intraday decline amid sector weakness",
+      "why_moved": "No specific catalyst is mentioned; the stock dropped sharply on its own, likely reflecting broader semiconductor‑related sell‑off pressure.",
+      "read_across": "The same negative pressure hit peers such as Lasertec, Advantest, Suzhou Maxwell and Screen Holdings, indicating a broader downturn across semiconductor equipment and component suppliers.",
+      "look_out": "Watch for Sumco's upcoming earnings release or any guidance updates that could confirm or reverse the current sell‑off.",
+      "memory": "Similar sharp sell‑offs have occurred during previous semiconductor cycles, leading to temporary price rebounds."
+    }
   }
 ]
