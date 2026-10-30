@@ -23010,5 +23010,251 @@
       "look_out": "Monitor if the decline in other Electronic Components group names continues to signal broader industry de-rating or if it remains an idiosyncratic flow event.",
       "memory": "This ticker has triggered this alert 3 times in the last 180 days, most recently on 2026-10-30 with a 6.4% drop, suggesting recurring volatility."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T15:48:42.830347+00:00",
+    "type": "single_stock",
+    "headline": "Linde delivers a good quarter and puts in a fix for an overhang on the stock",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSjdtaFBhNHRyTkdwckpYV2ZhU3R1R09FdzAwdGNwSXRRYlhReFp3RDNRZUIxNS1RSkFCNzlPZ1VuTzBvOHdNZ1Vqa2JWdy1xdjFDdUdlTkMzbnh6Z2F4OHBTMUpLVXdldmhQVXRWZE9wdFowRXcyR2d4QTNLckQwRTNUQjZTQUFVbjhfR0xCQzNaYnljN0x3bUJQYzI2dVJocWZjekdWZG5lYUVrTVEtU25WaW9BMXhhVUtnV3ZzZUFBRHF4WHc?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "FIX",
+      "company": "Comfort Systems USA",
+      "pct": -6.268143995163689,
+      "last": 1243.0999755859375,
+      "prev": 1326.22998046875,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "000720.KS",
+        "company": "Hyundai E&C",
+        "pct": -4.293193717277488
+      },
+      {
+        "ticker": "601117.SS",
+        "company": "China National Chemical Engineering",
+        "pct": 3.0434787716592027
+      },
+      {
+        "ticker": "028050.KS",
+        "company": "Samsung E&A",
+        "pct": -2.180685358255452
+      }
+    ],
+    "analysis": {
+      "business_model": "Comfort Systems USA is an engineering and construction firm specializing in mechanical and electrical systems, primarily for commercial and industrial buildings. Its core revenue driver is the design and installation of HVAC, plumbing, and electrical infrastructure.",
+      "sentiment": "Neutral - headline focuses on Linde, not Comfort Systems",
+      "why_moved": "No specific catalyst for Comfort Systems is stated in the provided text, which focuses on Linde's quarterly results and a stock overhang. The price action shows a -6.3% intraday drop, potentially reflecting broader sector flows or unrelated financial news not detailed here.",
+      "read_across": "Peers show mixed results, with Hyundai E&C down -4.3% and Samsung E&A down -2.2%, while China National Chemical Engineering gained +3.0%. This suggests individual idiosyncratic factors or regional divergence rather than a uniform sector-wide shock.",
+      "look_out": "Watch for any follow-up clarification on Comfort Systems-specific news, as the provided headline does not link its movement to Linde's performance. Monitor whether the -6.3% drop is sustained or reverses in the coming sessions.",
+      "memory": "This ticker triggered this alert twice in our tracking over the last 180 days, most recently on 2026-10-30 with a -6.1% move. Five other names in the Engineering & Construction group have also triggered this alert in the same period."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T15:48:42.830363+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "JBL",
+      "company": "Jabil",
+      "pct": -6.0430151839193975,
+      "last": 270.3800048828125,
+      "prev": 287.7699890136719,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "2308.TW",
+        "company": "Delta Electronics",
+        "pct": -9.797297297297302
+      },
+      {
+        "ticker": "002938.SZ",
+        "company": "Avary Holding (Shenzhen) Co",
+        "pct": -9.165170224246367
+      },
+      {
+        "ticker": "002916.SZ",
+        "company": "Shennan Circuits",
+        "pct": -8.195430575907459
+      }
+    ],
+    "analysis": {
+      "business_model": "Jabil provides manufacturing and logistics services, primarily focusing on electronic contract manufacturing for technology and industrial clients.",
+      "sentiment": "Bearish - broad weakness across electronic components peers",
+      "why_moved": "No specific catalyst such as earnings or guidance is explicitly stated in the provided data. The price move appears to be part of a sector-wide decline, with Jabil falling 6.0% alongside other component manufacturers.",
+      "read_across": "Peers including Delta Electronics, Avary Holding, and Shennan Circuits are significantly lower, indicating widespread negative sentiment across the electronic components group.",
+      "look_out": "Monitor for further downside continuity among the 13 other Electronic Component names that have triggered similar alerts recently.",
+      "memory": "Historical tracking data indicates 13 other names in the Electronic Components group has triggered this alert in the last 180 days."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T15:48:42.830375+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "SMCI",
+      "company": "Supermicro",
+      "pct": -6.4333434009726576,
+      "last": 32.21500015258789,
+      "prev": 34.43000030517578,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "SNDK",
+        "company": "Sandisk",
+        "pct": -11.751441155604425
+      },
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies",
+        "pct": -10.424598074949342
+      },
+      {
+        "ticker": "HPQ",
+        "company": "HP Inc.",
+        "pct": -8.702483394291994
+      }
+    ],
+    "analysis": {
+      "business_model": "Supermicro designs and sells high-performance server hardware and computer systems tailored for cloud, data center, and AI workloads.",
+      "sentiment": "Bearish - broad computer hardware sector sold off sharply",
+      "why_moved": "No specific corporate catalyst, earnings, or news event is stated in the provided text; the movement is described solely as a price action within a broader sector move.",
+      "read_across": "Peers Sandisk, Dell Technologies, and HP Inc. experienced simultaneous sharp declines ranging from -8.7% to -11.8%, indicating systemic pressure across the Computer Hardware group.",
+      "look_out": "Monitor whether the other eight Computer Hardware names that triggered alerts in the last 180 days continue to see sustained softness or if the sector stabilizes.",
+      "memory": "This ticker has triggered this alert three times in the last 180 days, most recently on 2026-10-30 with a -6.1% move, indicating a pattern of recent volatility."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T15:48:42.830379+00:00",
+    "type": "single_stock",
+    "headline": "Buying a new home could get you a better mortgage rate. These 3 lenders can help",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVXRVS3ZwakpMZkcyc0NvQ2c5MUhFYVVGZGZLQzd5MVprcGdMbXY4aE95empHR3UteTB1UHJYWGdjNXhmTk85WTM1QUZULVVQcGpDeDZTdDJYNXEtdFFkLXhwWXBZbWY1SWlWX3VSQ3hCTi1RMDJyQ0kyemVWSk5ZWEJIUWLSAYoBQVVfeXFMUEtQYWVXM2hKaXotNC0yQVBsd1k4VUVYNC1tTWhmMmw2Y1pvRTEycXhkblJvbnZUM2hPdk1lR0I5UF9EZ3ZHcVpMcE4tcVdSYnFIVGg0alNVVFo4YWFCaEN6d2Z6QUVaVDZOUGNLTzMwaGp5MDhxRDBzQ2VyZExOUEtMOEpicXJ6cTRR?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "BBY",
+      "company": "Best Buy",
+      "pct": -6.265565249297056,
+      "last": 94.0999984741211,
+      "prev": 100.38999938964844,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "JBH.AX",
+        "company": "JB Hi-Fi",
+        "pct": 6.208094340317016
+      },
+      {
+        "ticker": "WSM",
+        "company": "Williams-Sonoma, Inc.",
+        "pct": -1.895246698450237
+      },
+      {
+        "ticker": "ULTA",
+        "company": "Ulta Beauty",
+        "pct": -1.6597780711053667
+      }
+    ],
+    "analysis": {
+      "business_model": "Best Buy is a major consumer electronics retailer that generates revenue by selling home entertainment, mobile devices, and appliances to individual customers and small businesses.",
+      "sentiment": "Bearish, sharp single-day drop signals significant loss of investor confidence",
+      "why_moved": "The text does not specify a corporate catalyst for the decline, only noting a 6.3% intraday drop in Best Buy shares.",
+      "read_across": "Domestic peers showed mixed reactions, with Williams-Sonoma and Ulta Beauty dipping slightly, while international peer JB Hi-Fi surged 6.2%.",
+      "look_out": "Investors should monitor whether domestic peers like Williams-Sonoma and Ulta Beauty stabilize or continue to decline alongside Best Buy.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T15:48:42.830382+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "CCC.L",
+      "company": "Computacenter",
+      "pct": -6.336822074215032,
+      "last": 4922.0,
+      "prev": 5255.0,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "CDW",
+        "company": "CDW Corporation",
+        "pct": -12.306296735237932
+      },
+      {
+        "ticker": "018260.KS",
+        "company": "Samsung SDS",
+        "pct": -7.191011235955058
+      },
+      {
+        "ticker": "6701.T",
+        "company": "Nec Corp.",
+        "pct": -6.3869992441421
+      }
+    ],
+    "analysis": {
+      "business_model": "Computacenter is an information technology services provider that generates revenue primarily through IT consulting, infrastructure management, and related professional services.",
+      "sentiment": "Bearish - broad sector-wide price decline with no specific catalyst",
+      "why_moved": "No specific news catalyst or corporate event is cited in the provided text; the move reflects price data indicating a 6.3% intraday drop.",
+      "read_across": "Peers in the Information Technology Services group, including CDW, Samsung SDS, and Nec Corp, are also posting significant intraday losses, suggesting a sector-wide sell-off.",
+      "look_out": "Monitor intraday price action and peer performance for follow-through or stabilization signals, as no upcoming event or fundamental data point is specified.",
+      "memory": "Our tracking data shows this ticker triggered this alert once in the last 180 days, most recently on 2026-10-26 with a +7.0% move."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T15:48:42.830385+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "COHR",
+      "company": "Coherent Corp.",
+      "pct": -13.550714150175768,
+      "last": 205.0749969482422,
+      "prev": 237.22000122070312,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "KEYS",
+        "company": "Keysight Technologies",
+        "pct": -6.1772375170437765
+      },
+      {
+        "ticker": "TDY",
+        "company": "Teledyne Technologies",
+        "pct": -2.961059975197089
+      },
+      {
+        "ticker": "GRMN",
+        "company": "Garmin",
+        "pct": -2.168324380681985
+      }
+    ],
+    "analysis": {
+      "business_model": "Coherent Corp. designs and manufactures photonics, electronics, and laser solutions used in data communications, industrial manufacturing, and defense applications.",
+      "sentiment": "Bearish - significant intraday drop alongside optical peer Keysight",
+      "why_moved": "No specific fundamental catalyst is stated in the provided text, only the price drop. The move coincides with broad weakness across optical and technology peers, suggesting sector-wide selling pressure rather than idiosyncratic news.",
+      "read_across": "Peers Keysight Technologies, Teledyne Technologies, and Garmin also declined, indicating a negative sentiment shift in the broader photonics and precision instruments sector rather than an isolated incident.",
+      "look_out": "Monitor for any late-breaking corporate announcements or analyst actions that may explain the divergence, as well as continued price action among optical peers like Keysight to confirm sector trends.",
+      "memory": "Historical tracking shows this ticker triggered a similar alert 6 times in the last 180 days, most recently on 2026-10-30 with a -9.0% move, indicating a pattern of high volatility."
+    }
   }
 ]

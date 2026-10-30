@@ -117,8 +117,9 @@
       "last_move_asof": "2026-09-28"
     },
     "single:SMCI": {
-      "last_alert_utc": "2026-09-21T13:48:24.040588+00:00",
-      "last_move_pct": 5.039655188061443
+      "last_alert_utc": "2026-10-30T15:48:40.490840+00:00",
+      "last_move_pct": -6.4333434009726576,
+      "last_move_asof": "2026-10-30"
     },
     "single:3008.TW": {
       "last_alert_utc": "2026-10-05T02:50:08.606246+00:00",
@@ -979,9 +980,9 @@
       "last_move_asof": "2026-10-07"
     },
     "single:FIX": {
-      "last_alert_utc": "2026-10-07T16:05:57.469273+00:00",
-      "last_move_pct": -6.315310398470986,
-      "last_move_asof": "2026-10-07"
+      "last_alert_utc": "2026-10-30T15:48:39.029508+00:00",
+      "last_move_pct": -6.268143995163689,
+      "last_move_asof": "2026-10-30"
     },
     "single:373220.KS": {
       "last_alert_utc": "2026-10-19T04:42:33.226985+00:00",
@@ -1204,9 +1205,9 @@
       "last_move_asof": "2026-10-26"
     },
     "single:CCC.L": {
-      "last_alert_utc": "2026-10-26T09:03:48.474027+00:00",
-      "last_move_pct": 6.951199533632901,
-      "last_move_asof": "2026-10-26"
+      "last_alert_utc": "2026-10-30T15:48:42.065267+00:00",
+      "last_move_pct": -6.336822074215032,
+      "last_move_asof": "2026-10-30"
     },
     "single:300124.SZ": {
       "last_alert_utc": "2026-10-28T06:03:38.073905+00:00",
@@ -1527,8 +1528,23 @@
       "last_alert_utc": "2026-10-30T15:33:30.368976+00:00",
       "last_move_pct": 2.145223259693363,
       "last_move_asof": "2026-10-30"
+    },
+    "single:JBL": {
+      "last_alert_utc": "2026-10-30T15:48:39.768545+00:00",
+      "last_move_pct": -6.0430151839193975,
+      "last_move_asof": "2026-10-30"
+    },
+    "single:BBY": {
+      "last_alert_utc": "2026-10-30T15:48:41.235877+00:00",
+      "last_move_pct": -6.265565249297056,
+      "last_move_asof": "2026-10-30"
+    },
+    "sector:scientific technical instruments": {
+      "last_alert_utc": "2026-10-30T15:48:42.818614+00:00",
+      "last_move_pct": -2.564692177939537,
+      "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-10-30T15:30:42.756780+00:00",
+  "last_run_utc": "2026-10-30T15:45:37.013005+00:00",
   "failed_analysis": {}
 }
