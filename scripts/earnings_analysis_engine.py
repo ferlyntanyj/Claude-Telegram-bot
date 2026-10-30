@@ -44,10 +44,16 @@ Per newly-reported ticker:
 
 A failure at any stage, for any one ticker, is caught and logged -- it does
 not stop the rest of the watchlist from being checked, matching how the
-other alerts in this repo treat a single bad ticker as non-fatal.
+other alerts in this repo treat a single bad ticker as non-fatal. A
+failure here does NOT advance that ticker's last_analyzed_date, so it gets
+retried on every subsequent run until it succeeds (see _apply_detection's
+docstring -- this matters in practice: Groq's free tier shares a 200k
+tokens/day cap across this account, including major_news_alert.py's much
+more frequent polling, so a 429 here is a real, expected, not-rare case).
 
 State (data/earnings_analysis_state.json) is a flat map of
-ticker -> {"last_reported_date": "YYYY-MM-DD"}, plus a top-level
+ticker -> {"last_reported_date": "YYYY-MM-DD", "last_analyzed_date":
+"YYYY-MM-DD"}, plus a top-level
 last_run_utc for observability (same shape convention as
 data/alert_state.json in major_news_engine.py).
 """
@@ -150,29 +156,65 @@ def _latest_reported_row(ticker):
 
 
 def _apply_detection(item, latest, tickers_state, today):
-    """Shared is_new/is_first_seen/baseline-update logic for one ticker,
-    given a resolved (date, eps_estimate, reported_eps, surprise_pct) tuple
-    from whichever detection path (yfinance or the web-search fallback)
-    found it. Returns a new-report entry dict, or None if this is just a
-    baseline update (first time seen, or not actually newer)."""
+    """Shared detection logic for one ticker, given a resolved
+    (date, eps_estimate, reported_eps, surprise_pct) tuple from whichever
+    path (yfinance or the Google News fallback) found it. Returns a
+    new-report entry dict to analyze, or None if there's nothing pending.
+
+    Tracks two separate dates per ticker, deliberately not one -- confirmed
+    necessary by a real Groq 429 (daily token cap, shared with
+    major_news_alert.py) during testing: with a single "last_reported_date"
+    that doubles as both the detection baseline AND the "already handled"
+    marker, a single failed analyze_ticker() call would have permanently
+    marked that report as done, silently dropping it forever even though
+    it was never actually analyzed or sent.
+      - last_reported_date: the newest report date detection has ever seen
+        (prevents re-treating the same report as "new" every run).
+      - last_analyzed_date: the newest report date actually, successfully
+        analyzed. Whenever this trails last_reported_date, that report is
+        still pending and gets retried on every subsequent run -- with no
+        retry cap, deliberately: every stage below the Groq calls already
+        degrades gracefully instead of raising (gather_financial_snapshot,
+        _gather_grounding), so a persistent failure here is far more likely
+        to be transient (rate limit, an outage) than the "permanently bad
+        per-ticker data" case the old single-date design was guarding
+        against, and the cost of trying again is just one more cheap call,
+        not a fresh full re-scan."""
     ticker = item["ticker"]
     report_date, eps_est, reported_eps, surprise_pct = latest
-    prior = tickers_state.get(ticker, {}).get("last_reported_date")
-    is_new = prior is not None and report_date.isoformat() > prior
-    is_first_seen = prior is None
+    stored = tickers_state.get(ticker)
 
-    entry = None
-    if is_new and (today - report_date).days <= cfg.MAX_REPORT_AGE_DAYS:
-        entry = {
-            **item,
-            "report_date": report_date,
-            "eps_estimate": eps_est,
-            "reported_eps": reported_eps,
-            "surprise_pct": surprise_pct,
+    if stored is None:
+        # First time ever seeing this ticker -- baseline only, never fires.
+        tickers_state[ticker] = {
+            "last_reported_date": report_date.isoformat(),
+            "last_analyzed_date": report_date.isoformat(),
         }
-    if is_new or is_first_seen:
-        tickers_state[ticker] = {"last_reported_date": report_date.isoformat()}
-    return entry
+        return None
+
+    if report_date.isoformat() > stored["last_reported_date"]:
+        # A genuinely new report. Only accept it if it's recent enough --
+        # guards against yfinance briefly returning a stale/partial row
+        # jumping the baseline forward by an implausible amount. This gate
+        # applies only to accepting a brand-new report, never to retrying
+        # one already accepted (see docstring) -- a report that's still
+        # pending keeps retrying regardless of how many days have now
+        # passed since it first appeared.
+        if (today - report_date).days <= cfg.MAX_REPORT_AGE_DAYS:
+            stored["last_reported_date"] = report_date.isoformat()
+        else:
+            return None
+
+    if (stored.get("last_analyzed_date") or "") >= stored["last_reported_date"]:
+        return None  # nothing pending
+
+    return {
+        **item,
+        "report_date": report_date,
+        "eps_estimate": eps_est,
+        "reported_eps": reported_eps,
+        "surprise_pct": surprise_pct,
+    }
 
 
 def detect_new_reports(watchlist, state):
@@ -758,14 +800,20 @@ def run_cycle(dry_run=False):
         return []
 
     results = []
+    tickers_state = state.setdefault("tickers", {})
     for item in new_reports:
         print(f"Analyzing {item['ticker']} ({item['company']})...")
         outcome = analyze_ticker(item)
         if outcome is None:
+            print(f"  {item['ticker']} failed -- will retry next run (last_analyzed_date not "
+                  f"advanced).")
             continue
         full_report, digest = outcome
         report_path = save_report(item, full_report)
         results.append({"item": item, "digest": digest, "report_path": report_path})
+        # Only a SUCCESSFUL analysis advances last_analyzed_date -- see
+        # _apply_detection's docstring for why a failure must not.
+        tickers_state[item["ticker"]]["last_analyzed_date"] = item["report_date"].isoformat()
 
     save_state(state)
     return results
