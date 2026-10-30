@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-10-30T16:30:40.910105+00:00",
+  "last_run_utc": "2026-10-30T16:40:02.270429+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T16:03:02.496192+00:00"
@@ -1561,6 +1561,9 @@
     },
     "sector:medical instruments supplies": {
       "last_attempt_utc": "2026-10-30T16:33:17.741341+00:00"
+    },
+    "single:AKAM": {
+      "last_attempt_utc": "2026-10-30T16:41:52.289142+00:00"
     }
   }
 }
