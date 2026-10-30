@@ -20402,5 +20402,210 @@
       "look_out": "Monitor the divergence between US peers like Quanta Services and international peers to determine if the move is idiosyncratic or systematic. Watch for further triggers from other names in the Engineering & Construction group.",
       "memory": "This ticker triggered this alert once in the last 180 days, most recently on 2026-10-07 with a -6.3% move. Five other names in the Engineering & Construction group also triggered this alert in our tracking over the last 180 days."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T11:48:30.149090+00:00",
+    "type": "single_stock",
+    "headline": "Japan's industry ministry, Siemens Energy to partner on floating offshore wind project",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOX28wbEl4U09DYlQ3Q05hTTV6UUF3eWtER2FmdWVIMGNEQ3dOaVRRSW9peVVmODJNclNlUXFLb09ZaWJlRlZ1bWZhM05PUENyNnRrdUxBaVRIcWxMUkJkY1N6RUZmTktkMl9SZHI0YUFld0dqYjRmbHVIV2tONmZmYUF3MV9lRlRIRTRBLWFEUnFFRG5uazdBVkt0YVN0eUMweFhWUEJNUUgwWUpZckdMQmdOS0ZOOF8wc3EyV09GcFc0N2I1eW5Ia0Z3?oc=5",
+    "market_name": "Germany · XETRA",
+    "primary": {
+      "ticker": "ENR.DE",
+      "company": "Siemens Energy",
+      "pct": -6.061046801308578,
+      "last": 128.02000427246094,
+      "prev": 136.27999877929688,
+      "currency": "EUR"
+    },
+    "peers": [
+      {
+        "ticker": "1590.TW",
+        "company": "AirTac",
+        "pct": -6.521739130434778
+      },
+      {
+        "ticker": "IR",
+        "company": "Ingersoll Rand",
+        "pct": 6.043744695067899
+      },
+      {
+        "ticker": "5333.T",
+        "company": "Ngk Insulators, Ltd.",
+        "pct": -4.906204906204903
+      }
+    ],
+    "analysis": {
+      "business_model": "Siemens Energy is a major industrial group focusing on power generation and grid infrastructure, with core revenues driven by manufacturing turbines, transformers, and renewable energy systems like offshore wind.",
+      "sentiment": "Bearish - significant intraday sell-off despite positive partnership news",
+      "why_moved": "No specific catalyst like earnings or guidance is stated in the text; the sharp 6.1% decline occurred alongside the announcement of a partnership with Japan's industry ministry on floating offshore wind.",
+      "read_across": "Peer performance was mixed, with AirTac and Ngk Insulators declining similarly, while Ingersoll Rand rose, suggesting the move may be idiosyncratic or tied to specific sector flows rather than a universal industrial sell-off.",
+      "look_out": "Monitor whether the floating offshore wind partnership leads to tangible revenue opportunities or if broader industrial sentiment continues to suppress the stock despite strategic announcements.",
+      "memory": "Our tracking data indicates that five other names in the Specialty Industrial Machinery group triggered this same alert in the last 180 days, suggesting this is a recurring pattern within the sector rather than an isolated event."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T11:48:30.149111+00:00",
+    "type": "single_stock",
+    "headline": "Micron Stock Falls as Samsung Earnings Show the High Bar for Memory Stocks.",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYVprRmdFU1M2cmhCUUhmd0RnNFFpX19leG13UjlOOUwwMVUzSTA5NW5wNllZd0JGem1IOFpCeS1yQXlPS3FrTWZ5TWptanlvbkNtQllncjE2ZE9pVkRFX1NVNEFDTUo2NWVDYUw3VGw3TWhKbGVsMThGc1lxSFhiUFRkRS0?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "MU",
+      "company": "Micron Technology",
+      "pct": -6.008971,
+      "last": 878.13,
+      "prev": 934.27,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "MRVL",
+        "company": "Marvell Technology",
+        "pct": -13.236637538841245
+      },
+      {
+        "ticker": "300661.SZ",
+        "company": "SG Micro",
+        "pct": -8.082172173713541
+      },
+      {
+        "ticker": "688396.SS",
+        "company": "China Resources Microelectronics",
+        "pct": -7.2177710449030545
+      }
+    ],
+    "analysis": {
+      "business_model": "Micron Technology designs and manufactures DRAM and NAND flash memory, serving as a core hardware component for computing and mobile devices.",
+      "sentiment": "Bearish - sector-wide decline signals serious earnings headwinds",
+      "why_moved": "Micron shares fell 6.0% intraday following news that Samsung's earnings indicate a high performance bar for memory stocks. The headline implies that Samsung's results are currently deflating expectations across the memory sector.",
+      "read_across": "Domestic and international peers Mirroring the weakness, with Marvell falling 13.2% and Chinese semiconductor firms SG Micro and China Resources Microelectronics dropping 8.1% and 7.2% respectively. This suggests a broad-based valuation reset within the Semiconductors group rather than a Micron-specific issue.",
+      "look_out": "Monitor follow-through in the remaining 19 semiconductor names that triggered similar alerts recently to determine if this is a sustained sector rotation. Watch for further data confirming whether the 'high bar' mentioned in the headline leads to broader guidance cuts or just short-term volatility.",
+      "memory": "Our tracking data shows Micron triggered this alert only once in the last 180 days, most recently on 2026-09-18 when it rose 5.5%. However, 19 other names in the Semiconductors group have triggered this alert in the same period, indicating heightened volatility across the group."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T11:48:30.149117+00:00",
+    "type": "single_stock",
+    "headline": "Applied Materials Inc. stock outperforms competitors on strong trading day",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUW51ZUV2UW9WM0FsS2Q1b25TMjZwekVMWXhBa3lObmNIWkNSUnI0dUtHNU5hbENYdkszd0l4UThvSDM1dkFMSWhwWTdPMkZCX1BBQWJKTnlGeE82TGtIN3lsbGJBTUplOUhwVVlOcUY4RUhpYkhnRFp6cTlJLS1OWGstbDdPcFcwX2ZKZFB1eWVLei1BNk9OZm1BTFRkZktzWXpFcGpBMTZXcjg0aURiNG1BeFBYaWpLTEhTN0RCUTR5a013MG13RkNROXBiQQ?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "AMAT",
+      "company": "Applied Materials",
+      "pct": -6.0063086,
+      "last": 396.3338,
+      "prev": 421.66,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300751.SZ",
+        "company": "Suzhou Maxwell Technologies",
+        "pct": -12.751919593728168
+      },
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": -8.805031446540879
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": -7.931786634939519
+      }
+    ],
+    "analysis": {
+      "business_model": "Applied Materials designs and sells semiconductors manufacturing systems and services, primarily providing equipment for depositing, patterning, and measuring layers in wafer fabrication.",
+      "sentiment": "Bearish - peers falling significantly alongside AMAT's intraday drop",
+      "why_moved": "The specific catalyst for the -6.0% intraday move is not stated in the provided text, which only notes strong trading day outperformance relative to one headline description.",
+      "read_across": "Domestic and international peers show synchronized weakness, with Suzhou Maxwell -12.8%, Lasertec -8.8%, and Sumco -7.9%, indicating broad sector pressure rather than an idiosyncratic event.",
+      "look_out": "Monitor for further drops in the Semiconductor Equipment & Materials group, as 8 other names in this group have recently triggered similar alerts.",
+      "memory": "This name has triggered this alert 5x in the last 180 days, most recently on 2026-09-21 with a +5.2% move, indicating recent volatility in the group."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T11:48:30.149121+00:00",
+    "type": "single_stock",
+    "headline": "Cramer's lightning round: Sell AMC",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1CUG9RVV9mcVZ0dEFacXlELWVlUDdfTXcxUV83bU5mRWRGd0ZUdGtyNS1OYUF0MnY2Y0VWaGVpZEV4UHR5cnozS2pISkwtdVpFMl9obXpIelZ2cmk3Zm1ad2tBWnoxM1VSdlVvOWd6NktwZlpmQkZLONIBfkFVX3lxTE5MS0c3TVY1dlBBTDItTmpPMjlRWkZyX3ZLQVlUWTlRLUo3UW12RjY5UXZpOE1KaEU2LVdfYXdpRm9pZzQtS1ZJNTJnNllLYkF2ak41STlaZ0dzSDhXLXBfcmxiazRJVmlJRTV2TjRoRGJWeVVqUTgwMGVFenV1dw?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "LRCX",
+      "company": "Lam Research",
+      "pct": -6.4428635,
+      "last": 238.0,
+      "prev": 254.39,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300751.SZ",
+        "company": "Suzhou Maxwell Technologies",
+        "pct": -12.751919593728168
+      },
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": -8.805031446540879
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": -7.931786634939519
+      }
+    ],
+    "analysis": {
+      "business_model": "Lam Research designs and manufactures semiconductor capital equipment, providing critical wafer fabrication tools such as etching and deposition systems to chipmakers.",
+      "sentiment": "Bearish - significant intraday decline signaling sector-wide weakness",
+      "why_moved": "The text does not specify a corporate catalyst such as earnings or guidance for the -6.4% decline. The price action coincided with a broader drop across semiconductor equipment peers and a CNBC headline regarding a different ticker.",
+      "read_across": "Peers in the same equipment and materials group experienced similar or larger losses, including Suzhou Maxwell Technologies (-12.8%), Lasertec Corp. (-8.8%), and Sumco Corp. (-7.9%). This suggests a synchronized negative sentiment affecting the broader semiconductor capital equipment sector.",
+      "look_out": "Watch for continued underperformance among the eight other Semiconductor Equipment & Materials names that triggered similar alerts recently. The correlation with the AMC sell rumor may imply broad risk-off behavior rather than equipment-specific fundamental deterioration.",
+      "memory": "LRCX has triggered this specific alert three times in the last 180 days, most recently on 2026-09-21 with a +5.1% move. Eight other names in the Semiconductor Equipment & Materials group have also triggered this alert within the same 180-day window."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T11:48:30.149129+00:00",
+    "type": "single_stock",
+    "headline": "Coinbase net income surges 66% in third quarter, benefiting from bitcoin investment gains",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1DQWNxa2JydjlYazNWN1EtQTRLS2NQTm9uRl9BRTIzbkwzRm5Wa3hCM1NWWVN5V2ZLSFNnbkJQeTc0ZGhtZ0c1WlZNLXd5bTRtTnpGRkhSWVdBTEpyZ1hxU1p1N3R4anhsSkNhVmRqT241bXV1WVU00gF8QVVfeXFMTWcxSDVOZC1xSnZUdDlPWjlNVHYydlVIblgzZ0kwOVUtM0EyX0QwN0hMczRLbUx1UExIM2E0ZWpNTUJQV2pubHR6Mmw0THJ1QlBjOElwc3dfTENPN21rUVVseG51LWNCUXhJS2NaOFhXN2dEWjdHMzRkOGYwdg?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "COIN",
+      "company": "Coinbase",
+      "pct": -6.195901,
+      "last": 150.64,
+      "prev": 160.59,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300033.SZ",
+        "company": "Hithink RoyalFlush Information Network",
+        "pct": -4.878174510850474
+      },
+      {
+        "ticker": "ICE",
+        "company": "Intercontinental Exchange",
+        "pct": 4.539616739857522
+      },
+      {
+        "ticker": "SPGI",
+        "company": "S&P Global",
+        "pct": 2.521535937602404
+      }
+    ],
+    "analysis": {
+      "business_model": "Coinbase is a cryptocurrency exchange platform that facilitates the buying, selling, and trading of digital assets like Bitcoin.",
+      "sentiment": "Mixed, strong EPS surprise offset by significant share price decline",
+      "why_moved": "The stock fell despite a massive EPS surprise of 2.51 versus 0.08 estimate, which CNBC attributes to a 66% surge in net income from Bitcoin investment gains.",
+      "read_across": "Financial data providers ICE and SPGI bucked the trend with gains, while Chinese tech peer Hithink RoyalFlush also saw declines, suggesting a mixed or sector-specific reaction rather than broad market contagion.",
+      "look_out": "Monitors should watch how the market digests the quality of earnings driven by volatile crypto asset gains versus core operational performance in the coming sessions.",
+      "memory": "COIN has triggered this alert three times in the last 180 days, with the prior most recent instance on 2026-09-21 showing a +5.5% move, indicating repeated high-volatility alerts for this ticker."
+    }
   }
 ]

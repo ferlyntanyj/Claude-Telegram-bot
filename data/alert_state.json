@@ -484,8 +484,9 @@
       "last_move_pct": 12.942073
     },
     "premarket:COIN": {
-      "last_alert_utc": "2026-09-21T09:32:44.583139+00:00",
-      "last_move_pct": 5.2303753
+      "last_alert_utc": "2026-10-30T11:48:30.135562+00:00",
+      "last_move_pct": -6.195901,
+      "last_move_asof": null
     },
     "premarket:CIEN": {
       "last_alert_utc": "2026-10-30T10:48:41.650215+00:00",
@@ -1361,7 +1362,27 @@
       "last_alert_utc": "2026-10-30T11:33:05.584559+00:00",
       "last_move_pct": -6.124879,
       "last_move_asof": null
+    },
+    "single:ENR.DE": {
+      "last_alert_utc": "2026-10-30T11:48:27.273369+00:00",
+      "last_move_pct": -6.061046801308578,
+      "last_move_asof": "2026-10-30"
+    },
+    "premarket:MU": {
+      "last_alert_utc": "2026-10-30T11:48:27.986946+00:00",
+      "last_move_pct": -6.008971,
+      "last_move_asof": null
+    },
+    "premarket:AMAT": {
+      "last_alert_utc": "2026-10-30T11:48:28.682266+00:00",
+      "last_move_pct": -6.0063086,
+      "last_move_asof": null
+    },
+    "premarket:LRCX": {
+      "last_alert_utc": "2026-10-30T11:48:29.420603+00:00",
+      "last_move_pct": -6.4428635,
+      "last_move_asof": null
     }
   },
-  "last_run_utc": "2026-10-30T11:30:45.807619+00:00"
+  "last_run_utc": "2026-10-30T11:45:37.480921+00:00"
 }
