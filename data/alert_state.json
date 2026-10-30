@@ -10,8 +10,9 @@
       "last_move_pct": 7.560780122896071
     },
     "single:AMAT": {
-      "last_alert_utc": "2026-09-21T19:39:55.964644+00:00",
-      "last_move_pct": 5.200529666034437
+      "last_alert_utc": "2026-10-30T15:03:24.017118+00:00",
+      "last_move_pct": -6.5763911078815855,
+      "last_move_asof": "2026-10-30"
     },
     "single:JBHT": {
       "last_alert_utc": "2026-09-16T17:02:49.798727+00:00",
@@ -1494,8 +1495,18 @@
       "last_alert_utc": "2026-10-30T14:18:42.339118+00:00",
       "last_move_pct": 2.0245439317666536,
       "last_move_asof": "2026-10-30"
+    },
+    "single:DXCM": {
+      "last_alert_utc": "2026-10-30T15:03:24.532728+00:00",
+      "last_move_pct": 6.202297790740019,
+      "last_move_asof": "2026-10-30"
+    },
+    "single:CSGP": {
+      "last_alert_utc": "2026-10-30T15:03:25.192685+00:00",
+      "last_move_pct": 6.254443024363643,
+      "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-10-30T14:45:29.074305+00:00",
+  "last_run_utc": "2026-10-30T15:00:53.767569+00:00",
   "failed_analysis": {}
 }

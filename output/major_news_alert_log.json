@@ -22559,5 +22559,128 @@
       "look_out": "Investors should watch for follow-through in postpaid subscriber growth to validate the earnings surprise and assess why peers are moving in the opposite direction.",
       "memory": "Historical tracking shows this ticker triggered a similar alert once in the last 180 days (2026-09-18), when it fell 5.6% despite 7 other Telecom names also triggering the alert."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T15:03:25.204790+00:00",
+    "type": "single_stock",
+    "headline": "Applied Materials Inc. stock outperforms competitors on strong trading day",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUW51ZUV2UW9WM0FsS2Q1b25TMjZwekVMWXhBa3lObmNIWkNSUnI0dUtHNU5hbENYdkszd0l4UThvSDM1dkFMSWhwWTdPMkZCX1BBQWJKTnlGeE82TGtIN3lsbGJBTUplOUhwVVlOcUY4RUhpYkhnRFp6cTlJLS1OWGstbDdPcFcwX2ZKZFB1eWVLei1BNk9OZm1BTFRkZktzWXpFcGpBMTZXcjg0aURiNG1BeFBYaWpLTEhTN0RCUTR5a013MG13RkNROXBiQQ?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "AMAT",
+      "company": "Applied Materials",
+      "pct": -6.5763911078815855,
+      "last": 393.92999267578125,
+      "prev": 421.6600036621094,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300751.SZ",
+        "company": "Suzhou Maxwell Technologies",
+        "pct": -12.751919593728168
+      },
+      {
+        "ticker": "TER",
+        "company": "Teradyne",
+        "pct": -7.686601183801356
+      },
+      {
+        "ticker": "688126.SS",
+        "company": "National Silicon Industry Group",
+        "pct": -6.451617510690378
+      }
+    ],
+    "analysis": {
+      "business_model": "Applied Materials designs and sells semiconductor capital equipment and manufacturing technologies used by chipmakers to produce integrated circuits. Its core revenue driver is the sale of deposition, etching, and inspection systems essential to advanced chip fabrication.",
+      "sentiment": "Bearish - peers falling sharply alongside AMAT",
+      "why_moved": "No specific fundamental catalyst such as earnings or guidance is explicitly stated in the provided text. The move is described as a 'strong trading day' where the stock underperformed competitors, driving a -6.6% intraday decline.",
+      "read_across": "The decline is evident across the Semiconductor Equipment & Materials group, with peers like Suzhou Maxwell Technologies and Teradyne facing similar drops. This suggests a broad sector-level selloff rather than an isolated company-specific event.",
+      "look_out": "Watch for continued weakness in the Semiconductor Equipment & Materials group, as 9 other names in this sector have triggered similar alerts recently. Monitor if the sector-wide decline continues or if AMAT can stabilize relative to its peers.",
+      "memory": "Applied Materials has triggered this alert 6 times in the last 180 days, most recently on 2026-10-30 with a -6.0% drop. 9 other names in the Semiconductor Equipment & Materials group have also triggered this alert within the same period."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T15:03:25.204805+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "DXCM",
+      "company": "Dexcom",
+      "pct": 6.202297790740019,
+      "last": 84.88749694824219,
+      "prev": 79.93000030517578,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "SYK",
+        "company": "Stryker Corporation",
+        "pct": -5.414596594326381
+      },
+      {
+        "ticker": "300760.SZ",
+        "company": "Mindray",
+        "pct": 1.5363128491620026
+      },
+      {
+        "ticker": "STE",
+        "company": "Steris",
+        "pct": -1.41293994482673
+      }
+    ],
+    "analysis": {
+      "business_model": "Dexcom develops and sells continuous glucose monitoring sensors and transmitters that allow people with diabetes to measure interstitial glucose levels in real-time.",
+      "sentiment": "Bullish - earnings beat estimates by 8.3%",
+      "why_moved": "The stock rose after reporting EPS of 0.73 compared to an estimate of 0.67. This specific 8.3% positive surprise is the stated catalyst for the price move.",
+      "read_across": "The move contrasts sharply with Stryker’s 5.4% decline and Steris’s 1.4% drop, suggesting a company-specific earnings driver rather than a broad medical device sector trend.",
+      "look_out": "Investors should watch whether the positive earnings reaction persists given the divergent performance of major medical device peers like Stryker.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T15:03:25.204811+00:00",
+    "type": "single_stock",
+    "headline": "CoStar Group Inc. stock falls Wednesday, underperforms market",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWkNHZzhMazVoSW1MbkFRYmhycHJSZFczeWF1LW0wXzM1Vm9taU16TDZSWmZINUdrM2Y0N1JsRFlqNDlzc0p0UU1FTjRqcGxvNVJlMEJvSVJDNGk2UUNpZkdNbl93aDlBREVCaFlST1QzOHZaSFBjSkNiaTJaNkU2TWhKaGs0SnFJZEV3WjJjRThfV25QREZOQmVsWUNLSFM3ZkNCUVJzeEEwajk5U096Qms3VjJwTnYzbHhr?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "CSGP",
+      "company": "CoStar Group",
+      "pct": 6.254443024363643,
+      "last": 29.899999618530273,
+      "prev": 28.139999389648438,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "1209.HK",
+        "company": "China Resources Mixc Lifestyle",
+        "pct": 4.12533123375578
+      },
+      {
+        "ticker": "1997.HK",
+        "company": "Wharf Real Estate Investment Company Limited",
+        "pct": 2.028798593155612
+      },
+      {
+        "ticker": "180640.KS",
+        "company": "Hanjin KAL",
+        "pct": -1.2759170653907526
+      }
+    ],
+    "analysis": {
+      "business_model": "CoStar Group provides commercial, residential, and industrial real estate technology, data, and services, serving as a primary source of market intelligence for investors and developers.",
+      "sentiment": "Bearish - headline states stock falls and underperforms market",
+      "why_moved": "The provided text contains no explicit catalyst for the price move, noting only that the stock fell and underperformed the market while citing a separate 2026 earnings event.",
+      "read_across": "Peers show mixed performance with China Resources Mixc and Wharf Real Estate rising, while Hanjin KAL falls, suggesting no uniform sector-wide sell-off.",
+      "look_out": "Monitor whether the reported intraday gain of 6.3% contradicts the \"falls\" headline or indicates a rapid reversal not detailed in the source text.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
