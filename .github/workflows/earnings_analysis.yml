@@ -16,7 +16,7 @@ on:
         type: boolean
         default: false
       test_ticker:
-        description: "Diagnostic: force the full pipeline for one ticker (e.g. NVDA), ignoring dry_run. Prints the report and sends the digest to Telegram tagged TEST; never touches state.json."
+        description: "Diagnostic: force the full pipeline for one ticker OR company name (e.g. NVDA or Nvidia), ignoring dry_run. Prints the report and sends the digest to Telegram tagged TEST; never touches state.json."
         type: string
         default: ""
 

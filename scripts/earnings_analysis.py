@@ -32,8 +32,11 @@ Usage:
     python earnings_analysis.py --dry-run           # just show what WOULD be analyzed;
                                                      # no API calls, no state changes
     python earnings_analysis.py --test-ticker NVDA  # force the full pipeline for one
-                                                     # ticker (any ticker, watchlist or
-                                                     # not), print the result, AND send
+                                                     # ticker OR company name (matched
+                                                     # against the watchlist, any ticker
+                                                     # or company not in it is also
+                                                     # accepted as-is), print the result,
+                                                     # AND send
                                                      # the digest to Telegram (tagged
                                                      # "TEST" so it's distinguishable
                                                      # from a real alert) -- never
@@ -88,14 +91,37 @@ def send_telegram(text, token, chat_id):
         raise RuntimeError(f"Telegram API error: {payload}")
 
 
-def _run_test_ticker(ticker):
+def _resolve_watchlist_entry(user_input):
+    """Accepts either a ticker (INTC) or a company name/substring (Intel,
+    intel) -- the workflow_dispatch text box gives no hint which one is
+    expected, and typing the company name is the more natural guess.
+    Ticker match (case-insensitive) wins first; falls back to a
+    case-insensitive substring match on company name. Returns the matched
+    watchlist dict, or None if nothing matches (caller still runs the
+    pipeline with the raw input as both ticker and company in that case)."""
+    watchlist = engine.load_watchlist()
+    lowered = user_input.strip().lower()
+    for item in watchlist:
+        if item["ticker"].lower() == lowered:
+            return item
+    for item in watchlist:
+        if lowered in item["company"].lower():
+            return item
+    return None
+
+
+def _run_test_ticker(user_input):
     if not os.environ.get("GROQ_API_KEY"):
         print("ERROR: GROQ_API_KEY environment variable not set.", file=sys.stderr)
         sys.exit(1)
-    watchlist = engine.load_watchlist()
-    match = next((i for i in watchlist if i["ticker"] == ticker), None)
-    company = match["company"] if match else ticker
-    group = match["group"] if match else "Test"
+    match = _resolve_watchlist_entry(user_input)
+    if match:
+        ticker, company, group = match["ticker"], match["company"], match["group"]
+    else:
+        ticker, company, group = user_input, user_input, "Test"
+        print(f"NOTE: \"{user_input}\" didn't match any watchlist ticker or company name -- "
+              f"using it as-is for both, which only works if it's already a valid ticker symbol "
+              f"(e.g. NVDA, not Nvidia).")
     print(f"TEST MODE: forcing the full pipeline for {ticker} ({company}). "
           f"Not touching state.json.\n")
     outcome = engine.run_test_ticker(ticker, company=company, group=group)
