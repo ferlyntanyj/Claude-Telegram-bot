@@ -1545,10 +1545,10 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-10-30T17:45:37.811335+00:00",
+  "last_run_utc": "2026-10-30T18:01:01.850980+00:00",
   "failed_analysis": {
     "single:GDDY": {
-      "last_attempt_utc": "2026-10-30T16:03:02.496192+00:00"
+      "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
     },
     "single:ON": {
       "last_attempt_utc": "2026-10-30T16:17:53.114219+00:00"
@@ -1588,6 +1588,21 @@
     },
     "single:ERIE": {
       "last_attempt_utc": "2026-10-30T17:18:57.609239+00:00"
+    },
+    "single:PLTR": {
+      "last_attempt_utc": "2026-10-30T18:03:50.626212+00:00"
+    },
+    "single:KLAC": {
+      "last_attempt_utc": "2026-10-30T18:04:01.510833+00:00"
+    },
+    "single:FCX": {
+      "last_attempt_utc": "2026-10-30T18:04:12.566765+00:00"
+    },
+    "single:JCI": {
+      "last_attempt_utc": "2026-10-30T18:04:23.505523+00:00"
+    },
+    "sector:engineering construction": {
+      "last_attempt_utc": "2026-10-30T18:04:54.720980+00:00"
     }
   }
 }
