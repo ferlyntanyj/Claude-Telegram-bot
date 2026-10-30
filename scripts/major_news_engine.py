@@ -475,7 +475,20 @@ def _run_completion(prompt, cfg, max_tokens, json_object=False):
     it meaningfully reduces how often a transient rate limit turns into a
     dropped write-up. Raises on any other failure (missing key, bad
     response) -- callers decide how to degrade, same defensive shape as the
-    rest of this module."""
+    rest of this module.
+
+    reasoning_effort="low" and max_completion_tokens (not the deprecated
+    max_tokens) matter specifically for LLM_MODEL (a gpt-oss/qwen3
+    reasoning model): confirmed 2026-10-30, on the earnings_analysis
+    pipeline's own Groq calls, that a call can come back SUCCESSFULLY but
+    with completely empty content -- these models spend part of the token
+    budget on invisible internal reasoning before any visible content, and
+    a demanding prompt can burn the whole budget on that reasoning alone.
+    'low' effort leaves far more of the budget for the actual output; the
+    empty-content check below treats that failure mode the same as a 429
+    (retry, then raise) rather than silently returning nothing, which
+    write_analysis's caller would otherwise treat as a normal empty
+    result rather than a failure."""
     import time as _time
 
     from groq import RateLimitError
@@ -483,18 +496,26 @@ def _run_completion(prompt, cfg, max_tokens, json_object=False):
     client = _llm_client()
     extra = {"response_format": {"type": "json_object"}} if json_object else {}
     for attempt in range(cfg.LLM_RATE_LIMIT_MAX_RETRIES + 1):
+        rate_limited = False
         try:
             resp = client.chat.completions.create(
                 model=cfg.LLM_MODEL,
                 messages=[{"role": "user", "content": prompt}],
-                max_tokens=max_tokens,
+                max_completion_tokens=max_tokens,
+                reasoning_effort="low",
                 **extra,
             )
-            return resp.choices[0].message.content
+            content = resp.choices[0].message.content
+            if content and content.strip():
+                return content
         except RateLimitError:
-            if attempt >= cfg.LLM_RATE_LIMIT_MAX_RETRIES:
-                raise
+            rate_limited = True
+        if attempt < cfg.LLM_RATE_LIMIT_MAX_RETRIES:
             _time.sleep(cfg.LLM_RATE_LIMIT_RETRY_SECONDS * (attempt + 1))
+            continue
+        if rate_limited:
+            raise
+        raise RuntimeError(f"{cfg.LLM_MODEL} returned empty content after retries")
 
 
 def _extract_json_object(text):

@@ -669,28 +669,47 @@ def _run_completion(prompt, max_tokens, model=None):
     account, plus the slow 24h rolloff of either) without failing the
     report outright. Only one fallback hop -- if the fallback model is
     ALSO rate-limited, that propagates as a real failure (see
-    _apply_detection's docstring for why that's survivable)."""
+    _apply_detection's docstring for why that's survivable).
+
+    reasoning_effort="low" and max_completion_tokens (not the deprecated
+    max_tokens) matter specifically for these gpt-oss models: confirmed
+    live 2026-10-30 that a verify-stage call came back with a completely
+    EMPTY content string (not an error -- the call succeeded) -- these are
+    reasoning models that spend part of max_tokens on invisible internal
+    reasoning before any visible content, and a long, demanding prompt
+    (fact-check + rewrite + digest, all in one call) can burn the entire
+    budget on that reasoning alone, leaving nothing for the actual answer.
+    Forcing 'low' reasoning effort leaves far more of the budget for the
+    visible output."""
     from groq import RateLimitError
 
     target_model = model or cfg.LLM_MODEL
     client = _groq_client()
     for attempt in range(cfg.LLM_RATE_LIMIT_MAX_RETRIES + 1):
+        rate_limited = False
         try:
             resp = client.chat.completions.create(
                 model=target_model,
                 messages=[{"role": "user", "content": prompt}],
-                max_tokens=max_tokens,
+                max_completion_tokens=max_tokens,
+                reasoning_effort="low",
             )
-            return resp.choices[0].message.content
+            content = resp.choices[0].message.content
+            if content and content.strip():
+                return content
         except RateLimitError:
-            if attempt < cfg.LLM_RATE_LIMIT_MAX_RETRIES:
-                _time.sleep(cfg.LLM_RATE_LIMIT_RETRY_SECONDS * (attempt + 1))
-                continue
-            if target_model != cfg.LLM_FALLBACK_MODEL:
-                print(f"  {target_model} still rate-limited after retries -- "
-                      f"falling back to {cfg.LLM_FALLBACK_MODEL}", file=sys.stderr)
-                return _run_completion(prompt, max_tokens, model=cfg.LLM_FALLBACK_MODEL)
+            rate_limited = True
+        if attempt < cfg.LLM_RATE_LIMIT_MAX_RETRIES:
+            _time.sleep(cfg.LLM_RATE_LIMIT_RETRY_SECONDS * (attempt + 1))
+            continue
+        reason = "still rate-limited" if rate_limited else "still returning empty content"
+        if target_model != cfg.LLM_FALLBACK_MODEL:
+            print(f"  {target_model} {reason} after retries -- falling back to "
+                  f"{cfg.LLM_FALLBACK_MODEL}", file=sys.stderr)
+            return _run_completion(prompt, max_tokens, model=cfg.LLM_FALLBACK_MODEL)
+        if rate_limited:
             raise
+        raise RuntimeError(f"{target_model} returned empty content after retries and fallback")
 
 
 def _run_write_stage(item, snapshot_text, grounding_text, source_label):
