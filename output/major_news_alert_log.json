@@ -18957,5 +18957,97 @@
       "look_out": "Watch for Tractor Supply's upcoming earnings release or guidance updates, which could confirm or reverse the current rally.",
       "memory": "No clear historical parallel comes to mind."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T00:20:19.350200+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Japan · TSE",
+    "primary": {
+      "ticker": "6857.T",
+      "company": "Advantest Corp.",
+      "pct": 6.012024048096198,
+      "last": 37030.0,
+      "prev": 34930.0,
+      "currency": "JPY"
+    },
+    "peers": [
+      {
+        "ticker": "688012.SS",
+        "company": "Advanced Micro-Fabrication Equipment",
+        "pct": -5.41666666666667
+      },
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research",
+        "pct": 5.38509482749554
+      },
+      {
+        "ticker": "AMAT",
+        "company": "Applied Materials",
+        "pct": 5.069079810948707
+      },
+      {
+        "ticker": "300751.SZ",
+        "company": "Suzhou Maxwell Technologies",
+        "pct": 5.0180902332000565
+      }
+    ],
+    "analysis": {
+      "business_model": "Advantest Corp. designs, manufactures, and sells test equipment for semiconductor chips, enabling manufacturers to verify performance and reliability before mass production.",
+      "sentiment": "Bullish - strong intraday gain suggests buying interest",
+      "why_moved": "No specific catalyst is mentioned; the stock rose 6% on pure price action, likely reflecting broader sector buying momentum.",
+      "read_across": "Peers such as Lam Research, Applied Materials, and Advanced Micro-Fabrication Equipment also posted gains, indicating a rally across semiconductor equipment makers.",
+      "look_out": "Watch for upcoming earnings releases, guidance updates, or macro‑level semiconductor demand data that could confirm or reverse the move.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T00:20:19.350225+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "South Korea · KRX",
+    "primary": {
+      "ticker": "352820.KS",
+      "company": "Hybe",
+      "pct": -5.952380952380953,
+      "last": 158000.0,
+      "prev": 168000.0,
+      "currency": "KRW"
+    },
+    "peers": [
+      {
+        "ticker": "NWS",
+        "company": "News Corp (Class B)",
+        "pct": -2.25884585373477
+      },
+      {
+        "ticker": "NWSA",
+        "company": "News Corp (Class A)",
+        "pct": -2.2022017435216146
+      },
+      {
+        "ticker": "FOX",
+        "company": "Fox Corporation (Class B)",
+        "pct": -1.8805534134001323
+      },
+      {
+        "ticker": "FOXA",
+        "company": "Fox Corporation (Class A)",
+        "pct": -1.7666192642392886
+      }
+    ],
+    "analysis": {
+      "business_model": "Hybe is a South Korean entertainment company that creates, produces, and manages K‑pop artists, generating revenue from music sales, concerts, merchandise, and related media content.",
+      "sentiment": "Bearish - shares slipped 6% on intraday weakness",
+      "why_moved": "No specific catalyst was mentioned; the stock fell sharply on its own, mirroring a broader sell‑off in media‑related equities.",
+      "read_across": "The declines in News Corp and Fox stocks suggest a sector‑wide pressure on media and entertainment companies, possibly driven by investor risk aversion.",
+      "look_out": "Watch for any forthcoming Hybe earnings, guidance updates, or regulatory news that could reverse the sell‑off, as well as broader Korean market sentiment.",
+      "memory": "No clear historical parallel comes to mind."
+    }
   }
 ]
