@@ -22846,5 +22846,169 @@
       "look_out": "Monitor whether the pre-2026-10-29 earnings event drove this recent move or if the current decline reflects post-earnings reaction. Watch for further consolidation in peer stocks to confirm industry-wide pressure.",
       "memory": "This specific alert has triggered twice in our tracking history over the last 180 days, most recently on 2026-10-30 with a -14.3% move."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T15:33:32.220057+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "Germany · XETRA",
+    "primary": {
+      "ticker": "IFX.DE",
+      "company": "Infineon Technologies",
+      "pct": -6.109978410691552,
+      "last": 50.709999084472656,
+      "prev": 54.0099983215332,
+      "currency": "EUR"
+    },
+    "peers": [
+      {
+        "ticker": "INTC",
+        "company": "Intel",
+        "pct": -28.342566859126507
+      },
+      {
+        "ticker": "QCOM",
+        "company": "Qualcomm",
+        "pct": -11.105116191796082
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "pct": -9.613005072614078
+      }
+    ],
+    "analysis": {
+      "business_model": "Infineon Technologies manufactures semiconductors and electronic components, with a core focus on automotive and industrial power management solutions.",
+      "sentiment": "Bearish - broad semiconductor sector decline driving price action",
+      "why_moved": "No specific corporate catalyst or news story is provided for this move; the price action appears driven by wider sector flows as major peers like Intel and AMD fell sharply.",
+      "read_across": "Infineon’s drop mirrors significant declines across the semiconductor group, including Intel and AMD, suggesting a systemic industry de-risking rather than an isolated company-specific issue.",
+      "look_out": "Monitor follow-through in peer performance, as this is the third time this name has triggered this alert in the last 180 days, indicating potential trend persistence.",
+      "memory": "This ticker has triggered this alert 3 times in the last 180 days, most recently on 2026-10-15 with an 8.0% drop, amid 19 other semiconductor names hitting similar thresholds."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T15:33:32.220074+00:00",
+    "type": "single_stock",
+    "headline": "F5 Inc. stock underperforms Wednesday when compared to competitors",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbE95VVRac2U3enhiRkcyeXlreGN5alBfU1A1UUU4cUFyakdFV05UN05yTzg5LXBnWkFRZEllcEdvZmNPQzlzcEZvY1BFZThiMHppZHRKeVkxd0hOdnpMczBkMm5mT0h0WUtDU2dpTU9lb3diMXBxNkNCNm1nRVhYYTY3VkVlMjEyTVByLURuMnhlalFKcFJ6alNsQmk0QW9uOVRqYXNneVFQSzFMMkpkNFd1UGQtNGFZYXlKQWNjbTNycnM?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "FFIV",
+      "company": "F5, Inc.",
+      "pct": -6.438120961485938,
+      "last": 340.05999755859375,
+      "prev": 363.4599914550781,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "TWLO",
+        "company": "Twilio",
+        "pct": -16.562624304886132
+      },
+      {
+        "ticker": "NTAP",
+        "company": "NetApp",
+        "pct": -8.382930918455179
+      },
+      {
+        "ticker": "ORCL",
+        "company": "Oracle Corporation",
+        "pct": -5.818282644909301
+      }
+    ],
+    "analysis": {
+      "business_model": "F5 Inc. provides application services networking solutions, focusing on traffic management and security for cloud and on-premises infrastructure.",
+      "sentiment": "Bearish - Stock underperforms peers despite recent earnings beat",
+      "why_moved": "No specific new catalyst is explicitly stated in the text beyond the reported earnings on 2026-10-27. The move reflects intraday underperformance against competitors following that event.",
+      "read_across": "Broader weakness in the Infrastructure Software sector is evident, with peers Twilio, NetApp, and Oracle also declining significantly.",
+      "look_out": "Monitor whether the sector-wide sell-off continues or if F5 stabilizes, given its recent positive earnings surprise.",
+      "memory": "FFIV triggered this alert once in the last 180 days on 2026-10-28 with a -7.5% move, part of a pattern where 9 other Software Infrastructure names also triggered alerts recently."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T15:33:32.220078+00:00",
+    "type": "sector",
+    "headline": "Obesity Drugs Reshape Food Industry, Lift Protein Stocks",
+    "source": "조선일보",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdURqSzg4UFRuajFZbTFvOEl2ZF9PQkJlT3hYZlVRT3ZfZVlWU2dkXzRWeUJwTUQyVHJMdW1WTU1TdTJGenRfcFJiRDU4UTFCV1ktZDJtVWVpRmJxdFRLeHVBcjNuRThGN2pwSGNlZHdIQURRb2huY1lIZ2xyVDVjNGZaQVBUMm12aGpWMEdB?oc=5",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "AZN.L",
+      "company": "AstraZeneca",
+      "pct": 6.696291756052708,
+      "last": 13926.0,
+      "prev": 13052.0,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "BAYN.DE",
+        "company": "Bayer",
+        "pct": 5.296082076760689
+      },
+      {
+        "ticker": "LLY",
+        "company": "Lilly (Eli)",
+        "pct": 4.14829361923339
+      },
+      {
+        "ticker": "GILD",
+        "company": "Gilead Sciences",
+        "pct": 4.051691739108532
+      }
+    ],
+    "analysis": {
+      "business_model": "AstraZeneca is a global biopharmaceutical company that develops and sells specialty medicines, primarily in oncology, respiratory, and cardiovascular disease.",
+      "sentiment": "Bullish - obesity drugs reshape food industry",
+      "why_moved": "The share price increased as reports indicated obesity drugs are reshaping the food industry, which has lifted protein-related stocks. The provided text attributes the move to this sectoral shift rather than a specific earnings release.",
+      "read_across": "Peers such as Bayer, Eli Lilly, and Gilead Sciences also rose significantly, suggesting broad sector-level positive sentiment regarding the intersection of obesity treatments and consumer demand.",
+      "look_out": "Monitor subsequent earnings and guidance from competitor obesity drug makers to confirm if the projected impact on food industry demand materializes.",
+      "memory": "This ticker has triggered this alert twice in the last 180 days, most recently on October 30, 2026 with a 7.1% move. The recent 6.7% rise follows a similar pattern of sharp volatility associated with this specific name in our tracking data."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T15:33:32.220081+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "FLEX",
+      "company": "Flex Ltd.",
+      "pct": -6.538088647711748,
+      "last": 86.98500061035156,
+      "prev": 93.06999969482422,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "JBL",
+        "company": "Jabil",
+        "pct": -5.358440247020912
+      },
+      {
+        "ticker": "APH",
+        "company": "Amphenol",
+        "pct": -5.214423347731401
+      },
+      {
+        "ticker": "GLW",
+        "company": "Corning Inc.",
+        "pct": -4.542988155732464
+      }
+    ],
+    "analysis": {
+      "business_model": "Flex Ltd. is a global engineering and manufacturing solutions provider that designs, builds, and maintains electronic products for clients in industries like healthcare, automotive, and IT.",
+      "sentiment": "Bearish - strong earnings report failed to stop wider sector decline",
+      "why_moved": "No specific catalyst for the price drop is explicitly stated, though a recent earnings report showed an EPS beat; the move appears driven by broad sector weakness with peers also down.",
+      "read_across": "Peers like Jabil, Amphenol, and Corning are experiencing similar declines, indicating a sector-wide pullback rather than an isolated company-specific issue.",
+      "look_out": "Monitor if the decline in other Electronic Components group names continues to signal broader industry de-rating or if it remains an idiosyncratic flow event.",
+      "memory": "This ticker has triggered this alert 3 times in the last 180 days, most recently on 2026-10-30 with a 6.4% drop, suggesting recurring volatility."
+    }
   }
 ]
