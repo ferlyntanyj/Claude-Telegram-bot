@@ -22436,5 +22436,87 @@
       "look_out": "Investors should monitor whether the +7.1% intraday gain sustains following the earnings release dated 2026-10-30. The divergence between Azure's single trigger and the broader peer rise will indicate if this is a sector-wide reappraisal.",
       "memory": "Our tracking data indicates this ticker triggered this alert once in the last 180 days, most recently on 2026-10-30 with a +6.5% move. This current action mirrors that recent historical instance of a significant positive price spike."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T14:32:49.287585+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "STX",
+      "company": "Seagate Technology",
+      "pct": -6.187269637955827,
+      "last": 657.1300048828125,
+      "prev": 700.469970703125,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "SNDK",
+        "company": "Sandisk",
+        "pct": -10.4229164161872
+      },
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies",
+        "pct": -9.231145218769521
+      },
+      {
+        "ticker": "HPQ",
+        "company": "HP Inc.",
+        "pct": -8.890983130660812
+      }
+    ],
+    "analysis": {
+      "business_model": "Seagate Technology designs and manufactures hard disk drives, providing data storage hardware solutions to enterprise, cloud, and consumer markets.",
+      "sentiment": "Bearish - severe sector-wide sell-off across hardware peers",
+      "why_moved": "No specific news story is provided for this move, which occurred alongside a reported earnings beat on 2026-10-27. The price action appears driven by broader sector flows rather than this specific company's fundamental results.",
+      "read_across": "Domestic peers SanDisk, Dell Technologies, and HP Inc. experienced even steeper declines, ranging from -8.9% to -10.4%, indicating broad negative sentiment in the computer hardware group.",
+      "look_out": "Monitor whether the sector-wide decline continues beyond the 600 USD support level and watch for further triggers among the 10 other group names that have alerted recently.",
+      "memory": "This ticker has triggered this alert three times in the last 180 days, most recently on 2026-10-30 with a -6.5% drop, suggesting a pattern of frequent high-volatility events within this sector group."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T14:32:49.287606+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "TER",
+      "company": "Teradyne",
+      "pct": -7.66296842492401,
+      "last": 273.5299987792969,
+      "prev": 296.2300109863281,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "AMAT",
+        "company": "Applied Materials",
+        "pct": -5.933687994207116
+      },
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research",
+        "pct": -5.0552304104745645
+      },
+      {
+        "ticker": "Q",
+        "company": "Qnity Electronics",
+        "pct": -4.642921208372652
+      }
+    ],
+    "analysis": {
+      "business_model": "Teradyne is a developer of electronic test equipment and systems used to validate the performance and reliability of semiconductor chips and other electronic components.",
+      "sentiment": "Bearish - broad sector selloff hitting all major equipment names",
+      "why_moved": "The price drop occurred without a specific headline catalyst, coinciding with a reported positive earnings surprise of +11.2% that failed to support the stock. The move aligns with a broad intraday decline across the entire semiconductor equipment peer group.",
+      "read_across": "Peers such as Applied Materials (-5.9%) and Lam Research (-5.1%) are experiencing similar significant declines, indicating sector-wide pressure rather than a company-specific issue. The synchronized drops suggest a broader reassessment of the semiconductor equipment sector.",
+      "look_out": "Watch for further price action in peer companies like AMAT and LRCX to confirm if this is a sustained sector rotation. Monitor for any subsequent analyst commentary explaining the divergence between the EPS beat and the stock price decline.",
+      "memory": "This name has triggered this alert twice in the last 180 days, most recently on 2026-10-30 with a -7.1% move. Nine other names in the Semiconductor Equipment & Materials group have also triggered this alert in the same period."
+    }
   }
 ]

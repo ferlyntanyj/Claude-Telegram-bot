@@ -237,8 +237,9 @@
       "last_move_asof": "2026-10-30"
     },
     "sector:semiconductor equipment materials": {
-      "last_alert_utc": "2026-09-21T19:03:12.080415+00:00",
-      "last_move_pct": 4.3561733520461
+      "last_alert_utc": "2026-10-30T14:32:49.275826+00:00",
+      "last_move_pct": -5.0552304104745645,
+      "last_move_asof": "2026-10-30"
     },
     "sector:apparel retail": {
       "last_alert_utc": "2026-09-18T07:33:49.872743+00:00",
@@ -343,8 +344,9 @@
       "last_move_asof": "2026-10-30"
     },
     "single:STX": {
-      "last_alert_utc": "2026-09-21T13:33:35.300664+00:00",
-      "last_move_pct": 6.265792444643603
+      "last_alert_utc": "2026-10-30T14:32:48.694760+00:00",
+      "last_move_pct": -6.187269637955827,
+      "last_move_asof": "2026-10-30"
     },
     "single:AAI.AX": {
       "last_alert_utc": "2026-09-22T00:05:38.828306+00:00",
@@ -1493,5 +1495,5 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-10-30T14:15:35.700505+00:00"
+  "last_run_utc": "2026-10-30T14:30:47.199874+00:00"
 }
