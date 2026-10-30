@@ -52,6 +52,46 @@ OUT_LOG_JSON_PATH = "../output/major_news_alert_log.json"  # append-only run log
 
 GOOGLE_NEWS_LOCALE = ("en-US", "US", "US:en")
 
+# ---------------------------------------------------------------------------
+# Per-market Google News locale override, keyed by ticker suffix -- added
+# 2026-10-30 after the user flagged that almost every single-stock alert for
+# a non-US name came back "(no specific news story found)" followed by
+# generic filler. Root cause: every lookup ran against the en-US edition
+# above, for every market. Verified empirically against news.google.com/rss
+# (checked each combo's returned <link> to catch a silent fallback to
+# US:en): most Asian markets have NO English-language edition of their own
+# -- en-KR/en-TH/en-TW/en-VN/en-HK all silently redirect back to US:en -- but
+# DO have a working native-language edition, and an English company-name
+# query against that native edition still surfaces native-press coverage
+# (confirmed: "Advantest" queried against ja/JP/JP:ja returned Nikkei's and
+# Bloomberg Japan's actual earnings-upgrade story for 6857.T -- the exact
+# alert that came back empty against en-US in the live log). Markets with a
+# genuine working English edition (SG, MY, ID, IN, AU, GB, CA) use that
+# instead, to keep results in English; everything else uses its native
+# edition -- the LLM write-up handles non-English source text fine, it only
+# needs to produce English output, not read English input.
+# Any suffix not listed here falls back to GOOGLE_NEWS_LOCALE (en-US).
+# ---------------------------------------------------------------------------
+GOOGLE_NEWS_LOCALE_BY_SUFFIX = {
+    ".T": ("ja", "JP", "JP:ja"),
+    ".KS": ("ko", "KR", "KR:ko"),
+    ".SI": ("en-SG", "SG", "SG:en"),
+    ".HK": ("zh-HK", "HK", "HK:zh-Hant"),
+    ".KL": ("en-MY", "MY", "MY:en"),
+    ".JK": ("en-ID", "ID", "ID:en"),
+    ".BK": ("th", "TH", "TH:th"),
+    ".VN": ("vi", "VN", "VN:vi"),
+    ".TW": ("zh-TW", "TW", "TW:zh-Hant"),
+    ".TWO": ("zh-TW", "TW", "TW:zh-Hant"),
+    ".SS": ("zh-CN", "CN", "CN:zh-Hans"),
+    ".SZ": ("zh-CN", "CN", "CN:zh-Hans"),
+    ".NS": ("en-IN", "IN", "IN:en"),
+    ".BO": ("en-IN", "IN", "IN:en"),
+    ".AX": ("en-AU", "AU", "AU:en"),
+    ".L": ("en-GB", "GB", "GB:en"),
+    ".TO": ("en-CA", "CA", "CA:en"),
+}
+
 # Peers shown in the Telegram message's "Peers movement" section, for BOTH
 # alert types (see major_news_engine.same_group_peers / the sector-group
 # ranking in run_cycle) -- not the same as SECTOR_MIN_PEERS below, which
@@ -198,9 +238,43 @@ SOURCE_WEIGHTS = {
     "CNBC": 6, "CNBC Markets": 6, "MarketWatch": 6, "Barron's": 6,
     "The Economist": 7,
     "Jakarta Post - Home": 6, "Jakarta Post": 6, "Star": 6, "Edge Malaysia": 6,
+    # Native-script equivalents for the markets switched to a native-language
+    # Google News edition above (GOOGLE_NEWS_LOCALE_BY_SUFFIX) -- the same
+    # outlets as the English-named entries, as they actually appear in that
+    # edition's own <source> tag. Best-effort initial pass (major national
+    # papers/wires only), not exhaustive -- refine as real misses show up in
+    # output/major_news_alert_log.json. Global wires (Reuters/Bloomberg/SCMP)
+    # keep their English brand name even inside these editions, so they
+    # already match the entries above without needing a native-script copy.
+    "日本経済新聞": 9,  # Nikkei
+    "共同通信": 6,  # Kyodo News
+    "朝日新聞": 7,  # Asahi Shimbun
+    "読売新聞": 7,  # Yomiuri Shimbun
+    "연합뉴스": 6,  # Yonhap
+    "조선일보": 6,  # Chosun Ilbo
+    "중앙일보": 6,  # JoongAng Ilbo
+    "한국경제": 6,  # Korea Economic Daily
+    "财新": 6, "財新": 6,  # Caixin (simplified/traditional)
+    "南华早报": 10, "南華早報": 10,  # South China Morning Post (simplified/traditional)
 }
 DEFAULT_SOURCE_WEIGHT = 0   # unknown source -> dropped
 MIN_SOURCE_WEIGHT = 6       # higher bar than the digests -- this is an alert, not a scan
+
+# ---------------------------------------------------------------------------
+# Catalyst/memory grounding -- added 2026-10-30 per user feedback that
+# write_analysis()'s "why_moved" is almost always generic filler and its
+# "memory" almost always the prompt's own escape-hatch sentence. Rather than
+# asking the LLM to find a catalyst or recall history unaided, run_cycle()
+# now hands it two cheap, deterministic facts when they exist, computed
+# before the Groq call: whether the mover reported earnings recently
+# (_recent_earnings_fact, a very common real catalyst that no news search
+# is required to confirm), and whether this ticker/industry has crossed this
+# alert's own threshold before, per our own alert log (_historical_move_fact)
+# -- real local pattern data instead of the model's blind world-history
+# recall, which the log shows defaults to "no clear parallel" ~80% of the time.
+# ---------------------------------------------------------------------------
+EARNINGS_LOOKBACK_HOURS = 72  # how recent a reported-earnings date counts as this move's catalyst
+MEMORY_LOOKBACK_DAYS = 180    # how far back _historical_move_fact checks this ticker/industry's own history
 
 # ---------------------------------------------------------------------------
 # HTTP -- used by gather_related_headlines()'s targeted per-mover/per-industry

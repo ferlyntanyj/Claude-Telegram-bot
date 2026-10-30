@@ -541,10 +541,24 @@ def _looks_like_roundup(title):
     return title.count(",") >= 2 and re.search(r"\band\b", title, re.I) is not None
 
 
-def gather_related_headlines(query_text, cfg, max_results=5, lookback_hours=48):
+def _locale_for_ticker(ticker, cfg):
+    """(hl, gl, ceid) for ticker's own market, per
+    cfg.GOOGLE_NEWS_LOCALE_BY_SUFFIX, falling back to the global en-US
+    edition for a bare/unlisted suffix -- see that config's docstring for
+    why this matters (most non-English markets have no English edition of
+    their own, so searching en-US for e.g. a Korean small-cap finds
+    nothing)."""
+    if ticker and "." in ticker:
+        suffix = "." + ticker.rsplit(".", 1)[-1]
+        if suffix in cfg.GOOGLE_NEWS_LOCALE_BY_SUFFIX:
+            return cfg.GOOGLE_NEWS_LOCALE_BY_SUFFIX[suffix]
+    return cfg.GOOGLE_NEWS_LOCALE
+
+
+def gather_related_headlines(query_text, cfg, max_results=5, lookback_hours=48, locale=None):
     import urllib.parse
 
-    hl, gl, ceid = cfg.GOOGLE_NEWS_LOCALE
+    hl, gl, ceid = locale or cfg.GOOGLE_NEWS_LOCALE
     url = (f"https://news.google.com/rss/search?q={urllib.parse.quote(query_text)}"
            f"&hl={hl}&gl={gl}&ceid={ceid}")
     try:
@@ -593,15 +607,28 @@ def gather_related_headlines(query_text, cfg, max_results=5, lookback_hours=48):
 _NO_HEADLINE_TITLE = "(no specific news story found — price move only)"
 
 
-def _find_headline(query_text, cfg):
+def _find_headline(query_text, cfg, locale=None, ticker=None):
     """Per-mover targeted lookup -- now that detection no longer depends on
     having already seen a matching headline, this reuses the same Google
     News search (gather_related_headlines) queried by the specific
     company/industry name instead of the triggering headline's own text.
     Always returns a usable headline dict, with a clear placeholder if
     nothing turns up, so a real, verified price move is never suppressed
-    just because no story was found -- the whole point of this redesign."""
-    related = gather_related_headlines(query_text, cfg, max_results=1)
+    just because no story was found -- the whole point of this redesign.
+
+    locale (added 2026-10-30): the mover's own Google News edition, from
+    _locale_for_ticker -- see GOOGLE_NEWS_LOCALE_BY_SUFFIX's docstring for
+    why searching every market in en-US was the main cause of the "no
+    specific news story found" placeholder firing almost every time for
+    non-US names. ticker, if given, is tried as a second, bare-symbol query
+    when the company-name query comes back empty -- company names with a
+    suffix like "Corp"/"Holdings" or a non-Latin native name sometimes match
+    worse than the plain ticker symbol does."""
+    related = gather_related_headlines(query_text, cfg, max_results=1, locale=locale)
+    if not related and ticker:
+        bare = ticker.split(".", 1)[0]
+        if bare.lower() != query_text.strip().lower():
+            related = gather_related_headlines(bare, cfg, max_results=1, locale=locale)
     if related:
         r = related[0]
         return {"title": r["title"], "source": r["source"], "url": r["url"], "published": r["published"]}
@@ -609,6 +636,102 @@ def _find_headline(query_text, cfg):
         "title": _NO_HEADLINE_TITLE, "source": "price data", "url": "",
         "published": dt.datetime.now(UTC).isoformat(),
     }
+
+
+# ---------------------------------------------------------------------------
+# Catalyst/memory grounding facts -- see major_news_alert_config's
+# "Catalyst/memory grounding" section for why these exist. Both are
+# best-effort and never raise; a miss just means write_analysis() gets one
+# less fact to work with, same degrade-gracefully shape as the rest of this
+# module.
+# ---------------------------------------------------------------------------
+def _recent_earnings_fact(ticker, now_utc, cfg):
+    """Has `ticker` reported earnings within the last
+    cfg.EARNINGS_LOOKBACK_HOURS (and not more than 24h in the future, to
+    allow for timezone slop around an after-market report)? If so, returns
+    a one-line fact string (date, EPS vs estimate, surprise%) for
+    write_analysis() to use directly as the stated catalyst. Added
+    2026-10-30: most of the "no specific catalyst" alerts in the log are
+    exactly this -- a stock gapping >=5% the session right after reporting,
+    which write_analysis() had no way to know without a news hit. Returns
+    None on no match or any failure (ticker not covered, no estimate data,
+    yfinance hiccup, etc.)."""
+    try:
+        import yfinance as yf
+
+        dates = yf.Ticker(ticker).earnings_dates
+        if dates is None or dates.empty:
+            return None
+        cutoff = now_utc - dt.timedelta(hours=cfg.EARNINGS_LOOKBACK_HOURS)
+        reported = dates[dates["Reported EPS"].notna()]
+        recent = reported[(reported.index >= cutoff) & (reported.index <= now_utc + dt.timedelta(hours=24))]
+        if recent.empty:
+            return None
+        when = recent.index[0]
+        row = recent.iloc[0]
+        actual = row["Reported EPS"]
+        if pd.isna(actual):
+            return None
+        parts = [f"Reported earnings on {when.date().isoformat()}: EPS {actual:.2f}"]
+        est = row.get("EPS Estimate")
+        if est is not None and not pd.isna(est):
+            parts.append(f"vs {est:.2f} est")
+        surprise = row.get("Surprise(%)")
+        if surprise is not None and not pd.isna(surprise):
+            parts.append(f"({surprise:+.1f}% surprise)")
+        return " ".join(parts)
+    except Exception:  # noqa: BLE001 -- best-effort grounding, never sinks the alert
+        return None
+
+
+def _historical_move_fact(ticker, industry, watchlist, cfg):
+    """Has THIS ticker, or another name in the same `industry`, crossed a
+    move threshold before, per our own append-only alert log
+    (cfg.OUT_LOG_JSON_PATH)? Grounds write_analysis()'s "memory" field in
+    real, local pattern data instead of pure LLM world-history recall --
+    confirmed 2026-10-30 that recall alone defaults to the prompt's own
+    escape-hatch sentence in the large majority of logged alerts. Industry
+    matching only applies to the fine-grained industry grouping (not the
+    coarser region+sector grouping, whose label doesn't match watchlist's
+    `industry` field) -- a known, accepted gap rather than mismatched data.
+    Returns None if the log is missing/empty/unparseable or nothing matches."""
+    try:
+        with open(cfg.OUT_LOG_JSON_PATH, "r", encoding="utf-8") as f:
+            log = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+
+    cutoff = dt.datetime.now(UTC) - dt.timedelta(days=cfg.MEMORY_LOOKBACK_DAYS)
+    same_ticker, same_industry_tickers = [], set()
+    for entry in log:
+        try:
+            when = dt.datetime.fromisoformat(entry["alert_utc"])
+        except (KeyError, ValueError, TypeError):
+            continue
+        if when < cutoff:
+            continue
+        primary = entry.get("primary") or {}
+        t = primary.get("ticker")
+        if t == ticker:
+            same_ticker.append((when, primary.get("pct")))
+        elif industry and watchlist.get(t, {}).get("industry") == industry:
+            same_industry_tickers.add(t)
+
+    facts = []
+    if same_ticker:
+        same_ticker.sort(key=lambda x: x[0], reverse=True)
+        when, pct = same_ticker[0]
+        pct_str = f"{pct:+.1f}%" if isinstance(pct, (int, float)) else "an unlogged size"
+        facts.append(
+            f"This ticker has triggered this alert {len(same_ticker)}x in our own tracking over "
+            f"the last {cfg.MEMORY_LOOKBACK_DAYS} days, most recently {when.date().isoformat()} ({pct_str})."
+        )
+    if len(same_industry_tickers) >= cfg.SECTOR_MIN_PEERS:
+        facts.append(
+            f"{len(same_industry_tickers)} other names in the {industry} group have also triggered "
+            f"this alert in our own tracking over the last {cfg.MEMORY_LOOKBACK_DAYS} days."
+        )
+    return " ".join(facts) if facts else None
 
 
 # ---------------------------------------------------------------------------
@@ -647,14 +770,28 @@ def write_analysis(alert, cfg):
 
     context_block = ""
     if alert["type"] == "sector":
-        related = gather_related_headlines(headline["title"], cfg)
+        locale = _locale_for_ticker(primary["ticker"], cfg)
+        related = gather_related_headlines(headline["title"], cfg, locale=locale)
         if related:
             lines = "\n".join(f'- "{r["title"]}" ({r["source"]})' for r in related)
             context_block = f"\nOther recent coverage of this story:\n{lines}\n"
 
+    facts_block = ""
+    if alert.get("earnings_fact"):
+        facts_block += (
+            f"\nKnown recent corporate event -- treat this as the stated catalyst if it fits "
+            f"the move: {alert['earnings_fact']}\n"
+        )
+    if alert.get("memory_fact"):
+        facts_block += (
+            f"\nOur own historical tracking data for this name/group -- prefer this over a "
+            f"general/invented historical analogy when writing the memory field: "
+            f"{alert['memory_fact']}\n"
+        )
+
     prompt = (
         f'Headline: "{headline["title"]}" (source: {headline["source"]})\n'
-        f"{context_block}\n"
+        f"{context_block}{facts_block}\n"
         f'Primary mover: {primary["company"]} ({primary["ticker"]}) {primary["pct"]:+.1f}% '
         f'intraday (last {primary["last"]:.2f} {primary.get("currency") or ""}, '
         f'prior close {primary["prev"]:.2f}).\n'
@@ -672,18 +809,21 @@ def write_analysis(alert, cfg):
         '(use the other coverage above if given, not just the single headline). Only '
         'name a specific catalyst -- an earnings release, guidance change, M&A, '
         'downgrade/upgrade, regulatory action, etc. -- if it is explicitly stated in the '
-        'headline or coverage above. Never infer or guess one (e.g. do not say a company '
-        '\'reported earnings\' or \'beat expectations\' unless that is literally in the '
-        'text given). If no specific catalyst is stated, say so plainly and describe the '
-        'move in terms of price action / sector flows instead",\n'
+        'headline or coverage above, OR given below as a known recent corporate event. '
+        'Never infer or guess one (e.g. do not say a company \'reported earnings\' or '
+        '\'beat expectations\' unless that is literally in the text given or in the known '
+        'corporate event below). If no specific catalyst is stated or given, say so plainly '
+        'and describe the move in terms of price action / sector flows instead",\n'
         '  "read_across": "1-2 sentences on what this means for domestic/international '
         'peers, supply chain, or the wider industry",\n'
         '  "look_out": "1-2 sentences on what to watch for next -- an upcoming event, '
         'data point, or follow-through risk",\n'
         '  "memory": "1-2 sentences on whether something like this -- this kind of '
         'shock, or this specific company/sector under similar pressure -- has happened '
-        f'before, and how it played out, or exactly this sentence if nothing solid comes '
-        f'to mind: \'{_NO_MEMORY}\' -- do not force a weak or vague analogy"\n'
+        'before, and how it played out. If our own historical tracking data is given '
+        'below, lead with that (it is real, not a guess) rather than a general market '
+        f'analogy. Otherwise, use exactly this sentence if nothing solid comes to mind: '
+        f'\'{_NO_MEMORY}\' -- do not force a weak or vague analogy"\n'
         "}\n\n"
         "Be specific and concrete, avoid generic filler, no preamble. Ground every claim "
         "of fact strictly in the headline/coverage and price data given above -- do not "
@@ -806,7 +946,7 @@ def append_log(alerts, cfg):
 # either way, just fed a different group. Appends to `alerts` in place
 # rather than returning anything; a no-op if the group doesn't qualify.
 # ---------------------------------------------------------------------------
-def _build_sector_alert(group_label, moves, watchlist, cfg, state, alerts, headline_query):
+def _build_sector_alert(group_label, moves, watchlist, cfg, state, alerts, headline_query, now, industry=None):
     if len(moves) < cfg.SECTOR_MIN_PEERS:
         return
     result = _median_breadth(moves, cfg)
@@ -837,7 +977,7 @@ def _build_sector_alert(group_label, moves, watchlist, cfg, state, alerts, headl
         {"ticker": t, "company": watchlist[t]["company_name"], "pct": m["pct"]}
         for t, m in ranked[1:1 + cfg.MAX_DISPLAY_PEERS]
     ]
-    headline = _find_headline(headline_query, cfg)
+    headline = _find_headline(headline_query, cfg, locale=_locale_for_ticker(top_ticker, cfg), ticker=top_ticker)
     alerts.append({
         "type": "sector", "headline": headline, "key": key,
         "metric_pct": result["median_pct"], "move_asof": top_move.get("asof"),
@@ -850,6 +990,8 @@ def _build_sector_alert(group_label, moves, watchlist, cfg, state, alerts, headl
         "peers": peers,
         "median_pct": result["median_pct"],
         "breadth_share_pct": result["breadth_share_pct"],
+        "earnings_fact": _recent_earnings_fact(top_ticker, now, cfg),
+        "memory_fact": _historical_move_fact(top_ticker, industry, watchlist, cfg),
     })
 
 
@@ -887,7 +1029,7 @@ def run_cycle(cfg):
         if not should_alert(state, key, cfg, move_asof=move.get("asof")):
             continue
         info = watchlist[ticker]
-        headline = _find_headline(info["company_name"], cfg)
+        headline = _find_headline(info["company_name"], cfg, locale=_locale_for_ticker(ticker, cfg), ticker=ticker)
         peers = same_group_peers(ticker, info["industry"], watchlist, scanned, cfg.MAX_DISPLAY_PEERS)
         alerts.append({
             "type": "single_stock", "headline": headline, "key": key,
@@ -898,6 +1040,8 @@ def run_cycle(cfg):
                 "last": move["last"], "prev": move["prev"], "currency": move.get("currency"),
             },
             "peers": peers,
+            "earnings_fact": _recent_earnings_fact(ticker, now, cfg),
+            "memory_fact": _historical_move_fact(ticker, info["industry"], watchlist, cfg),
         })
 
     # -- US pre-market: a live, still-forming move, not a regular-session ---
@@ -914,7 +1058,7 @@ def run_cycle(cfg):
             if not should_alert(state, key, cfg, cooldown_hours=cfg.PREMARKET_COOLDOWN_HOURS):
                 continue
             info = watchlist[ticker]
-            headline = _find_headline(info["company_name"], cfg)
+            headline = _find_headline(info["company_name"], cfg, locale=_locale_for_ticker(ticker, cfg), ticker=ticker)
             peers = same_group_peers(ticker, info["industry"], watchlist, scanned, cfg.MAX_DISPLAY_PEERS)
             alerts.append({
                 "type": "single_stock", "headline": headline, "key": key,
@@ -925,6 +1069,8 @@ def run_cycle(cfg):
                     "last": move["last"], "prev": move["prev"], "currency": move.get("currency"),
                 },
                 "peers": peers,
+                "earnings_fact": _recent_earnings_fact(ticker, now, cfg),
+                "memory_fact": _historical_move_fact(ticker, info["industry"], watchlist, cfg),
             })
 
     # -- Sector-wide: two independent groupings over `tradeable`, both fed
@@ -947,11 +1093,12 @@ def run_cycle(cfg):
     # its region+sector group), that's the same underlying story, so it
     # doesn't need (and shouldn't burn) a second Groq write-up.
     for industry, moves in _group_by_industry(watchlist, tradeable).items():
-        _build_sector_alert(industry, moves, watchlist, cfg, state, alerts, f"{industry} stocks")
+        _build_sector_alert(industry, moves, watchlist, cfg, state, alerts, f"{industry} stocks",
+                             now, industry=industry)
 
     for (region_group, sector), moves in _group_by_region_sector(watchlist, tradeable).items():
         _build_sector_alert(f"{region_group}:{sector}", moves, watchlist, cfg, state, alerts,
-                             f"{region_group} {sector} stocks")
+                             f"{region_group} {sector} stocks", now)
 
     # Paced, not back-to-back -- Groq's free tier is 8,000 tokens/minute
     # (verified via their docs), tighter than it sounds once you count each
