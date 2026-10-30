@@ -733,6 +733,27 @@ def _run_write_stage(item, snapshot_text, grounding_text, source_label):
     return _run_completion(prompt, cfg.LLM_WRITE_MAX_TOKENS)
 
 
+_SUBPOINT_RE = re.compile(r"(?i)^(crown jewel|growth engine)\b")
+
+
+def _normalize_subpoints(text):
+    """Crown jewel / growth engine are the only two sub-points in the
+    brief (see ANALYSIS_INSTRUCTIONS's FORMAT rule) -- confirmed live that
+    the model doesn't reliably prefix them with a marker on its own, so
+    this enforces it in code rather than relying on prompt compliance
+    alone (same pattern as the markdown/table fixes elsewhere in this
+    pipeline). Strips any marker the model DID add first, so re-adding
+    one never double-marks a line."""
+    out = []
+    for line in text.split("\n"):
+        stripped = line.lstrip("-*• ").lstrip()
+        if _SUBPOINT_RE.match(stripped):
+            out.append(f"- {stripped}")
+        else:
+            out.append(line)
+    return "\n".join(out)
+
+
 def _run_verify_stage(item, grounding_text, draft_text):
     prompt = (
         f"You are fact-checking a Telegram-ready earnings brief before it ships. Below is the "
@@ -749,7 +770,8 @@ def _run_verify_stage(item, grounding_text, draft_text):
         f"{cfg.TELEGRAM_DIGEST_MAX_CHARS} characters total.\n\n"
         f"Output ONLY the corrected brief -- no preamble, no closing remarks."
     )
-    return _run_completion(prompt, cfg.LLM_VERIFY_MAX_TOKENS).strip()
+    text = _run_completion(prompt, cfg.LLM_VERIFY_MAX_TOKENS).strip()
+    return _normalize_subpoints(text)
 
 
 def analyze_ticker(item):
