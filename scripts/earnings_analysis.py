@@ -28,11 +28,15 @@ Usage:
                                                      # no API calls, no state changes
     python earnings_analysis.py --test-ticker NVDA  # force the full pipeline for one
                                                      # ticker (any ticker, watchlist or
-                                                     # not) and print the result; never
-                                                     # touches state.json or Telegram --
-                                                     # use this to sanity-check report
-                                                     # quality/cost before trusting the
-                                                     # daily cron
+                                                     # not), print the result, AND send
+                                                     # the digest to Telegram (tagged
+                                                     # "TEST" so it's distinguishable
+                                                     # from a real alert) -- never
+                                                     # touches state.json, so it's safe
+                                                     # to run repeatedly. Use this to
+                                                     # sanity-check report quality/
+                                                     # formatting before trusting the
+                                                     # daily cron.
 """
 import datetime as dt
 import os
@@ -49,11 +53,12 @@ CHAT_ID_ENV_VAR = "SGX_SCREENER_TELEGRAM_CHAT_ID"
 _GROUP_EMOJI = {"AI Capex": "🤖", "SGX": "🇸🇬", "Bursa": "🇲🇾", "Thailand": "🇹🇭"}
 
 
-def render_telegram(result):
+def render_telegram(result, test_mode=False):
     item = result["item"]
     emoji = _GROUP_EMOJI.get(item["group"], "📊")
+    prefix = "🧪 <b>TEST</b> -- not a real alert\n\n" if test_mode else ""
     header = (
-        f"{emoji} <b>{item['company']} ({item['ticker']})</b> -- earnings, "
+        f"{prefix}{emoji} <b>{item['company']} ({item['ticker']})</b> -- earnings, "
         f"{item['report_date'].isoformat()}\n\n"
     )
     digest = re.sub(r"<(?!/?[bi]>)", "&lt;", result["digest"])  # keep <b>/<i>, escape the rest
@@ -87,7 +92,7 @@ def _run_test_ticker(ticker):
     company = match["company"] if match else ticker
     group = match["group"] if match else "Test"
     print(f"TEST MODE: forcing the full pipeline for {ticker} ({company}). "
-          f"Not touching state.json or Telegram.\n")
+          f"Not touching state.json.\n")
     outcome = engine.run_test_ticker(ticker, company=company, group=group)
     if outcome is None:
         print("Pipeline failed -- see error above.", file=sys.stderr)
@@ -95,8 +100,24 @@ def _run_test_ticker(ticker):
     item, full_report, digest = outcome
     print("=" * 20, "FULL REPORT", "=" * 20)
     print(full_report)
-    print("\n" + "=" * 20, "TELEGRAM DIGEST PREVIEW", "=" * 20)
-    print(render_telegram({"item": item, "digest": digest, "report_path": "(not saved -- test mode)"}))
+
+    result = {"item": item, "digest": digest, "report_path": "(not saved -- test mode)"}
+    message = render_telegram(result, test_mode=True)
+    print("\n" + "=" * 20, "TELEGRAM MESSAGE", "=" * 20)
+    print(message)
+
+    token = os.environ.get(TOKEN_ENV_VAR)
+    chat_id = os.environ.get(CHAT_ID_ENV_VAR)
+    if not token or not chat_id:
+        missing = [v for v, val in [(TOKEN_ENV_VAR, token), (CHAT_ID_ENV_VAR, chat_id)] if not val]
+        print(f"\nNot sent to Telegram -- environment variable(s) not set: {', '.join(missing)}.",
+              file=sys.stderr)
+        return
+    try:
+        send_telegram(message, token, chat_id)
+        print("\nSent to Telegram (tagged TEST).")
+    except Exception as e:  # noqa: BLE001 -- a failed test send shouldn't look like a crash
+        print(f"\nERROR sending to Telegram: {e}", file=sys.stderr)
 
 
 def main():
