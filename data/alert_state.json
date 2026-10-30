@@ -459,8 +459,9 @@
       "last_move_pct": -2.0772746157041944
     },
     "premarket:INTC": {
-      "last_alert_utc": "2026-09-21T08:04:45.438373+00:00",
-      "last_move_pct": 5.524862
+      "last_alert_utc": "2026-10-30T10:44:10.927390+00:00",
+      "last_move_pct": -25.122187,
+      "last_move_asof": null
     },
     "premarket:ACN": {
       "last_alert_utc": "2026-09-21T08:04:46.132346+00:00",
@@ -504,8 +505,9 @@
       "last_move_pct": 5.004101722723542
     },
     "premarket:HPQ": {
-      "last_alert_utc": "2026-09-21T13:17:39.863182+00:00",
-      "last_move_pct": -5.03848
+      "last_alert_utc": "2026-10-30T10:44:19.953095+00:00",
+      "last_move_pct": -7.6608787,
+      "last_move_asof": null
     },
     "single:WBD": {
       "last_alert_utc": "2026-09-21T13:33:35.870195+00:00",
@@ -869,9 +871,9 @@
       "last_move_asof": "2026-10-02"
     },
     "single:NWG.L": {
-      "last_alert_utc": "2026-10-13T09:33:28.722483+00:00",
-      "last_move_pct": 5.135387683435533,
-      "last_move_asof": "2026-10-13"
+      "last_alert_utc": "2026-10-30T10:44:08.927883+00:00",
+      "last_move_pct": -7.65113911950831,
+      "last_move_asof": "2026-10-30"
     },
     "single:1303.TW": {
       "last_alert_utc": "2026-10-07T03:10:32.601184+00:00",
@@ -1227,7 +1229,92 @@
       "last_alert_utc": "2026-10-30T03:20:11.329116+00:00",
       "last_move_pct": 5.418064283288038,
       "last_move_asof": "2026-10-30"
+    },
+    "premarket:AMZN": {
+      "last_alert_utc": "2026-10-30T10:44:09.712488+00:00",
+      "last_move_pct": -6.6819777,
+      "last_move_asof": null
+    },
+    "premarket:AMD": {
+      "last_alert_utc": "2026-10-30T10:44:10.290668+00:00",
+      "last_move_pct": -8.105288,
+      "last_move_asof": null
+    },
+    "premarket:DELL": {
+      "last_alert_utc": "2026-10-30T10:44:11.497555+00:00",
+      "last_move_pct": -9.787603,
+      "last_move_asof": null
+    },
+    "premarket:SNDK": {
+      "last_alert_utc": "2026-10-30T10:44:12.052898+00:00",
+      "last_move_pct": -8.03354,
+      "last_move_asof": null
+    },
+    "premarket:STX": {
+      "last_alert_utc": "2026-10-30T10:44:12.612937+00:00",
+      "last_move_pct": -6.5199056,
+      "last_move_asof": null
+    },
+    "premarket:WDC": {
+      "last_alert_utc": "2026-10-30T10:44:13.205197+00:00",
+      "last_move_pct": -6.7524877,
+      "last_move_asof": null
+    },
+    "premarket:SYK": {
+      "last_alert_utc": "2026-10-30T10:44:13.779015+00:00",
+      "last_move_pct": -11.149963,
+      "last_move_asof": null
+    },
+    "premarket:MDLZ": {
+      "last_alert_utc": "2026-10-30T10:44:14.325216+00:00",
+      "last_move_pct": 8.044137,
+      "last_move_asof": null
+    },
+    "premarket:HPE": {
+      "last_alert_utc": "2026-10-30T10:44:14.876959+00:00",
+      "last_move_pct": -6.0732193,
+      "last_move_asof": null
+    },
+    "premarket:VRT": {
+      "last_alert_utc": "2026-10-30T10:44:16.010344+00:00",
+      "last_move_pct": -6.485057,
+      "last_move_asof": null
+    },
+    "premarket:LITE": {
+      "last_alert_utc": "2026-10-30T10:44:16.569457+00:00",
+      "last_move_pct": -6.7458405,
+      "last_move_asof": null
+    },
+    "premarket:BE": {
+      "last_alert_utc": "2026-10-30T10:44:17.128902+00:00",
+      "last_move_pct": -7.348905,
+      "last_move_asof": null
+    },
+    "premarket:COHR": {
+      "last_alert_utc": "2026-10-30T10:44:17.705182+00:00",
+      "last_move_pct": -8.0828085,
+      "last_move_asof": null
+    },
+    "premarket:P": {
+      "last_alert_utc": "2026-10-30T10:44:18.264434+00:00",
+      "last_move_pct": -6.276415,
+      "last_move_asof": null
+    },
+    "premarket:ILMN": {
+      "last_alert_utc": "2026-10-30T10:44:18.835315+00:00",
+      "last_move_pct": -13.121423,
+      "last_move_asof": null
+    },
+    "premarket:TWLO": {
+      "last_alert_utc": "2026-10-30T10:44:19.371437+00:00",
+      "last_move_pct": -16.680449,
+      "last_move_asof": null
+    },
+    "premarket:RDDT": {
+      "last_alert_utc": "2026-10-30T10:44:20.519560+00:00",
+      "last_move_pct": -22.037363,
+      "last_move_asof": null
     }
   },
-  "last_run_utc": "2026-10-30T10:13:51.718318+00:00"
+  "last_run_utc": "2026-10-30T10:36:30.515859+00:00"
 }
