@@ -1351,7 +1351,17 @@
       "last_alert_utc": "2026-10-30T11:18:36.949324+00:00",
       "last_move_pct": -6.330504,
       "last_move_asof": null
+    },
+    "premarket:REGN": {
+      "last_alert_utc": "2026-10-30T11:33:05.093024+00:00",
+      "last_move_pct": 7.4651313,
+      "last_move_asof": null
+    },
+    "premarket:FIX": {
+      "last_alert_utc": "2026-10-30T11:33:05.584559+00:00",
+      "last_move_pct": -6.124879,
+      "last_move_asof": null
     }
   },
-  "last_run_utc": "2026-10-30T11:15:30.231670+00:00"
+  "last_run_utc": "2026-10-30T11:30:45.807619+00:00"
 }

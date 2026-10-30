@@ -20320,5 +20320,87 @@
       "look_out": "Watch for details on the upcoming AI infrastructure spinoff mentioned in the headline, which is claimed to be the real winner of the earnings event.",
       "memory": "This ticker triggered this alert once in our own tracking over the last 180 days, most recently on 2026-10-13 with a -7.1% move, and 12 other Electronic Components names have also triggered this alert recently."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T11:33:05.594989+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "REGN",
+      "company": "Regeneron Pharmaceuticals",
+      "pct": 7.4651313,
+      "last": 879.8923,
+      "prev": 818.77,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "207940.KS",
+        "company": "Samsung Biologics",
+        "pct": 8.857979502196201
+      },
+      {
+        "ticker": "MRNA",
+        "company": "Moderna",
+        "pct": 4.0132614993804605
+      },
+      {
+        "ticker": "300759.SZ",
+        "company": "Pharmaron Beijing",
+        "pct": 3.4249973297119096
+      }
+    ],
+    "analysis": {
+      "business_model": "Regeneron Pharmaceuticals is a biotechnology company that develops and commercializes proprietary products, primarily focused on treating serious diseases including respiratory disease, eye diseases, and hemophilia.",
+      "sentiment": "Bullish - broad biotech sector strength with multiple peer gains",
+      "why_moved": "No specific catalyst such as earnings, guidance, or regulatory action is explicitly stated in the provided text. The move is described as a price action accompanied by simultaneous gains among biotechnology peers.",
+      "read_across": "Peer companies including Samsung Biologics, Moderna, and Pharmaron Beijing experienced concurrent positive price movements ranging from 3.4% to 8.9%. This indicates a broader sector-wide rally in biotechnology rather than an idiosyncratic event isolated to Regeneron.",
+      "look_out": "Monitor whether other names in the biotechnology group continue to exhibit similar intraday volatility. Watch for follow-through in peer performance to determine if this represents a sustained sector rotation or a short-lived price fluctuation.",
+      "memory": "Historical tracking data shows that 7 other names in the Biotechnology group triggered this same alert within the last 180 days. This suggests that synchronized price moves across the sector are a recurring pattern rather than a rare occurrence."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T11:33:05.595003+00:00",
+    "type": "single_stock",
+    "headline": "Comfort Systems USA Inc. Research & Ratings | FIX",
+    "source": "Barron's",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR1ZjOUhKYTlvbVJ3MzFCWFBJd2xBSFpJYXNsM0FzT1hFTlhjQ1Q0MUlWNUNTUmhscGp2a3NYRW9OMzc0SFVhWVlOZnlDUjlfNUs3aUdUbGlRSVJrcTctMFZMMmZRY1JnTXRPZjNucEp2NDdYampNNUZCLXBVUWZFTV9wVEU?oc=5",
+    "market_name": "US · NYSE/Nasdaq (pre-market)",
+    "primary": {
+      "ticker": "FIX",
+      "company": "Comfort Systems USA",
+      "pct": -6.124879,
+      "last": 1245.0,
+      "prev": 1326.23,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "000720.KS",
+        "company": "Hyundai E&C",
+        "pct": -8.533916849015322
+      },
+      {
+        "ticker": "PWR",
+        "company": "Quanta Services",
+        "pct": 4.661467044194434
+      },
+      {
+        "ticker": "028260.KS",
+        "company": "Samsung C&T",
+        "pct": -3.554868624420404
+      }
+    ],
+    "analysis": {
+      "business_model": "Comfort Systems USA provides mechanical and electrical engineering services for commercial, industrial, and institutional buildings. Its core revenue driver is the construction and maintenance of HVAC and electrical systems, placing it squarely in the industrial construction sector.",
+      "sentiment": "Bearish - significant equity price decline observed",
+      "why_moved": "The text does not specify a particular corporate catalyst such as earnings or guidance. The 6.1% intraday drop is accompanied by peer movements, including Hyundai E&E falling 8.5% while Quanta Services rose, suggesting sector-specific flows rather than a single company event.",
+      "read_across": "International Korean engineering and construction peers like Hyundai E&C and Samsung C&T show weakness, while domestic US peer Quanta Services diverges with a gain. This suggests the pressure is specific to certain sub-segments or geographies within the engineering and construction group.",
+      "look_out": "Monitor the divergence between US peers like Quanta Services and international peers to determine if the move is idiosyncratic or systematic. Watch for further triggers from other names in the Engineering & Construction group.",
+      "memory": "This ticker triggered this alert once in the last 180 days, most recently on 2026-10-07 with a -6.3% move. Five other names in the Engineering & Construction group also triggered this alert in our tracking over the last 180 days."
+    }
   }
 ]
