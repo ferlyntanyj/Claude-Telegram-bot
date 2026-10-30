@@ -179,7 +179,17 @@ COOLDOWN_HOURS = 18.0
 # pages were still claiming it was current when checked the same day, so
 # trust runs against the real API over their docs if this drifts again).
 # ---------------------------------------------------------------------------
-LLM_MODEL = "openai/gpt-oss-120b"
+# Switched from openai/gpt-oss-120b -> qwen/qwen3.8-27b on 2026-10-30. Groq's
+# free-tier rate limits are tracked per model, not per account -- this alert
+# and earnings_analysis.py share one GROQ_API_KEY but were both calling
+# openai/gpt-oss-120b, so they drew from the same 200K-tokens/day bucket and
+# could starve each other (confirmed via a real 429 during testing).
+# earnings_analysis.py stays on openai/gpt-oss-120b; putting this alert on a
+# different model (identical free-tier limits: 30 RPM/1K RPD/8K TPM/200K TPD,
+# per console.groq.com/docs/rate-limits checked live the same day -- no
+# DeepSeek model is offered on Groq's free tier) gives each pipeline its own
+# separate quota instead.
+LLM_MODEL = "qwen/qwen3.8-27b"
 # The analysis call returns 6 JSON-structured sections (business_model/
 # sentiment/why_moved/read_across/look_out/memory) instead of one blob --
 # more headroom than the old single-paragraph LLM_SIGNIFICANCE_MAX_TOKENS=300.

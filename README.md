@@ -193,9 +193,10 @@ weakened labels, counter-arguments) at the user's request, since a smaller free 
 thin material is far more likely to hold up on "compute this delta" than on "read whether
 management was credible." **Entirely
 free infrastructure** — Groq's free-tier chat completions (same account `major_news_alert.py`
-already uses, by choice, to keep setup to one key — that account's 200k tokens/day free-tier cap
-can run out before this pipeline gets a turn, confirmed by a real 429 during testing, since
-major_news_alert.py polls far more often; a blocked report just retries on the next run rather
+already uses, by choice, to keep setup to one key, but its own model — `openai/gpt-oss-120b` here
+vs `qwen/qwen3.8-27b` for `major_news_alert.py` — since Groq's free-tier limits are tracked per
+model, not per account, and sharing one model's 200k-tokens/day cap let the two pipelines starve
+each other, confirmed by a real 429 during testing; a blocked report just retries on the next run rather
 than being lost, see below), SEC EDGAR (genuinely free and
 script-friendly for automated access, unlike every other exchange checked), and Google News RSS
 (same free, no-key search `major_news_alert.py` already relies on) — no paid API anywhere in this
@@ -218,8 +219,8 @@ pipeline.
   around another site's anti-bot measures. Both detection paths are free, so both run every time,
   including during `--dry-run`.
 - For every newly-reported ticker, grounding (`_gather_grounding`, no LLM call) finds the source
-  material, then two Groq calls (`config.LLM_MODEL`, same free-tier model/account `major_news_alert.py`
-  uses) do the writing:
+  material, then two Groq calls (`config.LLM_MODEL`, same free-tier account as `major_news_alert.py`
+  but its own model — see above) do the writing:
   1. **Grounding** — US-listed tickers (no `yfinance` suffix, including foreign issuers like
      TSM/ASML that file via EDGAR as 20-F/6-K filers) fetch their most recent 8-K/6-K (preferred —
      that's where the actual earnings press release/CFO-commentary exhibit lives, confirmed
@@ -263,10 +264,10 @@ the way to sanity-check report quality/formatting before trusting the daily cron
 
 Needs `GROQ_API_KEY` as a GitHub Actions secret (see below) — already set up if
 `major_news_alert.yml` is working, since it's the exact same free-tier key/account (by choice, to
-keep setup to one key — a separate account would avoid the quota contention below entirely, but
-means a second free signup). That account's 200k tokens/day cap can run out before this pipeline
-gets a turn on a day `major_news_alert.py` has polled heavily, confirmed by a real 429 during
-testing — a blocked report is retried on the next day's run rather than silently lost (see
+keep setup to one key). This pipeline calls `openai/gpt-oss-120b`; `major_news_alert.py` was moved
+to a different model (`qwen/qwen3.8-27b`) on 2026-10-30 so the two no longer draw from the same
+per-model 200k-tokens/day free-tier bucket, after a real 429 during testing confirmed they were
+starving each other — a blocked report is still retried on the next day's run rather than silently lost (see
 `earnings_analysis_engine.py`'s `_apply_detection`), so worst case is a delayed report, not a
 missing one.
 
@@ -339,7 +340,8 @@ add each of the following (same values already set locally as environment variab
 - `SGX_SCREENER_TELEGRAM_BOT_TOKEN`
 - `SGX_SCREENER_TELEGRAM_CHAT_ID`
 - `GROQ_API_KEY` — free tier, console.groq.com. Needed for the major-news alert's write-up step
-  and the whole daily earnings analysis pipeline — both share this one key.
+  (`qwen/qwen3.8-27b`) and the whole daily earnings analysis pipeline (`openai/gpt-oss-120b`) —
+  both share this one key, each on its own model/quota.
 
 GitHub encrypts these at rest and never exposes them in logs, even on a public repo. Once both
 Telegram secrets are added, trigger a manual run from the Actions tab to verify before waiting for
