@@ -61,6 +61,18 @@ MAX_REPORT_AGE_DAYS = 4
 #     traffic, confirmed by testing) or simply have no free developer feed,
 #     and this repo does not build around another site's anti-bot measures.
 LLM_MODEL = "openai/gpt-oss-120b"
+# Fallback if LLM_MODEL is still rate-limited after its own retries (see
+# _run_completion) -- added 2026-10-30 after the real-world backlog from
+# major_news_alert.py sharing this exact model (before its 2026-10-30 move
+# to qwen/qwen3.8-27b) left LLM_MODEL's 200k-tokens/day bucket exhausted
+# for most of a day even once that cross-pipeline contention was fixed,
+# since Groq's TPD window only clears 24h after each token was actually
+# used. A separate model is a separate quota bucket, so this is a second,
+# independent 200k/day allowance to fall through to rather than failing
+# the report outright. Smaller than LLM_MODEL (20B vs 120B) -- a step down
+# in quality, used only when the primary is genuinely unavailable, not the
+# normal path.
+LLM_FALLBACK_MODEL = "openai/gpt-oss-20b"
 LLM_WRITE_MAX_TOKENS = 2500
 LLM_VERIFY_MAX_TOKENS = 2500
 # Free tier is 8,000 tokens/minute, 30 requests/minute (see

@@ -62,6 +62,7 @@ import datetime as dt
 import json
 import os
 import re
+import sys
 import time as _time
 import traceback
 import urllib.parse
@@ -658,25 +659,38 @@ def _groq_client():
     return Groq()  # reads GROQ_API_KEY from the environment
 
 
-def _run_completion(prompt, max_tokens):
-    """One Groq chat-completion call, retried with backoff on a 429 --
-    same shape as major_news_engine._run_completion, same free-tier model/
-    account this repo's major_news_alert.py already uses."""
+def _run_completion(prompt, max_tokens, model=None):
+    """One Groq chat-completion call, retried with backoff on a 429 -- same
+    shape as major_news_engine._run_completion. If the model (cfg.LLM_MODEL
+    by default) is still rate-limited after those retries, falls back once
+    to cfg.LLM_FALLBACK_MODEL -- a different model is a different, separate
+    quota bucket on Groq's free tier, so this survives LLM_MODEL's bucket
+    being exhausted (its own retries, plus any other pipeline sharing this
+    account, plus the slow 24h rolloff of either) without failing the
+    report outright. Only one fallback hop -- if the fallback model is
+    ALSO rate-limited, that propagates as a real failure (see
+    _apply_detection's docstring for why that's survivable)."""
     from groq import RateLimitError
 
+    target_model = model or cfg.LLM_MODEL
     client = _groq_client()
     for attempt in range(cfg.LLM_RATE_LIMIT_MAX_RETRIES + 1):
         try:
             resp = client.chat.completions.create(
-                model=cfg.LLM_MODEL,
+                model=target_model,
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=max_tokens,
             )
             return resp.choices[0].message.content
         except RateLimitError:
-            if attempt >= cfg.LLM_RATE_LIMIT_MAX_RETRIES:
-                raise
-            _time.sleep(cfg.LLM_RATE_LIMIT_RETRY_SECONDS * (attempt + 1))
+            if attempt < cfg.LLM_RATE_LIMIT_MAX_RETRIES:
+                _time.sleep(cfg.LLM_RATE_LIMIT_RETRY_SECONDS * (attempt + 1))
+                continue
+            if target_model != cfg.LLM_FALLBACK_MODEL:
+                print(f"  {target_model} still rate-limited after retries -- "
+                      f"falling back to {cfg.LLM_FALLBACK_MODEL}", file=sys.stderr)
+                return _run_completion(prompt, max_tokens, model=cfg.LLM_FALLBACK_MODEL)
+            raise
 
 
 def _run_write_stage(item, snapshot_text, grounding_text, source_label):
