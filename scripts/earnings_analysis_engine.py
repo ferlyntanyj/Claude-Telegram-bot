@@ -646,6 +646,14 @@ def _gather_grounding(item):
 
 
 def _groq_client():
+    """Shares GROQ_API_KEY with major_news_alert.py (same account, by
+    choice -- a separate account would avoid quota contention entirely,
+    but was decided against to keep setup to one key). A real 429 during
+    testing confirmed this account's 200k tokens/day free-tier cap can run
+    out before this pipeline gets a turn, since major_news_alert.py polls
+    far more often -- see _apply_detection's docstring for why that's
+    survivable (a blocked report retries on the next run) rather than
+    silently lost."""
     from groq import Groq
     return Groq()  # reads GROQ_API_KEY from the environment
 

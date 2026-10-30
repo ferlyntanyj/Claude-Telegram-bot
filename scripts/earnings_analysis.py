@@ -17,7 +17,12 @@ API anywhere in this pipeline.
 Auth:
   GROQ_API_KEY -- required for any real (non-dry-run) run. Free tier, no
     credit card -- same key/account this repo's major_news_alert.py
-    already uses, so no new secret is needed if that's already set up.
+    already uses (by choice, to keep setup to one key), so no new secret
+    is needed if that's already set up. That account's 200k tokens/day
+    free-tier cap can run out before this pipeline gets a turn, since
+    major_news_alert.py polls far more often -- a blocked report just
+    retries on the next run rather than being lost (see
+    earnings_analysis_engine.py's _apply_detection).
   SGX_SCREENER_TELEGRAM_BOT_TOKEN, SGX_SCREENER_TELEGRAM_CHAT_ID -- same
     bot and chat as the other briefs; digests land in that same chat,
     interleaved with the scheduled briefs and the major-news alerts.

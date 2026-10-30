@@ -188,8 +188,11 @@ this writes a full analyst-grade report (results vs guidance vs street, manageme
 reaction, a structural strengthened/unchanged/weakened read on the business) and pushes a short
 digest to Telegram, with the full report committed under `output/earnings_analysis/`. **Entirely
 free infrastructure** — Groq's free-tier chat completions (same account `major_news_alert.py`
-already uses — no new secret needed), SEC EDGAR (genuinely free and script-friendly for automated
-access, unlike every other exchange checked), and Google News RSS (same free, no-key search
+already uses, by choice, to keep setup to one key — that account's 200k tokens/day free-tier cap
+can run out before this pipeline gets a turn, confirmed by a real 429 during testing, since
+major_news_alert.py polls far more often; a blocked report just retries on the next run rather
+than being lost, see below), SEC EDGAR (genuinely free and script-friendly for automated access,
+unlike every other exchange checked), and Google News RSS (same free, no-key search
 `major_news_alert.py` already relies on) — no paid API anywhere in this pipeline.
 
 - `earnings_analysis_engine.py` — detection: for every watchlist ticker, pulls `yfinance`'s
@@ -209,7 +212,7 @@ access, unlike every other exchange checked), and Google News RSS (same free, no
   around another site's anti-bot measures. Both detection paths are free, so both run every time,
   including during `--dry-run`.
 - For every newly-reported ticker, grounding (`_gather_grounding`, no LLM call) finds the source
-  material, then two Groq calls (`config.LLM_MODEL`, same free-tier model `major_news_alert.py`
+  material, then two Groq calls (`config.LLM_MODEL`, same free-tier model/account `major_news_alert.py`
   uses) do the writing:
   1. **Grounding** — US-listed tickers (no `yfinance` suffix, including foreign issuers like
      TSM/ASML that file via EDGAR as 20-F/6-K filers) fetch their most recent 8-K/6-K (preferred —
@@ -244,14 +247,21 @@ be analyzed — no API calls, no state changes, so it's free to test (and since 
 free either way, a dry run now shows the *same* detected tickers a real run would see, including
 ones found only via the Google News fallback).
 
-`python earnings_analysis.py --test-ticker NVDA` (run locally, or adapt as a manual step) forces
-the full grounding + Groq pipeline for one ticker and prints the result — never touches
-`state.json` or Telegram. Since the very first real run only baselines all watchlist tickers
-(nothing to analyze yet, by design — see above), this is the way to sanity-check report quality
-before trusting the daily cron.
+`python earnings_analysis.py --test-ticker NVDA`, or the `test_ticker` input on
+`workflow_dispatch`, forces the full grounding + Groq pipeline for one ticker, prints the result,
+AND sends the digest to Telegram tagged `🧪 TEST — not a real alert` so it's distinguishable from
+a real one — never touches `state.json`, so it's safe to run repeatedly. Since the very first real
+run only baselines all watchlist tickers (nothing to analyze yet, by design — see above), this is
+the way to sanity-check report quality/formatting before trusting the daily cron.
 
 Needs `GROQ_API_KEY` as a GitHub Actions secret (see below) — already set up if
-`major_news_alert.yml` is working, since it's the exact same free-tier key/account.
+`major_news_alert.yml` is working, since it's the exact same free-tier key/account (by choice, to
+keep setup to one key — a separate account would avoid the quota contention below entirely, but
+means a second free signup). That account's 200k tokens/day cap can run out before this pipeline
+gets a turn on a day `major_news_alert.py` has polled heavily, confirmed by a real 429 during
+testing — a blocked report is retried on the next day's run rather than silently lost (see
+`earnings_analysis_engine.py`'s `_apply_detection`), so worst case is a delayed report, not a
+missing one.
 
 ## Scheduled run
 
