@@ -169,19 +169,21 @@ RESULTS ANALYSIS
 Revenue: one line, "Revenue: <value>, <yoy delta> yoy, <qoq delta> qoq." Then one line naming which segment(s) drove it, each segment's own value and yoy change, e.g. "Drivers: <segment> <value> <delta>% yoy; <segment> <value> <delta>% yoy."
 - Crown jewel (name the segment): the main cash-generating segment -- one short line on whether it's growing, flat, or shrinking, purely from the numbers.
 - Growth engine (name the segment): the segment management points to as the future -- one short line with its growth rate.
-GPM: one line, "<value>, vs. <value> yoy" (add non-GAAP too if the company reports it separately).
+GPM: one line, "<value>, <yoy delta> yoy, <qoq delta> qoq" (add non-GAAP too if the company reports it separately).
 OPM: one line, same shape as GPM.
-Net profit: one line, "<value>, <yoy delta> yoy" (GAAP and non-GAAP if both reported; flag in a few words if a one-off is distorting the yoy comparison, e.g. a divestiture gain).
-EPS: one line, GAAP and non-GAAP, each vs. yoy.
-Capital allocation: one line -- buybacks/dividends/capex this quarter, compared to the prior quarter/year's equivalent figures.
+Net profit: one line, "<value>, <yoy delta> yoy, <qoq delta> qoq" (GAAP and non-GAAP if both reported; flag in a few words if a one-off is distorting either comparison, e.g. a divestiture gain).
+EPS: one line, GAAP and non-GAAP, each vs. yoy AND qoq.
+Capital allocation: one line -- buybacks/dividends/capex this quarter, compared to the prior quarter's AND prior year's equivalent figures.
 vs. guidance: one line -- beat/met/missed, quantified where possible.
 New guidance from management: one line -- next quarter's guided revenue/EPS/margin figures, plus any one-line assumption given (e.g. a cited market condition), numbers only.
+
+Every delta above is yoy AND qoq where the underlying quarterly data given to you supports it -- don't drop qoq just because yoy is available; only drop one side if that specific comparison isn't actually in the material given.
 
 FINANCIAL STATEMENT ANALYSIS
 Revenue quality: one line -- mix/volume/price shift if visible from the numbers given; skip if not disclosed.
 Pricing power: one line; write "not disclosed" if the release gives no price/ASP data.
-Operating leverage: one line -- margin change vs revenue growth, numbers only.
-Cash conversion: one line -- operating cash flow value and yoy change, vs. net income growth.
-Capital intensity: one line -- capex value and yoy change.
+Operating leverage: one line -- margin change vs revenue growth, yoy AND qoq, numbers only.
+Cash conversion: one line -- operating cash flow value, yoy AND qoq change, vs. net income growth.
+Capital intensity: one line -- capex value, yoy AND qoq change.
 Competitive position: one line; write "not addressed in the release" if there's no share-gain/loss evidence given -- never infer this.
 """
