@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-10-30T19:15:37.298790+00:00",
+  "last_run_utc": "2026-10-30T19:30:42.074393+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1578,10 +1578,10 @@
       "last_attempt_utc": "2026-10-30T19:04:30.168678+00:00"
     },
     "single:AVGO": {
-      "last_attempt_utc": "2026-10-30T17:18:25.039286+00:00"
+      "last_attempt_utc": "2026-10-30T19:32:56.227595+00:00"
     },
     "single:MU": {
-      "last_attempt_utc": "2026-10-30T17:18:35.899227+00:00"
+      "last_attempt_utc": "2026-10-30T19:33:07.409512+00:00"
     },
     "single:MCHP": {
       "last_attempt_utc": "2026-10-30T17:18:46.723785+00:00"
@@ -1618,6 +1618,9 @@
     },
     "single:CRL": {
       "last_attempt_utc": "2026-10-30T19:04:41.031578+00:00"
+    },
+    "single:SNPS": {
+      "last_attempt_utc": "2026-10-30T19:33:18.762417+00:00"
     }
   }
 }
