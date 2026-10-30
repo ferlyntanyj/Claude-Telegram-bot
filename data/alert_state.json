@@ -562,9 +562,9 @@
       "last_move_asof": "2026-10-30"
     },
     "single:BE": {
-      "last_alert_utc": "2026-09-28T14:17:26.737086+00:00",
-      "last_move_pct": -7.611709447298887,
-      "last_move_asof": "2026-09-28"
+      "last_alert_utc": "2026-10-30T14:18:38.250925+00:00",
+      "last_move_pct": -6.610439551274916,
+      "last_move_asof": "2026-10-30"
     },
     "single:GDDY": {
       "last_alert_utc": "2026-09-21T15:33:08.910785+00:00",
@@ -599,8 +599,9 @@
       "last_move_pct": 5.011573308643613
     },
     "sector:software infrastructure": {
-      "last_alert_utc": "2026-09-21T19:03:11.562628+00:00",
-      "last_move_pct": 2.1453376419542147
+      "last_alert_utc": "2026-10-30T14:18:41.189650+00:00",
+      "last_move_pct": -2.9167332443000293,
+      "last_move_asof": "2026-10-30"
     },
     "sector:airlines": {
       "last_alert_utc": "2026-09-21T19:18:03.022974+00:00",
@@ -742,9 +743,9 @@
       "last_move_asof": "2026-10-22"
     },
     "single:ZBRA": {
-      "last_alert_utc": "2026-09-23T20:04:05.209411+00:00",
-      "last_move_pct": 5.871624192948621,
-      "last_move_asof": "2026-09-23"
+      "last_alert_utc": "2026-10-30T14:18:40.616687+00:00",
+      "last_move_pct": -7.037998096068021,
+      "last_move_asof": "2026-10-30"
     },
     "single:5802.T": {
       "last_alert_utc": "2026-09-30T05:40:08.142518+00:00",
@@ -1057,9 +1058,9 @@
       "last_move_asof": null
     },
     "single:NTAP": {
-      "last_alert_utc": "2026-10-14T17:25:49.731327+00:00",
-      "last_move_pct": -6.631518015567018,
-      "last_move_asof": "2026-10-14"
+      "last_alert_utc": "2026-10-30T14:18:39.436988+00:00",
+      "last_move_pct": -8.440160110400917,
+      "last_move_asof": "2026-10-30"
     },
     "single:6723.T": {
       "last_alert_utc": "2026-10-15T05:56:46.682781+00:00",
@@ -1470,7 +1471,27 @@
       "last_alert_utc": "2026-10-30T14:04:12.662071+00:00",
       "last_move_pct": -3.0079764935936004,
       "last_move_asof": "2026-10-30"
+    },
+    "single:TER": {
+      "last_alert_utc": "2026-10-30T14:18:38.842466+00:00",
+      "last_move_pct": -7.122845532517452,
+      "last_move_asof": "2026-10-30"
+    },
+    "single:RMD": {
+      "last_alert_utc": "2026-10-30T14:18:40.008352+00:00",
+      "last_move_pct": -6.169757904705087,
+      "last_move_asof": "2026-10-30"
+    },
+    "sector:us technology": {
+      "last_alert_utc": "2026-10-30T14:18:41.764126+00:00",
+      "last_move_pct": -3.1679494149095158,
+      "last_move_asof": "2026-10-30"
+    },
+    "sector:uk healthcare": {
+      "last_alert_utc": "2026-10-30T14:18:42.339118+00:00",
+      "last_move_pct": 2.0245439317666536,
+      "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-10-30T14:00:54.998861+00:00"
+  "last_run_utc": "2026-10-30T14:15:35.700505+00:00"
 }

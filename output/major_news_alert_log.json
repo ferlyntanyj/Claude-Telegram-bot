@@ -22108,5 +22108,333 @@
       "look_out": "Watch for sustained volume to confirm the +12.0% intraday move holds above the prior close of 818.77.",
       "memory": "This ticker triggered this alert twice in the last 180 days, most recently on 2026-10-30 with a +13.3% move, pattern consistent with current actions."
     }
+  },
+  {
+    "alert_utc": "2026-10-30T14:18:42.350108+00:00",
+    "type": "single_stock",
+    "headline": "Trump not planning to back Bolsonaro's claim to be Brazil's leader, sources say",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeUo0QTNPRWduWkx5cnZYRTliM2F1aGJEM1cyTmprd1htM2w0WWRadnNHZWdZNVgxcThncktfRjBHRGdMRjZQWmVqZ3F2SmI0MjdyU0VOMGNFMEhZZVR4SWZqdjBpTkctUTJMS3lhVmhyODZzQXZDeF85TUNNRWxvRGpSdVN6LXpOSXQ1aDVFd0R2NnhCWXlzdHZ4SkFTSl93dUY5UlNxRUdsUUxlMF84VlZJc3U1bTRBRXdTNXBn?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "BE",
+      "company": "Bloom Energy",
+      "pct": -6.610439551274916,
+      "last": 207.60499572753906,
+      "prev": 222.3000030517578,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "5801.T",
+        "company": "Furukawa Electric Co., Ltd.",
+        "pct": -8.450244698205545
+      },
+      {
+        "ticker": "DELTA.BK",
+        "company": "Delta Electronics (Thailand)",
+        "pct": -8.144796380090503
+      },
+      {
+        "ticker": "6504.T",
+        "company": "Fuji Electric Co., Ltd.",
+        "pct": -7.695181172954801
+      }
+    ],
+    "analysis": {
+      "business_model": "Bloom Energy is an electrical equipment and parts company that manufactures fuel cell energy systems, serving as a core provider of distributed power solutions within the electrical sector.",
+      "sentiment": "Bearish - sector-wide sell-off hits electrical equipment peers broadly",
+      "why_moved": "No specific corporate catalyst such as earnings or guidance is stated in the provided text; the -6.6% drop appears driven by broad sector weakness rather than a company-specific event.",
+      "read_across": "The sell-off extends to key international peers in the same group, with Furukawa Electric, Delta Electronics, and Fuji Electric all declining by more than 7 percent.",
+      "look_out": "Monitor whether the sustained pressure on the Electrical Equipment & Parts group continues, as five other names have triggered similar alerts in the last 180 days.",
+      "memory": "This specific ticker has triggered this alert four times in the last 180 days, marking the fourth instance of significant price correction following a -7.3% move on 2026-10-30."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T14:18:42.350124+00:00",
+    "type": "single_stock",
+    "headline": "Teradyne Inc. stock underperforms Wednesday when compared to competitors",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTmhGWnBPbTFSTHJXWDg4d1JNcUZTZFVScVNMcW9pWmVjeFRVOHpoWkE5cmM3Z3gyY3Z2TWtWQkpXQm5qb1VMaEJaLUtfVlJ4OXdYRGNHZWNhTUZieGVLaUkwcnJxcGpybFRsRWkza0I0NFYzZVZ2cTV0ZkNOaTJoY3BMMW40ZEh6WkpoNndwNU0zeFpQY2VldkhoWXI3WnVlZGYtYlpVLXFLaWxyRjdlNTdEekRHT19lMVVMRkV5QVd5REJRN0xlcGpuWQ?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "TER",
+      "company": "Teradyne",
+      "pct": -7.122845532517452,
+      "last": 275.1300048828125,
+      "prev": 296.2300109863281,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "300751.SZ",
+        "company": "Suzhou Maxwell Technologies",
+        "pct": -12.751919593728168
+      },
+      {
+        "ticker": "6920.T",
+        "company": "Lasertec Corp.",
+        "pct": -8.805031446540879
+      },
+      {
+        "ticker": "3436.T",
+        "company": "Sumco Corp.",
+        "pct": -7.931786634939519
+      }
+    ],
+    "analysis": {
+      "business_model": "Teradyne generates revenue by manufacturing test and monitoring equipment for semiconductor and industrial markets. Its core business driver is providing infrastructure for the quality control of electronic components.",
+      "sentiment": "Bearish - sector-wide weakness overshadowing positive earnings surprise",
+      "why_moved": "Shares declined 7.1% despite reported earnings showing an EPS of 2.29 versus 2.06 estimated on 2026-10-27. The headline indicates underperformance relative to competitors, suggesting sector-wide flows drove the move rather than company-specific news.",
+      "read_across": "Peers in the Semiconductor Equipment & Materials group show concurrent declines, including Suzhou Maxwell at -12.8% and Lasertec at -8.8%. This indicates broad-based pressure across the sector rather than an isolated issue for Teradyne.",
+      "look_out": "Watch if the price stabilizes relative to peers given the earlier earnings beat. Monitor for follow-through in the 9 other group names that have triggered similar alerts recently.",
+      "memory": "Teradyne triggered this specific alert once in the last 180 days on 2026-10-30 with a -6.1% move. Another 9 names in the Semiconductor Equipment & Materials group have also triggered this alert in the same period."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T14:18:42.350130+00:00",
+    "type": "single_stock",
+    "headline": "NetApp Inc. stock outperforms competitors despite losses on the day",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSVFYdzVKaWRHbGJzVjQzSXhfR3VvM1F1UTc4d2ZOYXI3R3lLT0ZhVXJCaFhhakJOemV2eXhpNWMzWDFKM0N5c3BzYUxiblhhUjhvVmdGdlJZRnBLcHc2WlJoRzZlV0JEaFlYMkt4MnlWRWlPc2ZyMVN6Mks1Z0ZLWnZuT0g1NE91Wm8xMlZvMHVfOGxzLTRRXzBhR3JYNkVEMXl6M180Q2V4MU1MOGdLbkw2eXAtUGJKZVdBS0otZXVGY2tqUmpnTTNjUFNNZF9KclEtdFZSZHctTGpL?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "NTAP",
+      "company": "NetApp",
+      "pct": -8.440160110400917,
+      "last": 199.98500061035156,
+      "prev": 218.4199981689453,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "TWLO",
+        "company": "Twilio",
+        "pct": -18.050845137606018
+      },
+      {
+        "ticker": "AKAM",
+        "company": "Akamai Technologies",
+        "pct": -4.799755257492078
+      },
+      {
+        "ticker": "PLTR",
+        "company": "Palantir Technologies",
+        "pct": -4.612509332821446
+      }
+    ],
+    "analysis": {
+      "business_model": "NetApp provides data storage and management software, cloud services, and hardware solutions, helping organizations store, secure, and consume data.",
+      "sentiment": "Bearish - significant intraday loss despite outperforming peers",
+      "why_moved": "The specific catalyst is not stated in the provided text, but price action shows a significant intraday drop that still outperformed major peers in the sector.",
+      "read_across": "Broader infrastructure software peers like Twilio and Akamai faced steeper losses, while NetApp's relative resilience suggests idiosyncratic strength within a risky sector drawdown.",
+      "look_out": "Monitor whether this relative outperformance persists as sector-wide pressure from names like Twilio continues to weigh on infrastructure software valuations.",
+      "memory": "Our tracking indicates this ticker triggered this alert twice in the last 180 days, most recently on 2026-10-30 with a -6.8% move, alongside nine other names in the Software - Infrastructure group."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T14:18:42.350134+00:00",
+    "type": "single_stock",
+    "headline": "80% of workers make this 401(k) mistake when they retire",
+    "source": "MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVUFMajlPMFlaMFRzeEtERi1GZmk4SVBybFhfNkJYYlp3WV93R2FiME1hME90LTYxZGU2ZDdscG1HRVp2Z25ETzkteU9pTmluVy11dTItdnd6SXpLZWF2SUNpZ01LVmQzeW9HLTgzRkFqVTdONElnY2dpbjdKdHZvVmZOU2o4MlVVSGVaVGtvLTZNeUZEWllIbVNsV3dCWkFYclhGeHFVR0hCWno2MV81ZEE0Q1ByeVItR0w1WVBWaw?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "RMD",
+      "company": "ResMed",
+      "pct": -6.169757904705087,
+      "last": 237.2310028076172,
+      "prev": 252.8300018310547,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "ALGN",
+        "company": "Align Technology",
+        "pct": -3.194329222331893
+      },
+      {
+        "ticker": "SOLV",
+        "company": "Solventum",
+        "pct": -1.711345556434507
+      },
+      {
+        "ticker": "WST",
+        "company": "West Pharmaceutical Services",
+        "pct": -1.6859923171027247
+      }
+    ],
+    "analysis": {
+      "business_model": "ResMed designs and manufactures medical devices and digital health technologies, primarily for sleep and respiratory care, generating revenue through hardware sales and related subscriptions.",
+      "sentiment": "Bearish - stock dropping 6.2% while peers declined less",
+      "why_moved": "The text links the move to a known corporate event: ResMed reported earnings on 2026-10-29 with EPS of 2.91 vs 2.67 estimate (an +8.9% surprise), yet the stock fell 6.2% intraday.",
+      "read_across": "Domestic peers Align Technology, Solventum, and West Pharmaceutical Services also declined, suggesting a broader negative sentiment or sector-wide pullback affecting medical device manufacturers.",
+      "look_out": "Investors should watch for follow-through trading to confirm if the 6.2% drop represents a one-day overreaction to the earnings event or a sustained shift in valuation for the medical device sector.",
+      "memory": "No clear historical parallel comes to mind."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T14:18:42.350138+00:00",
+    "type": "single_stock",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "ZBRA",
+      "company": "Zebra Technologies",
+      "pct": -7.037998096068021,
+      "last": 350.82000732421875,
+      "prev": 377.3800048828125,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "LITE",
+        "company": "Lumentum",
+        "pct": -11.035260507726885
+      },
+      {
+        "ticker": "CIEN",
+        "company": "Ciena",
+        "pct": -8.353126748243655
+      },
+      {
+        "ticker": "2345.TW",
+        "company": "Accton",
+        "pct": -7.9772079772079785
+      }
+    ],
+    "analysis": {
+      "business_model": "Zebra Technologies designs, manufactures, and sells automated identification and data capture (AIDC) technologies, including bar code scanners and mobile computing devices. Its core revenue is driven by enterprise solutions for supply chain, logistics, and retail tracking.",
+      "sentiment": "Bearish - broad communication equipment sector sell-off",
+      "why_moved": "No specific corporate catalyst such as earnings or guidance is stated in the provided text. The price move appears to be part of a sector-wide decline, with Zebra down 7.0% alongside other communication equipment peers.",
+      "read_across": "The drop aligns with significant losses in the broader Communication Equipment group, with peers Lumentum, Ciena, and Accton declining between 8.0% and 11.0%. This indicates a potential sector-wide de-rating or risk-off event affecting infrastructure hardware names.",
+      "look_out": "Monitor whether the decline in Lumentum and Ciena extends to further losses in other hardware stocks. Watch for any company-specific news from Zebra that might explain its relative outperformance or underperformance versus the 8-11% drops in peers.",
+      "memory": "Our tracking data shows Zebra triggered this alert only once in the last 180 days, most recently on 2026-09-23 with a +5.9% move. Five other names in the Communication Equipment group have also triggered similar alerts recently, suggesting increased volatility within this peer set."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T14:18:42.350142+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "TWLO",
+      "company": "Twilio",
+      "pct": -18.050845137606018,
+      "last": 198.23500061035156,
+      "prev": 241.89999389648438,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "NTAP",
+        "company": "NetApp",
+        "pct": -8.440160110400917
+      },
+      {
+        "ticker": "AKAM",
+        "company": "Akamai Technologies",
+        "pct": -4.799755257492078
+      },
+      {
+        "ticker": "PLTR",
+        "company": "Palantir Technologies",
+        "pct": -4.612509332821446
+      }
+    ],
+    "analysis": {
+      "business_model": "Twilio provides a cloud communications platform that allows businesses to integrate voice, video, and SMS functionality into their applications via APIs.",
+      "sentiment": "Bearish - significant intraday drop paired with negative peer correlation",
+      "why_moved": "The headline explicitly states no specific news story was found, and no corporate event fits the intraday move; the price decline is therefore attributed to unexplained price action within a broader sector sell-off.",
+      "read_across": "Infra software peers such as NetApp, Akamai, and Palantir all posted significant declines, suggesting a broader de-risking in the infrastructure group rather than an isolated company-specific issue.",
+      "look_out": "Monitor for further sector-wide weakness in Cloud Infrastructure names and await a clear fundamental catalyst that explains the sustained divergence from prior closes.",
+      "memory": "This ticker triggered a similar -21.0% alert on 2026-10-30, indicating high recent volatility, while 9 other Software-Infrastructure names have shown similar sharp moves in the last 180 days."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T14:18:42.350146+00:00",
+    "type": "sector",
+    "headline": "Tech Stock Selloff Deepens on Earnings, Oil Rises: Markets Wrap",
+    "source": "Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNLWZRMVRrOG1xQ1NBUE55MXNIWTFyTFBfUDBwVnUwbDRHOHNibGNUazhpRVVJamItaGc5UndhUngwMTFOLUE1M3dscmdtSDBvWUJrNmoyWnFGZ2tBcm9VZjZ5MXcyQXFuSDZmWmE4WVlheXZBeTVTci1CXzFQMUxnMkpFRXBVTjh0SlI0N0hobUZzOHh3?oc=5",
+    "market_name": "US · NYSE/Nasdaq",
+    "primary": {
+      "ticker": "INTC",
+      "company": "Intel",
+      "pct": -28.64179292346517,
+      "last": 65.69950103759766,
+      "prev": 92.06999969482422,
+      "currency": "USD"
+    },
+    "peers": [
+      {
+        "ticker": "TWLO",
+        "company": "Twilio",
+        "pct": -18.050845137606018
+      },
+      {
+        "ticker": "LITE",
+        "company": "Lumentum",
+        "pct": -11.035260507726885
+      },
+      {
+        "ticker": "COHR",
+        "company": "Coherent Corp.",
+        "pct": -11.010873865094606
+      }
+    ],
+    "analysis": {
+      "business_model": "Intel Core Business: Design and manufacture semiconductors",
+      "sentiment": "Bearish - massive intraday drop amid sector-wide selloff",
+      "why_moved": "Reported earnings on 2026-10-29 showed an EPS of 0.52 compared to an estimate of 0.40. This specific catalyst aligns with the headline citing a deepening tech stock selloff on earnings.",
+      "read_across": "Peers Twilio, Lumentum, and Coherent Corp. also sold off, with drops ranging from 11.0% to 18.1%. This indicates a broad-based retreat from technology names rather than an isolated event.",
+      "look_out": "Watch for further spread in AI-related selloffs and potential declines in crypto assets. Monitor if the deepening selloff continues to decouple from rising oil prices.",
+      "memory": "Our internal tracking shows this name has triggered this alert 10 times in the last 180 days. The most recent similar event occurred on 2026-10-30, resulting in a 29.0% decline."
+    }
+  },
+  {
+    "alert_utc": "2026-10-30T14:18:42.350149+00:00",
+    "type": "sector",
+    "headline": "(no specific news story found — price move only)",
+    "source": "price data",
+    "url": "",
+    "market_name": "UK · LSE",
+    "primary": {
+      "ticker": "AZN.L",
+      "company": "AstraZeneca",
+      "pct": 7.129646976995874,
+      "last": 13982.5615234375,
+      "prev": 13052.0,
+      "currency": "GBp"
+    },
+    "peers": [
+      {
+        "ticker": "GSK.L",
+        "company": "GSK plc",
+        "pct": 2.618522601984563
+      },
+      {
+        "ticker": "HLN.L",
+        "company": "Haleon",
+        "pct": 2.0245439317666536
+      },
+      {
+        "ticker": "CTEC.L",
+        "company": "Convatec",
+        "pct": 0.9868458821503223
+      }
+    ],
+    "analysis": {
+      "business_model": "AstraZeneca is a global biopharmaceutical company that generates revenue primarily through the development, licensing, and marketing of prescription medicines, particularly in oncology, respiratory, and cardiovascular treatments.",
+      "sentiment": "Bullish - strong earnings beat and positive peer correlation",
+      "why_moved": "The stock moved following reported earnings where EPS was 2.79 versus an estimate of 2.59, representing a +7.9% surprise. This specific catalyst drove the price up from a prior close of 13052.00 to a last level of 13982.56.",
+      "read_across": "Peers traded in sympathy with the move, as GSK plc rose 2.6%, Haleon rose 2.0%, and Convatec rose 1.0%. This suggests a positive sector-wide flow rather than an isolated idiosyncratic event.",
+      "look_out": "Investors should monitor whether the +7.1% intraday gain sustains following the earnings release dated 2026-10-30. The divergence between Azure's single trigger and the broader peer rise will indicate if this is a sector-wide reappraisal.",
+      "memory": "Our tracking data indicates this ticker triggered this alert once in the last 180 days, most recently on 2026-10-30 with a +6.5% move. This current action mirrors that recent historical instance of a significant positive price spike."
+    }
   }
 ]
