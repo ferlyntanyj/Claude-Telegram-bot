@@ -49,6 +49,7 @@ Usage:
                                                      # daily cron.
 """
 import datetime as dt
+import html
 import os
 import re
 import sys
@@ -63,15 +64,38 @@ CHAT_ID_ENV_VAR = "SGX_SCREENER_TELEGRAM_CHAT_ID"
 _GROUP_EMOJI = {"AI Capex": "🤖", "SGX": "🇸🇬", "Bursa": "🇲🇾", "Thailand": "🇹🇭"}
 
 
+def _markdown_to_telegram_html(text):
+    """The verify-stage prompt asks for "plain text, no markdown headers",
+    but a free-tier model doesn't reliably comply -- confirmed live: digests
+    came back with literal "**"/"#"/"- " in them, because Telegram's
+    parse_mode=HTML does nothing with Markdown syntax (it's a different
+    markup language), so those characters were just showing up verbatim
+    instead of rendering as bold/headers/bullets. Escapes the raw text
+    first (so nothing in the LLM's own output can break out of the tags
+    this then inserts), then converts the handful of Markdown patterns it
+    actually uses into the real HTML tags Telegram does understand.
+    """
+    text = html.escape(text, quote=False)
+    text = re.sub(r"^#{1,6}\s*(.+)$", r"<b>\1</b>", text, flags=re.MULTILINE)  # # Header -> bold
+    text = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", text)   # **bold**
+    text = re.sub(r"__(.+?)__", r"<b>\1</b>", text)       # __bold__
+    text = re.sub(r"(?<!\*)\*([^*\n]+?)\*(?!\*)", r"<i>\1</i>", text)  # *italic*
+    text = re.sub(r"(?<!_)_([^_\n]+?)_(?!_)", r"<i>\1</i>", text)      # _italic_
+    text = re.sub(r"^[-*]\s+", "• ", text, flags=re.MULTILINE)  # leftover bullet markers
+    return text
+
+
 def render_telegram(result, test_mode=False):
     item = result["item"]
     emoji = _GROUP_EMOJI.get(item["group"], "📊")
     prefix = "🧪 <b>TEST</b> -- not a real alert\n\n" if test_mode else ""
+    company = html.escape(item["company"], quote=False)
+    ticker = html.escape(item["ticker"], quote=False)
     header = (
-        f"{prefix}{emoji} <b>{item['company']} ({item['ticker']})</b> -- earnings, "
+        f"{prefix}{emoji} <b>{company} ({ticker})</b> -- earnings, "
         f"{item['report_date'].isoformat()}\n\n"
     )
-    digest = re.sub(r"<(?!/?[bi]>)", "&lt;", result["digest"])  # keep <b>/<i>, escape the rest
+    digest = _markdown_to_telegram_html(result["digest"])
     footer = f"\n\n<i>Full 5-section report: {result['report_path']}</i>"
     return header + digest + footer
 

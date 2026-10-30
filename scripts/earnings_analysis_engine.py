@@ -712,7 +712,8 @@ def _run_verify_stage(item, grounding_text, draft_text):
         f"if available (or 'reaction not yet available'), and one standout figure from the "
         f"Financial Metrics section (e.g. the one-off-adjusted growth rate, or the operating "
         f"leverage numbers). Keep the digest under {cfg.TELEGRAM_DIGEST_MAX_CHARS} characters "
-        f"total, plain text, no markdown headers."
+        f"total, plain text only -- no markdown at all: no ** or * for bold/italic, no # "
+        f"headers, no - or * bullet markers. Just plain sentences, one per line."
     )
     text = _run_completion(prompt, cfg.LLM_VERIFY_MAX_TOKENS)
     if cfg.DIGEST_MARKER in text:

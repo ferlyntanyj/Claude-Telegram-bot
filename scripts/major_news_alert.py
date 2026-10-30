@@ -30,6 +30,7 @@ Usage:
 import datetime as dt
 import html
 import os
+import re
 import sys
 
 import requests
@@ -46,6 +47,24 @@ COLOR = {1: "🟢", -1: "🔴", 0: "⚪"}
 
 def _esc(text):
     return html.escape(str(text), quote=False)
+
+
+def _markdown_to_telegram_html(text):
+    """write_analysis()'s fields are free-text LLM output, same risk as
+    earnings_analysis.py's digest: parse_mode=HTML does nothing with
+    Markdown syntax, so a stray "**"/"#"/"- " from the model shows up
+    verbatim instead of rendering as bold/headers/bullets. Escapes first
+    (so nothing in the LLM's own text can break out of the tags this then
+    inserts), then converts the handful of Markdown patterns it actually
+    uses into real HTML tags."""
+    text = html.escape(str(text), quote=False)
+    text = re.sub(r"^#{1,6}\s*(.+)$", r"<b>\1</b>", text, flags=re.MULTILINE)
+    text = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", text)
+    text = re.sub(r"__(.+?)__", r"<b>\1</b>", text)
+    text = re.sub(r"(?<!\*)\*([^*\n]+?)\*(?!\*)", r"<i>\1</i>", text)
+    text = re.sub(r"(?<!_)_([^_\n]+?)_(?!_)", r"<i>\1</i>", text)
+    text = re.sub(r"^[-*]\s+", "• ", text, flags=re.MULTILINE)
+    return text
 
 
 def _color(pct):
@@ -102,12 +121,12 @@ def render_telegram(alert):
         peers_block = "<i>No peers identified this cycle.</i>"
 
     analysis = alert.get("analysis") or {}
-    business_model = _esc(analysis.get("business_model") or "(not available)")
-    sentiment = _fmt_sentiment(_esc(analysis.get("sentiment") or "(not available)"))
-    why_moved = _esc(analysis.get("why_moved") or "(not available)")
-    read_across = _esc(analysis.get("read_across") or "(not available)")
-    look_out = _esc(analysis.get("look_out") or "(not available)")
-    memory = _esc(analysis.get("memory") or "(not available)")
+    business_model = _markdown_to_telegram_html(analysis.get("business_model") or "(not available)")
+    sentiment = _fmt_sentiment(_markdown_to_telegram_html(analysis.get("sentiment") or "(not available)"))
+    why_moved = _markdown_to_telegram_html(analysis.get("why_moved") or "(not available)")
+    read_across = _markdown_to_telegram_html(analysis.get("read_across") or "(not available)")
+    look_out = _markdown_to_telegram_html(analysis.get("look_out") or "(not available)")
+    memory = _markdown_to_telegram_html(analysis.get("memory") or "(not available)")
 
     return (
         f'<b>{market_name}</b>; <i>{time_str}</i>\n'
