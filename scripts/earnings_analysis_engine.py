@@ -706,14 +706,18 @@ def _run_verify_stage(item, grounding_text, draft_text):
         f"silently deleting it, so the reader knows what to double check. Do not soften any "
         f"flagged deterioration while correcting.\n\n"
         f"Output the corrected full report, then on its own line write exactly "
-        f"'{cfg.DIGEST_MARKER}' followed by a Telegram-ready digest in 4-6 short lines, "
-        f"figures only, no opinions or judgment calls: ticker/company, revenue and net profit "
-        f"growth (yoy, quantified), beat/met/missed vs street (quantified), the price reaction "
-        f"if available (or 'reaction not yet available'), and one standout figure from the "
-        f"Financial Metrics section (e.g. the one-off-adjusted growth rate, or the operating "
-        f"leverage numbers). Keep the digest under {cfg.TELEGRAM_DIGEST_MAX_CHARS} characters "
-        f"total, plain text only -- no markdown at all: no ** or * for bold/italic, no # "
-        f"headers, no - or * bullet markers. Just plain sentences, one per line."
+        f"'{cfg.DIGEST_MARKER}' followed by a Telegram-ready digest. Figures only, no opinions "
+        f"or judgment calls, ultra-compact -- one line per metric, in this exact shape: "
+        f"\"<Metric>: <value>, <yoy delta> yoy, <qoq delta> qoq\" and ONLY append "
+        f"\"; <driver>\" when the company itself explicitly stated that driver (briefly quote "
+        f"or paraphrase it) -- never infer or guess a driver. Example line: "
+        f"\"Revenue: $14.2B, +30% yoy, +20% qoq; driven by data center demand\". Cover, in this "
+        f"order: revenue, net profit, the key operating metric vs street (beat/met/missed, "
+        f"quantified), price reaction (or 'Reaction: not yet available'), and one standout "
+        f"figure from the Financial Metrics section (e.g. the one-off-adjusted growth rate or "
+        f"the operating leverage numbers) -- 5-6 lines total. Keep the whole digest under "
+        f"{cfg.TELEGRAM_DIGEST_MAX_CHARS} characters. Plain text only -- no markdown at all: no "
+        f"** or * for bold/italic, no # headers, no - or * bullet markers."
     )
     text = _run_completion(prompt, cfg.LLM_VERIFY_MAX_TOKENS)
     if cfg.DIGEST_MARKER in text:
@@ -741,14 +745,20 @@ def analyze_ticker(item):
         return None
 
 
-def save_report(item, full_report_text):
+def save_report(item, full_report_text, test=False):
     os.makedirs(cfg.OUTPUT_DIR, exist_ok=True)
-    fname = f"{item['ticker'].replace('.', '_')}_{item['report_date'].isoformat()}.md"
+    prefix = "TEST_" if test else ""
+    fname = f"{prefix}{item['ticker'].replace('.', '_')}_{item['report_date'].isoformat()}.md"
     path = os.path.join(cfg.OUTPUT_DIR, fname)
+    test_note = (
+        "\n**TEST RUN -- not a real detection.** Forced via --test-ticker/test_ticker; "
+        "may not reflect the ticker's actual last-reported quarter.\n" if test else ""
+    )
     header = (
         f"# {item['company']} ({item['ticker']}) -- earnings analysis\n\n"
         f"Reported: {item['report_date'].isoformat()}  |  Group: {item['group']}  |  "
-        f"Generated: {dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}\n\n---\n\n"
+        f"Generated: {dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}\n"
+        f"{test_note}\n---\n\n"
     )
     with open(path, "w", encoding="utf-8") as f:
         f.write(header + full_report_text + "\n")
@@ -759,11 +769,15 @@ def run_test_ticker(ticker, company=None, group="Test"):
     """Diagnostic only: forces the full grounding + Groq pipeline for one
     ticker, bypassing detection and state entirely -- lets you see real
     report quality before trusting the daily cron. Never touches
-    state.json, never saves a report file, never sends to Telegram; the
-    caller (earnings_analysis.py --test-ticker) just prints what comes
-    back. report_date is whatever yfinance's most recent reported-earnings
-    row says (today, if that's unavailable too) -- it's only prompt
-    context here, not compared against anything."""
+    state.json; DOES save the full report (see save_report's test=True
+    path -- a "TEST_" filename prefix plus a note in the file itself keep
+    it clearly distinct from a real daily detection), since the whole
+    point of this mode is reviewing the report as a quality template, not
+    just the short Telegram digest. The caller (earnings_analysis.py
+    --test-ticker) prints what comes back and also sends the digest to
+    Telegram. report_date is whatever yfinance's most recent
+    reported-earnings row says (today, if that's unavailable too) -- it's
+    only prompt context here, not compared against anything."""
     latest = _latest_reported_row(ticker)
     report_date = latest[0] if latest else dt.date.today()
     eps_est, reported_eps, surprise_pct = latest[1:] if latest else (None, None, None)
@@ -776,7 +790,8 @@ def run_test_ticker(ticker, company=None, group="Test"):
     if outcome is None:
         return None
     full_report, digest = outcome
-    return item, full_report, digest
+    report_path = save_report(item, full_report, test=True)
+    return item, full_report, digest, report_path
 
 
 def run_cycle(dry_run=False):

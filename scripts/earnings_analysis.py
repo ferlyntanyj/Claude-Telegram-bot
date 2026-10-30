@@ -37,11 +37,13 @@ Usage:
                                                      # ticker OR company name (matched
                                                      # against the watchlist, any ticker
                                                      # or company not in it is also
-                                                     # accepted as-is), print the result,
-                                                     # AND send
-                                                     # the digest to Telegram (tagged
-                                                     # "TEST" so it's distinguishable
-                                                     # from a real alert) -- never
+                                                     # accepted as-is), print the full
+                                                     # report, save it under
+                                                     # output/earnings_analysis/ with a
+                                                     # "TEST_" filename prefix (so it's
+                                                     # never mistaken for a real daily
+                                                     # detection), AND send the digest to
+                                                     # Telegram (tagged "TEST") -- never
                                                      # touches state.json, so it's safe
                                                      # to run repeatedly. Use this to
                                                      # sanity-check report quality/
@@ -154,11 +156,13 @@ def _run_test_ticker(user_input):
     if outcome is None:
         print("Pipeline failed -- see error above.", file=sys.stderr)
         sys.exit(1)
-    item, full_report, digest = outcome
+    item, full_report, digest, report_path = outcome
     print("=" * 20, "FULL REPORT", "=" * 20)
     print(full_report)
+    print(f"\nFull report saved to {report_path} (TEST_-prefixed, won't be confused with a "
+          f"real daily detection).")
 
-    result = {"item": item, "digest": digest, "report_path": "(not saved -- test mode)"}
+    result = {"item": item, "digest": digest, "report_path": report_path}
     message = render_telegram(result, test_mode=True)
     print("\n" + "=" * 20, "TELEGRAM MESSAGE", "=" * 20)
     print(message)
