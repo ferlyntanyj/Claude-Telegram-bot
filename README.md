@@ -192,10 +192,11 @@ judgment/opinion call (management tone, credibility, agree-or-disagree, strength
 weakened labels, counter-arguments) at the user's request, since a smaller free model grounded in
 thin material is far more likely to hold up on "compute this delta" than on "read whether
 management was credible." **Entirely
-free infrastructure** — Groq's free-tier chat completions (same model `major_news_alert.py` uses,
-but its own separate account/key, `GROQ_API_KEY_EARNINGS` — confirmed necessary by a real 429
-during testing: sharing one account's 200k tokens/day free-tier cap with that much more frequent
-poller meant this pipeline regularly got nothing left), SEC EDGAR (genuinely free and
+free infrastructure** — Groq's free-tier chat completions (same account `major_news_alert.py`
+already uses, by choice, to keep setup to one key — that account's 200k tokens/day free-tier cap
+can run out before this pipeline gets a turn, confirmed by a real 429 during testing, since
+major_news_alert.py polls far more often; a blocked report just retries on the next run rather
+than being lost, see below), SEC EDGAR (genuinely free and
 script-friendly for automated access, unlike every other exchange checked), and Google News RSS
 (same free, no-key search `major_news_alert.py` already relies on) — no paid API anywhere in this
 pipeline.
@@ -217,8 +218,7 @@ pipeline.
   around another site's anti-bot measures. Both detection paths are free, so both run every time,
   including during `--dry-run`.
 - For every newly-reported ticker, grounding (`_gather_grounding`, no LLM call) finds the source
-  material, then two Groq calls (`config.LLM_MODEL`, its own account/key — `GROQ_API_KEY_EARNINGS`,
-  separate from `major_news_alert.py`'s `GROQ_API_KEY` — same free-tier model `major_news_alert.py`
+  material, then two Groq calls (`config.LLM_MODEL`, same free-tier model/account `major_news_alert.py`
   uses) do the writing:
   1. **Grounding** — US-listed tickers (no `yfinance` suffix, including foreign issuers like
      TSM/ASML that file via EDGAR as 20-F/6-K filers) fetch their most recent 8-K/6-K (preferred —
@@ -261,13 +261,14 @@ a real one — never touches `state.json`, so it's safe to run repeatedly. Since
 run only baselines all watchlist tickers (nothing to analyze yet, by design — see above), this is
 the way to sanity-check report quality/formatting before trusting the daily cron.
 
-Needs `GROQ_API_KEY_EARNINGS` as a GitHub Actions secret (see below) — its own separate Groq
-account from `major_news_alert.yml`'s `GROQ_API_KEY`. Confirmed necessary by a real 429 during
-testing: sharing one account's 200k tokens/day cap with `major_news_alert.py`'s much more frequent
-polling meant this pipeline regularly got nothing left of the quota. (Even with a shared key, a
-blocked report would only ever be delayed, not lost — it retries on the next run regardless, see
-`earnings_analysis_engine.py`'s `_apply_detection` — but a separate account avoids the contention
-in the first place.)
+Needs `GROQ_API_KEY` as a GitHub Actions secret (see below) — already set up if
+`major_news_alert.yml` is working, since it's the exact same free-tier key/account (by choice, to
+keep setup to one key — a separate account would avoid the quota contention below entirely, but
+means a second free signup). That account's 200k tokens/day cap can run out before this pipeline
+gets a turn on a day `major_news_alert.py` has polled heavily, confirmed by a real 429 during
+testing — a blocked report is retried on the next day's run rather than silently lost (see
+`earnings_analysis_engine.py`'s `_apply_detection`), so worst case is a delayed report, not a
+missing one.
 
 ## Scheduled run
 
@@ -337,12 +338,8 @@ add each of the following (same values already set locally as environment variab
 
 - `SGX_SCREENER_TELEGRAM_BOT_TOKEN`
 - `SGX_SCREENER_TELEGRAM_CHAT_ID`
-- `GROQ_API_KEY` — free tier, console.groq.com. Needed for the major-news alert's write-up step.
-- `GROQ_API_KEY_EARNINGS` — free tier, a **separate** console.groq.com account (different email)
-  from the one above. Needed for the daily earnings analysis pipeline. Kept separate deliberately
-  — sharing one account's 200k tokens/day cap between this and the much more frequent major-news
-  polling meant the earnings pipeline regularly got nothing left, confirmed by a real 429 during
-  testing.
+- `GROQ_API_KEY` — free tier, console.groq.com. Needed for the major-news alert's write-up step
+  and the whole daily earnings analysis pipeline — both share this one key.
 
 GitHub encrypts these at rest and never exposes them in logs, even on a public repo. Once both
 Telegram secrets are added, trigger a manual run from the Actions tab to verify before waiting for

@@ -37,12 +37,14 @@ OUTPUT_DIR = "../output/earnings_analysis"
 MAX_REPORT_AGE_DAYS = 4
 
 # Everything here runs on free infrastructure, deliberately -- no paid API:
-#   - Groq's free-tier chat completions (same model this repo's
-#     major_news_alert.py uses, but its OWN separate account/key --
-#     GROQ_API_KEY_EARNINGS, not GROQ_API_KEY -- confirmed necessary by a
-#     real 429 during testing: sharing one account's 200k tokens/day cap
-#     with that much more frequent poller meant this pipeline regularly
-#     got nothing left of the quota) do the actual writing/fact-checking.
+#   - Groq's free-tier chat completions (same model/account this repo's
+#     major_news_alert.py already uses; GROQ_API_KEY is shared, by choice,
+#     to keep setup to one key -- that account's 200k tokens/day cap can
+#     run out before this pipeline gets a turn, confirmed by a real 429
+#     during testing, since major_news_alert.py polls far more often; see
+#     _apply_detection's docstring for why a blocked report just retries on
+#     the next run rather than being lost) do the actual writing/
+#     fact-checking.
 #   - SEC EDGAR (submissions API + document archive) is the PRIMARY source
 #     for every US-listed ticker (no yfinance suffix, including foreign
 #     issuers like TSM/ASML that file via EDGAR as 20-F/6-K filers) --
