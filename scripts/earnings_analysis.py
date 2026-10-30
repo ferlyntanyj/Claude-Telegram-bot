@@ -15,14 +15,15 @@ depending on how many watchlist names reported that day -- there is no
 API anywhere in this pipeline.
 
 Auth:
-  GROQ_API_KEY -- required for any real (non-dry-run) run. Free tier, no
-    credit card -- same key/account this repo's major_news_alert.py
-    already uses (by choice, to keep setup to one key), so no new secret
-    is needed if that's already set up. That account's 200k tokens/day
-    free-tier cap can run out before this pipeline gets a turn, since
-    major_news_alert.py polls far more often -- a blocked report just
-    retries on the next run rather than being lost (see
-    earnings_analysis_engine.py's _apply_detection).
+  GROQ_API_KEY_EARNINGS -- required for any real (non-dry-run) run. Free
+    tier, no credit card -- its own, separate Groq account/key from the
+    GROQ_API_KEY major_news_alert.py uses. Confirmed necessary by a real
+    429 during testing: sharing one account's 200k tokens/day cap with
+    that much more frequent poller meant this pipeline regularly got
+    nothing left of the quota. (A blocked report still just retries on the
+    next run rather than being lost either way -- see
+    earnings_analysis_engine.py's _apply_detection -- but a separate
+    account avoids the contention in the first place.)
   SGX_SCREENER_TELEGRAM_BOT_TOKEN, SGX_SCREENER_TELEGRAM_CHAT_ID -- same
     bot and chat as the other briefs; digests land in that same chat,
     interleaved with the scheduled briefs and the major-news alerts.
@@ -111,8 +112,8 @@ def _resolve_watchlist_entry(user_input):
 
 
 def _run_test_ticker(user_input):
-    if not os.environ.get("GROQ_API_KEY"):
-        print("ERROR: GROQ_API_KEY environment variable not set.", file=sys.stderr)
+    if not os.environ.get("GROQ_API_KEY_EARNINGS"):
+        print("ERROR: GROQ_API_KEY_EARNINGS environment variable not set.", file=sys.stderr)
         sys.exit(1)
     match = _resolve_watchlist_entry(user_input)
     if match:

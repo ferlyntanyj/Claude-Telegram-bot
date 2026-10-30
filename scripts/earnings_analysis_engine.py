@@ -47,9 +47,12 @@ not stop the rest of the watchlist from being checked, matching how the
 other alerts in this repo treat a single bad ticker as non-fatal. A
 failure here does NOT advance that ticker's last_analyzed_date, so it gets
 retried on every subsequent run until it succeeds (see _apply_detection's
-docstring -- this matters in practice: Groq's free tier shares a 200k
-tokens/day cap across this account, including major_news_alert.py's much
-more frequent polling, so a 429 here is a real, expected, not-rare case).
+docstring). This was confirmed necessary by a real Groq 429 during
+testing, back when this pipeline shared GROQ_API_KEY with
+major_news_alert.py's much more frequent polling -- it now uses its own
+separate account/key (GROQ_API_KEY_EARNINGS) specifically to avoid that
+contention, but the retry-safety stays regardless, as a second line of
+defense against any other transient failure (an outage, a bad response).
 
 State (data/earnings_analysis_state.json) is a flat map of
 ticker -> {"last_reported_date": "YYYY-MM-DD", "last_analyzed_date":
@@ -646,16 +649,13 @@ def _gather_grounding(item):
 
 
 def _groq_client():
-    """Shares GROQ_API_KEY with major_news_alert.py (same account, by
-    choice -- a separate account would avoid quota contention entirely,
-    but was decided against to keep setup to one key). A real 429 during
-    testing confirmed this account's 200k tokens/day free-tier cap can run
-    out before this pipeline gets a turn, since major_news_alert.py polls
-    far more often -- see _apply_detection's docstring for why that's
-    survivable (a blocked report retries on the next run) rather than
-    silently lost."""
+    """Its OWN key (GROQ_API_KEY_EARNINGS), a separate Groq account from
+    the GROQ_API_KEY major_news_alert.py uses -- confirmed necessary by a
+    real 429 during testing: sharing one account's 200k tokens/day
+    free-tier cap with major_news_alert.py's much more frequent polling
+    meant this pipeline regularly got nothing left of the quota."""
     from groq import Groq
-    return Groq()  # reads GROQ_API_KEY from the environment
+    return Groq(api_key=os.environ["GROQ_API_KEY_EARNINGS"])
 
 
 def _run_completion(prompt, max_tokens):
