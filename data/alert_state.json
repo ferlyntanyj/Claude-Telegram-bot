@@ -1545,22 +1545,22 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-10-30T18:15:35.474210+00:00",
+  "last_run_utc": "2026-10-30T18:30:39.792251+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
     },
     "single:ON": {
-      "last_attempt_utc": "2026-10-30T16:17:53.114219+00:00"
+      "last_attempt_utc": "2026-10-30T18:33:45.975566+00:00"
     },
     "single:GPN": {
-      "last_attempt_utc": "2026-10-30T16:32:55.279157+00:00"
+      "last_attempt_utc": "2026-10-30T18:33:56.849243+00:00"
     },
     "sector:telecom services": {
-      "last_attempt_utc": "2026-10-30T16:33:06.525615+00:00"
+      "last_attempt_utc": "2026-10-30T18:34:08.100731+00:00"
     },
     "sector:medical instruments supplies": {
-      "last_attempt_utc": "2026-10-30T16:33:17.741341+00:00"
+      "last_attempt_utc": "2026-10-30T18:34:19.398244+00:00"
     },
     "single:AKAM": {
       "last_attempt_utc": "2026-10-30T16:41:52.289142+00:00"
@@ -1609,6 +1609,9 @@
     },
     "single:TYL": {
       "last_attempt_utc": "2026-10-30T18:17:46.698990+00:00"
+    },
+    "single:ADI": {
+      "last_attempt_utc": "2026-10-30T18:33:35.028088+00:00"
     }
   }
 }
