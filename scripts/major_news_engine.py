@@ -907,6 +907,34 @@ def _record_alert(state, alert):
     }
 
 
+def _recently_failed_analysis(state, key, cfg):
+    """True if this key's write_analysis() call failed within the last
+    FAILED_ANALYSIS_RETRY_HOURS. A short, independent backoff from the full
+    COOLDOWN_HOURS cooldown (which only starts once mark_sent() is called,
+    i.e. an alert was actually delivered) -- without this, a story whose
+    analysis keeps failing (a sustained Groq 429, a malformed response,
+    anything) was retried every single ~15-20 min poll cycle forever, since
+    should_alert() never blocks a dropped/unsent alert. Confirmed 2026-10-30
+    as the likely cause of one model's 200K-tokens/day quota being consumed
+    by ~3,500 calls/24h against a log of only a handful of real sends."""
+    entry = state.get("failed_analysis", {}).get(key)
+    if entry is None:
+        return False
+    last_time = dt.datetime.fromisoformat(entry["last_attempt_utc"])
+    hours_since = (dt.datetime.now(UTC) - last_time).total_seconds() / 3600.0
+    return hours_since < cfg.FAILED_ANALYSIS_RETRY_HOURS
+
+
+def _record_failed_analysis(state, key):
+    state.setdefault("failed_analysis", {})[key] = {
+        "last_attempt_utc": dt.datetime.now(UTC).isoformat(),
+    }
+
+
+def _clear_failed_analysis(state, key):
+    state.setdefault("failed_analysis", {}).pop(key, None)
+
+
 # ---------------------------------------------------------------------------
 # Audit log -- output/ (unlike data/, this is meant to be human-browsable /
 # committed, same convention as the other briefs' output/*.md and *.json)
@@ -1118,25 +1146,38 @@ def run_cycle(cfg):
     # 1 + LLM_RATE_LIMIT_MAX_RETRIES calls' worth of prompt tokens against
     # the same exhausted per-minute quota for nothing. Dropping a failed
     # alert here means should_alert()'s key never gets recorded (mark_sent
-    # is only called for what's actually returned), so it's simply
-    # re-evaluated fresh next cycle (~15-20 min later, well past a
-    # per-minute quota reset) instead of retried immediately into the same
-    # exhausted window -- cheaper AND it stops broken cards reaching the chat.
+    # is only called for what's actually returned) -- but a key whose price
+    # move keeps qualifying every cycle (e.g. a multi-day selloff) would
+    # then retry the SAME failing call every single ~15-20 min cycle
+    # forever, with nothing to stop it. _recently_failed_analysis() is that
+    # stop: a short, independent backoff (FAILED_ANALYSIS_RETRY_HOURS) that
+    # skips even attempting the call again until it expires, separate from
+    # the full-length COOLDOWN_HOURS that only starts on an actual send.
     import time as _time
     sendable = []
-    for i, alert in enumerate(alerts):
-        if i > 0:
+    calls_made = 0
+    for alert in alerts:
+        key = alert["key"]
+        if _recently_failed_analysis(state, key, cfg):
+            print(f"  Skipping {alert['primary']['company']} ({alert['primary']['ticker']}) "
+                  f"-- its last analysis attempt failed within the last "
+                  f"{cfg.FAILED_ANALYSIS_RETRY_HOURS}h, backing off", file=sys.stderr)
+            continue
+        if calls_made > 0:
             _time.sleep(cfg.LLM_CALL_PACING_SECONDS)
+        calls_made += 1
         alert["analysis"] = write_analysis(alert, cfg)
         if alert["analysis"]["why_moved"] == _ANALYSIS_UNAVAILABLE:
             print(f"  LLM analysis failed for {alert['primary']['company']} "
-                  f"({alert['primary']['ticker']}) -- skipping send, will retry next cycle",
+                  f"({alert['primary']['ticker']}) -- skipping send, will retry after backoff",
                   file=sys.stderr)
+            _record_failed_analysis(state, key)
             continue
+        _clear_failed_analysis(state, key)
         sendable.append(alert)
 
     print(f"Qualifying alert(s) this cycle: {len(sendable)} "
-          f"({len(alerts) - len(sendable)} dropped for failed LLM analysis)")
+          f"({len(alerts) - len(sendable)} dropped for failed LLM analysis or backoff)")
     return sendable, state
 
 

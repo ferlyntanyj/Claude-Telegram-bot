@@ -168,6 +168,18 @@ SECTOR_MIN_PEERS = 4              # fewer than this and "median"/"breadth" isn't
 # it moves >=5% again the next day" is the practical behaviour.
 COOLDOWN_HOURS = 18.0
 
+# Added 2026-10-30: a separate, much shorter backoff for a story whose
+# write_analysis() call FAILED (vs. COOLDOWN_HOURS above, which only starts
+# once an alert is actually sent). Without this, a ticker whose price move
+# keeps qualifying every cycle while its analysis keeps failing (a sustained
+# Groq 429, for example) retried that same failing call every single
+# ~15-20 min poll cycle indefinitely -- the likely cause of one model's
+# 200K-tokens/day quota being burned by ~3,500 calls/24h against a log of
+# only a handful of real sends. 2h backs off well past any transient
+# per-minute/per-day quota blip while still retrying several times within
+# the same trading day.
+FAILED_ANALYSIS_RETRY_HOURS = 2.0
+
 # ---------------------------------------------------------------------------
 # LLM (Groq API -- free tier, no credit card required; needs GROQ_API_KEY
 # set, from a key created at console.groq.com. Gemini's free tier was tried
