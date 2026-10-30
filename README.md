@@ -179,6 +179,80 @@ if holdings look stale.
 Runs via `.github/workflows/earnings_calendar.yml`, every Saturday at 00:30 UTC (08:30
 Asia/Singapore). Also has `workflow_dispatch` enabled for manual runs.
 
+## Daily earnings analysis (watchlist, free pipeline)
+
+Deep-dive companion to the weekly calendar above: when a company on your own watchlist
+(`data/earnings_watchlist_*.csv` — one CSV per group, currently AI Capex, SGX, Bursa, Thailand;
+edit these files directly to add/remove names, no code changes needed) actually reports earnings,
+this writes a full analyst-grade report (results vs guidance vs street, management tone, market
+reaction, a structural strengthened/unchanged/weakened read on the business) and pushes a short
+digest to Telegram, with the full report committed under `output/earnings_analysis/`. **Entirely
+free infrastructure** — Groq's free-tier chat completions (same account `major_news_alert.py`
+already uses — no new secret needed), SEC EDGAR (genuinely free and script-friendly for automated
+access, unlike every other exchange checked), and Google News RSS (same free, no-key search
+`major_news_alert.py` already relies on) — no paid API anywhere in this pipeline.
+
+- `earnings_analysis_engine.py` — detection: for every watchlist ticker, pulls `yfinance`'s
+  `get_earnings_dates()` (falling back to the newest quarterly-financials column if that's empty)
+  and compares the most recent reported date against `data/earnings_analysis_state.json`'s
+  last-seen date for that ticker. A ticker's first-ever appearance is only baselined, never
+  analyzed — otherwise adding a new watchlist name, or the first run ever, would fire the pipeline
+  for the whole list at once.
+  A handful of smaller SGX/HK names have neither signal in `yfinance` at all (confirmed
+  empirically — not a `yfinance` bug, Yahoo just doesn't carry them; the underlying data is
+  findable on ordinary news sites, e.g. The Edge Singapore). For those, `detect_new_reports_via_news`
+  falls back to a **free** Google News RSS search (no LLM call) asking whether the company has
+  reported since its last known date. This deliberately does **not** call the exchange's own
+  announcements API directly — `api.sgx.com` sits behind Akamai bot protection that rejects
+  datacenter traffic outright (confirmed by testing the live endpoint; SGX has no free
+  RSS/developer feed, only a paid SWIFT-delivered commercial feed), and this repo doesn't build
+  around another site's anti-bot measures. Both detection paths are free, so both run every time,
+  including during `--dry-run`.
+- For every newly-reported ticker, grounding (`_gather_grounding`, no LLM call) finds the source
+  material, then two Groq calls (`config.LLM_MODEL`, same free-tier model `major_news_alert.py`
+  uses) do the writing:
+  1. **Grounding** — US-listed tickers (no `yfinance` suffix, including foreign issuers like
+     TSM/ASML that file via EDGAR as 20-F/6-K filers) fetch their most recent 8-K/6-K (preferred —
+     that's where the actual earnings press release/CFO-commentary exhibit lives, confirmed
+     against a real NVIDIA filing: cover page ~26KB vs. the press release exhibit 341KB) directly
+     from SEC EDGAR, picking the largest non-cover HTML documents in that filing as the real
+     exhibits (SEC's own index doesn't semantically label them). Every other ticker — and any
+     EDGAR miss — falls back to a Google News RSS search (quoted-phrase query + a company-name
+     title filter, confirmed by testing to matter: an unquoted search for "AEM Holdings" surfaced
+     Agnico Eagle Mines, ticker AEM, ahead of the real company) for headlines plus the top 2 linked
+     articles' text. Not the primary filing for non-US names — the closest free source available,
+     since no other exchange here offers a free developer feed.
+  2. **Write** (Groq) — turns the grounding material, plus a `yfinance` quantitative snapshot
+     (revenue/margin/net income QoQ and YoY, price move around the report date), into the full
+     5-section report using `earnings_analysis_config.ANALYSIS_INSTRUCTIONS` — the analyst brief,
+     pasted verbatim from the "quarterly earnings analysis" Claude Project — as the fixed brief.
+     Edit that constant directly to change what every report covers.
+  3. **Verify** (Groq) — independent fact-check pass: cross-checks every quote/figure in the draft
+     against what grounding actually found, flags anything unverifiable rather than silently
+     dropping it, and appends a short Telegram digest after a marker so no third call is needed
+     just to summarize.
+- `earnings_analysis.py` — thin wrapper: runs a cycle, renders each digest (grouped by
+  watchlist with a flag emoji, with a pointer to the full report's path), and sends it to the same
+  Telegram chat as everything else. A single bad ticker (bad data, a failed fetch/API call) is
+  logged and skipped, never drops the rest of the run.
+
+Only fires when something actually reported — no "quiet day" placeholder message. Runs via
+`.github/workflows/earnings_analysis.yml`, once daily at 23:00 UTC (07:00 Asia/Singapore, catching
+same-morning SGX/HK/Bursa/Thailand releases plus the prior US trading day's after-hours/pre-market
+reports). Also has `workflow_dispatch` enabled, with a `dry_run` input that only prints what would
+be analyzed — no API calls, no state changes, so it's free to test (and since detection itself is
+free either way, a dry run now shows the *same* detected tickers a real run would see, including
+ones found only via the Google News fallback).
+
+`python earnings_analysis.py --test-ticker NVDA` (run locally, or adapt as a manual step) forces
+the full grounding + Groq pipeline for one ticker and prints the result — never touches
+`state.json` or Telegram. Since the very first real run only baselines all watchlist tickers
+(nothing to analyze yet, by design — see above), this is the way to sanity-check report quality
+before trusting the daily cron.
+
+Needs `GROQ_API_KEY` as a GitHub Actions secret (see below) — already set up if
+`major_news_alert.yml` is working, since it's the exact same free-tier key/account.
+
 ## Scheduled run
 
 **`.github/workflows/weekly_screener.yml` is the source of truth.** It runs on GitHub's own
@@ -229,6 +303,14 @@ workflow). Uses the same Telegram Secrets, no extra secret needed. (An earlier v
 two Claude desktop scheduled tasks; those are disabled now that this workflow is the source of
 truth.)
 
+**`.github/workflows/earnings_analysis.yml`** is the source of truth for the daily earnings
+analysis alert. Runs every day at 23:00 UTC (07:00 Asia/Singapore): checks out the repo, runs
+`earnings_analysis.py`, commits/pushes `data/earnings_analysis_state.json` and any new files
+under `output/earnings_analysis/` if changed (rebasing first), then sends a Telegram digest for
+each watchlist name that newly reported — zero, one, or several messages depending on the day.
+`workflow_dispatch` enabled, with a `dry_run` input for a free test run (Actions -> Daily
+Earnings Analysis -> Run workflow).
+
 Scheduled workflows often skip their **first** slot after being added (and after a repo rename);
 they start firing reliably within a day, or trigger once manually via **Run workflow**.
 
@@ -239,9 +321,12 @@ add each of the following (same values already set locally as environment variab
 
 - `SGX_SCREENER_TELEGRAM_BOT_TOKEN`
 - `SGX_SCREENER_TELEGRAM_CHAT_ID`
+- `GROQ_API_KEY` — free tier, console.groq.com. Needed for the major-news alert's write-up step
+  and the whole daily earnings analysis pipeline — both share this one key.
 
 GitHub encrypts these at rest and never exposes them in logs, even on a public repo. Once both
-are added, trigger a manual run from the Actions tab to verify before waiting for Monday.
+Telegram secrets are added, trigger a manual run from the Actions tab to verify before waiting for
+the schedule.
 
 ### Telegram setup (one-time, run yourself — never share the bot token in chat)
 

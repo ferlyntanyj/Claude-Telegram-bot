@@ -1,0 +1,7 @@
+# Bursa Malaysia watchlist for the daily earnings-analysis alert (earnings_analysis.py).
+# Edit this file directly to add/remove names -- one run reads it fresh each time.
+# Lines starting with # are ignored.
+ticker,company
+0128.KL,Frontken
+0151.KL,Kelington Group
+5292.KL,UWC

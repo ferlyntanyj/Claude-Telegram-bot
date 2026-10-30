@@ -1,0 +1,6 @@
+# Thailand watchlist for the daily earnings-analysis alert (earnings_analysis.py).
+# Edit this file directly to add/remove names -- one run reads it fresh each time.
+# Lines starting with # are ignored.
+ticker,company
+HANA.BK,Hana Microelectronics
+AMATA.BK,AMATA

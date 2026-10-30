@@ -7,6 +7,11 @@ data/*
 # directory pattern excluded the directory itself, only one that excludes contents.)
 !data/global_watchlist.csv
 !data/alert_state.json
+!data/earnings_watchlist_ai_capex.csv
+!data/earnings_watchlist_sgx.csv
+!data/earnings_watchlist_bursa.csv
+!data/earnings_watchlist_thailand.csv
+!data/earnings_analysis_state.json
 logs/
 output/morning_brief.json
 output/evening_brief.json

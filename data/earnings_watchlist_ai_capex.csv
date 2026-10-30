@@ -1,0 +1,36 @@
+# AI capex watchlist for the daily earnings-analysis alert (earnings_analysis.py).
+# Edit this file directly to add/remove names -- one run reads it fresh each time.
+# Lines starting with # are ignored.
+#
+ticker,company
+INTC,Intel
+TSM,TSMC
+SPCX,Space X
+AVGO,Broadcom
+NVDA,NVIDIA
+AMD,AMD
+MU,Micron
+LITE,Lumentum
+COHR,Coherent
+5803.T,Fujikura
+MRVL,Marvell
+TSEM,Tower Semiconductor
+GLW,Corning
+ASML,ASML
+AMAT,Applied Materials
+LRCX,Lam Research
+AMZN,Amazon
+GOOGL,Google
+META,Meta
+NBIS,Nebius
+CRWV,Coreweave
+TER,Teradyne
+6857.T,Advantest
+6981.T,Murata
+2327.TW,Yageo
+WOLF,Wolfspeed
+2360.TW,Chroma ATE
+2317.TW,Hon Hai Precision
+DELL,Dell
+0992.HK,Lenovo
+SMCI,Super Micro Computer

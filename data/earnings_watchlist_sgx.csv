@@ -1,0 +1,31 @@
+# SGX watchlist for the daily earnings-analysis alert (earnings_analysis.py).
+# Edit this file directly to add/remove names -- one run reads it fresh each time.
+# Lines starting with # are ignored.
+#
+# PC Partner -- voluntarily delisted from HKEX (Oct 2025 shareholder vote),
+# inactive since ~Jan 2026, no confirmed current listing. Omitted; re-add
+# with the correct ticker if/when it relists.
+# Metasurface -- no SGX-listed company by this exact name found. The closest
+# match is "Metasurface Technologies Holdings" (8637.HK, HKEX GEM), whose
+# affiliate MetaOptics is separately SGX Catalist-listed. Using 8637.HK below
+# as a placeholder -- confirm this is the company you meant, or correct it.
+ticker,company
+544.SI,CSE Global
+A31.SI,Addvalue
+AIY.SI,iFAST
+558.SI,UMS Integration
+E28.SI,Frencken Group
+F03.SI,Food Empire
+U10.SI,UOB Kay Hian
+H22.SI,Hong Leong Asia
+AWX.SI,AEM Holdings
+5LY.SI,Marco Polo Marine
+EGX.SI,EGP Energy
+8637.HK,Metasurface Technologies Holdings
+D05.SI,DBS
+U11.SI,UOB
+O39.SI,OCBC
+U96.SI,Sembcorp Industries
+BN4.SI,Keppel Corp
+S63.SI,ST Engineering
+Z74.SI,Singtel
