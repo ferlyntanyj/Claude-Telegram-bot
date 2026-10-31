@@ -1,0 +1,225 @@
+{
+  "last_run_utc": "2026-10-31T02:06:18Z",
+  "tickers": {
+    "0128.KL": {
+      "last_analyzed_date": "2026-08-05",
+      "last_reported_date": "2026-08-05"
+    },
+    "0151.KL": {
+      "last_analyzed_date": "2026-08-20",
+      "last_reported_date": "2026-08-20"
+    },
+    "0992.HK": {
+      "last_analyzed_date": "2026-08-13",
+      "last_reported_date": "2026-08-13"
+    },
+    "2317.TW": {
+      "last_analyzed_date": "2026-08-12",
+      "last_reported_date": "2026-08-12"
+    },
+    "2327.TW": {
+      "last_analyzed_date": "2026-08-14",
+      "last_reported_date": "2026-08-14"
+    },
+    "2360.TW": {
+      "last_analyzed_date": "2026-10-28",
+      "last_reported_date": "2026-10-28"
+    },
+    "5292.KL": {
+      "last_analyzed_date": "2026-07-31",
+      "last_reported_date": "2026-07-31"
+    },
+    "544.SI": {
+      "last_analyzed_date": "2018-08-13",
+      "last_reported_date": "2018-08-13"
+    },
+    "558.SI": {
+      "last_analyzed_date": "2026-06-30",
+      "last_reported_date": "2026-06-30"
+    },
+    "5803.T": {
+      "last_analyzed_date": "2026-08-06",
+      "last_reported_date": "2026-08-06"
+    },
+    "5LY.SI": {
+      "last_analyzed_date": "2026-08-18",
+      "last_reported_date": "2026-08-18"
+    },
+    "6857.T": {
+      "last_analyzed_date": "2026-10-27",
+      "last_reported_date": "2026-10-27"
+    },
+    "6981.T": {
+      "last_analyzed_date": "2026-10-30",
+      "last_reported_date": "2026-10-30"
+    },
+    "8637.HK": {
+      "last_analyzed_date": "2026-08-31",
+      "last_reported_date": "2026-08-31"
+    },
+    "A31.SI": {
+      "last_analyzed_date": "2026-07-17",
+      "last_reported_date": "2026-07-17"
+    },
+    "AIY.SI": {
+      "last_analyzed_date": "2026-10-26",
+      "last_reported_date": "2026-10-26"
+    },
+    "AMAT": {
+      "last_analyzed_date": "2026-08-13",
+      "last_reported_date": "2026-08-13"
+    },
+    "AMATA.BK": {
+      "last_analyzed_date": "2026-08-12",
+      "last_reported_date": "2026-08-12"
+    },
+    "AMD": {
+      "last_analyzed_date": "2026-08-04",
+      "last_reported_date": "2026-08-04"
+    },
+    "AMZN": {
+      "last_analyzed_date": "2026-10-29",
+      "last_reported_date": "2026-10-29"
+    },
+    "ASML": {
+      "last_analyzed_date": "2026-10-14",
+      "last_reported_date": "2026-10-14"
+    },
+    "AVGO": {
+      "last_analyzed_date": "2026-09-02",
+      "last_reported_date": "2026-09-02"
+    },
+    "AWX.SI": {
+      "last_analyzed_date": "2026-08-26",
+      "last_reported_date": "2026-08-26"
+    },
+    "BN4.SI": {
+      "last_analyzed_date": "2022-07-27",
+      "last_reported_date": "2022-07-27"
+    },
+    "COHR": {
+      "last_analyzed_date": "2026-08-12",
+      "last_reported_date": "2026-08-12"
+    },
+    "CRWV": {
+      "last_analyzed_date": "2026-08-11",
+      "last_reported_date": "2026-08-11"
+    },
+    "D05.SI": {
+      "last_analyzed_date": "2026-08-05",
+      "last_reported_date": "2026-08-05"
+    },
+    "DELL": {
+      "last_analyzed_date": "2026-09-01",
+      "last_reported_date": "2026-09-01"
+    },
+    "E28.SI": {
+      "last_analyzed_date": "2026-08-13",
+      "last_reported_date": "2026-08-13"
+    },
+    "EGX.SI": {
+      "last_analyzed_date": "2026-08-13",
+      "last_reported_date": "2026-08-13"
+    },
+    "F03.SI": {
+      "last_analyzed_date": "2026-08-18",
+      "last_reported_date": "2026-08-18"
+    },
+    "GLW": {
+      "last_analyzed_date": "2026-10-27",
+      "last_reported_date": "2026-10-27"
+    },
+    "GOOGL": {
+      "last_analyzed_date": "2026-10-28",
+      "last_reported_date": "2026-10-28"
+    },
+    "H22.SI": {
+      "last_analyzed_date": "2026-10-13",
+      "last_reported_date": "2026-10-13"
+    },
+    "HANA.BK": {
+      "last_analyzed_date": "2026-08-17",
+      "last_reported_date": "2026-08-17"
+    },
+    "INTC": {
+      "last_analyzed_date": "2026-10-29",
+      "last_reported_date": "2026-10-29"
+    },
+    "LITE": {
+      "last_analyzed_date": "2026-08-11",
+      "last_reported_date": "2026-08-11"
+    },
+    "LRCX": {
+      "last_analyzed_date": "2026-10-21",
+      "last_reported_date": "2026-10-21"
+    },
+    "META": {
+      "last_analyzed_date": "2026-10-21",
+      "last_reported_date": "2026-10-21"
+    },
+    "MRVL": {
+      "last_analyzed_date": "2026-08-27",
+      "last_reported_date": "2026-08-27"
+    },
+    "MU": {
+      "last_analyzed_date": "2026-09-30",
+      "last_reported_date": "2026-09-30"
+    },
+    "NBIS": {
+      "last_analyzed_date": "2026-08-12",
+      "last_reported_date": "2026-08-12"
+    },
+    "NVDA": {
+      "last_analyzed_date": "2026-08-26",
+      "last_reported_date": "2026-08-26"
+    },
+    "O39.SI": {
+      "last_analyzed_date": "2026-08-06",
+      "last_reported_date": "2026-08-06"
+    },
+    "S63.SI": {
+      "last_analyzed_date": "2022-03-22",
+      "last_reported_date": "2022-03-22"
+    },
+    "SMCI": {
+      "last_analyzed_date": "2026-08-11",
+      "last_reported_date": "2026-08-11"
+    },
+    "SPCX": {
+      "last_analyzed_date": "2026-10-20",
+      "last_reported_date": "2026-10-20"
+    },
+    "TER": {
+      "last_analyzed_date": "2026-10-27",
+      "last_reported_date": "2026-10-27"
+    },
+    "TSEM": {
+      "last_analyzed_date": "2026-08-04",
+      "last_reported_date": "2026-08-04"
+    },
+    "TSM": {
+      "last_analyzed_date": "2026-10-15",
+      "last_reported_date": "2026-10-15"
+    },
+    "U10.SI": {
+      "last_analyzed_date": "2014-11-12",
+      "last_reported_date": "2014-11-12"
+    },
+    "U11.SI": {
+      "last_analyzed_date": "2026-08-06",
+      "last_reported_date": "2026-08-06"
+    },
+    "U96.SI": {
+      "last_analyzed_date": "2023-02-20",
+      "last_reported_date": "2023-02-20"
+    },
+    "WOLF": {
+      "last_analyzed_date": "2026-08-19",
+      "last_reported_date": "2026-08-19"
+    },
+    "Z74.SI": {
+      "last_analyzed_date": "2024-11-12",
+      "last_reported_date": "2024-11-12"
+    }
+  }
+}
