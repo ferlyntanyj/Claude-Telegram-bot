@@ -173,7 +173,7 @@ GPM: one line, "<value>, <yoy delta> yoy, <qoq delta> qoq" (add non-GAAP too if 
 OPM: one line, same shape as GPM.
 Net profit: one line, "<value>, <yoy delta> yoy, <qoq delta> qoq" (GAAP and non-GAAP if both reported; flag in a few words if a one-off is distorting either comparison, e.g. a divestiture gain).
 EPS: one line, GAAP and non-GAAP, each vs. yoy AND qoq.
-Capital allocation: one line -- buybacks/dividends/capex this quarter, compared to the prior quarter's AND prior year's equivalent figures.
+Capital allocation: one line covering whichever of buybacks/dividends/capex/divestment/acquisition the company reported this quarter, each item in this exact shape: "<item> <this quarter's value>, vs. <prior quarter's value> last quarter and <prior year's value> a year ago" -- semicolon-separate multiple items on the same line. Give the actual dollar figures for all three periods side by side, not just a description of what changed -- skip a period's figure only if it genuinely isn't in the material given.
 vs. guidance: one line -- beat/met/missed, quantified where possible.
 New guidance from management: one line -- next quarter's guided revenue/EPS/margin figures, plus any one-line assumption given (e.g. a cited market condition), numbers only.
 
@@ -183,7 +183,7 @@ FINANCIAL STATEMENT ANALYSIS
 Revenue quality: one line -- mix/volume/price shift if visible from the numbers given; skip if not disclosed.
 Pricing power: one line; write "not disclosed" if the release gives no price/ASP data.
 Operating leverage: one line -- margin change vs revenue growth, yoy AND qoq, numbers only.
-Cash conversion: one line -- operating cash flow value, yoy AND qoq change, vs. net income growth.
+Cash conversion: one line, in this exact shape: "<this quarter's operating cash flow> / <this quarter's operating income> = <ratio or %>, vs. <same ratio a year ago>." Compute the ratio yourself from the operating cash flow and operating income figures given -- do not substitute net income for operating income.
 Capital intensity: one line -- capex value, yoy AND qoq change.
 Competitive position: one line; write "not addressed in the release" if there's no share-gain/loss evidence given -- never infer this.
 """

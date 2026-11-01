@@ -392,6 +392,43 @@ def _quarterly_snapshot(ticker):
     return snapshot
 
 
+def _quarterly_cashflow_snapshot(ticker):
+    """Best-effort operating cash flow and capex for the latest reported
+    quarter vs the prior quarter (QoQ) and the same quarter a year ago
+    (YoY), from yfinance's quarterly cashflow statement -- same shape as
+    _quarterly_snapshot, kept separate since it's a different yfinance
+    statement. Added 2026-11-01 so "cash conversion" (operating cash flow
+    / operating income) and "capital intensity" (capex) have a reliable,
+    structured yoy figure to compare against, instead of depending on
+    whatever the current earnings release's own grounding text happens to
+    quote for a PRIOR period -- note the most recent quarter's cashflow
+    data can lag a few days behind the earnings release itself (confirmed
+    empirically: Intel's quarterly_cashflow still only went up to the
+    prior quarter three days after reporting), so "current" may come back
+    None right after a release even though qoq_prior/yoy_prior are fine.
+    Capital Expenditure is stored as a negative outflow by yfinance
+    convention; stored here as a positive magnitude."""
+    snapshot = {}
+    try:
+        cf = yf.Ticker(ticker).quarterly_cashflow
+    except Exception:  # noqa: BLE001
+        cf = None
+    if cf is not None and not cf.empty and len(cf.columns) >= 1:
+        cols = list(cf.columns)  # newest first
+        for label, col_idx in (("current", 0), ("qoq_prior", 1), ("yoy_prior", 4)):
+            if col_idx >= len(cols):
+                snapshot[label] = None
+                continue
+            col = cf[cols[col_idx]]
+            capex = col.get("Capital Expenditure")
+            snapshot[label] = {
+                "period_end": cols[col_idx].strftime("%Y-%m-%d"),
+                "operating_cash_flow": col.get("Operating Cash Flow"),
+                "capex": abs(capex) if capex is not None else None,
+            }
+    return snapshot
+
+
 def _price_reaction(ticker, report_date):
     """Best-effort % price move in the 3 trading days straddling report_date
     (pre-report close vs post-report close). Returns None if unavailable."""
@@ -418,12 +455,14 @@ def _price_reaction(ticker, report_date):
 def gather_financial_snapshot(ticker, report_date):
     return {
         "quarterly": _quarterly_snapshot(ticker),
+        "cashflow": _quarterly_cashflow_snapshot(ticker),
         "price_reaction_pct": _price_reaction(ticker, report_date),
     }
 
 
 def _snapshot_to_text(item, snapshot):
     q = snapshot.get("quarterly") or {}
+    cf = snapshot.get("cashflow") or {}
     lines = [
         f"Ticker: {item['ticker']} ({item['company']}, group: {item['group']})",
         f"Reported date (yfinance): {item['report_date'].isoformat()}",
@@ -440,6 +479,12 @@ def _snapshot_to_text(item, snapshot):
             f"gross_profit={row['gross_profit']}, operating_income={row['operating_income']}, "
             f"net_income={row['net_income']}"
         )
+        cf_row = cf.get(label)
+        if cf_row and cf_row["period_end"] == row["period_end"]:
+            lines.append(
+                f"{title} cash flow: operating_cash_flow={cf_row['operating_cash_flow']}, "
+                f"capex={cf_row['capex']}"
+            )
     pr = snapshot.get("price_reaction_pct")
     lines.append(f"Price reaction around report date: {pr}%" if pr is not None
                   else "Price reaction around report date: not available from yfinance")

@@ -87,6 +87,35 @@ def _markdown_to_telegram_html(text):
     return text
 
 
+_SECTION_HEADERS = {"results analysis", "financial statement analysis"}
+
+
+def _format_report_structure(text):
+    """Underlines the two section headers and bold+italicizes each line's
+    leading "<Label>:" -- done in code, not left to the model, same
+    reasoning as engine._normalize_subpoints: a free-tier model doesn't
+    reliably apply formatting like this on request, but the report's own
+    structure (one labeled item per line, two named section headers) is
+    fixed and known in advance, so it's cheap and reliable to apply here
+    instead. Runs after _markdown_to_telegram_html, on already-escaped
+    text, so it only ever inserts its own tags, never raw user content."""
+    out = []
+    for line in text.split("\n"):
+        plain = re.sub(r"<[^>]+>", "", line).strip()
+        if plain.lower() in _SECTION_HEADERS:
+            out.append(f"<u><b>{plain}</b></u>")
+            continue
+        m = re.match(r"^(\s*(?:[-*•]\s*)?)(.*)$", line)
+        marker, rest = (m.group(1), m.group(2)) if m else ("", line)
+        colon_idx = rest.find(":")
+        if 0 < colon_idx <= 50:
+            label, remainder = rest[:colon_idx + 1], rest[colon_idx + 1:]
+            out.append(f"{marker}<b><i>{label}</i></b>{remainder}")
+        else:
+            out.append(line)
+    return "\n".join(out)
+
+
 def render_telegram(result, test_mode=False):
     item = result["item"]
     emoji = _GROUP_EMOJI.get(item["group"], "📊")
@@ -97,7 +126,7 @@ def render_telegram(result, test_mode=False):
         f"{prefix}{emoji} <b>{company} ({ticker})</b> -- earnings, "
         f"{item['report_date'].isoformat()}\n\n"
     )
-    report = _markdown_to_telegram_html(result["report"])
+    report = _format_report_structure(_markdown_to_telegram_html(result["report"]))
     footer = f"\n\n<i>Saved: {result['report_path']}</i>"
     return header + report + footer
 
