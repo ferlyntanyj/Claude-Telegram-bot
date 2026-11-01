@@ -365,11 +365,20 @@ def detect_new_reports_via_news(undetected_items, state):
     return new_reports
 
 
+def _fmt_date(d):
+    """Renders any date/datetime/pandas-Timestamp as "D Mon YYYY" (e.g.
+    "29 Oct 2026") -- the format the user asked for everywhere a date is
+    shown, in place of ISO (YYYY-MM-DD)."""
+    return f"{d.day} {d.strftime('%b')} {d.year}"
+
+
 def _quarterly_snapshot(ticker):
     """Best-effort revenue/net income for the latest reported quarter vs the
     prior quarter (QoQ) and the same quarter a year ago (YoY), from
     yfinance's quarterly financials. Returns a plain dict of what it could
-    find -- missing rows/columns just come back as None, never raise."""
+    find -- missing rows/columns just come back as None, never raise.
+    period_end is kept as the raw Timestamp (not pre-formatted) so callers
+    can both compare it and format it however they need."""
     snapshot = {}
     try:
         qf = yf.Ticker(ticker).quarterly_financials
@@ -383,7 +392,7 @@ def _quarterly_snapshot(ticker):
                 continue
             col = qf[cols[col_idx]]
             snapshot[label] = {
-                "period_end": cols[col_idx].strftime("%Y-%m-%d"),
+                "period_end": cols[col_idx],
                 "total_revenue": col.get("Total Revenue"),
                 "gross_profit": col.get("Gross Profit"),
                 "operating_income": col.get("Operating Income"),
@@ -422,7 +431,7 @@ def _quarterly_cashflow_snapshot(ticker):
             col = cf[cols[col_idx]]
             capex = col.get("Capital Expenditure")
             snapshot[label] = {
-                "period_end": cols[col_idx].strftime("%Y-%m-%d"),
+                "period_end": cols[col_idx],
                 "operating_cash_flow": col.get("Operating Cash Flow"),
                 "capex": abs(capex) if capex is not None else None,
             }
@@ -465,7 +474,7 @@ def _snapshot_to_text(item, snapshot):
     cf = snapshot.get("cashflow") or {}
     lines = [
         f"Ticker: {item['ticker']} ({item['company']}, group: {item['group']})",
-        f"Reported date (yfinance): {item['report_date'].isoformat()}",
+        f"Reported date (yfinance): {_fmt_date(item['report_date'])}",
         f"EPS estimate: {item.get('eps_estimate')}  Reported EPS: {item.get('reported_eps')}  "
         f"Surprise%: {item.get('surprise_pct')}",
     ]
@@ -475,7 +484,7 @@ def _snapshot_to_text(item, snapshot):
         if not row:
             continue
         lines.append(
-            f"{title} ({row['period_end']}): revenue={row['total_revenue']}, "
+            f"{title} ({_fmt_date(row['period_end'])}): revenue={row['total_revenue']}, "
             f"gross_profit={row['gross_profit']}, operating_income={row['operating_income']}, "
             f"net_income={row['net_income']}"
         )
@@ -559,6 +568,54 @@ def _edgar_filing_exhibits(cik, accession_nodash, headers, exclude_name, max_doc
     return docs
 
 
+_EDGAR_FORM_PRIORITY = {"8-K": 0, "6-K": 0, "10-Q": 1, "20-F": 1}
+
+
+def _pick_filing(forms, dates, target_date, window_days):
+    """Picks the best-matching filing index near target_date from parallel
+    forms/dates arrays (as returned by EDGAR's submissions API) -- shared
+    by the current-quarter and prior-quarter lookups in
+    _edgar_filing_grounding. 8-K/6-K (the earnings press release vehicle)
+    ranks ahead of 10-Q/20-F when both land near the same date (confirmed
+    empirically: NVIDIA files both the same day, and only the 8-K's
+    accession folder holds the actual press release/CFO-commentary
+    exhibits). Returns (index, filing_date) or None."""
+    candidates = []
+    for i, form in enumerate(forms):
+        if form not in _EDGAR_FORM_PRIORITY:
+            continue
+        try:
+            filing_date = dt.date.fromisoformat(dates[i])
+        except (ValueError, IndexError):
+            continue
+        age = abs((filing_date - target_date).days)
+        if age <= window_days:
+            candidates.append((_EDGAR_FORM_PRIORITY[form], age, i, filing_date))
+    if not candidates:
+        return None
+    candidates.sort()
+    _, _, idx, filing_date = candidates[0]
+    return idx, filing_date
+
+
+def _fetch_filing_text(cik, forms, accessions, primary_docs, idx, filing_date, headers, max_chars=6000):
+    """Fetches one filing's real press-release/commentary exhibits (or the
+    primary document itself if no distinct exhibit exists, e.g. a bare
+    10-Q). Returns (text, label)."""
+    accession_nodash = accessions[idx].replace("-", "")
+    base_url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{accession_nodash}/"
+    docs = _edgar_filing_exhibits(cik, accession_nodash, headers, exclude_name=primary_docs[idx])
+    if not docs:
+        text = _edgar_fetch_text(base_url + primary_docs[idx], headers)[:max_chars]
+        label = f"SEC EDGAR {forms[idx]} filed {filing_date.isoformat()} ({base_url + primary_docs[idx]})"
+        return text, label
+    per_doc_chars = max_chars // max(len(docs), 1)
+    combined = "\n\n".join(f"--- {name} ---\n{text[:per_doc_chars]}" for name, text in docs)
+    label = (f"SEC EDGAR {forms[idx]} filed {filing_date.isoformat()}, exhibits: "
+             f"{', '.join(name for name, _ in docs)} ({base_url})")
+    return combined, label
+
+
 def _edgar_filing_grounding(item):
     """Fetches the most recent 8-K/6-K (preferred -- these are where the
     actual earnings press release/CFO-commentary exhibit lives) or
@@ -569,7 +626,19 @@ def _edgar_filing_grounding(item):
     other exchange checked for this watchlist). Returns
     (grounding_text, source_label), or None if the ticker isn't in SEC's
     own ticker list or no matching filing turns up in that window (caller
-    falls back to Google News either way)."""
+    falls back to Google News either way).
+
+    Also best-effort fetches the PRIOR quarter's own release (~91 days
+    earlier, +/-15 day window to absorb filing-date drift) and appends it
+    as separate, clearly labeled material -- added 2026-11-01 per user
+    request: a company's current-quarter release table typically restates
+    the year-ago quarter for YoY, but NOT the immediately preceding
+    quarter, so EPS/margin QoQ otherwise has no source at all beyond what
+    the quantitative snapshot's raw dollar figures can compute. Pulling
+    that quarter's own release gets its own stated EPS/margins directly,
+    the same way the current release states its own. Capped to 3,000
+    chars (vs. the current quarter's 6,000) to limit how much this grows
+    the prompt -- it's supplementary context, not the main source."""
     headers = {"User-Agent": cfg.SEC_EDGAR_USER_AGENT}
     cik = _edgar_ticker_map().get(item["ticker"].upper())
     if cik is None:
@@ -586,44 +655,26 @@ def _edgar_filing_grounding(item):
     primary_docs = recent.get("primaryDocument", [])
 
     report_date = item["report_date"]
-    # 8-K/6-K (the vehicle for an earnings press release) ranks ahead of
-    # 10-Q/20-F (dense financial-statement filings, no management
-    # commentary) when both land near the same date -- confirmed
-    # empirically: NVIDIA files both the same day, and only the 8-K's
-    # accession folder holds the actual press release/CFO-commentary
-    # exhibits.
-    form_priority = {"8-K": 0, "6-K": 0, "10-Q": 1, "20-F": 1}
-    candidates = []
-    for i, form in enumerate(forms):
-        if form not in form_priority:
-            continue
-        try:
-            filing_date = dt.date.fromisoformat(dates[i])
-        except (ValueError, IndexError):
-            continue
-        age = abs((filing_date - report_date).days)
-        if age <= 10:
-            candidates.append((form_priority[form], age, i, filing_date))
-    if not candidates:
+    current = _pick_filing(forms, dates, report_date, window_days=10)
+    if current is None:
         return None
-    candidates.sort()
-    _, _, idx, filing_date = candidates[0]
+    idx, filing_date = current
+    text, label = _fetch_filing_text(cik, forms, accessions, primary_docs, idx, filing_date, headers)
 
-    accession_nodash = accessions[idx].replace("-", "")
-    base_url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{accession_nodash}/"
-    docs = _edgar_filing_exhibits(cik, accession_nodash, headers, exclude_name=primary_docs[idx])
-    if not docs:
-        # No separate exhibit found (e.g. a 10-Q is often just the cover +
-        # the statements themselves, no distinct exhibit) -- fall back to
-        # the primary document itself.
-        text = _edgar_fetch_text(base_url + primary_docs[idx], headers)[:6000]
-        label = f"SEC EDGAR {forms[idx]} filed {filing_date.isoformat()} ({base_url + primary_docs[idx]})"
-        return text, label
+    prior = _pick_filing(forms, dates, report_date - dt.timedelta(days=91), window_days=15)
+    if prior is not None and prior[0] != idx:
+        try:
+            p_idx, p_filing_date = prior
+            prior_text, prior_label = _fetch_filing_text(
+                cik, forms, accessions, primary_docs, p_idx, p_filing_date, headers, max_chars=3000)
+            text += (f"\n\n--- PRIOR QUARTER'S OWN RELEASE (for that quarter's own stated "
+                     f"EPS/margins -- use only for the qoq comparison figures this quarter's "
+                     f"release doesn't restate) ---\n{prior_text}")
+            label += f"; prior quarter: {prior_label}"
+        except Exception:  # noqa: BLE001 -- supplementary only, never worth failing the run for
+            pass
 
-    combined = "\n\n".join(f"--- {name} ---\n{text[:5000]}" for name, text in docs)
-    label = (f"SEC EDGAR {forms[idx]} filed {filing_date.isoformat()}, exhibits: "
-             f"{', '.join(name for name, _ in docs)} ({base_url})")
-    return combined, label
+    return text, label
 
 
 def _fetch_article_text(url):
@@ -778,6 +829,20 @@ def _run_write_stage(item, snapshot_text, grounding_text, source_label):
     return _run_completion(prompt, cfg.LLM_WRITE_MAX_TOKENS)
 
 
+_UNVERIFIED_FLAG_RE = re.compile(r"\s*\[\s*UNVERIFIED\s*:?[^\]]*\]", re.I)
+
+
+def _strip_unverified_flags(text):
+    """Safety net for the verify-stage prompt's "never leave an inline
+    flag" instruction -- confirmed live that a free-tier model still
+    occasionally left a literal "[UNVERIFIED: ...]" bracket in a finished
+    report despite being told not to, same unreliable-prompt-compliance
+    pattern as everywhere else in this pipeline. Strips the bracket and
+    its contents outright rather than retrying the whole call over one
+    leftover annotation."""
+    return _UNVERIFIED_FLAG_RE.sub("", text)
+
+
 _SUBPOINT_RE = re.compile(r"(?i)^(crown jewel|growth engine)\b")
 
 
@@ -806,9 +871,11 @@ def _run_verify_stage(item, grounding_text, draft_text):
         f"--- SOURCED MATERIAL ---\n{grounding_text}\n\n"
         f"--- DRAFT ---\n{draft_text}\n\n"
         f"Cross-check every figure in the draft against the sourced material. If something in "
-        f"the draft is not actually supported by the sourced material, correct it or strike it "
-        f"(don't invent a fix) -- flag it inline as [UNVERIFIED: ...] rather than silently "
-        f"deleting it. Do not soften any flagged deterioration while correcting. If the draft "
+        f"the draft is not actually supported by the sourced material, correct it using the "
+        f"sourced material, or remove that line/figure entirely if it can't be corrected -- "
+        f"never invent a fix, and never leave an inline flag or bracketed note of any kind "
+        f"(e.g. no \"[UNVERIFIED...]\") in the output; this is a finished message, not a draft "
+        f"with review comments. Do not soften any flagged deterioration while correcting. If the draft "
         f"used a markdown table or any pipe (|) characters anywhere, rewrite that part as plain "
         f"text lines instead -- the corrected version must have none. Keep every line short -- "
         f"this is read as a Telegram message, not a report -- and keep the whole thing under "
@@ -816,6 +883,7 @@ def _run_verify_stage(item, grounding_text, draft_text):
         f"Output ONLY the corrected brief -- no preamble, no closing remarks."
     )
     text = _run_completion(prompt, cfg.LLM_VERIFY_MAX_TOKENS).strip()
+    text = _strip_unverified_flags(text)
     return _normalize_subpoints(text)
 
 
@@ -837,36 +905,13 @@ def analyze_ticker(item):
         return None
 
 
-def save_report(item, full_report_text, test=False):
-    os.makedirs(cfg.OUTPUT_DIR, exist_ok=True)
-    prefix = "TEST_" if test else ""
-    fname = f"{prefix}{item['ticker'].replace('.', '_')}_{item['report_date'].isoformat()}.md"
-    path = os.path.join(cfg.OUTPUT_DIR, fname)
-    test_note = (
-        "\n**TEST RUN -- not a real detection.** Forced via --test-ticker/test_ticker; "
-        "may not reflect the ticker's actual last-reported quarter.\n" if test else ""
-    )
-    header = (
-        f"# {item['company']} ({item['ticker']}) -- earnings analysis\n\n"
-        f"Reported: {item['report_date'].isoformat()}  |  Group: {item['group']}  |  "
-        f"Generated: {dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}\n"
-        f"{test_note}\n---\n\n"
-    )
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(header + full_report_text + "\n")
-    return path
-
-
 def run_test_ticker(ticker, company=None, group="Test"):
     """Diagnostic only: forces the full grounding + Groq pipeline for one
     ticker, bypassing detection and state entirely -- lets you see real
     report quality before trusting the daily cron. Never touches
-    state.json; DOES save the report (see save_report's test=True path --
-    a "TEST_" filename prefix plus a note in the file itself keep it
-    clearly distinct from a real daily detection). The caller
-    (earnings_analysis.py --test-ticker) prints what comes back and also
-    sends it to Telegram -- the report IS the Telegram message now (see
-    analyze_ticker's docstring), not a separately-generated digest.
+    state.json, never saves a file -- the report is only printed and sent
+    to Telegram (per user request 2026-11-01: a committed .md file per
+    report wasn't wanted, the Telegram message is the only deliverable).
     report_date is whatever yfinance's most recent reported-earnings row
     says (today, if that's unavailable too) -- it's only prompt context
     here, not compared against anything."""
@@ -881,19 +926,18 @@ def run_test_ticker(ticker, company=None, group="Test"):
     full_report = analyze_ticker(item)
     if full_report is None:
         return None
-    report_path = save_report(item, full_report, test=True)
-    return item, full_report, report_path
+    return item, full_report
 
 
 def run_cycle(dry_run=False):
-    """Returns a list of {"item", "report", "report_path"} for every ticker
-    successfully analyzed this cycle (empty if nothing new reported, or
-    dry_run). Both detection paths (yfinance and the Google News fallback)
-    are free, so both always run, even during --dry-run -- only the Groq
-    write/verify pipeline, report saving, Telegram send, and state.json
-    save are skipped for --dry-run. State is saved exactly once at the end,
-    after all tickers have been checked, so a crash partway through a long
-    run doesn't leave state half-written."""
+    """Returns a list of {"item", "report"} for every ticker successfully
+    analyzed this cycle (empty if nothing new reported, or dry_run). Both
+    detection paths (yfinance and the Google News fallback) are free, so
+    both always run, even during --dry-run -- only the Groq write/verify
+    pipeline, Telegram send, and state.json save are skipped for
+    --dry-run. State is saved exactly once at the end, after all tickers
+    have been checked, so a crash partway through a long run doesn't
+    leave state half-written."""
     watchlist = load_watchlist()
     print(f"Loaded {len(watchlist)} watchlist tickers across {len(cfg.WATCHLIST_FILES)} groups.")
 
@@ -924,8 +968,7 @@ def run_cycle(dry_run=False):
             print(f"  {item['ticker']} failed -- will retry next run (last_analyzed_date not "
                   f"advanced).")
             continue
-        report_path = save_report(item, full_report)
-        results.append({"item": item, "report": full_report, "report_path": report_path})
+        results.append({"item": item, "report": full_report})
         # Only a SUCCESSFUL analysis advances last_analyzed_date -- see
         # _apply_detection's docstring for why a failure must not.
         tickers_state[item["ticker"]]["last_analyzed_date"] = item["report_date"].isoformat()

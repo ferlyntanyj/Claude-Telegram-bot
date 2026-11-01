@@ -187,10 +187,11 @@ edit these files directly to add/remove names, no code changes needed) actually 
 this writes a short, Telegram-sized results brief — two sections, Results Analysis (revenue
 yoy/qoq + segment drivers, crown-jewel/growth-engine read on the two named segments, margins, net
 profit, EPS, capital allocation, vs. guidance, new guidance) and Financial Statement Analysis
-(revenue quality, pricing power, operating leverage, cash conversion, capital intensity,
-competitive position) — and sends that report AS the Telegram message (no separate digest step),
-with a copy committed under `output/earnings_analysis/`. Reworked 2026-10-31 to match an exact
-format the user confirmed in chat: numbers only, no management quotes, one short line per item.
+(revenue quality, pricing power, cash conversion, capital intensity, competitive position) — and
+sends that report AS the Telegram message (no separate digest step, no file saved anywhere — the
+Telegram message is the only deliverable). Reworked 2026-10-31/2026-11-01 to match an exact
+format the user confirmed in chat: numbers only, no management quotes, one short line per item,
+dates as "D Mon YYYY".
 `earnings_analysis_config.ANALYSIS_INSTRUCTIONS` is the single source of truth for this — edit it
 directly to change what every report covers. **Entirely
 free infrastructure** — Groq's free-tier chat completions (same account `major_news_alert.py`
@@ -232,19 +233,23 @@ pipeline.
      title filter, confirmed by testing to matter: an unquoted search for "AEM Holdings" surfaced
      Agnico Eagle Mines, ticker AEM, ahead of the real company) for headlines plus the top 2 linked
      articles' text. Not the primary filing for non-US names — the closest free source available,
-     since no other exchange here offers a free developer feed.
+     since no other exchange here offers a free developer feed. For EDGAR tickers, also
+     best-effort fetches the PRIOR quarter's own release (~91 days earlier) as supplementary
+     material — a company's current release restates the year-ago quarter for YoY but usually not
+     the immediately preceding one, so EPS/margin QoQ otherwise has no source beyond the
+     quantitative snapshot's raw dollar figures.
   2. **Write** (Groq) — turns the grounding material, plus a `yfinance` quantitative snapshot
      (revenue/margin/net income QoQ and YoY, price move around the report date), into the report
      using `earnings_analysis_config.ANALYSIS_INSTRUCTIONS` as the fixed brief (see above). Edit
      that constant directly to change what every report covers.
   3. **Verify** (Groq) — independent fact-check pass: cross-checks every figure in the draft
-     against what grounding actually found, flags anything unverifiable rather than silently
-     dropping it, and keeps the whole thing under Telegram's char limit. Its output is the final
+     against what grounding actually found, correcting or removing anything unsupported (never
+     left as an inline flag/note — this ships as a finished message, not a draft with review
+     comments), and keeps the whole thing under Telegram's char limit. Its output is the final
      report — no separate digest-generation call.
-- `earnings_analysis.py` — thin wrapper: runs a cycle, renders each report (grouped by
-  watchlist with a flag emoji, with a pointer to the saved copy's path), and sends it to the same
-  Telegram chat as everything else. A single bad ticker (bad data, a failed fetch/API call) is
-  logged and skipped, never drops the rest of the run.
+- `earnings_analysis.py` — thin wrapper: runs a cycle, renders each report (grouped by watchlist
+  with a flag emoji), and sends it to the same Telegram chat as everything else. A single bad
+  ticker (bad data, a failed fetch/API call) is logged and skipped, never drops the rest of the run.
 
 Only fires when something actually reported — no "quiet day" placeholder message. Runs via
 `.github/workflows/earnings_analysis.yml`, once daily at 23:00 UTC (07:00 Asia/Singapore, catching
@@ -256,9 +261,8 @@ ones found only via the Google News fallback).
 
 `python earnings_analysis.py --test-ticker NVDA`, or the `test_ticker` input on
 `workflow_dispatch`, forces the full grounding + Groq pipeline for one ticker, prints the result,
-saves it under `output/earnings_analysis/` with a `TEST_` filename prefix, AND sends it to
-Telegram tagged `🧪 TEST — not a real alert` so it's distinguishable from a real one — never
-touches `state.json`, so it's safe to run repeatedly. Since the very first real
+AND sends it to Telegram tagged `🧪 TEST — not a real alert` so it's distinguishable from a real
+one — never touches `state.json`, never saves a file, so it's safe to run repeatedly. Since the very first real
 run only baselines all watchlist tickers (nothing to analyze yet, by design — see above), this is
 the way to sanity-check report quality/formatting before trusting the daily cron.
 
@@ -323,9 +327,9 @@ truth.)
 
 **`.github/workflows/earnings_analysis.yml`** is the source of truth for the daily earnings
 analysis alert. Runs every day at 23:00 UTC (07:00 Asia/Singapore): checks out the repo, runs
-`earnings_analysis.py`, commits/pushes `data/earnings_analysis_state.json` and any new files
-under `output/earnings_analysis/` if changed (rebasing first), then sends a Telegram report for
-each watchlist name that newly reported — zero, one, or several messages depending on the day.
+`earnings_analysis.py`, commits/pushes `data/earnings_analysis_state.json` if changed (rebasing
+first, no report file is ever saved), then sends a Telegram report for each watchlist name that
+newly reported — zero, one, or several messages depending on the day.
 `workflow_dispatch` enabled, with a `dry_run` input for a free test run (Actions -> Daily
 Earnings Analysis -> Run workflow).
 

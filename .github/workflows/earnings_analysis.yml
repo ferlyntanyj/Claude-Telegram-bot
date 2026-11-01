@@ -16,7 +16,7 @@ on:
         type: boolean
         default: false
       test_ticker:
-        description: "Diagnostic: force the full pipeline for one ticker OR company name (e.g. NVDA or Nvidia), ignoring dry_run. Prints and saves the full report (TEST_-prefixed, committed below) and sends the digest to Telegram tagged TEST; never touches state.json."
+        description: "Diagnostic: force the full pipeline for one ticker OR company name (e.g. NVDA or Nvidia), ignoring dry_run. Prints the report and sends it to Telegram tagged TEST; never touches state.json, never saves a file."
         type: string
         default: ""
 
@@ -56,16 +56,15 @@ jobs:
           fi
 
       # data/earnings_analysis_state.json changes on every non-dry-run run
-      # (last_run_utc, plus any newly-baselined/advanced tickers), and the
-      # full reports under output/earnings_analysis/ only exist once a
-      # report has actually fired -- commit whichever changed. Doubles as a
-      # visible heartbeat in the commit history.
-      - name: Commit and push state/output if changed
+      # (last_run_utc, plus any newly-baselined/advanced tickers) -- no
+      # report file is ever written (see earnings_analysis.py's module
+      # docstring), so this is the only thing that can need committing.
+      # Doubles as a visible heartbeat in the commit history.
+      - name: Commit and push state if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           [ -f data/earnings_analysis_state.json ] && git add data/earnings_analysis_state.json
-          [ -d output/earnings_analysis ] && git add output/earnings_analysis
           if git diff --cached --quiet; then
             echo "No state changes to commit."
           else

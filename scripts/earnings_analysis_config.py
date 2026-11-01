@@ -22,7 +22,6 @@ WATCHLIST_FILES = [
 ]
 
 STATE_PATH = "../data/earnings_analysis_state.json"
-OUTPUT_DIR = "../output/earnings_analysis"
 
 # A ticker's first-ever appearance in the watchlist is only baselined (its
 # most recent reported quarter is recorded as "already seen"), never
@@ -163,7 +162,9 @@ FORMAT
 Plain text only. Never use a markdown table, a pipe character (|), or any tabular/grid layout. Numbers only -- no quotes from management, no opinions, no predictions. Two sections, exactly as named below. Every item is its own short line (not a long sentence) -- this is read as a Telegram message, not a report, so the whole thing must stay short. The only bullet dashes allowed are the two named sub-points under Revenue (crown jewel, growth engine) -- every other item is a plain line, not a bulleted list. Skip any line entirely if the release has no information for it -- don't speculate to fill a gap, and don't explain away deterioration.
 
 SOURCE DISCIPLINE
-Use the released earnings information and this company's prior transcripts, presentations, and reports (if any) for guidance history and year-ago figures.
+Use the released earnings information and this company's prior transcripts, presentations, and reports (if any) for guidance history and year-ago figures. All dates you write must be in "D Mon YYYY" format (e.g. "29 Oct 2026"), never YYYY-MM-DD.
+
+Margins (GPM/OPM) and EPS (GAAP/non-GAAP) often aren't restated vs. the immediately prior quarter in the current release's own tables -- a company's release table typically shows current vs. year-ago, not current vs. last quarter. Where that's the case: compute GPM/OPM yourself from the quantitative snapshot's raw revenue/gross_profit/operating_income figures for all three periods (that's exactly why they're given to you as numbers, not just prose). For EPS specifically, if a block of material labeled "PRIOR QUARTER'S OWN RELEASE" is given below, pull that quarter's own stated EPS from it for the qoq comparison -- don't guess it from net income alone (share count can change).
 
 RESULTS ANALYSIS
 Revenue: one line, "Revenue: <value>, <yoy delta> yoy, <qoq delta> qoq." Then one line naming which segment(s) drove it, each segment's own value and yoy change, e.g. "Drivers: <segment> <value> <delta>% yoy; <segment> <value> <delta>% yoy."
@@ -177,13 +178,12 @@ Capital allocation: one line covering whichever of buybacks/dividends/capex/dive
 vs. guidance: one line -- beat/met/missed, quantified where possible.
 New guidance from management: one line -- next quarter's guided revenue/EPS/margin figures, plus any one-line assumption given (e.g. a cited market condition), numbers only.
 
-Every delta above is yoy AND qoq where the underlying quarterly data given to you supports it -- don't drop qoq just because yoy is available; only drop one side if that specific comparison isn't actually in the material given.
+Every delta above is yoy AND qoq where the underlying data given to you supports it (see the margins/EPS note above) -- don't drop qoq just because yoy is available; only drop one side if that specific comparison genuinely isn't in the material given.
 
 FINANCIAL STATEMENT ANALYSIS
 Revenue quality: one line -- mix/volume/price shift if visible from the numbers given; skip if not disclosed.
 Pricing power: one line; write "not disclosed" if the release gives no price/ASP data.
-Operating leverage: one line -- margin change vs revenue growth, yoy AND qoq, numbers only.
-Cash conversion: one line, in this exact shape: "<this quarter's operating cash flow> / <this quarter's operating income> = <ratio or %>, vs. <same ratio a year ago>." Compute the ratio yourself from the operating cash flow and operating income figures given -- do not substitute net income for operating income.
+Cash conversion: one line, in this exact shape: "<this quarter's ratio>, vs. <last quarter's ratio> and <a year ago's ratio>", where each ratio is that period's operating cash flow divided by that period's operating income. Compute all three yourself from the operating cash flow and operating income figures given -- do not substitute net income for operating income.
 Capital intensity: one line -- capex value, yoy AND qoq change.
 Competitive position: one line; write "not addressed in the release" if there's no share-gain/loss evidence given -- never infer this.
 """

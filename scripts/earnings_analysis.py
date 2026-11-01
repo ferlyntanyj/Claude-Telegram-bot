@@ -8,12 +8,12 @@ reported earnings since the last run, this gathers free grounding material
 (SEC EDGAR for US-listed tickers, Google News otherwise) and calls Groq's
 free-tier API twice (write -> verify, see earnings_analysis_engine.py's
 module docstring) to produce a short, Telegram-sized report (per
-earnings_analysis_config.ANALYSIS_INSTRUCTIONS's own FORMAT section),
-saves a copy under output/earnings_analysis/, and sends that same report
-to Telegram with a pointer to the saved copy. Sends zero, one, or several
-Telegram messages depending on how many watchlist names reported that
-day -- there is no "quiet day" placeholder message. Entirely free
-infrastructure -- no paid API anywhere in this pipeline.
+earnings_analysis_config.ANALYSIS_INSTRUCTIONS's own FORMAT section) and
+sends it to Telegram -- no file is saved anywhere (per user request
+2026-11-01: the Telegram message is the only deliverable). Sends zero,
+one, or several Telegram messages depending on how many watchlist names
+reported that day -- there is no "quiet day" placeholder message.
+Entirely free infrastructure -- no paid API anywhere in this pipeline.
 
 Auth:
   GROQ_API_KEY -- required for any real (non-dry-run) run. Free tier, no
@@ -38,17 +38,14 @@ Usage:
                                                      # ticker OR company name (matched
                                                      # against the watchlist, any ticker
                                                      # or company not in it is also
-                                                     # accepted as-is), print the report,
-                                                     # save it under
-                                                     # output/earnings_analysis/ with a
-                                                     # "TEST_" filename prefix (so it's
-                                                     # never mistaken for a real daily
-                                                     # detection), AND send it to Telegram
-                                                     # (tagged "TEST") -- never touches
-                                                     # state.json, so it's safe to run
-                                                     # repeatedly. Use this to sanity-check
-                                                     # report quality/formatting before
-                                                     # trusting the daily cron.
+                                                     # accepted as-is), print the report
+                                                     # AND send it to Telegram (tagged
+                                                     # "TEST") -- never touches state.json
+                                                     # and never saves a file, so it's
+                                                     # safe to run repeatedly. Use this to
+                                                     # sanity-check report quality/
+                                                     # formatting before trusting the
+                                                     # daily cron.
 """
 import datetime as dt
 import html
@@ -124,11 +121,10 @@ def render_telegram(result, test_mode=False):
     ticker = html.escape(item["ticker"], quote=False)
     header = (
         f"{prefix}{emoji} <b>{company} ({ticker})</b> -- earnings, "
-        f"{item['report_date'].isoformat()}\n\n"
+        f"{engine._fmt_date(item['report_date'])}\n\n"
     )
     report = _format_report_structure(_markdown_to_telegram_html(result["report"]))
-    footer = f"\n\n<i>Saved: {result['report_path']}</i>"
-    return header + report + footer
+    return header + report
 
 
 def send_telegram(text, token, chat_id):
@@ -185,13 +181,11 @@ def _run_test_ticker(user_input):
     if outcome is None:
         print("Pipeline failed -- see error above.", file=sys.stderr)
         sys.exit(1)
-    item, full_report, report_path = outcome
+    item, full_report = outcome
     print("=" * 20, "REPORT", "=" * 20)
     print(full_report)
-    print(f"\nSaved to {report_path} (TEST_-prefixed, won't be confused with a real daily "
-          f"detection).")
 
-    result = {"item": item, "report": full_report, "report_path": report_path}
+    result = {"item": item, "report": full_report}
     message = render_telegram(result, test_mode=True)
     print("\n" + "=" * 20, "TELEGRAM MESSAGE", "=" * 20)
     print(message)
@@ -254,8 +248,7 @@ def main():
         except Exception as e:  # noqa: BLE001 -- one bad send must not drop the rest
             print(f"ERROR sending report for {result['item']['ticker']}: {e}", file=sys.stderr)
 
-    print(f"Sent {sent}/{len(results)} report(s) to Telegram. "
-          f"Full reports saved under {engine.cfg.OUTPUT_DIR}/.")
+    print(f"Sent {sent}/{len(results)} report(s) to Telegram.")
 
 
 if __name__ == "__main__":
