@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-02T19:15:38.935749+00:00",
+  "last_run_utc": "2026-11-02T19:30:41.202258+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1866,7 +1866,7 @@
       "last_attempt_utc": "2026-11-02T15:18:05.760422+00:00"
     },
     "single:HWM": {
-      "last_attempt_utc": "2026-11-02T17:33:02.810329+00:00"
+      "last_attempt_utc": "2026-11-02T19:33:25.590520+00:00"
     },
     "single:MPWR": {
       "last_attempt_utc": "2026-11-02T17:33:13.771799+00:00"
@@ -1899,7 +1899,7 @@
       "last_attempt_utc": "2026-11-02T19:04:40.636802+00:00"
     },
     "single:CIEN": {
-      "last_attempt_utc": "2026-11-02T17:33:24.744825+00:00"
+      "last_attempt_utc": "2026-11-02T19:33:47.986554+00:00"
     },
     "single:APA": {
       "last_attempt_utc": "2026-11-02T17:47:21.861949+00:00"
@@ -1927,6 +1927,15 @@
     },
     "single:SMCI": {
       "last_attempt_utc": "2026-11-02T19:18:57.502884+00:00"
+    },
+    "single:AMD": {
+      "last_attempt_utc": "2026-11-02T19:33:14.690685+00:00"
+    },
+    "single:FANG": {
+      "last_attempt_utc": "2026-11-02T19:33:36.470554+00:00"
+    },
+    "single:NTAP": {
+      "last_attempt_utc": "2026-11-02T19:33:58.966042+00:00"
     }
   }
 }
