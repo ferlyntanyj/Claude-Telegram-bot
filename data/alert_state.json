@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-02T08:45:47.987250+00:00",
+  "last_run_utc": "2026-11-02T09:00:55.155660+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1831,6 +1831,9 @@
     },
     "single:002371.SZ": {
       "last_attempt_utc": "2026-11-02T06:18:39.681373+00:00"
+    },
+    "premarket:SOLV": {
+      "last_attempt_utc": "2026-11-02T09:03:08.474275+00:00"
     }
   }
 }
