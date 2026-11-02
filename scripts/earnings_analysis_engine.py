@@ -857,20 +857,33 @@ def _strip_unverified_flags(text):
 
 
 _SUBPOINT_RE = re.compile(r"(?i)^(crown jewel|growth engine)\b")
+_ALL_SECTION_HEADERS_RE = re.compile(
+    r"(?i)^(results analysis|financial high-level notes|outlook|key takeaways)\s*$")
 
 
 def _normalize_subpoints(text):
     """Crown jewel / growth engine are the only two sub-points in the
-    brief (see ANALYSIS_INSTRUCTIONS's FORMAT rule) -- confirmed live that
-    the model doesn't reliably prefix them with a marker on its own, so
-    this enforces it in code rather than relying on prompt compliance
-    alone (same pattern as the markdown/table fixes elsewhere in this
+    brief, and only under Results Analysis's Revenue item (see
+    ANALYSIS_INSTRUCTIONS's FORMAT rule) -- confirmed live that the model
+    doesn't reliably prefix them with a marker on its own, so this
+    enforces it in code rather than relying on prompt compliance alone
+    (same pattern as the markdown/table fixes elsewhere in this
     pipeline). Strips any marker the model DID add first, so re-adding
-    one never double-marks a line."""
+    one never double-marks a line. Scoped to while inside the Results
+    Analysis section specifically -- Key Takeaways is allowed (asked, in
+    fact) to restate "Crown jewel ..." as a plain summary line, which
+    must NOT pick up a stray bullet marker just because it starts with
+    the same words."""
     out = []
+    in_results_section = False
     for line in text.split("\n"):
+        header_match = _ALL_SECTION_HEADERS_RE.match(line.strip())
+        if header_match:
+            in_results_section = header_match.group(1).lower() == "results analysis"
+            out.append(line)
+            continue
         stripped = line.lstrip("-*• ").lstrip()
-        if _SUBPOINT_RE.match(stripped):
+        if in_results_section and _SUBPOINT_RE.match(stripped):
             out.append(f"- {stripped}")
         else:
             out.append(line)

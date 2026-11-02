@@ -145,8 +145,8 @@ EARNINGS_KEYWORDS_RE = (
 TELEGRAM_DIGEST_MAX_CHARS = 3500
 
 # The analyst brief. Reworked 2026-10-31 to match the exact Telegram format
-# the user confirmed in chat -- three short sections (Results Analysis,
-# Financial Statement Analysis, Outlook), numbers only (no quotes), one short line
+# the user confirmed in chat -- four short sections (Results Analysis,
+# Financial High-Level Notes, Outlook, Key Takeaways), numbers only (no quotes), one short line
 # per item. The report produced here now goes essentially as-is to
 # Telegram (see earnings_analysis_engine.py's module docstring -- the
 # write/verify stages no longer produce a separate, differently-shaped
@@ -159,7 +159,7 @@ ROLE
 You are preparing a factual quarterly results brief for the company whose earnings release triggered this run, comparing the quarter against prior guidance, the street, and history (prior quarter and prior year).
 
 FORMAT
-Plain text only. Never use a markdown table, a pipe character (|), or any tabular/grid layout. Numbers only -- no quotes from management, no opinions, no predictions. Three sections, exactly as named below. Every item is its own short line (not a long sentence) -- this is read as a Telegram message, not a report, so the whole thing must stay short. The only bullet dashes allowed are the two named sub-points under Revenue (crown jewel, growth engine) -- every other item is a plain line, not a bulleted list. Skip any line entirely if the release has no information for it -- don't speculate to fill a gap, and don't explain away deterioration.
+Plain text only. Never use a markdown table, a pipe character (|), or any tabular/grid layout. Numbers only -- no quotes from management, no opinions, no predictions. Four sections, exactly as named below, in that order, with those exact header words -- never rename, merge, split, or paraphrase a section header. Every item is its own short line (not a long sentence) -- this is read as a Telegram message, not a report, so the whole thing must stay short. The only bullet dashes allowed are the two named, MANDATORY sub-points under Revenue (crown jewel, growth engine -- see below; never drop these two even if everything else in the section is reshuffled) -- every other item is a plain line, not a bulleted list. Skip any line entirely if the release has no information for it -- don't speculate to fill a gap, and don't explain away deterioration.
 
 SOURCE DISCIPLINE
 Use the released earnings information and this company's prior transcripts, presentations, and reports (if any) for guidance history and year-ago figures. All dates you write must be in "D Mon YYYY" format (e.g. "29 Oct 2026"), never YYYY-MM-DD.
@@ -168,8 +168,8 @@ Margins (GPM/OPM) and EPS (GAAP/non-GAAP) often aren't restated vs. the immediat
 
 RESULTS ANALYSIS
 Revenue: one line, "Revenue: <value>, <yoy delta> yoy, <qoq delta> qoq." Then one line naming which segment(s) drove it, each segment's own value and yoy change, e.g. "Drivers: <segment> <value> <delta>% yoy; <segment> <value> <delta>% yoy."
-- Crown jewel (name the segment): the main cash-generating segment -- one short line on whether it's growing, flat, or shrinking, purely from the numbers.
-- Growth engine (name the segment): the segment management points to as the future -- one short line with its growth rate.
+- Crown jewel (name the segment): the segment generating the most cash/profit today -- one short line on whether it's growing, flat, or shrinking, purely from the numbers. Locked definition -- always the main cash-generating segment, never management's narrative framing of which segment matters most.
+- Growth engine (name the segment): the fastest-growing segment by revenue growth rate (the up-and-coming segment, by the numbers) -- one short line with its growth rate. Locked definition -- always the segment with the highest growth rate among those broken out, never whichever segment management talks up; if two segments are close, pick the one with the higher yoy growth rate. These two sub-points are mandatory whenever the release breaks revenue out by segment at all -- skip them only if no segment-level breakdown exists anywhere in the material given.
 GPM: one line, "<value>, <yoy delta> yoy, <qoq delta> qoq" (add non-GAAP too if the company reports it separately).
 OPM: one line, same shape as GPM.
 Net profit: one line, "<value>, <yoy delta> yoy, <qoq delta> qoq" (GAAP and non-GAAP if both reported; flag in a few words if a one-off is distorting either comparison, e.g. a divestiture gain).
@@ -180,7 +180,7 @@ vs. consensus: one line -- beat/met/missed against the Street. Use the "EPS esti
 
 Every delta above is yoy AND qoq where the underlying data given to you supports it (see the margins/EPS note above) -- don't drop qoq just because yoy is available; only drop one side if that specific comparison genuinely isn't in the material given.
 
-FINANCIAL STATEMENT ANALYSIS
+FINANCIAL HIGH-LEVEL NOTES
 Revenue quality: one line -- mix/volume/price shift if visible from the numbers given; skip if not disclosed.
 Pricing power: one line; write "not disclosed" if the release gives no price/ASP data.
 Cash conversion: one line, in this exact shape: "<this quarter's ratio>, vs. <last quarter's ratio> and <a year ago's ratio>", where each ratio is that period's operating cash flow divided by that period's operating income. Compute all three yourself from the operating cash flow and operating income figures given -- do not substitute net income for operating income.
@@ -189,4 +189,7 @@ Competitive position: one line; write "not addressed in the release" if there's 
 
 OUTLOOK
 New guidance from management: whichever of revenue/EPS/gross margin/operating margin the company guided for next quarter, one line each, in this exact shape: "<metric>: <guided value>, implies <qoq delta>% qoq vs. this quarter's own <actual value>, <yoy delta>% yoy vs. <that same metric's value a year ago in the quarter the guidance is FOR>" -- not vs. the quarter just reported. The quantitative snapshot gives you this quarter's own actual figures (qoq base) and a separate block explicitly labeled as the yoy base for the GUIDED quarter -- use that block for yoy, never the ordinary yoy_prior block (that one is a year ago from the quarter just reported, a different quarter). Compute both deltas yourself from the raw figures given; only drop a side if that specific baseline figure genuinely isn't in the material given. Add management's own one-line qualitative assumption (e.g. a cited market condition or demand signal) after the numbers if the release gives one, numbers-only otherwise. Skip a metric entirely if the company didn't guide it this quarter.
+
+KEY TAKEAWAYS
+3-4 short plain lines synthesizing the quarter -- one each on: the headline result (beat/met/missed, both guidance and consensus), the crown jewel segment's health, the growth engine segment's momentum, and the single most important thing from Outlook (the new guidance direction, or the biggest flagged risk). Every line here must restate a figure or conclusion already given in one of the three sections above -- never introduce a new figure, claim, or opinion that isn't already in the report.
 """
