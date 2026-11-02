@@ -1,15 +1,12 @@
-# Global Semiconductor Brief -- 2 Nov 2026, 14:37 SGT
+# Global Semiconductor Brief -- 3 Nov 2026, 04:28 SGT
 
-## Supply chain signals
-- [South Korea builds SMR ecosystem as SK Innovation advances Natrium tech, Samsung C&amp;T pushes modular construction](https://www.digitimes.com/news/a20261102PD219/samsung-sk-innovation-technology-commercial-electricity.html) — DIGITIMES
-- [Iluvatar CoreX Tiangai 300 tops Nvidia H200 in select AI inference tests, with long-context and MoE gains](https://www.digitimes.com/news/a20261102PD208/china-gpu-ai-inference-performance-nvidia.html) — DIGITIMES
-- [Samsung partners with PXPay to bolster Samsung Wallet in Taiwan](https://www.digitimes.com/news/a20261102PD220/mobile-samsung-samsung-electronics-taiwan-sales-smartphone.html) — DIGITIMES
-- [Sam Altman meets with Samsung, SK as memory crunch deepens](https://www.digitimes.com/news/a20261102VL211/openai-sam-altman-samsung-sk-hynix-memory-chips-demand.html) — DIGITIMES
+## Policy & geopolitics
+- [China’s CXMT defends push into new DRAM architecture as US chip curbs bite](https://news.google.com/rss/articles/CBMixgFBVV95cUxNb1lXREp3Z1lqNVNmcFdmVXJuQll5c25RZnVvZm83aU4zODRqZzIxMUl6eEhQcGlFQk4xVHd4SVlmSVdLSW1kRlBSYzRURnczMWkyS2k2bjdLQmRkLWxmMHN6Uml1NjhzdF8xb3hEZGRBTXpZdG5MOE9jcVNXX2ZKX2lya2V5OWFoSzlpWkh1STVUcVUtZlpYc2xfS3ZGOVVDT3ZmVExzMjg1ck5zUE1YVE43dkxtNl90QXNrdHF1N1MzR1R1dlHSAcYBQVVfeXFMTi1FMUJ6MG1iNlBneVhoQ0dPZVlDdXpiT3pTOXRzVUxCRlBPbDVLM1lwdnJIaHRmV25CT2VEUGZSWXE5MllZUFhzV0hUOXRMR3Nwbm9MekFhTUVLNjNnLW91NlpRazFlMkVoQktQV2FtV29CaWhDaURiMW5IYjQ1d3FoQVAtREFmdG81a21mdGlxS2UzcUxjVUtwbWRpNXhOY1dhZFE2aTNfdWdJLWJDTGJ3MkY0TGFCR0hPR0h5NThpczN6UEtR?oc=5) — South China Morning Post
 
 ## News — M&A, capex, capacity, earnings
-- [Memory Crunch Cements CXMT as China’s Chip Champion](https://news.google.com/rss/articles/CBMingFBVV95cUxNaFk1YklyYnNaSW56ZzNzS2kySTBMeklaTzAxQ1UtQ1dQSUJEeTRzZ0t1d0VrR29Xb185blpCX3JrOHFOazFLX3pTcG9tQWdHVXZmekdJeDdaWWcySE9ja0I3dUdxYkV3S1JoY1d3cEx4VGhrLURHOWpDQlhZTXZVZ09YLWNDVnZOQVN2UWw0ZExuNU1vN0tqaE9oelFxZw?oc=5) — WSJ
-- [Samsung to buy TCL CSOT stake from its own display unit for US$960 million](https://www.digitimes.com/news/a20261102VL213/samsung-sdc-tcl-csot-acquisition-display.html) — DIGITIMES
-- [Samsung chairman Lee Jae-yong turns to Japan for AI chip packaging edge](https://www.digitimes.com/news/a20261102VL212/samsung-chairman-japan-ai-chip-packaging-materials.html) — DIGITIMES
-- [[News] Samsung’s First AI Glasses Reportedly Launching Mid-December in Korea, U.S.; Takes on Meta](https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZXFvZFpXX2t6N1gzN04wc3piLXh2RVhwTENLbGVsU3pQMHRjemZrUkRxSmNEUlY2SkdHaGNRQk5BMVYxcTQxVmk5S0d6YmxWN2l3Zmp2Vm52cVlRVnNtcjNKMnNmU2F6ZkhkOHc3SnE5U093Y1V1MTh6THhNSU9WMUF6TnhKYlV3dEIxTm9vRTNZRXFQMVR2cVNWSk1rYXQ4djkyYlFsM1VqUDZFRzNZUE0wWHhlWTRDNDJBTVM0dGdGa3UxbUlndi1TNVFtSC1uUUVGM1FyVlVTSWFHNE5wdFBEOTJQa2VIVUYw?oc=5) — TrendForce
+- [Marvell doubles down on AI boom with costly $115 billion Lumentum deal](https://news.google.com/rss/articles/CBMisgFBVV95cUxOelFpUlRuWUdrd3oyYkZTNkxFMW9mQlBTY01YTl9ERVRsYTc1VGNWQjR1VF90aEcwY01sTDNXN3NiWVBZNTY4aGVFSlR3WlBlb0laSkptRS1EMF9fMGlna1BXSVExN2dFVGlTNWMyQzYyM1RsYm5pMGxXOWxhbmp1UGRYVjk3RVA0b25WWVZPcFZMS05IOE1CTUgzY1BsQWY3MW5DbDF1bGs1M185UlM4cjlB?oc=5) — Reuters
+- [Samsung’s Chip Profit Drives Another Record Quarter](https://news.google.com/rss/articles/CBMipgFBVV95cUxPSkNHdjdvWXZoRUpjZkRXQTJKd2JhcjJqbjNFV1hkYlNXNXNPX1JubjRiTVFVaWc3XzFrZkdMRUl4cHFyU1dDRkREQ29VSF9mQ29LZjB3VkhUQzRoblZjSV9MX3VBVDJab25oMkM1NElMWWFVS0drQ2JjTUd6Z2loNnJmcHRXYXA0OFh5RnI5cG5leTNraFBMdjVkZVgxMkxZeklIak53?oc=5) — WSJ
+- [TSMC’s $265 Billion Campus Is Driving a Real Estate Boom in the Phoenix Suburbs](https://news.google.com/rss/articles/CBMiswFBVV95cUxOcTRqYm9vX2Q3QmNhOHlVckZhOThOdFZ0dXlYQmJLcm1ST0ZFdXZVN2FXSWJZV0hpM1ZWMjNmMGppRDU5OWFUVGVueENHSWg0N2hpVlZjTXhlelFUM2ZPT0w1UFJuOFZwNklDMmtRbmw0RmFQcU1oQmQ4SEZ6LXp3M1FNeXh1NEFtbDNxUURhcGlwMl9YVl9SUmRRbnhfT2k4bjNJWENrMlJ1NThtQV9iaGxURQ?oc=5) — Bloomberg.com
+- [Chip Maker Marvell Agrees to Buy Lumentum in $80 Billion Deal](https://news.google.com/rss/articles/CBMipgFBVV95cUxPb0ZJdzhmTl9OTWM4NnBzOFJnXzg4SUk0WnNmMXF5NElQYkQyd0ZlOGh4aDJaVFhfaTNobk9mQUc0c1lkakpyRnFzRVh0aGd4MS1KSS1KbFJtelR1TzFsOV9MYUpCY2VjNEl3aWJzT3Z3VjlOd3BPZUdDNFpaU0diRTFJLUc5M2RGbUhucFVWVFBaczB0TFhMMjBQamdIWGVKSV9ubEdn?oc=5) — WSJ
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 62h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (5 headlines, 13h window)._
