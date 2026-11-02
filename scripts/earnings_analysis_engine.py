@@ -618,28 +618,31 @@ _OPERATING_METRICS_RE = re.compile(
 )
 
 
-def _extract_operating_metrics_section(full_text, max_chars=3000):
-    """Best-effort extraction of a company's own operational-KPI table
-    (units sold, headcount, shipping costs, revenue-mix breakdown, etc.)
-    from a filing exhibit's FULL (untruncated) text -- added 2026-11-02
-    after confirming live that Amazon's press release repeats the same
+def _extract_operating_metrics_section(full_text, max_chars=8000):
+    """Best-effort extraction of a company's supplemental-appendix tables
+    -- multi-quarter segment detail (needed for Drivers' QoQ segment
+    growth, which the narrative lead paragraphs only ever state as YoY)
+    and the operational-KPI table (units sold, headcount, shipping
+    costs, revenue-mix breakdown, etc.) -- from a filing exhibit's FULL
+    (untruncated) text. Added 2026-11-02, widened 2026-11-03 after
+    confirming live that Amazon's press release repeats the same
     "Supplemental Financial Information and Business Metrics" heading
     THREE times for three different tables (cash flow/shares, segment
-    detail, then -- last -- the genuinely operational one with paid-unit
-    growth, shipping costs, and headcount), all roughly 27,000-31,000
-    characters into a ~36,000-character exhibit, well past where the
-    ordinary max_chars narrative truncation below cuts off. Confirmed
-    live that the LAST occurrence is reliably the operational one (the
-    other two are financial-statement restatements already covered by
-    the quantitative snapshot/margin lines elsewhere in this report), so
-    this takes the last match, not the first. Returns None if no such
-    section heading is found anywhere in the text -- not every company
-    publishes one, and this never invents figures to fill that gap, it
-    only looks harder for real ones already there."""
+    detail, then the operational one with paid-unit growth, shipping
+    costs, and headcount) -- all clustered together in one contiguous
+    block from roughly 26,500 to the end of a ~36,000-character exhibit,
+    well past where the ordinary max_chars narrative truncation below
+    cuts off. Taking a large window from the FIRST occurrence through
+    the end of that block (rather than guessing which single repeated
+    occurrence matters) reliably captures all three, confirmed live.
+    Returns None if no such section heading is found anywhere in the
+    text -- not every company publishes one, and this never invents
+    figures to fill that gap, it only looks harder for real ones already
+    there."""
     matches = list(_OPERATING_METRICS_RE.finditer(full_text))
     if not matches:
         return None
-    start = matches[-1].start()
+    start = matches[0].start()
     return full_text[start:start + max_chars]
 
 
@@ -653,10 +656,16 @@ def _fetch_filing_text(cik, forms, accessions, primary_docs, idx, filing_date, h
     accession_nodash = accessions[idx].replace("-", "")
     base_url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{accession_nodash}/"
     docs = _edgar_filing_exhibits(cik, accession_nodash, headers, exclude_name=primary_docs[idx])
+    # The supplemental-metrics extraction's own budget scales with the
+    # caller's max_chars (current quarter vs. the smaller prior-quarter
+    # call) so the prior quarter stays the smaller, supplementary fetch
+    # it's documented as -- without this, both calls would get the same
+    # fixed bonus regardless of which one asked for less to begin with.
+    metrics_max_chars = max_chars + max_chars // 2
     if not docs:
         full_text = _edgar_fetch_text(base_url + primary_docs[idx], headers)
         text = full_text[:max_chars]
-        metrics_section = _extract_operating_metrics_section(full_text)
+        metrics_section = _extract_operating_metrics_section(full_text, max_chars=metrics_max_chars)
         if metrics_section and metrics_section not in text:
             text += (f"\n\n--- OPERATING / BUSINESS METRICS (beyond the narrative excerpt "
                       f"above) ---\n{metrics_section}")
@@ -665,7 +674,7 @@ def _fetch_filing_text(cik, forms, accessions, primary_docs, idx, filing_date, h
     per_doc_chars = max_chars // max(len(docs), 1)
     combined = "\n\n".join(f"--- {name} ---\n{text[:per_doc_chars]}" for name, text in docs)
     for name, full_text in docs:
-        metrics_section = _extract_operating_metrics_section(full_text)
+        metrics_section = _extract_operating_metrics_section(full_text, max_chars=metrics_max_chars)
         if metrics_section:
             combined += (f"\n\n--- OPERATING / BUSINESS METRICS (from {name}, beyond the "
                          f"narrative excerpt above -- this company's own disclosed operating "
@@ -954,7 +963,12 @@ def _run_verify_stage(item, grounding_text, draft_text):
         f"\"Key operational metric(s)\" line actually using a figure from it, ADD one now, "
         f"numbers only, in the same style as every other line -- this line is mandatory "
         f"whenever that block exists, it was fetched specifically for it, and a missing block "
-        f"is the only valid reason to skip it. If the draft "
+        f"is the only valid reason to skip it. Also check every Drivers/EPS/margin line "
+        f"specifically for a missing QoQ delta where the draft only gives YoY -- the sourced "
+        f"material usually has what's needed to compute QoQ too (a multi-quarter segment table "
+        f"for Drivers, a block labeled \"PRIOR QUARTER'S OWN RELEASE\" for EPS), so add the "
+        f"missing QoQ delta now rather than leaving the line YoY-only; only leave a delta out if "
+        f"the sourced material genuinely has nothing to compute it from. If the draft "
         f"used a markdown table or any pipe (|) characters anywhere, rewrite that part as plain "
         f"text lines instead -- the corrected version must have none. Keep every line short -- "
         f"this is read as a Telegram message, not a report -- and keep the whole thing under "
