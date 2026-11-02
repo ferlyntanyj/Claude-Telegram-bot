@@ -611,19 +611,66 @@ def _pick_filing(forms, dates, target_date, window_days):
     return idx, filing_date
 
 
+_OPERATING_METRICS_RE = re.compile(
+    r"Supplemental Financial Information and Business Metrics|"
+    r"Key (?:Operating|Business) Metrics|Operating Metrics|Business Metrics",
+    re.I,
+)
+
+
+def _extract_operating_metrics_section(full_text, max_chars=3000):
+    """Best-effort extraction of a company's own operational-KPI table
+    (units sold, headcount, shipping costs, revenue-mix breakdown, etc.)
+    from a filing exhibit's FULL (untruncated) text -- added 2026-11-02
+    after confirming live that Amazon's press release repeats the same
+    "Supplemental Financial Information and Business Metrics" heading
+    THREE times for three different tables (cash flow/shares, segment
+    detail, then -- last -- the genuinely operational one with paid-unit
+    growth, shipping costs, and headcount), all roughly 27,000-31,000
+    characters into a ~36,000-character exhibit, well past where the
+    ordinary max_chars narrative truncation below cuts off. Confirmed
+    live that the LAST occurrence is reliably the operational one (the
+    other two are financial-statement restatements already covered by
+    the quantitative snapshot/margin lines elsewhere in this report), so
+    this takes the last match, not the first. Returns None if no such
+    section heading is found anywhere in the text -- not every company
+    publishes one, and this never invents figures to fill that gap, it
+    only looks harder for real ones already there."""
+    matches = list(_OPERATING_METRICS_RE.finditer(full_text))
+    if not matches:
+        return None
+    start = matches[-1].start()
+    return full_text[start:start + max_chars]
+
+
 def _fetch_filing_text(cik, forms, accessions, primary_docs, idx, filing_date, headers, max_chars=6000):
     """Fetches one filing's real press-release/commentary exhibits (or the
     primary document itself if no distinct exhibit exists, e.g. a bare
-    10-Q). Returns (text, label)."""
+    10-Q). Returns (text, label). Separately scans each exhibit's FULL
+    text (before the narrative excerpt below truncates it) for a
+    supplemental operating/KPI metrics section and appends that
+    specifically if found -- see _extract_operating_metrics_section."""
     accession_nodash = accessions[idx].replace("-", "")
     base_url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{accession_nodash}/"
     docs = _edgar_filing_exhibits(cik, accession_nodash, headers, exclude_name=primary_docs[idx])
     if not docs:
-        text = _edgar_fetch_text(base_url + primary_docs[idx], headers)[:max_chars]
+        full_text = _edgar_fetch_text(base_url + primary_docs[idx], headers)
+        text = full_text[:max_chars]
+        metrics_section = _extract_operating_metrics_section(full_text)
+        if metrics_section and metrics_section not in text:
+            text += (f"\n\n--- OPERATING / BUSINESS METRICS (beyond the narrative excerpt "
+                      f"above) ---\n{metrics_section}")
         label = f"SEC EDGAR {forms[idx]} filed {filing_date.isoformat()} ({base_url + primary_docs[idx]})"
         return text, label
     per_doc_chars = max_chars // max(len(docs), 1)
     combined = "\n\n".join(f"--- {name} ---\n{text[:per_doc_chars]}" for name, text in docs)
+    for name, full_text in docs:
+        metrics_section = _extract_operating_metrics_section(full_text)
+        if metrics_section:
+            combined += (f"\n\n--- OPERATING / BUSINESS METRICS (from {name}, beyond the "
+                         f"narrative excerpt above -- this company's own disclosed operating "
+                         f"KPIs for this quarter and recent prior quarters) ---\n{metrics_section}")
+            break
     label = (f"SEC EDGAR {forms[idx]} filed {filing_date.isoformat()}, exhibits: "
              f"{', '.join(name for name, _ in docs)} ({base_url})")
     return combined, label

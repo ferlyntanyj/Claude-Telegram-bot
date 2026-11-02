@@ -87,15 +87,20 @@ def _markdown_to_telegram_html(text):
 _SECTION_HEADERS = {"results analysis", "financial high-level notes", "outlook", "key takeaways"}
 
 
+_UNDERLINE_ITEM_LABELS = {"capital allocation"}
+
+
 def _format_report_structure(text):
-    """Underlines the two section headers and bold+italicizes each line's
+    """Underlines the section headers and bold+italicizes each line's
     leading "<Label>:" -- done in code, not left to the model, same
     reasoning as engine._normalize_subpoints: a free-tier model doesn't
     reliably apply formatting like this on request, but the report's own
-    structure (one labeled item per line, two named section headers) is
+    structure (one labeled item per line, named section headers) is
     fixed and known in advance, so it's cheap and reliable to apply here
     instead. Runs after _markdown_to_telegram_html, on already-escaped
-    text, so it only ever inserts its own tags, never raw user content."""
+    text, so it only ever inserts its own tags, never raw user content.
+    _UNDERLINE_ITEM_LABELS gets bold+underline instead of the usual
+    bold+italic -- just "Capital allocation" today, per user request."""
     out = []
     for line in text.split("\n"):
         plain = re.sub(r"<[^>]+>", "", line).strip()
@@ -107,7 +112,11 @@ def _format_report_structure(text):
         colon_idx = rest.find(":")
         if 0 < colon_idx <= 50:
             label, remainder = rest[:colon_idx + 1], rest[colon_idx + 1:]
-            out.append(f"{marker}<b><i>{label}</i></b>{remainder}")
+            label_key = label[:-1].strip().lower() if label.endswith(":") else label.strip().lower()
+            if label_key in _UNDERLINE_ITEM_LABELS:
+                out.append(f"{marker}<u><b>{label}</b></u>{remainder}")
+            else:
+                out.append(f"{marker}<b><i>{label}</i></b>{remainder}")
         else:
             out.append(line)
     return "\n".join(out)
