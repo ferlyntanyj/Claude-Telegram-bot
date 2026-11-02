@@ -1,15 +1,15 @@
-# Global Semiconductor Brief -- 2 Nov 2026, 00:53 SGT
+# Global Semiconductor Brief -- 2 Nov 2026, 14:37 SGT
 
 ## Supply chain signals
-- [Sam Altman meets with Samsung leadership to secure more RAM for data centers amid crushing shortages](https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers) — Tom's Hardware
-- [Nvidia moves beyond GPUs as Meta's Muse agent stack pulls it deeper into AI infrastructure](https://www.digitimes.com/news/a20261028VL216/meta-infrastructure-nvidia-launch-security.html) — DIGITIMES
-- [TSIA 30: The manpower problem behind Taiwan's semiconductor resilience](https://www.digitimes.com/news/a20261030VL224/taiwan-tsia-manufacturing-talent-technology.html) — DIGITIMES
-- [Marvell-Lumentum talks put optical supply chain in focus](https://www.digitimes.com/news/a20261030PD240/marvell-acquisition-communications-supply-chain-apple.html) — DIGITIMES
+- [South Korea builds SMR ecosystem as SK Innovation advances Natrium tech, Samsung C&amp;T pushes modular construction](https://www.digitimes.com/news/a20261102PD219/samsung-sk-innovation-technology-commercial-electricity.html) — DIGITIMES
+- [Iluvatar CoreX Tiangai 300 tops Nvidia H200 in select AI inference tests, with long-context and MoE gains](https://www.digitimes.com/news/a20261102PD208/china-gpu-ai-inference-performance-nvidia.html) — DIGITIMES
+- [Samsung partners with PXPay to bolster Samsung Wallet in Taiwan](https://www.digitimes.com/news/a20261102PD220/mobile-samsung-samsung-electronics-taiwan-sales-smartphone.html) — DIGITIMES
+- [Sam Altman meets with Samsung, SK as memory crunch deepens](https://www.digitimes.com/news/a20261102VL211/openai-sam-altman-samsung-sk-hynix-memory-chips-demand.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Samsung chief visits Advanced Package Lab in Japan](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vanBSVEJOZjh4YjdMcGpwTzB5SFV0QmxySTNPYXNnMjFUOTVQWWE1em9kb0JqSzZtRnVpTi05V3VoY3kyUDRHZHM1OTNBQ0FocThPQmZtWUdFUQ?oc=5) — Yonhap News Agency
-- [Open-source USB tool unlocks Nvidia's half-speed GPU AI limiter on Windows — lifts GPU's FP16 math performance up to 65%, UEFI unlocker covers RTX 20, 30, and 40-series desktops and laptops](https://news.google.com/rss/articles/CBMi2AJBVV95cUxPVUtXVThBWVBJbnBvZk1QVUZvQ0l3aEVQd1FETFlLdGZocmtJaGp5VmI5N0JnLTlUSWV3cTdoR1FYLXpzcjN1TjBzR0JEU0RubUpUbUlPd21YaHpldFI0dTJxTXM2ak9SRnV0ZVI5UWxFSVhCQUFzcnd5TTYzNlB1amRFdERkYmpFQmQxMlBndFVoV0JIZmRkbnhCUHJPb2l0djNyQ3BOejR6d3ZEYWtURW1ua0c3YzN0N3BTUEJNRzQwTndnVFNjdTRQcWQySXc4SVc1UEFWY0ZxdzJjTV9sTXdKeWluRlBFc0Vydnpldzk4OUh3dVpzTFRnQmdjTE01MWtYRmZLNFc5aVVuQkNudWZjdFNUclBJS3BULWNUVGZMQ2dfYVhKNHpSYUhUN3BJWThlQWIyZmFfUGhtUzRtMHkxbjVvbFRib1paN25JdTZ1amtvdDlYLQ?oc=5) — Tom's Hardware
-- [Open-source USB tool unlocks Nvidia's half-speed GPU AI limiter on Windows](https://www.tomshardware.com/pc-components/gpus/open-source-usb-tool-unlocks-nvidias-half-speed-gpu-ai-limiter-on-windows-lifts-gpus-fp16-math-performance-up-to-65-percent-uefi-unlocker-covers-rtx-20-30-and-40-series-desktops-and-laptops) — Tom's Hardware
-- [Intel (INTC) Q1 2026 Earnings Call Transcript](https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yUDZ1UVdPM3d1SGlxcHl2MWUzU2pDc0hyRHdmeFpTOEF3SkZsaUpteEszQkxjUlQ2QnFJaDJSUXBUWWZuQl9FRVNmVDZDOWJiSVhWU1EwSHBWMmdxVGRrUA?oc=5) — Fortune
+- [Memory Crunch Cements CXMT as China’s Chip Champion](https://news.google.com/rss/articles/CBMingFBVV95cUxNaFk1YklyYnNaSW56ZzNzS2kySTBMeklaTzAxQ1UtQ1dQSUJEeTRzZ0t1d0VrR29Xb185blpCX3JrOHFOazFLX3pTcG9tQWdHVXZmekdJeDdaWWcySE9ja0I3dUdxYkV3S1JoY1d3cEx4VGhrLURHOWpDQlhZTXZVZ09YLWNDVnZOQVN2UWw0ZExuNU1vN0tqaE9oelFxZw?oc=5) — WSJ
+- [Samsung to buy TCL CSOT stake from its own display unit for US$960 million](https://www.digitimes.com/news/a20261102VL213/samsung-sdc-tcl-csot-acquisition-display.html) — DIGITIMES
+- [Samsung chairman Lee Jae-yong turns to Japan for AI chip packaging edge](https://www.digitimes.com/news/a20261102VL212/samsung-chairman-japan-ai-chip-packaging-materials.html) — DIGITIMES
+- [[News] Samsung’s First AI Glasses Reportedly Launching Mid-December in Korea, U.S.; Takes on Meta](https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZXFvZFpXX2t6N1gzN04wc3piLXh2RVhwTENLbGVsU3pQMHRjemZrUkRxSmNEUlY2SkdHaGNRQk5BMVYxcTQxVmk5S0d6YmxWN2l3Zmp2Vm52cVlRVnNtcjNKMnNmU2F6ZkhkOHc3SnE5U093Y1V1MTh6THhNSU9WMUF6TnhKYlV3dEIxTm9vRTNZRXFQMVR2cVNWSk1rYXQ4djkyYlFsM1VqUDZFRzNZUE0wWHhlWTRDNDJBTVM0dGdGa3UxbUlndi1TNVFtSC1uUUVGM1FyVlVTSWFHNE5wdFBEOTJQa2VIVUYw?oc=5) — TrendForce
 
 _Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 62h window)._
