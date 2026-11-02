@@ -386,7 +386,14 @@ def _quarterly_snapshot(ticker):
         qf = None
     if qf is not None and not qf.empty and len(qf.columns) >= 1:
         cols = list(qf.columns)  # newest first
-        for label, col_idx in (("current", 0), ("qoq_prior", 1), ("yoy_prior", 4)):
+        # col_idx 3 is the quarter from a year ago that lines up with the
+        # GUIDED next quarter (current + 1), not with the quarter just
+        # reported -- added 2026-11-02 so the Outlook section has a real
+        # yoy base for management's new guidance (current quarter's own
+        # figures already double as the qoq base, so no extra column is
+        # needed for that side).
+        for label, col_idx in (("current", 0), ("qoq_prior", 1), ("yoy_prior", 4),
+                                ("guidance_yoy_base", 3)):
             if col_idx >= len(cols):
                 snapshot[label] = None
                 continue
@@ -478,8 +485,14 @@ def _snapshot_to_text(item, snapshot):
         f"EPS estimate: {item.get('eps_estimate')}  Reported EPS: {item.get('reported_eps')}  "
         f"Surprise%: {item.get('surprise_pct')}",
     ]
-    for label, title in (("current", "Latest quarter"), ("qoq_prior", "Prior quarter (QoQ base)"),
-                          ("yoy_prior", "Same quarter last year (YoY base)")):
+    for label, title in (
+        ("current", "Latest quarter"),
+        ("qoq_prior", "Prior quarter (QoQ base)"),
+        ("yoy_prior", "Same quarter last year (YoY base)"),
+        ("guidance_yoy_base", "Same quarter last year AS THE GUIDED NEXT QUARTER -- yoy base "
+                               "for the Outlook section's guidance comparison, not for this "
+                               "quarter's own results"),
+    ):
         row = q.get(label)
         if not row:
             continue

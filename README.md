@@ -184,14 +184,15 @@ Asia/Singapore). Also has `workflow_dispatch` enabled for manual runs.
 Deep-dive companion to the weekly calendar above: when a company on your own watchlist
 (`data/earnings_watchlist_*.csv` — one CSV per group, currently AI Capex, SGX, Bursa, Thailand;
 edit these files directly to add/remove names, no code changes needed) actually reports earnings,
-this writes a short, Telegram-sized results brief — two sections, Results Analysis (revenue
+this writes a short, Telegram-sized results brief — three sections, Results Analysis (revenue
 yoy/qoq + segment drivers, crown-jewel/growth-engine read on the two named segments, margins, net
-profit, EPS, capital allocation, vs. guidance, new guidance) and Financial Statement Analysis
-(revenue quality, pricing power, cash conversion, capital intensity, competitive position) — and
-sends that report AS the Telegram message (no separate digest step, no file saved anywhere — the
-Telegram message is the only deliverable). Reworked 2026-10-31/2026-11-01 to match an exact
-format the user confirmed in chat: numbers only, no management quotes, one short line per item,
-dates as "D Mon YYYY".
+profit, EPS, capital allocation, vs. guidance, vs. consensus/Street), Financial Statement Analysis
+(revenue quality, pricing power, cash conversion, capital intensity, competitive position), and
+Outlook (next quarter's guided metrics, each with both qoq and yoy deltas vs. the right base
+period) — and sends that report AS the Telegram message (no separate digest step, no file saved
+anywhere — the Telegram message is the only deliverable). Reworked 2026-10-31/2026-11-01/
+2026-11-02 to match an exact format the user confirmed in chat: numbers only, no management
+quotes, one short line per item, dates as "D Mon YYYY".
 `earnings_analysis_config.ANALYSIS_INSTRUCTIONS` is the single source of truth for this — edit it
 directly to change what every report covers. **Entirely
 free infrastructure** — Groq's free-tier chat completions (same account `major_news_alert.py`

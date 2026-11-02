@@ -84,7 +84,7 @@ def _markdown_to_telegram_html(text):
     return text
 
 
-_SECTION_HEADERS = {"results analysis", "financial statement analysis"}
+_SECTION_HEADERS = {"results analysis", "financial statement analysis", "outlook"}
 
 
 def _format_report_structure(text):
