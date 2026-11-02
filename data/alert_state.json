@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-02T14:45:57.805147+00:00",
+  "last_run_utc": "2026-11-02T15:00:56.900210+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1566,7 +1566,7 @@
       "last_attempt_utc": "2026-10-30T18:48:11.914419+00:00"
     },
     "single:ORCL": {
-      "last_attempt_utc": "2026-10-30T19:03:57.034397+00:00"
+      "last_attempt_utc": "2026-11-02T15:02:58.247111+00:00"
     },
     "single:ETN": {
       "last_attempt_utc": "2026-10-30T19:04:08.166405+00:00"
@@ -1858,6 +1858,9 @@
     },
     "single:UAL": {
       "last_attempt_utc": "2026-11-02T14:48:36.507617+00:00"
+    },
+    "single:MRVL": {
+      "last_attempt_utc": "2026-11-02T15:03:09.300195+00:00"
     }
   }
 }
