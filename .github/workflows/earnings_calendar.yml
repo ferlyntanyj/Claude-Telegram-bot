@@ -2,8 +2,8 @@ name: Weekly Earnings Calendar (S&P 500 + SOX)
 
 on:
   schedule:
-    # 00:30 UTC Saturday = 08:30 Asia/Singapore Saturday
-    - cron: "30 0 * * 6"
+    # 14:00 UTC Sunday = 22:00 Asia/Singapore Sunday
+    - cron: "0 14 * * 0"
   workflow_dispatch: {}
 
 permissions:

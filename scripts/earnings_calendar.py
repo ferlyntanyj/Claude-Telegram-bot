@@ -3,7 +3,7 @@ Weekly earnings calendar: which S&P 500 (top names by market cap) and PHLX
 Semiconductor Sector (SOX) companies report earnings in the coming trading
 week, with each company's industry.
 
-Runs Saturday via GitHub Actions (.github/workflows/earnings_calendar.yml).
+Runs Sunday night via GitHub Actions (.github/workflows/earnings_calendar.yml).
 Universe = the SP500_TOP_N largest S&P 500 names by market cap (full index
 fetched live from Wikipedia, same source global_watchlist_build.py already
 uses; ranked via yfinance fast_info -- the cap exists because the full ~500
@@ -18,7 +18,7 @@ day on the same ticker), so every date it returns is used as-is, unflagged.
 
 "Coming trading week" = the Monday-Friday on/after today (if today is
 already a Monday, that same week; this makes a manual workflow_dispatch run
-on any weekday still produce a sensible window, not just the Saturday
+on any weekday still produce a sensible window, not just the Sunday-night
 schedule).
 
 Output: ../output/earnings_calendar.csv (report_date, ticker, company_name,

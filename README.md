@@ -158,7 +158,7 @@ no LLM.
   `.info` (shared multi-pass `ThreadPoolExecutor` with rate-limit retry/cooldown, same shape as
   `global_watchlist_build.enrich_with_sector_industry`), then keeps only companies reporting
   within the coming Monday–Friday (the week on/after whatever day it runs, so a manual
-  `workflow_dispatch` on any weekday still gives a sensible window, not just the Saturday
+  `workflow_dispatch` on any weekday still gives a sensible window, not just the Sunday-night
   schedule) → `output/earnings_calendar.csv`
   (`report_date, ticker, company_name, industry, index_membership`). Not committed to the repo —
   Telegram is the only delivery channel for this alert.
@@ -176,7 +176,7 @@ quarterly, so `SOX_CONSTITUENTS` is a snapshot (sourced from Nasdaq's own factsh
 [nasdaq.com/solutions/global-indexes/sox](https://www.nasdaq.com/solutions/global-indexes/sox)
 if holdings look stale.
 
-Runs via `.github/workflows/earnings_calendar.yml`, every Saturday at 00:30 UTC (08:30
+Runs via `.github/workflows/earnings_calendar.yml`, every Sunday at 14:00 UTC (22:00
 Asia/Singapore). Also has `workflow_dispatch` enabled for manual runs.
 
 ## Daily earnings analysis (watchlist, free pipeline)
