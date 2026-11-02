@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-02T15:00:56.900210+00:00",
+  "last_run_utc": "2026-11-02T15:15:38.354431+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1861,6 +1861,9 @@
     },
     "single:MRVL": {
       "last_attempt_utc": "2026-11-02T15:03:09.300195+00:00"
+    },
+    "single:ITH.L": {
+      "last_attempt_utc": "2026-11-02T15:18:05.760422+00:00"
     }
   }
 }
