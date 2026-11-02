@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-02T20:15:40.580669+00:00",
+  "last_run_utc": "2026-11-02T20:31:50.512094+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1563,7 +1563,7 @@
       "last_attempt_utc": "2026-10-30T18:34:19.398244+00:00"
     },
     "single:AKAM": {
-      "last_attempt_utc": "2026-10-30T18:48:11.914419+00:00"
+      "last_attempt_utc": "2026-11-02T20:36:29.411178+00:00"
     },
     "single:ORCL": {
       "last_attempt_utc": "2026-11-02T19:18:35.781126+00:00"
@@ -1587,7 +1587,7 @@
       "last_attempt_utc": "2026-10-30T17:18:46.723785+00:00"
     },
     "single:ERIE": {
-      "last_attempt_utc": "2026-10-30T17:18:57.609239+00:00"
+      "last_attempt_utc": "2026-11-02T20:36:18.323426+00:00"
     },
     "single:PLTR": {
       "last_attempt_utc": "2026-10-30T18:03:50.626212+00:00"
@@ -1878,13 +1878,13 @@
       "last_attempt_utc": "2026-11-02T18:18:17.210711+00:00"
     },
     "single:CRH": {
-      "last_attempt_utc": "2026-11-02T18:18:39.766207+00:00"
+      "last_attempt_utc": "2026-11-02T20:35:55.964823+00:00"
     },
     "single:CBRE": {
       "last_attempt_utc": "2026-11-02T20:03:08.968022+00:00"
     },
     "single:PNR": {
-      "last_attempt_utc": "2026-11-02T18:19:12.758246+00:00"
+      "last_attempt_utc": "2026-11-02T20:36:40.423796+00:00"
     },
     "single:P": {
       "last_attempt_utc": "2026-11-02T18:47:38.098395+00:00"
@@ -1908,7 +1908,7 @@
       "last_attempt_utc": "2026-11-02T18:18:28.851176+00:00"
     },
     "single:DVN": {
-      "last_attempt_utc": "2026-11-02T18:18:50.922549+00:00"
+      "last_attempt_utc": "2026-11-02T20:36:07.257100+00:00"
     },
     "single:CPRT": {
       "last_attempt_utc": "2026-11-02T18:19:01.818192+00:00"
@@ -1945,6 +1945,9 @@
     },
     "single:FTNT": {
       "last_attempt_utc": "2026-11-02T20:18:28.986866+00:00"
+    },
+    "single:SNDK": {
+      "last_attempt_utc": "2026-11-02T20:35:44.815856+00:00"
     }
   }
 }
