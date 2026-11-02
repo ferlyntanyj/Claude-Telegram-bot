@@ -905,7 +905,7 @@ def _strip_unverified_flags(text):
 
 _SUBPOINT_RE = re.compile(r"(?i)^(crown jewel|growth engine)\b")
 _ALL_SECTION_HEADERS_RE = re.compile(
-    r"(?i)^(results analysis|financial high-level notes|outlook|key takeaways)\s*$")
+    r"(?i)^(results analysis|capital allocation|outlook|key takeaways|others)\s*$")
 
 
 def _normalize_subpoints(text):
@@ -948,7 +948,13 @@ def _run_verify_stage(item, grounding_text, draft_text):
         f"sourced material, or remove that line/figure entirely if it can't be corrected -- "
         f"never invent a fix, and never leave an inline flag or bracketed note of any kind "
         f"(e.g. no \"[UNVERIFIED...]\") in the output; this is a finished message, not a draft "
-        f"with review comments. Do not soften any flagged deterioration while correcting. If the draft "
+        f"with review comments. Do not soften any flagged deterioration while correcting. "
+        f"Separately: if the sourced material above contains a block labeled "
+        f"\"OPERATING / BUSINESS METRICS\" and the draft's Results Analysis section has no "
+        f"\"Key operational metric(s)\" line actually using a figure from it, ADD one now, "
+        f"numbers only, in the same style as every other line -- this line is mandatory "
+        f"whenever that block exists, it was fetched specifically for it, and a missing block "
+        f"is the only valid reason to skip it. If the draft "
         f"used a markdown table or any pipe (|) characters anywhere, rewrite that part as plain "
         f"text lines instead -- the corrected version must have none. Keep every line short -- "
         f"this is read as a Telegram message, not a report -- and keep the whole thing under "
