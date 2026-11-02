@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-02T19:45:34.283142+00:00",
+  "last_run_utc": "2026-11-02T20:00:54.771495+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1881,7 +1881,7 @@
       "last_attempt_utc": "2026-11-02T18:18:39.766207+00:00"
     },
     "single:CBRE": {
-      "last_attempt_utc": "2026-11-02T18:02:42.548508+00:00"
+      "last_attempt_utc": "2026-11-02T20:03:08.968022+00:00"
     },
     "single:PNR": {
       "last_attempt_utc": "2026-11-02T18:19:12.758246+00:00"
