@@ -1,23 +1,22 @@
 # SGX Liquidity Momentum Screener — Weekly Summary
 
-**Run date (latest trading day):** 2026-10-26
+**Run date (latest trading day):** 2026-11-02
 
-**Compared against:** 2026-10-19
+**Compared against:** 2026-10-26
 
-## New to the Top 10 (2)
-- **I07.SI** (ISDN) — entered at #8, 4.87x surge
-- **558.SI** (UMS) — entered at #10, 3.13x surge
+## New to the Top 10 (1)
+- **F03.SI** (Food Empire) — entered at #10, 3.53x surge
 
-## Dropped off the Top 10 (2)
-- **EB5.SI** (First Resources) — was #8 last week
-- **S59.SI** (SIA Engineering) — was #10 last week
+## Dropped off the Top 10 (1)
+- **558.SI** (UMS) — was #10 last week
 
-## Still in Top 10 (8)
-- **H22.SI** (Hong Leong Asia) — #1 (=), 33.98x
-- **U10.SI** (UOB Kay Hian) — #2 (=), 25.92x
-- **5TP.SI** (CNMC Goldmine) — #3 (+1), 14.91x
-- **AWX.SI** (AEM SGD) — #4 (+1), 9.32x
-- **P8Z.SI** (Bumitama Agri) — #5 (+2), 7.67x
-- **F9D.SI** (Boustead) — #6 (=), 7.56x
-- **544.SI** (CSE Global) — #7 (-4), 6.35x
-- **OV8.SI** (Sheng Siong) — #9 (=), 3.16x
+## Still in Top 10 (9)
+- **H22.SI** (Hong Leong Asia) — #1 (=), 32.01x
+- **U10.SI** (UOB Kay Hian) — #2 (=), 20.17x
+- **5TP.SI** (CNMC Goldmine) — #3 (=), 10.18x
+- **AWX.SI** (AEM SGD) — #4 (=), 8.12x
+- **P8Z.SI** (Bumitama Agri) — #5 (=), 7.30x
+- **544.SI** (CSE Global) — #6 (+1), 7.18x
+- **F9D.SI** (Boustead) — #7 (-1), 5.37x
+- **OV8.SI** (Sheng Siong) — #8 (+1), 4.71x
+- **I07.SI** (ISDN) — #9 (-1), 4.31x
