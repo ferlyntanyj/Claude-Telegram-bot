@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-03T17:00:59.359451+00:00",
+  "last_run_utc": "2026-11-03T17:15:38.475031+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2097,7 +2097,7 @@
       "last_attempt_utc": "2026-11-03T14:50:35.910560+00:00"
     },
     "single:FLEX": {
-      "last_attempt_utc": "2026-11-03T14:50:56.892435+00:00"
+      "last_attempt_utc": "2026-11-03T17:17:26.674559+00:00"
     },
     "single:FISV": {
       "last_attempt_utc": "2026-11-03T17:03:41.318275+00:00"
