@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-03T20:15:46.489528+00:00",
+  "last_run_utc": "2026-11-03T20:30:55.702684+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2148,10 +2148,13 @@
       "last_attempt_utc": "2026-11-03T20:04:00.479169+00:00"
     },
     "single:APP": {
-      "last_attempt_utc": "2026-11-03T18:18:08.512540+00:00"
+      "last_attempt_utc": "2026-11-03T20:32:49.973155+00:00"
     },
     "single:FOX": {
       "last_attempt_utc": "2026-11-03T18:48:35.348235+00:00"
+    },
+    "single:APTV": {
+      "last_attempt_utc": "2026-11-03T20:33:00.935944+00:00"
     }
   }
 }
