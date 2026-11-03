@@ -1,12 +1,18 @@
-# Global Semiconductor Brief -- 3 Nov 2026, 04:28 SGT
+# Global Semiconductor Brief -- 3 Nov 2026, 15:07 SGT
 
 ## Policy & geopolitics
-- [China’s CXMT defends push into new DRAM architecture as US chip curbs bite](https://news.google.com/rss/articles/CBMixgFBVV95cUxNb1lXREp3Z1lqNVNmcFdmVXJuQll5c25RZnVvZm83aU4zODRqZzIxMUl6eEhQcGlFQk4xVHd4SVlmSVdLSW1kRlBSYzRURnczMWkyS2k2bjdLQmRkLWxmMHN6Uml1NjhzdF8xb3hEZGRBTXpZdG5MOE9jcVNXX2ZKX2lya2V5OWFoSzlpWkh1STVUcVUtZlpYc2xfS3ZGOVVDT3ZmVExzMjg1ck5zUE1YVE43dkxtNl90QXNrdHF1N1MzR1R1dlHSAcYBQVVfeXFMTi1FMUJ6MG1iNlBneVhoQ0dPZVlDdXpiT3pTOXRzVUxCRlBPbDVLM1lwdnJIaHRmV25CT2VEUGZSWXE5MllZUFhzV0hUOXRMR3Nwbm9MekFhTUVLNjNnLW91NlpRazFlMkVoQktQV2FtV29CaWhDaURiMW5IYjQ1d3FoQVAtREFmdG81a21mdGlxS2UzcUxjVUtwbWRpNXhOY1dhZFE2aTNfdWdJLWJDTGJ3MkY0TGFCR0hPR0h5NThpczN6UEtR?oc=5) — South China Morning Post
+- [Taiwan lawmakers push to tighten chip controls to China](https://news.google.com/rss/articles/CBMiWEFVX3lxTFBZV1JQQnJRVVNnS2hfWkZ0UjRqV3pBVGdWSk9GSUtYQVZmNFlqcVRTSTAtVHFlV0ZkT0h5b3hlZWtfRDlnOGU4OXF2Skpia0xWMS1kNG03eDk?oc=5) — Taiwan News
+
+## Supply chain signals
+- [China's chip packagers ride AI demand, price hikes, but investment gains, capex cloud the profit picture](https://www.digitimes.com/news/a20261103VL207/profit-packaging-demand-price-investment.html) — DIGITIMES
+- [China's memory chipmakers extend their boom into the third quarter as capacity, policy risks build](https://www.digitimes.com/news/a20261103VL204/capacity-policy-chipmakers-dram-cxmt.html) — DIGITIMES
+- [Micron dismisses 4F-squared DRAM as CXMT presses ahead &mdash; why Samsung, SK Hynix remain divided](https://www.digitimes.com/news/a20261103PD214/3d-dram-cxmt-micron-samsung-sk-hynix.html) — DIGITIMES
+- [Nvidia strengthens South Korea ties at AI Day Seoul](https://www.digitimes.com/news/a20261103PD203/nvidia-development-robotics-samsung-cloud.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Marvell doubles down on AI boom with costly $115 billion Lumentum deal](https://news.google.com/rss/articles/CBMisgFBVV95cUxOelFpUlRuWUdrd3oyYkZTNkxFMW9mQlBTY01YTl9ERVRsYTc1VGNWQjR1VF90aEcwY01sTDNXN3NiWVBZNTY4aGVFSlR3WlBlb0laSkptRS1EMF9fMGlna1BXSVExN2dFVGlTNWMyQzYyM1RsYm5pMGxXOWxhbmp1UGRYVjk3RVA0b25WWVZPcFZMS05IOE1CTUgzY1BsQWY3MW5DbDF1bGs1M185UlM4cjlB?oc=5) — Reuters
-- [Samsung’s Chip Profit Drives Another Record Quarter](https://news.google.com/rss/articles/CBMipgFBVV95cUxPSkNHdjdvWXZoRUpjZkRXQTJKd2JhcjJqbjNFV1hkYlNXNXNPX1JubjRiTVFVaWc3XzFrZkdMRUl4cHFyU1dDRkREQ29VSF9mQ29LZjB3VkhUQzRoblZjSV9MX3VBVDJab25oMkM1NElMWWFVS0drQ2JjTUd6Z2loNnJmcHRXYXA0OFh5RnI5cG5leTNraFBMdjVkZVgxMkxZeklIak53?oc=5) — WSJ
-- [TSMC’s $265 Billion Campus Is Driving a Real Estate Boom in the Phoenix Suburbs](https://news.google.com/rss/articles/CBMiswFBVV95cUxOcTRqYm9vX2Q3QmNhOHlVckZhOThOdFZ0dXlYQmJLcm1ST0ZFdXZVN2FXSWJZV0hpM1ZWMjNmMGppRDU5OWFUVGVueENHSWg0N2hpVlZjTXhlelFUM2ZPT0w1UFJuOFZwNklDMmtRbmw0RmFQcU1oQmQ4SEZ6LXp3M1FNeXh1NEFtbDNxUURhcGlwMl9YVl9SUmRRbnhfT2k4bjNJWENrMlJ1NThtQV9iaGxURQ?oc=5) — Bloomberg.com
-- [Chip Maker Marvell Agrees to Buy Lumentum in $80 Billion Deal](https://news.google.com/rss/articles/CBMipgFBVV95cUxPb0ZJdzhmTl9OTWM4NnBzOFJnXzg4SUk0WnNmMXF5NElQYkQyd0ZlOGh4aDJaVFhfaTNobk9mQUc0c1lkakpyRnFzRVh0aGd4MS1KSS1KbFJtelR1TzFsOV9MYUpCY2VjNEl3aWJzT3Z3VjlOd3BPZUdDNFpaU0diRTFJLUc5M2RGbUhucFVWVFBaczB0TFhMMjBQamdIWGVKSV9ubEdn?oc=5) — WSJ
+- [[News] Samsung Reportedly to Exit 8-Inch Foundry by 2030 as TSMC Also Cuts Capacity](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUExUQkxWcUx1UXJ2ZGw5QW5mQzJDR01SemRSMVdIb2VST1lNcnhkMV9tcXNEZUdxaUljRWJ5TGNLYTR3VlBmUndZTEY5amdRX2ctWXRLOWl6MlE0aDlhMjBMSnFKOWxfV2NDUEo1d2VkRzZ5RFdVQzZfRGt3T0NTaHVSY0VxYUhjT3R6dnMzVTgyRmFJSEhkN29zNy1iYjQyaWJkNkJUSl9acmpId1luRVZyMnVidmVNWDJ5VXFVRmU4eXM?oc=5) — TrendForce
+- [TSMC's next US chip plant could land in Sherman](https://www.digitimes.com/news/a20261103VL216/tsmc-plant-texas-investment-manufacturing.html) — DIGITIMES
+- [South Korea aims to speed up chip fab openings by two years](https://www.digitimes.com/news/a20261103VL212/fab-investment-development-government-infrastructure.html) — DIGITIMES
+- [Apple says 2nm transition is easing its advanced-node chip constraints](https://www.digitimes.com/news/a20261103VL213/apple-2nm-revenue-iphone-ipad.html) — DIGITIMES
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (5 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
