@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-03T20:01:03.570753+00:00",
+  "last_run_utc": "2026-11-03T20:15:46.489528+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2103,7 +2103,7 @@
       "last_attempt_utc": "2026-11-03T19:18:28.358643+00:00"
     },
     "single:LDOS": {
-      "last_attempt_utc": "2026-11-03T14:51:39.685313+00:00"
+      "last_attempt_utc": "2026-11-03T20:17:52.038541+00:00"
     },
     "single:BALL": {
       "last_attempt_utc": "2026-11-03T18:18:19.490859+00:00"
