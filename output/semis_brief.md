@@ -1,18 +1,21 @@
-# Global Semiconductor Brief -- 3 Nov 2026, 15:07 SGT
+# Global Semiconductor Brief -- 4 Nov 2026, 01:59 SGT
 
 ## Policy & geopolitics
+- [Nvidia tells data center operators to limit business from Chinese customers with new global restrictions, report claims — allegedly restricted to 49% of the total, ensuring 51% are non-Chinese outfits](https://news.google.com/rss/articles/CBMi_wJBVV95cUxNdzBId3ZZSFhNY3J0MjFVQVR4NktHWkRjc0hiM09XeWxoWFVRcE5QSXZZdFF4MGlkLVRrM2dGbEtGdUh1cjZEYXFlVjdzMXBOaWNHaFZIYXlaVkYyTG1TbHpyX3ZranNWVUdybmJlanR3ZnpHX3d4VVczM201UFFGOEJOdENVVHZ3cHVUR05fN19iTWFVVUhVci02MVJOTkxtRGZqQzVCenBzTGFMODR3c0RqT0drcFdrV0pzTzUwbGlySjR2dTN3YTluRE1EazFUdXAtdWJYbGxXXzRKeXdGdHN1UDFNUzRUM1U4WENtVndDYWdEbENDeElrUkdqdzRRVmtIdExlTjVVdEV0bWpLSjQ5VV82bHlfczAxcldmbGFzRjNxNzEwUDJzeWNEV0RLTEs0QXRJak5xd0VUbGQtSXlQcGR1V3BQbTZiNlV4VDNwVGpvSHgxTS1UdGdGb196U0dYdTZmeXJFczgzR3N5QUdKd1RhcFozQXhFbGlzQQ?oc=5) — Tom's Hardware
+- [Nvidia tells data center operators to limit business from Chinese customers with new global restrictions, report claims](https://www.tomshardware.com/tech-industry/data-centers/nvidia-tells-data-center-operators-to-limit-business-from-chinese-customers-with-new-global-restrictions-report-claims-allegedly-restricted-to-49-percent-of-the-total-ensuring-51-percent-are-non-chinese-outfits) — Tom's Hardware
+- [Nvidia Reportedly Restricts Chinese Access to AI Computing Through Overseas Data Centers](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTE5VaW1iQnZJMlM4aS1lbk9zSWZ5ZEdvdjRULXJuUTE5c3JGdlctT2s4clhIZjRFWnZpR25IVkE5QUlQWEJhNmRHamk4UVg3bmZjT3MwYV9YUzh1c2JwMDhlZk53b1NZX0g4Zmh2QTFoeUJrVjE1QlJSMjN3cV82RVJmVHZJUkpLcU1raUZXdF9OeFhTMGxqc0pMMHhIVmtjaUZvTlgtSGpPQQ?oc=5) — Yahoo Finance
 - [Taiwan lawmakers push to tighten chip controls to China](https://news.google.com/rss/articles/CBMiWEFVX3lxTFBZV1JQQnJRVVNnS2hfWkZ0UjRqV3pBVGdWSk9GSUtYQVZmNFlqcVRTSTAtVHFlV0ZkT0h5b3hlZWtfRDlnOGU4OXF2Skpia0xWMS1kNG03eDk?oc=5) — Taiwan News
 
 ## Supply chain signals
-- [China's chip packagers ride AI demand, price hikes, but investment gains, capex cloud the profit picture](https://www.digitimes.com/news/a20261103VL207/profit-packaging-demand-price-investment.html) — DIGITIMES
-- [China's memory chipmakers extend their boom into the third quarter as capacity, policy risks build](https://www.digitimes.com/news/a20261103VL204/capacity-policy-chipmakers-dram-cxmt.html) — DIGITIMES
-- [Micron dismisses 4F-squared DRAM as CXMT presses ahead &mdash; why Samsung, SK Hynix remain divided](https://www.digitimes.com/news/a20261103PD214/3d-dram-cxmt-micron-samsung-sk-hynix.html) — DIGITIMES
-- [Nvidia strengthens South Korea ties at AI Day Seoul](https://www.digitimes.com/news/a20261103PD203/nvidia-development-robotics-samsung-cloud.html) — DIGITIMES
+- [Nvidia selects Taipei tech park for overseas headquarters](https://www.digitimes.com/news/a20261103PD218/nvidia-taipei-government-legal-taiwan.html?chid=10) — DIGITIMES
+- [Nvidia uses 8,192 GPUs to set fault-tolerant quantum simulation record, targeting error correction costs](https://www.digitimes.com/news/a20261103PD212/quantum-computing-ceo-jensen-huang-development-hardware.html) — DIGITIMES
+- [Ceva takes NeuPro NPU into AI data centers, targeting efficiency gaps rather than Nvidia's dominance](https://www.digitimes.com/news/a20261103PD217/data-npu-ip-efficiency-nvidia.html) — DIGITIMES
+- [Stellantis warns chip shortages could disrupt Fiat production in Italy](https://www.digitimes.com/news/a20261103PD226/stellantis-production-italy-plant-electronic-components.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [[News] Samsung Reportedly to Exit 8-Inch Foundry by 2030 as TSMC Also Cuts Capacity](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUExUQkxWcUx1UXJ2ZGw5QW5mQzJDR01SemRSMVdIb2VST1lNcnhkMV9tcXNEZUdxaUljRWJ5TGNLYTR3VlBmUndZTEY5amdRX2ctWXRLOWl6MlE0aDlhMjBMSnFKOWxfV2NDUEo1d2VkRzZ5RFdVQzZfRGt3T0NTaHVSY0VxYUhjT3R6dnMzVTgyRmFJSEhkN29zNy1iYjQyaWJkNkJUSl9acmpId1luRVZyMnVidmVNWDJ5VXFVRmU4eXM?oc=5) — TrendForce
-- [TSMC's next US chip plant could land in Sherman](https://www.digitimes.com/news/a20261103VL216/tsmc-plant-texas-investment-manufacturing.html) — DIGITIMES
-- [South Korea aims to speed up chip fab openings by two years](https://www.digitimes.com/news/a20261103VL212/fab-investment-development-government-infrastructure.html) — DIGITIMES
-- [Apple says 2nm transition is easing its advanced-node chip constraints](https://www.digitimes.com/news/a20261103VL213/apple-2nm-revenue-iphone-ipad.html) — DIGITIMES
+- [AMD Needs a Huge Outlook to Avoid Intel’s Fate as AI Fears Rise](https://news.google.com/rss/articles/CBMitAFBVV95cUxNRW9XeVZ4N0oxZjlNajFBS0ZXT2RDTE02dktLYXJad082NXU5NWctVkQ2aE1iZ01uLWt4WlZXUW51ZUk0ZzRHUWtYd0dGblRReV94empxQlVBMEJjNHBLcExfQWV4aGxIWktWaG04S0tydDdJb1NGSExIN0hGX1hVa04tYlRuQzk3V0kwQ1JSMFRUNkUzRFczU3cwZ1RObTctVUNlUVFrczVpLW9TVTA1NkxGMUI?oc=5) — Bloomberg.com
+- [Samsung to make AMD, Nvidia chip parts at second Texas plant, Maeil Business reports](https://news.google.com/rss/articles/CBMiywFBVV95cUxNdnFHVnpXOTk4UEYwSlJ5WHhOaUNkVEtPN2o4N3hnSDl2MW12ejZscWRBNnAyRUdyUnhSbGlVdS12UGwzUDFnNlNiWmFzY3Bya3E0NjZIMDhBZzN3YWNJWlZMaGF6amFORVJiVXlONHZrOVFEcW5VbGV6bUF3cDdJbV83dnJXSXh0NnF1RUlkWkJkdWhsbEZRWVJkeXo5THhPLUl1LTFZUVgwM3JLZGhnTGsxeHJ0OFVTRktPOEZpVm9Cc2M5QkVUcTlrZw?oc=5) — Reuters
+- [Samsung’s Chip Profit Drives Another Record Quarter](https://news.google.com/rss/articles/CBMipgFBVV95cUxPSkNHdjdvWXZoRUpjZkRXQTJKd2JhcjJqbjNFV1hkYlNXNXNPX1JubjRiTVFVaWc3XzFrZkdMRUl4cHFyU1dDRkREQ29VSF9mQ29LZjB3VkhUQzRoblZjSV9MX3VBVDJab25oMkM1NElMWWFVS0drQ2JjTUd6Z2loNnJmcHRXYXA0OFh5RnI5cG5leTNraFBMdjVkZVgxMkxZeklIak53?oc=5) — WSJ
+- [Micron Pops but Markets and Wall Street Are Poles Apart on the Stock](https://news.google.com/rss/articles/CBMifkFVX3lxTE5tS2ludkhybWsxdFBnc01wZ0dBN0RzS2lCREJVU29aOVJtcko1b1MydEpKRkJOSzdVMjdNMS04dy11U2xoNkRTQld0NGRKMkhkUWdfQ0diUFhWN0hONm5XMzM5Q1A0UFhQb3VPOTI1ek1oXzZGNTd0MncwQmstQQ?oc=5) — Barron's
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (9 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (12 headlines, 13h window)._
