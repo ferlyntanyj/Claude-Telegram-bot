@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-03T19:45:42.450189+00:00",
+  "last_run_utc": "2026-11-03T20:01:03.570753+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1569,7 +1569,7 @@
       "last_attempt_utc": "2026-11-03T18:17:57.524836+00:00"
     },
     "single:ETN": {
-      "last_attempt_utc": "2026-11-03T18:02:57.733245+00:00"
+      "last_attempt_utc": "2026-11-03T20:03:25.429326+00:00"
     },
     "single:VRT": {
       "last_attempt_utc": "2026-11-03T14:48:50.784796+00:00"
@@ -2124,19 +2124,19 @@
       "last_attempt_utc": "2026-11-03T15:18:08.467170+00:00"
     },
     "single:GEV": {
-      "last_attempt_utc": "2026-11-03T17:48:12.266162+00:00"
+      "last_attempt_utc": "2026-11-03T20:03:14.501581+00:00"
     },
     "single:SYY": {
-      "last_attempt_utc": "2026-11-03T17:48:23.240605+00:00"
+      "last_attempt_utc": "2026-11-03T20:03:47.536830+00:00"
     },
     "single:DD": {
-      "last_attempt_utc": "2026-11-03T17:48:34.163614+00:00"
+      "last_attempt_utc": "2026-11-03T20:04:21.520204+00:00"
     },
     "single:MRNA": {
       "last_attempt_utc": "2026-11-03T15:48:23.104687+00:00"
     },
     "single:FIX": {
-      "last_attempt_utc": "2026-11-03T18:03:08.720734+00:00"
+      "last_attempt_utc": "2026-11-03T20:03:36.524148+00:00"
     },
     "single:COIN": {
       "last_attempt_utc": "2026-11-03T18:03:20.350766+00:00"
@@ -2145,7 +2145,7 @@
       "last_attempt_utc": "2026-11-03T19:47:54.641633+00:00"
     },
     "single:FOXA": {
-      "last_attempt_utc": "2026-11-03T18:03:32.159950+00:00"
+      "last_attempt_utc": "2026-11-03T20:04:00.479169+00:00"
     },
     "single:APP": {
       "last_attempt_utc": "2026-11-03T18:18:08.512540+00:00"
