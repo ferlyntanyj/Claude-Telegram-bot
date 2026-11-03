@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-03T09:45:38.905210+00:00",
+  "last_run_utc": "2026-11-03T10:00:51.751760+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2065,6 +2065,9 @@
     },
     "single:ZAL.DE": {
       "last_attempt_utc": "2026-11-03T09:18:29.465640+00:00"
+    },
+    "premarket:SYY": {
+      "last_attempt_utc": "2026-11-03T10:03:28.794418+00:00"
     }
   }
 }
