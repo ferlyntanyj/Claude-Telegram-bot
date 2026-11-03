@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-03T15:45:48.735146+00:00",
+  "last_run_utc": "2026-11-03T16:00:59.508542+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1566,7 +1566,7 @@
       "last_attempt_utc": "2026-11-02T20:36:29.411178+00:00"
     },
     "single:ORCL": {
-      "last_attempt_utc": "2026-11-02T19:18:35.781126+00:00"
+      "last_attempt_utc": "2026-11-03T16:04:00.191136+00:00"
     },
     "single:ETN": {
       "last_attempt_utc": "2026-11-03T14:48:12.855674+00:00"
@@ -2064,7 +2064,7 @@
       "last_attempt_utc": "2026-11-03T13:03:09.632822+00:00"
     },
     "single:ZAL.DE": {
-      "last_attempt_utc": "2026-11-03T09:18:29.465640+00:00"
+      "last_attempt_utc": "2026-11-03T16:04:33.386346+00:00"
     },
     "premarket:SYY": {
       "last_attempt_utc": "2026-11-03T13:18:08.925581+00:00"
@@ -2085,7 +2085,7 @@
       "last_attempt_utc": "2026-11-03T12:34:01.573667+00:00"
     },
     "single:BAYN.DE": {
-      "last_attempt_utc": "2026-11-03T13:48:48.450369+00:00"
+      "last_attempt_utc": "2026-11-03T16:04:22.393983+00:00"
     },
     "single:APH": {
       "last_attempt_utc": "2026-11-03T14:47:50.820991+00:00"
@@ -2146,6 +2146,9 @@
     },
     "single:FOXA": {
       "last_attempt_utc": "2026-11-03T15:49:07.021651+00:00"
+    },
+    "single:APP": {
+      "last_attempt_utc": "2026-11-03T16:04:11.461552+00:00"
     }
   }
 }
