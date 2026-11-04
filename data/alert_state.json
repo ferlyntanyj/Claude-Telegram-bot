@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-04T14:45:37.205333+00:00",
+  "last_run_utc": "2026-11-04T15:00:55.109989+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1848,10 +1848,10 @@
       "last_attempt_utc": "2026-11-02T13:33:56.937508+00:00"
     },
     "single:LITE": {
-      "last_attempt_utc": "2026-11-02T19:04:18.827458+00:00"
+      "last_attempt_utc": "2026-11-04T15:05:03.076189+00:00"
     },
     "single:CVNA": {
-      "last_attempt_utc": "2026-11-02T14:48:14.365641+00:00"
+      "last_attempt_utc": "2026-11-04T15:05:25.608727+00:00"
     },
     "single:IDXX": {
       "last_attempt_utc": "2026-11-02T19:04:29.742581+00:00"
@@ -1875,7 +1875,7 @@
       "last_attempt_utc": "2026-11-04T14:56:12.471663+00:00"
     },
     "single:DASH": {
-      "last_attempt_utc": "2026-11-02T18:18:17.210711+00:00"
+      "last_attempt_utc": "2026-11-04T15:04:52.042086+00:00"
     },
     "single:CRH": {
       "last_attempt_utc": "2026-11-02T20:35:55.964823+00:00"
@@ -1896,7 +1896,7 @@
       "last_attempt_utc": "2026-11-02T19:03:45.994665+00:00"
     },
     "single:CSGP": {
-      "last_attempt_utc": "2026-11-02T19:04:40.636802+00:00"
+      "last_attempt_utc": "2026-11-04T15:06:09.638210+00:00"
     },
     "single:CIEN": {
       "last_attempt_utc": "2026-11-03T14:49:54.069237+00:00"
@@ -1941,7 +1941,7 @@
       "last_attempt_utc": "2026-11-03T14:49:12.073093+00:00"
     },
     "single:DELL": {
-      "last_attempt_utc": "2026-11-03T14:47:39.980081+00:00"
+      "last_attempt_utc": "2026-11-04T15:04:41.050210+00:00"
     },
     "single:FTNT": {
       "last_attempt_utc": "2026-11-02T20:18:28.986866+00:00"
@@ -2328,7 +2328,7 @@
       "last_attempt_utc": "2026-11-04T14:57:44.927585+00:00"
     },
     "single:CON.DE": {
-      "last_attempt_utc": "2026-11-04T12:03:31.729691+00:00"
+      "last_attempt_utc": "2026-11-04T15:05:58.694747+00:00"
     },
     "premarket:AMD": {
       "last_attempt_utc": "2026-11-04T11:03:24.512074+00:00"
@@ -2352,7 +2352,7 @@
       "last_attempt_utc": "2026-11-04T14:18:01.571226+00:00"
     },
     "single:FRES.L": {
-      "last_attempt_utc": "2026-11-04T12:48:57.374275+00:00"
+      "last_attempt_utc": "2026-11-04T15:05:36.647195+00:00"
     },
     "single:EDV.L": {
       "last_attempt_utc": "2026-11-04T11:17:43.387868+00:00"
@@ -2518,6 +2518,27 @@
     },
     "single:UHS": {
       "last_attempt_utc": "2026-11-04T14:57:33.610521+00:00"
+    },
+    "single:AAPL": {
+      "last_attempt_utc": "2026-11-04T15:04:19.216587+00:00"
+    },
+    "single:MSFT": {
+      "last_attempt_utc": "2026-11-04T15:04:30.164136+00:00"
+    },
+    "single:URI": {
+      "last_attempt_utc": "2026-11-04T15:05:14.727216+00:00"
+    },
+    "single:RDDT": {
+      "last_attempt_utc": "2026-11-04T15:05:47.655277+00:00"
+    },
+    "single:JKHY": {
+      "last_attempt_utc": "2026-11-04T15:06:20.722822+00:00"
+    },
+    "single:WYNN": {
+      "last_attempt_utc": "2026-11-04T15:06:33.247952+00:00"
+    },
+    "single:MGM": {
+      "last_attempt_utc": "2026-11-04T15:06:44.177968+00:00"
     }
   }
 }
