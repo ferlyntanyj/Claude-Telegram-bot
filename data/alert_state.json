@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-04T14:00:57.245912+00:00",
+  "last_run_utc": "2026-11-04T14:15:37.443304+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2349,7 +2349,7 @@
       "last_attempt_utc": "2026-11-04T13:19:15.014434+00:00"
     },
     "single:BGEO.L": {
-      "last_attempt_utc": "2026-11-04T10:18:05.713580+00:00"
+      "last_attempt_utc": "2026-11-04T14:18:01.571226+00:00"
     },
     "single:FRES.L": {
       "last_attempt_utc": "2026-11-04T12:48:57.374275+00:00"
@@ -2358,25 +2358,25 @@
       "last_attempt_utc": "2026-11-04T11:17:43.387868+00:00"
     },
     "single:DBK.DE": {
-      "last_attempt_utc": "2026-11-04T12:03:20.457741+00:00"
+      "last_attempt_utc": "2026-11-04T14:17:39.881480+00:00"
     },
     "premarket:DDOG": {
-      "last_attempt_utc": "2026-11-04T12:03:42.758466+00:00"
+      "last_attempt_utc": "2026-11-04T14:18:34.405863+00:00"
     },
     "premarket:GEV": {
-      "last_attempt_utc": "2026-11-04T12:17:45.775017+00:00"
+      "last_attempt_utc": "2026-11-04T14:18:12.461597+00:00"
     },
     "premarket:VRT": {
-      "last_attempt_utc": "2026-11-04T12:17:56.673443+00:00"
+      "last_attempt_utc": "2026-11-04T14:18:23.419038+00:00"
     },
     "premarket:VST": {
-      "last_attempt_utc": "2026-11-04T12:18:07.544458+00:00"
+      "last_attempt_utc": "2026-11-04T14:18:45.344300+00:00"
     },
     "premarket:FIX": {
-      "last_attempt_utc": "2026-11-04T12:18:18.382173+00:00"
+      "last_attempt_utc": "2026-11-04T14:18:56.235027+00:00"
     },
     "premarket:TRMB": {
-      "last_attempt_utc": "2026-11-04T12:18:29.349467+00:00"
+      "last_attempt_utc": "2026-11-04T14:19:17.910173+00:00"
     },
     "premarket:FIS": {
       "last_attempt_utc": "2026-11-04T12:49:19.206220+00:00"
@@ -2401,6 +2401,12 @@
     },
     "premarket:NEM": {
       "last_attempt_utc": "2026-11-04T14:03:38.234850+00:00"
+    },
+    "single:CBK.DE": {
+      "last_attempt_utc": "2026-11-04T14:17:50.718373+00:00"
+    },
+    "premarket:EME": {
+      "last_attempt_utc": "2026-11-04T14:19:07.069962+00:00"
     }
   }
 }
