@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-04T12:30:45.954447+00:00",
+  "last_run_utc": "2026-11-04T12:45:41.093723+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2322,10 +2322,10 @@
       "last_attempt_utc": "2026-11-04T07:47:13.030640+00:00"
     },
     "single:HEI.DE": {
-      "last_attempt_utc": "2026-11-04T10:33:11.728322+00:00"
+      "last_attempt_utc": "2026-11-04T12:48:46.388681+00:00"
     },
     "single:WEIR.L": {
-      "last_attempt_utc": "2026-11-04T10:48:14.931093+00:00"
+      "last_attempt_utc": "2026-11-04T12:49:08.309049+00:00"
     },
     "single:CON.DE": {
       "last_attempt_utc": "2026-11-04T12:03:31.729691+00:00"
@@ -2352,7 +2352,7 @@
       "last_attempt_utc": "2026-11-04T10:18:05.713580+00:00"
     },
     "single:FRES.L": {
-      "last_attempt_utc": "2026-11-04T10:33:23.240637+00:00"
+      "last_attempt_utc": "2026-11-04T12:48:57.374275+00:00"
     },
     "single:EDV.L": {
       "last_attempt_utc": "2026-11-04T11:17:43.387868+00:00"
@@ -2377,6 +2377,9 @@
     },
     "premarket:TRMB": {
       "last_attempt_utc": "2026-11-04T12:18:29.349467+00:00"
+    },
+    "premarket:FIS": {
+      "last_attempt_utc": "2026-11-04T12:49:19.206220+00:00"
     }
   }
 }
