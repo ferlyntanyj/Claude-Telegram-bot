@@ -1,27 +1,26 @@
-# US Market Morning Brief -- 3 Nov 2026, 15:03 SGT
+# US Market Morning Brief -- 4 Nov 2026, 14:46 SGT
 
 ## Markets
-- [S&P 500, Nasdaq reverse gains to close down; Apple reports](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PdVlqUUZkazY3cjZwTi1KS1NlYmt3QzFkRmtBRzNHOWdyQU9GZWp0dWI4UjhxNUlLcUxudGhxV2trUGxvRncxN3NDN1VtRlpGUmFOczZ5Tm1yVGN6UDhRMXZ1MUY2VGc?oc=5) — Reuters
-- [The key midterm races Wall Street is watching](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDZGlTY1dNeElVUTZQSU44d2dBUUtocVpBVlR0T0Z0OExBX3dnQjNNMll6eHYwNXJ1YWtEcUdQZkFhb01rOTBGZjl2aG8yS05FeVZwYXBCS0paYkJkNVhMUGhpdWNNZVU?oc=5) — Reuters
-- [OpenAI hires former U.S. Army Secretary Dan Driscoll for national security role](https://www.cnbc.com/2026/11/03/openai-hires-dan-driscoll-national-security.html) — CNBC Top News
-- [Apple's quarter is not perfect. But with enough to like, we raised our price target](https://www.cnbc.com/investingclub/2026/11/02/apples-quarter-is-not-perfect-but-with-enough-to-like-we-raised-our-price-target.html) — CNBC Markets
+- [U.S. midterm elections in pictures: Democrats' sweeping victories deliver rebuke to Trump](https://www.cnbc.com/2026/11/04/us-midterm-elections-in-pictures-democrats-republicans-trump.html) — CNBC Top News
+- [Midterm elections could jolt stocks as Democrats look poised to sweep Congress](https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html) — CNBC Top News
+- [Google responds to political backlash over removing search from schools that ban AI](https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html) — CNBC Top News
+- [Trump DOJ sends target letters to Democrats in Alaska Senate criminal probe: Reports](https://www.cnbc.com/2026/11/03/trump-doj-election-lawsuits-monitors-2026-midterms.html) — CNBC Top News
 
 ## Macro, Fed & data
-- [Australia hikes rates to 18-year high to fight inflation](https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html) — CNBC Economy
-- [What Millions of Data Points Reveal About US Inflation](https://news.google.com/rss/articles/CBMib0FVX3lxTE5SRkFGWDRuQ2hKTGFVUTdUYVpLOXRUUmYwWEJqZjRsd2lIMFBzUFRzR2N4SHNXd2lmTTVlcVFOWHZFMXlBLWwtUnhwOTQwVGhTWkJhT2lVN3BwTkJ6Q240emF3YXd5NHdjczlLNFhHdw?oc=5) — Bloomberg.com
-- [US voters in a sour economic mood heading into midterm elections](https://news.google.com/rss/articles/CBMitgFBVV95cUxNUGRVbTNjVkVkWHA5anlUV0l1YUhUUjM2Zy1DOGg0T2l2V0Zqajl2TzVpUW5Wc2s1ZkF6eTRNSmNNMWZCUEZqM0ZjUHNKQ0NkZkNGdlY3U2xHcWhBTUdzcXBnd2p2Z0VjUWFiQ3JRYkdvbTR2NUdnZUlnZHU4ZjY0OTIxa0NSbGhXWE1Yc1A5VmZHQVQ3aEJzcHhHNFVqVTNFa3RKazBydW9TbnBEUlo0aEM4THZmQQ?oc=5) — Reuters
-- [Feeling isolated? Half of in-office workers describe their desk jobs as 'remote,' NY Fed survey finds](https://www.cnbc.com/2026/11/02/remote-work-in-office-mandate-new-york-fed.html) — CNBC Top News
+- [Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off](https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html) — CNBC Finance
+- [India’s Bond Market Puzzle Is a Test of Credibility](https://news.google.com/rss/articles/CBMinwFBVV95cUxOTUZ3Zjk1azBHb3ZVMTlXN2ctZlJId3A5Vzk1Vk1rZ3hHcDFMWW1OdVE3Rm82RFVNSGktNnFSWWpYdlc1Rkg1VHpiTFczcV9FSjhEbkowZ185WXpWYno1OTlBaE5nRmlCMG1kUnZPVWFsQk5BWGNDbzNSbVpfTEdob1MtdFF3TE9GazZ4WkRZd3Z2Z3ZGWlROTkdXWlJVS0k?oc=5) — Bloomberg.com
+- [Treasuries Fall Amid Oil Price Swings, Strong Job Openings Data](https://news.google.com/rss/articles/CBMiswFBVV95cUxOSXQ1SWFQdnh5NGNQYnhfRW02amk5VzFIVElYUHp6WS1FWXZqUm5GbU82V3NONmhoWHJhemRxWmY4QUV0ZGFHX1RSOVkyb0lzbDV3ZExTY2tZS0NURHdpcnpld0p0Z0tnajlNTVBCVzlKM3JuUGhEY1NrWGtWM0piWDg0d3ZRUUZsVEJPbUNmTVphVEpHbC1DbmtobnJlU1NxclRpZ3RzYUp4c0RudE5Ud19Qbw?oc=5) — Bloomberg.com
+- [Job openings posted big September gain in positive sign for labor market ahead of payrolls report](https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html) — CNBC Economy
 
 ## Stocks & earnings
-- [Stock market after midterm elections: What S&P 500 history shows](https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html) — CNBC Finance
-- [Palantir reports booming U.S. commercial revenue growth, topping government for first time](https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html) — CNBC Markets
-- [Intel foundry push faces critical test after stock's 45% plunge in October](https://www.cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html) — CNBC Top News
-- [Oracle files to sell $20 billion in new stock, bonds to finance AI buildout](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) — CNBC Top News
+- [AMD stock jumps 8% on earnings as data center revenue nearly doubles](https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html) — CNBC Markets
+- [Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test](https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html) — CNBC Top News
+- [Ferrari raises 2026 guidance after Q3 earnings beat](https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html) — CNBC Markets
+- [Shopify falls over 8% after Q3 revenue and merchandise volume miss estimates](https://www.cnbc.com/2026/11/03/shopify-q3-2026-earnings-gmv.html) — CNBC Markets
 
 ## Geopolitics
-- [U.S. reportedly strikes Iran's Qeshm Island as Vance hopes for ‘negotiated settlement’ with Tehran](https://www.cnbc.com/2026/11/03/iran-us-vance-trump-strikes.html) — CNBC Top News
-- [US to suspend South Africa and Rwanda from duty-free trade access](https://news.google.com/rss/articles/CBMipAFBVV95cUxQTXBRdlBrbE5GVUt6UUhpRWFyUUNFTlBtSTAtdXgyaDA1OFl6ajZTQWg1SGlTakZXRXFNc0x4V1QtMHdmc1Vpb0ZWUGxlai1xR2xJTDd5YnVfZXBuY3ZyU1JDQk5tWU5PMEUwZlV2NGpGamg3SEZ0clF1NzA2R25McW52dzk0aGxLUkVnXzFwNlRpYlY3SlR2ckJnNHZPOUx6ZHNzNg?oc=5) — Reuters
-- [Iowa’s Rightward Turn Under Trump Faces a Midterms Test](https://news.google.com/rss/articles/CBMirgFBVV95cUxNX0pic2V2enpMWDhUZlRKZk5STkNYekZ1dVA4d2dQMkx5Q3d5dUhNbk1CLTJEY0J6dkE4Qjg3a2lOV2xfZ29wY2w4bU5rR29KN0k1R21VQTBUYVVrN090V3hNdTRBUEpwZzVSU0tHdXI2Y1JDSTh1LUdIeHgwYjNVc0xOaGZzR0RVbEdsQUVsS1ZoUzZyUEJDTXJGeDFtQTZGdlVETjBwN05icUVlWXc?oc=5) — Bloomberg.com
-- [Freed from OPEC quotas, UAE says oil exports have risen as it hosts industry event](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcnd0cjROV01YdUV5VG9tVnV6NVpybjJpa1E1TnFOV3g2V2xhMmpmcGJQdXctakdyMVVmZk9hbTZvYnZ6aDJ2RDhoSU12Z2NoYlBRekRWNmlrSWdlblpJa0tKelN5VjFVVUhDWV85enFsam91QXFRWVdUUzNEYmZSTDhaWVBRUFE2MTBVRFY5XzhvR2NDZXVXeXZROVoxdkJQcm91cnZqQUJEWmJLNkJ6R0UwLWJvYU5MQ21sNXZpeEN3S3c?oc=5) — Reuters
+- [OPEC, Allies Keep Output Steady While Gulf Shipping Remains Under Threat](https://news.google.com/rss/articles/CBMivAFBVV95cUxNbnNqUHNCa3N5QzZ4RUZEVVd5RUsxNDM1QU5wZ3dYQ3FYdzdEWnpnczk0NG1JTndRV19CQnpWd0J4eUE4SndBWFpfUkZNeS1QQUtIaWVQRFBYVk1fMXlHNVJjWW1zb3JsV2pvVnc5UU5zby1DNzF1d3dyNFdYWTlTUlJFRk11YW5RU19idkdxZXNSZkJ4azFtQVBjZkVpT2p6cVFlbkpsX2o2NWYtVUJfd1VtblJhQ21COUJYTA?oc=5) — WSJ
+- [Democrats’ Win Rattles Trump Trades From AI Stocks to Crypto](https://news.google.com/rss/articles/CBMirwFBVV95cUxPdTRQb3pkNzdfSm5LVl9yeno5dERXdGZNZklXZmpZQUp6SXFNUkZScHpwVElhOHczVkZILWpjWjVMRmVlSlZwa1BjVmxRVzJMSl9neWNxMFNFc0pEMUxoRmd3dmQzcXhEZVliTFlPbElVSHJKTlRiSDhqTkMzcUJuR1l4eE15MEJDMjRfYzlBSWdwZWhDbGVCOEdlNmpJbHBMd0VJTWxJa3BBNUNrUzkw?oc=5) — Bloomberg.com
+- [Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war](https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html) — CNBC Top News
 
-_Sources: Google News + CNBC + Fed feeds (16 headlines, 20h window)._
+_Sources: Google News + CNBC + Fed feeds (15 headlines, 20h window)._
