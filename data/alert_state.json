@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-04T10:15:34.802493+00:00",
+  "last_run_utc": "2026-11-04T10:30:41.548886+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2322,7 +2322,7 @@
       "last_attempt_utc": "2026-11-04T07:47:13.030640+00:00"
     },
     "single:HEI.DE": {
-      "last_attempt_utc": "2026-11-04T08:32:23.563764+00:00"
+      "last_attempt_utc": "2026-11-04T10:33:11.728322+00:00"
     },
     "single:WEIR.L": {
       "last_attempt_utc": "2026-11-04T08:47:55.733930+00:00"
@@ -2350,6 +2350,9 @@
     },
     "single:BGEO.L": {
       "last_attempt_utc": "2026-11-04T10:18:05.713580+00:00"
+    },
+    "single:FRES.L": {
+      "last_attempt_utc": "2026-11-04T10:33:23.240637+00:00"
     }
   }
 }
