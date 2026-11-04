@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-04T08:45:34.488706+00:00",
+  "last_run_utc": "2026-11-04T09:00:53.320136+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2326,6 +2326,27 @@
     },
     "single:WEIR.L": {
       "last_attempt_utc": "2026-11-04T08:47:55.733930+00:00"
+    },
+    "single:CON.DE": {
+      "last_attempt_utc": "2026-11-04T09:03:08.860635+00:00"
+    },
+    "premarket:AMD": {
+      "last_attempt_utc": "2026-11-04T09:03:19.857380+00:00"
+    },
+    "premarket:ANET": {
+      "last_attempt_utc": "2026-11-04T09:03:30.748979+00:00"
+    },
+    "premarket:XYZ": {
+      "last_attempt_utc": "2026-11-04T09:03:41.580847+00:00"
+    },
+    "premarket:SMCI": {
+      "last_attempt_utc": "2026-11-04T09:03:52.462326+00:00"
+    },
+    "premarket:SWKS": {
+      "last_attempt_utc": "2026-11-04T09:04:03.306581+00:00"
+    },
+    "premarket:FSLR": {
+      "last_attempt_utc": "2026-11-04T09:04:14.164329+00:00"
     }
   }
 }
