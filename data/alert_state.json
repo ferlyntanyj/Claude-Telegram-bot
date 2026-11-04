@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-04T11:45:36.535609+00:00",
+  "last_run_utc": "2026-11-04T12:00:58.654040+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2328,7 +2328,7 @@
       "last_attempt_utc": "2026-11-04T10:48:14.931093+00:00"
     },
     "single:CON.DE": {
-      "last_attempt_utc": "2026-11-04T09:03:08.860635+00:00"
+      "last_attempt_utc": "2026-11-04T12:03:31.729691+00:00"
     },
     "premarket:AMD": {
       "last_attempt_utc": "2026-11-04T11:03:24.512074+00:00"
@@ -2356,6 +2356,12 @@
     },
     "single:EDV.L": {
       "last_attempt_utc": "2026-11-04T11:17:43.387868+00:00"
+    },
+    "single:DBK.DE": {
+      "last_attempt_utc": "2026-11-04T12:03:20.457741+00:00"
+    },
+    "premarket:DDOG": {
+      "last_attempt_utc": "2026-11-04T12:03:42.758466+00:00"
     }
   }
 }
