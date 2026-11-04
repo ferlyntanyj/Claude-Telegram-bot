@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-04T13:45:39.347994+00:00",
+  "last_run_utc": "2026-11-04T14:00:57.245912+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2064,7 +2064,7 @@
       "last_attempt_utc": "2026-11-03T13:03:09.632822+00:00"
     },
     "single:ZAL.DE": {
-      "last_attempt_utc": "2026-11-03T16:04:33.386346+00:00"
+      "last_attempt_utc": "2026-11-04T14:03:16.412900+00:00"
     },
     "premarket:SYY": {
       "last_attempt_utc": "2026-11-03T13:18:08.925581+00:00"
@@ -2395,6 +2395,12 @@
     },
     "premarket:CDW": {
       "last_attempt_utc": "2026-11-04T13:33:45.540357+00:00"
+    },
+    "single:G24.DE": {
+      "last_attempt_utc": "2026-11-04T14:03:27.387763+00:00"
+    },
+    "premarket:NEM": {
+      "last_attempt_utc": "2026-11-04T14:03:38.234850+00:00"
     }
   }
 }
