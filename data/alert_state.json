@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-04T11:00:58.257654+00:00",
+  "last_run_utc": "2026-11-04T11:15:38.520130+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2334,25 +2334,28 @@
       "last_attempt_utc": "2026-11-04T11:03:24.512074+00:00"
     },
     "premarket:ANET": {
-      "last_attempt_utc": "2026-11-04T09:03:30.748979+00:00"
+      "last_attempt_utc": "2026-11-04T11:17:54.300335+00:00"
     },
     "premarket:XYZ": {
-      "last_attempt_utc": "2026-11-04T09:03:41.580847+00:00"
+      "last_attempt_utc": "2026-11-04T11:18:05.195813+00:00"
     },
     "premarket:SMCI": {
-      "last_attempt_utc": "2026-11-04T09:03:52.462326+00:00"
+      "last_attempt_utc": "2026-11-04T11:18:16.112785+00:00"
     },
     "premarket:SWKS": {
-      "last_attempt_utc": "2026-11-04T09:04:03.306581+00:00"
+      "last_attempt_utc": "2026-11-04T11:18:27.102131+00:00"
     },
     "premarket:FSLR": {
-      "last_attempt_utc": "2026-11-04T09:04:14.164329+00:00"
+      "last_attempt_utc": "2026-11-04T11:18:37.958915+00:00"
     },
     "single:BGEO.L": {
       "last_attempt_utc": "2026-11-04T10:18:05.713580+00:00"
     },
     "single:FRES.L": {
       "last_attempt_utc": "2026-11-04T10:33:23.240637+00:00"
+    },
+    "single:EDV.L": {
+      "last_attempt_utc": "2026-11-04T11:17:43.387868+00:00"
     }
   }
 }
