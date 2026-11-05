@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-05T08:15:39.089655+00:00",
+  "last_run_utc": "2026-11-05T08:30:49.267203+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2085,7 +2085,7 @@
       "last_attempt_utc": "2026-11-03T12:34:01.573667+00:00"
     },
     "single:BAYN.DE": {
-      "last_attempt_utc": "2026-11-03T16:04:22.393983+00:00"
+      "last_attempt_utc": "2026-11-05T08:35:43.576679+00:00"
     },
     "single:APH": {
       "last_attempt_utc": "2026-11-04T20:08:24.380764+00:00"
@@ -2322,13 +2322,13 @@
       "last_attempt_utc": "2026-11-04T07:47:13.030640+00:00"
     },
     "single:HEI.DE": {
-      "last_attempt_utc": "2026-11-04T14:53:26.827308+00:00"
+      "last_attempt_utc": "2026-11-05T08:37:43.985689+00:00"
     },
     "single:WEIR.L": {
       "last_attempt_utc": "2026-11-05T08:27:12.835721+00:00"
     },
     "single:CON.DE": {
-      "last_attempt_utc": "2026-11-04T15:05:58.694747+00:00"
+      "last_attempt_utc": "2026-11-05T08:38:44.185346+00:00"
     },
     "premarket:AMD": {
       "last_attempt_utc": "2026-11-04T11:03:24.512074+00:00"
@@ -2358,7 +2358,7 @@
       "last_attempt_utc": "2026-11-05T08:25:51.850475+00:00"
     },
     "single:DBK.DE": {
-      "last_attempt_utc": "2026-11-04T16:20:12.772019+00:00"
+      "last_attempt_utc": "2026-11-05T08:34:43.363135+00:00"
     },
     "premarket:DDOG": {
       "last_attempt_utc": "2026-11-04T14:18:34.405863+00:00"
@@ -3115,6 +3115,30 @@
     },
     "single:BRBY.L": {
       "last_attempt_utc": "2026-11-05T08:30:13.542011+00:00"
+    },
+    "single:BA.L": {
+      "last_attempt_utc": "2026-11-05T08:34:13.265967+00:00"
+    },
+    "single:STAN.L": {
+      "last_attempt_utc": "2026-11-05T08:35:13.469631+00:00"
+    },
+    "single:RHM.DE": {
+      "last_attempt_utc": "2026-11-05T08:36:13.671383+00:00"
+    },
+    "single:MBG.DE": {
+      "last_attempt_utc": "2026-11-05T08:36:43.771588+00:00"
+    },
+    "single:VOW3.DE": {
+      "last_attempt_utc": "2026-11-05T08:37:13.884616+00:00"
+    },
+    "single:VNA.DE": {
+      "last_attempt_utc": "2026-11-05T08:38:14.089970+00:00"
+    },
+    "single:KGF.L": {
+      "last_attempt_utc": "2026-11-05T08:40:13.214475+00:00"
+    },
+    "single:CCC.L": {
+      "last_attempt_utc": "2026-11-05T08:40:43.317718+00:00"
     }
   }
 }
