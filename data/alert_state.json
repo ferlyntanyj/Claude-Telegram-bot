@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-06T19:15:37.368477+00:00",
+  "last_run_utc": "2026-11-06T19:30:39.598612+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1584,7 +1584,7 @@
       "last_attempt_utc": "2026-11-06T17:03:32.220168+00:00"
     },
     "single:MCHP": {
-      "last_attempt_utc": "2026-11-06T17:25:58.906778+00:00"
+      "last_attempt_utc": "2026-11-06T19:32:48.649085+00:00"
     },
     "single:ERIE": {
       "last_attempt_utc": "2026-11-02T20:36:18.323426+00:00"
@@ -2133,7 +2133,7 @@
       "last_attempt_utc": "2026-11-03T20:04:21.520204+00:00"
     },
     "single:MRNA": {
-      "last_attempt_utc": "2026-11-06T17:32:32.907355+00:00"
+      "last_attempt_utc": "2026-11-06T19:32:36.588252+00:00"
     },
     "single:FIX": {
       "last_attempt_utc": "2026-11-06T14:57:07.197650+00:00"
@@ -3291,7 +3291,7 @@
       "last_attempt_utc": "2026-11-05T20:15:44.454379+00:00"
     },
     "single:PODD": {
-      "last_attempt_utc": "2026-11-06T17:26:10.850034+00:00"
+      "last_attempt_utc": "2026-11-06T19:33:18.827204+00:00"
     },
     "single:NUE": {
       "last_attempt_utc": "2026-11-05T20:12:14.694463+00:00"
