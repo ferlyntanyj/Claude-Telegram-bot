@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-06T12:15:37.603892+00:00",
+  "last_run_utc": "2026-11-06T12:30:47.588997+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3667,6 +3667,9 @@
     },
     "premarket:CHTR": {
       "last_attempt_utc": "2026-11-06T12:04:51.896409+00:00"
+    },
+    "premarket:AKAM": {
+      "last_attempt_utc": "2026-11-06T12:32:59.518244+00:00"
     }
   }
 }
