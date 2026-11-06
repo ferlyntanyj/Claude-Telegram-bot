@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-06T11:00:54.183840+00:00",
+  "last_run_utc": "2026-11-06T11:15:39.942916+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1845,7 +1845,7 @@
       "last_attempt_utc": "2026-11-02T12:48:27.021463+00:00"
     },
     "premarket:LITE": {
-      "last_attempt_utc": "2026-11-06T09:05:06.294569+00:00"
+      "last_attempt_utc": "2026-11-06T11:18:40.473105+00:00"
     },
     "single:LITE": {
       "last_attempt_utc": "2026-11-05T19:22:19.199956+00:00"
@@ -2070,7 +2070,7 @@
       "last_attempt_utc": "2026-11-03T13:18:08.925581+00:00"
     },
     "premarket:BE": {
-      "last_attempt_utc": "2026-11-06T09:05:36.404000+00:00"
+      "last_attempt_utc": "2026-11-06T11:18:51.830116+00:00"
     },
     "premarket:RVTY": {
       "last_attempt_utc": "2026-11-03T13:48:59.386916+00:00"
@@ -3612,10 +3612,10 @@
       "last_attempt_utc": "2026-11-06T11:04:06.578269+00:00"
     },
     "premarket:ABNB": {
-      "last_attempt_utc": "2026-11-06T09:04:36.180947+00:00"
+      "last_attempt_utc": "2026-11-06T11:18:29.434767+00:00"
     },
     "premarket:AXON": {
-      "last_attempt_utc": "2026-11-06T09:06:06.510130+00:00"
+      "last_attempt_utc": "2026-11-06T11:19:02.748380+00:00"
     },
     "premarket:AMAT": {
       "last_attempt_utc": "2026-11-06T09:18:39.649878+00:00"
