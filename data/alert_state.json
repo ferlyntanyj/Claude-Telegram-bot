@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-06T11:45:37.698068+00:00",
+  "last_run_utc": "2026-11-06T12:00:52.918637+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3645,13 +3645,13 @@
       "last_attempt_utc": "2026-11-06T09:33:53.747947+00:00"
     },
     "premarket:GLW": {
-      "last_attempt_utc": "2026-11-06T09:48:22.181133+00:00"
+      "last_attempt_utc": "2026-11-06T12:03:40.614105+00:00"
     },
     "premarket:P": {
       "last_attempt_utc": "2026-11-06T09:48:33.148444+00:00"
     },
     "premarket:FLEX": {
-      "last_attempt_utc": "2026-11-06T09:49:03.354573+00:00"
+      "last_attempt_utc": "2026-11-06T12:04:21.698727+00:00"
     },
     "premarket:APH": {
       "last_attempt_utc": "2026-11-06T10:33:13.728759+00:00"
@@ -3661,6 +3661,12 @@
     },
     "premarket:MPWR": {
       "last_attempt_utc": "2026-11-06T11:48:51.275320+00:00"
+    },
+    "premarket:MRNA": {
+      "last_attempt_utc": "2026-11-06T12:03:51.491997+00:00"
+    },
+    "premarket:CHTR": {
+      "last_attempt_utc": "2026-11-06T12:04:51.896409+00:00"
     }
   }
 }
