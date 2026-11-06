@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-06T09:01:01.386232+00:00",
+  "last_run_utc": "2026-11-06T09:15:36.024808+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1836,7 +1836,7 @@
       "last_attempt_utc": "2026-11-02T11:17:57.102068+00:00"
     },
     "premarket:COHR": {
-      "last_attempt_utc": "2026-11-02T12:17:25.054190+00:00"
+      "last_attempt_utc": "2026-11-06T09:22:42.889968+00:00"
     },
     "premarket:ECHO": {
       "last_attempt_utc": "2026-11-04T13:18:40.146894+00:00"
@@ -2331,7 +2331,7 @@
       "last_attempt_utc": "2026-11-05T08:38:44.185346+00:00"
     },
     "premarket:AMD": {
-      "last_attempt_utc": "2026-11-05T14:04:01.433163+00:00"
+      "last_attempt_utc": "2026-11-06T09:18:28.729974+00:00"
     },
     "premarket:ANET": {
       "last_attempt_utc": "2026-11-04T11:17:54.300335+00:00"
@@ -2367,13 +2367,13 @@
       "last_attempt_utc": "2026-11-04T14:18:12.461597+00:00"
     },
     "premarket:VRT": {
-      "last_attempt_utc": "2026-11-04T14:18:23.419038+00:00"
+      "last_attempt_utc": "2026-11-06T09:20:42.085251+00:00"
     },
     "premarket:VST": {
       "last_attempt_utc": "2026-11-04T14:18:45.344300+00:00"
     },
     "premarket:FIX": {
-      "last_attempt_utc": "2026-11-04T14:18:56.235027+00:00"
+      "last_attempt_utc": "2026-11-06T09:21:42.591481+00:00"
     },
     "premarket:TRMB": {
       "last_attempt_utc": "2026-11-04T14:19:17.910173+00:00"
@@ -3616,6 +3616,21 @@
     },
     "premarket:AXON": {
       "last_attempt_utc": "2026-11-06T09:06:06.510130+00:00"
+    },
+    "premarket:AMAT": {
+      "last_attempt_utc": "2026-11-06T09:18:39.649878+00:00"
+    },
+    "premarket:DELL": {
+      "last_attempt_utc": "2026-11-06T09:19:41.722390+00:00"
+    },
+    "premarket:KLAC": {
+      "last_attempt_utc": "2026-11-06T09:20:11.870808+00:00"
+    },
+    "premarket:HPE": {
+      "last_attempt_utc": "2026-11-06T09:21:12.444388+00:00"
+    },
+    "premarket:TER": {
+      "last_attempt_utc": "2026-11-06T09:22:12.741618+00:00"
     }
   }
 }
