@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-11-05T03:19:42Z",
+  "last_run_utc": "2026-11-06T03:18:06Z",
   "tickers": {
     "0128.KL": {
       "last_analyzed_date": "2026-08-05",
@@ -107,7 +107,7 @@
     },
     "D05.SI": {
       "last_analyzed_date": "2026-08-05",
-      "last_reported_date": "2026-08-05"
+      "last_reported_date": "2026-11-04"
     },
     "DELL": {
       "last_analyzed_date": "2026-09-01",
@@ -214,8 +214,8 @@
       "last_reported_date": "2023-02-20"
     },
     "WOLF": {
-      "last_analyzed_date": "2026-08-19",
-      "last_reported_date": "2026-08-19"
+      "last_analyzed_date": "2026-11-04",
+      "last_reported_date": "2026-11-04"
     },
     "Z74.SI": {
       "last_analyzed_date": "2024-11-12",
