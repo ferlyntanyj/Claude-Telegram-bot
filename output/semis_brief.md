@@ -1,16 +1,14 @@
-# Global Semiconductor Brief -- 8 Nov 2026, 00:35 SGT
+# Global Semiconductor Brief -- 8 Nov 2026, 14:32 SGT
 
 ## Policy & geopolitics
-- [3 US Semiconductor Stocks With Less China Exposure To Watch Now](https://news.google.com/rss/articles/CBMilgFBVV95cUxNaGY0c0hpd3FiblpEbXVKQWFBejMyWWdTZDF0aFdvQm5XMlFNRDJaRGlhQTgwbXVmLVdpMlZ4UDBSV1RnQ0F3U2dFSXBIR2x5OExmTDkxSVptNGNudVhRS051OEtIeDBaN0VWNzQ1OWo1bHlDeE56M3VseF9qdjVnNmo3ZTk5YV9HUDBmMklYVFFzM25vNUE?oc=5) — Yahoo Finance
+- [Don’t Let The Blue Wave Scare You Out Of Chips (NASDAQ:SMH)](https://news.google.com/rss/articles/CBMitAFBVV95cUxObGFZVlRfSW9KQzMtNkFoZnFzbGYtMTVYLVhHbUpqOFZhS0JIRVdFUU1od0FIcXNMQi1rOW1COXR2bDBWSkxsUk0wd0JNUWk0RWp5MldkdzY0WU1Vbm5IYXhtZ1dnQ0JsZndydVhoa1U4alNDVmFrT0JvaWx2TEhKSXJFempBMjd5Zm1laktTS01VVnRlOUE0RDljd0ZHb05yVnR3SE5qOVZRS3BndjhHamc1bW8?oc=5) — Seeking Alpha
 
 ## Supply chain signals
-- [Solidigm eyes US NAND fab as funding questions linger](https://www.digitimes.com/news/a20261106PD229/solidigm-fab-nand-flash-nand-funding.html) — DIGITIMES
-- [Samsung reportedly sells 300 chipmaking tools to DB Group](https://www.digitimes.com/news/a20261106VL218/samsung-equipment-manufacturing-production-capacity-production.html) — DIGITIMES
-- [TSMC denies exploring 3D DRAM at Nvidia's request](https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability) — Tom's Hardware
+- [Nvidia Stock Has More Than 60% Upside According to Analysts' Average Price Target. Should You Buy While the AI Trade Wobbles?](https://news.google.com/rss/articles/CBMilwFBVV95cUxORm9iWk5mTWhNdmE5VzBCcjN4VldaaTk0WlFrNXA2clYzNmNIdjl1X1V3TGRiX0RUeTRwSTBaa3R6ZjdzMmFDSlVQMVFvcDJwMlkyaGs4dll4RTFSTTd0cDNZMHFYN3UxLUZINk9lV0lUaTBPeFlQLUtUZ2thU19pWkRXN1pBRF9LcTVMRHlhMFI2cjZ5Q3FV?oc=5) — Yahoo Finance
 
 ## News — M&A, capex, capacity, earnings
-- [U.S. Cleared Nvidia Chips to Chinese Firms With Empty Offices and Troubling Ties](https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlJEVDBTejg0VUNTOGFiekp4MFdyWVkxaWg3OFpBR0Q1QW1FTTNkU2t6YzllLTlhM0hxbFUzS3VuUzhOdi1vNURJOXBzZHI4eHZ0WURLcmljcTQ3ZEM4b2c1YVRPd3hoS3phLVVtbE5YcHA5MXExajJCQUl5R2VnOFZlSGNfbUxKNjlF?oc=5) — The New York Times
-- [TSMC Jumped 6% on a Report It Could Make Memory Chips for Nvidia](https://news.google.com/rss/articles/CBMilgFBVV95cUxNUENuMm5tR1ZQZ25BY0ZDQjdoQjdTZU01TS1FSU5ER0VzazVyVHVPcjFGT1VXY2tXell0VkhHcVBxV21qOFlhMUdfVEl2MkllN0FfbmFDekdzNGV1UFpiaWdhTnVXaGhuTjlZdXJ4TWw1NUNjeW1HN01HYXN6RVM3TkxVUjd5U1pCcnNUVU5BQnRmVktkZ1E?oc=5) — Yahoo Finance
-- [Nvidia's Jensen Huang officially called to Congress due to reports of a Chinese spy plot](https://www.tomshardware.com/tech-industry/big-tech/nvidias-jensen-huang-officially-called-to-congress-due-to-reports-of-a-chinese-spy-plot-officials-mention-growing-concerns-over-national-security) — Tom's Hardware
+- [US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy](https://news.google.com/rss/articles/CBMihAFBVV95cUxOcHo3eTNwbl9OX25ycmZfZ21DWjNEbTlxZ0w5UTk5RW9KZW5hZ1FUS3ZWblFCVHQ5S0EtVU8tbW94SERsbV8tb1A2NzFrN0htdjBoMzVyM1NHMXd1Wnk1OWJoQk1ORnFna0hMUFRhb2VKQVZGTzBPYWdRRDhrOC1VRjVwZUU?oc=5) — Financial Times
+- [Samsung cash pile tops 200 trillion won as chip boom fuels record spending](https://news.google.com/rss/articles/CBMixgFBVV95cUxPOXc1UVkwbzdfb2paWVk1clUyM0d3bFpzd3VYckhfV09XOEZTczczZVE5enpnY005TWFkcGRLeTR6VDhDUUlRNy1YbHA3aVU3eEZxWUdKeWxkbEZvOVd5aXBEaG85eTM3QWxkS2xmUzF3Z2FJOWJLcFhNQ2ZYVDVMb3JsOWtWYVNUUnVxc192MWx4ZHNRUDNHOHRqSER4NjJiSTlORHBwRXpNam9zU2p0SXpnYkRuZ1hjaklxREVNdVA0ODJWX0E?oc=5) — Korea JoongAng Daily
+- [Older Nvidia Chips Just Cost Oracle Its Microsoft AI Deal](https://news.google.com/rss/articles/CBMilwFBVV95cUxOTFhBWkJLaTdGc0xDWVdidldJUDU2bnJQLXR5dktyWFdZd0FrVlB0TmM3UWJ6MDhRTHFhcVlPNDZzSG5McW5Pa21JZ2VINXdUc21xdWFFWjlUMHpkMXNaT3hpLTF2QTRTdFBNb1M3a0JqdTZWV1NVQ3lRZzFEUW55UDJ5cVE4aHE3QXYtNHZMQnNlV2tFcXlN?oc=5) — Yahoo Finance
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (7 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (5 headlines, 13h window)._
