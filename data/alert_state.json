@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-09T15:45:37.313822+00:00",
+  "last_run_utc": "2026-11-09T16:00:54.646230+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1584,7 +1584,7 @@
       "last_attempt_utc": "2026-11-09T15:18:10.801004+00:00"
     },
     "single:MCHP": {
-      "last_attempt_utc": "2026-11-06T19:32:48.649085+00:00"
+      "last_attempt_utc": "2026-11-09T16:04:40.561871+00:00"
     },
     "single:ERIE": {
       "last_attempt_utc": "2026-11-02T20:36:18.323426+00:00"
@@ -1611,7 +1611,7 @@
       "last_attempt_utc": "2026-10-30T18:17:46.698990+00:00"
     },
     "single:ADI": {
-      "last_attempt_utc": "2026-11-05T20:54:36.132852+00:00"
+      "last_attempt_utc": "2026-11-09T16:04:05.905510+00:00"
     },
     "sector:internet content information": {
       "last_attempt_utc": "2026-10-30T18:48:23.166905+00:00"
@@ -2088,7 +2088,7 @@
       "last_attempt_utc": "2026-11-05T08:35:43.576679+00:00"
     },
     "single:APH": {
-      "last_attempt_utc": "2026-11-05T20:55:06.326823+00:00"
+      "last_attempt_utc": "2026-11-09T16:03:43.514408+00:00"
     },
     "single:BE": {
       "last_attempt_utc": "2026-11-09T14:50:13.327889+00:00"
@@ -2463,7 +2463,7 @@
       "last_attempt_utc": "2026-11-06T18:47:46.182875+00:00"
     },
     "single:EME": {
-      "last_attempt_utc": "2026-11-05T21:03:07.985024+00:00"
+      "last_attempt_utc": "2026-11-09T16:05:02.702601+00:00"
     },
     "single:DLTR": {
       "last_attempt_utc": "2026-11-04T20:34:25.164710+00:00"
@@ -2559,7 +2559,7 @@
       "last_attempt_utc": "2026-11-06T15:01:54.053927+00:00"
     },
     "single:CAT": {
-      "last_attempt_utc": "2026-11-05T20:50:46.922827+00:00"
+      "last_attempt_utc": "2026-11-09T16:03:32.328399+00:00"
     },
     "single:MPC": {
       "last_attempt_utc": "2026-11-04T18:34:55.312066+00:00"
@@ -2580,7 +2580,7 @@
       "last_attempt_utc": "2026-11-04T18:37:36.929935+00:00"
     },
     "single:KEYS": {
-      "last_attempt_utc": "2026-11-05T20:57:37.278057+00:00"
+      "last_attempt_utc": "2026-11-09T16:04:29.174775+00:00"
     },
     "single:TER": {
       "last_attempt_utc": "2026-11-09T15:19:30.673198+00:00"
@@ -3195,7 +3195,7 @@
       "last_attempt_utc": "2026-11-05T19:14:50.261815+00:00"
     },
     "single:QCOM": {
-      "last_attempt_utc": "2026-11-06T19:03:17.021877+00:00"
+      "last_attempt_utc": "2026-11-09T16:03:54.494308+00:00"
     },
     "single:MSI": {
       "last_attempt_utc": "2026-11-05T17:02:30.329386+00:00"
@@ -3727,6 +3727,15 @@
     },
     "single:FERG": {
       "last_attempt_utc": "2026-11-09T14:50:51.426062+00:00"
+    },
+    "single:HONA": {
+      "last_attempt_utc": "2026-11-09T16:04:17.174829+00:00"
+    },
+    "single:OKTA": {
+      "last_attempt_utc": "2026-11-09T16:04:51.640086+00:00"
+    },
+    "single:BEN": {
+      "last_attempt_utc": "2026-11-09T16:05:13.702893+00:00"
     }
   }
 }
