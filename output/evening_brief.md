@@ -1,23 +1,22 @@
-# Asia Market Evening Brief -- 7 Nov 2026, 01:30 SGT
+# Asia Market Evening Brief -- 10 Nov 2026, 04:44 SGT
 
 ## Macro & policy
-- [Singapore banks struggle with bond yield and interest rate tensions](https://asia.nikkei.com/business/finance/singapore-banks-struggle-with-bond-yield-and-interest-rate-tensions) — Nikkei Asia
-- [Foreign-student spending in Japan hits $4.3bn amid soft yen](https://asia.nikkei.com/business/education/foreign-student-spending-in-japan-hits-4.3bn-amid-soft-yen) — Nikkei Asia
-- [Democratic 'blue wave' may buoy yen if AI trade reverses: FX traders](https://asia.nikkei.com/business/markets/currencies/democratic-blue-wave-may-buoy-yen-if-ai-trade-reverses-fx-traders) — Nikkei Asia
-- [Indonesia's GDP grows 5.5% in Q3, helped by government spending](https://asia.nikkei.com/economy/indonesia-s-gdp-grows-5.5-in-q3-helped-by-government-spending) — Nikkei Asia
-- [China says trade barriers block tech imports, fueling its surplus](https://asia.nikkei.com/economy/trade/china-says-trade-barriers-block-tech-imports-fueling-its-surplus) — Nikkei Asia
+- [Toyota set to bring Camry back to Japan with reverse imports from US](https://asia.nikkei.com/business/automobiles/toyota-set-to-bring-camry-back-to-japan-with-reverse-imports-from-us) — Nikkei Asia
+- [Philippine GDP growth further slows to 2.1% in Q3, dragged by inflation](https://asia.nikkei.com/economy/philippine-gdp-growth-further-slows-to-2.1-in-q3-dragged-by-inflation) — Nikkei Asia
+- [Japan FX intervention data underscores challenge of reversing weak yen](https://asia.nikkei.com/business/markets/currencies/japan-fx-intervention-data-underscores-challenge-of-reversing-weak-yen) — Nikkei Asia
+- [Japan manufacturers lift profit outlooks on price hikes, weak yen](https://asia.nikkei.com/business/business-trends/japan-manufacturers-lift-profit-outlooks-on-price-hikes-weak-yen) — Nikkei Asia
 
 ## Markets
-- [Japan's Takaichi pushes for tougher cybersecurity laws as attacks surge](https://asia.nikkei.com/spotlight/cybersecurity/japan-s-takaichi-pushes-for-tougher-cybersecurity-laws-as-attacks-surge) — Nikkei Asia
-- [Japan Bonds Rally as Global Risk-Off Move Boosts Haven Demand](https://news.google.com/rss/articles/CBMisgFBVV95cUxNWmJyTTlSNWdpa2E0WjU1VUdBOG5KNzVFem1CWVgwUHE3dVR4V3VXYjZBaTdZeE9Ndk80MDc4WVlHb0JjcmxEQXBfeEo0ZTRTWUFYWGJuaFBqUEJFX0NjVkxQUGdublYxVGo3UW5YM0hhbnd6a3ZXVnRIU2tBRXREenRUeVpfTW95ZmF0Q1VFM0FfdG41ZnJnUTE1a3N3Nkx2aHlqZ1luQVFoQmdsS24xSXpn?oc=5) — Bloomberg.com
-- [AI sell-off hits Singapore tech stocks, but analysts see correction rather than end of boom](https://www.channelnewsasia.com/singapore/tech-ai-stocks-global-sell-analysts-6530376) — CNA Business
-- [Asian stocks slide on November 6 after US$2.5tn tech rout](https://news.google.com/rss/articles/CBMia0FVX3lxTE5oZ212S25DSnI0dmhGcHktV3ZXYUhBWWtrMkhsZWNCWVJzTXo1U204cmZhNmZnUDZScnQwcGtCbTU1ZEdjX01PT19Ic1ByNHNTaU4tNi0tRW5BVUlEUVlLeTRkc25TaEU4R1Vr?oc=5) — Nation Thailand
+- [Nvidia shares drop as Jensen Huang affair raises China spy concerns](https://asia.nikkei.com/business/markets/nvidia-shares-drop-as-jensen-huang-affair-raises-china-spy-concerns) — Nikkei Asia
+- [Tokyo office rents surge 20%, sharpest rise in 35 years](https://asia.nikkei.com/business/markets/property/tokyo-office-rents-surge-20-sharpest-rise-in-35-years) — Nikkei Asia
+- [Japan and Vietnam sign energy deals as Hanoi's power needs surge](https://asia.nikkei.com/politics/international-relations/japan-and-vietnam-sign-energy-deals-as-hanoi-s-power-needs-surge) — Nikkei Asia
+- [Japan to give Philippines drones, radar systems in biggest security aid to date](https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSE9ZRi16ajNvd0VzX0dhS0dyemx0X3NST1NYS1ZoYzJMMTJYUzhVTjlrR0FORFJ5MUJ4ZTBFcWlrVUwzbjZ3Zk1XMHJiYU93VFliSnd2YkN1Wmh4V01xNEV4bW1DeGtqWlpKQzY3MVVNTkJOTS1xZV9xWk5SMEo0Vko3MkVVc0FpemdXVHFKTWZzTmo4U3B5b2cwQ1lPRHc2dVpzcGpaemVTVkF0WHRNR3drbE5GZTY5eFpR?oc=5) — Nikkei Asia
 
 ## Geopolitics
-- [Taiwan, South Korea, Japan stock markets hit hard by AI sell-off](https://asia.nikkei.com/business/markets/taiwan-south-korea-japan-stock-markets-hit-hard-by-ai-sell-off) — Nikkei Asia
-- [China-Japan row over Takaichi's Taiwan comment enters 2nd year](https://asia.nikkei.com/politics/international-relations/japan-china-tensions/china-japan-row-over-takaichi-s-taiwan-comment-enters-2nd-year) — Nikkei Asia
-- [Taiwan's chipmakers shine brightest in living memory](https://asia.nikkei.com/techasia/taiwan-s-chipmakers-shine-brightest-in-living-memory) — Nikkei Asia
-- [North Korea's patient cyber operations pay off in crypto](https://asia.nikkei.com/spotlight/cryptocurrencies/north-korea-s-patient-cyber-operations-pay-off-in-crypto) — Nikkei Asia
-- [BofA’s Piron Sees Won, Taiwan Dollar as Buys After AI Rout](https://news.google.com/rss/articles/CBMisAFBVV95cUxNUFFHRkp0aTRfTnpYN3lobENqN2lZS09VYTRhWVJFR0lsV1hNd3I2QmNxTk1uS0dMR2NOaVU2LXd6Ri16eG5mUFNQRmdMaEFzTndwSWFwQnpGTVNiQ2xPa19jWHl2VzE4S3BZMjYyXzBGaExTNmpPaHNHcGRvWm56R3dmaDJsSVhWQ0JyWVFuV2tKNG5rbW9yUXBFWEU5N0NDRlMwWkVyNTRlSjlIMTI1dw?oc=5) — Bloomberg.com
+- [Malaysia-Taiwan fraying ties threaten future chip investments](https://asia.nikkei.com/politics/international-relations/malaysia-taiwan-fraying-ties-threaten-future-chip-investments) — Nikkei Asia
+- [Taiwan chipmaker CEO warns memory price rises are unsustainable](https://asia.nikkei.com/editor-s-picks/interview/taiwan-chipmaker-ceo-warns-memory-price-rises-are-unsustainable) — Nikkei Asia
+- [COP31 climate summit in Turkey, ASEAN Summit, Sri Lanka budget](https://asia.nikkei.com/spotlight/your-week-in-asia/cop31-climate-summit-in-turkey-asean-summit-sri-lanka-budget) — Nikkei Asia
+- [Taiwan's KMT old guard fights for power base in tight Taipei mayoral races](https://asia.nikkei.com/politics/taiwan-s-kmt-old-guard-fights-for-power-base-in-tight-taipei-mayoral-races) — Nikkei Asia
+- [Why Manila’s call for softer tone will not ease South China Sea row with Beijing](https://news.google.com/rss/articles/CBMizgFBVV95cUxQVXp0dmZzYWRmbjQ5Rm82T2s3YzJqRzRaMk9rTVdCYXpwaXRuZlVqWlNCTGJSUENNRDQ2bGRuTXVtb2U3ejhoY0xyd0xrQW5Ka1k0bG1MVGV6N0w1bWlZSGFKclZWaHhwbGZSVFRJLUd5Ni1vbmNIZVF0SEtJbWkya1RJX05ZYXBNUU41LVhISGFLRFJzdGJqcXhIMnRPOENha2phXzRLRUxhNDN0UHBWZ3pLTFlQYzhiWnFYVEpiTE9vcGQ4TjZpcDhPRkZXZ9IBzgFBVV95cUxQVXp0dmZzYWRmbjQ5Rm82T2s3YzJqRzRaMk9rTVdCYXpwaXRuZlVqWlNCTGJSUENNRDQ2bGRuTXVtb2U3ejhoY0xyd0xrQW5Ka1k0bG1MVGV6N0w1bWlZSGFKclZWaHhwbGZSVFRJLUd5Ni1vbmNIZVF0SEtJbWkya1RJX05ZYXBNUU41LVhISGFLRFJzdGJqcXhIMnRPOENha2phXzRLRUxhNDN0UHBWZ3pLTFlQYzhiWnFYVEpiTE9vcGQ4TjZpcDhPRkZXZw?oc=5) — South China Morning Post
 
-_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (14 headlines, 14h window)._
+_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (13 headlines, 14h window)._
