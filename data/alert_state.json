@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-09T18:45:40.215639+00:00",
+  "last_run_utc": "2026-11-09T19:00:53.935140+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1572,13 +1572,13 @@
       "last_attempt_utc": "2026-11-09T17:33:48.489056+00:00"
     },
     "single:VRT": {
-      "last_attempt_utc": "2026-11-09T16:49:38.930051+00:00"
+      "last_attempt_utc": "2026-11-09T19:05:31.174245+00:00"
     },
     "single:Q": {
-      "last_attempt_utc": "2026-11-09T17:05:33.224495+00:00"
+      "last_attempt_utc": "2026-11-09T19:08:34.967693+00:00"
     },
     "single:AVGO": {
-      "last_attempt_utc": "2026-11-09T16:48:20.194907+00:00"
+      "last_attempt_utc": "2026-11-09T19:03:40.034560+00:00"
     },
     "single:MU": {
       "last_attempt_utc": "2026-11-09T17:18:28.787716+00:00"
@@ -1848,7 +1848,7 @@
       "last_attempt_utc": "2026-11-06T13:36:52.526322+00:00"
     },
     "single:LITE": {
-      "last_attempt_utc": "2026-11-09T17:04:12.668334+00:00"
+      "last_attempt_utc": "2026-11-09T19:06:16.776293+00:00"
     },
     "single:CVNA": {
       "last_attempt_utc": "2026-11-05T20:59:06.424551+00:00"
@@ -1860,7 +1860,7 @@
       "last_attempt_utc": "2026-11-09T17:04:45.888035+00:00"
     },
     "single:MRVL": {
-      "last_attempt_utc": "2026-11-09T16:49:05.039940+00:00"
+      "last_attempt_utc": "2026-11-09T19:04:36.088494+00:00"
     },
     "single:ITH.L": {
       "last_attempt_utc": "2026-11-05T08:29:13.308718+00:00"
@@ -1869,7 +1869,7 @@
       "last_attempt_utc": "2026-11-04T15:34:15.335290+00:00"
     },
     "single:MPWR": {
-      "last_attempt_utc": "2026-11-09T17:03:50.611928+00:00"
+      "last_attempt_utc": "2026-11-09T19:05:46.131984+00:00"
     },
     "single:FSLR": {
       "last_attempt_utc": "2026-11-09T16:18:39.189580+00:00"
@@ -1893,13 +1893,13 @@
       "last_attempt_utc": "2026-11-02T18:47:48.931660+00:00"
     },
     "single:STX": {
-      "last_attempt_utc": "2026-11-09T16:49:16.170509+00:00"
+      "last_attempt_utc": "2026-11-09T19:04:58.617746+00:00"
     },
     "single:CSGP": {
       "last_attempt_utc": "2026-11-04T15:06:09.638210+00:00"
     },
     "single:CIEN": {
-      "last_attempt_utc": "2026-11-09T17:05:10.819753+00:00"
+      "last_attempt_utc": "2026-11-09T19:07:52.234140+00:00"
     },
     "single:APA": {
       "last_attempt_utc": "2026-11-04T18:49:44.951863+00:00"
@@ -1917,7 +1917,7 @@
       "last_attempt_utc": "2026-11-06T19:17:42.633216+00:00"
     },
     "single:WDC": {
-      "last_attempt_utc": "2026-11-09T16:49:27.803292+00:00"
+      "last_attempt_utc": "2026-11-09T19:05:10.068658+00:00"
     },
     "single:DDOG": {
       "last_attempt_utc": "2026-11-05T20:10:35.074404+00:00"
@@ -1929,7 +1929,7 @@
       "last_attempt_utc": "2026-11-06T20:32:35.935702+00:00"
     },
     "single:AMD": {
-      "last_attempt_utc": "2026-11-09T16:48:31.226761+00:00"
+      "last_attempt_utc": "2026-11-09T19:03:51.868551+00:00"
     },
     "single:FANG": {
       "last_attempt_utc": "2026-11-02T19:33:36.470554+00:00"
@@ -2091,13 +2091,13 @@
       "last_attempt_utc": "2026-11-09T18:33:20.029426+00:00"
     },
     "single:BE": {
-      "last_attempt_utc": "2026-11-09T17:04:01.623017+00:00"
+      "last_attempt_utc": "2026-11-09T19:05:57.362974+00:00"
     },
     "single:COHR": {
-      "last_attempt_utc": "2026-11-09T17:04:34.794450+00:00"
+      "last_attempt_utc": "2026-11-09T19:07:15.576167+00:00"
     },
     "single:FLEX": {
-      "last_attempt_utc": "2026-11-09T17:05:22.101234+00:00"
+      "last_attempt_utc": "2026-11-09T19:08:13.659251+00:00"
     },
     "single:FISV": {
       "last_attempt_utc": "2026-11-04T18:47:44.359798+00:00"
@@ -2124,7 +2124,7 @@
       "last_attempt_utc": "2026-11-04T20:24:27.448810+00:00"
     },
     "single:GEV": {
-      "last_attempt_utc": "2026-11-09T17:03:39.187027+00:00"
+      "last_attempt_utc": "2026-11-09T19:04:24.835964+00:00"
     },
     "single:SYY": {
       "last_attempt_utc": "2026-11-03T20:03:47.536830+00:00"
@@ -2136,7 +2136,7 @@
       "last_attempt_utc": "2026-11-09T17:33:59.399191+00:00"
     },
     "single:FIX": {
-      "last_attempt_utc": "2026-11-09T17:04:57.120613+00:00"
+      "last_attempt_utc": "2026-11-09T19:07:31.917436+00:00"
     },
     "single:COIN": {
       "last_attempt_utc": "2026-11-05T21:01:07.199206+00:00"
@@ -2415,7 +2415,7 @@
       "last_attempt_utc": "2026-11-09T14:47:37.853248+00:00"
     },
     "single:ANET": {
-      "last_attempt_utc": "2026-11-09T16:48:53.885916+00:00"
+      "last_attempt_utc": "2026-11-09T19:04:13.909788+00:00"
     },
     "single:ISRG": {
       "last_attempt_utc": "2026-11-04T20:09:24.676948+00:00"
@@ -2487,7 +2487,7 @@
       "last_attempt_utc": "2026-11-04T14:55:11.245219+00:00"
     },
     "single:NRG": {
-      "last_attempt_utc": "2026-11-09T17:05:44.214087+00:00"
+      "last_attempt_utc": "2026-11-09T19:08:49.221412+00:00"
     },
     "single:FIS": {
       "last_attempt_utc": "2026-11-04T20:39:26.814075+00:00"
@@ -2511,10 +2511,10 @@
       "last_attempt_utc": "2026-11-04T20:43:53.848205+00:00"
     },
     "single:GNRC": {
-      "last_attempt_utc": "2026-11-09T17:05:55.145321+00:00"
+      "last_attempt_utc": "2026-11-09T19:09:16.353459+00:00"
     },
     "single:ALGN": {
-      "last_attempt_utc": "2026-11-04T20:45:54.748366+00:00"
+      "last_attempt_utc": "2026-11-09T19:09:04.165040+00:00"
     },
     "single:UHS": {
       "last_attempt_utc": "2026-11-04T20:47:13.850306+00:00"
@@ -3234,7 +3234,7 @@
       "last_attempt_utc": "2026-11-05T20:49:16.339239+00:00"
     },
     "single:AMAT": {
-      "last_attempt_utc": "2026-11-09T16:48:42.310980+00:00"
+      "last_attempt_utc": "2026-11-09T19:04:02.997804+00:00"
     },
     "single:MS": {
       "last_attempt_utc": "2026-11-05T18:21:15.846252+00:00"
@@ -3726,7 +3726,7 @@
       "last_attempt_utc": "2026-11-09T14:17:47.508454+00:00"
     },
     "single:FERG": {
-      "last_attempt_utc": "2026-11-09T17:04:23.686293+00:00"
+      "last_attempt_utc": "2026-11-09T19:06:37.967670+00:00"
     },
     "single:HONA": {
       "last_attempt_utc": "2026-11-09T18:33:54.579896+00:00"
@@ -3736,6 +3736,9 @@
     },
     "single:BEN": {
       "last_attempt_utc": "2026-11-09T18:36:09.265658+00:00"
+    },
+    "single:SKYD": {
+      "last_attempt_utc": "2026-11-09T19:06:59.130588+00:00"
     }
   }
 }
