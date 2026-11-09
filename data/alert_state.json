@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-09T16:15:35.334343+00:00",
+  "last_run_utc": "2026-11-09T16:30:41.318244+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3207,7 +3207,7 @@
       "last_attempt_utc": "2026-11-05T19:24:23.763239+00:00"
     },
     "single:IRM": {
-      "last_attempt_utc": "2026-11-05T19:27:24.554262+00:00"
+      "last_attempt_utc": "2026-11-09T16:34:02.661892+00:00"
     },
     "single:CPAY": {
       "last_attempt_utc": "2026-11-05T19:30:10.162064+00:00"
@@ -3228,7 +3228,7 @@
       "last_attempt_utc": "2026-11-05T15:03:04.695271+00:00"
     },
     "single:NVDA": {
-      "last_attempt_utc": "2026-11-06T14:47:17.305983+00:00"
+      "last_attempt_utc": "2026-11-09T16:33:51.632090+00:00"
     },
     "single:CSCO": {
       "last_attempt_utc": "2026-11-05T20:49:16.339239+00:00"
