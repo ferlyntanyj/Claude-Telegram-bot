@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-11T10:15:36.665940+00:00",
+  "last_run_utc": "2026-11-11T10:30:44.542146+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1845,7 +1845,7 @@
       "last_attempt_utc": "2026-11-02T12:48:27.021463+00:00"
     },
     "premarket:LITE": {
-      "last_attempt_utc": "2026-11-06T13:36:52.526322+00:00"
+      "last_attempt_utc": "2026-11-11T10:34:39.375214+00:00"
     },
     "single:LITE": {
       "last_attempt_utc": "2026-11-09T19:06:16.776293+00:00"
@@ -2340,7 +2340,7 @@
       "last_attempt_utc": "2026-11-04T13:18:28.995286+00:00"
     },
     "premarket:SMCI": {
-      "last_attempt_utc": "2026-11-06T11:49:21.433157+00:00"
+      "last_attempt_utc": "2026-11-11T10:35:21.473680+00:00"
     },
     "premarket:SWKS": {
       "last_attempt_utc": "2026-11-04T13:18:55.117641+00:00"
@@ -3162,7 +3162,7 @@
       "last_attempt_utc": "2026-11-05T12:19:07.640111+00:00"
     },
     "premarket:SNDK": {
-      "last_attempt_utc": "2026-11-06T13:04:50.776102+00:00"
+      "last_attempt_utc": "2026-11-11T10:33:55.330537+00:00"
     },
     "premarket:PH": {
       "last_attempt_utc": "2026-11-05T12:48:49.442024+00:00"
@@ -3603,13 +3603,13 @@
       "last_attempt_utc": "2026-11-06T08:19:00.554100+00:00"
     },
     "premarket:MU": {
-      "last_attempt_utc": "2026-11-06T13:04:17.505871+00:00"
+      "last_attempt_utc": "2026-11-11T10:33:33.129605+00:00"
     },
     "premarket:LRCX": {
       "last_attempt_utc": "2026-11-06T13:04:28.374976+00:00"
     },
     "premarket:MRVL": {
-      "last_attempt_utc": "2026-11-06T13:04:39.681409+00:00"
+      "last_attempt_utc": "2026-11-11T10:33:43.977224+00:00"
     },
     "premarket:ABNB": {
       "last_attempt_utc": "2026-11-06T13:34:58.324273+00:00"
@@ -3630,13 +3630,13 @@
       "last_attempt_utc": "2026-11-11T09:33:57.519195+00:00"
     },
     "premarket:TER": {
-      "last_attempt_utc": "2026-11-06T13:39:53.768527+00:00"
+      "last_attempt_utc": "2026-11-11T10:35:00.437009+00:00"
     },
     "premarket:STX": {
-      "last_attempt_utc": "2026-11-06T13:34:15.238243+00:00"
+      "last_attempt_utc": "2026-11-11T10:34:06.356831+00:00"
     },
     "premarket:WDC": {
-      "last_attempt_utc": "2026-11-06T13:34:28.140701+00:00"
+      "last_attempt_utc": "2026-11-11T10:34:18.306798+00:00"
     },
     "premarket:CIEN": {
       "last_attempt_utc": "2026-11-11T09:20:08.929701+00:00"
