@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-11T11:15:35.193778+00:00",
+  "last_run_utc": "2026-11-11T11:30:39.042726+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1836,7 +1836,7 @@
       "last_attempt_utc": "2026-11-02T11:17:57.102068+00:00"
     },
     "premarket:COHR": {
-      "last_attempt_utc": "2026-11-11T09:19:47.557483+00:00"
+      "last_attempt_utc": "2026-11-11T11:34:06.206675+00:00"
     },
     "premarket:ECHO": {
       "last_attempt_utc": "2026-11-04T13:18:40.146894+00:00"
@@ -2070,7 +2070,7 @@
       "last_attempt_utc": "2026-11-03T13:18:08.925581+00:00"
     },
     "premarket:BE": {
-      "last_attempt_utc": "2026-11-11T09:19:34.664473+00:00"
+      "last_attempt_utc": "2026-11-11T11:33:55.314339+00:00"
     },
     "premarket:RVTY": {
       "last_attempt_utc": "2026-11-03T13:48:59.386916+00:00"
@@ -2367,7 +2367,7 @@
       "last_attempt_utc": "2026-11-10T13:02:41.903366+00:00"
     },
     "premarket:VRT": {
-      "last_attempt_utc": "2026-11-11T09:19:23.856287+00:00"
+      "last_attempt_utc": "2026-11-11T11:33:44.192051+00:00"
     },
     "premarket:VST": {
       "last_attempt_utc": "2026-11-06T13:38:23.182068+00:00"
@@ -3618,10 +3618,10 @@
       "last_attempt_utc": "2026-11-06T13:40:54.136426+00:00"
     },
     "premarket:AMAT": {
-      "last_attempt_utc": "2026-11-06T13:33:40.544138+00:00"
+      "last_attempt_utc": "2026-11-11T11:33:11.567157+00:00"
     },
     "premarket:DELL": {
-      "last_attempt_utc": "2026-11-11T09:19:02.029566+00:00"
+      "last_attempt_utc": "2026-11-11T11:33:22.504320+00:00"
     },
     "premarket:KLAC": {
       "last_attempt_utc": "2026-11-06T13:34:02.310253+00:00"
@@ -3639,13 +3639,13 @@
       "last_attempt_utc": "2026-11-11T10:34:18.306798+00:00"
     },
     "premarket:CIEN": {
-      "last_attempt_utc": "2026-11-11T09:20:08.929701+00:00"
+      "last_attempt_utc": "2026-11-11T11:34:17.331942+00:00"
     },
     "premarket:ON": {
       "last_attempt_utc": "2026-11-06T09:33:53.747947+00:00"
     },
     "premarket:GLW": {
-      "last_attempt_utc": "2026-11-11T09:19:12.974697+00:00"
+      "last_attempt_utc": "2026-11-11T11:33:33.271293+00:00"
     },
     "premarket:P": {
       "last_attempt_utc": "2026-11-06T14:21:17.629075+00:00"
