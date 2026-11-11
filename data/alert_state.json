@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-11T12:00:49.324965+00:00",
+  "last_run_utc": "2026-11-11T12:15:31.553680+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3624,7 +3624,7 @@
       "last_attempt_utc": "2026-11-11T11:33:22.504320+00:00"
     },
     "premarket:KLAC": {
-      "last_attempt_utc": "2026-11-06T13:34:02.310253+00:00"
+      "last_attempt_utc": "2026-11-11T12:18:15.663227+00:00"
     },
     "premarket:HPE": {
       "last_attempt_utc": "2026-11-11T12:03:32.174964+00:00"
@@ -3651,7 +3651,7 @@
       "last_attempt_utc": "2026-11-06T14:21:17.629075+00:00"
     },
     "premarket:FLEX": {
-      "last_attempt_utc": "2026-11-06T14:21:28.776209+00:00"
+      "last_attempt_utc": "2026-11-11T12:18:26.616101+00:00"
     },
     "premarket:APH": {
       "last_attempt_utc": "2026-11-06T10:33:13.728759+00:00"
