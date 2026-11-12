@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-12T11:01:00.432756+00:00",
+  "last_run_utc": "2026-11-12T11:15:35.551644+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3723,7 +3723,7 @@
       "last_attempt_utc": "2026-11-09T13:33:09.350686+00:00"
     },
     "premarket:NVDA": {
-      "last_attempt_utc": "2026-11-12T09:03:39.108874+00:00"
+      "last_attempt_utc": "2026-11-12T11:17:48.945439+00:00"
     },
     "single:FERG": {
       "last_attempt_utc": "2026-11-09T19:06:37.967670+00:00"
@@ -3805,6 +3805,9 @@
     },
     "single:SIE.DE": {
       "last_attempt_utc": "2026-11-12T08:32:01.573808+00:00"
+    },
+    "single:III.L": {
+      "last_attempt_utc": "2026-11-12T11:17:38.100802+00:00"
     }
   }
 }
