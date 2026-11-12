@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-12T00:15:36.369458+00:00",
+  "last_run_utc": "2026-11-12T00:30:51.105444+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3790,6 +3790,9 @@
     },
     "premarket:ORCL": {
       "last_attempt_utc": "2026-11-11T12:48:46.069993+00:00"
+    },
+    "single:138040.KS": {
+      "last_attempt_utc": "2026-11-12T00:32:25.899544+00:00"
     }
   }
 }
