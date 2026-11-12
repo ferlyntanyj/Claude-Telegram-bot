@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-12T17:00:55.076805+00:00",
+  "last_run_utc": "2026-11-12T17:15:38.555080+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1554,7 +1554,7 @@
       "last_attempt_utc": "2026-11-11T19:06:42.339787+00:00"
     },
     "single:GPN": {
-      "last_attempt_utc": "2026-10-30T18:33:56.849243+00:00"
+      "last_attempt_utc": "2026-11-12T17:17:03.300178+00:00"
     },
     "sector:telecom services": {
       "last_attempt_utc": "2026-10-30T18:34:08.100731+00:00"
