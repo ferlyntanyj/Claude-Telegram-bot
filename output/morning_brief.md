@@ -1,27 +1,27 @@
-# US Market Morning Brief -- 12 Nov 2026, 15:28 SGT
+# US Market Morning Brief -- 13 Nov 2026, 14:59 SGT
 
 ## Markets
-- [Nvidia board meeting to decide CEO Jensen Huang’s fate stretches into evening](https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html) — CNBC Top News
-- [Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang](https://www.cnbc.com/2026/11/12/elon-musk-jensen-huang-nvidia-tesla.html) — CNBC Top News
-- [What we know so far about Nvidia partner Megaspeed’s Asia footprint](https://www.cnbc.com/2026/11/12/nvidia-megaspeed-alice-huang-jensen-.html) — CNBC Top News
-- [Meta head of infrastructure will leave and be succeeded by former AWS cloud exec](https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html) — CNBC Top News
+- [Widespread Microsoft outage takes down Outlook and other 365 services](https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html) — CNBC Top News
+- [Why Singapore keeps turning up in the fight over Nvidia chips and China](https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html) — CNBC Top News
+- [Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion](https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html) — CNBC Top News
+- [Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation](https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html) — CNBC Top News
 
 ## Macro, Fed & data
-- [Treasury Yields Rise on Strong Jobs Data](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTjNsSlBvQ2VnWnZFM1RMRHEyUjM0RnlaRnByUDlZajM3VWFvSjMzeU1QYXktM0llSmtNRTQ4aGNkWFdYVnR1S2w5TXhiM1dlbWxaZk5UVy1tcFd0TnVUOXh6N1FfdlcxTDZxaWN1TWVYNE9GOTcydWJ2RmpkUnpkdmNxcGF5ZUVnR0RiT09lYklIUU1DbklyQzM5cUZHZFNJSVEzVTNKZkE?oc=5) — WSJ
-- [Analysis: Is Nvidia too big to fail? Its AI financing web raises the stakes](https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html) — CNBC Economy
-- [US Treasury Futures Retreat as Markets See More Fed Hikes](https://news.google.com/rss/articles/CBMisgFBVV95cUxOa2hXVmxBejZuMktqMDMzbUNTcDA3ajBFdlE0MlpZc3AyU0ZPeHl0ZjJ3b3BhT2REdlRDVmRYWS05aFVhemtkZmVacFBnWFNXQlg5QjlmREo0VEdHRFFyTXNYR1FqV1VKUlhtVlNsT1ppUDRVQ0FVUTdGTW9FTXdVWWRVN0ZZMXpMNFo1dFBtMzJ4SzNRWHJkWnBlaGZId0x6dXJXSmU0ZW5tczhnc2pUM2Rn?oc=5) — Bloomberg.com
-- [Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report](https://www.cnbc.com/2026/11/11/social-security-benefits-taxable-payroll-gdp.html) — CNBC Top News
+- [Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over](https://news.google.com/rss/articles/CBMiswFBVV95cUxQWjhkdkdUYk85b1djY25EQk9aY3VBUmdlZGVpS251di03VTMzaDRvVHIzbEZBcjZSSlNvMDNXdXFNX3A0QTB6TFBXRndSdFFyNXBwMXRtRmZIcVJySzVXaEZDQ25HN0ZDOGZtbkpibUZ3UDZPUWpiVWVLMU1hVzk3X3JwQ2NxVXo3WkVWMnhqandnNUg0UjlnUUNSTkUwYjFLd3ZBeEFBel9yT2h5WVRObU0zYw?oc=5) — Bloomberg.com
+- [JGB Yields Rise After Selloff in U.S. Treasurys Overnight](https://news.google.com/rss/articles/CBMimAFBVV95cUxNdFFJNzZwOHpzaW9aR3UzZlhvemJ6OG9tVkJzbTJaVF9LLVR2bHBMdDl6ZGdCc3VmZzVLT25hRU9CQXhydkpsRWdCWFJidzdtdDVsSy1kWjFhbXR5YlBIeXVtTmxaV000dnduamh3UnNyc09DTDlVRWdHVU5TS2NvekNXeXJlM1ZEVG9LT19Xak54WGV5VjQ3bg?oc=5) — WSJ
+- [Fed’s Williams Says Inflation ‘Far Too High,’ Work to Do](https://news.google.com/rss/articles/CBMirwFBVV95cUxPWmwxOGI1cll5UUxfWkNqVEVhOEtfWGZaY1phLWdBdzBDVUhzMWJseXBPdTFsU3dQZW5HRlgzbWo2dEx1cWIxMnpjVjdFV1ZvTzJ5UXZDd1RRcFJyUEcyV2pqWndGc21aQ3JJMUtJeHFCM1JsNFg2eklQTkMtLXZacTFqZnhGaFdpTm1jc3p0cEF2aFNRTVJxckJCTy1MaFRnVGw0MUNiNm5qQ1lCRlRj?oc=5) — Bloomberg.com
+- [Treasury Selloff Accelerates, European Bonds Follow Suit](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc0VSTVFyMVRIR1EtM1J2eWU0MW45b3BmWVMwTWRwbmQzcmhvVlBuTEFQNWowTEI2SUd2cngzbmZ3VXMwYTVxc2NaSTg0WnZ4VndDaHVGNWZGcFcxN1NOUWsyMHd2RTJVNjJqZ2JiQy1XRDNpM2VGRFpiX1RVaTBnM01FSTVLUXJOYkFSRnhKaFBhNzZfUUZsZGJTWlBZbjRxV29UR0k5NVJ5U3ZVdXpYZ2NLeVlKb2ZC?oc=5) — WSJ
 
 ## Stocks & earnings
-- [CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns](https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html) — CNBC Markets
-- [Stock Market: Will S&P 500 Open Up or Down Today?](https://news.google.com/rss/articles/CBMikgFBVV95cUxOamhNMTdnTVNCZktocGNhQV9sUFg5YXE4WXZ3LThOUlVJRS1EZjZoeXhpMWlsSWE2STE0NWJFcmJDSm8ydktsYnlTaDZFX1ZHZEhua1pnNUtHOUZVRC00VUNvcDNkS185Q1kwWUNhNTRLbWFnVHk0X2JFNXdaTVNyYXplblB2bm5SLU8wNUpwZW9udw?oc=5) — Yahoo Finance
-- [Bouncing Wynn Shares might be primed for the 'wheel strategy'](https://www.cnbc.com/2026/11/11/bouncing-wynn-shares-might-be-primed-for-the-wheel-strategy.html) — CNBC Top News
-- [Yahoo Finance - Stock Market Live, Quotes, Business & Finance News](https://news.google.com/rss/articles/CBMiP0FVX3lxTFBBTy1pM1poaEROWTVTNDVTYVdvTDZEWmM1VDhGdlUzWW1OUXNvQ3RmZTVZQ3BGVlhvbTlWNFNhUQ?oc=5) — Yahoo Finance
+- [How the Jensen Huang affair changes the outlook for U.S.-China relations](https://www.cnbc.com/2026/11/13/jensen-huang-nvidia-us-china-relations.html) — CNBC Finance
+- [Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal](https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html) — CNBC Markets
+- [Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year](https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html) — CNBC Top News
+- [Why Nvidia stock drop isn't a big deal for many ETF, mutual fund investors](https://www.cnbc.com/2026/11/12/nvidia-stock-drop-etf-mutual-fund-investors.html) — CNBC Top News
 
 ## Geopolitics
-- [Inside India newsletter: Trump's poll setback fuels hope for U.S.-India trade deal by year end](https://news.google.com/rss/articles/CBMiekFVX3lxTE80V0syTE1ELXIwZUwybW9ET0h0cktNc1k0Sjc2b2tuUk1QR1hnTzNRNGJDYmVWV0dhWW1kQkV0VmVEd2VBQlRkdXR4YlBacHd3Z2VPeDJQS3lDR3EwSmpCejRGTm1qRGNwTGo5TE1nMk5qbW45azlHSlNB?oc=5) — CNBC
-- [US-Backed Lithium Americas Hit by Rising Costs on Trump Tariffs](https://news.google.com/rss/articles/CBMirAFBVV95cUxQaUhSN0xla0Fsc3huTHlzVU9nSE0wZ3lIWHE1MWN6WVduMnVzeWdteXkwZXk1NDFlQ0pNSElmQTNHM0dtTTJuNk93WHdJeG1mNlUyWTlqMHVnalU0QVVocWRLUWp5Ti1kVXpYX2M0aGRCRFc5c08zdXhXdjJQOFI1anVTTHRVd2d5Sk5ITFRtUERjb3FNS01CRmpFZHBVLXpEZVhMancyU1hZUjhl?oc=5) — Bloomberg.com
-- [Mexico says crackdown on Asian steel shipments is paying off as US tariff talks advance](https://news.google.com/rss/articles/CBMinwFBVV95cUxOa1FQRUhtYnVtYW9mSzBsVDFDTU1lY2dkQzNIRENZR0ZwT3BsdXlqb24xa3RNQU11eExaeTVWaEp5d2VhMDF6NjVYSEh0NkYtOG1FUnJSWGRSdnJIR2hib3J2Q2VCMHk3N2xvZXpmYktWUUlCUWt3X2hnWDNsSDFfTkllSlBfbFYxNGx4VHVEVzAwSWRFQjI1eUltdW1iTXc?oc=5) — Yahoo Finance
-- [Manufacturing advocates make case for tariffs following midterm results](https://news.google.com/rss/articles/CBMisAFBVV95cUxOMzZrS2g2UlBiRjFlcjV5aXlxX0NBTDVEZk5DR0hsN0VqUEFaTGdaZ250UktSWkJjZFctZWp1OGhmdGtXbC1PZGxhVnZ4YWVoVk13eEFKQi11RURBdndqQ21DSmFpWnM4aHFuWnMtNkhuRGNOcU1mZkY1M0dsZEhpZG1vVjVYMEdVN3dRYXlEbGVkcXlQUjVibDJybWhjaWhjY0o0dEp2UVJ5R2dEVWUydg?oc=5) — Yahoo Finance
+- [Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'](https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html) — CNBC Finance
+- [Trump says ‘we don’t need a deal with Iran’](https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html) — CNBC Top News
+- [Trump Threatens to Double Tariffs on Mexico Over Migrants](https://news.google.com/rss/articles/CBMitgFBVV95cUxOMnJ4S0x3TmVXb1NReEMzUU1uNU1NNmdmaXpQN0RKdFY3cUR0TmxEUFRMdk4tenRfY1Y2VDBTN1ZUSWFMandoSU9KcFhrcnF0QnZ2WVktRzZiRlZnTEVMY2xpUUU2d3lab1dILTR0alIzdDZvaThKMlcxMHQ0c3ljTDNhSG9mbTluT1NDUDhheHZnTGlXQzF3S1lBNk4yUThVQm11cE95TnEtZTFwU0VKeXVLTy1iZw?oc=5) — Bloomberg.com
+- [Canada threatens to sue Stellantis over auto plant sale as Trump’s trade war shifts production south](https://news.google.com/rss/articles/CBMiowFBVV95cUxORnlhQ0lXZEVGVEl1WVVmREVnME1EX1VVZkE5b2k2c3RsenVjNERHNDFrb1FVeEdCQzk4bHRxN1ZnYmxNS2FBXzk4VWlCcmhEUlN3UFc3RnVJUEF3djFMWTNuQkdheGtIdkRWTkdwMUpZOUtnQUY5allQZ1pheFdmMUlZWC12Zy03eXhBQ3RpUkF0NXp3ZDJhd2V2WG9NQl8tN2JR?oc=5) — Yahoo Finance
 
 _Sources: Google News + CNBC + Fed feeds (16 headlines, 20h window)._
