@@ -1,19 +1,21 @@
-# Global Semiconductor Brief -- 13 Nov 2026, 02:31 SGT
+# Global Semiconductor Brief -- 13 Nov 2026, 15:04 SGT
 
 ## Policy & geopolitics
-- [Jensen Huang's affair with alleged spy revives push to tighten China chip curbs ahead of Trump-Xi summit](https://news.google.com/rss/articles/CBMikAFBVV95cUxQbEZQd1VKRnhGOXdpSDNHeGtxVzBDdEN3a0VnV3hyZG9YZXhscndPSk92N291WE5CTkYwU190dWNSVHFYUnFtWDUyaGtXLTNxWDZzT0oweU9wdTBFS0x1RzJtR0hvbks1TGFCQ0J5QnN3Q01vd0V6bVdtaWZxMGdTY1VoUU9aQm1uRFVVOC1qM0c?oc=5) — CNBC
-- [Chinese universities obtain Nvidia chips despite US export controls](https://www.digitimes.com/news/a20261112PD237/chips-nvidia-university-supplier-military.html) — DIGITIMES
+- [Dutch court further curbs Wingtech's control of Nexperia, widening China chip supply chain split](https://www.digitimes.com/news/a20261113PD247/nexperia-dutch-chip-supply-business-supply-chain.html) — DIGITIMES
+- [From personal scandal to national security probe: how Nvidia chips reached China's AI giants](https://www.digitimes.com/news/a20261113VL221/nvidia-china-chips-security-deepseek.html) — DIGITIMES
+- [Lutnick's clash with Treasury over Nvidia chip curbs deepens as White House weighs his future](https://www.digitimes.com/news/a20261113VL211/nvidia-cxmt-2025-blacklist.html) — DIGITIMES
+- [Explainer: Tougher curbs on AI chip sales to China likely after Nvidia CEO resigns](https://news.google.com/rss/articles/CBMiswFBVV95cUxQRERObVhKZklNOEliOFhfQmhqMmZaQWktbkVWTXlxZU8zbUtxQ1cwZnZpaGJwZ1djUHFFVVlydTFsQUd3UUJEV0NOdUliUGY1ZGNKN1ZPWG1zYkpxcEgtNGJlSFVrTi1EVm84MnFFbWxmeXR1YmotNUdzVFBtUVU1VmhPR3ZGTHFUcHlSUnRQQmU0WUYyRi1fdnNHOHc3QUh2OWVsQURUb3BwVTVaMm9NRUdnbw?oc=5) — Reuters
 
 ## Supply chain signals
-- [Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief](https://www.digitimes.com/news/a20261112VL217/nvidia-ceo-jensen-huang-president-roadmap.html) — DIGITIMES
-- [Micron says it has not required waivers and will keep negotiating in Taoyuan labor dispute](https://www.digitimes.com/news/a20261112VL216.html) — DIGITIMES
-- [Pegatron targets multiyear AI server surge, with Nvidia Vera Rubin shipments set for 1H27](https://www.digitimes.com/news/a20261112PD244/pegatron-rubin-nvidia-2026-shipments.html) — DIGITIMES
-- [Jensen Huang’s exit clouds future Nvidia demand for Korean chipmakers](https://news.google.com/rss/articles/CBMivgFBVV95cUxOMjVZaXZ3TUVEb2NydmpBa3pVTUg5OWhpbnNMQnhNUElDbDlVLXUyNmh0NEJWbURVTHp4eEpEUldDamtfUWFoLUNLU2ZOZkxhVVJWVWM0eEMwdGY5Q3QtU2NndnJMckNaOENseXNPTmZTck1vRTZ0dHI5MTBKWWxTU21GVmR1M182WkNMMzQ0ZHBYVjZQZDZSX1lqVjZWM3NYN2hKSXpxSTNncS1WWXZYbzFBNk1hdURBenBWd0Z3?oc=5) — Korea JoongAng Daily
+- [Samsung reportedly wins more AI chip orders from US cloud firms](https://www.digitimes.com/news/a20261113VL229/samsung-ai-chip-manufacturing-2028-2nm.html) — DIGITIMES
+- [CXMT targets higher-value DRAM market with AI server memory, LPDDR6 breakthroughs](https://www.digitimes.com/news/a20261113VL228/dram-cxmt-market-ai-server-automotive.html) — DIGITIMES
+- [SK Hynix, Intel explore shared memory to ease AI bottlenecks](https://www.digitimes.com/news/a20261113PD229/sk-hynix-intel-data-capacity-cxl.html) — DIGITIMES
+- [Intel forms 23-company Korean AI alliance as it pitches HBM-free inference GPU](https://www.digitimes.com/news/a20261113VL226/intel-gpu-alliance-president-design.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Jensen Huang Built Nvidia. Its Chips Made the AI Boom Possible.](https://news.google.com/rss/articles/CBMid0FVX3lxTE5MOHRYci13aWFVQTZaTU1YaWhNamhHdjBmUEsxRk1vZlVVM0JwaUdLTldZc3M3MnlGRzRENm9QeUNRLXVNcFBTV2hYSk9NVjM1TE5JOFlIeXhybHZQYmJjcTdXdkdPSEZzTUVBM3I4bFY2aHlVMmdz?oc=5) — WSJ
-- [Trump's Commerce chief Lutnick criticized over chip exports after Nvidia CEO resignation](https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ2JBc1RoY3pGRnZ0R1BzOW43SHY5eGxjZHpwMlZVZWNSRDMxaG51ZkVSdkVuN1I4bkdCTEZTV3ZETGRpVTBxaGhHSlprM25XNFd0b3N6eHJhc3RneHJrWGl2alVlTVh6R0xtbFJVLTRjaEE0djZxTE54Nkp4UHBYWVJKdGlhM2hmNFM2dWRNeWF0d2tRcnVYT0dtOXZDdGx4QXlsUHAzOHNKQUpaTFE?oc=5) — Reuters
-- [Jensen Huang Has Been Ousted as Nvidia CEO](https://news.google.com/rss/articles/CBMikwFBVV95cUxON2VaZ01EcWdXc1ZGb3plNUNMM294WGZlT0tTbWw2SFNPOHZ3ZERtQlR6RkhLRWF2cHExRnNfWGZINm1NWVoxVjRSUDRTVXRFb1RaRGcyMXFUdEd0LWtlME5SVHJETVdzOHR6eHhyNXJLVXF6cldFbnhHMXcydFMzTGhzVnhWN2RQX2d0X1N4QVZvdUU?oc=5) — WSJ
-- [Trump Backs Lutnick Despite Uproar Over Nvidia Chip Controls](https://news.google.com/rss/articles/CBMisAFBVV95cUxQd1FwaWhheUk3dk55VE5iZUNpa1FzSHJrR1ppZzN2TGY1X3BTaXFTVjAzZmtwTG82NWZlV1pxQnJPT013d1Zzc3NsMTJFSHpqS2oxTEY5LVdSejZrUERSc0EwZXV5ejJqQ2JlbldydWg3NXpISk1pd0Y5cW0xNzdyTm80eUtjNVNsdEltZHd5dmppN3ZRcmJMemVLTFBBZzF1Zkx3OUNBODFiRXZWcmpWRA?oc=5) — Bloomberg.com
+- [Singapore Charges 5th Person Linked to Nvidia Chip Case, ST Says](https://news.google.com/rss/articles/CBMitAFBVV95cUxPZVV6VXYySmNyb1B3cXRtMU54M0ptUnZEQzNqSjNtWXMyRmFiNzgxeVNnN1FoUGo4ZUNGcEs3aXZjakY4UmFWZ1FfbGJjOGdXRFlmYlI1N21ETndoM043a3J5aW1BN3FibXJaUjdHajBsX3BKZXFFSGtOREVQQTBUOGJxb3F0Uk14dEFucFpoeDZSaXB5MmlXb2V3eVFJaUhYRTg5Ym9naThBc2VwZHBQZVdFeTM?oc=5) — Bloomberg.com
+- [Nvidia Crisis Prompts Scrutiny of Lutnick’s Role in Chip Policy](https://news.google.com/rss/articles/CBMitAFBVV95cUxObDVreDlTUVZLbjBNRGZmNkxwcmMyNWN2UnZKNzdpMnVSQ0tlUUdGa2VzOWhQZnpOWFVXZEFoa3g2Rm1WbnlvNFpjVElGdUZwVXpGbkZLdDlQWmN6ZGtUY2RNSUNuR2FYNmcwbElSZ0p5aVg5ODFvcTg0TEJNa1FGRHVwMTVhSmNfdmFvZkxrTEdkai1tMThtbkVuX2l2THV1NWxucldhekVDR3c3aFE2RFVpZEM?oc=5) — Bloomberg.com
+- [Malaysia Checks Whether Chips Were Reexported by Megaspeed Unit](https://news.google.com/rss/articles/CBMitAFBVV95cUxQRmxxQ0NkNGhzN3NSa1hWT05Zb0tJQTVoaER6WnNoekNvSXdta2ItY2x4NWNzSmJGcWpMVHFOZW9fWUVscGdjaGYwVlZRWVRIU2xiQjUtQXpjRlQ2QmZOSHpFUDRaYkFQQ0JNZ2FKOGQ4WHFlcHN0ZW5GNXdxaHNHTURYdW9VTDJmX1ZnZU5zTHVBQW9yTVNkV3BrM1dob3pDVjNrcGdDanBGWkdRTEtaWFhIbnA?oc=5) — Bloomberg.com
+- [Why Singapore keeps turning up in the fight over Nvidia chips and China](https://news.google.com/rss/articles/CBMigwFBVV95cUxNSUlzazdYOUVTS2RDeVNVZUw5MnRrampIYjc0d19CczZzX3JnYmhTak5YQ2JpWUFYTlgyT1dndUVsYUZWVzBNQWxfSGtuTHFxMTVscnlGVlgtU2pURkdETlB3NnZjd3RxTmc2WUdacW83NXI1akJFT1E3SkF4SHlpZ3V1VdIBiAFBVV95cUxNd3dzU3pLUjZaT0xrR2RtVTJ3YnZLbWx5LWpDbWhFTF9HbS1PVDU4U3RPeEp0UzNJaWIwLUtNT0JkREtGN1k3azZtVWNGMW5EclZOLWYtMjV4RjJPbmdtc0dSMGJSbTd1T1BNLWVxZDBhX0RhY09BclJObjZpTTZlUEFpdUo3eVhk?oc=5) — CNBC
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (10 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (12 headlines, 13h window)._
