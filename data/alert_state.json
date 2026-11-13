@@ -1545,13 +1545,13 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-13T16:08:31.000755+00:00",
+  "last_run_utc": "2026-11-13T16:15:38.285474+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
     },
     "single:ON": {
-      "last_attempt_utc": "2026-11-11T19:06:42.339787+00:00"
+      "last_attempt_utc": "2026-11-13T16:18:05.758505+00:00"
     },
     "single:GPN": {
       "last_attempt_utc": "2026-11-12T19:17:28.947192+00:00"
@@ -1893,7 +1893,7 @@
       "last_attempt_utc": "2026-11-02T18:47:48.931660+00:00"
     },
     "single:STX": {
-      "last_attempt_utc": "2026-11-11T19:04:53.114958+00:00"
+      "last_attempt_utc": "2026-11-13T16:17:53.829247+00:00"
     },
     "single:CSGP": {
       "last_attempt_utc": "2026-11-04T15:06:09.638210+00:00"
@@ -1914,7 +1914,7 @@
       "last_attempt_utc": "2026-11-02T18:19:01.818192+00:00"
     },
     "single:INTC": {
-      "last_attempt_utc": "2026-11-11T19:03:42.251458+00:00"
+      "last_attempt_utc": "2026-11-13T16:17:31.853857+00:00"
     },
     "single:WDC": {
       "last_attempt_utc": "2026-11-13T15:17:52.631661+00:00"
@@ -3189,7 +3189,7 @@
       "last_attempt_utc": "2026-11-05T19:12:45.713401+00:00"
     },
     "single:LRCX": {
-      "last_attempt_utc": "2026-11-11T20:18:15.513791+00:00"
+      "last_attempt_utc": "2026-11-13T16:17:42.857510+00:00"
     },
     "single:CRWD": {
       "last_attempt_utc": "2026-11-09T20:04:02.488576+00:00"
