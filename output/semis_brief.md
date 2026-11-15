@@ -1,12 +1,15 @@
-# Global Semiconductor Brief -- 15 Nov 2026, 00:40 SGT
+# Global Semiconductor Brief -- 15 Nov 2026, 14:59 SGT
+
+## Policy & geopolitics
+- [AI chips, rare earths and trade: 5 US-China questions looming over Shenzhen Apec CEO summit](https://news.google.com/rss/articles/CBMi2wFBVV95cUxORVZMcnlhcmEtTGpLcXJCeklJZHh1SGFQTWVNRXZ4aFZSR3FVZmdGYlE2bkNnWWd2S2dIVjVDV3YzZFVlR3hVUHhZOVEzUG1aMmgxWHBkYzhKRnh5UUVuMlh3bmN5RGJCTjgzTHpLLXpLd3NKcWlJYWRuaTBselhoRWVKSTZ4T1ZzSDkwcFIzZWpvdTg0QTZjZVc4amhTa2dTLV8wRTJkUVFOV2VleHg3cUEySHE5ZnJZMTZGalFNZEhiQ2FXZFkzdXV1NjdDQk9jUFhjQmZlZkZQdm8?oc=5) — The Business Times
 
 ## Supply chain signals
-- [This week in Tom's Hardware Premium: November 14, 2026 — Mac Studio versus DGX Spark, AMD's MEXT cuts DRAM requirements in half, and the Huang saga reaches critical mass](https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-14-2026-mac-studio-versus-dgx-spark-amds-mext-cuts-dram-requirements-in-half-and-the-huang-saga-reaches-critical-mass) — Tom's Hardware
+- [Synopsys sees AI accelerating EDA as chip-specific models divide work](https://www.digitimes.com/news/a20261112PD239/synopsys-eda-openai-development-design.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts](https://news.google.com/rss/articles/CBMif0FVX3lxTE1iUTd1amNDQzhvSy1kWGcwdk1CZjRGZG9rTFc4VEFRX3p2Y3VTdzd6dDRkSnJnR21nUkt1OVVlajV4R3VJTElDYUpJQlBfbzhKRFB5RUdWdEJWLVotUVJQS2hqZFpJZGpERlJFWUNJb2ZZbUtNYWVtN2pNb3liSGvSAYQBQVVfeXFMTVZlLXNUMVl0Qkc4M2ZKWGFwNnB6U05GSEw5LXlXQlNKN2MwMUg1by1Pb3pyd3JoWHRzQkcxRFJmOG45RzlzcVNybHJ0Q3VyZEtfdlctNDdZSGpYU2NlaUpIUFFrdkE2akpLdFdBRkppeFBWYk1qT0gyd3ByLXhaVmdySDYy?oc=5) — CNBC
-- [Asian governments react to Nvidia CEO Jensen Huang’s exit](https://news.google.com/rss/articles/CBMilgFBVV95cUxPNEoxX192QmszeDd5VmpzdjNBT2hZYnZGT0huU0VlVktDcldFeThrQ2FRQnBmNk04MVlEZlNjT3lpUHd3US1DWE1vd1d5aXZwWDRYQ3NyaGw3QmRUS3Z0Q1dfSW5uUlRmd1U5cFZKYnJ1eUVUb0hVLTc3b3czOWw1a1dJZHlZTldlc003MnRFSlQ5UTBLUWc?oc=5) — TechCrunch
-- [Samsung's 1TB 990 SSD drops to 19 cents per GB amid the memory crisis — grab it for $40 off](https://www.tomshardware.com/pc-components/samsungs-1tb-990-ssd-drops-to-19-cents-per-gb-amid-the-memory-crisis-grab-it-for-usd40-off) — Tom's Hardware
-- [U.S. Treasury Secretary questions whether Nvidia knowingly sold AI GPUs to shell companies, says company itself is responsible](https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that) — Tom's Hardware
+- [Samsung conquered AI chips. Now it wants to build data centres](https://news.google.com/rss/articles/CBMihAFBVV95cUxNcGlFcXVUUzVSNTBhc2s3R1RFQWpYZGxGc2JCTll4WE1hQ0dRWlBlbzhiRW80ZHVmdktJMlBmZF82dmRyZkpIUW93RDRPbnVPLVloRTlDcmlJOUxGWFJrNnhYWENUZFVZNXBwN19kRjljVkVnaE5lYTUwODdvai1CU0xyTC0?oc=5) — Financial Times
+- [What will Nvidia’s post-Huang era look like?](https://news.google.com/rss/articles/CBMicEFVX3lxTE5KMk1CRjNfbC1mOTFXTGJhbWQtUHFWUDN1NHdBdWxUcWhRWTdCWGlIUF92c1c5X3NXSkVzTzVsb1FNZDlPU1U1UXFvOEJiRTFWUkpfY04xc252TllpTTR1WnFzSWFkOXZDS18xU0hKWVQ?oc=5) — Financial Times
+- [Samsung, SK hynix account for more than one-fourth of Korea's stock market credit loans](https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSWw2bENpRmhnYTFtV2NsYW0tWFhxS21HOVZVQjh1QXpBOUZoRHZDUTNzYmhESmVIa1BvQkU4MFVUVDdPX3NCdXpmSjdGNGpBZFBuV09qOUtMSXpDXzVSN1lReGdVM052WGRqU0VpNGsxM05hcXc2RkswUGxiX0U4c3RlMGdmVUxWSXM0Y05rTW9lUXVEWGNUY05DSjhidTFMLVRTaEMwYXNSTFQ0QTlhdHotODFncEZBNWhMOHhFYnFBbE9aREpCMUV5ME9NNVBNQ3hj?oc=5) — Korea JoongAng Daily
+- [Malaysia probing alleged Nvidia AI chip diversion since April 2025: Home Minister](https://news.google.com/rss/articles/CBMi2wFBVV95cUxORnppTy1Del8zNFFvWjNCM2RBOGZHaUhaNFBER1lmNThBRUFVeDhVbEZwcHpzTHZVYldWeE5IQndyRXM2U0xtLTFOeGFkN1ZyNzQtQkZiQkYweVB4V29jRGgtWEhweG52RjM0ZXp6LWlWa2xydUJOdkpDRl9Jdm1wdFlZZXlvMHRvVTVPTDdpWW1Cb19SVnhjM0RHb3I4M1A2X19IYVhUTzJvMFh3WmxVekpQZFBJMnBzbWkwM3YtZ29MeFNKNDM2bURsdEJjcm9YMXZZQ19MWWZqRkk?oc=5) — The Straits Times
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (5 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (6 headlines, 13h window)._
