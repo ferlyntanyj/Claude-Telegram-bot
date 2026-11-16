@@ -1,27 +1,21 @@
-# US Market Morning Brief -- 13 Nov 2026, 14:59 SGT
+# US Market Morning Brief -- 16 Nov 2026, 14:56 SGT
 
 ## Markets
-- [Widespread Microsoft outage takes down Outlook and other 365 services](https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html) — CNBC Top News
-- [Why Singapore keeps turning up in the fight over Nvidia chips and China](https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html) — CNBC Top News
-- [Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion](https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html) — CNBC Top News
-- [Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation](https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html) — CNBC Top News
+- [Asian Stocks Brace for AI Pressure, Data Dump: Markets Wrap](https://news.google.com/rss/articles/CBMilAFBVV95cUxOU3BQd2lUam5YX1RGekdqV203U1BmRzNUQnlhem10ajRycVpfTUYzRWtOM2h1ZDd5M2tvUnNXeG1VOHRGTEl4VkJsSUhuQk41UlcyNU1EZDJaSTNTd2NvM3lDUDV5NU95SUtxSHZaZEpjSnMxRGgtamUtb0lYWUtHMTFZZDBLblVaeXhVTEhSa2ZPeF9y?oc=5) — Bloomberg.com
+- [China confirms Xi-Trump-Putin historic summit. What will be on the agenda?](https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html) — CNBC Top News
+- [Tech world's calls for Jensen Huang to return to Nvidia are growing](https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html) — CNBC Top News
+- [DOT Sec. Duffy ties router in southern Arkansas to issues that led to nationwide ground stop](https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html) — CNBC Top News
 
 ## Macro, Fed & data
-- [Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over](https://news.google.com/rss/articles/CBMiswFBVV95cUxQWjhkdkdUYk85b1djY25EQk9aY3VBUmdlZGVpS251di03VTMzaDRvVHIzbEZBcjZSSlNvMDNXdXFNX3A0QTB6TFBXRndSdFFyNXBwMXRtRmZIcVJySzVXaEZDQ25HN0ZDOGZtbkpibUZ3UDZPUWpiVWVLMU1hVzk3X3JwQ2NxVXo3WkVWMnhqandnNUg0UjlnUUNSTkUwYjFLd3ZBeEFBel9yT2h5WVRObU0zYw?oc=5) — Bloomberg.com
-- [JGB Yields Rise After Selloff in U.S. Treasurys Overnight](https://news.google.com/rss/articles/CBMimAFBVV95cUxNdFFJNzZwOHpzaW9aR3UzZlhvemJ6OG9tVkJzbTJaVF9LLVR2bHBMdDl6ZGdCc3VmZzVLT25hRU9CQXhydkpsRWdCWFJidzdtdDVsSy1kWjFhbXR5YlBIeXVtTmxaV000dnduamh3UnNyc09DTDlVRWdHVU5TS2NvekNXeXJlM1ZEVG9LT19Xak54WGV5VjQ3bg?oc=5) — WSJ
-- [Fed’s Williams Says Inflation ‘Far Too High,’ Work to Do](https://news.google.com/rss/articles/CBMirwFBVV95cUxPWmwxOGI1cll5UUxfWkNqVEVhOEtfWGZaY1phLWdBdzBDVUhzMWJseXBPdTFsU3dQZW5HRlgzbWo2dEx1cWIxMnpjVjdFV1ZvTzJ5UXZDd1RRcFJyUEcyV2pqWndGc21aQ3JJMUtJeHFCM1JsNFg2eklQTkMtLXZacTFqZnhGaFdpTm1jc3p0cEF2aFNRTVJxckJCTy1MaFRnVGw0MUNiNm5qQ1lCRlRj?oc=5) — Bloomberg.com
-- [Treasury Selloff Accelerates, European Bonds Follow Suit](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc0VSTVFyMVRIR1EtM1J2eWU0MW45b3BmWVMwTWRwbmQzcmhvVlBuTEFQNWowTEI2SUd2cngzbmZ3VXMwYTVxc2NaSTg0WnZ4VndDaHVGNWZGcFcxN1NOUWsyMHd2RTJVNjJqZ2JiQy1XRDNpM2VGRFpiX1RVaTBnM01FSTVLUXJOYkFSRnhKaFBhNzZfUUZsZGJTWlBZbjRxV29UR0k5NVJ5U3ZVdXpYZ2NLeVlKb2ZC?oc=5) — WSJ
+- [Social Security and the blue wave: What could happen to payroll taxes and senior tax breaks](https://www.cnbc.com/2026/11/15/social-security-tax-changes-midterm-election.html) — CNBC Top News
+- [Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?](https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSWFYVlBzemdQeHFIRFlFWUQ3ZEYwY2F5VDFELWxqVzUtalUtamVfUHNVSS1kNTJ5QXR4LUlKR2VZMHJkb1FYSlMwRGUyOVNLZW9WblByODVxeFZadFdaMWFId0hEX01CS3pPdlhWemZfd2pyaUtBLUVEbGRPdHp1RFZreGFybGFWdkNhNE9IQ2FSOFU2OWROb1hMeVVKUFFJVWxvOXlvWnVWeFdPLTV2ZlJHTmFvWDI1SnkwVi1zNURWaUo5WmJLSGdCX1dXYzUxbVRpSmVuaw?oc=5) — MarketWatch
+- [Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus](https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2FWcktJLVd2aW9ObWxWUGJ4MVBiNDJ6clFlSmRTSjhNSVZrbHlCamNBYUZfeTJ2cjdtZVFZMU40a1Q0dkdRcHlibDJjS20zdW1jYmtOcnkweEx0QzFOUGpFZ2JWN3Jmc1dNakJITW45VG4waDNGU285TlN3el93ZUxzYWxXdUg3eVk0U2NSUGJySFE?oc=5) — Yahoo Finance
+- [Fed's biggest AI challenge collides with fallout from Nvidia backlash](https://news.google.com/rss/articles/CBMiogFBVV95cUxOOFNVZ2w0QWpFdjRuTENMaV9TY3dQODMybkpYdFRjeW1qNG5SQnJmdEhjNzRZM0dSZHFfVUFvR0FrZW04QW9EOFVnd3pETXF1VnZTU3Q3Xzk4YWxVY0Flc3JUQzdWdVQ4V3JoMTdXa1BNVWFXcHBzWUFyaDFhT2NsZU9SME9vOXFPSnBNNG54M2owNmp0NzBWOUhlckdXdHJ3UkE?oc=5) — Yahoo Finance
 
 ## Stocks & earnings
-- [How the Jensen Huang affair changes the outlook for U.S.-China relations](https://www.cnbc.com/2026/11/13/jensen-huang-nvidia-us-china-relations.html) — CNBC Finance
-- [Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal](https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html) — CNBC Markets
-- [Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year](https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html) — CNBC Top News
-- [Why Nvidia stock drop isn't a big deal for many ETF, mutual fund investors](https://www.cnbc.com/2026/11/12/nvidia-stock-drop-etf-mutual-fund-investors.html) — CNBC Top News
+- [Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker](https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html) — CNBC Finance
+- [Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot](https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html) — CNBC Top News
+- [Nvidia’s All-Important Q3 Report, China Tech Results, Anthropic IPO And Microsoft Ignite To Keep Investors Hooked This Week](https://news.google.com/rss/articles/CBMingFBVV95cUxNU1J4UjZiRXd6RUJzYm1zRXRhSzFtR3BtMFYwUHZSM3NIMVVHdS1GbHNDS0NndHEwWFNmQzMxb015dzdmU3FuV0hHZEIxbXM3a29vWkRKZThNbVl6dVd2U0U1X0Nqa1NiQjFhWnFvQ3VLb0tNTUZmcmFuUDVSZ0kzYlQ5YXZTREVqUkJLTEU2NEhROEVOTDVYTWRpV3lxdw?oc=5) — Yahoo Finance
+- [U.S. stock futures little changed as investors await Nvidia earnings](https://news.google.com/rss/articles/CBMimwFBVV95cUxNOXJyVkc2TDFaclFWbGJJZFpwQlRrenNkazZLZ01QanNxcWF6QlJ6dDNLT1lMODh6aXh4TnFXTlpka0U5a2xKY3lLQVlxT2RObHN6UlpaNlFQQ2xyZVh2dUNvdk9iZ2huTFl2a0M1MEU4cWVxOVlkV3QzTnVxMTlNQWxYc1c3RGRMal9lSXljUGxrOFdhQy1iWVp1bw?oc=5) — Yahoo Finance
 
-## Geopolitics
-- [Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'](https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html) — CNBC Finance
-- [Trump says ‘we don’t need a deal with Iran’](https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html) — CNBC Top News
-- [Trump Threatens to Double Tariffs on Mexico Over Migrants](https://news.google.com/rss/articles/CBMitgFBVV95cUxOMnJ4S0x3TmVXb1NReEMzUU1uNU1NNmdmaXpQN0RKdFY3cUR0TmxEUFRMdk4tenRfY1Y2VDBTN1ZUSWFMandoSU9KcFhrcnF0QnZ2WVktRzZiRlZnTEVMY2xpUUU2d3lab1dILTR0alIzdDZvaThKMlcxMHQ0c3ljTDNhSG9mbTluT1NDUDhheHZnTGlXQzF3S1lBNk4yUThVQm11cE95TnEtZTFwU0VKeXVLTy1iZw?oc=5) — Bloomberg.com
-- [Canada threatens to sue Stellantis over auto plant sale as Trump’s trade war shifts production south](https://news.google.com/rss/articles/CBMiowFBVV95cUxORnlhQ0lXZEVGVEl1WVVmREVnME1EX1VVZkE5b2k2c3RsenVjNERHNDFrb1FVeEdCQzk4bHRxN1ZnYmxNS2FBXzk4VWlCcmhEUlN3UFc3RnVJUEF3djFMWTNuQkdheGtIdkRWTkdwMUpZOUtnQUY5allQZ1pheFdmMUlZWC12Zy03eXhBQ3RpUkF0NXp3ZDJhd2V2WG9NQl8tN2JR?oc=5) — Yahoo Finance
-
-_Sources: Google News + CNBC + Fed feeds (16 headlines, 20h window)._
+_Sources: Google News + CNBC + Fed feeds (12 headlines, 72h window)._
