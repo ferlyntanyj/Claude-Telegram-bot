@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-16T15:15:37.395146+00:00",
+  "last_run_utc": "2026-11-16T15:30:57.366771+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1593,7 +1593,7 @@
       "last_attempt_utc": "2026-11-09T20:18:54.528026+00:00"
     },
     "single:KLAC": {
-      "last_attempt_utc": "2026-11-11T18:33:04.299023+00:00"
+      "last_attempt_utc": "2026-11-16T15:33:03.263830+00:00"
     },
     "single:FCX": {
       "last_attempt_utc": "2026-11-09T20:04:13.788098+00:00"
@@ -1914,10 +1914,10 @@
       "last_attempt_utc": "2026-11-02T18:19:01.818192+00:00"
     },
     "single:INTC": {
-      "last_attempt_utc": "2026-11-13T16:17:31.853857+00:00"
+      "last_attempt_utc": "2026-11-16T15:32:30.103872+00:00"
     },
     "single:WDC": {
-      "last_attempt_utc": "2026-11-13T17:32:49.460828+00:00"
+      "last_attempt_utc": "2026-11-16T15:33:14.229792+00:00"
     },
     "single:DDOG": {
       "last_attempt_utc": "2026-11-05T20:10:35.074404+00:00"
@@ -2415,7 +2415,7 @@
       "last_attempt_utc": "2026-11-09T14:47:37.853248+00:00"
     },
     "single:ANET": {
-      "last_attempt_utc": "2026-11-11T19:47:37.825244+00:00"
+      "last_attempt_utc": "2026-11-16T15:32:52.434347+00:00"
     },
     "single:ISRG": {
       "last_attempt_utc": "2026-11-04T20:09:24.676948+00:00"
@@ -3189,7 +3189,7 @@
       "last_attempt_utc": "2026-11-05T19:12:45.713401+00:00"
     },
     "single:LRCX": {
-      "last_attempt_utc": "2026-11-13T16:17:42.857510+00:00"
+      "last_attempt_utc": "2026-11-16T15:32:40.934027+00:00"
     },
     "single:CRWD": {
       "last_attempt_utc": "2026-11-09T20:04:02.488576+00:00"
