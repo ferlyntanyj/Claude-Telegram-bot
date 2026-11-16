@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-16T18:15:36.154756+00:00",
+  "last_run_utc": "2026-11-16T18:30:46.973408+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1926,7 +1926,7 @@
       "last_attempt_utc": "2026-11-04T18:38:07.058102+00:00"
     },
     "single:SMCI": {
-      "last_attempt_utc": "2026-11-16T15:18:23.839287+00:00"
+      "last_attempt_utc": "2026-11-16T18:32:16.592393+00:00"
     },
     "single:AMD": {
       "last_attempt_utc": "2026-11-13T19:17:17.092504+00:00"
