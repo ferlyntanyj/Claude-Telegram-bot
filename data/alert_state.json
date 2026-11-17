@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-17T09:30:47.477096+00:00",
+  "last_run_utc": "2026-11-17T09:45:36.389111+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2358,7 +2358,7 @@
       "last_attempt_utc": "2026-11-13T08:17:25.965366+00:00"
     },
     "single:DBK.DE": {
-      "last_attempt_utc": "2026-11-06T08:17:56.995299+00:00"
+      "last_attempt_utc": "2026-11-17T09:48:22.918219+00:00"
     },
     "premarket:DDOG": {
       "last_attempt_utc": "2026-11-04T14:18:34.405863+00:00"
