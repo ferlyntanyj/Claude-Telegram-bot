@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-18T15:15:39.940539+00:00",
+  "last_run_utc": "2026-11-18T15:30:48.444022+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3901,6 +3901,9 @@
     },
     "premarket:TJX": {
       "last_attempt_utc": "2026-11-18T12:47:21.432189+00:00"
+    },
+    "single:GLEN.L": {
+      "last_attempt_utc": "2026-11-18T15:32:30.850395+00:00"
     }
   }
 }
