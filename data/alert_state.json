@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-18T17:30:39.882853+00:00",
+  "last_run_utc": "2026-11-18T17:45:37.183234+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3910,6 +3910,9 @@
     },
     "single:TGT": {
       "last_attempt_utc": "2026-11-18T17:32:32.607654+00:00"
+    },
+    "single:ELV": {
+      "last_attempt_utc": "2026-11-18T17:47:00.470838+00:00"
     }
   }
 }
