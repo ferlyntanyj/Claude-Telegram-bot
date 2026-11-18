@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-18T15:01:04.065983+00:00",
+  "last_run_utc": "2026-11-18T15:15:39.940539+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1605,7 +1605,7 @@
       "last_attempt_utc": "2026-10-30T18:04:54.720980+00:00"
     },
     "single:NEM": {
-      "last_attempt_utc": "2026-11-04T20:13:41.652903+00:00"
+      "last_attempt_utc": "2026-11-18T15:17:22.670928+00:00"
     },
     "single:TYL": {
       "last_attempt_utc": "2026-10-30T18:17:46.698990+00:00"
@@ -3186,7 +3186,7 @@
       "last_attempt_utc": "2026-11-09T19:48:22.032631+00:00"
     },
     "single:PANW": {
-      "last_attempt_utc": "2026-11-05T19:12:45.713401+00:00"
+      "last_attempt_utc": "2026-11-18T15:17:11.764950+00:00"
     },
     "single:LRCX": {
       "last_attempt_utc": "2026-11-16T20:32:24.144293+00:00"
@@ -3894,7 +3894,7 @@
       "last_attempt_utc": "2026-11-18T08:17:15.738799+00:00"
     },
     "single:CTEC.L": {
-      "last_attempt_utc": "2026-11-18T13:03:52.950091+00:00"
+      "last_attempt_utc": "2026-11-18T15:17:34.971706+00:00"
     },
     "premarket:TTWO": {
       "last_attempt_utc": "2026-11-18T11:18:00.379339+00:00"
