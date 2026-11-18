@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-18T08:15:37.558406+00:00",
+  "last_run_utc": "2026-11-18T08:30:47.377571+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2358,7 +2358,7 @@
       "last_attempt_utc": "2026-11-13T08:17:25.965366+00:00"
     },
     "single:DBK.DE": {
-      "last_attempt_utc": "2026-11-17T16:03:13.344314+00:00"
+      "last_attempt_utc": "2026-11-18T08:32:27.772242+00:00"
     },
     "premarket:DDOG": {
       "last_attempt_utc": "2026-11-04T14:18:34.405863+00:00"
@@ -3138,7 +3138,7 @@
       "last_attempt_utc": "2026-11-05T08:40:13.214475+00:00"
     },
     "single:CCC.L": {
-      "last_attempt_utc": "2026-11-05T16:36:05.743711+00:00"
+      "last_attempt_utc": "2026-11-18T08:32:39.015081+00:00"
     },
     "premarket:QCOM": {
       "last_attempt_utc": "2026-11-05T13:17:58.222501+00:00"
@@ -3892,6 +3892,9 @@
     },
     "single:EXPN.L": {
       "last_attempt_utc": "2026-11-18T08:17:15.738799+00:00"
+    },
+    "single:CTEC.L": {
+      "last_attempt_utc": "2026-11-18T08:32:50.515198+00:00"
     }
   }
 }
