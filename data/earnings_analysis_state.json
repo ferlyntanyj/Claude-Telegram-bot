@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-11-17T04:59:09Z",
+  "last_run_utc": "2026-11-18T04:05:01Z",
   "tickers": {
     "0128.KL": {
       "last_analyzed_date": "2026-11-06",
@@ -71,7 +71,7 @@
     },
     "AMATA.BK": {
       "last_analyzed_date": "2026-08-12",
-      "last_reported_date": "2026-08-12"
+      "last_reported_date": "2026-11-16"
     },
     "AMD": {
       "last_analyzed_date": "2026-11-03",
@@ -170,8 +170,8 @@
       "last_reported_date": "2026-11-12"
     },
     "NVDA": {
-      "last_analyzed_date": "2026-08-26",
-      "last_reported_date": "2026-08-26"
+      "last_analyzed_date": "2026-11-17",
+      "last_reported_date": "2026-11-17"
     },
     "O39.SI": {
       "last_analyzed_date": "2026-11-05",
