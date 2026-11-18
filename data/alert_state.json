@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-18T14:45:33.616090+00:00",
+  "last_run_utc": "2026-11-18T15:01:04.065983+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2355,7 +2355,7 @@
       "last_attempt_utc": "2026-11-05T08:23:21.249684+00:00"
     },
     "single:EDV.L": {
-      "last_attempt_utc": "2026-11-13T08:17:25.965366+00:00"
+      "last_attempt_utc": "2026-11-18T15:03:14.259343+00:00"
     },
     "single:DBK.DE": {
       "last_attempt_utc": "2026-11-18T08:32:27.772242+00:00"
@@ -2616,7 +2616,7 @@
       "last_attempt_utc": "2026-11-04T18:40:37.833318+00:00"
     },
     "single:TTWO": {
-      "last_attempt_utc": "2026-11-16T20:47:38.109866+00:00"
+      "last_attempt_utc": "2026-11-18T15:02:51.840263+00:00"
     },
     "single:GEHC": {
       "last_attempt_utc": "2026-11-04T18:44:51.554192+00:00"
@@ -3090,7 +3090,7 @@
       "last_attempt_utc": "2026-11-05T08:20:50.660967+00:00"
     },
     "single:ANTO.L": {
-      "last_attempt_utc": "2026-11-10T08:17:39.388996+00:00"
+      "last_attempt_utc": "2026-11-18T15:03:03.348671+00:00"
     },
     "single:BMW.DE": {
       "last_attempt_utc": "2026-11-05T08:21:50.917860+00:00"
@@ -3858,7 +3858,7 @@
       "last_attempt_utc": "2026-11-17T07:32:36.268866+00:00"
     },
     "single:AAL.L": {
-      "last_attempt_utc": "2026-11-17T08:16:55.703230+00:00"
+      "last_attempt_utc": "2026-11-18T15:02:40.436301+00:00"
     },
     "premarket:NKE": {
       "last_attempt_utc": "2026-11-17T14:17:46.144577+00:00"
