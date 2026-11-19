@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-19T23:01:01.673021+00:00",
+  "last_run_utc": "2026-11-19T23:15:36.132880+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2772,7 +2772,7 @@
       "last_attempt_utc": "2026-11-05T01:57:43.495070+00:00"
     },
     "single:EVN.AX": {
-      "last_attempt_utc": "2026-11-19T04:17:41.682779+00:00"
+      "last_attempt_utc": "2026-11-19T23:17:25.578794+00:00"
     },
     "single:JHX.AX": {
       "last_attempt_utc": "2026-11-09T23:16:42.485352+00:00"
@@ -3927,7 +3927,7 @@
       "last_attempt_utc": "2026-11-19T04:48:15.270252+00:00"
     },
     "single:SHL.AX": {
-      "last_attempt_utc": "2026-11-19T04:48:26.007203+00:00"
+      "last_attempt_utc": "2026-11-19T23:17:36.533830+00:00"
     },
     "single:INVP.L": {
       "last_attempt_utc": "2026-11-19T14:50:44.899872+00:00"
