@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-19T12:15:43.067852+00:00",
+  "last_run_utc": "2026-11-19T12:30:46.642392+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1836,7 +1836,7 @@
       "last_attempt_utc": "2026-11-02T11:17:57.102068+00:00"
     },
     "premarket:COHR": {
-      "last_attempt_utc": "2026-11-18T09:34:10.448353+00:00"
+      "last_attempt_utc": "2026-11-19T12:33:06.325769+00:00"
     },
     "premarket:ECHO": {
       "last_attempt_utc": "2026-11-04T13:18:40.146894+00:00"
@@ -3930,7 +3930,7 @@
       "last_attempt_utc": "2026-11-19T04:48:26.007203+00:00"
     },
     "single:INVP.L": {
-      "last_attempt_utc": "2026-11-19T10:17:46.410106+00:00"
+      "last_attempt_utc": "2026-11-19T12:32:55.535292+00:00"
     },
     "single:5211.KL": {
       "last_attempt_utc": "2026-11-19T08:47:16.285146+00:00"
