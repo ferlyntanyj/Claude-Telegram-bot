@@ -1,19 +1,21 @@
-# Global Semiconductor Brief -- 19 Nov 2026, 02:58 SGT
+# Global Semiconductor Brief -- 19 Nov 2026, 15:46 SGT
 
 ## Policy & geopolitics
-- [AI chip export controls targeting China gain bipartisan momentum after Nvidia scandal](https://news.google.com/rss/articles/CBMisgFBVV95cUxQb0hidGtCbWh0N1VCYWh1Q2NRQmlPTE1JaTdnWHVxYWpwU093SmJZazM2a1Q0RmJBTDlMQWZrUzl5dkdlYmZVTTY0MC1JaDd6aGU3anpXY0VWVUFwdlZDal9jNjBZd2F2SVYtWVl1eXl4NzRLQlZHdnNScHhnd3lxekV5V3JnY1UzX2p3WGxfamJSVmVvME55cXRscXJiRWFxdndqR3NJbkVQMlBLdW5GZnZB?oc=5) — CNBC
-- [China threatens 'countermeasures' in the face of new AI GPU rental and export restrictions](https://www.tomshardware.com/pc-components/gpus/china-threatens-countermeasures-on-the-face-of-new-ai-gpu-rental-and-export-restrictions-beijing-threatens-retaliation-ahead-of-thursdays-xi-jinping-meeting-sino-american-trade-war-may-be-renewed-for-a-new-season) — Tom's Hardware
+- [Nvidia's role in connecting Alibaba with Alice Huang ahead of US chip curbs deepens Megaspeed scrutiny](https://www.digitimes.com/news/a20261119VL218/nvidia-alibaba-sales-technology-2022.html) — DIGITIMES
+- [China's military seeks Nvidia chips as US tightens export curbs](https://www.digitimes.com/news/a20261119VL213/nvidia-military-chips-data-shipments.html) — DIGITIMES
+- [AI chip export loopholes expose US resolve to defend national security](https://www.digitimes.com/news/a20261119PD202/scandal-nvidia-ai-chip-security-chips.html) — DIGITIMES
+- [Wife of Senior Nvidia Executive Caught Up in Alleged AI Chip Smuggling Scandal](https://news.google.com/rss/articles/CBMioAFBVV95cUxPYllIU21xeUp1ZmdnUWRwbUFnbkxFYzN2NXZFdXVlek9kOGdOc2N1YUFsTUtWZEt6Mkx5R3dudm11WW9hWFcwN1BRWnBBYWJaSFVXcEJXcUxTdWVFSjZMRUE2cWRuYzdieG9WTlVvbHRESTZIRFItendOZlYxVzZJUVJpaVhFcHltTzNqem5pUldTaTdadUVmVkpjV09kV01K?oc=5) — Yahoo Finance
 
 ## Supply chain signals
-- [Taiwan completes Asia's largest single offshore wind project off central coast, connecting 1 GW of capacity to supply TSMC in 2027](https://www.digitimes.com/news/a20261118PD227/taiwan-offshore-wind-capacity-tsmc-2027.html) — DIGITIMES
-- [Foxconn deepens Nvidia ties across next-gen GPU, networking platforms](https://www.digitimes.com/news/a20261118PD249/foxconn-nvidia-gpu-manufacturing-shipments.html) — DIGITIMES
-- [Nvidia leadership change could open doors for rival AI chipmakers](https://www.digitimes.com/news/a20261118VL225/nvidia-amd-chips-ceo-google.html) — DIGITIMES
-- [Samsung reportedly plans two humanoid robots for CES 2027](https://www.digitimes.com/news/a20261118VL222/samsung-ces-2027-manufacturing-design.html) — DIGITIMES
+- [UBright eyes semiconductor, passive components and smart acoustics growth](https://www.digitimes.com/news/a20261119PD212/competition-passive-optical-film-market-technology.html) — DIGITIMES
+- [Samsung's silence on 2027 8-inch MPW plan worries South Korean IC design firms](https://www.digitimes.com/news/a20261119PD200/samsung-ic-design-2027-12-inch-wafer.html) — DIGITIMES
+- [DIGITIMES Insight: Supply snags, not election or Nvidia CEO exit, behind 4Q26 server shipment cut](https://www.digitimes.com/news/a20261119PD219/digitimes-nvidia-server-shipments-ceo-supply.html) — DIGITIMES
+- [Google looks to bypass Broadcom with direct HBM purchases](https://www.digitimes.com/news/a20261119VL217/google-hbm-broadcom-mediatek-2027.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [Kress Takes Point on Nvidia Results as Chip Maker Beats Expectations](https://news.google.com/rss/articles/CBMirgFBVV95cUxOUXFfaTlxdXk4MVFYT0puUk5KY3h6TU9xa1ZiRjE3T0tsTVU0NnprcTFoMHBWQXh2cHpFc193YUxnRlhoYUdVQ1BTWWlic1NuUXBwb3Q3VlhiSUdraHZqTFVITjFmdHhJRkJUaUQ2ckl2RXNVaVFvWm84MHlBdkxnTjRqZ0dLSDVTUVF6WDFWVllhMGRyMFpHYjRlSkNvMXZaeGVoS3p6cm9NVWZBWFE?oc=5) — WSJ
-- [Nvidia stops shipping US-approved AI chips to China](https://news.google.com/rss/articles/CBMinAFBVV95cUxQc0dHN3dEWU8xaElLV21veDdXMWI3eUpBYWNYV2ZXSWZTUkJLX3dELUNmeEZhSGtlczFEMWFjXzZMTWhNRUJrZnlHT0VqN0ZYcXZwQ1dXTzJLSnJCREtWZXhQWVlQY20waTh4WlVZNmVTemVLM1l4UXNrbUJDd3p4OUhweklHT2F2SDRXTXpiWTRab3dIalpnQjVJNmc?oc=5) — Reuters
-- [Nvidia's numbers and Anthropic anticipation drive Nasdaq futures up](https://news.google.com/rss/articles/CBMipgFBVV95cUxPZzBwR0NHNFV3YmRCS1N2TmxpODZRWHRWTUF4OUhaVVRIUnU5RkZaUjFaTURXRVhCZGlucGF2Y3MzTzlabFZ4akRDSUc4QzUzNEpHOGhHRW55cGxTdUlYVzgxN21xemcza1huekdTUUZvR2VtcVNna2JSa3l6RzFwU3c3ZFpoUWxMbU1SUHlVcjFpRWFDWjNvM1hKb0s5UHFHcDN4d0dR0gGrAUFVX3lxTE9lYWNzY0pNY2wwYktfS2oyUXJWVHNvSDh1Y2xqV2NTUXVVQTlyTEFkZjJqX0o3SnZZbTYxTWdZUFBlYi1uWFk5STVrNE5YcmdHaEtsWHl3TkgwUm9xUkRhX3pmaW9GencwQUItU0pyM3RzWWxsRWt0cU5DZl9ULW5QU2hRRk13LWN5cTRkS1lvYTZkQXhVUm44dldBRmVNRDZ3eF9rSkdSN2hJOA?oc=5) — CNBC
-- [Beyond One Turn: How a Single-Chip Multiturn Position Sensor Is Reshaping Actuator Design](https://www.eetimes.com/beyond-one-turn-how-a-single-chip-multiturn-position-sensor-is-reshaping-actuator-design/) — EE Times
+- [Trump Suggests US Can Sell Blackwell Chips to China in Future](https://news.google.com/rss/articles/CBMisgFBVV95cUxPb2RmcllMcDNES1UzSmxVelRjcV9LUHZzVVQzaVA3Z0tKczJqMHBuaXh0X2NMVXFUSGR6V28tMkh6VWNJUmxuMXdiQTFuMzJsUExCa0Y4V3NXV2xtSzVIN2hvcS1zY3FFbGlJMlRZVExYVDVMMXlFWjRObUZKWGc1bHB3QkVEQkIzSVlaN3VpNFVrNXJScG9oV2Q0Yzc5ams2ME1VWTRrZWNfdkxHbFZnV1dn?oc=5) — Bloomberg.com
+- [Exclusive | Wall Street Pledged to Mobilize $500 Billion for Nvidia—But Hasn’t Put Up a Dime](https://news.google.com/rss/articles/CBMitAFBVV95cUxOWjdzR25CWl9WWlp1SVp4cVl0OE1TUWhmVXBKZVJ1RFNudjFKOEtabjJCX1o0bTRteGZPbVZmRURDazJ3a2UtajRYQ3d2eENyUFpCNHoxZzlSWFRHYnlITVNoSWx4V0g5bjN0S2o0MWVsMm9XSzN3Znd2Zk9CbVkxc2VKa0xJUDRWRGh0aVdEcU4tNTVNVkw3cV9SQUc0d3Nya1dCNkFLTlc0VWdqTWh6M0VwZlQ?oc=5) — WSJ
+- [Jensen Huang's exit from Nvidia could accelerate China's shift to Huawei chips: The Asia Group](https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ1l4ZlUtVW1VaDZkckxDRGxlaFk3d2tYby1NQ3RoUDc3N1RmSUw3MzFjTE1jY1E0S3c0bTdFb1hQTzZ3LUI3dEdUam56ck9pQnlWQjdHWVBCNWhCaDh3UUdqUnZqU2ZFdkIyZi1HeUdsczlXaG5fSWI4bjFhVW5taGctamVEYS1WWFUtbl81VUxhbEdqVExlVlE0SzJUUm10ai1Kb0dDcFNIVE5m?oc=5) — CNBC
+- [What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation](https://news.google.com/rss/articles/CBMilgFBVV95cUxNa2dJSnFrVWt3REVkbE5CbllIMi1jZnFlRmtPbmZJM09SbmpoOEhVWElRVElyY00xc29ZLXA5T2wtRWFHQ0YzMG1jdjRPZWM4d2RaR05ja3Y3TGx5LURKVTk4allMbzduWC1uNVJSZmM4SlB6SjBiSVdWLXI5OW83V1RZcjF1SmctMzhaMXlHOXNSOXQycWc?oc=5) — The New York Times
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (10 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (12 headlines, 13h window)._
