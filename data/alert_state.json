@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-19T20:30:41.451672+00:00",
+  "last_run_utc": "2026-11-19T20:45:36.813604+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3732,7 +3732,7 @@
       "last_attempt_utc": "2026-11-09T20:34:40.832689+00:00"
     },
     "single:OKTA": {
-      "last_attempt_utc": "2026-11-19T17:02:46.815627+00:00"
+      "last_attempt_utc": "2026-11-19T20:47:31.758051+00:00"
     },
     "single:BEN": {
       "last_attempt_utc": "2026-11-09T20:36:46.755248+00:00"
