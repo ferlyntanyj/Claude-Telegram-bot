@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-19T09:15:33.760398+00:00",
+  "last_run_utc": "2026-11-19T09:30:45.487738+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3937,6 +3937,9 @@
     },
     "premarket:PANW": {
       "last_attempt_utc": "2026-11-19T09:04:13.329949+00:00"
+    },
+    "premarket:CRWD": {
+      "last_attempt_utc": "2026-11-19T09:32:30.593458+00:00"
     }
   }
 }
