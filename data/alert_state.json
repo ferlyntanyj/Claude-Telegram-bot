@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-20T17:00:55.528546+00:00",
+  "last_run_utc": "2026-11-20T17:15:53.093803+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1611,7 +1611,7 @@
       "last_attempt_utc": "2026-10-30T18:17:46.698990+00:00"
     },
     "single:ADI": {
-      "last_attempt_utc": "2026-11-09T20:34:27.999777+00:00"
+      "last_attempt_utc": "2026-11-20T17:17:40.691447+00:00"
     },
     "sector:internet content information": {
       "last_attempt_utc": "2026-10-30T18:48:23.166905+00:00"
@@ -1935,7 +1935,7 @@
       "last_attempt_utc": "2026-11-02T19:33:36.470554+00:00"
     },
     "single:NTAP": {
-      "last_attempt_utc": "2026-11-11T19:06:21.082429+00:00"
+      "last_attempt_utc": "2026-11-20T17:17:51.479180+00:00"
     },
     "single:HPE": {
       "last_attempt_utc": "2026-11-20T15:48:58.225347+00:00"
