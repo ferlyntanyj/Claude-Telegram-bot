@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-20T08:45:34.993828+00:00",
+  "last_run_utc": "2026-11-20T09:00:54.092866+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3958,6 +3958,9 @@
     },
     "single:NXT.AX": {
       "last_attempt_utc": "2026-11-20T04:52:45.875159+00:00"
+    },
+    "premarket:INTU": {
+      "last_attempt_utc": "2026-11-20T09:04:27.789591+00:00"
     }
   }
 }
