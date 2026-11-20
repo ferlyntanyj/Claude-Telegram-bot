@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-20T20:15:37.757044+00:00",
+  "last_run_utc": "2026-11-20T20:30:49.203349+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1554,7 +1554,7 @@
       "last_attempt_utc": "2026-11-20T18:48:43.738002+00:00"
     },
     "single:GPN": {
-      "last_attempt_utc": "2026-11-20T18:33:13.060533+00:00"
+      "last_attempt_utc": "2026-11-20T20:34:33.461806+00:00"
     },
     "sector:telecom services": {
       "last_attempt_utc": "2026-10-30T18:34:08.100731+00:00"
@@ -1590,7 +1590,7 @@
       "last_attempt_utc": "2026-11-02T20:36:18.323426+00:00"
     },
     "single:PLTR": {
-      "last_attempt_utc": "2026-11-09T20:18:54.528026+00:00"
+      "last_attempt_utc": "2026-11-20T20:33:57.263199+00:00"
     },
     "single:KLAC": {
       "last_attempt_utc": "2026-11-20T20:03:57.400810+00:00"
@@ -1914,7 +1914,7 @@
       "last_attempt_utc": "2026-11-02T18:19:01.818192+00:00"
     },
     "single:INTC": {
-      "last_attempt_utc": "2026-11-19T14:47:33.914360+00:00"
+      "last_attempt_utc": "2026-11-20T20:34:08.097267+00:00"
     },
     "single:WDC": {
       "last_attempt_utc": "2026-11-20T19:04:07.928360+00:00"
@@ -2487,7 +2487,7 @@
       "last_attempt_utc": "2026-11-12T16:02:52.746811+00:00"
     },
     "single:NRG": {
-      "last_attempt_utc": "2026-11-09T19:08:49.221412+00:00"
+      "last_attempt_utc": "2026-11-20T20:34:53.350380+00:00"
     },
     "single:FIS": {
       "last_attempt_utc": "2026-11-12T20:32:31.399147+00:00"
@@ -2736,7 +2736,7 @@
       "last_attempt_utc": "2026-11-04T20:44:54.466570+00:00"
     },
     "single:NCLH": {
-      "last_attempt_utc": "2026-11-05T18:05:09.860853+00:00"
+      "last_attempt_utc": "2026-11-20T20:35:14.286609+00:00"
     },
     "single:RMD": {
       "last_attempt_utc": "2026-11-04T18:45:22.014863+00:00"
@@ -3195,7 +3195,7 @@
       "last_attempt_utc": "2026-11-20T19:48:50.821687+00:00"
     },
     "single:QCOM": {
-      "last_attempt_utc": "2026-11-19T14:48:18.747684+00:00"
+      "last_attempt_utc": "2026-11-20T20:34:18.955252+00:00"
     },
     "single:MSI": {
       "last_attempt_utc": "2026-11-05T17:02:30.329386+00:00"
@@ -3744,7 +3744,7 @@
       "last_attempt_utc": "2026-11-09T19:49:19.543268+00:00"
     },
     "single:META": {
-      "last_attempt_utc": "2026-11-09T20:33:54.209979+00:00"
+      "last_attempt_utc": "2026-11-20T20:33:46.568917+00:00"
     },
     "single:012330.KS": {
       "last_attempt_utc": "2026-11-10T05:18:05.941637+00:00"
