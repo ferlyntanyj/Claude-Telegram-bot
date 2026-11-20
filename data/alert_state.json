@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-20T12:30:44.625679+00:00",
+  "last_run_utc": "2026-11-20T12:45:38.517615+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3621,7 +3621,7 @@
       "last_attempt_utc": "2026-11-11T11:33:11.567157+00:00"
     },
     "premarket:DELL": {
-      "last_attempt_utc": "2026-11-12T13:18:14.599814+00:00"
+      "last_attempt_utc": "2026-11-20T12:48:05.872052+00:00"
     },
     "premarket:KLAC": {
       "last_attempt_utc": "2026-11-11T12:18:15.663227+00:00"
