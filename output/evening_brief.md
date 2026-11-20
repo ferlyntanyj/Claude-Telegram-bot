@@ -1,21 +1,23 @@
-# Asia Market Evening Brief -- 20 Nov 2026, 02:59 SGT
+# Asia Market Evening Brief -- 21 Nov 2026, 02:37 SGT
 
 ## Macro & policy
+- [Japan sovereign AI project faces $5bn cost surge on chip prices, weak yen](https://asia.nikkei.com/business/technology/artificial-intelligence/japan-sovereign-ai-project-faces-5bn-cost-surge-on-chip-prices-weak-yen) — Nikkei Asia
 - [South Korea rides AI boom to new height as exports hit $1 trillion](https://asia.nikkei.com/economy/south-korea-rides-ai-boom-to-new-height-as-exports-hit-1-trillion) — Nikkei Asia
-- [Toyota, Suzuki rely on weak yen to keep profits growing](https://asia.nikkei.com/business/automobiles/toyota-suzuki-rely-on-weak-yen-to-keep-profits-growing) — Nikkei Asia
-- [Indonesia raises key interest rate as rupiah hits record low](https://asia.nikkei.com/business/markets/currencies/indonesia-raises-key-interest-rate-as-rupiah-hits-record-low) — Nikkei Asia
-- [Malaysia's Q3 GDP expands 5.5% on robust investment and exports](https://asia.nikkei.com/economy/malaysia-s-q3-gdp-expands-5.5-on-robust-investment-and-exports) — Nikkei Asia
-- [South Korea’s exports top US$1 trillion for first time on chip boom](https://www.straitstimes.com/business/south-koreas-exports-top-us1-trillion-for-first-time-on-chip-boom) — The Straits Times
+- [Dollar falls as Fed-fueled rally stalls; lower US yields help yen](https://www.channelnewsasia.com/business/dollar-falls-fed-fueled-rally-stalls-lower-us-yields-help-yen-6567931) — CNA Business
+- [Jakarta Stocks Slide as AI Concerns Trigger 5% Losses in Japan, Korea](https://news.google.com/rss/articles/CBMiogFBVV95cUxQdkVVS3pZa0JTTktxblJ5aGxwaEZLaG1ZTFU1T3pmcmVkZWRaX2ZldmRCd1VzSmp0ZmNJMS1MamswUnZZSG1KaTJmUHhoWEFiTVZvZmt1T1d1Q1RPOS1LT3FMS1UyQnI5ODl5UDVTUmQwLUFlU0pHcTNJektLR21RakpSNlJlOFl3MEd1cWt2enhiY3gzMXhTZ09kODBYTVJia0E?oc=5) — Jakarta Globe
 
 ## Markets
-- [China shows vision of future in Shenzhen with plenty of red tape](https://asia.nikkei.com/politics/international-relations/apec/china-shows-vision-of-future-in-shenzhen-with-plenty-of-red-tape) — Nikkei Asia
-- [Trump, Xi signal closeness in Shenzhen even as trade, tech disputes linger](https://www.straitstimes.com/asia/east-asia/trump-xi-signal-closeness-in-shenzhen-even-as-trade-tech-disputes-linger) — The Straits Times
+- [Japan Tobacco shares fall 10%; Russia seizure hits 900,000 investors](https://asia.nikkei.com/business/markets/equities/japan-tobacco-shares-fall-10-russia-seizure-hits-900-000-investors) — Nikkei Asia
+- [Through the Lens: From ASEAN in Manila to APEC in Shenzhen](https://asia.nikkei.com/photos/through-the-lens-from-asean-in-manila-to-apec-in-shenzhen) — Nikkei Asia
+- [APEC live: How events in Shenzhen unfolded](https://asia.nikkei.com/politics/international-relations/apec/apec-live-how-events-in-shenzhen-unfolded) — Nikkei Asia
+- [AI-fuelled cyberattacks drive claims surge at Japan insurers](https://www.straitstimes.com/business/ai-fuelled-cyberattacks-drive-claims-surge-at-japan-insurers) — The Straits Times
+- [Singapore-based DayOne is said to pause US IPO plans on data centre, market concerns](https://news.google.com/rss/articles/CBMizAFBVV95cUxPbXE3YlBpRHNia1FsUGdmTlpLN1cxQzlMY09wczBRRElOZTQ4VlNtUWlERURMby1uYXZWNFMxOFhwZTZKR1RrRUxxZmp0RGJCeEx3NEQ0SDBERFljakhYaTQ5aXBiLU9KZWFNUE1MUTdaNWxGUC1CUGNnaUxMTDZvdzVuY3VKaDA5NVI5QlEtdVRzbFY3ODUwWGVYTXFFRHk4ZndtbXJndWlQakxSYm5FMjAyT29aVUxUOEFVTTIzcWowdm12MTluR1F6MHM?oc=5) — The Straits Times
 
 ## Geopolitics
+- [US-China stability can't rely on bilateral summits, warns AmCham head](https://asia.nikkei.com/editor-s-picks/interview/us-china-stability-can-t-rely-on-bilateral-summits-warns-amcham-head) — Nikkei Asia
 - [India to let Japan use firing ranges for surface-to-ship missile tests](https://asia.nikkei.com/politics/international-relations/india-to-let-japan-use-firing-ranges-for-surface-to-ship-missile-tests) — Nikkei Asia
 - [Xi tells Trump to 'do right thing' on Taiwan as trade truce remains in flux](https://asia.nikkei.com/politics/international-relations/apec/xi-tells-trump-to-do-right-thing-on-taiwan-as-trade-truce-remains-in-flux) — Nikkei Asia
-- [China carmakers outmaneuver Japan rivals in Myanmar with EV policy](https://asia.nikkei.com/business/automobiles/china-carmakers-outmaneuver-japan-rivals-in-myanmar-with-ev-policy) — Nikkei Asia
-- [ECB's Panetta hopes US-Russia-China summit yields little, given EU absence](https://www.straitstimes.com/asia/ecbs-panetta-hopes-us-russia-china-summit-yields-little-given-eu-absence) — The Straits Times
-- [China’s Xi says US should do ‘right thing’ on Taiwan to avoid setbacks in relations](https://www.straitstimes.com/asia/chinas-xi-says-us-should-do-right-thing-on-taiwan-to-avoid-setbacks-in-relations) — The Straits Times
+- [US and China hold maritime security talks in parallel with Xi-Trump meetings](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdHEtQTZzNm15NFFwRVY0aFhpSmc0MW1QdjU2NHNGdkRNeVlLQUtreHQ4cjAwYVVpWjVXVWU3ZzdXV1VJTFNxOGttNWEtak0tRVVFMjY2VnlVMFdfNEtzeTlvZU5sZnVjMGpzZUEybHBBUGtRcGtQWnV2OWFzbmdXbnI1THNyZnJBS2xhT2I4TVFpZlRweTk2ellwdXFaYXRfYU1LYkhHUk9mWnRpUmNZLWdMNWQ4ZGlRYkFoM1ZyRHJWQ3fSAcMBQVVfeXFMTnF5NE0yM1RLRGVOR0tQSUdkNmFVZnlwOS1aM1ozSmNHOEpLMjBlM1N2Y3R4SHBhbXFPc1VPX3l5V2xiY1hITzZ6NHo1THBBVEptenNOX3d3YXdtdk4zRUs4UndFVS1RSnFzczFKVHh6QUE0LVA0UXNMb1M3cmNnUnZJdk5oZkJmRlVCZ1V0WFduZzhLN2liUDFtZURtTWZxcXBwbVo3ODRrY0pFQVZYMi1QLUtfWDN5TXdXVVZON2NhSGxr?oc=5) — South China Morning Post
+- [Tackling doubt and distrust: Taiwan cracks down on disinformation ahead of local elections](https://www.straitstimes.com/asia/east-asia/tackling-doubt-and-distrust-taiwan-cracks-down-on-disinformation-ahead-of-local-elections) — The Straits Times
 
-_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (12 headlines, 14h window)._
+_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (14 headlines, 14h window)._
