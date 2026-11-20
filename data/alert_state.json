@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-19T23:45:30.630842+00:00",
+  "last_run_utc": "2026-11-20T00:00:57.370237+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3946,6 +3946,9 @@
     },
     "single:WSM": {
       "last_attempt_utc": "2026-11-19T19:18:07.653234+00:00"
+    },
+    "single:WTC.AX": {
+      "last_attempt_utc": "2026-11-20T00:02:24.601757+00:00"
     }
   }
 }
