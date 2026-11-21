@@ -1,17 +1,16 @@
-# Global Semiconductor Brief -- 21 Nov 2026, 15:35 SGT
+# Global Semiconductor Brief -- 22 Nov 2026, 01:44 SGT
 
 ## Policy & geopolitics
-- [Nvidia server suppliers halt Southeast Asia shipments over US curbs](https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWJ2Ynl0elFmc2U2cHV6em9qVVp6SGdacE1hRjdjaEJsZExHRDhkSm95cDYwNGxDN3pwY1dBYkhSSkgzd0JveGJUMExPaDBXS2lrc0hCaUtOd09ZUUdPRWNjNHZJOXZhRkpmajhral9vZDV1WjV3UzItRnhiU3Y5NmtKV3JueDZQVHVlaEFTamxxOG1pUm9KdTlXazlOSXEtLUNFdkJmaFY0cG9td1hqV2dCLTF4b2t0ZXZBVVVQSHh0Zy1OY05EV0NwcmJ1c2Ni?oc=5) — Nikkei Asia
-- [Treasury secretary says no further restrictions are needed for Nvidia chip exports to China](https://news.google.com/rss/articles/CBMiswFBVV95cUxNWVNwbUpEZjJtY1NaOWc5Z1ZfYUo2QXJqdl9WVGhJVnFvajdCTGV5RFJwNzNQTFVSeENSNzdUQ2ctRjB5Sl9ybmJqb3FfZENLMEZkeFdYSUJMa1FSamFBS2pqTGpjQzAwWHBza2JHOXBzdmV2ZG1icEgzQXp1aW4zRDFLWnN1Rm1USW9zZ3I4V2NZZ05RN2tBa295b0I4c1VIME1OR3N0VXlZc0ZxOUcwb2lrOA?oc=5) — AP News
+- [Alibaba Sinks 25% in a Month as Chip Curbs Threaten Its 20 GW Plan: Eddie Wu Warns of “Downward Revision”](https://news.google.com/rss/articles/CBMilwFBVV95cUxQSE8wOEpFWjE0MkFOdE5HVERQallHTngwbVpYNlBJT093ZG9wbTRHSHlRMGdJeUNYOVVTWm13SU1SQUJwa29nZXB0TV9mem1TM2lncmJwcGNDUzA2aXd6LWFxMUtDczFlRkxtSEJSejZnbW82cUlkeW0zSEdIX0VXamszU2VvQVIwRG5sNUw2ajZKdTJkRkpF?oc=5) — Yahoo Finance
+- [What Does Samsung Electronics (KOSE:A005930) Leadership Shakeup Mean After China Chip Curbs?](https://news.google.com/rss/articles/CBMinwFBVV95cUxPbmVic1RpY3pwTlNRUHpaZ0xSeUpMTnJ2bzVtZXVSck5UMkNsWE14Ym9nU2FxNlp2TGlUak5WYWw3V1BIXzBaTkl2NkdBREgwUVgtbHBHQXNRQjFhVWVIQl9EblRIOERwNDg3YjhSVVJrSTdtU0ZTV0h1V1NBQTJ2WGNITjBBdDc1TnNid1QyU1ZobG5iSHJuZ0lXc25pTkU?oc=5) — Yahoo Finance
 
 ## Supply chain signals
-- [SolidWizard sees AI, semiconductor orders through 2027](https://www.digitimes.com/news/a20261118PD209/semiconductors-2027-investment-software-demand.html) — DIGITIMES
-- [Micron labor dispute in Taiwan heats up as premier calls for worker protection](https://www.digitimes.com/news/a20261118PD247/micron-taiwan-labor-investment-government.html) — DIGITIMES
+- [Trump says Jensen Huang should apologize and return to Nvidia](https://www.digitimes.com/news/a20261121VL200/nvidia-donald-trump-jensen-huang-taiwan-taipei.html) — DIGITIMES
 
 ## News — M&A, capex, capacity, earnings
-- [EXCLUSIVE: Nvidia's accounting is a focus of US SEC investigation, sources say](https://news.google.com/rss/articles/CBMitgFBVV95cUxPMzlPdFVTT2cyVkhmMFVKNWZ1MnpNT0NLcURnblg4THMwUWNuYTRBLWUxU0ZSSUR5bk1zNnBmVlhIUjByNkN6TzVBNC1uaXQxM0dwY2FkMzZQdm00a0xyMXo3NFNpSUNPdERZWU82aGZLa0lNZHpMOXVnVDBVQW9lMmNrWEVRczVYS1Racm1NNlNERDBJeTFJRG1pZVRfTC1LTy1pNjhpVzRaeGRrY25kSzQ1aDNUUQ?oc=5) — Reuters
-- [Apollo, Goldman lead $44 billion SpaceX GPU debt financing](https://news.google.com/rss/articles/CBMitgFBVV95cUxQaEhScEk2NU5wVFRpcDFmSXdjTko1Szc1YXM2Z0d0S3lvX2NTa0RVVTBGRkxROHA3UjdDOHR0Q3BmX0c4YzZka0Z2NTJrMWFVTU9NODNic1IxUjFxSkFLcGk1d29VZUI5TmJwVV82UV9xSFZEQm1KZTN4QlR6aldKaWZvZG5ITlRDVkM2RDNLVV8tSi1yTnBaT3hOXzFtRF9BdjNDZUVlbXdrMkVkUUk5cDZzaThIZw?oc=5) — Reuters
-- [Trump says he still backs Lutnick, urges Nvidia's Huang to apologize](https://news.google.com/rss/articles/CBMirAFBVV95cUxNSGQwWUVrODhUa2V5cklXNHcxR3pRbVlPaWxkRlJqV1JYZ3JaV200OHUyZ2JhMUNKbTdFMjlEWEJNNUZPQjFDSG1ZLTlMWGJQZUJSalNuVXVDU0pBRkZERkpTOGZ0SkpHYWlWcGJJUmhMeG9JMmphSk5QSkl0ZlNaaGF4TndiT3FKbUZWbUhzbkdrellveFBtQTdoc2loWHdkREt1NzhfXzI0djg4?oc=5) — Reuters
-- [Exclusive | Top Republican Senator Says Lutnick Ignored His China Chip Warnings](https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZE1FLUpGTW9zeVJKbndTVUV6MTF3dmVQTE4zd2h4SVlCdzI4Qm1xNmtPWW0xTGR0TjRHRnVVZjg0RERoZXB2MEpMazY5akdSU0phSEc2WEU3NURBdWMwVEtBd2ZmamNRRXF5LVZnMms5QnlYNldTQ1NCVWNMVkpSZjRzc283dlY0eWkxVEVLWTQ1ekJrRGY5Zk5yM2NqcXhtSGoxdFlmcGx1X0tjYkRUaU5nZnRNNS1BZW5tRGlZRmM?oc=5) — WSJ
+- [California Nvidia Probe Covers Potential Criminal Law Violations](https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3ZKSUpVM0xWNVRuM3B0RjhyOTM0NUNoRmNYVnVKYm50andhaTFJVHZLenZrckE1aFZuMGhiSW42Mlh5c2lZcGc5eTg1NDQwWVRFQWxSOGtzWHk2S2pGLVpvM3N2enh4Mms5OTF0MHFXc0JnN3ZoYlB3ODJqX3FoSjJCTWlPOHQ2SjNOQ1Q3cjVNR0NWRVYxWVFEanpwZC1mSW5SeGpXSDRqX1d0TUVwdE1vYVJWUQ?oc=5) — Bloomberg.com
+- [Alice Huang’s links to the chip underworld](https://news.google.com/rss/articles/CBMihAFBVV95cUxNN2I2emFfUExveWExQWtzSi1INmtBc2JuXzA1VXphamhsZ0Q4Ukd4WEoxZWMyVWdkVFdGMk1Mdm1adDdVN2diUS1aUkN3dEhjX2xtYXBWWFZLbk5RYVpxeE5VZUVOZng1MmtncWdBdHlkNlMyejFzbWxCRW5Sc3VBcno1ZS0?oc=5) — Financial Times
+- [Bessent Urges Nvidia to Pick Outsider as Next CEO](https://news.google.com/rss/articles/CBMijwFBVV95cUxNelVNRDFXQmNHV3JpOFRyaWl2N3h1WnNXNXNXS2FOOHg4dklQNVZfNktCNUdyZ3pNSGtENWRIbE1sYThZZk1QODBNTndERElkRmQ0MHlReHJQU2ZlRDdaYTFqdzA5anBUTXJjVmwwV0hvcW1hS1pPc01zSF9lTXFrTC15RnFzdlJfN2VuYzVuUQ?oc=5) — WSJ
+- [Nvidia Said to Face S.E.C. Probe Into Its Accounting Practices](https://news.google.com/rss/articles/CBMiekFVX3lxTE5qSmxMVy1SN0NxMVRKNy1XTmdKbUJ0WVI4VlUwM3RQWnJvNkE0M1pLVVk3bHJZUUtYWUFJdUJjMllKbXhyYzNOR1dDazVJN2ZmaGxENktCS213Q29Vc2paREMxOEZGZkw5QzNHcU5KRjJxdVBjdHM2SlpR?oc=5) — The New York Times
 
-_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (8 headlines, 13h window)._
+_Sources: Google News + EE Times + Tom's Hardware + Reuters Tech feeds (7 headlines, 13h window)._
