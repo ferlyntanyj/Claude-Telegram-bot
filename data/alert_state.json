@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-22T23:15:33.747446+00:00",
+  "last_run_utc": "2026-11-22T23:30:47.349670+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3973,6 +3973,9 @@
     },
     "single:CDNS": {
       "last_attempt_utc": "2026-11-20T19:28:50.919580+00:00"
+    },
+    "single:ALQ.AX": {
+      "last_attempt_utc": "2026-11-22T23:32:10.601431+00:00"
     }
   }
 }
