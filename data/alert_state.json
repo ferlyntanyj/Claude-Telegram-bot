@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-23T12:14:23.335259+00:00",
+  "last_run_utc": "2026-11-23T12:30:44.255422+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3991,6 +3991,12 @@
     },
     "premarket:JBL": {
       "last_attempt_utc": "2026-11-23T12:03:21.159642+00:00"
+    },
+    "premarket:UNH": {
+      "last_attempt_utc": "2026-11-23T12:32:59.850422+00:00"
+    },
+    "premarket:CFG": {
+      "last_attempt_utc": "2026-11-23T12:33:10.773360+00:00"
     }
   }
 }
