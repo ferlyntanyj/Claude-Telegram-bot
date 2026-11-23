@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-23T13:00:55.529686+00:00",
+  "last_run_utc": "2026-11-23T13:15:40.554996+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2070,7 +2070,7 @@
       "last_attempt_utc": "2026-11-03T13:18:08.925581+00:00"
     },
     "premarket:BE": {
-      "last_attempt_utc": "2026-11-23T11:20:11.494123+00:00"
+      "last_attempt_utc": "2026-11-23T13:23:11.705814+00:00"
     },
     "premarket:RVTY": {
       "last_attempt_utc": "2026-11-03T13:48:59.386916+00:00"
@@ -2340,7 +2340,7 @@
       "last_attempt_utc": "2026-11-04T13:18:28.995286+00:00"
     },
     "premarket:SMCI": {
-      "last_attempt_utc": "2026-11-23T11:21:14.058901+00:00"
+      "last_attempt_utc": "2026-11-23T13:23:33.463845+00:00"
     },
     "premarket:SWKS": {
       "last_attempt_utc": "2026-11-04T13:18:55.117641+00:00"
@@ -3606,7 +3606,7 @@
       "last_attempt_utc": "2026-11-23T09:03:22.028001+00:00"
     },
     "premarket:LRCX": {
-      "last_attempt_utc": "2026-11-23T11:18:22.633387+00:00"
+      "last_attempt_utc": "2026-11-23T13:22:39.052202+00:00"
     },
     "premarket:MRVL": {
       "last_attempt_utc": "2026-11-23T11:18:46.613919+00:00"
@@ -3618,10 +3618,10 @@
       "last_attempt_utc": "2026-11-23T12:03:32.165331+00:00"
     },
     "premarket:AMAT": {
-      "last_attempt_utc": "2026-11-23T11:18:11.452751+00:00"
+      "last_attempt_utc": "2026-11-23T13:22:28.094763+00:00"
     },
     "premarket:DELL": {
-      "last_attempt_utc": "2026-11-23T11:18:33.734297+00:00"
+      "last_attempt_utc": "2026-11-23T13:22:49.936431+00:00"
     },
     "premarket:KLAC": {
       "last_attempt_utc": "2026-11-23T11:33:05.044672+00:00"
@@ -3630,7 +3630,7 @@
       "last_attempt_utc": "2026-11-23T11:33:37.443804+00:00"
     },
     "premarket:TER": {
-      "last_attempt_utc": "2026-11-23T11:20:31.339671+00:00"
+      "last_attempt_utc": "2026-11-23T13:23:22.561175+00:00"
     },
     "premarket:STX": {
       "last_attempt_utc": "2026-11-23T11:33:15.939955+00:00"
@@ -3657,10 +3657,10 @@
       "last_attempt_utc": "2026-11-06T10:33:13.728759+00:00"
     },
     "premarket:INTC": {
-      "last_attempt_utc": "2026-11-23T09:03:43.573294+00:00"
+      "last_attempt_utc": "2026-11-23T13:22:17.190259+00:00"
     },
     "premarket:MPWR": {
-      "last_attempt_utc": "2026-11-23T11:19:49.487913+00:00"
+      "last_attempt_utc": "2026-11-23T13:23:00.880942+00:00"
     },
     "premarket:MRNA": {
       "last_attempt_utc": "2026-11-06T12:03:51.491997+00:00"
@@ -3723,7 +3723,7 @@
       "last_attempt_utc": "2026-11-09T13:33:09.350686+00:00"
     },
     "premarket:NVDA": {
-      "last_attempt_utc": "2026-11-23T11:18:00.622511+00:00"
+      "last_attempt_utc": "2026-11-23T13:22:05.650301+00:00"
     },
     "single:FERG": {
       "last_attempt_utc": "2026-11-09T19:06:37.967670+00:00"
