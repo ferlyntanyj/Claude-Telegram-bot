@@ -1,23 +1,22 @@
-# Asia Market Evening Brief -- 21 Nov 2026, 02:37 SGT
+# Asia Market Evening Brief -- 24 Nov 2026, 06:03 SGT
 
 ## Macro & policy
+- [Japan's defense spending pitted against sales tax cut in budget tug-of-war](https://asia.nikkei.com/politics/japan-s-defense-spending-pitted-against-sales-tax-cut-in-budget-tug-of-war) — Nikkei Asia
 - [Japan sovereign AI project faces $5bn cost surge on chip prices, weak yen](https://asia.nikkei.com/business/technology/artificial-intelligence/japan-sovereign-ai-project-faces-5bn-cost-surge-on-chip-prices-weak-yen) — Nikkei Asia
-- [South Korea rides AI boom to new height as exports hit $1 trillion](https://asia.nikkei.com/economy/south-korea-rides-ai-boom-to-new-height-as-exports-hit-1-trillion) — Nikkei Asia
-- [Dollar falls as Fed-fueled rally stalls; lower US yields help yen](https://www.channelnewsasia.com/business/dollar-falls-fed-fueled-rally-stalls-lower-us-yields-help-yen-6567931) — CNA Business
-- [Jakarta Stocks Slide as AI Concerns Trigger 5% Losses in Japan, Korea](https://news.google.com/rss/articles/CBMiogFBVV95cUxQdkVVS3pZa0JTTktxblJ5aGxwaEZLaG1ZTFU1T3pmcmVkZWRaX2ZldmRCd1VzSmp0ZmNJMS1MamswUnZZSG1KaTJmUHhoWEFiTVZvZmt1T1d1Q1RPOS1LT3FMS1UyQnI5ODl5UDVTUmQwLUFlU0pHcTNJektLR21RakpSNlJlOFl3MEd1cWt2enhiY3gzMXhTZ09kODBYTVJia0E?oc=5) — Jakarta Globe
+- [ETFs to Benefit as U.S. Approves AI Chip Exports to China](https://news.google.com/rss/articles/CBMilAFBVV95cUxNM1ZkZGJGZmpSQTJtWF9CWmJSdV9wWlV0T2wyOEhKVDNLYkVqa1NtcWFjTUtqd2ptT2Q5SmhxSmtRdFRYNkktWkFLdm45V0plTWZYRnZKOU1WS1FPckRLSENaZTBWNk5IcUMtZkZyM2xZODlsS1NuVk9kYkNxOG9CbURuam9vMFBjbWl4ZEhfdW5nS3g5?oc=5) — Yahoo Finance
 
 ## Markets
-- [Japan Tobacco shares fall 10%; Russia seizure hits 900,000 investors](https://asia.nikkei.com/business/markets/equities/japan-tobacco-shares-fall-10-russia-seizure-hits-900-000-investors) — Nikkei Asia
-- [Through the Lens: From ASEAN in Manila to APEC in Shenzhen](https://asia.nikkei.com/photos/through-the-lens-from-asean-in-manila-to-apec-in-shenzhen) — Nikkei Asia
-- [APEC live: How events in Shenzhen unfolded](https://asia.nikkei.com/politics/international-relations/apec/apec-live-how-events-in-shenzhen-unfolded) — Nikkei Asia
-- [AI-fuelled cyberattacks drive claims surge at Japan insurers](https://www.straitstimes.com/business/ai-fuelled-cyberattacks-drive-claims-surge-at-japan-insurers) — The Straits Times
-- [Singapore-based DayOne is said to pause US IPO plans on data centre, market concerns](https://news.google.com/rss/articles/CBMizAFBVV95cUxPbXE3YlBpRHNia1FsUGdmTlpLN1cxQzlMY09wczBRRElOZTQ4VlNtUWlERURMby1uYXZWNFMxOFhwZTZKR1RrRUxxZmp0RGJCeEx3NEQ0SDBERFljakhYaTQ5aXBiLU9KZWFNUE1MUTdaNWxGUC1CUGNnaUxMTDZvdzVuY3VKaDA5NVI5QlEtdVRzbFY3ODUwWGVYTXFFRHk4ZndtbXJndWlQakxSYm5FMjAyT29aVUxUOEFVTTIzcWowdm12MTluR1F6MHM?oc=5) — The Straits Times
+- [Bro hugs, no deals: Why Shenzhen was a win for Beijing](https://asia.nikkei.com/opinion/bro-hugs-no-deals-why-shenzhen-was-a-win-for-beijing) — Nikkei Asia
+- [Chinese 3D printer maker Bambu Lab scales up production in Shenzhen](https://asia.nikkei.com/business/china-tech/chinese-3d-printer-maker-bambu-lab-scales-up-production-in-shenzhen) — Nikkei Asia
+- [China expands nuclear submarine fleet with US strike capability](https://news.google.com/rss/articles/CBMipwFBVV95cUxPbnNUd193ZDBsX3o1SkRVM3BSd0xtYVR3M0huUDFZTkxWcDB3SkFMaUpRaUJNZml6T1haamlValBaaXR3aFVacHB0U3M4ZHlBNHlYa2RJZVZ1c0k0b0RwbjQ2YUlvb1V2S3RTdHlxVjNVQk54N3Q1NGpqU1ZkLXd2VnVVcnR5bVVkd2ZrSmV4cFZ5RTdjanByWVJCZV94VkJlZjhkX2Zfbw?oc=5) — Nikkei Asia
+- [China’s next AI deals clouded by sell-off after Anthropic IPO](https://www.straitstimes.com/business/chinas-next-ai-deals-clouded-by-sell-off-after-anthropic-ipo) — The Straits Times
+- [Asian stock markets tumble as AI bubble fears mount](https://news.google.com/rss/articles/CBMiogFBVV95cUxOaWg2VjJNckwyMnpNTjV6cnBRckpmX2hndGxyM29qMnU0aml6bUNicGJPNXJKdzludzVfYVNhSHpJR0xhZjJMeHFDM3d4MldqQUJPbE9ha3VFbjMyLXFEeS1VSkFxejNJN2czNFlnMF9uNGdnb2lPUUdoTmZZeUFrbHFfNjVsZzc5QUVSR3hST2VYaDB1S2dYd0ktRWNoSHNmQUHSAacBQVVfeXFMUHlLZVl5SzNCcWd0RjktYlZwT2pDLXNDZmg1dzNKQ2k4VFZaa08xWjhQcEFubzhxYnpsZWxQU3ZIaGZSZlFzOGlrY3RRNUlLczVZRk8xN05VdkduMFRaVy03ME5zMWFtT0JSSWRqTzZ0cjVtUVBwYzJ5LWZhM0FiOFlSSlJHS1ZhcmZqeGlFdi1CLTBLeVpVSFNJVElhSnQxQmU4WS1hSWM?oc=5) — Al Jazeera
 
 ## Geopolitics
-- [US-China stability can't rely on bilateral summits, warns AmCham head](https://asia.nikkei.com/editor-s-picks/interview/us-china-stability-can-t-rely-on-bilateral-summits-warns-amcham-head) — Nikkei Asia
-- [India to let Japan use firing ranges for surface-to-ship missile tests](https://asia.nikkei.com/politics/international-relations/india-to-let-japan-use-firing-ranges-for-surface-to-ship-missile-tests) — Nikkei Asia
-- [Xi tells Trump to 'do right thing' on Taiwan as trade truce remains in flux](https://asia.nikkei.com/politics/international-relations/apec/xi-tells-trump-to-do-right-thing-on-taiwan-as-trade-truce-remains-in-flux) — Nikkei Asia
-- [US and China hold maritime security talks in parallel with Xi-Trump meetings](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdHEtQTZzNm15NFFwRVY0aFhpSmc0MW1QdjU2NHNGdkRNeVlLQUtreHQ4cjAwYVVpWjVXVWU3ZzdXV1VJTFNxOGttNWEtak0tRVVFMjY2VnlVMFdfNEtzeTlvZU5sZnVjMGpzZUEybHBBUGtRcGtQWnV2OWFzbmdXbnI1THNyZnJBS2xhT2I4TVFpZlRweTk2ellwdXFaYXRfYU1LYkhHUk9mWnRpUmNZLWdMNWQ4ZGlRYkFoM1ZyRHJWQ3fSAcMBQVVfeXFMTnF5NE0yM1RLRGVOR0tQSUdkNmFVZnlwOS1aM1ozSmNHOEpLMjBlM1N2Y3R4SHBhbXFPc1VPX3l5V2xiY1hITzZ6NHo1THBBVEptenNOX3d3YXdtdk4zRUs4UndFVS1RSnFzczFKVHh6QUE0LVA0UXNMb1M3cmNnUnZJdk5oZkJmRlVCZ1V0WFduZzhLN2liUDFtZURtTWZxcXBwbVo3ODRrY0pFQVZYMi1QLUtfWDN5TXdXVVZON2NhSGxr?oc=5) — South China Morning Post
-- [Tackling doubt and distrust: Taiwan cracks down on disinformation ahead of local elections](https://www.straitstimes.com/asia/east-asia/tackling-doubt-and-distrust-taiwan-cracks-down-on-disinformation-ahead-of-local-elections) — The Straits Times
+- [Laos 'least-developed' status shift, Tata meeting, Taiwan local elections](https://asia.nikkei.com/spotlight/your-week-in-asia/laos-least-developed-status-shift-tata-meeting-taiwan-local-elections) — Nikkei Asia
+- [Japan weighs scaling back missile and warship purchases](https://asia.nikkei.com/politics/defense/japan-weighs-scaling-back-missile-and-warship-purchases) — Nikkei Asia
+- [Japan weighs early funding to ICC before US sanctions cutoff](https://asia.nikkei.com/politics/international-relations/japan-weighs-early-funding-to-icc-before-us-sanctions-cutoff) — Nikkei Asia
+- [What Nvidia tells us about America and China](https://news.google.com/rss/articles/CBMihAFBVV95cUxPb0MyYWtvRFpjanNTanhORWRKTDZmM2pfVExuQ3dQeDhhRlJKN3FzdVV1eDlKQWNGMkRCeWJUMlJKOGdGb0FFbVZpR0ZYTG1HclhFQ3RxODdsTHhtLXN4NGV2SjVtTEo3Z29RYVV5TmpWTkVXYXRydTJ3d2JITFp5LWlQXy0?oc=5) — Financial Times
+- [Biomedicine | China steps up Alzheimer’s, Parkinson’s drug push, looks to TCM](https://news.google.com/rss/articles/CBMitAFBVV95cUxNSEUzNm1ubjBuRjBvcTNnUEdSQldLWmZBVzRTZi1mNTlaNUhFOGNIaWwzYUhTdVV2c29nY2lhb2dRS2Y2aENwNnYyMllMY0t5ME9SeUNsR1RDODJZNHBXemZNZTBkRjNwQ19KOWtBUGJDTDd4anZ5ckQ1MXdVZjZTSFhxRGZ0RDlfR2NzUHlSSGVnVzdIaVg2b2hsaWZobDlrMWRoZm9IU3V3REpULXdQVGstMUg?oc=5) — South China Morning Post
 
-_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (14 headlines, 14h window)._
+_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (13 headlines, 14h window)._
