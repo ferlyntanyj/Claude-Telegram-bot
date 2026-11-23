@@ -1,24 +1,25 @@
-# US Market Morning Brief -- 20 Nov 2026, 15:34 SGT
+# US Market Morning Brief -- 23 Nov 2026, 15:57 SGT
 
 ## Markets
-- [SoftBank suffers worst day in over two years as AI sell-off hits Asian tech stocks](https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html) — CNBC Top News
-- [California attorney general issues Nvidia subpoena in probe of China chip diversion](https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html) — CNBC Top News
-- [Congress passes bill to protect older investors from financial fraud](https://www.cnbc.com/2026/11/19/financial-exploitation-prevention-act-older-investors-fraud.html) — CNBC Top News
-- [Amazon app warns New York of higher costs if Mamdani delivery law passes](https://www.cnbc.com/2026/11/19/amazon-nyc-delivery-protection-act.html) — CNBC Top News
+- [Yardeni Cuts S&P 500 Target Again, Says Bear Market Is Unlikely](https://news.google.com/rss/articles/CBMiswFBVV95cUxNcThLY0szV3pPS2IxUHRPYm5NSDNZU25MRWJYZkplcU43YjhEb2JSRm5kdmR2ZWYyN2pDMzhOb2RjUUdiMjFBbFZRMDlDNTZVZDRjYWluVmQ3WElhaFVMNkwzZUxGQ2dBSEI2MU4yTlZ2NDFacEdtUUF2aUYyZm9RZl9JSnBvd2Y2UFhpSmdsNDBSRFUtVDJ5ejJSSXZ3cTAwbEtfYzJFR1ZmWGFYQTBrZTNnUQ?oc=5) — Bloomberg.com
+- [How Asian countries are looking to prop up markets as AI downturn sinks stocks](https://www.cnbc.com/2026/11/23/asia-markets-kospi-taiwan-china-csi300.html) — CNBC Top News
+- [U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case](https://www.cnbc.com/2026/11/23/nvidia-megaspeed-chipmaker-us.html) — CNBC Top News
+- [Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year](https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html) — CNBC Top News
 
 ## Macro, Fed & data
-- [Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices](https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html) — CNBC Top News
-- [Peterson: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’](https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html) — CNBC Economy
+- [Australia Recession Risk Is ‘High and Rising,’ AMP’s Oliver Says](https://news.google.com/rss/articles/CBMisgFBVV95cUxPazBGU2pJdUJvbENjc290c1VqTDFHOGw0ZjlFcm8zcXhycXIxMHZubU9GUVBjTFBNaC1JYVhPYy04VTZJUDlrbHdfcGF2Mk1yWlRialpwaE02OUlLSnN5bVVrR0Z0VnkzV2plYVlNdmI4QUUydlkyd3R0V1FkUGk2b2R3Zl9WTENUQVF1NU5fRUVzSkZLdzNPQTVRWjkyVXdLZktSLUNxS0NIZUkwOUVMM2ZB?oc=5) — Bloomberg.com
+- [US Consumers Are Holding Up Against Inflation Going Into Holiday Season](https://news.google.com/rss/articles/CBMivwFBVV95cUxOVzdHalZYY2s3bHVEeENKX0g4T0M4WWxHV3lacDRlejl2b2E5VWNPd1AxbXhaaUVyNXBFLWlYZFlKTk93R3QzeFdVazI3ajljUFVLYnFpb1VVQmNrVlNvYTIyajhxM1JBbjYxTkhJMkhObEJGSVdRdmZDVzItblZFd1A4NHZaWTZiZWdFVVc4REI2RGF5UjlGWndXeDFha2k0MWdqRkE4X1ozQ1h5N0ZxZmVVTVFldC1VRi1keUdBQQ?oc=5) — Bloomberg.com
+- [Federal Reserve announces College Fed Challenge winners](https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm) — Fed press releases
 - [Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means](https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html) — CNBC Economy
 
 ## Stocks & earnings
-- [Asian Equities Tumble as AI Stock Selloff Deepens](https://news.google.com/rss/articles/CBMiugFBVV95cUxQU2NVdm13RVFPZ25MNXZJanhhZU43eGlMQWRjLTB2WkgwWVhJR0tpM0l5aGljbTBvZTVZdVpkUkVBRGJETWhqYnhvS2tYWDA5UlFVOW9GdHhMVWpaTnhWUks5bnUyTm1QeUVSdl9tcHVGdm5EUkFCUE5pbGdTaTVZZXFuOVVZMGNqWkRaSWpSa1B5ZFZGZmNSTU50dzZtcXJZRGRXWFA0SDJRWHFDbU4yQ0V1OXhPelNnaWc?oc=5) — WSJ
-- [Forget Anthropic: In Europe, the IPO hype is about a blue lagoon](https://www.cnbc.com/2026/11/20/anthropic-ipo-iceland-blue-lagoon.html) — CNBC Top News
-- [U.S. Stocks Slide as AI Bust Continues Despite Anthropic IPO](https://news.google.com/rss/articles/CBMipgFBVV95cUxOS0gyWjhIVGZYS3A2TDJtbVdaZVJHdlo5Smt3RkhsMHJ2bUh6ZVlOLWE5cDhkV3hXcmFVZFRVTmgxdlJXQ3dLRWREYVljemhSVjkycmlFYzctSW44YlhybXNtOFNyYVVvMEw2bGFNSmFnMEJrd2xWMklDbHJ4RGNRNFVnX1VTNUR0QXA5V1BaRlo3Tmo2eUE3U2lCQko5c21rQVMxOGlB?oc=5) — WSJ
-- [Anthropic IPO: Investors who flip the stock may face brokerage penalty](https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html) — CNBC Top News
+- [Stock Futures Rally After AI Rout, Havens Decline: Markets Wrap](https://news.google.com/rss/articles/CBMisgFBVV95cUxNMFVRM2J2cTZ6eU02Qzk1TF83UmhsSEN3SlpHYjJuc2lDeXBVM0h6WkN2bEJCUlk5RnZNOFMta05FOXFqeTZQQWZnbFl2RG1WTWVNSXYwVWhZRFZxRkx6SDlhTWtUWk92UVBJa2FGWVk3ak9rOUVJYjZ6RDBqcUZCOEpiWmFVWGxvVmM1Y2prdDk2N19EZG0xWjU3aFV5QkJ6MjF4eExGSkd3TWxaWGRBVzhB?oc=5) — Bloomberg.com
+- [Investors gives a thumbs down to Tata Steel-APL Apollo $1.67 billion deal, plunging shares](https://www.cnbc.com/2026/11/23/tata-steel-acquisition-deal-apl-india.html) — CNBC Top News
+- [Strong Earnings Prove No Match for the Crumbling AI Trade](https://news.google.com/rss/articles/CBMirAFBVV95cUxOSWdMSHNxSjRIMWY2c1JVckdnZFBHRG1XOThWbXFwQ25lT0ZaRTdTc1NKWkVrSHl2bTRPM241dkI2UHQtQWl5NHd3T3FHb3pnRXc4QmlLYzdQVEJRZmpNeDNUbldVU0dJSWppNXIyLVlwS0hJenlvY0VMQVBkbVdtcUlFcG9lWkFMUVd3M1QyYWdJbG9YX3cxWU5lNW0zbEdieWtydzFzVzdUbXls?oc=5) — Bloomberg.com
+- [Correction or deeper reckoning? Investors seek signs US stock selling will abate](https://news.google.com/rss/articles/CBMizAFBVV95cUxQSFRxak5ZYUFPNWxVbzlJdy1Mcm9xMTRVZ0ctY205NFVGVEFtcDdFNG1Iem05TjVBcnYzWUVUeXcyWndZNlpnR25GMW5GdkJ2blJjeUdXdlhvZ1VqNWpVSGdYX1RsQ1F3eUhkRUFaX0lxQTNnVFNySmphdG1KM2Y0NTZrdGRoTWxEaE0ybmVSUnBtdDB2VW9tWGtrYkZfUmZUaUdxWDUyUEZGZ2tSajBqSTJydzNhb2xwaTctX21xQmxmXzFyZ1BIWE80ZF8?oc=5) — Reuters
 
 ## Geopolitics
-- [U.K.-India trade deal faces a stiff test over Scotch whisky import taxes](https://www.cnbc.com/2026/11/20/uk-india-trade-scotch-whisky-tariffs.html) — CNBC Top News
-- [Mexico's Sheinbaum hopes to seal trade deal in next meeting with Trump](https://news.google.com/rss/articles/CBMisAFBVV95cUxNV3NIMFlEOTNmNzRFX3lnSlN6Uy11NmF4Xzdubmc2ZkNfeHdZRFFGY2trbjMwWTM0OTdZcFVoNlQzM3RiUHhGV0RQa0ZUcklDOWVSMGJBNDI2TzV3VEV0c2J4ZVVaYkwwTXEzaExkcElWTG9GZ3ZPOUZMX3pIc29iN1EtOEM2V3dETnA4YTFLaTQwZU5qMUFvcmFHMFVqZHlBcENYaUdDeHk0SFYyc2pxNg?oc=5) — Reuters
+- [U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia](https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html) — CNBC Finance
+- [Copper Prices Are Plunging and Sending a Warning for the US Economy](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOElkaGNZcUQ5TUdHaWZXWFFmSkxneEh4dE9oQks4aW9pWlJJUVNqQ0lUeVNNM1dhODVCeVgtMld4NF9pcGdUQWNsNHBVSGlMdWhoR0s1WFVheDlVMV93TWJMcVBHeks5TVhEMVlOQ0M4blUwd1czY3FZRHVralV2R0d0TWxvOHpa?oc=5) — Business Insider
 
-_Sources: Google News + CNBC + Fed feeds (13 headlines, 20h window)._
+_Sources: Google News + CNBC + Fed feeds (14 headlines, 72h window)._
