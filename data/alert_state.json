@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-24T18:45:38.692310+00:00",
+  "last_run_utc": "2026-11-24T19:00:50.122498+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1935,7 +1935,7 @@
       "last_attempt_utc": "2026-11-02T19:33:36.470554+00:00"
     },
     "single:NTAP": {
-      "last_attempt_utc": "2026-11-24T15:33:51.297179+00:00"
+      "last_attempt_utc": "2026-11-24T19:03:16.555449+00:00"
     },
     "single:HPE": {
       "last_attempt_utc": "2026-11-24T17:05:14.957858+00:00"
@@ -3228,7 +3228,7 @@
       "last_attempt_utc": "2026-11-05T15:03:04.695271+00:00"
     },
     "single:NVDA": {
-      "last_attempt_utc": "2026-11-24T16:47:43.785168+00:00"
+      "last_attempt_utc": "2026-11-24T19:03:04.154049+00:00"
     },
     "single:CSCO": {
       "last_attempt_utc": "2026-11-23T20:35:45.614450+00:00"
