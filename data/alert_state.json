@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-24T10:00:55.026047+00:00",
+  "last_run_utc": "2026-11-24T10:15:38.175475+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3090,7 +3090,7 @@
       "last_attempt_utc": "2026-11-05T08:20:50.660967+00:00"
     },
     "single:ANTO.L": {
-      "last_attempt_utc": "2026-11-19T08:17:08.325570+00:00"
+      "last_attempt_utc": "2026-11-24T10:17:52.689490+00:00"
     },
     "single:BMW.DE": {
       "last_attempt_utc": "2026-11-05T08:21:50.917860+00:00"
