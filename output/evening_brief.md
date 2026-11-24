@@ -1,22 +1,20 @@
-# Asia Market Evening Brief -- 24 Nov 2026, 06:03 SGT
+# Asia Market Evening Brief -- 25 Nov 2026, 04:39 SGT
 
 ## Macro & policy
+- [Singapore GDP grows 6.1% in Q3 as AI demand stays strong](https://asia.nikkei.com/economy/singapore-gdp-grows-6.1-in-q3-as-ai-demand-stays-strong) — Nikkei Asia
 - [Japan's defense spending pitted against sales tax cut in budget tug-of-war](https://asia.nikkei.com/politics/japan-s-defense-spending-pitted-against-sales-tax-cut-in-budget-tug-of-war) — Nikkei Asia
-- [Japan sovereign AI project faces $5bn cost surge on chip prices, weak yen](https://asia.nikkei.com/business/technology/artificial-intelligence/japan-sovereign-ai-project-faces-5bn-cost-surge-on-chip-prices-weak-yen) — Nikkei Asia
-- [ETFs to Benefit as U.S. Approves AI Chip Exports to China](https://news.google.com/rss/articles/CBMilAFBVV95cUxNM1ZkZGJGZmpSQTJtWF9CWmJSdV9wWlV0T2wyOEhKVDNLYkVqa1NtcWFjTUtqd2ptT2Q5SmhxSmtRdFRYNkktWkFLdm45V0plTWZYRnZKOU1WS1FPckRLSENaZTBWNk5IcUMtZkZyM2xZODlsS1NuVk9kYkNxOG9CbURuam9vMFBjbWl4ZEhfdW5nS3g5?oc=5) — Yahoo Finance
+- [China extends pause in controls on critical mineral exports to US](https://news.google.com/rss/articles/CBMihAFBVV95cUxOVXh2WUNSYmVSZkJLcmJoenphclhBTmJiMGZfOHBXQmhkRXE4UklsLXNoS254QU96QWdDTHFBSkZCQUc2M1JRWF96N3p3a29ka2E5SzlpcDFEb0lLM3ZwVF9PTzJLcm9SOXRaQUhFTzZCR2xNQU9pNDNKSjBVVHoySHoxOG0?oc=5) — Financial Times
+- [Stock swings add to 'double tightening' fears as BOK eyes another hike](https://news.google.com/rss/articles/CBMivgFBVV95cUxNMmhETkZlRXlLelItcDRZNzhxQzBSRXFYa3ZsbFI3QWVFNENpY2V3WTVvWjdyeFJZS3JKRWV2dHU2eWxPNHVfVkItRVhNZWJCVU5SQmk1aWdOdWJmVkllamdDZW9rZ0hhS2NRdHY1d2NLbzFuYzZCWklaVmtvMFh0ckFReDRhOTVYeF90WmJzQnZtNi1YWUZWMzlQZUJzaWF6OXROc2w4Z2R3WjJhMzR3UndjOVdoY1VoNWNfZ3ZB?oc=5) — Korea JoongAng Daily
 
 ## Markets
-- [Bro hugs, no deals: Why Shenzhen was a win for Beijing](https://asia.nikkei.com/opinion/bro-hugs-no-deals-why-shenzhen-was-a-win-for-beijing) — Nikkei Asia
-- [Chinese 3D printer maker Bambu Lab scales up production in Shenzhen](https://asia.nikkei.com/business/china-tech/chinese-3d-printer-maker-bambu-lab-scales-up-production-in-shenzhen) — Nikkei Asia
-- [China expands nuclear submarine fleet with US strike capability](https://news.google.com/rss/articles/CBMipwFBVV95cUxPbnNUd193ZDBsX3o1SkRVM3BSd0xtYVR3M0huUDFZTkxWcDB3SkFMaUpRaUJNZml6T1haamlValBaaXR3aFVacHB0U3M4ZHlBNHlYa2RJZVZ1c0k0b0RwbjQ2YUlvb1V2S3RTdHlxVjNVQk54N3Q1NGpqU1ZkLXd2VnVVcnR5bVVkd2ZrSmV4cFZ5RTdjanByWVJCZV94VkJlZjhkX2Zfbw?oc=5) — Nikkei Asia
-- [China’s next AI deals clouded by sell-off after Anthropic IPO](https://www.straitstimes.com/business/chinas-next-ai-deals-clouded-by-sell-off-after-anthropic-ipo) — The Straits Times
-- [Asian stock markets tumble as AI bubble fears mount](https://news.google.com/rss/articles/CBMiogFBVV95cUxOaWg2VjJNckwyMnpNTjV6cnBRckpmX2hndGxyM29qMnU0aml6bUNicGJPNXJKdzludzVfYVNhSHpJR0xhZjJMeHFDM3d4MldqQUJPbE9ha3VFbjMyLXFEeS1VSkFxejNJN2czNFlnMF9uNGdnb2lPUUdoTmZZeUFrbHFfNjVsZzc5QUVSR3hST2VYaDB1S2dYd0ktRWNoSHNmQUHSAacBQVVfeXFMUHlLZVl5SzNCcWd0RjktYlZwT2pDLXNDZmg1dzNKQ2k4VFZaa08xWjhQcEFubzhxYnpsZWxQU3ZIaGZSZlFzOGlrY3RRNUlLczVZRk8xN05VdkduMFRaVy03ME5zMWFtT0JSSWRqTzZ0cjVtUVBwYzJ5LWZhM0FiOFlSSlJHS1ZhcmZqeGlFdi1CLTBLeVpVSFNJVElhSnQxQmU4WS1hSWM?oc=5) — Al Jazeera
+- [Nikkei Asia Forum 'The Global Chip Game: Our predictions for 2027'](https://asia.nikkei.com/business/technology/nikkei-asia-forum-the-global-chip-game-our-predictions-for-2027) — Nikkei Asia
+- [Indonesia and Thailand drag down ASEAN's 2026 IPO proceeds](https://news.google.com/rss/articles/CBMipgFBVV95cUxNTnVESy1ZUGhOb09lc3lDVkQ2YmhkVE9pZnhFZTY5dEZWSExqRGEyTmdzZlJ6ZzVHRE5NVmNiYjd5VmRnOWNyYjQwT21Hc1NYNjhoS01VbWVyUUtrb3BEN3d1RjBnbUpjN3ROWVVJdEV0TDBob21CM3NCejRzMWwwbDlmMHVzSF9yV0c4Tm82N05xMndxd09PZEs5MTA0V0RoUmJvWVl3?oc=5) — Nikkei Asia
 
 ## Geopolitics
 - [Laos 'least-developed' status shift, Tata meeting, Taiwan local elections](https://asia.nikkei.com/spotlight/your-week-in-asia/laos-least-developed-status-shift-tata-meeting-taiwan-local-elections) — Nikkei Asia
-- [Japan weighs scaling back missile and warship purchases](https://asia.nikkei.com/politics/defense/japan-weighs-scaling-back-missile-and-warship-purchases) — Nikkei Asia
-- [Japan weighs early funding to ICC before US sanctions cutoff](https://asia.nikkei.com/politics/international-relations/japan-weighs-early-funding-to-icc-before-us-sanctions-cutoff) — Nikkei Asia
-- [What Nvidia tells us about America and China](https://news.google.com/rss/articles/CBMihAFBVV95cUxPb0MyYWtvRFpjanNTanhORWRKTDZmM2pfVExuQ3dQeDhhRlJKN3FzdVV1eDlKQWNGMkRCeWJUMlJKOGdGb0FFbVZpR0ZYTG1HclhFQ3RxODdsTHhtLXN4NGV2SjVtTEo3Z29RYVV5TmpWTkVXYXRydTJ3d2JITFp5LWlQXy0?oc=5) — Financial Times
-- [Biomedicine | China steps up Alzheimer’s, Parkinson’s drug push, looks to TCM](https://news.google.com/rss/articles/CBMitAFBVV95cUxNSEUzNm1ubjBuRjBvcTNnUEdSQldLWmZBVzRTZi1mNTlaNUhFOGNIaWwzYUhTdVV2c29nY2lhb2dRS2Y2aENwNnYyMllMY0t5ME9SeUNsR1RDODJZNHBXemZNZTBkRjNwQ19KOWtBUGJDTDd4anZ5ckQ1MXdVZjZTSFhxRGZ0RDlfR2NzUHlSSGVnVzdIaVg2b2hsaWZobDlrMWRoZm9IU3V3REpULXdQVGstMUg?oc=5) — South China Morning Post
+- [China Halts Critical Minerals Ban to Maintain Truce With US](https://news.google.com/rss/articles/CBMirwFBVV95cUxPRVl4NjNqN2gwZ0daMjNHNG1lRHU3bmVyQUszYk1BN0U1OXgyYkxJdjcwVjZZSHNQZUZ2VWZYM2g1UjRXTjBPSnpuUlZESWNuMkZHd0tpQnZuT2ZTVDNRR3RuYjlpbWsxWFYzQmxWa2ZMWnU5WUkyNnA4LWk0dHExVWdHRWhhd3J5MnIzNTJYT2pSZmZkaF9CVUVlQjd2OEhQeDZvX1VEb1Q2UzRhZ2I4?oc=5) — Bloomberg.com
+- [China to Suspend Some Critical-Material Export Curbs to U.S. Until January](https://news.google.com/rss/articles/CBMitwFBVV95cUxNR0tiam0waURNVF9vU2VYTmx6eGVqWk9NRm9GT2Q2blhiTm1OMTBQQzIxVmJ5WHlEMzNDQzUwSDJnNDBjX1FPQUZBSlVGcGFIeUU3TUZ4c1NhSFE3WnNXYjhBSnVJM2QwUGFuY1NKUzlYOF9BbU1aYlJZWDdrUmR2aWlxaDlFM0JieFFkTEJGQ1NpT0hHU0xOMW9lNjdNZUJCYVUyZW5HekpxYVlNekFpZTJBVElqOTg?oc=5) — WSJ
+- [China Warns Huang’s Comeback as Nvidia CEO Doesn’t End Risk of Further US Chip Controls](https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWtJVTJieklkSHF1STAwMGZKa0ZHZGhnZGpZMzJuemlmWnJ1ZGVKemFTVTJGUzZIS0Q4T2pWdDhLdlU4ZzdjZEUwbDVndXdKeVRnMm1MT2ZKU1ZiQzJzc1hhWGJfelhaR1lSM2Y2bzlkU0xIb1YwRDFzNTUwZG56RWVmRFRuVENuYTBOWFowYnh2VTJvWlFqMFY5NjFpZk9DZUp0MXFBWUo5M281WExEdUdheGRNSWFkMmllT1B1blJEU3hDaUE?oc=5) — Bloomberg.com
+- [Jensen Huang is back, but it won’t be business as usual for Taiwan’s tech industry](https://www.straitstimes.com/asia/east-asia/jensen-huang-is-back-but-it-wont-be-business-as-usual-for-taiwans-tech-industry) — The Straits Times
 
-_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (13 headlines, 14h window)._
+_Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (11 headlines, 14h window)._
