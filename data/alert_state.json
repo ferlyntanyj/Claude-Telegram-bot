@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-25T09:45:38.616103+00:00",
+  "last_run_utc": "2026-11-25T10:00:56.500772+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2388,7 +2388,7 @@
       "last_attempt_utc": "2026-11-04T13:18:06.976180+00:00"
     },
     "premarket:PWR": {
-      "last_attempt_utc": "2026-11-23T14:26:58.232080+00:00"
+      "last_attempt_utc": "2026-11-25T10:03:20.877625+00:00"
     },
     "premarket:ZBH": {
       "last_attempt_utc": "2026-11-04T13:19:33.413406+00:00"
