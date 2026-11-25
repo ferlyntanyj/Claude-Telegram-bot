@@ -1,20 +1,20 @@
-# Asia Market Evening Brief -- 25 Nov 2026, 04:39 SGT
+# Asia Market Evening Brief -- 26 Nov 2026, 03:56 SGT
 
 ## Macro & policy
+- [Corporate Japan logs record first-half profit on AI demand, soft yen](https://asia.nikkei.com/business/companies/corporate-japan-logs-record-first-half-profit-on-ai-demand-soft-yen) — Nikkei Asia
 - [Singapore GDP grows 6.1% in Q3 as AI demand stays strong](https://asia.nikkei.com/economy/singapore-gdp-grows-6.1-in-q3-as-ai-demand-stays-strong) — Nikkei Asia
 - [Japan's defense spending pitted against sales tax cut in budget tug-of-war](https://asia.nikkei.com/politics/japan-s-defense-spending-pitted-against-sales-tax-cut-in-budget-tug-of-war) — Nikkei Asia
-- [China extends pause in controls on critical mineral exports to US](https://news.google.com/rss/articles/CBMihAFBVV95cUxOVXh2WUNSYmVSZkJLcmJoenphclhBTmJiMGZfOHBXQmhkRXE4UklsLXNoS254QU96QWdDTHFBSkZCQUc2M1JRWF96N3p3a29ka2E5SzlpcDFEb0lLM3ZwVF9PTzJLcm9SOXRaQUhFTzZCR2xNQU9pNDNKSjBVVHoySHoxOG0?oc=5) — Financial Times
-- [Stock swings add to 'double tightening' fears as BOK eyes another hike](https://news.google.com/rss/articles/CBMivgFBVV95cUxNMmhETkZlRXlLelItcDRZNzhxQzBSRXFYa3ZsbFI3QWVFNENpY2V3WTVvWjdyeFJZS3JKRWV2dHU2eWxPNHVfVkItRVhNZWJCVU5SQmk1aWdOdWJmVkllamdDZW9rZ0hhS2NRdHY1d2NLbzFuYzZCWklaVmtvMFh0ckFReDRhOTVYeF90WmJzQnZtNi1YWUZWMzlQZUJzaWF6OXROc2w4Z2R3WjJhMzR3UndjOVdoY1VoNWNfZ3ZB?oc=5) — Korea JoongAng Daily
+- [Indonesia central bank expects to keep benchmark rate at 6% in 2027, governor says](https://www.straitstimes.com/business/indonesia-central-bank-expects-to-keep-benchmark-rate-at-6-in-2027-governor-says) — The Straits Times
+- [Hong Kong wildlife groups push for tighter exotic pet rules after 3.7 million imports](https://www.straitstimes.com/asia/east-asia/hong-kong-wildlife-groups-push-for-tighter-exotic-pet-rules-after-3-7-million-imports) — The Straits Times
 
 ## Markets
 - [Nikkei Asia Forum 'The Global Chip Game: Our predictions for 2027'](https://asia.nikkei.com/business/technology/nikkei-asia-forum-the-global-chip-game-our-predictions-for-2027) — Nikkei Asia
-- [Indonesia and Thailand drag down ASEAN's 2026 IPO proceeds](https://news.google.com/rss/articles/CBMipgFBVV95cUxNTnVESy1ZUGhOb09lc3lDVkQ2YmhkVE9pZnhFZTY5dEZWSExqRGEyTmdzZlJ6ZzVHRE5NVmNiYjd5VmRnOWNyYjQwT21Hc1NYNjhoS01VbWVyUUtrb3BEN3d1RjBnbUpjN3ROWVVJdEV0TDBob21CM3NCejRzMWwwbDlmMHVzSF9yV0c4Tm82N05xMndxd09PZEs5MTA0V0RoUmJvWVl3?oc=5) — Nikkei Asia
 
 ## Geopolitics
-- [Laos 'least-developed' status shift, Tata meeting, Taiwan local elections](https://asia.nikkei.com/spotlight/your-week-in-asia/laos-least-developed-status-shift-tata-meeting-taiwan-local-elections) — Nikkei Asia
-- [China Halts Critical Minerals Ban to Maintain Truce With US](https://news.google.com/rss/articles/CBMirwFBVV95cUxPRVl4NjNqN2gwZ0daMjNHNG1lRHU3bmVyQUszYk1BN0U1OXgyYkxJdjcwVjZZSHNQZUZ2VWZYM2g1UjRXTjBPSnpuUlZESWNuMkZHd0tpQnZuT2ZTVDNRR3RuYjlpbWsxWFYzQmxWa2ZMWnU5WUkyNnA4LWk0dHExVWdHRWhhd3J5MnIzNTJYT2pSZmZkaF9CVUVlQjd2OEhQeDZvX1VEb1Q2UzRhZ2I4?oc=5) — Bloomberg.com
-- [China to Suspend Some Critical-Material Export Curbs to U.S. Until January](https://news.google.com/rss/articles/CBMitwFBVV95cUxNR0tiam0waURNVF9vU2VYTmx6eGVqWk9NRm9GT2Q2blhiTm1OMTBQQzIxVmJ5WHlEMzNDQzUwSDJnNDBjX1FPQUZBSlVGcGFIeUU3TUZ4c1NhSFE3WnNXYjhBSnVJM2QwUGFuY1NKUzlYOF9BbU1aYlJZWDdrUmR2aWlxaDlFM0JieFFkTEJGQ1NpT0hHU0xOMW9lNjdNZUJCYVUyZW5HekpxYVlNekFpZTJBVElqOTg?oc=5) — WSJ
-- [China Warns Huang’s Comeback as Nvidia CEO Doesn’t End Risk of Further US Chip Controls](https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWtJVTJieklkSHF1STAwMGZKa0ZHZGhnZGpZMzJuemlmWnJ1ZGVKemFTVTJGUzZIS0Q4T2pWdDhLdlU4ZzdjZEUwbDVndXdKeVRnMm1MT2ZKU1ZiQzJzc1hhWGJfelhaR1lSM2Y2bzlkU0xIb1YwRDFzNTUwZG56RWVmRFRuVENuYTBOWFowYnh2VTJvWlFqMFY5NjFpZk9DZUp0MXFBWUo5M281WExEdUdheGRNSWFkMmllT1B1blJEU3hDaUE?oc=5) — Bloomberg.com
-- [Jensen Huang is back, but it won’t be business as usual for Taiwan’s tech industry](https://www.straitstimes.com/asia/east-asia/jensen-huang-is-back-but-it-wont-be-business-as-usual-for-taiwans-tech-industry) — The Straits Times
+- [Chips and Rare Earths Keep the US-China Truce Fragile](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRVY1NjlncFBpOU5YaElBZ1hwSThSVWZyRTFJeHN1eW1KWVQ3MmNWUDc1eURzbUczWWNlVG80TDZGcGN2ZWU2bnh0TmlDWmJOSHVqNzZ5Q0JnRnQ4TGIwYWRNUDgxU0xMTGlCQUUtYU40cFZkMnJHWjBpN2llMGJuX18wRXZySzM2QjNOV2l5NFpuTEdhWEhBZ2ZHWkJQWDR3cUg4aWRsTjlraDA?oc=5) — Bloomberg
+- [Trump rebuilds tariff wall with new duties on China, Japan and others](https://asia.nikkei.com/economy/trade-war/trump-tariffs/trump-rebuilds-tariff-wall-with-new-duties-on-china-japan-and-others) — Nikkei Asia
+- [As Taiwan elections near, one KMT mayor's ambitions loom large](https://asia.nikkei.com/politics/as-taiwan-elections-near-one-kmt-mayor-s-ambitions-loom-large) — Nikkei Asia
+- [China, US Set for ‘New Chapter’ of Trade Talks, Ex-Official Says](https://news.google.com/rss/articles/CBMisAFBVV95cUxQUXNHUkhmNU9qNlc5SUphend6U184Y1FWa1AtemhrWlBhRUw0elViZG1YTVFxMHZkME03YXlqUk9LSFVaMGI5enZwelJZVlhHWDdFcXEwLVYwMUZEOW5COURWMG5VcWhIbERGcUVrWWtlN181TEdpcGNJZkpqSUhuY2c5OXh4SW9DYlJ2XzNFRjVYS0FjNlRsM3FhNkFfZms5enA0V0h5TFNGOVduY2pLdA?oc=5) — Bloomberg
+- [Could potential US tariffs put the US-China trade truce at risk?](https://news.google.com/rss/articles/CBMitwFBVV95cUxNQThpQm8xdE5DaEYxUVFuS3lkNm42cFUxd292amFzeFZCTUNuNHVxWC13ZUFJYk5udjc5Y0Z4RVpDZmpEZFltenZFamd6TzI0VUhwREIwdVVuR2lXbHg4R0xhT1g5V2VhckNlZklUWGFoVTNYbkFHYXBHTUx0c3JBU3psSXpQbGZqZ0hmQWZmN0p1REJIWG1xVENjTndNT2lta1A4U1c0S25CM09pQmt4RVdDLUhUZVXSAbcBQVVfeXFMTUE4aUJvMXROQ2hGMVFRbkt5ZDZuNnBVMXdvdmphc3hWQk1DbjR1cVgtd2VBSWJObnY3OWNGeEVaQ2ZqRGRZbXp2RWpnek8yNFVIcERCMHVVbkdpV2x4OEdMYU9YOVdlYXJDZWZJVFhhaFUzWG5BR2FwR01MdHNyQVN6bEl6UGxmamdIZkFmZjdKdURCSFhtcVRDY053TU9pbWtQOFNXNEtuQjNPaUJreEVXQy1IVGVV?oc=5) — South China Morning Post
 
 _Sources: Google News + CNBC Asia + Straits Times + Nikkei Asia feeds (11 headlines, 14h window)._
