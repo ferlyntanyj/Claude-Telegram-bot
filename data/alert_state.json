@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-25T12:00:56.135489+00:00",
+  "last_run_utc": "2026-11-25T12:15:44.880666+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -3129,7 +3129,7 @@
       "last_attempt_utc": "2026-11-05T08:36:43.771588+00:00"
     },
     "single:VOW3.DE": {
-      "last_attempt_utc": "2026-11-25T10:17:58.885401+00:00"
+      "last_attempt_utc": "2026-11-25T12:20:13.772568+00:00"
     },
     "single:VNA.DE": {
       "last_attempt_utc": "2026-11-05T08:38:14.089970+00:00"
@@ -3606,10 +3606,10 @@
       "last_attempt_utc": "2026-11-25T12:03:02.616297+00:00"
     },
     "premarket:LRCX": {
-      "last_attempt_utc": "2026-11-23T13:22:39.052202+00:00"
+      "last_attempt_utc": "2026-11-25T12:20:35.399142+00:00"
     },
     "premarket:MRVL": {
-      "last_attempt_utc": "2026-11-24T11:17:46.612737+00:00"
+      "last_attempt_utc": "2026-11-25T12:20:46.353156+00:00"
     },
     "premarket:ABNB": {
       "last_attempt_utc": "2026-11-06T13:34:58.324273+00:00"
@@ -3618,7 +3618,7 @@
       "last_attempt_utc": "2026-11-23T14:40:33.097437+00:00"
     },
     "premarket:AMAT": {
-      "last_attempt_utc": "2026-11-23T13:22:28.094763+00:00"
+      "last_attempt_utc": "2026-11-25T12:20:24.649582+00:00"
     },
     "premarket:DELL": {
       "last_attempt_utc": "2026-11-25T09:47:46.128705+00:00"
@@ -3630,7 +3630,7 @@
       "last_attempt_utc": "2026-11-24T13:33:14.195930+00:00"
     },
     "premarket:TER": {
-      "last_attempt_utc": "2026-11-24T13:18:00.000177+00:00"
+      "last_attempt_utc": "2026-11-25T12:20:59.161489+00:00"
     },
     "premarket:STX": {
       "last_attempt_utc": "2026-11-25T12:03:13.445421+00:00"
