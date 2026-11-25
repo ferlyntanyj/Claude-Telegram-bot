@@ -1,26 +1,21 @@
-# US Market Morning Brief -- 24 Nov 2026, 18:10 SGT
+# US Market Morning Brief -- 25 Nov 2026, 16:56 SGT
 
 ## Markets
-- [Asian tech stocks recover from ‘collateral damage’ of Jensen Huang’s departure](https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html) — CNBC Top News
-- [Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts](https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-governance.html) — CNBC Top News
-- [Six key questions raised by Jensen Huang's return to Nvidia](https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html) — CNBC Top News
-- [China has changed tactics but is still thwarting India's rise, a U.S. panel says](https://www.cnbc.com/2026/11/24/us-china-thwarting-india-growth.html) — CNBC Top News
+- [AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze](https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html) — CNBC Top News
+- [China’s Xiamen Airlines to buy 50 Boeing jets in $7.4 billion deal](https://www.cnbc.com/2026/11/25/china-xiamen-boeing-deal.html) — CNBC Top News
+- [SoftBank drops 15% as Wall Street AI sell-off ripples across Asian tech names](https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html) — CNBC Top News
+- [U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets](https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html) — CNBC Top News
 
 ## Macro, Fed & data
-- [Why France is at risk of recession — and what could keep it out of one](https://www.cnbc.com/2026/11/24/france-recession-risk-pmi.html) — CNBC Top News
 - [Fed Cuts Pay Raises for Regional-Bank Staff](https://news.google.com/rss/articles/CBMinAFBVV95cUxNSE9oYmJPLTJKZ3p5QzM1RWZ6WHZTc0g0M1dsdkl4czJFenpyWnRFdWJwX2dIR2F1a00xTFNIRUFFcFlYSUZRUlBENGVGV1VvYUtOWmVJNWlzcjBCVDd0aGRwR0x3WVdvQVVqU2xHTnFtU3hqZ21sV01ZcVlUdGtJUzg2VmlEc2d3c1pqdGRzTjJBaVhFRGdWWi1zVzM?oc=5) — WSJ
-- [Treasury Futures Fall as Rising Stock Futures Damp Haven Demand](https://news.google.com/rss/articles/CBMitAFBVV95cUxNU2FnY19ZVXo4MGlTUlpSamM4Z0Fwd2J0aGxxMWlDYXNXMkFYc2ZtSkpfRS1aQ2VLdFdKSEVPaHdmanA0NzBONHd2dFhUbXlKWE1JRGhZaXVOcG5PdlZqLU9xMGd3UWFid0NuMmpYYnByMmxad2FpZXgza2U1NHRVbDZnV2szanN3aUxROW5JSmFUQnZKbFpnbWZMdmhzQTZKanlsV0pxZWI2TTh1MzdmZGQyTmk?oc=5) — Bloomberg.com
-- [Fed's John Williams indicates higher interest rates likely 'over time' to address inflation](https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html) — CNBC Finance
+- [Treasury yields fall as investors await key inflation signal](https://www.cnbc.com/2026/11/25/treasury-yields-bonds-inflation.html) — CNBC Top News
+- [US consumer confidence jumps to highest level in nearly two years](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSlNZMXlsT1hncHloZ0owYU5ZTlZmbFVsTlFtSFRNdGNhTVFia0RMVGVEeE4wbHVYalhxWkl1WkdJNzRGajN4cVN2N2N6YU1Kc3N0dWo3RGVRQXBpel9sSUNFNDVRMDYyeHhHczQ0RkVNbnF5d3pBMTAzTVQ3WjZ1cVFvSWZEcnpSSWR1cDl5MElSNm54ek9UbER6ZE51Q1BTT28tR25Ya3A?oc=5) — Reuters
+- [Trump Account contributions from friends and family pass $1 billion mark, Treasury says](https://www.cnbc.com/2026/11/24/trump-accounts-family-contributions-billion.html) — CNBC Top News
 
 ## Stocks & earnings
+- [Quants Unwind Bond Shorts as Stock Swoon Drives Traders to Safety](https://news.google.com/rss/articles/CBMitgFBVV95cUxPZHpSUG8yY0FFNGw4UWlGTVV3YkZlSmZqWXlmQUFPWC0zQ0hqSFFHOWYwNy1XNGhWX1N4M1RWN1Brb1dkUDd3MXFaME5jT1J4NmFQSERkRk5fd1JOMnZZRm1YNTdvX2t5U1RnalJLZU1zX3VwRFJpdFBsOHdSNlRzUFMycVV4OVJZb2sxb3d0b1IxbmZKd05wa0ZEVUY2bE5nOU84S2RMWlhtVzUxd2ZmNUFIa2d4QQ?oc=5) — Bloomberg.com
+- [Dell earnings beat on AI strength, company authorizes $25 billion buyback](https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html) — CNBC Markets
 - [Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years](https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html) — CNBC Top News
-- [Stocks Surge After Jensen Huang Is Reinstated as Nvidia CEO](https://news.google.com/rss/articles/CBMijAFBVV95cUxPNXRXMlFUQkJfcnJPMGVlaWZRejZzSnVuRWJiV1E3TUM3c3pkWkxSSGZJaGtCcEc0Uzdja0xzbFFNcWRIZEtZNlFHMHNDclAzVzJqUHU2Z2lFRE51V3AwSWV1cnRoamFsbDVleTdVUFVhSElYMEhXTlhiNkhQNWtSZlRGT1FYQURPeE9RTA?oc=5) — The New York Times
-- [Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens](https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html) — CNBC Finance
-- [US Large-Cap Stocks Upgraded to Most Favorable at Wells Fargo](https://news.google.com/rss/articles/CBMisgFBVV95cUxPMGFQbDl4SjFtaExQRGVONjRaZmhXSHNzZGtueS1nWjI0UWdLd2FoWUpDcHVaZnljVnkwS1c0cHJYRGdnVExudzBCeE5CU2pHUzJVQ1lwVVJobVFHX3RnS18xTmhnN3UteUw3dEs0Wk16ZmVoRi02a2xZY282ZHZEYm1ZVnlqcE9TaGxOMzdkX3lmVWwtZHZjekdoaWJNY2JERVpIOU5XdnNjX09HNXNHOHBn?oc=5) — Bloomberg.com
+- [Anthropic closes below $83 IPO price, but analysts are still largely positive](https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html) — CNBC Top News
 
-## Geopolitics
-- [China Halts Critical Minerals Ban to Maintain Truce With US](https://news.google.com/rss/articles/CBMirwFBVV95cUxPRVl4NjNqN2gwZ0daMjNHNG1lRHU3bmVyQUszYk1BN0U1OXgyYkxJdjcwVjZZSHNQZUZ2VWZYM2g1UjRXTjBPSnpuUlZESWNuMkZHd0tpQnZuT2ZTVDNRR3RuYjlpbWsxWFYzQmxWa2ZMWnU5WUkyNnA4LWk0dHExVWdHRWhhd3J5MnIzNTJYT2pSZmZkaF9CVUVlQjd2OEhQeDZvX1VEb1Q2UzRhZ2I4?oc=5) — Bloomberg.com
-- [Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions](https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html) — CNBC Top News
-- [Trump Puts a Floor Under AI Trade With Push for Huang’s Return](https://news.google.com/rss/articles/CBMiswFBVV95cUxOdE1JTGhDNm9rQ2pIaGh6SGx4X0hkbWlTTHk1OEtRN2NrMDlPSFdHQkIwUDIzZFVTaDVnTnJXcERReF9vRVhHcHl3YnA3VEwwcGV3NEd2N0VWRHExSEczM0Y5dFRGZGFwOExDTFY3T0g5ZVVQV3RtSE9vYWxWWkM5NW0yRWdxSlZFYkJxWXVGcjFPVEZmVTMxcngtS3hXSXVrUFhjTmtzWW4wd2VxZHZoeklqUQ?oc=5) — Bloomberg.com
-
-_Sources: Google News + CNBC + Fed feeds (15 headlines, 20h window)._
+_Sources: Google News + CNBC + Fed feeds (12 headlines, 20h window)._
