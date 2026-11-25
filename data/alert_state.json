@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-25T08:45:33.709887+00:00",
+  "last_run_utc": "2026-11-25T09:00:49.024923+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -4129,6 +4129,9 @@
     },
     "single:CPG.L": {
       "last_attempt_utc": "2026-11-25T08:17:56.821044+00:00"
+    },
+    "premarket:WDAY": {
+      "last_attempt_utc": "2026-11-25T09:03:07.993968+00:00"
     }
   }
 }
