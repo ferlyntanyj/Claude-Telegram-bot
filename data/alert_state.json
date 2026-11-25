@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-25T15:45:52.802724+00:00",
+  "last_run_utc": "2026-11-25T16:00:59.519509+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2133,7 +2133,7 @@
       "last_attempt_utc": "2026-11-03T20:04:21.520204+00:00"
     },
     "single:MRNA": {
-      "last_attempt_utc": "2026-11-24T19:19:42.204238+00:00"
+      "last_attempt_utc": "2026-11-25T16:03:16.814715+00:00"
     },
     "single:FIX": {
       "last_attempt_utc": "2026-11-25T14:56:23.208471+00:00"
