@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-25T08:00:50.407936+00:00",
+  "last_run_utc": "2026-11-25T08:15:32.947157+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2352,7 +2352,7 @@
       "last_attempt_utc": "2026-11-20T16:03:27.601274+00:00"
     },
     "single:FRES.L": {
-      "last_attempt_utc": "2026-11-05T08:23:21.249684+00:00"
+      "last_attempt_utc": "2026-11-25T08:18:41.899396+00:00"
     },
     "single:EDV.L": {
       "last_attempt_utc": "2026-11-19T08:32:10.171789+00:00"
@@ -2565,7 +2565,7 @@
       "last_attempt_utc": "2026-11-18T19:17:31.477927+00:00"
     },
     "single:ENR.DE": {
-      "last_attempt_utc": "2026-11-24T16:03:20.705524+00:00"
+      "last_attempt_utc": "2026-11-25T08:17:34.173335+00:00"
     },
     "single:VLO": {
       "last_attempt_utc": "2026-11-18T19:02:25.597758+00:00"
@@ -3090,7 +3090,7 @@
       "last_attempt_utc": "2026-11-05T08:20:50.660967+00:00"
     },
     "single:ANTO.L": {
-      "last_attempt_utc": "2026-11-24T16:19:12.969893+00:00"
+      "last_attempt_utc": "2026-11-25T08:18:19.033168+00:00"
     },
     "single:BMW.DE": {
       "last_attempt_utc": "2026-11-05T08:21:50.917860+00:00"
@@ -3246,7 +3246,7 @@
       "last_attempt_utc": "2026-11-20T19:32:48.416641+00:00"
     },
     "single:IFX.DE": {
-      "last_attempt_utc": "2026-11-24T15:19:38.966228+00:00"
+      "last_attempt_utc": "2026-11-25T08:17:45.297346+00:00"
     },
     "single:NXPI": {
       "last_attempt_utc": "2026-11-24T20:03:14.315248+00:00"
@@ -3273,7 +3273,7 @@
       "last_attempt_utc": "2026-11-23T19:38:11.463926+00:00"
     },
     "single:PCT.L": {
-      "last_attempt_utc": "2026-11-24T08:17:48.746131+00:00"
+      "last_attempt_utc": "2026-11-25T08:18:53.442376+00:00"
     },
     "single:ZTS": {
       "last_attempt_utc": "2026-11-05T19:29:09.824521+00:00"
@@ -3858,7 +3858,7 @@
       "last_attempt_utc": "2026-11-17T07:32:36.268866+00:00"
     },
     "single:AAL.L": {
-      "last_attempt_utc": "2026-11-24T16:18:49.142672+00:00"
+      "last_attempt_utc": "2026-11-25T08:18:07.995432+00:00"
     },
     "premarket:NKE": {
       "last_attempt_utc": "2026-11-17T14:17:46.144577+00:00"
@@ -3891,7 +3891,7 @@
       "last_attempt_utc": "2026-11-18T07:12:00.515799+00:00"
     },
     "single:EXPN.L": {
-      "last_attempt_utc": "2026-11-18T08:17:15.738799+00:00"
+      "last_attempt_utc": "2026-11-25T08:18:30.008359+00:00"
     },
     "single:CTEC.L": {
       "last_attempt_utc": "2026-11-19T08:17:19.071959+00:00"
@@ -4126,6 +4126,9 @@
     },
     "single:002812.SZ": {
       "last_attempt_utc": "2026-11-25T06:18:57.870925+00:00"
+    },
+    "single:CPG.L": {
+      "last_attempt_utc": "2026-11-25T08:17:56.821044+00:00"
     }
   }
 }
