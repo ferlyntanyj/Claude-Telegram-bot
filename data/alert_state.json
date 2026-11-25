@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-25T15:30:58.219640+00:00",
+  "last_run_utc": "2026-11-25T15:45:52.802724+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2412,7 +2412,7 @@
       "last_attempt_utc": "2026-11-04T14:24:43.879049+00:00"
     },
     "single:AMZN": {
-      "last_attempt_utc": "2026-11-09T14:47:37.853248+00:00"
+      "last_attempt_utc": "2026-11-25T15:48:18.582737+00:00"
     },
     "single:ANET": {
       "last_attempt_utc": "2026-11-25T14:49:59.008507+00:00"
@@ -3246,7 +3246,7 @@
       "last_attempt_utc": "2026-11-20T19:32:48.416641+00:00"
     },
     "single:IFX.DE": {
-      "last_attempt_utc": "2026-11-25T08:17:45.297346+00:00"
+      "last_attempt_utc": "2026-11-25T15:48:29.443368+00:00"
     },
     "single:NXPI": {
       "last_attempt_utc": "2026-11-24T20:03:14.315248+00:00"
