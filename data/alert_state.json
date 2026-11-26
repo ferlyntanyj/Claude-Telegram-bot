@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-26T23:00:54.251708+00:00",
+  "last_run_utc": "2026-11-26T23:15:37.398714+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -1626,7 +1626,7 @@
       "last_attempt_utc": "2026-11-01T23:17:40.332369+00:00"
     },
     "single:LYC.AX": {
-      "last_attempt_utc": "2026-11-26T04:49:25.418356+00:00"
+      "last_attempt_utc": "2026-11-26T23:17:12.398786+00:00"
     },
     "single:REH.AX": {
       "last_attempt_utc": "2026-11-01T23:18:01.930390+00:00"
@@ -2772,7 +2772,7 @@
       "last_attempt_utc": "2026-11-05T01:57:43.495070+00:00"
     },
     "single:EVN.AX": {
-      "last_attempt_utc": "2026-11-26T03:03:10.607292+00:00"
+      "last_attempt_utc": "2026-11-26T23:17:01.618666+00:00"
     },
     "single:JHX.AX": {
       "last_attempt_utc": "2026-11-09T23:16:42.485352+00:00"
@@ -4137,7 +4137,7 @@
       "last_attempt_utc": "2026-11-25T14:06:48.411066+00:00"
     },
     "single:RHC.AX": {
-      "last_attempt_utc": "2026-11-26T04:03:17.718822+00:00"
+      "last_attempt_utc": "2026-11-26T23:17:23.207835+00:00"
     },
     "single:5326.KL": {
       "last_attempt_utc": "2026-11-26T07:47:00.652163+00:00"
