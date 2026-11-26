@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-26T15:15:38.868263+00:00",
+  "last_run_utc": "2026-11-26T15:30:47.878188+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2355,7 +2355,7 @@
       "last_attempt_utc": "2026-11-26T15:17:12.707106+00:00"
     },
     "single:EDV.L": {
-      "last_attempt_utc": "2026-11-19T08:32:10.171789+00:00"
+      "last_attempt_utc": "2026-11-26T15:32:15.476126+00:00"
     },
     "single:DBK.DE": {
       "last_attempt_utc": "2026-11-18T08:32:27.772242+00:00"
