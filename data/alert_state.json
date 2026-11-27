@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-27T14:30:45.921937+00:00",
+  "last_run_utc": "2026-11-27T14:45:37.252878+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2094,7 +2094,7 @@
       "last_attempt_utc": "2026-11-25T17:09:43.471538+00:00"
     },
     "single:COHR": {
-      "last_attempt_utc": "2026-11-25T17:10:43.844554+00:00"
+      "last_attempt_utc": "2026-11-27T14:47:19.238654+00:00"
     },
     "single:FLEX": {
       "last_attempt_utc": "2026-11-25T15:00:19.684882+00:00"
@@ -4198,6 +4198,9 @@
     },
     "premarket:STLD": {
       "last_attempt_utc": "2026-11-27T12:47:23.011296+00:00"
+    },
+    "single:VRTX": {
+      "last_attempt_utc": "2026-11-27T14:47:07.703956+00:00"
     }
   }
 }
