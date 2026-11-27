@@ -1545,7 +1545,7 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-27T09:00:54.782584+00:00",
+  "last_run_utc": "2026-11-27T09:15:34.848955+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
@@ -2367,7 +2367,7 @@
       "last_attempt_utc": "2026-11-23T14:21:52.738771+00:00"
     },
     "premarket:VRT": {
-      "last_attempt_utc": "2026-11-25T14:05:44.849680+00:00"
+      "last_attempt_utc": "2026-11-27T09:21:47.837723+00:00"
     },
     "premarket:VST": {
       "last_attempt_utc": "2026-11-23T14:33:41.728685+00:00"
@@ -3618,13 +3618,13 @@
       "last_attempt_utc": "2026-11-23T14:40:33.097437+00:00"
     },
     "premarket:AMAT": {
-      "last_attempt_utc": "2026-11-25T12:20:24.649582+00:00"
+      "last_attempt_utc": "2026-11-27T09:18:19.132777+00:00"
     },
     "premarket:DELL": {
       "last_attempt_utc": "2026-11-27T09:04:03.157094+00:00"
     },
     "premarket:KLAC": {
-      "last_attempt_utc": "2026-11-25T14:04:21.131480+00:00"
+      "last_attempt_utc": "2026-11-27T09:18:49.324012+00:00"
     },
     "premarket:HPE": {
       "last_attempt_utc": "2026-11-24T13:33:14.195930+00:00"
@@ -3639,13 +3639,13 @@
       "last_attempt_utc": "2026-11-27T09:05:14.423801+00:00"
     },
     "premarket:CIEN": {
-      "last_attempt_utc": "2026-11-25T14:18:06.292137+00:00"
+      "last_attempt_utc": "2026-11-27T09:22:18.006926+00:00"
     },
     "premarket:ON": {
       "last_attempt_utc": "2026-11-23T14:39:52.080367+00:00"
     },
     "premarket:GLW": {
-      "last_attempt_utc": "2026-11-25T14:05:24.892864+00:00"
+      "last_attempt_utc": "2026-11-27T09:19:49.680588+00:00"
     },
     "premarket:P": {
       "last_attempt_utc": "2026-11-25T14:06:27.206028+00:00"
@@ -3987,7 +3987,7 @@
       "last_attempt_utc": "2026-11-27T06:05:40.407655+00:00"
     },
     "premarket:FCX": {
-      "last_attempt_utc": "2026-11-23T14:28:58.788725+00:00"
+      "last_attempt_utc": "2026-11-27T09:21:17.662859+00:00"
     },
     "premarket:JBL": {
       "last_attempt_utc": "2026-11-23T14:41:03.231963+00:00"
@@ -4189,6 +4189,9 @@
     },
     "single:SMT.L": {
       "last_attempt_utc": "2026-11-27T08:36:43.015964+00:00"
+    },
+    "premarket:VRTX": {
+      "last_attempt_utc": "2026-11-27T09:19:19.493292+00:00"
     }
   }
 }
