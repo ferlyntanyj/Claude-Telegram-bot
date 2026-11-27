@@ -1545,13 +1545,13 @@
       "last_move_asof": "2026-10-30"
     }
   },
-  "last_run_utc": "2026-11-27T20:00:48.712245+00:00",
+  "last_run_utc": "2026-11-27T20:15:37.623273+00:00",
   "failed_analysis": {
     "single:GDDY": {
       "last_attempt_utc": "2026-10-30T18:04:34.346346+00:00"
     },
     "single:ON": {
-      "last_attempt_utc": "2026-11-27T18:04:02.972869+00:00"
+      "last_attempt_utc": "2026-11-27T20:18:30.562160+00:00"
     },
     "single:GPN": {
       "last_attempt_utc": "2026-11-20T20:34:33.461806+00:00"
@@ -1848,7 +1848,7 @@
       "last_attempt_utc": "2026-11-27T13:33:57.990237+00:00"
     },
     "single:LITE": {
-      "last_attempt_utc": "2026-11-27T18:03:39.022920+00:00"
+      "last_attempt_utc": "2026-11-27T20:18:08.577892+00:00"
     },
     "single:CVNA": {
       "last_attempt_utc": "2026-11-23T20:38:38.641178+00:00"
@@ -1860,7 +1860,7 @@
       "last_attempt_utc": "2026-11-23T20:41:09.855472+00:00"
     },
     "single:MRVL": {
-      "last_attempt_utc": "2026-11-27T18:02:52.893749+00:00"
+      "last_attempt_utc": "2026-11-27T20:17:23.446564+00:00"
     },
     "single:ITH.L": {
       "last_attempt_utc": "2026-11-20T15:49:53.640138+00:00"
@@ -1887,13 +1887,13 @@
       "last_attempt_utc": "2026-11-02T20:36:40.423796+00:00"
     },
     "single:P": {
-      "last_attempt_utc": "2026-11-27T18:03:51.127813+00:00"
+      "last_attempt_utc": "2026-11-27T20:18:19.576261+00:00"
     },
     "single:FDXF": {
       "last_attempt_utc": "2026-11-02T18:47:48.931660+00:00"
     },
     "single:STX": {
-      "last_attempt_utc": "2026-11-27T18:03:04.794885+00:00"
+      "last_attempt_utc": "2026-11-27T20:17:34.698537+00:00"
     },
     "single:CSGP": {
       "last_attempt_utc": "2026-11-24T19:38:09.845374+00:00"
@@ -1917,7 +1917,7 @@
       "last_attempt_utc": "2026-11-25T17:03:56.071631+00:00"
     },
     "single:WDC": {
-      "last_attempt_utc": "2026-11-27T18:03:15.668964+00:00"
+      "last_attempt_utc": "2026-11-27T20:17:46.158504+00:00"
     },
     "single:DDOG": {
       "last_attempt_utc": "2026-11-25T17:08:43.133286+00:00"
@@ -3729,7 +3729,7 @@
       "last_attempt_utc": "2026-11-09T19:06:37.967670+00:00"
     },
     "single:HONA": {
-      "last_attempt_utc": "2026-11-27T18:03:27.453013+00:00"
+      "last_attempt_utc": "2026-11-27T20:17:57.642063+00:00"
     },
     "single:OKTA": {
       "last_attempt_utc": "2026-11-23T19:28:18.385477+00:00"
